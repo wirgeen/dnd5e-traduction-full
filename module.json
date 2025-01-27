@@ -1,0 +1,31 @@
+{
+  "id": "dnd5e-traduction-full",
+  "title": "dnd5e - traduction full",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "wirgeen",
+      "flags": {}
+    }
+  ]
+}
