@@ -1,0 +1,6 @@
+prompt : 
+
+
+
+Le contexte est : Le livre du joueur 2024. Etant pour foundry vtt, ne traduit pas Les identifiants UUID, ni le contenu des &amp;Reference[], ni les liens typé @UUID ou expressions en [[/r]]. sachant que les termes "Sorcerer"= "Ensorceleur", "Warlock"= "Occultiste" et "Wizard"= "Magicien", peux tu me traduire ceci, tout en conservant le formatage json, les clefs en anglais et en convertissant les unités anglaises en unités françaises : 
+dans le contexte du livre du joueur 2024 pour foundry vtt, (sachant que les termes "Sorcerer"= "Sorcier", "Warlock"= "Occultiste" et "Wizard"= "Ensorceleur") peux tu me traduire les caractéristiques de ces créatures, tout en conservant le formatage json et les clefs en anglais : 

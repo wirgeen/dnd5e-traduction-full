@@ -1,0 +1,819 @@
+{
+	"label": "Equipements",
+	"folders": {
+		"Adventuring Gear": "Équipement d'Aventure",
+		"Spellcasting Focuses": "Focaliseurs de Sorts",
+		"Arcane Focus": "Focaliseur Arcanique",
+		"Druidic Focus": "Focaliseur Draconique",
+		"Holy Symbol": "Symbole Sacré",
+		"Star Maps": "Cartes Stellaires",
+		"Armor": "Armures",
+		"Light": "Légère",
+		"Medium": "Moyenne",
+		"Heavy": "Lourde",
+		"Tools": "Outils",
+		"Artisan": "Artisan",
+		"Other": "Autres",
+		"Gaming Set": "Jeux de Société",
+		"Musical Instrument": "Instrument de Musique",
+		"Weapons": "Armes",
+		"Simple Melee": "Armes Simples de Mêlée",
+		"Simple Ranged": "Armes Simples à Distance",
+		"Martial Melee": "Armes Lourdes de Mêlée",
+		"Martial Ranged": "Armes Lourdes à Distance"
+	},
+	"entries": {
+		"Acid": {
+			"name": "Acide",
+			"description": "<p>Lorsque vous effectuez une action d'attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'acide. Ciblez une créature ou un objet que vous pouvez voir dans un rayon de 6 mètres autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DD 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou subir 2d6 dégâts d'acide.</p>"
+		},
+		"Alchemist's Fire": {
+			"name": "Feu de l'alchimiste",
+			"description": "<p>Lorsque vous effectuez une action d'attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une flasque de feu de l'alchimiste. Ciblez une créature ou un objet que vous pouvez voir dans un rayon de 6 mètres autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DD 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou subir 1d4 dégâts de feu et commencer à brûler (voir le glossaire des règles).</p>"
+		},
+		"Alchemist's Supplies": {
+			"name": "Fournitures d'Alchimiste",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Identifier une substance (DD 15) ou allumer un feu (DD 15)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Acide}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Feu de l'alchimiste}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Pochette de composants}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papier}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Parfum}</p>"
+		},
+		"Ammunition (Varies)": {
+			"name": "Munitions (Variables)",
+			"description": "<p>Les munitions sont nécessaires pour une arme qui possède la propriété Munitions. La description de l'arme précise le type de munitions utilisé par l'arme. La table des munitions répertorie les différents types et la quantité que vous obtenez lorsque vous les achetez. La table répertorie également l'objet généralement utilisé pour stocker chaque type ; le stockage doit être acheté séparément.</p><table><caption>Munitions</caption><thead><tr><td>Type</td><td>Quantité</td><td>Stockage</td><td>Poids</td><td>Coût</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flèches}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carquois}</td><td>1 lb.</td><td>1 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Carreaux}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Étui}</td><td>1½ lb.</td><td>1 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balles, Arme à feu}</td><td>10</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bourse}</td><td>2 lb.</td><td>3 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Balles, Fronde}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bourse}</td><td>1½ lb.</td><td>4 PC</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Aiguilles}</td><td>50</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bourse}</td><td>1 lb.</td><td>1 PO</td></tr></tbody></table>"
+		},		
+		"Amulet": {
+			"name": "Amulette",
+			"description": "<p><em><strong>Condition d'utilisation : </strong>Portée ou tenue</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Symbole Sacré} prend l'une des formes listées dans la table des Symboles Sacrés et est orné de pierres précieuses ou peint pour canaliser la magie divine. Un Clerc ou un Paladin peut utiliser un Symbole Sacré comme Focalisateur de Sorts.</p>"
+		},
+		"Antitoxin": {
+			"name": "Antitoxine",
+			"description": "<p>En tant qu'Action Bonus, vous pouvez boire une fiole d'antitoxine pour obtenir l'avantage sur les jets de sauvegarde pour éviter ou mettre fin à l'état Empoisonné pendant 1 heure.</p>"
+		},
+		"Arcane Focus (Varies)": {
+			"name": "Focalisateur Arcanique (Variable)",
+			"description": "<p>Un Focalisateur Arcanique prend l'une des formes listées dans la table des Focalisateurs Arcaniques et est orné de pierres précieuses ou sculpté pour canaliser la magie arcanique. Un Ensorceleur, un Occultiste ou un Magicien peut utiliser un tel objet comme Focalisateur de Sorts.</p><table><caption>Focalisateurs Arcaniques</caption><thead><tr><td>Focalisateur</td><td>Poids</td><td>Coût</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Cristal}</td><td>1 lb.</td><td>10 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orbe}</td><td>3 lb.</td><td>20 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Bâtonnet}</td><td>2 lb.</td><td>10 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Bâton} (également un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de Quartier})</td><td>4 lb.</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Baguette}</td><td>1 lb.</td><td>10 PO</td></tr></tbody></table>"
+		},
+		"Arrows": {
+			"name": "Flèches",
+			"description": "<p><em><strong>Stockage :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carquois}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munitions} sont nécessaires pour une arme possédant la propriété Munitions. La description de l'arme précise le type de munitions utilisé par celle-ci. La table des munitions liste les différents types et la quantité que vous obtenez lorsque vous les achetez. La table liste également l'objet généralement utilisé pour stocker chaque type ; le stockage doit être acheté séparément.</p>"
+		},
+		"Backpack": {
+			"name": "Sac à dos",
+			"description": "<p>Un sac à dos peut contenir jusqu'à 13,5 kg dans un espace d'un 0,3 mètre. Il peut également servir de sacoche de selle.</p>"
+		},
+		"Bagpipes": {
+			"name": "Cornemuse",
+			"description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Jouer un air connu (DD 10), ou improviser une chanson (DD 15)</p>"
+		},
+		"Ball Bearings": {
+			"name": "Billes de métal",
+			"description": "<p>En tant qu'action d'Utilisation, vous pouvez répandre des billes de métal depuis leur sacoche. Elles s'étendent pour couvrir une zone de 3 mètres carrés au sol dans un rayon de 3 mètres autour de vous. Une créature entrant dans cette zone pour la première fois durant un tour doit réussir un jet de sauvegarde de Dextérité DD 10 ou se retrouver à terre (&amp;Reference[Prone]). Il faut 10 minutes pour récupérer les billes.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Récupérer les Billes de Métal</strong> permet un nouvel usage de cet objet.</p></section>"
+		},
+		"Barrel": {
+			"name": "Tonneau",
+			"description": "<p>Un tonneau peut contenir jusqu'à 40 gallons de liquide ou jusqu'à 1 mètre cubes de marchandises sèches.</p>"
+		},
+		"Basket": {
+			"name": "Panier",
+			"description": "<p>Un panier peut contenir jusqu'à 18 kg dans un espace de 0,5 mètre cubes.</p>"
+		},
+		"Battleaxe": {
+			"name": "Hache de bataille",
+			"description": ""
+		},
+		"Bedroll": {
+			"name": "Sac de couchage",
+			"description": "<p>Un sac de couchage peut accueillir une créature de taille Petite ou Moyenne. Lorsqu'une créature est dans un sac de couchage, elle réussit automatiquement ses jets de sauvegarde contre le froid extrême (voir le <em>Guide du Maître de Donjon</em>).</p>"
+		},
+		"Bell": {
+			"name": "Cloche",
+			"description": "<p>Lorsqu'elle est utilisée en tant qu'action d'Utilisation, une cloche émet un son audible jusqu'à une distance de 18 mètres.</p>"
+		},
+		"Blanket": {
+			"name": "Couverture",
+			"description": "<p>Lorsqu'une créature est enveloppée dans une couverture, elle bénéficie de l'avantage sur les jets de sauvegarde contre le froid extrême (voir le <em>Guide du Maître de Donjon</em>).</p>"
+		},
+		"Block and Tackle": {
+			"name": "Palan",
+			"description": "<p>Un palan vous permet de soulever jusqu'à quatre fois le poids que vous pouvez normalement porter.</p>"
+		},
+		"Blowgun": {
+			"name": "Sarbacane",
+			"description": ""
+		},
+		"Bolts": {
+			"name": "Carreaux",
+			"description": "<p><em><strong>Stockage :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Étui}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munitions} sont nécessaires pour une arme possédant la propriété Munitions. La description de l'arme précise le type de munitions utilisé par celle-ci. La table des munitions liste les différents types et la quantité que vous obtenez lorsque vous les achetez. La table liste également l'objet généralement utilisé pour stocker chaque type ; le stockage doit être acheté séparément.</p>"
+		},
+		"Book": {
+			"name": "Livre",
+			"description": "<p>Un livre contient de la fiction ou de la non-fiction. Si vous consultez un livre de non-fiction précis sur un sujet donné, vous gagnez un bonus de +5 aux tests d'Intelligence (Arcanes, Histoire, Nature, ou Religion) que vous effectuez sur ce sujet.</p>"
+		},
+		"Bottle, Glass": {
+			"name": "Bouteille en verre",
+			"description": "<p>Une bouteille en verre peut contenir jusqu'à 1½ pintes.</p>"
+		},
+		"Breastplate": {
+			"name": "Cuirasse",
+			"description": ""
+		},
+		"Brewer's Supplies": {
+			"name": "Matériel de Brasseur",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Détecter une boisson empoisonnée (DD 15), ou identifier de l'alcool (DD 10)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxine}</p>"
+		},
+		"Bucket": {
+			"name": "Seau",
+			"description": "<p>Un seau peut contenir jusqu'à un demi-pied cube de contenu.</p>"
+		},
+		"Bullets, Firearm": {
+			"name": "Balles, arme à feu",
+			"description": "<p><em><strong>Stockage :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pochette}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munitions} sont nécessaires pour une arme possédant la propriété Munitions. La description de l'arme précise le type de munitions utilisé par celle-ci. La table des munitions liste les différents types et la quantité que vous obtenez lorsque vous les achetez. La table liste également l'objet généralement utilisé pour stocker chaque type ; le stockage doit être acheté séparément.</p>"
+		},
+		"Bullets, Sling": {
+			"name": "Balles, fronde",
+			"description": "<p><em><strong>Stockage :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pochette}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munitions} sont nécessaires pour une arme possédant la propriété Munitions. La description de l'arme précise le type de munitions utilisé par celle-ci. La table des munitions liste les différents types et la quantité que vous obtenez lorsque vous les achetez. La table liste également l'objet généralement utilisé pour stocker chaque type ; le stockage doit être acheté séparément.</p>"
+		},
+		"Bullseye Lantern": {
+			"name": "Lanterne de précision",
+			"description": "<p>Une lanterne de précision projette une lumière vive dans un cône de 18 mètres et une lumière faible pour 18 mètres supplémentaires. Une fois allumée, elle brûle pendant 6 heures avec une fiole (1 pinte) d'huile.</p>"
+		},
+		"Burglar's Pack": {
+			"name": "Pack de cambrioleur",
+			"description": "<p>Un Pack de cambrioleur contient les objets suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Billes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Cloche}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Bougies}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Pied-de-biche}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Lanterne à capuchon}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{fioles d'Huile}, 5 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte d'allume-feu} et @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
+		},
+		"Calligrapher's Supplies": {
+			"name": "Matériel de Calligraphie",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Écrire un texte avec des ornements impressionnants pour éviter la falsification (DD 15)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Encre}, <em>Parchemin de Sort</em></p>"
+		},
+		"Caltrops": {
+			"name": "Chausse-trapes",
+			"description": "<p>Comme une action d'Utilisation, vous pouvez étaler les Chausse-trapes de leur sac pour couvrir une zone de 1,5 mètre de côté à 1,5 mètre de vous. Une créature qui entre dans cette zone pour la première fois lors d'un tour doit réussir un jet de sauvegarde de Dextérité de DD 15 ou subir 1 dégât perforant et voir sa Vitesse réduite à 0 jusqu'au début de son prochain tour. Il faut 10 minutes pour récupérer les Chausse-trapes.</p>"
+		},
+		"Candle": {
+			"name": "Bougie",
+			"description": "<p>Pendant 1 heure, une Bougie allumée émet une lumière vive dans un rayon de 1,5 mètre et une lumière faible dans un rayon supplémentaire de 1,5 mètre.</p>"
+		},
+		"Carpenter's Tools": {
+			"name": "Outils de Charpentier",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Force</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Sceller ou forcer l'ouverture d'une porte ou d'un conteneur (DD 20)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Gourdin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Grande masse}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de combat}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Tonneau}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Coffre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Échelle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Perche}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Bélier portatif}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torche}</p>"
+		},
+		"Cartographer's Tools": {
+			"name": "Outils de Cartographe",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Dessiner une carte d'une petite zone (DD 15)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Carte}</p>"
+		},
+		"Case, Crossbow Bolt": {
+			"name": "Étui à carreaux d'arbalète",
+			"description": "<p>Un Étui à carreaux d'arbalète peut contenir jusqu'à 20 carreaux.</p>"
+		},
+		"Case, Map or Scroll": {
+			"name": "Étui pour carte ou parchemin",
+			"description": "<p>Un Étui pour carte ou parchemin peut contenir jusqu'à 10 feuilles de papier ou 5 feuilles de parchemin.</p>"
+		},
+		"Chain": {
+			"name": "Chaîne",
+			"description": "<p>En tant qu'action d'Utilisation, vous pouvez enrouler une Chaîne autour d'une créature réticente située à moins de 1,5 mètre de vous et ayant les conditions &amp;Reference[Grappled], &amp;Reference[Incapacitated] ou &amp;Reference[Restrained] si vous réussissez un test de Force (Athlétisme) DD 13. Si les jambes de la créature sont entravées, elle gagne la condition Entravée jusqu'à ce qu'elle s'en échappe. S'échapper de la chaîne nécessite un test de Dextérité (Acrobaties) DD 18 réussi en tant qu'action. Rompre la chaîne nécessite un test de Force (Athlétisme) DD 20 réussi en tant qu'action.</p>"
+		},
+		"Chain Mail": {
+			"name": "Cotte de Mailles",
+			"description": ""
+		},
+		"Chain Shirt": {
+			"name": "Chemise de mailles",
+			"description": ""
+		},
+		"Chest": {
+			"name": "Coffre",
+			"description": "<p>Un Coffre peut contenir jusqu'à 10,5 mètre cubes de contenu.</p>"
+		},
+		"Climber's Kit": {
+			"name": "Kit d'escalade",
+			"description": "<p>Un Kit d'escalade inclut des embouts pour les bottes, des gants, des pitons et un harnais. En tant qu'action d'Utilisation, vous pouvez utiliser le Kit d'escalade pour vous ancrer; lorsque vous le faites, vous ne pouvez pas tomber à plus de 7,5 mètres du point d'ancrage, et vous ne pouvez pas vous déplacer à plus de 7,5 mètres de là sans désancrer comme action Bonus.</p>"
+		},
+		"Clothes, Fine": {
+			"name": "Vêtements, Raffinés",
+			"description": "<p>Les vêtements raffinés sont faits de tissus coûteux et ornés de détails finement travaillés. Certains événements et lieux n’admettent que les personnes portant ces vêtements.</p>"
+		},
+		"Clothes, Traveler's": {
+			"name": "Vêtements, de Voyageur",
+			"description": "<p>Les vêtements de voyageur sont des vêtements résistants conçus pour les déplacements dans divers environnements.</p>"
+		},
+		"Club": {
+			"name": "Gourdin",
+			"description": ""
+		},
+		"Cobbler's Tools": {
+			"name": "Outils de Cordonnier",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Modifier les chaussures pour donner l’avantage au prochain test de Dextérité (Acrobaties) du porteur (DD 10)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Kit d'Escalade}</p>"
+		},
+		"Component Pouch": {
+			"name": "Pochette de Composants",
+			"description": "<p>Une pochette de composants est étanche et contient des compartiments pour tous les composants matériels gratuits de vos sorts.</p>"
+		},
+		"Constellations Scroll": {
+			"name": "Parchemin de Constellations",
+			"description": "<p>Un parchemin portant des représentations de constellations qui peut être utilisé comme focalisateur de sorts par les druides du Cercle des Étoiles. C’est un objet minuscule.</p>"
+		},
+		"Cook's Utensils": {
+			"name": "Ustensiles de Cuisinier",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Améliorer la saveur des aliments (DD 10), ou détecter les aliments avariés ou empoisonnés (DD 15)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}</p>"
+		},
+		"Costume": {
+			"name": "Costume",
+			"description": "<p>En portant un costume, vous avez l’avantage sur tout test de caractéristique effectué pour imiter la personne ou le type de personne qu’il représente.</p>"
+		},
+		"Crowbar": {
+			"name": "Pied-de-biche",
+			"description": "<p>L’utilisation d’un pied-de-biche vous donne l’avantage sur les tests de Force où son levier peut être appliqué.</p>"
+		},
+		"Crystal": {
+			"name": "Cristal",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Focalisateur Arcanique} est orné de pierres précieuses ou sculpté pour canaliser la magie arcanique. Un Ensorceleur, Occultiste ou Magicien peut utiliser cet objet comme focalisateur de sorts.</p>"
+		},
+		"Dagger": {
+			"name": "Dague",
+			"description": ""
+		},
+		"Dart": {
+			"name": "Fléchette",
+			"description": ""
+		},
+		"Dice": {
+			"name": "Dés",
+			"description": "<p><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Discerner si quelqu'un triche (DD 10), ou gagner la partie (DD 20)</p>"
+		},
+		"Diplomat's Pack": {
+			"name": "Paquet du Diplomate",
+			"description": "<p>Un paquet du diplomate contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Coffre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Vêtements Raffinés}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Encre}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Stylos à Encre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Étuis à Carte ou Parchemin}, 4 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 5 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papier}, 5 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchemin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Parfum}, et @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte d'Amadou}.</p>"
+		},
+		"Disguise Kit": {
+			"name": "Kit de Déguisement",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Appliquer du maquillage (DD 10)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costume}</p>"
+		},
+		"Dragonchess": {
+			"name": "Échecs Draconiques",
+			"description": "<p><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Discerner si quelqu’un triche (DD 10), ou gagner la partie (DD 20)</p>"
+		},
+		"Druidic Focus (Varies)": {
+			"name": "Focalisateur Drudique (Variable)",
+			"description": "<p>Un focalisateur druidique prend l'une des formes du tableau des Focalisateurs druidiques et est sculpté, attaché avec un ruban ou peint pour canaliser la magie primordiale. Un druide ou un rôdeur peut utiliser cet objet comme focalisateur de sorts.</p><table><caption>Focalisateurs druidiques</caption><thead><tr><td>Focus</td><td>Poids</td><td>Coût</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{Branchette de gui}</td><td>—</td><td>1 PC</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]{Bâton en bois} (également un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de marche})</td><td>4 lb.</td><td>5 PC</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]{Baguette en If}</td><td>1 lb.</td><td>10 PC</td></tr></tbody></table>"
+		},
+		"Drum": {
+			"name": "Tambour",
+			"description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Jouer un air connu (DD 10), ou improviser une chanson (DD 15)</p>"
+		},
+		"Dulcimer": {
+			"name": "Dulcimer",
+			"description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Jouer un air connu (DD 10), ou improviser une chanson (DD 15)</p>"
+		},
+		"Dungeoneer's Pack": {
+			"name": "Paquet de Spéléologue",
+			"description": "<p>Un paquet de spéléologue contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Chausse-trapes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Pied-de-biche}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte d'Amadou}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
+		},
+		"Ebony-bound Atlas": {
+			"name": "Atlas Relié en Ébène",
+			"description": "<p>Une collection de cartes reliée dans une couverture d’ébène qui peut être utilisée comme focalisateur de sorts par les druides du Cercle des Étoiles. C’est un objet minuscule.</p>"
+		},
+		"Emblem": {
+			"name": "Emblème",
+			"description": "<p><em><strong>Condition d'utilisation :</strong> Porté sur un tissu ou un bouclier</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Symbole Sacré} prend l'une des formes du tableau des symboles sacrés et est orné de pierres précieuses ou peint pour canaliser la magie divine. Un prêtre ou paladin peut utiliser un symbole sacré comme focalisateur de sorts.</p>"
+		},
+		"Engraved Crystal": {
+			"name": "Cristal Gravé",
+			"description": "<p>Un cristal gravé de motifs stellaires qui peut être utilisé comme focalisateur de sorts par les druides du Cercle des Étoiles. C’est un objet minuscule.</p>"
+		},
+		"Entertainer's Pack": {
+			"name": "Paquet d'Artiste",
+			"description": "<p>Un paquet d’artiste contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de Couchage}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Cloche}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Lanterne de Visée}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Miroir}, 8 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 9 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte d'Amadou}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
+		},
+		"Etched Glass Disk": {
+			"name": "Disque de Verre Gravé",
+			"description": "<p>Un disque de verre gravé de constellations qui peut être utilisé comme focalisateur de sorts par les druides du Cercle des Étoiles. C’est un objet minuscule.</p>"
+		},
+		"Explorer's Pack": {
+			"name": "Paquet d'Explorateur",
+			"description": "<p>Un paquet d'explorateur contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de Couchage}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte d'Amadou}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
+		},
+		"Fine Clothes": {
+			"name": "Vêtements de Luxe",
+			"description": "<p>Ensemble de vêtements conçus spécifiquement pour être coûteux et le montrer.</p>"
+		},
+		"Flail": {
+			"name": "Fléau",
+			"description": ""
+		},
+		"Flask": {
+			"name": "Fiole",
+			"description": "<p>Une fiole peut contenir jusqu'à 1 pinte.</p>"
+		},
+		"Flute": {
+			"name": "Flûte",
+			"description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Jouer un air connu (DC 10), ou improviser une mélodie (DC 15)</p>"
+		},
+		"Forgery Kit": {
+			"name": "Kit de Falsification",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Imiter l’écriture de quelqu’un d’autre sur 10 mots ou moins (DC 15), ou reproduire un sceau en cire (DC 20)</p>"
+		},
+		"Glaive": {
+			"name": "Coutille",
+			"description": ""
+		},
+		"Glassblower's Tools": {
+			"name": "Outils de Souffleur de Verre",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Déterminer ce qu’un objet en verre a tenu au cours des 24 dernières heures (DC 15)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Bouteille en Verre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Loupe}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Longue-vue}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Fioles}</p>"
+		},
+		"Grappling Hook": {
+			"name": "Crochet de Grappe",
+			"description": "<p>En tant qu’action d’utilisation, vous pouvez lancer le crochet de grappin sur une balustrade, un rebord ou un autre support à moins de 15 mètre de vous. Le crochet s’accroche si vous réussissez un test de Dextérité (Acrobaties) DC 13. Si vous avez attaché une corde au crochet, vous pouvez alors grimper.</p>"
+		},
+		"Greataxe": {
+			"name": "Grande Hache",
+			"description": ""
+		},
+		"Greatclub": {
+			"name": "Grande Massue",
+			"description": ""
+		},
+		"Greatsword": {
+			"name": "Épée à deux mains",
+			"description": ""
+		},
+		"Halberd": {
+			"name": "Hallebarde",
+			"description": ""
+		},
+		"Half Plate Armor": {
+			"name": "Armure de Demi-plates",
+			"description": ""
+		},
+		"Hand Crossbow": {
+			"name": "Arbalète de Poing",
+			"description": ""
+		},
+		"Handaxe": {
+			"name": "Hachette",
+			"description": ""
+		},
+		"Healer's Kit": {
+			"name": "Trousse de Soins",
+			"description": "<p>Une trousse de soins dispose de dix utilisations. En tant qu'action d’utilisation, vous pouvez dépenser une de ses utilisations pour stabiliser une créature Inconsciente ayant 0 Points de Vie sans avoir besoin de faire un test de Sagesse (Médecine).</p>"
+		},
+		"Heavy Crossbow": {
+			"name": "Arbalète Lourde",
+			"description": ""
+		},
+		"Herbalism Kit": {
+			"name": "Kit d'Herboristerie",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Identifier une plante (DC 10)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxine}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Bougie}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Trousse de Soins}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Potion de Soin}</p>"
+		},
+		"Hide Armor": {
+			"name": "Armure de Peau",
+			"description": ""
+		},
+		"Holy Symbol (Varies)": {
+			"name": "Symbole Sacré (Varie)",
+			"description": "<p>Un Symbole Sacré prend l'une des formes indiquées dans le tableau des Symboles Sacrés et est orné de pierres précieuses ou peint pour canaliser la magie divine. Un Clerc ou un Paladin peut utiliser un Symbole Sacré comme un Foyer de Sort.</p><p>Le tableau indique si un Symbole Sacré doit être tenu, porté ou fixé sur un tissu (comme un tabard ou une bannière) ou un bouclier.</p><table><caption>Symboles Sacrés</caption><thead><tr><td>Symbole</td><td>Poids</td><td>Coût</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn]{Amulette} (portée ou tenue)</td><td>1 lb.</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn]{Emblème} (fixé sur un tissu ou un bouclier)</td><td>—</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh]{Reliquaire} (tenu)</td><td>2 lb.</td><td>5 PO</td></tr></tbody></table>"
+		},
+		"Holy Water": {
+			"name": "Eau Bénite",
+			"description": "<p>Lorsque vous prenez l'action Attaque, vous pouvez remplacer une de vos attaques par le lancer d'une fiole d'Eau Bénite. Ciblez une créature que vous pouvez voir dans un rayon de 6 mètre. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre Bonus de Maîtrise) ou subir 2d8 dégâts de Radiance si c'est un Démon ou un Mort-vivant.</p>"
+		},
+		"Hooded Lantern": {
+			"name": "Lanterne à Capuchon",
+			"description": "<p>Une lanterne à capuchon projette de la lumière vive dans un rayon de 9 mètre et de la lumière faible sur 9 mètre supplémentaires. Une fois allumée, elle brûle pendant 6 heures avec une fiole (1 pinte) d'huile. En tant qu’action, vous pouvez abaisser le capuchon, réduisant la lumière à une lumière faible dans un rayon de 1,5 mètres.</p>"
+		},
+		"Horn": {
+			"name": "Cor",
+			"description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Jouer un air connu (DC 10), ou improviser une mélodie (DC 15)</p>"
+		},
+		"Hunting Trap": {
+			"name": "Piège de Chasse",
+			"description": "<p>En tant qu'action d'utilisation, vous pouvez poser un Piège de Chasse, un anneau en acier denté qui se referme lorsqu'une créature marche sur une plaque de pression au centre. Le piège est fixé par une lourde chaîne à un objet immobile, tel qu'un arbre ou un pieu planté dans le sol. Une créature qui marche sur la plaque doit réussir un jet de sauvegarde de Dextérité (DC 13) ou subir 1d4 dégâts Perforants et voir sa Vitesse réduite à 0 jusqu’au début de son prochain tour. Ensuite, jusqu'à ce qu'elle se libère du piège, son mouvement est limité par la longueur de la chaîne (généralement 1 mètre). Une créature peut utiliser son action pour faire un test de Force (Athlétisme) DC 13, se libérant ou libérant une autre créature à portée en cas de succès. Chaque échec inflige [[/damage 1 type=piercing]] dégâts à la créature piégée.</p>"
+		},
+		"Ink": {
+			"name": "Encre",
+			"description": "<p>L'encre est contenue dans une bouteille de 1 once, ce qui suffit pour écrire environ 500 pages.</p>"
+		},
+		"Ink Pen": {
+			"name": "Plume",
+			"description": "<p>Utilisée avec de l’Encre, une Plume permet d’écrire ou de dessiner.</p>"
+		},
+		"Javelin": {
+			"name": "Javeline",
+			"description": ""
+		},
+		"Jeweler's Tools": {
+			"name": "Outils de Joaillier",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Estimer la valeur d'une gemme (DC 15)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> Foyer Arcanique, Symbole Sacré</p>"
+		},
+		"Jug": {
+			"name": "Cruche",
+			"description": "<p>Une Cruche peut contenir jusqu'à 1 gallon.</p>"
+		},
+		"Ladder": {
+			"name": "Échelle",
+			"description": "<p>Une Échelle mesure 3 mètres de hauteur. Vous devez l'escalader pour monter ou descendre.</p>"
+		},
+		"Lamp": {
+			"name": "Lampe",
+			"description": "<p>Une Lampe brûle de l'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile} comme combustible pour projeter une lumière vive dans un rayon de 11,5 mètres et une lumière faible sur 9 mètre supplémentaires.</p>"
+		},
+		"Lance": {
+			"name": "Lance",
+			"description": ""
+		},
+		"Lantern, Bullseye": {
+			"name": "Lanterne, Œil de Bœuf",
+			"description": "<p>Une Lanterne Œil de Bœuf brûle de l'Huile comme combustible pour projeter une lumière vive dans un cône de 18 mètres et une lumière faible sur 18 mètres supplémentaires.</p>"
+		},
+		"Lantern, Hooded": {
+			"name": "Lanterne, à Capuchon",
+			"description": "<p>Une Lanterne à Capuchon brûle de l'Huile comme combustible pour projeter une lumière vive dans un rayon de 9 mètre et une lumière faible sur 9 mètre supplémentaires. En tant qu'Action Bonus, vous pouvez baisser le capuchon, réduisant la lumière à une lumière faible dans un rayon de 1,5 mètres, ou le relever à nouveau.</p>"
+		},
+		"Leather Armor": {
+			"name": "Armure en Cuir",
+			"description": ""
+		},
+		"Leatherworker's Tools": {
+			"name": "Outils de Travailleur du Cuir",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Ajouter un motif à un objet en cuir (DC 10)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Fronde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Fouet}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Armure en Peau}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Armure en Cuir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Armure en Cuir Clouté}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Étui pour Boulons d’Arbalète}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Étui pour Carte ou Parchemin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchemin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bourse}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carquois}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Gourde}</p>"
+		},
+		"Light Crossbow": {
+			"name": "Arbalète Légère",
+			"description": ""
+		},
+		"Light Hammer": {
+			"name": "Marteau Léger",
+			"description": ""
+		},
+		"Lock": {
+			"name": "Serrure",
+			"description": "<p>Une Serrure est fournie avec une clé. Sans la clé, une créature peut utiliser des @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Outils de Voleur} pour crocheter cette serrure avec un test de [[/tool thief dex 15]] réussi.</p>"
+		},
+		"Longbow": {
+			"name": "Arc Long",
+			"description": ""
+		},
+		"Longsword": {
+			"name": "Épée Longue",
+			"description": ""
+		},
+		"Lute": {
+			"name": "Luth",
+			"description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Jouer un air connu (DC 10), ou improviser une mélodie (DC 15)</p>"
+		},
+		"Lyre": {
+			"name": "Lyre",
+			"description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Jouer un air connu (DC 10), ou improviser une mélodie (DC 15)</p>"
+		},
+		"Mace": {
+			"name": "Masse d'arme",
+			"description": ""
+		},
+		"Magnifying Glass": {
+			"name": "Loupe",
+			"description": "<p>Une Loupe accorde un Avantage aux tests de capacité visant à évaluer ou inspecter un objet très détaillé. Allumer un feu avec une Loupe nécessite une lumière aussi vive que celle du soleil pour la focaliser, de l'amadou pour l'enflammer, et environ 5 minutes pour que le feu s'allume.</p>"
+		},
+		"Manacles": {
+			"name": "Menottes",
+			"description": "<p>En tant qu'action d'Utilisation, vous pouvez utiliser des Menottes pour lier une créature Involontaire de taille Petite ou Moyenne se trouvant à 1,5 mètres de vous et ayant la condition &amp;Reference[Grappled], &amp;Reference[Incapacitated] ou &amp;Reference[Restrained] si vous réussissez un test de Dextérité (Escamotage) de DC 13. Tant qu'elle est attachée, une créature a un Désavantage aux jets d'attaque, et elle est Entravée si les Menottes sont attachées à une chaîne ou un crochet fixé en place. S'échapper des Menottes nécessite un test de Dextérité (Escamotage) de DC 20 réussi comme action. Les briser nécessite un test de Force (Athlétisme) de DC 25 réussi comme action.</p><p>Chaque paire de Menottes est accompagnée d'une clé. Sans la clé, une créature peut utiliser des Outils de Voleur pour crocheter les Menottes avec un test de [[/tool thief dex 15]] réussi.</p>"
+		},
+		"Map": {
+			"name": "Carte",
+			"description": "<p>Si vous consultez une Carte précise, vous gagnez un bonus de +5 aux tests de Sagesse (Survie) pour retrouver votre chemin dans le lieu représenté sur la carte.</p>"
+		},
+		"Map or Scroll Case": {
+			"name": "Étui pour Carte ou Parchemin",
+			"description": "<p>Cet étui cylindrique en cuir peut contenir jusqu'à dix feuilles de papier enroulées ou cinq feuilles de parchemin enroulées.</p>"
+		},
+		"Mason's Tools": {
+			"name": "Outils de Maçon",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Force</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Tailler un symbole ou un trou dans la pierre (DC 10)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Palan et Poulie}</p>"
+		},
+		"Maul": {
+			"name": "Massue",
+			"description": ""
+		},
+		"Mirror": {
+			"name": "Miroir",
+			"description": "<p>Un Miroir en acier portatif est utile pour les soins cosmétiques personnels mais aussi pour jeter un coup d'œil autour des coins et réfléchir la lumière comme signal.</p>"
+		},
+		"Morningstar": {
+			"name": "Morgenstern",
+			"description": ""
+		},
+		"Musket": {
+			"name": "Mousquet",
+			"description": ""
+		},
+		"Navigator's Tools": {
+			"name": "Outils de Navigateur",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Tracer un itinéraire (DC 10) ou déterminer la position en observant les étoiles (DC 15)</p>"
+		},
+		"Needles": {
+			"name": "Aiguilles",
+			"description": "<p><em><strong>Rangement :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bourse}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munition} est requise pour une arme possédant la propriété Munition. La description de l'arme spécifie le type de munition utilisé. La table des Munitions liste les différents types et la quantité obtenue lors de l'achat. La table indique également l'objet typiquement utilisé pour stocker chaque type ; le rangement doit être acheté séparément.</p>"
+		},
+		"Net": {
+			"name": "Filet",
+			"description": "<p>Lorsque vous effectuez l'action Attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'un filet. Visez une créature que vous pouvez voir dans un rayon de 11,5 mètres autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou être affectée par la condition &amp;Reference[Restrained] jusqu'à ce qu'elle réussisse à s'échapper. La cible réussit automatiquement si elle est énorme ou plus grande.</p><p>Pour s'échapper, la cible ou une créature dans un rayon de 1,5 mètres doit utiliser une action pour faire un [[/skill ath 10]] test, libérant ainsi la créature entravée en cas de succès. Détruire le filet (CA 10 ; 5 PV ; Immunité aux dégâts de contondant, poison et psychique) libère également la cible, mettant fin à l'effet.</p>"
+		},
+		"Oil": {
+			"name": "Huile",
+			"description": "<p>Vous pouvez arroser une créature, un objet ou un espace avec de l'huile ou l'utiliser comme carburant, comme détaillé ci-dessous.</p><p><strong>Arroser une créature ou un objet.</strong> Lorsque vous effectuez l'action Attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'huile. Visez une créature ou un objet dans un rayon de 6 mètre autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou être couverte d'huile. Si la cible subit des dégâts de feu avant que l'huile ne sèche (après 1 minute), elle subit des [[/damage 5 type=fire]] dégâts supplémentaires en raison de l'huile enflammée.</p><p><strong>Arroser un espace.</strong> Vous pouvez utiliser l'action Utiliser pour verser une fiole d'huile sur un terrain plat pour couvrir une zone de 1,5 mètres carrés dans un rayon de 1,5 mètres autour de vous. Si elle est enflammée, l'huile brûle jusqu'à la fin du tour 2 rounds après que l'huile ait été allumée (ou 12 secondes) et inflige 5 dégâts de feu à toute créature qui entre dans la zone ou qui y termine son tour. Une créature ne peut subir ces dégâts qu'une seule fois par tour.</p><p><strong>Carburant.</strong> L'huile sert de carburant pour les lampes et les lanternes. Une fois allumée, une fiole d'huile brûle pendant 6 heures dans une lampe ou une lanterne. Cette durée n'a pas besoin d'être consécutive ; vous pouvez éteindre l'huile brûlante (comme une action Utiliser) et la rallumer jusqu'à ce qu'elle ait brûlé pendant un total de 6 heures.</p>"
+		},
+		"Orb": {
+			"name": "Orbe",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Focaliseur Arcanique} est orné de bijoux ou sculpté pour canaliser la magie arcanique. Un Ensorceleur, un Occultiste ou un Magicien peut utiliser cet objet comme point de concentration pour les sorts.</p>"
+		},
+		"Padded Armor": {
+			"name": "Armure Matelassée",
+			"description": ""
+		},
+		"Painter's Supplies": {
+			"name": "Fournitures de Peintre",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Peindre une image reconnaissable de quelque chose que vous avez vu (DC 10)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> Focaliseur Druide, Symbole Sacré</p>"
+		},
+		"Pan Flute": {
+			"name": "Flûte de Pan",
+			"description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Jouer une mélodie connue (DC 10), ou improviser une chanson (DC 15)</p>"
+		},
+		"Paper": {
+			"name": "Papier",
+			"description": "<p>Une feuille de papier peut contenir environ 250 mots manuscrits.</p>"
+		},
+		"Parchment": {
+			"name": "Parchemin",
+			"description": "<p>Une feuille de parchemin peut contenir environ 250 mots manuscrits.</p>"
+		},
+		"Perfume": {
+			"name": "Parfum",
+			"description": "<p>Le parfum est contenu dans un flacon de 4 onces. Pendant 1 heure après avoir appliqué du parfum sur vous, vous avez l'Avantage sur les tests de Charisme (Persuasion) effectués pour influencer un Humanoïde Indifférent à moins de 1,5 mètres de vous.</p>"
+		},
+		"Pike": {
+			"name": "Pique",
+			"description": ""
+		},
+		"Pistol": {
+			"name": "Pistolet",
+			"description": ""
+		},
+		"Plate Armor": {
+			"name": "Armure de Plates",
+			"description": ""
+		},
+		"Playing Cards": {
+			"name": "Cartes à Jouer",
+			"description": "<p><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Déterminer si quelqu'un triche (DC 10), ou gagner la partie (DC 20)</p>"
+		},
+		"Poison, Basic": {
+			"name": "Poison, Basique",
+			"description": "<p>En tant qu'Action Bonus, vous pouvez utiliser une fiole de poison basique pour enrober une arme ou jusqu'à trois munitions. Une créature subissant des dégâts de Perforation ou de Tranchant de la part de l'arme ou des munitions empoisonnées subit 1d4 dégâts de Poison supplémentaires. Une fois appliqué, le poison conserve sa puissance pendant 1 minute ou jusqu'à ce que ses dégâts soient infligés, selon ce qui survient en premier.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Note de la Foundry</strong></p><p>Cette fonctionnalité inclut un jet pour les dégâts de poison.</p></section>"
+		},
+		"Poisoner's Kit": {
+			"name": "Kit de Poison",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Détecter un objet empoisonné (DC 10)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Poison Basique}</p>"
+		},
+		"Pole": {
+			"name": "Perche",
+			"description": "<p>Une perche mesure 3 mètres de long. Vous pouvez l'utiliser pour toucher quelque chose à jusqu'à 3 mètres de distance. Si vous devez effectuer un test de Force (Athlétisme) dans le cadre d'un Saut Haut ou Long, vous pouvez utiliser la perche pour vous propulser, vous donnant ainsi l'Avantage sur le test.</p>"
+		},
+		"Pot, Iron": {
+			"name": "Pot en Fer",
+			"description": "<p>Un pot en fer peut contenir jusqu'à 1 gallon.</p>"
+		},
+		"Potion of Healing": {
+			"name": "Potion de Soins",
+			"description": "<p>Cette potion est un objet magique. En tant qu'Action Bonus, vous pouvez la boire ou l'administrer à une autre créature dans un rayon de 1,5 mètres autour de vous. La créature qui boit le fluide magique rouge dans cette fiole regagne 2d4 + 2 points de vie.</p>"
+		},
+		"Potter's Tools": {
+			"name": "Outils de Potier",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence <strong>Poids :</strong> 3 lb.</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Déterminer quel objet en céramique a été tenu dans les 24 dernières heures (DC 15)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jarre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}</p>"
+		},
+		"Pouch": {
+			"name": "Sacoche",
+			"description": "<p>Une sacoche peut contenir jusqu'à 2,5 kg dans un volume d'un cinquième de pied cube.</p>"
+		},
+		"Priest's Pack": {
+			"name": "Sac du Prêtre",
+			"description": "<p>Un sac de prêtre contient les objets suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Couverture}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Eau Sainte}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}, 7 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, et @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte à Amorcer}.</p>"
+		},
+		"Quarterstaff": {
+			"name": "Bâton de combat",
+			"description": ""
+		},
+		"Quiver": {
+			"name": "Carquois",
+			"description": "<p>Un carquois peut contenir jusqu'à 20 flèches.</p>"
+		},
+		"Ram, Portable": {
+			"name": "Bélier Portable",
+			"description": "<p>Vous pouvez utiliser un bélier portable pour briser des portes. En agissant ainsi, vous obtenez un bonus de +4 au test de Force. Un autre personnage peut vous aider à utiliser le bélier, vous donnant l'Avantage sur ce test.</p>"
+		},
+		"Rapier": {
+			"name": "Rapière",
+			"description": ""
+		},
+		"Rations": {
+			"name": "Rations",
+			"description": "<p>Les rations consistent en de la nourriture prête à voyager, y compris de la viande séchée, des fruits secs, du biscuit de mer et des noix. Consultez &amp;Reference[Malnutrition] dans le glossaire des règles pour connaître les risques liés à une mauvaise alimentation.</p>"
+		},
+		"Reliquary": {
+			"name": "Reliquaire",
+			"description": "<p><em><strong>Condition d'Utilisation : </strong>Tenu</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Symbole Sacré} prend l'une des formes du tableau des Symboles Sacrés et est orné de bijoux ou peint pour canaliser la magie divine. Un Clerc ou un Paladin peut utiliser un Symbole Sacré comme point de concentration pour les sorts.</p>"
+		},
+		"Ring Mail": {
+			"name": "Armure de Mailles",
+			"description": ""
+		},
+		"Robe": {
+			"name": "Robe",
+			"description": "<p>Une robe a une signification professionnelle ou cérémonielle. Certains événements et lieux n'admettent que les personnes portant une robe de couleurs ou de symboles particuliers.</p>"
+		},
+		"Rod": {
+			"name": "Bâton",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Focaliseur Arcanique} est orné de bijoux ou sculpté pour canaliser la magie arcanique. Un Ensorceleur, un Occultiste ou un Magicien peut utiliser cet objet comme point de concentration pour les sorts.</p>"
+		},
+		"Rope": {
+			"name": "Corde",
+			"description": "<p>En tant qu'action Utiliser, vous pouvez faire un nœud avec la corde si vous réussissez un test de Dextérité (Habileté) DC 10. La corde peut être rompue avec un test de Force (Athlétisme) réussi DC 20.</p><p>Vous pouvez lier une créature récalcitrante avec la corde uniquement si la créature a la condition &amp;Reference[Grappled], &amp;Reference[Incapacitated], ou &amp;Reference[Restrained]. Si les jambes de la créature sont liées, elle a la condition Entravée jusqu'à ce qu'elle s'échappe. S'échapper de la corde nécessite à la créature de réussir un test de Dextérité (Acrobaties) DC 15 en tant qu'action.</p>"
+		},
+		"Sack": {
+			"name": "Sac",
+			"description": "<p>Un sac peut contenir jusqu'à 13,5 kg dans un volume d'un pied cube.</p>"
+		},
+		"Scale Mail": {
+			"name": "Armure d'Ecailles",
+			"description": ""
+		},
+		"Scholar's Pack": {
+			"name": "Sac du Chercheur",
+			"description": "<p>Un sac de chercheur contient les objets suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Livre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Encre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Stylo à Encre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}, 10 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchemin}, et @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte à Amorcer}.</p>"
+		},
+		"Scimitar": {
+			"name": "Cimeterre",
+			"description": ""
+		},
+		"Shawm": {
+			"name": "Chalumeau",
+			"description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Jouer une mélodie connue (DC 10), ou improviser une chanson (DC 15)</p>"
+		},
+		"Shield": {
+			"name": "Bouclier",
+			"description": "<p>Vous bénéficiez de la classe d'armure d'un bouclier seulement si vous avez été entraîné à son utilisation.</p>"
+		},
+		"Shortbow": {
+			"name": "Arc Court",
+			"description": ""
+		},
+		"Shortsword": {
+			"name": "Epée Courte",
+			"description": ""
+		},
+		"Shovel": {
+			"name": "Pelle",
+			"description": "<p>En travaillant pendant 1 heure, vous pouvez utiliser une pelle pour creuser un trou de 1,5 mètres de chaque côté dans de la terre ou un matériau similaire.</p>"
+		},
+		"Sickle": {
+			"name": "Cerpe",
+			"description": ""
+		},
+		"Signal Whistle": {
+			"name": "Sifflet de Signal",
+			"description": "<p>Lorsque vous le sifflez en tant qu'action Utiliser, un sifflet de signal produit un son qui peut être entendu jusqu'à 182,5 mètres de distance.</p>"
+		},
+		"Sling": {
+			"name": "Fronde",
+			"description": ""
+		},
+		"Smith's Tools": {
+			"name": "Outils de Forgeron",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Force</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Forcer une porte ou un conteneur (DC 20)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> Toute arme de mêlée (sauf Massue, Grande Massue, Bâton, et Fouet), armure moyenne (sauf Cuir), armure lourde, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Billes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Seau}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltraps}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Chaîne}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Pied de biche}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balles d'Arme à Feu}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Hameçon}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Pot en Fer}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Pics en Fer}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Balles de Fronde}</p>"
+		},
+		"Spear": {
+			"name": "Lance",
+			"description": ""
+		},
+		"Spell Scroll, Cantrip": {
+			"name": "Parchemin de sort, Sort mineur",
+			"description": "<p>Un <em>Parchemin de sort</em> (Sort mineur) ou @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{Parchemin de sort (Niveau 1)} est un objet magique portant les mots d'un Sort mineur ou d'un sort de niveau 1, respectivement, déterminés par le créateur du parchemin. Si le sort figure sur la liste de sorts de votre classe, vous pouvez lire le parchemin et lancer le sort en utilisant son temps d'incantation normal et sans fournir de composants matériels.</p><p>Si le sort nécessite un jet de sauvegarde ou un jet d'attaque, le DC de sauvegarde est de 13 et le bonus d'attaque est de +5. Le parchemin se désintègre lorsque l'incantation est terminée.</p>"
+		},
+		"Spell Scroll, Level 1": {
+			"name": "Parchemin de sort, Niveau 1",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{Parchemin de sort (Sort mineur)} ou <em>Parchemin de sort</em> (Niveau 1) est un objet magique portant les mots d'un Sort mineur ou d'un sort de niveau 1, respectivement, déterminés par le créateur du parchemin. Si le sort figure sur la liste de sorts de votre classe, vous pouvez lire le parchemin et lancer le sort en utilisant son temps d'incantation normal et sans fournir de composants matériels.</p><p>Si le sort nécessite un jet de sauvegarde ou un jet d'attaque, le DC de sauvegarde est de 13 et le bonus d'attaque est de +5. Le parchemin se désintègre lorsque l'incantation est terminée.</p>"
+		},
+		"Spikes, Iron": {
+			"name": "Piques en fer",
+			"description": "<p>Les piques en fer viennent en paquets de dix. En tant qu'action d'utilisation, vous pouvez utiliser un objet contondant, comme un marteau léger, pour enfoncer un pique dans du bois, de la terre ou un matériau similaire. Vous pouvez le faire pour bloquer une porte ou pour ensuite attacher une corde ou une chaîne au pique.</p>"
+		},
+		"Splint Armor": {
+			"name": "Armure d'Ecailles Renforcées",
+			"description": ""
+		},
+		"Sprig of mistletoe": {
+			"name": "Brin de gui",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Focalisateur druidique} prend l'une des formes de la table des focalisateurs druidiques et est sculpté, attaché avec un ruban ou peint pour canaliser la magie primitive. Un druide ou un ranger peut utiliser un tel objet comme un focalisateur pour le lancement de sorts.</p>"
+		},
+		"Spyglass": {
+			"name": "Lunette",
+			"description": "<p>Les objets vus à travers une lunette sont magnifiés deux fois leur taille.</p>"
+		},
+		"Staff": {
+			"name": "Bâton",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Focalisateur arcanique} est orné de joyaux ou sculpté pour canaliser la magie arcanique. Un Ensorceleur, un Occultiste ou un Magicien peut utiliser un tel objet comme focalisateur pour le lancement de sorts.</p><p>Cet objet fonctionne également comme un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de combat}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Note de Foundry</strong></p><p>Cet objet a été configuré avec les propriétés supplémentaires d'un bâton de combat.</p></section>"
+		},
+		"Stone Tablet": {
+			"name": "Tablette de pierre",
+			"description": "<p>Une tablette de pierre avec de petits trous forés qui peut être utilisée comme focalisateur pour le lancement de sorts par les druides du Cercle des Étoiles. C'est un objet minuscule.</p>"
+		},
+		"String": {
+			"name": "Fil",
+			"description": "<p>Le fil mesure 3 mètres de long. Vous pouvez y faire un nœud en tant qu'action d'utilisation.</p>"
+		},
+		"Studded Leather Armor": {
+			"name": "Armure en cuir clouté",
+			"description": ""
+		},
+		"Tent": {
+			"name": "Tente",
+			"description": "<p>Une tente peut accueillir jusqu'à deux créatures de taille Petite ou Moyenne.</p>"
+		},
+		"Thieves' Tools": {
+			"name": "Outils de voleur",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Ouvrir une serrure (DC 15) ou désamorcer un piège (DC 15)</p>"
+		},
+		"Three-dragon ante": {
+			"name": "Trois dragons ante",
+			"description": "<p><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Déterminer si quelqu'un triche (DC 10) ou gagner la partie (DC 20)</p>"
+		},
+		"Tinderbox": {
+			"name": "Boîte à feu",
+			"description": "<p>Une boîte à feu est un petit conteneur contenant du silex, de l'acier à feu et de l'amadou (généralement un tissu sec imbibé d'huile légère) utilisé pour allumer un feu. L'utiliser pour allumer une bougie, une lampe, une lanterne ou une torche — ou tout autre objet avec un combustible exposé — nécessite une action bonus. Allumer tout autre feu prend 1 minute.</p>"
+		},
+		"Tinker's Tools": {
+			"name": "Outils de bricoleur",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Assembler un objet minuscule composé de morceaux de métal, qui se désintègre en 1 minute (DC 20)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Fusil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistolet}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Cloche}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Lanterne Bullseye}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Flacon}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Lanterne à capuchon}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Piège de chasse}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Serrure}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Menottes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Miroir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pelle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Sifflet de signal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte à feu}</p>"
+		},
+		"Tooled Owlbear Hide": {
+			"name": "Peau de huldrak outilée",
+			"description": "<p>Une peau de huldrak ornée de symboles stellaires pouvant être utilisée comme focalisateur pour le lancement de sorts par les druides du Cercle des Étoiles. C'est un objet minuscule.</p>"
+		},
+		"Torch": {
+			"name": "Torche",
+			"description": "<p>Une torche brûle pendant 1 heure, projetant une lumière vive dans un rayon de 6 mètre et une lumière tamisée sur 6 mètre supplémentaires. Lorsque vous prenez l'action Attaque, vous pouvez attaquer avec la torche, l'utilisant comme une arme de mêlée simple. Si vous touchez, la cible subit 1 dégât de feu.</p>"
+		},
+		"Trident": {
+			"name": "Trident",
+			"description": ""
+		},
+		"Unarmed Strike": {
+			"name": "Coup à mains nues",
+			"description": ""
+		},
+		"Vial": {
+			"name": "Flacon",
+			"description": "<p>Un flacon contient jusqu'à 4 onces.</p>"
+		},
+		"Viol": {
+			"name": "Viole",
+			"description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Jouer une mélodie connue (DC 10) ou improviser une chanson (DC 15)</p>"
+		},
+		"Wand": {
+			"name": "Bâton",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Focalisateur arcanique} est orné de joyaux ou sculpté pour canaliser la magie arcanique. Un Ensorceleur, un Occultiste ou un Magicien peut utiliser un tel objet comme focalisateur pour le lancement de sorts.</p>"
+		},
+		"War Pick": {
+			"name": "Hache de guerre",
+			"description": ""
+		},
+		"Warhammer": {
+			"name": "Marteau de guerre",
+			"description": ""
+		},
+		"Water (Pint)": {
+			"name": "Eau (pinte)",
+			"description": "<p>Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Dehydration].</p>"
+		},
+		"Waterskin": {
+			"name": "Outre",
+			"description": "<p>Une outre peut contenir jusqu'à 4 pintes. Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Dehydration].</p>"
+		},
+		"Weaver's Tools": {
+			"name": "Outils de tisserand",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Réparer une déchirure dans un vêtement (DC 10) ou coudre un petit motif (DC 10)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{Armure rembourrée}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Panier}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Couverture de sol}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Couverture}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Vêtements fins}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Filet}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Sac}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{Fil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tente}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Vêtements de voyage}</p>"
+		},
+		"Whip": {
+			"name": "Fouet",
+			"description": ""
+		},
+		"Woodcarver's Tools": {
+			"name": "Outils de sculpteur sur bois",
+			"description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Sculpter un motif dans le bois (DC 10)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Clube}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Gros clube}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de combat}, Armes à distance (sauf Pistolet, Fusil et Fronde), Focalisateur arcanique, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flèches}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Boulons}, Focalisateur druidique, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Stylo à encre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Aiguilles}</p>"
+		},
+		"Wooden staff": {
+			"name": "Bâton en bois",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Focalisateur druidique} prend l'une des formes de la table des focalisateurs druidiques et est sculpté, attaché avec un ruban ou peint pour canaliser la magie primitive. Un druide ou un ranger peut utiliser un tel objet comme focalisateur pour le lancement de sorts.</p><p>Cet objet fonctionne également comme un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de combat}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Note de Foundry</strong></p><p>Cet objet a été configuré avec les propriétés supplémentaires d'un bâton de combat.</p></section>"
+		},
+		"Yew wand": {
+			"name": "Bâton en if",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Focalisateur druidique} prend l'une des formes de la table des focalisateurs druidiques et est sculpté, attaché avec un ruban ou peint pour canaliser la magie primitive. Un druide ou un ranger peut utiliser un tel objet comme focalisateur pour le lancement de sorts.</p>"
+		}
+	}
+}

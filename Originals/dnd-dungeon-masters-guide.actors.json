@@ -1,0 +1,686 @@
+{
+  "label": "Actors",
+  "entries": {
+    "Animal Lord": {
+      "name": "Animal Lord",
+      "tokenName": "Animal Lord"
+    },
+    "Animated Broom": {
+      "name": "Animated Broom",
+      "tokenName": "Animated Broom"
+    },
+    "Apparatus of Kwalish": {
+      "name": "Apparatus of Kwalish",
+      "tokenName": "Apparatus of Kwalish",
+      "items": {
+        "Claw Attack": {
+          "name": "Claw Attack"
+        },
+        "Grapple Attack": {
+          "name": "Grapple Attack"
+        }
+      }
+    },
+    "Avatar of Death": {
+      "name": "Avatar of Death",
+      "tokenName": "Avatar of Death",
+      "items": {
+        "Incorporeal Movement": {
+          "name": "Incorporeal Movement"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Reaping Scythe": {
+          "name": "Reaping Scythe"
+        }
+      }
+    },
+    "Badger": {
+      "name": "Badger",
+      "tokenName": "Badger",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Bastion Defender (Bow)": {
+      "name": "Bastion Defender (Bow)",
+      "tokenName": "Bastion Defender (Bow)",
+      "items": {
+        "Leather Armor": {
+          "name": "Leather Armor"
+        },
+        "Keen Hearing and Sight": {
+          "name": "Keen Hearing and Sight"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Shortsword": {
+          "name": "Shortsword"
+        },
+        "Longbow": {
+          "name": "Longbow"
+        }
+      }
+    },
+    "Bastion Defender (Knight)": {
+      "name": "Bastion Defender (Knight)",
+      "tokenName": "Bastion Defender (Knight)",
+      "items": {
+        "Plate Armor": {
+          "name": "Plate Armor"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Greatsword": {
+          "name": "Greatsword"
+        },
+        "Heavy Crossbow": {
+          "name": "Heavy Crossbow"
+        },
+        "Leadership": {
+          "name": "Leadership"
+        },
+        "Parry": {
+          "name": "Parry"
+        },
+        "Brave": {
+          "name": "Brave"
+        }
+      }
+    },
+    "Bastion Defender (Mounted)": {
+      "name": "Bastion Defender (Mounted)",
+      "tokenName": "Bastion Defender (Mounted)",
+      "items": {
+        "Chain Shirt": {
+          "name": "Chain Shirt"
+        },
+        "Shield": {
+          "name": "Shield"
+        },
+        "Spear": {
+          "name": "Spear"
+        }
+      }
+    },
+    "Bastion Defender (Shield)": {
+      "name": "Bastion Defender (Shield)",
+      "tokenName": "Guard",
+      "items": {
+        "Chain Shirt": {
+          "name": "Chain Shirt"
+        },
+        "Shield": {
+          "name": "Shield"
+        },
+        "Spear": {
+          "name": "Spear"
+        }
+      }
+    },
+    "Bastion Defender (Spear)": {
+      "name": "Bastion Defender (Spear)",
+      "tokenName": "Bastion Defender (Spear)",
+      "items": {
+        "Chain Shirt": {
+          "name": "Chain Shirt"
+        },
+        "Shield": {
+          "name": "Shield"
+        },
+        "Spear": {
+          "name": "Spear"
+        }
+      }
+    },
+    "Bastion Defender (Sword)": {
+      "name": "Bastion Defender (Sword)",
+      "tokenName": "Bastion Defender (Sword)",
+      "items": {
+        "Chain Shirt": {
+          "name": "Chain Shirt"
+        },
+        "Longsword": {
+          "name": "Longsword"
+        }
+      }
+    },
+    "Black Bear": {
+      "name": "Black Bear",
+      "tokenName": "Black Bear",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Rend": {
+          "name": "Rend"
+        }
+      }
+    },
+    "Blob of Annihilation": {
+      "name": "Blob of Annihilation",
+      "tokenName": "Blob of Annihilation"
+    },
+    "Brown Bear": {
+      "name": "Brown Bear",
+      "tokenName": "Brown Bear",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Bite": {
+          "name": "Bite"
+        },
+        "Claw": {
+          "name": "Claw"
+        }
+      }
+    },
+    "Brown Mold": {
+      "name": "Brown Mold",
+      "tokenName": "Brown Mold",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Camel": {
+      "name": "Camel",
+      "tokenName": "Camel",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Carpet of Flying (3 by 5 ft.)": {
+      "name": "Carpet of Flying (3 by 5 ft.)",
+      "tokenName": "Carpet of Flying",
+      "items": {
+        "Carry Weight Adjustment": {
+          "name": "Carry Weight Adjustment"
+        }
+      }
+    },
+    "Carpet of Flying (4 by 6 ft.)": {
+      "name": "Carpet of Flying (4 by 6 ft.)",
+      "tokenName": "Carpet of Flying",
+      "items": {
+        "Carry Weight Adjustment": {
+          "name": "Carry Weight Adjustment"
+        }
+      }
+    },
+    "Carpet of Flying (5 by 7 ft.)": {
+      "name": "Carpet of Flying (5 by 7 ft.)",
+      "tokenName": "Carpet of Flying"
+    },
+    "Carpet of Flying (6 by 9 ft.)": {
+      "name": "Carpet of Flying (6 by 9 ft.)",
+      "tokenName": "Carpet of Flying",
+      "items": {
+        "Carry Weight Adjustment": {
+          "name": "Carry Weight Adjustment"
+        }
+      }
+    },
+    "Colossus": {
+      "name": "Colossus",
+      "tokenName": "Colossus"
+    },
+    "Dancing Sword": {
+      "name": "Dancing Sword",
+      "tokenName": "Dancing Sword",
+      "items": {
+        "Greatsword": {
+          "name": "Greatsword"
+        },
+        "Longsword": {
+          "name": "Longsword"
+        },
+        "Rapier": {
+          "name": "Rapier"
+        },
+        "Scimitar": {
+          "name": "Scimitar"
+        },
+        "Shortsword": {
+          "name": "Shortsword"
+        }
+      }
+    },
+    "Dire Wolf": {
+      "name": "Dire Wolf",
+      "tokenName": "Dire Wolf",
+      "items": {
+        "Pack Tactics": {
+          "name": "Pack Tactics"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Driftglobe (Daylight)": {
+      "name": "Driftglobe (Daylight)",
+      "tokenName": "Driftglobe"
+    },
+    "Driftglobe (Light)": {
+      "name": "Driftglobe (Light)",
+      "tokenName": "Driftglobe"
+    },
+    "Elemental Cataclysm": {
+      "name": "Elemental Cataclysm",
+      "tokenName": "Elemental Cataclysm"
+    },
+    "Elephant": {
+      "name": "Elephant",
+      "tokenName": "Elephant",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Gore": {
+          "name": "Gore"
+        },
+        "Trample": {
+          "name": "Trample"
+        }
+      }
+    },
+    "Empyrean": {
+      "name": "Empyrean",
+      "tokenName": "Empyrean"
+    },
+    "Fireball Fungus": {
+      "name": "Fireball Fungus",
+      "tokenName": "Fireball Fungus",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Floating Whip": {
+      "name": "Floating Whip",
+      "tokenName": "Floating Whip",
+      "items": {
+        "Melee Spell Attack": {
+          "name": "Melee Spell Attack"
+        }
+      }
+    },
+    "Frog": {
+      "name": "Frog",
+      "tokenName": "Frog",
+      "items": {
+        "Amphibious": {
+          "name": "Amphibious"
+        },
+        "Standing Leap": {
+          "name": "Standing Leap"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Giant Badger": {
+      "name": "Giant Badger",
+      "tokenName": "Giant Badger",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Giant Fly": {
+      "name": "Giant Fly",
+      "tokenName": "Giant Fly"
+    },
+    "Giant Goat": {
+      "name": "Giant Goat",
+      "tokenName": "Giant Goat",
+      "items": {
+        "Ram": {
+          "name": "Ram"
+        }
+      }
+    },
+    "Giant Spider": {
+      "name": "Giant Spider",
+      "tokenName": "Giant Spider",
+      "items": {
+        "Spider Climb": {
+          "name": "Spider Climb"
+        },
+        "Web Walker": {
+          "name": "Web Walker"
+        },
+        "Bite": {
+          "name": "Bite"
+        },
+        "Web": {
+          "name": "Web"
+        }
+      }
+    },
+    "Giant Weasel": {
+      "name": "Giant Weasel",
+      "tokenName": "Giant Weasel",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Goat": {
+      "name": "Goat",
+      "tokenName": "Goat",
+      "items": {
+        "Ram": {
+          "name": "Ram"
+        }
+      }
+    },
+    "Goat of Terror": {
+      "name": "Goat of Terror",
+      "tokenName": "Goat of Terror",
+      "items": {
+        "Lance (Goat Horn) +1": {
+          "name": "Lance (Goat Horn) +1"
+        },
+        "Longsword (Goat Horn) +2": {
+          "name": "Longsword (Goat Horn) +2"
+        },
+        "Frightened Emanation": {
+          "name": "Frightened Emanation"
+        }
+      }
+    },
+    "Goat of Traveling": {
+      "name": "Goat of Traveling",
+      "tokenName": "Goat of Traveling",
+      "items": {
+        "Hooves": {
+          "name": "Hooves"
+        }
+      }
+    },
+    "Green Slime": {
+      "name": "Green Slime",
+      "tokenName": "Green Slime",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Illusory Creature": {
+      "name": "Illusory Creature",
+      "tokenName": "Illusory Creature"
+    },
+    "Imp": {
+      "name": "Imp",
+      "tokenName": "Imp",
+      "items": {
+        "Devil’s Sight": {
+          "name": "Devil’s Sight"
+        },
+        "Magic Resistance": {
+          "name": "Magic Resistance"
+        },
+        "Sting": {
+          "name": "Sting"
+        },
+        "Invisibility": {
+          "name": "Invisibility"
+        },
+        "Shape-Shift": {
+          "name": "Shape-Shift"
+        }
+      }
+    },
+    "Inferno": {
+      "name": "Inferno",
+      "tokenName": "Inferno",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Larva": {
+      "name": "Larva",
+      "tokenName": "Larva"
+    },
+    "Lion": {
+      "name": "Lion",
+      "tokenName": "Lion",
+      "items": {
+        "Pack Tactics": {
+          "name": "Pack Tactics"
+        },
+        "Running Leap": {
+          "name": "Running Leap"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Rend": {
+          "name": "Rend"
+        },
+        "Roar": {
+          "name": "Roar"
+        }
+      }
+    },
+    "Mastiff": {
+      "name": "Mastiff",
+      "tokenName": "Mastiff",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Mule": {
+      "name": "Mule",
+      "tokenName": "Mule",
+      "items": {
+        "Beast of Burden": {
+          "name": "Beast of Burden"
+        },
+        "Hooves": {
+          "name": "Hooves"
+        }
+      }
+    },
+    "Panther": {
+      "name": "Panther",
+      "tokenName": "Panther",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Pounce": {
+          "name": "Pounce"
+        },
+        "Prowl": {
+          "name": "Prowl"
+        }
+      }
+    },
+    "Poisonous Gas": {
+      "name": "Poisonous Gas",
+      "tokenName": "Poisonous Gas",
+      "items": {
+        "Poisonous Gas": {
+          "name": "Poisonous Gas"
+        }
+      }
+    },
+    "Quicksand Pit": {
+      "name": "Quicksand Pit",
+      "tokenName": "Quicksand Pit",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Rat": {
+      "name": "Rat",
+      "tokenName": "Rat",
+      "items": {
+        "Agile": {
+          "name": "Agile"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Raven": {
+      "name": "Raven",
+      "tokenName": "Raven",
+      "items": {
+        "Mimicry": {
+          "name": "Mimicry"
+        },
+        "Beak": {
+          "name": "Beak"
+        }
+      }
+    },
+    "Razorvine": {
+      "name": "Razorvine",
+      "tokenName": "Razorvine",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Riding Horse": {
+      "name": "Riding Horse",
+      "tokenName": "Riding Horse",
+      "items": {
+        "Hooves": {
+          "name": "Hooves"
+        }
+      }
+    },
+    "River Styx": {
+      "name": "River Styx",
+      "tokenName": "River Styx",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Rockslide": {
+      "name": "Rockslide",
+      "tokenName": "Rockslide",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Skeleton": {
+      "name": "Skeleton",
+      "tokenName": "Skeleton",
+      "items": {
+        "Shortsword": {
+          "name": "Shortsword"
+        },
+        "Shortbow": {
+          "name": "Shortbow"
+        }
+      }
+    },
+    "Tiger": {
+      "name": "Tiger",
+      "tokenName": "Tiger",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Pounce": {
+          "name": "Pounce"
+        },
+        "Prowl": {
+          "name": "Prowl"
+        }
+      }
+    },
+    "Vicious Vine": {
+      "name": "Vicious Vine",
+      "tokenName": "Vicious Vine",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Weasel": {
+      "name": "Weasel",
+      "tokenName": "Weasel",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Webs": {
+      "name": "Webs",
+      "tokenName": "Webs",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Wolf": {
+      "name": "Wolf",
+      "tokenName": "Wolf",
+      "items": {
+        "Pack Tactics": {
+          "name": "Pack Tactics"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Yellow Mold": {
+      "name": "Yellow Mold",
+      "tokenName": "Yellow Mold",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/Effects"
+        }
+      }
+    },
+    "Zombie": {
+      "name": "Zombie",
+      "tokenName": "Zombie",
+      "items": {
+        "Undead Fortitude": {
+          "name": "Undead Fortitude"
+        },
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    }
+  }
+}

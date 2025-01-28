@@ -1,0 +1,97 @@
+{
+	"label": "Caractéristiques",
+	"entries": {
+		"Aversion to Fire": {
+			"name": "Aversion au Feu",
+			"description": "<p>Si le [[lookup @name]] subit des dégâts de Feu, il a un Désavantage sur ses jets d’attaque et ses tests de caractéristique jusqu’à la fin de son prochain tour.</p>"
+		},
+		"Battle Ready": {
+			"name": "Prêt au Combat",
+			"description": "<p>Le [[lookup @name]] a l’Avantage sur ses jets d’Initiative.</p>"
+		},
+		"Beast Whisperer": {
+			"name": "Chuchoteur de Bêtes",
+			"description": "<p>Le [[lookup @name]] peut communiquer avec les Bêtes comme s’ils partageaient une langue commune.</p>"
+		},
+		"Death Jinx": {
+			"name": "Malédiction de Mort",
+			"description": "<p>Quand le [[lookup @name]] meurt, une créature aléatoire dans un rayon de 10 pieds autour du [[lookup @name]] mort est ciblée par un sort @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane000000]{Fléau} (DD de sauvegarde 13), qui dure pour toute sa durée.</p>"
+		},
+		"Dimensional Disruption": {
+			"name": "Perturbation Dimensionnelle",
+			"description": "<p>Une énergie perturbatrice s’étend depuis le [[lookup @name]] dans une émanation de 30 pieds. Les autres créatures ne peuvent pas se téléporter vers ou depuis un espace situé dans cette zone. Toute tentative en ce sens est gaspillée.</p>"
+		},
+		"Disciple of the Nine Hells": {
+			"name": "Disciple des Neuf Enfers",
+			"description": "<p>Quand le [[lookup @name]] meurt, son corps vomit un @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgmobImp0000000]{Diablotin} Hostile dans le même espace.</p>"
+		},
+		"Disintegration": {
+			"name": "Désintégration",
+			"description": "<p>Quand le [[lookup @name]] meurt, son corps et ses possessions non magiques se transforment en poussière. Les objets magiques qu’il possédait restent sur place.</p>"
+		},
+		"Emissary of Juiblex": {
+			"name": "Émissaire de Juiblex",
+			"description": "<p>Quand le [[lookup @name]] meurt, son corps vomit une <strong>Gelée Ocre</strong> Hostile dans le même espace.</p>"
+		},
+		"Fey Ancestry": {
+			"name": "Ascendance Fey",
+			"description": "<p>Le [[lookup @name]] a l’Avantage sur les jets de sauvegarde qu’il effectue pour éviter ou mettre fin à la condition &amp;Reference[charmed], et la magie ne peut pas le plonger dans le sommeil.</p>"
+		},
+		"Forbiddance": {
+			"name": "Interdiction",
+			"description": "<p>Le [[lookup @name]] ne peut pas entrer dans une résidence sans y avoir été invité par l’un de ses occupants.</p>"
+		},
+		"Gloom Shroud": {
+			"name": "Voile des Ténèbres",
+			"description": "<p>Une énergie imperceptible canalisée depuis le Plan de l’Ombre s’étend depuis le [[lookup @name]] dans une émanation de 20 pieds. Les autres créatures dans cette zone ont un Désavantage sur les tests de Charisme et les jets de sauvegarde de Charisme.</p>"
+		},
+		"Light": {
+			"name": "Lumière",
+			"description": "<p>Le [[lookup @name]] émet une Lumière Vive dans un rayon de 10 pieds et une Lumière Faible sur 10 pieds supplémentaires. En tant qu’Action Bonus, le [[lookup @name]] peut supprimer cette lumière ou la faire réapparaître. La lumière s’éteint si le [[lookup @name]] meurt.</p>"
+		},
+		"Mimicry": {
+			"name": "Imitation",
+			"description": "<p>Le [[lookup @name]] peut imiter les sons des Bêtes et les voix des Humanoïdes. Une créature qui entend ces sons peut déterminer qu’il s’agit d’imitations avec un test de Sagesse (Perspicacité) DD 14 réussi.</p>"
+		},
+		"Poison Tolerant": {
+			"name": "Tolérance au Poison",
+			"description": "<p>Le [[lookup @name]] a l’Avantage sur les jets de sauvegarde qu’il effectue pour éviter ou mettre fin à la condition &amp;Reference[Empoisonné apply=false].</p>"
+		},
+		"Resonant Connection": {
+			"name": "Lien Résonant",
+			"description": "<p>Le [[lookup @name]] possède un lien surnaturel avec une autre créature ou un objet et connaît le chemin le plus direct pour y accéder, à condition qu’ils soient à moins d’un mille (1,6 km) l’un de l’autre.</p>"
+		},
+		"Siege Monster": {
+			"name": "Monstre de Siège",
+			"description": "<p>Le [[lookup @name]] inflige des dégâts doubles aux objets et structures.</p>"
+		},
+		"Slaad Host": {
+			"name": "Hôte de Slaad",
+			"description": "<p>Quand le [[lookup @name]] meurt, un <strong>Têtard Slaad</strong> Hostile jaillit de ses entrailles dans le même espace.</p>"
+		},
+		"Steadfast": {
+			"name": "Détermination",
+			"description": "<p>Le [[lookup @name]] est Immunisé contre la condition &amp;Reference[Terrifié apply=false] tant qu’il peut voir un allié à moins de 30 pieds de lui.</p>"
+		},
+		"Telepathic Bond": {
+			"name": "Lien Télépathique",
+			"description": "<p>Le [[lookup @name]] est lié psychiquement à une autre créature. Tant qu’ils sont sur le même plan d’existence, ils peuvent communiquer télépathiquement entre eux.</p>"
+		},
+		"Telepathic Shroud": {
+			"name": "Voile Télépathique",
+			"description": "<p>Le [[lookup @name]] est immunisé contre tout effet qui permet de percevoir ses émotions ou de lire ses pensées, ainsi qu’aux sorts de l’école de Divination. En tant qu’Action Bonus, le [[lookup @name]] peut supprimer ce trait ou le réactiver.</p>"
+		},
+		"Ventriloquism": {
+			"name": "Ventriloquie",
+			"description": "<p>Chaque fois que le [[lookup @name]] parle, il peut choisir un point situé à moins de 30 pieds de lui ; sa voix émane de ce point.</p>"
+		},
+		"Warrior's Wrath": {
+			"name": "Colère du Guerrier",
+			"description": "<p>Le [[lookup @name]] a l’Avantage sur les jets d’attaque au corps à corps contre toute créature &amp;Reference[Blessée].</p>"
+		},
+		"Wild Talent": {
+			"name": "Don Sauvage",
+			"description": "<p>Choisissez un sort mineur ; le [[lookup @name]] peut lancer ce sort mineur sans composantes matérielles, en utilisant Intelligence, Sagesse ou Charisme comme caractéristique d’incantation.</p>"
+		}
+	}
+}

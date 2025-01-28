@@ -1,0 +1,554 @@
+{
+  "name": "Créer un personnage",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Introduction",
+      "type": "text",
+      "_id": "8Dkn6nfrJruZzH83",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh2ArtHandout.JournalEntryPage.7r610isGOF9NImBL]</p><p>Vous pouvez créer un personnage pour Dungeons &amp; Dragons en utilisant les éléments de base de ce livre. Votre personnage est une combinaison de statistiques de jeu, d'éléments de jeu de rôle, et de votre imagination. Vous choisissez une classe (comme @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000]{Guerrier} ou @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000]{Magicien}), un historique (comme @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBackgroundDes.JournalEntryPage.APL7pJ7446etLuQN]{Marin} ou @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBackgroundDes.JournalEntryPage.7DAvTQlrw7OTsgpX]{Acolyte}), et une espèce (comme @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpeciesDescri.JournalEntryPage.8t4u8CWYbxubXflR]{Humain} ou @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpeciesDescri.JournalEntryPage.h9oGyt2Wh9mp0xbg]{Elfe}). Vous inventez également la personnalité et l'apparence de votre personnage. Une fois terminé, votre personnage sert d'avatar dans le multivers de D&amp;D.</p><h2>Préparez-vous</h2><p>Avant de plonger dans la création de personnage, il y a quelques étapes à suivre, comme expliqué ci-dessous.</p><h2>Discutez avec votre MJ</h2><p>Commencez par discuter avec votre Maître de Jeu du type de partie de D&amp;D qu'il prévoit de mener. Si le MJ s'inspire de la mythologie grecque, par exemple, vous pourriez choisir une direction différente pour votre personnage que si le MJ prévoit une aventure de piraterie en haute mer. Réfléchissez au type d'aventurier que vous souhaitez incarner dans ce jeu. Si vous ne savez pas par où commencer, regardez les illustrations de personnages dans ce livre pour vous inspirer.</p><h2>Choisissez une fiche de personnage</h2><p>Vous allez consigner les principales informations de votre personnage sur une fiche de personnage. Tout au long de ce chapitre, nous utilisons le terme « fiche de personnage » pour désigner ce que vous utilisez pour suivre les détails de votre personnage, qu'il s'agisse d'une fiche imprimée (comme celle montrée dans les pages suivantes), d'une fiche numérique comme celle sur D&amp;D Beyond, ou d'une simple feuille de papier. Choisissez le style de fiche qui vous convient, puis lancez-vous dans la création de votre personnage !</p><aside class=\"notable\"><h3>Session zéro</h3><p>Certains Maîtres de Jeu commencent une campagne par une « session zéro », une première réunion axée sur la création des personnages et la définition des attentes, y compris les sujets à éviter et ceux à privilégier. Une session zéro est une excellente occasion de discuter avec les autres joueurs et le MJ, et de décider si vos personnages se connaissent, comment ils se sont rencontrés, et quels types de quêtes le groupe pourrait entreprendre ensemble.</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        },
+        "monks-enhanced-journal": {
+          "appendix": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": 1737382186050,
+        "lastModifiedBy": "hr8R6JdDczZ07gHP"
+      }
+    },
+    {
+      "sort": 200000,
+      "name": "Créer votre personnage",
+      "type": "text",
+      "_id": "l4eqkEUGLVS2jBhO",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Voici les étapes pour créer un personnage ; chaque étape est détaillée dans ce chapitre :</p><ol><li><strong>Choisissez une classe. </strong>Chaque aventurier appartient à une classe. Une classe décrit globalement la vocation, les talents spéciaux et les tactiques préférées d'un personnage.</li><li><strong>Déterminez l'origine.</strong> L'origine d'un personnage comprend deux éléments : l'historique et l'espèce. Comment le personnage a-t-il passé les années avant de se lancer dans une vie d'aventure ? Qui sont les ancêtres du personnage ? Vous pouvez également choisir les langues de votre personnage.</li><li><strong>Déterminez les scores de caractéristiques.</strong> Une grande partie de ce que fait votre personnage dans le jeu dépend des six caractéristiques du personnage.</li><li><strong>Choisissez un alignement.</strong> L'alignement est un raccourci pour décrire la boussole morale de votre personnage.</li><li><strong>Remplissez les détails.</strong> En utilisant les choix que vous avez faits, remplissez les détails restants sur votre feuille de personnage.</li></ol><p>Sur la feuille de personnage des pages suivantes, de nombreux espaces sont étiquetés avec un numéro correspondant à l'une de ces étapes.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Créer votre personnage dans Foundry</h3><p>C'est facile de créer un personnage directement sur votre feuille de personnage dans Foundry. Faites simplement ce qui suit :</p><ol><li>Activez le mode « Édition » en haut à gauche.</li><li><p>Dans l'onglet <span class=\"reference\"><em class=\"fas fa-cog\"> </em> Détails</span>, cliquez sur <span class=\"reference\">Ajouter une espèce</span> dans la colonne de droite sous vos jets de sauvegarde et choisissez votre espèce dans le navigateur de compendium en cochant la case à droite et en appuyant sur <span class=\"reference\">Sélectionner</span>.</p><ul><li>Vous pouvez sélectionner des filtres sur le côté gauche. Un premier clic l'inclut, un deuxième clic l'exclut, et un troisième clic le remet à l'état non coché.</li></ul></li><li><p>Cliquez sur <span class=\"reference\">Ajouter un historique</span> sous votre espèce et faites un choix dans le navigateur de compendium.</p></li><li><p>Passez à l'onglet <span class=\"reference\"><em class=\"fas fa-list\"> </em> Capacités</span> et cliquez sur <span class=\"reference\">Ajouter une classe</span> et faites un choix dans le navigateur de compendium.</p></li><li><p>Lorsque vous atteignez le niveau qui vous accorde votre sous-classe, vous pouvez revenir à l'onglet <span class=\"reference\"><em class=\"fas fa-list\"> </em> Capacités</span> et cliquer sur l'icône <span class=\"reference\"><em class=\"fa-solid fa-circle-plus\" inert> </em></span> pour sélectionner votre sous-classe.</p></li></ol><p>Chaque fois que vous faites un choix ou montez de niveau, vous serez guidé à travers le système de progression qui vous indique quelles capacités vous sont accordées, vous permet de faire des choix, et de lancer vos points de vie (ou de prendre la moyenne).</p></article></section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "sort": 300000,
+      "name": "Étape 1 : Choisissez une classe",
+      "type": "text",
+      "_id": "5ay66aAVgkgRH7qH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Choisissez une classe et inscrivez-la sur votre feuille de personnage. Le tableau récapitulatif des classes résume les classes. Voir @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCharacterClas]{chapitre 3} pour les détails des classes.</p><table><caption>Vue d'ensemble des classes</caption><thead><tr><th><p>Classe</p></th><th><p>Aime ...</p></th><th><p>Caractéristique principale</p></th><th><p>Complexité</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBarbarian0000]{Barbare}</p></td><td><p>Le combat</p></td><td><p>Force</p></td><td><p>Moyenne</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000]{Barde}</p></td><td><p>Les performances</p></td><td><p>Charisme</p></td><td><p>Élevée</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCleric0000000]{Clerc}</p></td><td><p>Les dieux</p></td><td><p>Sagesse</p></td><td><p>Moyenne</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbDruid00000000]{Druide}</p></td><td><p>La nature</p></td><td><p>Sagesse</p></td><td><p>Élevée</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000]{Guerrier}</p></td><td><p>Les armes</p></td><td><p>Force<br />ou Dextérité</p></td><td><p>Basse</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbMonk000000000]{Moine}</p></td><td><p>Le combat à mains nues</p></td><td><p>Dextérité<br />et Sagesse</p></td><td><p>Élevée</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbPaladin000000]{Paladin}</p></td><td><p>La défense</p></td><td><p>Force<br />et Charisme</p></td><td><p>Moyenne</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000]{Rôdeur}</p></td><td><p>La survie</p></td><td><p>Dextérité<br />et Sagesse</p></td><td><p>Moyenne</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000]{Roublard}</p></td><td><p>La furtivité</p></td><td><p>Dextérité</p></td><td><p>Basse</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000]{Ensorceleur}</p></td><td><p>La puissance</p></td><td><p>Charisme</p></td><td><p>Élevée</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000]{Occultiste}</p></td><td><p>Le savoir occulte</p></td><td><p>Charisme</p></td><td><p>Élevée</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000]{Magicien}</p></td><td><p>Les grimoires</p></td><td><p>Intelligence</p></td><td><p>Moyenne</p></td></tr></tbody></table><aside class=\"notable\"><h3>Un groupe équilibré</h3><p>Le groupe classique de D&amp;D comprend un Clerc, un Guerrier, un Roublard et un Magicien. Ces quatre classes ont la plus longue histoire dans le jeu, mais plus important encore, elles apportent un mélange équilibré de capacités aux aventures. Vous êtes libre d'utiliser cette configuration de groupe ou de la modifier en utilisant ces lignes directrices :</p><p><strong>Clerc.</strong> Remplacez par Barde ou Druide</p><p><strong>Guerrier.</strong> Remplacez par Barbare, Moine, Paladin ou Rôdeur</p><p><strong>Roublard.</strong> Remplacez par Barde ou Rôdeur</p><p><strong>Magicien.</strong> Remplacez par Barde, Magicien ou Occultiste</p></aside><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Commencez rapidement avec des personnages prédéfinis</h3><p>Il existe des personnages pré-générés de niveau 1 pour chaque classe utilisant les attributs et capacités recommandés par le Manuel des joueurs : @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgBarbarian0]{Barbare}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgBard000000]{Barde}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgCleric0000]{Clerc}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgDruid00000]{Druide}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgFighter000]{Guerrier}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgMonk000000]{Moine}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgPaladin000]{Paladin}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgRanger0000]{Rôdeur}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgRogue00000]{Roublard}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgSorcerer00]{Ensorceleur}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgWarlock000]{Occultiste}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgWizard0000]{Magicien}.</p></article></section><h2>Inscrivez votre niveau</h2><p>Inscrivez le niveau de votre personnage sur votre feuille de personnage. En général, un personnage commence au niveau 1 et progresse en niveau en aventurant et en gagnant des points d'expérience (XP).</p><p><em><strong>Inscrivez vos XP.</strong></em> Notez également vos points d'expérience. Un personnage de niveau 1 a 0 XP.</p><p><em><strong>Commencer à un niveau plus élevé.</strong></em> Votre MJ pourrait vous faire commencer à un niveau plus élevé. Si vous commencez au niveau 3 ou plus, inscrivez votre sous-classe choisie sur votre feuille de personnage. Voir la section « Commencer à des niveaux plus élevés » plus loin dans le chapitre pour plus d'informations.</p><h2>Notez la formation à l'armure</h2><p>Votre classe pourrait vous donner une formation avec certaines catégories d'armures. Notez votre formation à l'armure sur votre feuille de personnage. La formation à l'armure signifie que vous pouvez porter cette armure efficacement, obtenant des bonus défensifs. Les catégories d'armures sont décrites au chapitre 6.</p><h2>Gardez cela en tête</h2><p>Vous remplirez plus de détails sur votre classe plus tard. Choisir votre classe est la décision la plus importante que vous prenez lors de la création d'un personnage, et elle informe de nombreuses décisions que vous prendrez dans les étapes ultérieures. Vous reviendrez à la description de votre classe dans @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCharacterClas]{chapitre 3} plusieurs fois avant d'avoir terminé.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "sort": 400000,
+      "name": "Étape 2 : Déterminer l'origine",
+      "type": "text",
+      "_id": "t1WP9VEevo4TOTXw",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Déterminer l'origine de votre personnage implique de choisir un @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBackgroundDes]{historique}, une @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpeciesDescri]{espèce}, et deux langues.</p><p>L'historique d'un personnage représente l'endroit et l'occupation qui ont été les plus formateurs pour le personnage. La combinaison de l'historique, de l'espèce et des langues offre un terrain fertile pour votre imagination alors que vous réfléchissez aux premiers jours de votre personnage.</p><h2>Choisissez un Historique</h2><p>Choisissez l'historique de votre personnage et inscrivez-le sur votre feuille de personnage. Vous pouvez choisir n'importe lequel des historiques détaillés dans @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBackgroundDes]{le chapitre 4}, et votre MJ pourrait proposer d'autres historiques en option.</p><p>L'historique que vous choisissez influence l'étape 3, lorsque vous déterminez les scores de capacité de votre personnage. Si vous avez du mal à choisir, la table Scores de Capacité et Historiques montre quels historiques profitent à quels scores de capacité. Cherchez la capacité principale de votre classe là-bas.</p><table><caption>Scores de Capacité et Historiques</caption><thead><tr><th><p>Capacité</p></th><th><p>Historiques</p></th></tr></thead><tbody><tr><td><p>Force</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgArtisan0000]{Artisan}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgEntertainer]{Artiste}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgFarmer00000]{Fermier}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuard000000]{Garde}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgNoble000000]{Noble}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSailor00000]{Marin}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSoldier0000]{Soldat}</p></td></tr><tr><td><p>Dextérité</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgArtisan0000]{Artisan}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCharlatan00]{Charlatan}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCriminal000]{Criminel}, <span>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgEntertainer]{Artiste}</span>, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuide000000]{Guide}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSailor00000]{Marin}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgScribe00000]{Scribe}, <span>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSoldier0000]{Soldat}</span>, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgWayfarer000]{Vagabon}</p></td></tr><tr><td><p>Constitution</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCharlatan00]{Charlatan}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCriminal000]{Criminel}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgFarmer00000]{Fermier}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuide000000]{Guide}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgHermit00000]{Ermite}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgMerchant000]{Marchand}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSage0000000]{Sage}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSoldier0000]{Soldat}</p></td></tr><tr><td><p>Intelligence</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgAcolyte0000]{Acolyte}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgArtisan0000]{Artisan}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCriminal000]{Criminel}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuard000000]{Garde}, <span>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgMerchant000]{Marchand}</span>, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgNoble000000]{Noble}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSage0000000]{Sage}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgScribe00000]{Scribe}</p></td></tr><tr><td><p>Sagesse</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgAcolyte0000]{Acolyte}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgFarmer00000]{Fermier}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuard000000]{Garde}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuide000000]{Guide}, <span>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgHermit00000]{Ermite}</span>, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSage0000000]{Sage}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSailor00000]{Marin}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgScribe00000]{Scribe}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgWayfarer000]{Vagabon}</p></td></tr><tr><td><p>Charisme</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgAcolyte0000]{Acolyte}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCharlatan00]{Charlatan}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgEntertainer]{Artiste}, <span>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgHermit00000]{Ermite}</span>, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgMerchant000]{Marchand}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgNoble000000]{Noble}, @UUID[Compendium.dnd-players-handbook.origins.Item.phbbgWayfarer000]{Vagabon}</p></td></tr></tbody></table><p><em><strong>Notez votre don.</strong></em> Un historique vous donne un don, qui accorde des capacités particulières à votre personnage. Les dons sont détaillés dans @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000]{le chapitre 5}. Inscrivez le don sur votre feuille de personnage.</p><p><em><strong>Notez les compétences.</strong></em> Votre historique vous donne la compétence dans deux compétences et un outil. Inscrivez ces informations sur votre feuille de personnage.</p><p>Votre classe vous donne également des compétences. Consultez la description de votre classe dans @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCharacterClas]{le chapitre 3} et notez les compétences sur votre feuille de personnage.</p><p>Sur la feuille de personnage exemple, vous pouvez indiquer la compétence dans les compétences et les jets de sauvegarde en cochant le cercle à côté d'eux.</p><p>Le tableau des caractéristiques de votre classe montre votre Bonus de Maîtrise (décrit au chapitre 1), qui est de +2 pour un personnage de niveau 1. Notez ce chiffre sur votre feuille de personnage. Vous remplirez d'autres chiffres liés à ces compétences à l'étape 5.</p><h2>Choisissez l'Équipement de Départ</h2><p>Votre historique et votre classe fournissent tous deux des équipements de départ. Reportez-vous au tableau d'équipement pour chaque élément et écrivez-le sur votre feuille de personnage.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "sort": 500000,
+      "name": "Étape 3 : Déterminer les scores de capacité",
+      "type": "text",
+      "_id": "9o8NbQ1Ph2xCxlQh",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Pour déterminer les scores de caractéristiques de votre personnage, vous devez d'abord générer un ensemble de six nombres en utilisant les instructions ci-dessous, puis les assigner à vos six caractéristiques. Le chapitre 1 explique la signification de chaque caractéristique.</p><table id=\"ability-score-point-costs\" class=\"right three\"><caption>Coût en Points pour les Scores de Caractéristiques</caption><thead><tr><th><p>Score</p></th><th><p>Coût</p></th></tr></thead><tbody><tr><td><p>8</p></td><td><p>0</p></td></tr><tr><td><p>9</p></td><td><p>1</p></td></tr><tr><td><p>10</p></td><td><p>2</p></td></tr><tr><td><p>11</p></td><td><p>3</p></td></tr><tr><td><p>12</p></td><td><p>4</p></td></tr><tr><td><p>13</p></td><td><p>5</p></td></tr><tr><td><p>14</p></td><td><p>7</p></td></tr><tr><td><p>15</p></td><td><p>9</p></td></tr></tbody></table><h2>Générez Vos Scores</h2><p>Déterminez vos scores de caractéristiques en utilisant l'une des trois méthodes suivantes. Votre MJ pourrait préférer que vous en utilisiez une en particulier.</p><p><em><strong>Matrice Standard.</strong></em> Utilisez les six scores suivants pour vos caractéristiques : 15, 14, 13, 12, 10, 8.</p><p><em><strong>Génération Aléatoire.</strong></em> Lancez [[/r 4d6kh3]]{4d6} (ceci lance 4d6 et garde les 3 meilleurs résultats) et notez le total des trois dés les plus élevés. Faites cela cinq fois de plus, pour obtenir six nombres.</p><p><em><strong>Coût en Points.</strong></em> Vous avez 27 points à dépenser pour vos scores de caractéristiques. Le coût de chaque score est indiqué dans la table des coûts en points pour les scores de caractéristiques. Par exemple, un score de 14 coûte 7 de vos 27 points.</p><h2>Attribuez les Scores de Caractéristiques</h2><p>Une fois que vous avez généré six scores, assignez-les à la Force, la Dextérité, la Constitution, l'Intelligence, la Sagesse et le Charisme, en gardant à l'esprit la caractéristique principale de votre classe. Remplissez également les modificateurs de caractéristiques.</p><p>Si vous utilisez l'option de la Matrice Standard, consultez la table de la Matrice Standard par Classe pour obtenir des suggestions sur la manière d'attribuer les scores pour la classe de votre personnage. La table place les scores les plus élevés dans les caractéristiques principales d'une classe. Si vous avez utilisé une autre méthode pour générer les scores, vous pouvez tout de même utiliser cette table pour vous guider sur la répartition des scores les plus hauts et les plus bas.</p><aside class=\"notable\"><h3>Historique et Espèces des Anciens Livres</h3><p>Les historiques dans les anciens livres de D&amp;D n'incluent pas d'ajustements de scores de caractéristiques. Si vous utilisez un historique d'un ancien livre, ajustez vos scores de caractéristiques en augmentant un score de 2 et un autre de 1, ou en augmentant trois scores de 1. Aucun de ces augmentations ne peut porter un score au-dessus de 20.</p><p>De même, les espèces dans les anciens livres incluent des augmentations de scores de caractéristiques. Si vous utilisez une espèce d'un ancien livre, ignorez ces augmentations et n'utilisez que celles fournies par votre historique.</p><p>De plus, si l'historique que vous choisissez ne fournit pas de don, vous gagnez un don d'Origine de votre choix.</p></aside><table id=\"standard-array-class\"><caption>Matrice Standard par Classe</caption><thead><tr><th><p>Classe</p></th><th><p>For.</p></th><th><p>Dex.</p></th><th><p>Con.</p></th><th><p>Int.</p></th><th><p>Sag.</p></th><th><p>Cha.</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbBarbarian0]{Barbare}</p></td><td><p>15</p></td><td><p>13</p></td><td><p>14</p></td><td><p>10</p></td><td><p>12</p></td><td><p>8</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdBard000000]{Barde}</p></td><td><p>8</p></td><td><p>14</p></td><td><p>12</p></td><td><p>13</p></td><td><p>10</p></td><td><p>15</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric0000]{Clerc}</p></td><td><p>14</p></td><td><p>8</p></td><td><p>13</p></td><td><p>10</p></td><td><p>15</p></td><td><p>12</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdDruid00000]{Druide}</p></td><td><p>8</p></td><td><p>12</p></td><td><p>14</p></td><td><p>13</p></td><td><p>15</p></td><td><p>10</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrFighter000]{Guerrier}</p></td><td><p>15</p></td><td><p>14</p></td><td><p>13</p></td><td><p>8</p></td><td><p>10</p></td><td><p>12</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMonk000000]{Moine}</p></td><td><p>12</p></td><td><p>15</p></td><td><p>13</p></td><td><p>10</p></td><td><p>14</p></td><td><p>8</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnPaladin000]{Paladin}</p></td><td><p>15</p></td><td><p>10</p></td><td><p>13</p></td><td><p>8</p></td><td><p>12</p></td><td><p>14</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrRanger0000]{Rôdeur}</p></td><td><p>12</p></td><td><p>15</p></td><td><p>13</p></td><td><p>8</p></td><td><p>14</p></td><td><p>10</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeRogue00000]{Roublard}</p></td><td><p>12</p></td><td><p>15</p></td><td><p>13</p></td><td><p>14</p></td><td><p>10</p></td><td><p>8</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrSorcerer00]{Ensorceleur}</p></td><td><p>10</p></td><td><p>13</p></td><td><p>14</p></td><td><p>8</p></td><td><p>12</p></td><td><p>15</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkWarlock000]{Occultiste}</p></td><td><p>8</p></td><td><p>14</p></td><td><p>13</p></td><td><p>12</p></td><td><p>10</p></td><td><p>15</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdWizard0000]{Magicien}</p></td><td><p>8</p></td><td><p>12</p></td><td><p>13</p></td><td><p>15</p></td><td><p>14</p></td><td><p>10</p></td></tr></tbody></table><h2>Ajustez les Scores de Caractéristiques</h2><p>Après avoir attribué vos scores de caractéristiques, ajustez-les en fonction de votre historique. Votre historique liste trois caractéristiques ; augmentez l'une de ces caractéristiques de 2 et une autre de 1, ou augmentez les trois de 1. Aucun de ces augmentations ne peut porter un score au-dessus de 20.</p><p>Certains joueurs préfèrent augmenter la caractéristique principale de leur classe, tandis que d'autres préfèrent augmenter un score faible.</p><h2>Déterminez les Modificateurs de Caractéristiques</h2><p>Enfin, déterminez vos modificateurs de caractéristiques en utilisant la table des Scores et Modificateurs de Caractéristiques. Inscrivez le modificateur à côté de chacun de vos scores.</p><table id=\"ability-scores-modifiers\"><caption>Scores et Modificateurs de Caractéristiques</caption><thead><tr><th><p>Score</p></th><th><p>Modificateur</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p>−4</p></td></tr><tr><td><p>4–5</p></td><td><p>−3</p></td></tr><tr><td><p>6–7</p></td><td><p>−2</p></td></tr><tr><td><p>8–9</p></td><td><p>−1</p></td></tr><tr><td><p>10–11</p></td><td><p>+0</p></td></tr><tr><td><p>12–13</p></td><td><p>+1</p></td></tr><tr><td><p>14–15</p></td><td><p>+2</p></td></tr><tr><td><p>16–17</p></td><td><p>+3</p></td></tr><tr><td><p>18–19</p></td><td><p>+4</p></td></tr><tr><td><p>20</p></td><td><p>+5</p></td></tr></tbody></table><h2>Décrivez l'Apparence et la Personnalité</h2><p>Les scores de caractéristiques sont une partie essentielle des règles, mais ils peuvent être plus que cela. Une fois que vous avez attribué vos scores de caractéristiques, réfléchissez à ce que ces scores pourraient dire sur l'apparence et la personnalité de votre personnage. Un personnage très fort avec un faible Charisme pourrait avoir une apparence et un comportement différents d'un personnage charismatique avec une faible Force. Les tables de mots descriptifs suivantes donnent des suggestions pour décrire votre personnage en fonction d'un score élevé ou faible dans une caractéristique.</p><p>Notez l'apparence et la personnalité de votre personnage sur votre feuille de personnage.</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbStrengthDescr caption=false rollable]</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbDexterityDesc caption=false rollable]</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbConstitutionD caption=false rollable]</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbIntelligenceD caption=false rollable]</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbWisdomDescrip caption=false rollable]</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbCharismaDescr caption=false rollable]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "sort": 600000,
+      "name": "Étape 4 : Choisissez un Alignement",
+      "type": "text",
+      "_id": "6ThVICG0QSRy7L0F",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Choisissez l'alignement de votre personnage parmi les options ci-dessous et notez-le sur votre feuille de personnage.</p><p>D&amp;D suppose que les personnages joueurs ne sont pas d'un alignement maléfique. Consultez votre MJ avant de créer un personnage maléfique.</p><aside class=\"notable\"><h3>Créatures sans Alignement</h3><p>La plupart des créatures qui n'ont pas la capacité de réfléchir rationnellement n'ont pas d'alignement ; elles sont sans alignement. Par exemple, les requins sont des prédateurs féroces, mais ils ne sont pas maléfiques ; ils sont sans alignement.</p></aside><h2>Les Neuf Alignements</h2><p>L'alignement d'une créature décrit de manière générale ses attitudes éthiques et idéaux. L'alignement est une combinaison de deux facteurs : l'un identifie la moralité (bon, mauvais, ou neutre), et l'autre décrit l'attitude envers l'ordre (loyal, chaotique, ou neutre).</p><p>Les résumés des alignements ci-dessous décrivent le comportement typique d'une créature avec cet alignement ; les individus peuvent varier par rapport à ce comportement.</p><p><em><strong>Loyal Bon (LB).</strong></em> Les créatures loyales bonnes s'efforcent de faire ce qui est juste, tel qu'attendu par la société. Une personne qui combat l'injustice et protège les innocents sans hésitation est probablement Loyal Bon.</p><p><em><strong>Neutre Bon (NB).</strong></em> Les créatures neutres bonnes font de leur mieux en respectant les règles, mais sans s'y sentir liées. Une personne bienveillante qui aide les autres selon leurs besoins est probablement Neutre Bon.</p><p><em><strong>Chaotique Bon (CB).</strong></em> Les créatures chaotiques bonnes agissent selon leur conscience, sans trop se soucier de ce que les autres attendent. Un rebelle qui attaque les collecteurs d'impôts d'un baron cruel et utilise l'argent volé pour aider les pauvres est probablement Chaotique Bon.</p><p><em><strong>Loyal Neutre (LN).</strong></em> Les individus loyaux neutres agissent conformément à la loi, la tradition, ou un code personnel. Une personne qui suit une règle de vie disciplinée—et n'est influencée ni par les demandes des nécessiteux ni par les tentations du mal—est probablement Loyal Neutre.</p><p><em><strong>Neutre (N).</strong></em> Neutre est l'alignement de ceux qui préfèrent éviter les questions morales et ne prennent pas parti, faisant ce qui semble le mieux sur le moment. Une personne ennuyée par les débats moraux est probablement Neutre.</p><p><em><strong>Chaotique Neutre (CN).</strong></em> Les créatures chaotiques neutres suivent leurs caprices, valorisant leur liberté personnelle par-dessus tout. Un escroc qui parcourt le monde en vivant de ses ruses est probablement Chaotique Neutre.</p><p><em><strong>Loyal Mauvais (LM).</strong></em> Les créatures loyales mauvaises prennent méthodiquement ce qu'elles veulent dans les limites d'un code de tradition, de loyauté ou d'ordre. Un aristocrate exploitant les citoyens tout en complotant pour obtenir plus de pouvoir est probablement Loyal Mauvais.</p><p><em><strong>Neutre Mauvais (NM).</strong></em> Neutre Mauvais est l'alignement de ceux qui ne sont pas troublés par les dommages qu'ils causent en poursuivant leurs désirs. Un criminel qui vole et tue à sa guise est probablement Neutre Mauvais.</p><p><em><strong>Chaotique Mauvais (CM).</strong></em> Les créatures chaotiques mauvaises agissent avec violence arbitraire, motivées par leur haine ou leur soif de sang. Un méchant qui poursuit des plans de vengeance et de chaos est probablement Chaotique Mauvais.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh2ArtHandout.JournalEntryPage.eYCtlrpgpc2R0T5p]</p><h4>Alignement et Personnalité</h4><p>L'alignement peut façonner la personnalité, les objectifs et les croyances fondamentales d'un personnage. En examinant les deux éléments d'un alignement, vous pouvez utiliser les listes ci-dessous pour vous inspirer de détails sur la personnalité de votre personnage.</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbChaoticTraits rollable rollable]</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbGoodTraits000 rollable rollable]</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbEvilTraits000 rollable rollable]</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbLawfulTraits0 rollable rollable]</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbNeutralTraits rollable rollable]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        },
+        "monks-enhanced-journal": {
+          "appendix": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": 1737382199490,
+        "lastModifiedBy": "hr8R6JdDczZ07gHP"
+      }
+    },
+    {
+      "sort": 700000,
+      "name": "Étape 5 : Remplir les Détails",
+      "type": "text",
+      "_id": "O1kCtOyXyxlJ1hz9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Remplissez maintenant le reste de votre feuille de personnage.</p><h2>Enregistrer les Traits de Classe</h2><p>Consultez la table des traits de votre classe dans @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCharacterClas]{chapitre 3}, et notez les traits de niveau 1. Les traits de classe sont détaillés dans ce même chapitre.</p><p>Certains traits de classe offrent des choix. Assurez-vous de lire tous vos traits et de faire les choix proposés.</p><h2>Remplir les Chiffres</h2><p>Notez ces chiffres sur votre feuille de personnage.</p><p><em><strong>Jets de Sauvegarde.</strong></em> Pour les jets de sauvegarde dans lesquels vous êtes compétent, ajoutez votre bonus de maîtrise au modificateur de la caractéristique appropriée et notez le total. Certains joueurs aiment aussi noter le modificateur pour les jets de sauvegarde dans lesquels ils ne sont pas compétents, ce qui correspond simplement au modificateur de la caractéristique concernée.</p><p><em><strong>Compétences.</strong></em> Pour les compétences dans lesquelles vous êtes compétent, ajoutez votre bonus de maîtrise au modificateur de la caractéristique associée à cette compétence, et notez le total. Vous pouvez aussi noter le modificateur pour les compétences dans lesquelles vous n'êtes pas compétent, ce qui correspond simplement au modificateur de la caractéristique concernée.</p><p><em><strong>Perception Passive.</strong></em> Parfois, votre MJ déterminera si votre personnage remarque quelque chose sans vous demander de faire un test de Sagesse (Perception) ; le MJ utilise votre Perception Passive à la place. La Perception Passive est un score qui reflète une conscience générale de votre environnement lorsque vous ne cherchez pas activement quelque chose. Utilisez cette formule pour déterminer votre score de Perception Passive :</p><p class=\"List-Styles_List-Item-Centered\" style=\"text-align:center\"><strong>Perception Passive</strong> = 10 + modificateur de test de Sagesse (Perception)</p><p>Incluez tous les modificateurs qui s'appliquent à vos tests de Sagesse (Perception). Par exemple, si votre personnage a une Sagesse de 15 et la compétence Perception, vous avez une Perception Passive de 14 (10 + 2 pour votre modificateur de Sagesse + 2 pour la compétence).</p><p><em><strong>Points de Vie.</strong></em> Votre classe et votre modificateur de Constitution déterminent votre maximum de Points de Vie au niveau 1, comme indiqué dans la table des Points de Vie par Classe au Niveau 1.</p><table><caption>Points de Vie par Classe au Niveau 1</caption><thead><tr><th><p>Classe</p></th><th><p>Points de Vie Maximum</p></th></tr></thead><tbody><tr><td><p>Barbare</p></td><td><p>12 + modificateur de Con.</p></td></tr><tr><td><p>Guerrier, Paladin ou Rôdeur</p></td><td><p>10 + modificateur de Con.</p></td></tr><tr><td><p>Barde, Clerc, Druide, Moine, Roublard ou Occultiste</p></td><td><p>8 + modificateur de Con.</p></td></tr><tr><td><p>Ensorceleur ou Magicien</p></td><td><p>6 + modificateur de Con.</p></td></tr></tbody></table><p>La feuille de personnage contient un espace pour noter vos Points de Vie actuels lorsque vous subissez des dégâts, ainsi que les Points de Vie Temporaires que vous pourriez obtenir. Il y a également un espace pour suivre vos Jets de Sauvegarde contre la Mort.</p><p><em><strong>Dés de Vie.</strong></em> La description de votre classe vous indique le type de dé de vos Dés de Vie (ou Dés de Points de Vie) ; notez-le sur votre feuille de personnage. Au niveau 1, votre personnage a 1 Dé de Vie. Vous pouvez utiliser des Dés de Vie pendant un repos court pour récupérer des Points de Vie. Votre feuille de personnage inclut également un espace pour noter combien de Dés de Vie vous avez dépensés.</p><p><em><strong>Initiative.</strong></em> Notez votre modificateur de Dextérité dans l'espace prévu pour l'Initiative sur votre feuille de personnage.</p><p><em><strong>Classe d'Armure (CA).</strong></em> Sans armure ni bouclier, votre Classe d'Armure de base est 10 plus votre modificateur de Dextérité. Si votre équipement de départ comprend une armure ou un bouclier (ou les deux), calculez votre CA en utilisant les règles du chapitre 6. Un trait de classe pourrait vous donner une manière différente de calculer votre CA.</p><p><em><strong>Attaques.</strong></em> Dans la section Armes et Dégâts ou Sorts mineurs de votre feuille de personnage, notez vos armes de départ. Le bonus de jet d'attaque pour une arme avec laquelle vous êtes compétent est l'un des suivants, sauf si une propriété de l'arme indique autre chose :</p><p style=\"text-align:center\"><strong>Bonus d'attaque en mêlée</strong> = modificateur de Force + bonus de maîtrise</p><p style=\"text-align:center\"><strong>Bonus d'attaque à distance</strong> = modificateur de Dextérité + bonus de maîtrise</p><p>Consultez les dégâts et les propriétés de vos armes dans le chapitre 6. Vous ajoutez le même modificateur de caractéristique que vous utilisez pour les attaques avec une arme à vos jets de dégâts avec cette arme.</p><p><em><strong>Lancer de Sorts.</strong></em> Notez à la fois le DD des jets de sauvegarde contre vos sorts et le bonus d'attaque pour les attaques que vous effectuez avec eux, en utilisant ces formules :</p><p style=\"text-align:center\"><strong>DD du jet de sauvegarde contre vos sorts</strong> = 8 + modificateur de caractéristique de lancer de sorts + bonus de maîtrise</p><p style=\"text-align:center\"><strong>Bonus d'attaque de sort</strong> = modificateur de caractéristique de lancer de sorts + bonus de maîtrise</p><p>Le modificateur de caractéristique de lancer de sorts pour un sort est déterminé par la capacité qui vous donne la possibilité de lancer le sort.</p><p><em><strong>Emplacements de Sorts, Sorts mineurs et Sorts Préparés.</strong></em> Si votre classe vous confère le trait Lancer de Sorts ou Magie des Pactes, la table des traits de votre classe montre le nombre d'emplacements de sorts disponibles, combien de sorts mineurs vous connaissez, et combien de sorts vous pouvez préparer. Choisissez vos sorts mineurs et sorts préparés, et notez-les—ainsi que votre nombre d'emplacements de sorts—sur votre feuille de personnage.</p><h2>Nommer votre Personnage</h2><p>Choisissez un nom pour votre personnage et notez-le sur votre feuille de personnage. Le nom peut être celui que vous voulez. Était-ce le nom d'un ancêtre ? A-t-il une signification religieuse ou autre ? Est-ce un nom que vous avez choisi pour vous-même ?</p><h2>Créer les Détails Finaux</h2><p>À mesure que vous terminez la création de votre personnage, demandez-vous si vous souhaitez inventer d'autres détails à son sujet. Voici le genre de questions que vous pourriez vous poser en tant que personnage :</p><ul><li>Quel est votre genre ?</li><li>Quelle(s) personne(s) compte(nt) le plus pour vous ?</li><li>Quelle est votre peur la plus profonde ?</li><li>Lors de vos aventures, rechercherez-vous la connaissance, la richesse, la gloire, l'illumination, la justice, la miséricorde, le pouvoir, ou autre chose ?</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "sort": 700000,
+      "name": "Progression des Niveaux",
+      "type": "text",
+      "_id": "Vz5QcYKA74tWkDqy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Au fil de vos aventures, votre personnage gagne de l'expérience, représentée par des Points d'Expérience (PX). Un personnage qui atteint un total de PX spécifié progresse en capacités. Cette progression s'appelle gagner un niveau.</p><p>La table de Progression des Personnages liste les PX dont vous avez besoin pour monter de niveau et le bonus de maîtrise pour un personnage de ce niveau. Lorsque votre total de PX est égal ou supérieur à un chiffre de la colonne Points d'Expérience, vous atteignez le niveau correspondant.</p><table id=\"character-advancement\"><caption>Progression des Personnages</caption><thead><tr><th><p>Niveau</p></th><th><p>Points d'Expérience</p></th><th><p>Bonus de Maîtrise</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>0</p></td><td><p>+2</p></td></tr><tr><td><p>2</p></td><td><p>300</p></td><td><p>+2</p></td></tr><tr><td><p>3</p></td><td><p>900</p></td><td><p>+2</p></td></tr><tr><td><p>4</p></td><td><p>2,700</p></td><td><p>+2</p></td></tr><tr><td><p>5</p></td><td><p>6,500</p></td><td><p>+3</p></td></tr><tr><td><p>6</p></td><td><p>14,000</p></td><td><p>+3</p></td></tr><tr><td><p>7</p></td><td><p>23,000</p></td><td><p>+3</p></td></tr><tr><td><p>8</p></td><td><p>34,000</p></td><td><p>+3</p></td></tr><tr><td><p>9</p></td><td><p>48,000</p></td><td><p>+4</p></td></tr><tr><td><p>10</p></td><td><p>64,000</p></td><td><p>+4</p></td></tr><tr><td><p>11</p></td><td><p>85,000</p></td><td><p>+4</p></td></tr><tr><td><p>12</p></td><td><p>100,000</p></td><td><p>+4</p></td></tr><tr><td><p>13</p></td><td><p>120,000</p></td><td><p>+5</p></td></tr><tr><td><p>14</p></td><td><p>140,000</p></td><td><p>+5</p></td></tr><tr><td><p>15</p></td><td><p>165,000</p></td><td><p>+5</p></td></tr><tr><td><p>16</p></td><td><p>195,000</p></td><td><p>+5</p></td></tr><tr><td><p>17</p></td><td><p>225,000</p></td><td><p>+6</p></td></tr><tr><td><p>18</p></td><td><p>265,000</p></td><td><p>+6</p></td></tr><tr><td><p>19</p></td><td><p>305,000</p></td><td><p>+6</p></td></tr><tr><td><p>20</p></td><td><p>355,000</p></td><td><p>+6</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.content.JournalEntry.phbLevelAdvancem.JournalEntryPage.Vz5QcYKA74tWkDqy",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "sort": 700000,
+      "name": "Gagner un Niveau",
+      "type": "text",
+      "_id": "iHbj5aJvc1T7i5YI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh2ArtHandout.JournalEntryPage.ix3AlcFliscD57YK classes=\"blend-multiply\"]</p><p>Lorsque vous gagnez un niveau, suivez ces étapes :</p><ol><li><strong>Choisissez une Classe.</strong> La plupart des personnages progressent dans la même classe. Cependant, vous pourriez décider de gagner un niveau dans une autre classe en utilisant les règles de la section @UUID[.vcs4jfEKRxPCsgXm]{Multiclassement} plus tard dans ce chapitre.</li><li><strong>Ajustez les Points de Vie et les Dés de Vie.</strong> Chaque fois que vous gagnez un niveau, vous gagnez un Dé de Vie supplémentaire. Lancez ce dé, ajoutez votre modificateur de Constitution au résultat, et ajoutez le total (minimum de 1) à votre maximum de Points de Vie. Au lieu de lancer le dé, vous pouvez utiliser la valeur fixe indiquée dans la table des Points de Vie Fixes par Classe.</li><li><strong>Enregistrez les Nouveaux Traits de Classe.</strong> Consultez la table des traits de votre classe dans le @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCharacterClas.JournalEntryPage.jlSMyO89AI0ZtQjd]{chapitre 3}, et notez les traits que vous gagnez à votre nouveau niveau dans cette classe. Faites les choix proposés par un nouveau trait, le cas échéant.</li><li><strong>Ajustez le Bonus de Maîtrise.</strong> Le Bonus de Maîtrise d'un personnage augmente à certains niveaux, comme indiqué dans la table de Progression des Personnages et dans la table des traits de votre classe dans le chapitre 3. Lorsque votre Bonus de Maîtrise augmente, augmentez tous les chiffres sur votre feuille de personnage qui incluent votre Bonus de Maîtrise.</li><li><strong>Ajustez les Modificateurs de Caractéristiques.</strong> Si vous choisissez un don qui augmente une ou plusieurs de vos caractéristiques, votre modificateur de caractéristique change également si la nouvelle valeur est un nombre pair. Lorsque cela se produit, ajustez tous les chiffres sur votre feuille de personnage qui utilisent ce modificateur de caractéristique. Lorsque votre modificateur de Constitution augmente de 1, votre maximum de Points de Vie augmente de 1 pour chaque niveau que vous avez atteint. Par exemple, si un personnage atteint le niveau 8 et augmente son score de Constitution de 17 à 18, le modificateur de Constitution passe à +4. Le maximum de Points de Vie du personnage augmente alors de 8, en plus des Points de Vie gagnés pour avoir atteint le niveau 8.</li></ol><table id=\"fixed-hit-points-by-class\"><caption>Points de Vie Fixes par Classe</caption><thead><tr><th><p>Classe</p></th><th><p>Points de Vie par Niveau</p></th></tr></thead><tbody><tr><td><p>Barbare</p></td><td><p>7 + modificateur de Con.</p></td></tr><tr><td><p>Guerrier, Paladin ou Rôdeur</p></td><td><p>6 + modificateur de Con.</p></td></tr><tr><td><p>Barde, Clerc, Druide, Moine, Roublard ou Occultiste</p></td><td><p>5 + modificateur de Con.</p></td></tr><tr><td><p>Ensorceleur ou Magicien</p></td><td><p>4 + modificateur de Con.</p></td></tr></tbody></table><aside class=\"notable\"><h3>Dons Bonus au Niveau 20</h3><p>Un MJ peut utiliser des dons comme forme de progression après que les personnages atteignent le niveau 20 afin d'apporter plus de puissance aux personnages qui n'ont plus de niveaux à gagner. Avec cette approche, chaque personnage gagne un don de son choix pour chaque tranche de 30 000 PX que le personnage gagne au-delà de 355 000 PX. Les dons de Don Épique sont particulièrement adaptés à ces dons bonus, mais un joueur peut choisir tout don pour lequel son personnage de niveau 20 est éligible.</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.content.JournalEntry.phbLevelAdvancem.JournalEntryPage.iHbj5aJvc1T7i5YI",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "sort": 700000,
+      "name": "Niveaux de Jeu",
+      "type": "text",
+      "_id": "wkg7ZTl7O5iGTXrM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>À chaque nouveau niveau, les personnages acquièrent de nouvelles capacités qui leur permettent de relever de plus grands défis. À mesure que les personnages montent en niveau, le ton du jeu change également, et les enjeux de la campagne augmentent. Il est utile de penser à l'arc d'un personnage (et d'une campagne) en termes de quatre niveaux de jeu, qui décrivent le parcours d'un personnage de niveau 1 commençant à peine une carrière d'aventurier jusqu'aux sommets épiques du niveau 20. Ces niveaux n'ont pas de règles associées ; ils reflètent simplement le fait que l'expérience de jeu évolue à mesure que les personnages gagnent des niveaux.</p><h2>Niveau 1 (Niveaux 1-4)</h2><p>Au niveau 1, les personnages sont des aventuriers apprentis, bien qu'ils se démarquent déjà du reste de la population par leurs capacités extraordinaires. Ils apprennent les traits de leur classe de départ et choisissent une sous-classe. Les menaces auxquelles ils font face posent généralement un danger pour des fermes ou des villages locaux.</p><h2>Niveau 2 (Niveaux 5-10)</h2><p>Au niveau 2, les personnages sont des aventuriers accomplis. Les lanceurs de sorts gagnent des sorts emblématiques tels que @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Boule de feu}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]{Éclair}, et @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]{Rappel à la vie}. La plupart des classes axées sur les armes acquièrent la capacité d'effectuer plusieurs attaques par tour. Les personnages sont désormais confrontés à des dangers qui menacent des villes et des royaumes.</p><h2>Niveau 3 (Niveaux 11-16)</h2><p>Au niveau 3, les personnages ont atteint un niveau de puissance qui les rend uniques parmi les aventuriers. Au niveau 11, de nombreux lanceurs de sorts apprennent des sorts qui altèrent la réalité. Les autres personnages acquièrent des traits qui leur permettent d'effectuer plus d'attaques ou de faire des actions plus impressionnantes avec celles-ci. Ces aventuriers affrontent souvent des menaces qui concernent des régions entières.</p><h2>Niveau 4 (Niveaux 17-20)</h2><p>Au niveau 4, les personnages atteignent le sommet des traits de leur classe, devenant des archétypes héroïques. Le sort du monde ou même de l'ordre du multivers peut dépendre de leurs aventures.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.content.JournalEntry.phbLevelAdvancem.JournalEntryPage.wkg7ZTl7O5iGTXrM",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "sort": 700000,
+      "name": "Commencer à des niveaux supérieurs",
+      "type": "text",
+      "_id": "DE7Ff0cOkQgid3fG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Votre MJ peut décider de faire commencer les personnages de votre groupe à un niveau supérieur au niveau 1. Il est particulièrement recommandé de commencer au niveau 3 si votre groupe est composé de joueurs expérimentés de D&amp;D.</p><h2>Créer votre personnage</h2><p>La création d'un personnage de niveau supérieur utilise les mêmes étapes de création de personnage décrites dans ce chapitre ainsi que les règles pour progresser au-delà du niveau 1 dans la section @UUID[.Vz5QcYKA74tWkDqy]{Progression de niveau}. Vous commencez avec le minimum d'XP requis pour atteindre votre niveau de départ. Par exemple, si le MJ vous fait commencer au niveau 10, vous avez 64 000 XP.</p><h2>Équipement de départ</h2><p>Le MJ décide si votre personnage commence avec plus que l'équipement standard d'un personnage de niveau 1, voire un ou plusieurs objets magiques. La table Équipement de départ à des niveaux supérieurs est une référence pour le MJ.</p><p>Vérifiez également avec votre MJ quel équipement est disponible à l'achat avec votre argent de départ. Par exemple, les armes à feu décrites dans le chapitre 6 sont trop coûteuses pour des personnages de niveau 1, mais elles peuvent être disponibles à l'achat si votre MJ les autorise.</p><table><caption>Équipement de départ à des niveaux supérieurs</caption><thead><tr><th><p>Niveau de départ</p></th><th><p>Équipement et argent</p></th><th><p>Objets magiques</p></th></tr></thead><tbody><tr><td><p>2–4</p></td><td><p>Équipement de départ normal</p></td><td><p>1 Commun</p></td></tr><tr><td><p>5–10</p></td><td><p>[[/award 1d10*25+500gp]] plus équipement de départ normal</p></td><td><p>1 Commun, 1 Peu commun</p></td></tr><tr><td><p>11–16</p></td><td><p>[[/award 1d10*250+5000gp]] plus équipement de départ normal</p></td><td><p>2 Communs, 3 Peu communs, 1 Rare</p></td></tr><tr><td><p>17–20</p></td><td><p>[[/award 1d10*250+20000gp]] plus équipement de départ normal</p></td><td><p>2 Communs, 4 Peu communs, 3 Rares, 1 Très rare</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.content.JournalEntry.phbLevelAdvancem.JournalEntryPage.DE7Ff0cOkQgid3fG",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "sort": 700000,
+      "name": "Multiclasse",
+      "type": "text",
+      "_id": "vcs4jfEKRxPCsgXm",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>La multiclasse vous permet de gagner des niveaux dans plusieurs classes. Avec cette règle, vous avez la possibilité de gagner un niveau dans une nouvelle classe chaque fois que vous progressez, au lieu de gagner un niveau dans votre classe actuelle. Cela vous permet de combiner les capacités de ces classes pour réaliser un concept de personnage qui pourrait ne pas être reflété par une seule classe.</p><h2>Prérequis</h2><p>Pour vous qualifier pour une nouvelle classe, vous devez avoir un score d'au moins 13 dans la capacité principale de la nouvelle classe et dans vos classes actuelles. Par exemple, un Barbare qui décide de se multiclasser en Druide doit avoir des scores de Force et de Sagesse d'au moins 13, car la Force est la capacité principale pour les Barbares et la Sagesse est la capacité principale pour les Druides.</p><h2>Points d'expérience</h2><p>Le coût en points d'expérience pour gagner un niveau est basé sur votre niveau total de personnage, et non sur votre niveau dans une classe particulière, comme indiqué dans la table de progression des personnages de ce chapitre. Par exemple, si vous êtes un Clerc de niveau 6 / Guerrier de niveau 1, vous devez gagner suffisamment de PX pour atteindre le niveau 8 avant de pouvoir prendre votre deuxième niveau en Guerrier ou votre septième niveau en Clerc.</p><h2>Points de vie et dés de vie</h2><p>Vous gagnez les points de vie de votre nouvelle classe comme décrit pour les niveaux après le 1. Vous ne gagnez les points de vie de niveau 1 d'une classe que lorsque votre niveau total de personnage est de 1.</p><p>Ajoutez ensemble les dés de vie accordés par toutes vos classes pour former votre réserve de dés de vie. Si ces dés sont du même type, vous pouvez les regrouper. Par exemple, le Guerrier et le Paladin ont tous deux un dé de vie d10, donc si vous êtes un Guerrier de niveau 5 / Paladin de niveau 5, vous avez dix dés de vie d10. Si vos classes vous donnent des dés de vie de types différents, suivez-les séparément. Par exemple, si vous êtes un Clerc de niveau 5 / Paladin de niveau 5, vous avez cinq dés de vie d8 et cinq dés de vie d10.</p><h2>Bonus de maîtrise</h2><p>Votre bonus de maîtrise est basé sur votre niveau total de personnage, et non sur votre niveau dans une classe particulière, comme indiqué dans la table de progression des personnages. Par exemple, si vous êtes un Guerrier de niveau 3 / Roublard de niveau 2, vous avez le bonus de maîtrise d'un personnage de niveau 5, qui est de +3.</p><h2>Maîtrises</h2><p>Lorsque vous gagnez votre premier niveau dans une classe autre que votre classe initiale, vous ne gagnez que certaines des maîtrises de départ de la nouvelle classe, comme détaillé dans la description de chaque classe au chapitre 3.</p><h2>Caractéristiques de classe</h2><p>Lorsque vous gagnez un nouveau niveau dans une classe, vous obtenez ses caractéristiques pour ce niveau. Quelques caractéristiques ont des règles supplémentaires lorsque vous faites de la multiclasse. Consultez les informations sur la multiclasse incluses dans les descriptions de vos classes.</p><p>Des règles spéciales s'appliquent à Attaque supplémentaire, Lancer de sorts et aux caractéristiques (comme Défense sans armure) qui vous donnent des moyens alternatifs de calculer votre classe d'armure.</p><h3>Classe d'armure</h3><p>Si vous avez plusieurs façons de calculer votre classe d'armure, vous ne pouvez bénéficier que d'une seule à la fois. Par exemple, un Moine/Ensorceleur avec la caractéristique Défense sans armure du Moine et la caractéristique Résilience draconique du Ensorceleur doit choisir l'une de ces caractéristiques pour calculer sa classe d'armure.</p><h3>Attaque supplémentaire</h3><p>Si vous obtenez la caractéristique Attaque supplémentaire de plus d'une classe, les caractéristiques ne se cumulent pas. Vous ne pouvez pas faire plus de deux attaques avec cette caractéristique à moins d'avoir une caractéristique qui précise que vous pouvez (comme la caractéristique Deux attaques supplémentaires du Guerrier).</p><p>De même, l'invocation Soif de lame du Occultiste, qui vous accorde la caractéristique Attaque supplémentaire avec votre arme de pacte, ne vous accorde pas d'attaques supplémentaires si vous avez déjà Attaque supplémentaire.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh2ArtHandout.JournalEntryPage.rSPWZt1If4YqQSGR classes=\"right three blend-multiply\"]</p><h3>Lancer de sorts</h3><p>Votre capacité à lancer des sorts dépend en partie de vos niveaux combinés dans toutes vos classes de lanceur de sorts et en partie de vos niveaux individuels dans ces classes. Une fois que vous avez la caractéristique Lancer de sorts dans plus d'une classe, utilisez les règles ci-dessous. Si vous faites de la multiclasse mais que vous n'avez la caractéristique Lancer de sorts que d'une seule classe, suivez les règles de cette classe.</p><p><em><strong>Sorts préparés.</strong></em> Vous déterminez les sorts que vous pouvez préparer pour chaque classe individuellement, comme si vous étiez membre d'une seule classe. Par exemple, si vous êtes un Rodeur de niveau 4 / Ensorceleur de niveau 3, vous pouvez préparer cinq sorts de niveau 1 de Ranger, et vous pouvez préparer six sorts du Ensorceleur de niveau 1 ou 2 (ainsi que quatre sorts mineurs du Ensorceleur).</p><p>Chaque sort que vous préparez est associé à l'une de vos classes, et vous utilisez la capacité de lancer de sorts de cette classe lorsque vous lancez le sort.</p><p><em><strong>Sorts mineurs.</strong></em> Si l'un de vos sorts mineurs augmente en puissance à des niveaux supérieurs, l'augmentation est basée sur votre niveau total de personnage, et non sur votre niveau dans une classe particulière, à moins que le sort ne dise le contraire.</p><p><em><strong>Emplacements de sorts. </strong></em>Vous déterminez vos emplacements de sorts disponibles en additionnant les éléments suivants :</p><ul><li>Tous vos niveaux dans les classes Barde, Clerc, Druide, Ensorceleur et Magicien</li><li>La moitié de vos niveaux (arrondis au supérieur) dans les classes Paladin et Rodeur</li><li>Un tiers de vos niveaux de Guerrier ou de Roublard (arrondis à l'inférieur) si vous avez la sous-classe Chevalier mystique ou Filou arcanique.</li></ul><p>Ensuite, consultez ce niveau total dans la colonne Niveau du tableau de Multiclasse des lanceurs de sorts. Vous utilisez les emplacements de ce niveau pour lancer des sorts de niveau approprié de n'importe quelle classe dont vous avez la caractéristique Lancer de sorts.</p><p>Ce tableau peut vous donner des emplacements de sorts d'un niveau supérieur à ceux que vous préparez. Vous pouvez utiliser ces emplacements mais uniquement pour lancer vos sorts de niveaux inférieurs. Si un sort de niveau inférieur que vous lancez, comme @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{Mains brûlantes}, a un effet amélioré lorsqu'il est lancé à un niveau supérieur, vous pouvez utiliser l'effet amélioré normalement.</p><p>Par exemple, si vous êtes un Rodeur de niveau 4 / Ensorceleur de niveau 3, vous comptez comme un personnage de niveau 5 pour déterminer vos emplacements de sorts, en comptant tous vos niveaux de Ensorceleur et la moitié de vos niveaux de Ranger. Comme indiqué dans le tableau de Multiclasse des lanceurs de sorts, vous avez quatre emplacements de sort de niveau 1, trois de niveau 2 et deux de niveau 3. Cependant, vous ne pouvez pas préparer de sorts de niveau 3, ni préparer de sorts de niveau 2 de Ranger. Vous pouvez utiliser les emplacements de ces niveaux pour lancer les sorts que vous préparez et potentiellement améliorer leurs effets.</p><p><em><strong>Magie de pacte.</strong></em> Si vous avez la caractéristique Magie de pacte de la classe d'un Occultiste et la caractéristique Lancer de sorts, vous pouvez utiliser les emplacements de sorts que vous gagnez avec Magie de pacte pour lancer des sorts que vous avez préparés dans des classes avec la caractéristique Lancer de sorts, et vous pouvez utiliser les emplacements de sorts que vous gagnez avec la caractéristique Lancer de sorts pour lancer des sorts de L'Occultiste que vous avez préparés.</p><table><caption><p>Multiclasse des lanceurs de sorts : <br />Emplacements de sorts par niveau de sort</p></caption><thead><tr><th><p>Niveau</p></th><th><p>1</p></th><th><p>2</p></th><th><p>3</p></th><th><p>4</p></th><th><p>5</p></th><th><p>6</p></th><th><p>7</p></th><th><p>8</p></th><th><p>9</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>2</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>2</p></td><td><p>3</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>3</p></td><td><p>4</p></td><td><p>2</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>4</p></td><td><p>4</p></td><td><p>3</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>5</p></td><td><p>4</p></td><td><p>3</p></td><td><p>2</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>6</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>7</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>8</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>9</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>10</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>11</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>1</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>12</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>1</p></td><td><p>--</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>13</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>1</p></td><td><p>1</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>14</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>1</p></td><td><p>1</p></td><td><p>--</p></td><td><p>--</p></td></tr><tr><td><p>15</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td><td><p>--</p></td></tr><tr><td><p>16</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td><td><p>--</p></td></tr><tr><td><p>17</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td></tr><tr><td><p>18</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td></tr><tr><td><p>19</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td></tr><tr><td><p>20</p></td><td><p>4</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.content.JournalEntry.phbLevelAdvancem.JournalEntryPage.vcs4jfEKRxPCsgXm",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "sort": 700000,
+      "name": "Bibelots",
+      "type": "text",
+      "_id": "2nJWForKrOIXzELQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh2ArtHandout.JournalEntryPage.V7dqG3wmn1ZU1Q6C caption=false]</p><p>Lorsque vous créez votre personnage, vous pouvez lancer une fois sur la table des Bibelots pour obtenir un petit bibelot, un objet simple légèrement empreint de mystère. Le MJ peut également utiliser cette table. Elle peut aider à garnir une pièce dans un donjon ou à remplir les poches d'une créature.</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbStartingTrink rollable]</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh2ArtHandout.JournalEntryPage.YmXFN6XmWeSZQB04 caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.content.JournalEntry.phbTrinkets00000.JournalEntryPage.2nJWForKrOIXzELQ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "folder": "8wtuPBu0Fflhc8Vk",
+  "flags": {
+    "core": {
+      "sheetClass": "dnd-players-handbook.PlayersHandbookJournalSheet"
+    },
+    "dnd5e": {
+      "type": "chapter",
+      "showPages": true,
+      "position": 3,
+      "title": "Ch. 2: Creating a Character"
+    },
+    "dnd-players-handbook": {
+      "navigation": {
+        "previous": "phbConditions000",
+        "next": "phbCharacterClas"
+      }
+    },
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Creating a Character"
+    },
+    "exportSource": {
+      "world": "dnd-2024",
+      "system": "dnd5e",
+      "coreVersion": "12.331",
+      "systemVersion": "4.1.2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.2",
+    "createdTime": 1737382173626,
+    "modifiedTime": 1737382173626,
+    "lastModifiedBy": "hr8R6JdDczZ07gHP"
+  }
+}

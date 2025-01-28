@@ -1,0 +1,13 @@
+prompt : 
+
+
+
+Le contexte est : Le guide du maitre de donjon de donjons et dragons 2024. Etant pour foundry vtt, ne traduit pas Les identifiants UUID, ni le contenu des &amp;Reference[], ni les liens typé @UUID ou expressions en [[/r]]. sachant que les termes "Sorcerer"= "Sorcier", "Warlock"= "Occultiste", "Wizard"= "Ensorceleur" "cantrip"= "sort mineur", peux tu me traduire ceci, tout en conservant le formatage json, les clefs en anglais, sans alléger les informations et convertissant les mesures : 
+Le contexte est : Le guide du maitre de donjon de donjons et dragons 2024. pour foundry vtt, ne traduit pas Les identifiants UUID, ni le contenu des &amp;Reference[], ni les liens typé @UUID ou expressions en [[/r]]. sachant que les termes "Sorcerer"= "Sorcier", "Warlock"= "Occultiste", "Wizard"= "Ensorceleur" "cantrip"= "sort mineur", tout en conservant le formatage html et les clefs en anglais : 
+
+
+"description1": "<p>Chaque griffe étendue effectue l'attaque de mêlée suivante : +8 pour toucher, portée 1,5 m. <em>Touché :</em> 7 (2d6) dégâts de contusion.</p>",
+  "description2": "<p>Chaque griffe étendue effectue l'attaque de mêlée suivante : +8 pour toucher, portée 1,5 m. <em>Touché :</em> La cible subit la condition &amp;Reference[Grappled] (évasion DD 15).</p>",
+  "description3": "<p>L'avatar peut se déplacer à travers d'autres créatures et objets comme s'ils étaient du &amp;Reference[DifficultTerrain]. Il subit 5 (1d10) dégâts de Force s'il termine son tour à l'intérieur <span class=\"no-break\">d'un objet.</span></p>",
+  "description4": "<p><em>Jet d'attaque au corps à corps :</em> touche automatique, portée 1,5 m. <em>Touché :</em> 7 (<span class=\"no-break\">1d8 + 3</span>) dégâts tranchants plus 4 (1d8) <span class=\"no-break\">dégâts nécrotiques</span>.</p>"
+}

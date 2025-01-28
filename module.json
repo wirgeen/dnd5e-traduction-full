@@ -1,6 +1,8 @@
 {
   "id": "dnd5e-traduction-full",
   "title": "dnd5e - traduction full",
+  "manifest": "https://github.com/wirgeen/dnd5e-traduction-full/releases/download/1.0.0/module.json",
+  "download": "",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
@@ -28,5 +30,15 @@
       "flags": {}
     }
   ],
-  "manifest": "https://github.com/wirgeen/dnd5e-traduction-full/releases/download/1.0.0/module.json"
+  "esmodules" : [
+    "dnd5e-traduction-full.js",
+    "babele-register.js"
+  ],
+  "languages": [
+    {
+        "lang": "fr",
+        "name": "Français",
+        "path": "fr.json"
+    }
+  ]
 }

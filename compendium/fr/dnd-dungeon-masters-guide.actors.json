@@ -1,0 +1,784 @@
+{
+  "label": "Acteurs",
+  "folders": {
+    "Bastion Defenders": "Défenseurs du bastion",
+    "Creatures": "Créatures",
+    "Hazards": "Dangers",
+    "Magic Items": "Objets magiques"
+  },
+  "entries": {
+    "Animal Lord": {
+      "name": "Seigneur des animaux",
+      "tokenName": "Seigneur des animaux"
+    },
+    "Animated Broom": {
+      "name": "Balai animé",
+      "tokenName": "Balai animé"
+    },
+    "Apparatus of Kwalish": {
+      "name": "Appareil de Kwalish",
+      "tokenName": "Appareil de Kwalish",
+      "items": {
+        "Claw Attack": {
+          "name": "Attaque de griffes",
+          "description": "<p>Chaque griffe étendue effectue l'attaque de mêlée suivante : +8 pour toucher, portée 1,5 m. <em>Touché :</em> 7 (2d6) dégâts de contusion.</p>"
+        },
+        "Grapple Attack": {
+          "name": "Attaque de grappin",
+          "description": "<p>Chaque griffe étendue effectue l'attaque de mêlée suivante : +8 pour toucher, portée 1,5 m. <em>Touché :</em> La cible subit la condition &amp;Reference[Grappled] (évasion DD 15).</p>"
+        }
+      }
+    },
+    "Avatar of Death": {
+      "name": "Avatar de la mort",
+      "tokenName": "Avatar de la mort",
+      "items": {
+        "Incorporeal Movement": {
+          "name": "Mouvement incorporel",
+          "description": "<p>L'avatar peut se déplacer à travers d'autres créatures et objets comme s'ils étaient du &amp;Reference[DifficultTerrain]. Il subit 5 (1d10) dégâts de Force s'il termine son tour à l'intérieur <span class=\"no-break\">d'un objet.</span></p>"
+        },
+        "Multiattack": {
+          "name": "Attaque multiple",
+          "description": "<p>L'avatar effectue un nombre d'attaques avec [[/item .dmgaoiReapingScy]]{Faux Moissonneuse} égal à la moitié du Bonus de Maîtrise de l'invocateur (<span class=\"no-break\">arrondi à l'entier supérieur).</span></p><p>[[ceil(@prof/2)]]{Nombre d'attaques}</p>"
+        },
+        "Reaping Scythe": {
+          "name": "Faux de moisson",
+          "description": "<p><em>Jet d'attaque au corps à corps :</em> touche automatique, portée 1,5 m. <em>Touché :</em> 7 (<span class=\"no-break\">1d8 + 3</span>) dégâts tranchants plus 4 (1d8) <span class=\"no-break\">dégâts nécrotiques</span>.</p>"
+        }
+      }
+    },
+    "Badger": {
+      "name": "Blaireau",
+      "tokenName": "Blaireau",
+      "items": {
+        "Bite": {
+          "name": "Morsure",
+          "description": "<p> <em>Jet d'attaque au corps à corps :</em> +2, portée 1,5 m. <em>Touché :</em> 1 dégât perforant.</p>"
+        }
+      }
+    },
+    "Bastion Defender (Bow)": {
+      "name": "Défenseur du bastion (arc)",
+      "tokenName": "Défenseur du bastion (arc)",
+      "items": {
+        "Leather Armor": {
+          "name": "Armure de cuir",
+          "description": "<p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>"
+        },
+        "Keen Hearing and Sight": {
+          "name": "Ouïe et vue perçantes",
+          "description": "<p>The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.</p>"
+        },
+        "Multiattack": {
+          "name": "Attaque multiple",
+          "description": "<p>The scout makes two melee attacks or two ranged attacks.</p>"
+
+        },
+        "Shortsword": {
+          "name": "Épée courte",
+          "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p></section>\n<p>The Scout attacks with their Shortsword.</p>"
+        },
+        "Longbow": {
+          "name": "Arc long",
+          "description": "<section class=\"secret\">\n<p>Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. Hit: <strong>6 (1d8 + 2) <em>piercing damage</em></strong>.</p></section>\n<p>The Scout attacks with their Longbow.</p>"
+        }
+      }
+    },
+    "Bastion Defender (Knight)": {
+      "name": "Défenseur du bastion (chevalier)",
+      "tokenName": "Défenseur du bastion (chevalier)",
+      "items": {
+        "Plate Armor": {
+          "name": "Armure de plates",
+          "description": "<p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p>"
+        },
+        "Multiattack": {
+          "name": "Attaque multiple",
+          "description": "<p>The knight makes two melee attacks.</p>"
+        },
+        "Greatsword": {
+          "name": "Épée à deux mains",
+          "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+5 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>10 (2d6 + 3) <em>slashing damage</em></strong>.</p></section>\n<p>The Knight attacks with its Greatsword.</p>"
+        },
+        "Heavy Crossbow": {
+          "name": "Arbalète lourde",
+          "description": "<section class=\"secret\">\n<p>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: <strong>5 (1d10) <em>piercing damage</em></strong>.</p></section>\n<p>The Knight attacks with its Heavy Crossbow.</p>"
+        },
+        "Leadership": {
+          "name": "Commandement",
+          "description": "<p>For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is incapacitated.</p>"
+        },
+        "Parry": {
+          "name": "Parade",
+          "description": "<section class=\"secret\">\n<p>The knight adds 2 to its <strong>AC</strong> against one melee Attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon.</p>\n</section>\n<p>The knight adds 2 to its <strong>AC</strong> against one melee Attack that would hit it.</p>"
+        },
+        "Brave": {
+          "name": "Courageux",
+          "description": "<p>The knight has<strong> advantage </strong>on saving throws against being frightened.</p>"
+        }
+      }
+    },
+    "Bastion Defender (Mounted)": {
+      "name": "Défenseur du bastion (monté)",
+      "tokenName": "Défenseur du bastion (monté)",
+      "items": {
+        "Chain Shirt": {
+          "name": "Cotte de mailles",
+          "description": "<p>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p>"
+        },
+        "Shield": {
+          "name": "Bouclier",
+          "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>"
+        },
+        "Spear": {
+          "name": "Lance",
+          "description": "<section class=\"secret\">\n<p>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: <strong>4 (1d6 + 1) <em>piercing damage</em></strong> or <strong>5 (1d8 + 1) <em>piercing damage</em></strong> if used with two hands to make a melee attack.</p></section>\n<p>The Guard attacks with its Spear.</p>"
+        }
+      }
+    },
+    "Bastion Defender (Shield)": {
+      "name": "Défenseur du bastion (bouclier)",
+      "tokenName": "Garde",
+      "items": {
+        "Chain Shirt": {
+          "name": "Cotte de mailles",
+          "description": "<p>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p>"
+        },
+        "Shield": {
+          "name": "Bouclier",
+          "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>"
+        },
+        "Spear": {
+          "name": "Lance",
+          "description": "<section class=\"secret\">\n<p>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: <strong>4 (1d6 + 1) <em>piercing damage</em></strong> or <strong>5 (1d8 + 1) <em>piercing damage</em></strong> if used with two hands to make a melee attack.</p></section>\n<p>The Guard attacks with its Spear.</p>"
+        }
+      }
+    },
+    "Bastion Defender (Spear)": {
+      "name": "Défenseur du bastion (lance)",
+      "tokenName": "Défenseur du bastion (lance)",
+      "items": {
+        "Chain Shirt": {
+          "name": "Cotte de mailles",
+          "description": "<p>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p>"
+        },
+        "Shield": {
+          "name": "Bouclier",
+          "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>"
+        },
+        "Spear": {
+          "name": "Lance",
+          "description": "<section class=\"secret\">\n<p>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: <strong>4 (1d6 + 1) <em>piercing damage</em></strong> or <strong>5 (1d8 + 1) <em>piercing damage</em></strong> if used with two hands to make a melee attack.</p></section>\n<p>The Guard attacks with its Spear.</p>"
+        }
+      }
+    },
+    "Bastion Defender (Sword)": {
+      "name": "Défenseur du bastion (épée)",
+      "tokenName": "Défenseur du bastion (épée)",
+      "items": {
+        "Chain Shirt": {
+          "name": "Cotte de mailles",
+          "description": "<p>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p>"
+        },
+        "Longsword": {
+          "name": "Épée longue",
+          "description": "<p>A lengthy straight blade designed for slashing foes, the longsword is a highly versatile weapon that may also be wielded with two hands for more punishing strikes.</p>"
+        }
+      }
+    },
+    "Black Bear": {
+      "name": "Ours noir",
+      "tokenName": "Ours noir",
+      "items": {
+        "Multiattack": {
+          "name": "Attaque multiple",
+          "description": "<p>The bear makes two [[/item Rend]] attacks.</p>"
+        },
+        "Rend": {
+          "name": "Déchirure",
+          "description": "<p> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 5 (1d6 + 2) Slashing damage.</p>"
+        }
+      }
+    },
+    "Blob of Annihilation": {
+      "name": "Blob d'annihilation",
+      "tokenName": "Blob d'annihilation"
+    },
+    "Brown Bear": {
+      "name": "Ours brun",
+      "tokenName": "Ours brun",
+      "items": {
+        "Multiattack": {
+          "name": "Attaque multiple",
+          "description": "<p>The bear makes one [[/item Bite]] attack and one [[/item Claw]] attack.</p>"
+        },
+        "Bite": {
+          "name": "Morsure",
+          "description": "<p><em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage.</p>"
+        },
+        "Claw": {
+          "name": "Griffes",
+          "description": "<p><em>Melee Attack Roll: </em>+5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Slashing damage, and the target has the &amp;Reference[prone] condition if it is Huge or smaller.</p>"
+        }
+      }
+    },
+    "Brown Mold": {
+      "name": "Moisi brun",
+      "tokenName": "Moisi brun",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets",
+          "description": "<p><em>Deadly Hazard (Levels 5–10) or Nuisance Hazard (Levels 11–16)</em></p><p>Brown mold resembles a furry, light-brown carpet. This fungus feeds on warmth, drawing heat from anything around itself. One patch of brown mold covers a 10-foot square, and the temperature within 30 feet of it is always frigid.</p><p>When a creature enters a space within 5 feet of the mold for the first time on a turn or starts its turn there, the creature makes a DC 12 Constitution saving throw, taking 22 (4d10) Cold damage on a failed save or half as much damage on a successful one.</p><p>Brown mold has Immunity to Fire damage, and any source of fire brought within 5 feet of it causes the mold to instantly expand across a surface and toward the fire, creating a new patch that covers a 10-foot square. A patch of brown mold exposed to an effect that deals any amount of Cold damage is destroyed instantly.</p>"
+        }
+      }
+    },
+    "Camel": {
+      "name": "Chameau",
+      "tokenName": "Chameau",
+      "items": {
+        "Bite": {
+          "name": "Morsure",
+          "description": "<p> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 4 (1d4 + 2) Bludgeoning damage.</p>"
+        }
+      }
+    },
+    "Carpet of Flying (3 by 5 ft.)": {
+      "name": "Tapis volant (1 par 1,5 mètres)",
+      "tokenName": "Tapis volant",
+      "items": {
+        "Carry Weight Adjustment": {
+          "name": "Ajustement du poids supporté",
+          "description": "<p>Cet objet sert à compenser la capacité de charge calculée du tapis conformément aux dimensions du tapis.</p>"
+        }
+      },
+      "effects": {
+        "Overloaded": {
+          "name": "Surchargé",
+          "description": "<p>La Vitesse de Vol du tapis est réduite de moitié lorsqu'il transporte plus que sa capacité normale.</p>"
+        }
+      }
+    },
+    "Carpet of Flying (4 by 6 ft.)": {
+      "name": "Tapis volant (1,2 par 1,8 mètres)",
+      "tokenName": "Tapis volant",
+      "items": {
+        "Carry Weight Adjustment": {
+          "name": "Ajustement du poids supporté",
+          "description": "<p>Cet objet sert à compenser la capacité de charge calculée du tapis conformément aux dimensions du tapis.</p>"
+        }
+      },
+      "effects": {
+        "Overloaded": {
+          "name": "Surchargé",
+          "description": "<p>La Vitesse de Vol du tapis est réduite de moitié lorsqu'il transporte plus que sa capacité normale.</p>"
+        }
+      }
+    },
+    "Carpet of Flying (5 by 7 ft.)": {
+      "name": "Tapis volant (1,5 par 2 mètre)",
+      "tokenName": "Tapis volant",
+      "items": {
+        "Carry Weight Adjustment": {
+          "name": "Ajustement du poids supporté",
+          "description": "<p>Cet objet sert à compenser la capacité de charge calculée du tapis conformément aux dimensions du tapis.</p>"
+        }
+      },
+      "effects": {
+        "Overloaded": {
+          "name": "Surchargé",
+          "description": "<p>La Vitesse de Vol du tapis est réduite de moitié lorsqu'il transporte plus que sa capacité normale.</p>"
+        }
+      }
+    },
+    "Carpet of Flying (6 by 9 ft.)": {
+      "name": "Tapis volant (1,8 par 2,7 mètre)",
+      "tokenName": "Tapis volant",
+      "items": {
+        "Carry Weight Adjustment": {
+          "name": "Ajustement du poids supporté",
+          "description": "<p>Cet objet sert à compenser la capacité de charge calculée du tapis conformément aux dimensions du tapis.</p>"
+        }
+      },
+      "effects": {
+        "Overloaded": {
+          "name": "Surchargé",
+          "description": "<p>La Vitesse de Vol du tapis est réduite de moitié lorsqu'il transporte plus que sa capacité normale.</p>"
+        }
+      }
+    },
+    "Colossus": {
+      "name": "Colosse",
+      "tokenName": "Colosse"
+    },
+    "Dancing Sword": {
+      "name": "Épée dansante",
+      "tokenName": "Épée dansante",
+      "items": {
+        "Greatsword": {
+          "name": "Épée à deux mains"
+        },
+        "Longsword": {
+          "name": "Épée longue"
+        },
+        "Rapier": {
+          "name": "Rapière"
+        },
+        "Scimitar": {
+          "name": "Cimeterre"
+        },
+        "Shortsword": {
+          "name": "Épée courte"
+        }
+      }
+    },
+    "Dire Wolf": {
+      "name": "Loup redoutable",
+      "tokenName": "Loup redoutable",
+      "items": {
+        "Pack Tactics": {
+          "name": "Tactiques de meute",
+          "description": "<p>The wolf has Advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.</p>"
+        },
+        "Bite": {
+          "name": "Morsure",
+          "description": "<p><em>Melee Attack Roll: </em>+5, reach 5 ft. <em>Hit: </em>8 (1d10 + 3) Piercing damage, and the target has the &amp;Reference[prone] condition if it is Huge or smaller.</p>"
+        }
+      }
+    },
+    "Driftglobe (Daylight)": {
+      "name": "Globe flottant (lumière du jour)",
+      "tokenName": "Globe flottant"
+    },
+    "Driftglobe (Light)": {
+      "name": "Globe flottant (lumière)",
+      "tokenName": "Globe flottant"
+    },
+    "Elemental Cataclysm": {
+      "name": "Cataclysme élémentaire",
+      "tokenName": "Cataclysme élémentaire"
+    },
+    "Elephant": {
+      "name": "Éléphant",
+      "tokenName": "Éléphant",
+      "items": {
+        "Multiattack": {
+          "name": "Attaque multiple",
+          "description": "<p>The elephant makes two [[/item Gore]] attacks.</p>"
+        },
+        "Gore": {
+          "name": "Empalement",
+          "description": "<p><em>Melee Attack Roll: </em>+8, reach 5 ft. <em>Hit:</em> 15 (2d8 + 6) Piercing damage. If the elephant moved at least 20 feet straight toward the target immediately before the hit, the target also has the &amp;Reference[prone] condition.</p>"
+        },
+        "Trample": {
+          "name": "Piétinement",
+          "description": "<p> <em>Dexterity Saving Throw:</em> DC 16, one creature within 5 feet that has the Prone condition. <em>Failure:</em> 17 (2d10 + 6) Bludgeoning damage. <em>Success:</em> Half damage.</p>"
+        }
+      }
+    },
+    "Empyrean": {
+      "name": "Empyréen",
+      "tokenName": "Empyréen"
+    },
+    "Fireball Fungus": {
+      "name": "Champignon boule de feu",
+      "tokenName": "Champignon boule de feu",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets",
+          "description": "<p><em>Deadly Hazard (Levels 5–10)</em></p><p>A fireball fungus is a Small, inanimate mushroom that can grow anywhere fungi are found in abundance. Its luminous, orange cap sheds Bright Light in a 15-foot radius and Dim Light for an additional 15 feet.</p><p>A fireball fungus has AC 10, HP 6, and to Immunity Psychic damage. When it drops to 0 Hit Points, the fungus explodes as if a @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball} spell (save DC 15) had been centered on it.</p><p><em><strong>At Higher Levels.</strong></em> The explosion of a fireball fungus causes other fireball fungi in the area of effect to explode as well. You can scale the hazard for higher levels by adding one additional fungus at levels 11–16 or three additional fungi at levels 17–20.</p>"
+        }
+      }
+    },
+    "Floating Whip": {
+      "name": "Fouet flottant",
+      "tokenName": "Fouet flottant",
+      "items": {
+        "Melee Spell Attack": {
+          "name": "Attaque magique de mêlée"
+        }
+      }
+    },
+    "Frog": {
+      "name": "Grenouille",
+      "tokenName": "Grenouille",
+      "items": {
+        "Amphibious": {
+          "name": "Amphibie",
+          "description": "<p> The frog can breathe air and water.</p>"
+
+        },
+        "Standing Leap": {
+          "name": "Saut sur place",
+          "description": "<p>The frog’s Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start.</p>"
+        },
+        "Bite": {
+          "name": "Morsure",
+          "description": "<p> <em>Melee Attack Roll:</em> +3, reach 5 ft. <em>Hit:</em> 1 Piercing damage.</p>"
+        }
+      }
+    },
+    "Giant Badger": {
+      "name": "Blaireau géant",
+      "tokenName": "Blaireau géant",
+      "items": {
+        "Bite": {
+          "name": "Morsure",
+          "description": "<p> <em>Melee Attack Roll:</em> +3, reach 5 ft. <em>Hit:</em> 6 (2d4 + 1) Piercing damage.</p>"
+        }
+      }
+    },
+    "Giant Fly": {
+      "name": "Mouche géante",
+      "tokenName": "Mouche géante"
+    },
+    "Giant Goat": {
+      "name": "Chèvre géante",
+      "tokenName": "Chèvre géante",
+      "items": {
+        "Ram": {
+          "name": "Coup de tête",
+          "value": "<p><em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit: </em>6 (1d6 + 3) Bludgeoning damage. If the goat moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and, if it is Huge or smaller, has the &amp;Reference[prone] condition.</p>"
+        }
+      }
+    },
+    "Giant Spider": {
+      "name": "Araignée géante",
+      "tokenName": "Araignée géante",
+      "items": {
+        "Spider Climb": {
+          "name": "Escalade arachnéenne",
+          "description": "<p>L'araignée peut grimper sur des surfaces difficiles, y compris le long des plafonds, sans avoir besoin de faire un test de compétence.</p>"
+        },
+        "Web Walker": {
+          "name": "Marche sur toile",
+          "description": "<p><em>Jet d'attaque au corps à corps : </em>+5, portée 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.</p>"
+        },
+        "Bite": {
+          "name": "Morsure",
+          "description": "<p><em>Jet d'attaque au corps à corps : </em>+5, portée 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.</p>"
+        },
+        "Web": {
+          "name": "Toile",
+          "description": "<p><em>Jet de sauvegarde de Dextérité :</em> DD 13, une créature que l'araignée peut voir dans un rayon de 18 m. <em>Échec :</em> La cible subit la condition &amp;Reference[restrained] jusqu'à ce que la toile soit détruite (CA 10 ; PV 5 ; Vulnérabilité aux dégâts de Feu ; Immunité aux dégâts de Poison et Psychiques).</p>"
+        }
+      }
+    },
+    "Giant Weasel": {
+      "name": "Belette géante",
+      "tokenName": "Belette géante",
+      "items": {
+        "Bite": {
+          "name": "Morsure",
+          "description": "<p> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Piercing damage.</p>"
+        }
+      }
+    },
+    "Goat": {
+      "name": "Chèvre",
+      "tokenName": "Chèvre",
+      "items": {
+        "Ram": {
+          "name": "Coup de tête",
+          "description": "<p><em>Melee Attack Roll: </em>+2, reach 5 ft. <em>Hit: </em>1 Bludgeoning damage, or the goat deals 2 (1d4) Bludgeoning damage if it moved at least 20 feet straight toward the target immediately before the hit.</p>"
+        }
+      }
+    },
+    "Goat of Terror": {
+      "name": "Chèvre de terreur",
+      "tokenName": "Chèvre de terreur",
+      "items": {
+        "Lance (Goat Horn)": {
+          "name": "Lance (Corne de chèvre)",
+          "description": "<p>Removing a horn requires a Magic action, and the weapons disappear and the horns return when the goat reverts to figurine form.</p>"
+        },
+        "Longsword (Goat Horn) +2": {
+          "name": "Épée longue (Corne de chèvre)",
+          "description": "<p>Removing a horn requires a Magic action, and the weapons disappear and the horns return when the goat reverts to figurine form.</p>"
+        },
+        "Frightened Emanation": {
+          "name": "Émanation de peur",
+          "description": "<p>While you ride the goat, any Hostile creature that starts its turn within a 30-foot Emanation originating from the goat must succeed on a DC 15 Wisdom saving throw or have the &amp;Reference[Frightened apply=false] condition for 1 minute, until you are no longer riding the goat, or until the goat reverts to figurine form. The Frightened creature repeats the save at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the save, a creature is immune to this effect for the next 24 hours.</p>"
+        }
+      }
+    },
+    "Goat of Traveling": {
+      "name": "Chèvre de voyage",
+      "tokenName": "Chèvre de voyage",
+      "items": {
+        "Hooves": {
+          "name": "Sabots"
+        }
+      }
+    },
+    "Green Slime": {
+      "name": "Gelée verte",
+      "tokenName": "Gelée verte",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets",
+          "description": "<p><em>Danger Mineur (Niveaux 1–4)</em></p><p>La boue verte acide dévore la chair, les matériaux organiques et le métal au contact. D’un vert vif, humide et collante, elle adhère aux murs, sols et plafonds en plaques.</p><p>Une plaque de boue verte couvre une surface de 1,5 mètre carré (5 pieds de côté). La boue verte possède une vision aveugle (Blindsight) avec une portée de 9 mètres (30 pieds), et tombe des murs et plafonds lorsqu’elle détecte un mouvement en dessous d’elle. Au-delà de cela, elle ne peut pas se déplacer. Une créature consciente de la présence de la boue peut éviter d’être touchée en réussissant un jet de sauvegarde de Dextérité DD 10.</p><p>Une créature en contact avec la boue verte subit 5 (1d10) dégâts d’Acide. La créature subit à nouveau ces dégâts au début de chacun de ses tours jusqu’à ce que la boue soit grattée (ce qui nécessite une action) ou détruite. Contre le bois ou le métal, la boue verte inflige 11 (2d10) dégâts d’Acide chaque round, et tout objet en bois ou métal non magique utilisé pour gratter la boue est détruit.</p><p>La lumière directe du soleil ou toute quantité de dégâts de Froid, Feu ou Radiant détruit une plaque de boue verte.</p>"
+        }
+      }
+    },
+    "Illusory Creature": {
+      "name": "Créature illusoire",
+      "tokenName": "Créature illusoire"
+    },
+    "Imp": {
+      "name": "Diablotin",
+      "tokenName": "Diablotin",
+      "items": {
+        "Devil’s Sight": {
+          "name": "Vision du diable"
+        },
+        "Magic Resistance": {
+          "name": "Résistance à la magie"
+        },
+        "Sting": {
+          "name": "Dard"
+        },
+        "Invisibility": {
+          "name": "Invisibilité"
+        },
+        "Shape-Shift": {
+          "name": "Métamorphose"
+        }
+      }
+    },
+    "Inferno": {
+      "name": "Inferno",
+      "tokenName": "Inferno",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets"
+        }
+      }
+    },
+    "Larva": {
+      "name": "Larve",
+      "tokenName": "Larve"
+    },
+    "Lion": {
+      "name": "Lion",
+      "tokenName": "Lion",
+      "items": {
+        "Pack Tactics": {
+          "name": "Tactiques de meute"
+        },
+        "Running Leap": {
+          "name": "Saut en course"
+        },
+        "Multiattack": {
+          "name": "Attaque multiple"
+        },
+        "Rend": {
+          "name": "Déchirure"
+        },
+        "Roar": {
+          "name": "Rugissement"
+        }
+      }
+    },
+    "Mastiff": {
+      "name": "Mastiff",
+      "tokenName": "Mastiff",
+      "items": {
+        "Bite": {
+          "name": "Morsure"
+        }
+      }
+    },
+    "Mule": {
+      "name": "Mule",
+      "tokenName": "Mule",
+      "items": {
+        "Beast of Burden": {
+          "name": "Bête de somme"
+        },
+        "Hooves": {
+          "name": "Sabots"
+        }
+      }
+    },
+    "Panther": {
+      "name": "Panthère",
+      "tokenName": "Panthère",
+      "items": {
+        "Multiattack": {
+          "name": "Attaque multiple"
+        },
+        "Pounce": {
+          "name": "Bond"
+        },
+        "Prowl": {
+          "name": "Rôder"
+        }
+      }
+    },
+    "Poisonous Gas": {
+      "name": "Gaz toxique",
+      "tokenName": "Gaz toxique",
+      "items": {
+        "Poisonous Gas": {
+          "name": "Gaz toxique"
+        }
+      }
+    },
+    "Quicksand Pit": {
+      "name": "Fosse de sables mouvants",
+      "tokenName": "Fosse de sables mouvants",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets"
+        }
+      }
+    },
+    "Rat": {
+      "name": "Rat",
+      "tokenName": "Rat",
+      "items": {
+        "Agile": {
+          "name": "Agile"
+        },
+        "Bite": {
+          "name": "Morsure"
+        }
+      }
+    },
+    "Raven": {
+      "name": "Corbeau",
+      "tokenName": "Corbeau",
+      "items": {
+        "Mimicry": {
+          "name": "Imitation"
+        },
+        "Beak": {
+          "name": "Bec"
+        }
+      }
+    },
+    "Razorvine": {
+      "name": "Vigne tranchante",
+      "tokenName": "Vigne tranchante",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets"
+        }
+      }
+    },
+    "Riding Horse": {
+      "name": "Cheval de selle",
+      "tokenName": "Cheval de selle",
+      "items": {
+        "Hooves": {
+          "name": "Sabots"
+        }
+      }
+    },
+    "River Styx": {
+      "name": "Fleuve Styx",
+      "tokenName": "Fleuve Styx",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets"
+        }
+      }
+    },
+    "Rockslide": {
+      "name": "Éboulement",
+      "tokenName": "Éboulement",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets"
+        }
+      }
+    },
+    "Skeleton": {
+      "name": "Squelette",
+      "tokenName": "Squelette",
+      "items": {
+        "Shortsword": {
+          "name": "Épée courte"
+        },
+        "Shortbow": {
+          "name": "Arc court"
+        }
+      }
+    },
+    "Tiger": {
+      "name": "Tigre",
+      "tokenName": "Tigre",
+      "items": {
+        "Multiattack": {
+          "name": "Attaque multiple"
+        },
+        "Pounce": {
+          "name": "Bond"
+        },
+        "Prowl": {
+          "name": "Rôder"
+        }
+      }
+    },
+    "Vicious Vine": {
+      "name": "Vigne féroce",
+      "tokenName": "Vigne féroce",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets"
+        }
+      }
+    },
+    "Weasel": {
+      "name": "Belette",
+      "tokenName": "Belette",
+      "items": {
+        "Bite": {
+          "name": "Morsure"
+        }
+      }
+    },
+    "Webs": {
+      "name": "Toiles",
+      "tokenName": "Toiles",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets"
+        }
+      }
+    },
+    "Wolf": {
+      "name": "Loup",
+      "tokenName": "Loup",
+      "items": {
+        "Pack Tactics": {
+          "name": "Tactiques de meute"
+        },
+        "Bite": {
+          "name": "Morsure"
+        }
+      }
+    },
+    "Yellow Mold": {
+      "name": "Moisi jaune",
+      "tokenName": "Moisi jaune",
+      "items": {
+        "Description/Effects": {
+          "name": "Description/effets"
+        }
+      }
+    },
+    "Zombie": {
+      "name": "Zombie",
+      "tokenName": "Zombie",
+      "items": {
+        "Undead Fortitude": {
+          "name": "Robustesse mort-vivante"
+        },
+        "Slam": {
+          "name": "Écrasement"
+        }
+      }
+    }
+  }
+}

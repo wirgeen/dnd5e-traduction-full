@@ -1,0 +1,2885 @@
+{
+  "label": "Actors",
+  "entries": {
+    "Aberrant Spirit": {
+      "name": "Aberrant Spirit",
+      "tokenName": "Aberrant Spirit",
+      "items": {
+        "Regeneration": {
+          "name": "Regeneration"
+        },
+        "Whispering Aura": {
+          "name": "Whispering Aura"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Claw": {
+          "name": "Claw"
+        },
+        "Eye Ray": {
+          "name": "Eye Ray"
+        },
+        "Psychic Slam": {
+          "name": "Psychic Slam"
+        }
+      }
+    },
+    "Air Elemental Spirit": {
+      "name": "Air Elemental Spirit",
+      "tokenName": "Elemental Spirit",
+      "items": {
+        "Amorphous Form": {
+          "name": "Amorphous Form"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Airship": {
+      "name": "Airship",
+      "tokenName": "Airship"
+    },
+    "Ape": {
+      "name": "Ape",
+      "tokenName": "Ape",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Fist": {
+          "name": "Fist"
+        },
+        "Rock": {
+          "name": "Rock"
+        }
+      }
+    },
+    "Arcane Eye": {
+      "name": "Arcane Eye",
+      "tokenName": "Arcane Eye",
+      "items": {
+        "Move": {
+          "name": "Move"
+        }
+      }
+    },
+    "Avenger Spirit": {
+      "name": "Avenger Spirit",
+      "tokenName": "Celestial Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Radiant Bow": {
+          "name": "Radiant Bow"
+        },
+        "Healing Touch": {
+          "name": "Healing Touch"
+        }
+      }
+    },
+    "Badger": {
+      "name": "Badger",
+      "tokenName": "Badger",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Barbarian": {
+      "name": "Barbarian",
+      "tokenName": "Barbarian",
+      "items": {
+        "Goliath": {
+          "name": "Goliath"
+        },
+        "Giant Ancestry": {
+          "name": "Giant Ancestry"
+        },
+        "Powerful Build": {
+          "name": "Powerful Build"
+        },
+        "Storm's Thunder": {
+          "name": "Storm's Thunder"
+        },
+        "Sailor": {
+          "name": "Sailor"
+        },
+        "Tavern Brawler": {
+          "name": "Tavern Brawler"
+        },
+        "Dagger": {
+          "name": "Dagger"
+        },
+        "Navigator’s Tools": {
+          "name": "Navigator’s Tools"
+        },
+        "Rope": {
+          "name": "Rope"
+        },
+        "Traveler's Clothes": {
+          "name": "Traveler's Clothes"
+        },
+        "Handaxe": {
+          "name": "Handaxe"
+        },
+        "Greataxe": {
+          "name": "Greataxe"
+        },
+        "Explorer’s Pack": {
+          "name": "Explorer’s Pack"
+        },
+        "Bedroll": {
+          "name": "Bedroll"
+        },
+        "Oil": {
+          "name": "Oil"
+        },
+        "Rations": {
+          "name": "Rations"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Torch": {
+          "name": "Torch"
+        },
+        "Waterskin": {
+          "name": "Waterskin"
+        },
+        "Water (Pint)": {
+          "name": "Water (Pint)"
+        },
+        "Barbarian": {
+          "name": "Barbarian"
+        },
+        "Rage": {
+          "name": "Rage"
+        },
+        "Unarmored Defense": {
+          "name": "Unarmored Defense"
+        },
+        "Weapon Mastery": {
+          "name": "Weapon Mastery"
+        },
+        "Unarmed Strike": {
+          "name": "Unarmed Strike"
+        }
+      }
+    },
+    "Bard": {
+      "name": "Bard",
+      "tokenName": "Bard",
+      "items": {
+        "Lute": {
+          "name": "Lute"
+        },
+        "Costume": {
+          "name": "Costume"
+        },
+        "Mirror": {
+          "name": "Mirror"
+        },
+        "Perfume": {
+          "name": "Perfume"
+        },
+        "Clothes, Traveler’s": {
+          "name": "Clothes, Traveler’s"
+        },
+        "Leather Armor": {
+          "name": "Leather Armor"
+        },
+        "Dagger": {
+          "name": "Dagger"
+        },
+        "Entertainer’s Pack": {
+          "name": "Entertainer’s Pack"
+        },
+        "Flute": {
+          "name": "Flute"
+        },
+        "Dancing Lights": {
+          "name": "Dancing Lights"
+        },
+        "Vicious Mockery": {
+          "name": "Vicious Mockery"
+        },
+        "Charm Person": {
+          "name": "Charm Person"
+        },
+        "Color Spray": {
+          "name": "Color Spray"
+        },
+        "Dissonant Whispers": {
+          "name": "Dissonant Whispers"
+        },
+        "Healing Word": {
+          "name": "Healing Word"
+        },
+        "Bedroll": {
+          "name": "Bedroll"
+        },
+        "Bell": {
+          "name": "Bell"
+        },
+        "Bullseye Lantern": {
+          "name": "Bullseye Lantern"
+        },
+        "Oil": {
+          "name": "Oil"
+        },
+        "Rations": {
+          "name": "Rations"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Waterskin": {
+          "name": "Waterskin"
+        },
+        "Water (Pint)": {
+          "name": "Water (Pint)"
+        },
+        "Tiefling, Chthonic": {
+          "name": "Tiefling, Chthonic"
+        },
+        "Thaumaturgy": {
+          "name": "Thaumaturgy"
+        },
+        "Otherworldly Presence": {
+          "name": "Otherworldly Presence"
+        },
+        "Fiendish Legacy, Chthonic": {
+          "name": "Fiendish Legacy, Chthonic"
+        },
+        "Entertainer": {
+          "name": "Entertainer"
+        },
+        "Musician": {
+          "name": "Musician"
+        },
+        "Bard": {
+          "name": "Bard"
+        },
+        "Chill Touch": {
+          "name": "Chill Touch"
+        },
+        "Bardic Inspiration": {
+          "name": "Bardic Inspiration"
+        },
+        "Spellcasting": {
+          "name": "Spellcasting"
+        }
+      }
+    },
+    "Bat": {
+      "name": "Bat",
+      "tokenName": "Bat",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Beast of the Land": {
+      "name": "Beast of the Land",
+      "tokenName": "Beast of the Land",
+      "items": {
+        "Primal Bond": {
+          "name": "Primal Bond"
+        },
+        "Beast’s Strike": {
+          "name": "Beast’s Strike"
+        }
+      }
+    },
+    "Beast of the Sea": {
+      "name": "Beast of the Sea",
+      "tokenName": "Beast of the Sea",
+      "items": {
+        "Amphibious": {
+          "name": "Amphibious"
+        },
+        "Primal Bond": {
+          "name": "Primal Bond"
+        },
+        "Beast’s Strike": {
+          "name": "Beast’s Strike"
+        }
+      }
+    },
+    "Beast of the Sky": {
+      "name": "Beast of the Sky",
+      "tokenName": "Beast of the Sky",
+      "items": {
+        "Flyby": {
+          "name": "Flyby"
+        },
+        "Primal Bond": {
+          "name": "Primal Bond"
+        },
+        "Beast’s Strike": {
+          "name": "Beast’s Strike"
+        }
+      }
+    },
+    "Beholderkin Spirit": {
+      "name": "Beholderkin Spirit",
+      "tokenName": "Aberrant Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Eye Ray": {
+          "name": "Eye Ray"
+        }
+      }
+    },
+    "Bestial Air Spirit": {
+      "name": "Bestial Air Spirit",
+      "tokenName": "Bestial Spirit",
+      "items": {
+        "Flyby": {
+          "name": "Flyby"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Rend": {
+          "name": "Rend"
+        }
+      }
+    },
+    "Bestial Land Spirit": {
+      "name": "Bestial Land Spirit",
+      "tokenName": "Bestial Spirit",
+      "items": {
+        "Pack Tactics": {
+          "name": "Pack Tactics"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Rend": {
+          "name": "Rend"
+        }
+      }
+    },
+    "Bestial Spirit": {
+      "name": "Bestial Spirit",
+      "tokenName": "Bestial Spirit",
+      "items": {
+        "Flyby": {
+          "name": "Flyby"
+        },
+        "Pack Tactics": {
+          "name": "Pack Tactics"
+        },
+        "Water Breathing": {
+          "name": "Water Breathing"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Rend": {
+          "name": "Rend"
+        }
+      }
+    },
+    "Bestial Water Spirit": {
+      "name": "Bestial Water Spirit",
+      "tokenName": "Bestial Spirit",
+      "items": {
+        "Pack Tactics": {
+          "name": "Pack Tactics"
+        },
+        "Water Breathing": {
+          "name": "Water Breathing"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Rend": {
+          "name": "Rend"
+        }
+      }
+    },
+    "Bigby's Hand": {
+      "name": "Bigby's Hand",
+      "tokenName": "Bigby's Hand",
+      "items": {
+        "Clenched Fist": {
+          "name": "Clenched Fist"
+        },
+        "Forceful Hand": {
+          "name": "Forceful Hand"
+        },
+        "Grasping Hand": {
+          "name": "Grasping Hand"
+        },
+        "Interposing Hand": {
+          "name": "Interposing Hand"
+        }
+      }
+    },
+    "Black Bear": {
+      "name": "Black Bear",
+      "tokenName": "Black Bear",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Rend": {
+          "name": "Rend"
+        }
+      }
+    },
+    "Boar": {
+      "name": "Boar",
+      "tokenName": "Boar",
+      "items": {
+        "Bloodied Fury": {
+          "name": "Bloodied Fury"
+        },
+        "Gore": {
+          "name": "Gore"
+        }
+      }
+    },
+    "Brown Bear": {
+      "name": "Brown Bear",
+      "tokenName": "Brown Bear",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Bite": {
+          "name": "Bite"
+        },
+        "Claw": {
+          "name": "Claw"
+        }
+      }
+    },
+    "Camel": {
+      "name": "Camel",
+      "tokenName": "Camel",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Cat": {
+      "name": "Cat",
+      "tokenName": "Cat",
+      "items": {
+        "Jumper": {
+          "name": "Jumper"
+        },
+        "Scratch": {
+          "name": "Scratch"
+        }
+      }
+    },
+    "Celestial Spirit": {
+      "name": "Celestial Spirit",
+      "tokenName": "Celestial Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Radiant Bow": {
+          "name": "Radiant Bow"
+        },
+        "Radiant Mace": {
+          "name": "Radiant Mace"
+        },
+        "Healing Touch": {
+          "name": "Healing Touch"
+        }
+      }
+    },
+    "Celestial Steed": {
+      "name": "Celestial Steed",
+      "tokenName": "Otherworldly Steed",
+      "items": {
+        "Life Bond": {
+          "name": "Life Bond"
+        },
+        "Otherworldly Slam": {
+          "name": "Otherworldly Slam"
+        },
+        "Healing Touch": {
+          "name": "Healing Touch"
+        }
+      }
+    },
+    "Clay Construct Spirit": {
+      "name": "Clay Construct Spirit",
+      "tokenName": "Construct Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Slam": {
+          "name": "Slam"
+        },
+        "Berserk Lashing": {
+          "name": "Berserk Lashing"
+        }
+      }
+    },
+    "Cleric": {
+      "name": "Cleric",
+      "tokenName": "Cleric",
+      "items": {
+        "Guard": {
+          "name": "Guard"
+        },
+        "Alert": {
+          "name": "Alert"
+        },
+        "Dwarf": {
+          "name": "Dwarf"
+        },
+        "Dwarven Resilience": {
+          "name": "Dwarven Resilience"
+        },
+        "Dwarven Toughness": {
+          "name": "Dwarven Toughness"
+        },
+        "Stonecunning": {
+          "name": "Stonecunning"
+        },
+        "Spear": {
+          "name": "Spear"
+        },
+        "Light Crossbow": {
+          "name": "Light Crossbow"
+        },
+        "Case, Crossbow Bolt": {
+          "name": "Case, Crossbow Bolt"
+        },
+        "Bolts": {
+          "name": "Bolts"
+        },
+        "Dragonchess": {
+          "name": "Dragonchess"
+        },
+        "Hooded Lantern": {
+          "name": "Hooded Lantern"
+        },
+        "Manacles": {
+          "name": "Manacles"
+        },
+        "Traveler's Clothes": {
+          "name": "Traveler's Clothes"
+        },
+        "Chain Shirt": {
+          "name": "Chain Shirt"
+        },
+        "Shield": {
+          "name": "Shield"
+        },
+        "Mace": {
+          "name": "Mace"
+        },
+        "Guidance": {
+          "name": "Guidance"
+        },
+        "Sacred Flame": {
+          "name": "Sacred Flame"
+        },
+        "Thaumaturgy": {
+          "name": "Thaumaturgy"
+        },
+        "Bless": {
+          "name": "Bless"
+        },
+        "Cure Wounds": {
+          "name": "Cure Wounds"
+        },
+        "Guiding Bolt": {
+          "name": "Guiding Bolt"
+        },
+        "Shield of Faith": {
+          "name": "Shield of Faith"
+        },
+        "Amulet": {
+          "name": "Amulet"
+        },
+        "Priest’s Pack": {
+          "name": "Priest’s Pack"
+        },
+        "Blanket": {
+          "name": "Blanket"
+        },
+        "Holy Water": {
+          "name": "Holy Water"
+        },
+        "Lamp": {
+          "name": "Lamp"
+        },
+        "Rations": {
+          "name": "Rations"
+        },
+        "Robe": {
+          "name": "Robe"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Cleric": {
+          "name": "Cleric"
+        },
+        "Spellcasting": {
+          "name": "Spellcasting"
+        },
+        "Divine Order": {
+          "name": "Divine Order"
+        },
+        "Divine Order: Protector": {
+          "name": "Divine Order: Protector"
+        }
+      }
+    },
+    "Conjured Air Elemental": {
+      "name": "Conjured Air Elemental",
+      "tokenName": "Conjured Air Elemental",
+      "items": {
+        "Air Element": {
+          "name": "Air Element"
+        }
+      }
+    },
+    "Conjured Animals": {
+      "name": "Conjured Animals",
+      "tokenName": "Conjured Animals",
+      "items": {
+        "Pack Damage": {
+          "name": "Pack Damage"
+        }
+      }
+    },
+    "Conjured Earth Elemental": {
+      "name": "Conjured Earth Elemental",
+      "tokenName": "Conjured Earth Elemental",
+      "items": {
+        "Earth Element": {
+          "name": "Earth Element"
+        }
+      }
+    },
+    "Conjured Fey": {
+      "name": "Conjured Fey",
+      "tokenName": "Conjured Fey",
+      "items": {
+        "Command": {
+          "name": "Command"
+        }
+      }
+    },
+    "Conjured Fire Elemental": {
+      "name": "Conjured Fire Elemental",
+      "tokenName": "Conjured Fire Elemental",
+      "items": {
+        "Fire Element": {
+          "name": "Fire Element"
+        }
+      }
+    },
+    "Conjured Water Elemental": {
+      "name": "Conjured Water Elemental",
+      "tokenName": "Conjured Water Elemental",
+      "items": {
+        "Water Element": {
+          "name": "Water Element"
+        }
+      }
+    },
+    "Constrictor Snake": {
+      "name": "Constrictor Snake",
+      "tokenName": "Constrictor Snake",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        },
+        "Constrict": {
+          "name": "Constrict"
+        }
+      }
+    },
+    "Construct Spirit": {
+      "name": "Construct Spirit",
+      "tokenName": "Construct Spirit",
+      "items": {
+        "Stony Lethargy": {
+          "name": "Stony Lethargy"
+        },
+        "Heated Body": {
+          "name": "Heated Body"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Slam": {
+          "name": "Slam"
+        },
+        "Berserk Lashing": {
+          "name": "Berserk Lashing"
+        }
+      }
+    },
+    "Crab": {
+      "name": "Crab",
+      "tokenName": "Crab",
+      "items": {
+        "Amphibious": {
+          "name": "Amphibious"
+        },
+        "Claw": {
+          "name": "Claw"
+        }
+      }
+    },
+    "Crocodile": {
+      "name": "Crocodile",
+      "tokenName": "Crocodile",
+      "items": {
+        "Hold Breath": {
+          "name": "Hold Breath"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Dancing Light (Medium)": {
+      "name": "Dancing Light (Medium)",
+      "tokenName": "Dancing Light"
+    },
+    "Dancing Light (Tiny)": {
+      "name": "Dancing Light (Tiny)",
+      "tokenName": "Dancing Light"
+    },
+    "Defender Spirit": {
+      "name": "Defender Spirit",
+      "tokenName": "Celestial Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Radiant Mace": {
+          "name": "Radiant Mace"
+        },
+        "Healing Touch": {
+          "name": "Healing Touch"
+        }
+      }
+    },
+    "Demon Spirit": {
+      "name": "Demon Spirit",
+      "tokenName": "Fiendish Spirit",
+      "items": {
+        "Death Throes": {
+          "name": "Death Throes"
+        },
+        "Magic Resistance": {
+          "name": "Magic Resistance"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Devil Spirit": {
+      "name": "Devil Spirit",
+      "tokenName": "Fiendish Spirit",
+      "items": {
+        "Devil’s Sight": {
+          "name": "Devil’s Sight"
+        },
+        "Magic Resistance": {
+          "name": "Magic Resistance"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Fiery Strike": {
+          "name": "Fiery Strike"
+        }
+      }
+    },
+    "Dire Wolf": {
+      "name": "Dire Wolf",
+      "tokenName": "Dire Wolf",
+      "items": {
+        "Pack Tactics": {
+          "name": "Pack Tactics"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Draconic Spirit": {
+      "name": "Draconic Spirit",
+      "tokenName": "Draconic Spirit",
+      "items": {
+        "Shared Resistances": {
+          "name": "Shared Resistances"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Rend": {
+          "name": "Rend"
+        },
+        "Breath Weapon": {
+          "name": "Breath Weapon"
+        }
+      }
+    },
+    "Draft Horse": {
+      "name": "Draft Horse",
+      "tokenName": "Draft Horse",
+      "items": {
+        "Hooves": {
+          "name": "Hooves"
+        }
+      }
+    },
+    "Druid": {
+      "name": "Druid",
+      "tokenName": "Druid",
+      "items": {
+        "Farmer": {
+          "name": "Farmer"
+        },
+        "Tough": {
+          "name": "Tough"
+        },
+        "Human": {
+          "name": "Human"
+        },
+        "Resourceful": {
+          "name": "Resourceful"
+        },
+        "Skillful": {
+          "name": "Skillful"
+        },
+        "Versatile": {
+          "name": "Versatile"
+        },
+        "Skilled": {
+          "name": "Skilled"
+        },
+        "Sickle": {
+          "name": "Sickle"
+        },
+        "Carpenter’s Tools": {
+          "name": "Carpenter’s Tools"
+        },
+        "Healer’s Kit": {
+          "name": "Healer’s Kit"
+        },
+        "Iron Pot": {
+          "name": "Iron Pot"
+        },
+        "Shovel": {
+          "name": "Shovel"
+        },
+        "Traveler's Clothes": {
+          "name": "Traveler's Clothes"
+        },
+        "Leather Armor": {
+          "name": "Leather Armor"
+        },
+        "Shield": {
+          "name": "Shield"
+        },
+        "Herbalism Kit": {
+          "name": "Herbalism Kit"
+        },
+        "Druidcraft": {
+          "name": "Druidcraft"
+        },
+        "Produce Flame": {
+          "name": "Produce Flame"
+        },
+        "Animal Friendship": {
+          "name": "Animal Friendship"
+        },
+        "Cure Wounds": {
+          "name": "Cure Wounds"
+        },
+        "Faerie Fire": {
+          "name": "Faerie Fire"
+        },
+        "Thunderwave": {
+          "name": "Thunderwave"
+        },
+        "Wooden staff": {
+          "name": "Wooden staff"
+        },
+        "Explorer’s Pack": {
+          "name": "Explorer’s Pack"
+        },
+        "Bedroll": {
+          "name": "Bedroll"
+        },
+        "Oil": {
+          "name": "Oil"
+        },
+        "Rations": {
+          "name": "Rations"
+        },
+        "Rope": {
+          "name": "Rope"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Torch": {
+          "name": "Torch"
+        },
+        "Waterskin": {
+          "name": "Waterskin"
+        },
+        "Water (Pint)": {
+          "name": "Water (Pint)"
+        },
+        "Druid": {
+          "name": "Druid"
+        },
+        "Spellcasting": {
+          "name": "Spellcasting"
+        },
+        "Druidic": {
+          "name": "Druidic"
+        },
+        "Primal Order": {
+          "name": "Primal Order"
+        },
+        "Speak with Animals": {
+          "name": "Speak with Animals"
+        },
+        "Primal Order: Magician": {
+          "name": "Primal Order: Magician"
+        }
+      }
+    },
+    "Duplicate": {
+      "name": "Duplicate",
+      "tokenName": "Duplicate"
+    },
+    "Earth Elemental Spirit": {
+      "name": "Earth Elemental Spirit",
+      "tokenName": "Elemental Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Elemental Spirit": {
+      "name": "Elemental Spirit",
+      "tokenName": "Elemental Spirit",
+      "items": {
+        "Amorphous Form": {
+          "name": "Amorphous Form"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Elephant": {
+      "name": "Elephant",
+      "tokenName": "Elephant",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Gore": {
+          "name": "Gore"
+        },
+        "Trample": {
+          "name": "Trample"
+        }
+      }
+    },
+    "Elk": {
+      "name": "Elk",
+      "tokenName": "Elk",
+      "items": {
+        "Ram": {
+          "name": "Ram"
+        }
+      }
+    },
+    "Faithful Hound": {
+      "name": "Faithful Hound",
+      "tokenName": "Faithful Hound",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Fey Spirit": {
+      "name": "Fey Spirit",
+      "tokenName": "Fey Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Fey Blade": {
+          "name": "Fey Blade"
+        },
+        "Fey Step": {
+          "name": "Fey Step"
+        },
+        "Mirthful": {
+          "name": "Mirthful"
+        },
+        "Tricksy": {
+          "name": "Tricksy"
+        }
+      }
+    },
+    "Fey Steed": {
+      "name": "Fey Steed",
+      "tokenName": "Otherworldly Steed",
+      "items": {
+        "Life Bond": {
+          "name": "Life Bond"
+        },
+        "Otherworldly Slam": {
+          "name": "Otherworldly Slam"
+        },
+        "Fey Step": {
+          "name": "Fey Step"
+        }
+      }
+    },
+    "Fiend Steed": {
+      "name": "Fiend Steed",
+      "tokenName": "Otherworldly Steed",
+      "items": {
+        "Life Bond": {
+          "name": "Life Bond"
+        },
+        "Otherworldly Slam": {
+          "name": "Otherworldly Slam"
+        },
+        "Fell Glare": {
+          "name": "Fell Glare"
+        }
+      }
+    },
+    "Fiendish Spirit": {
+      "name": "Fiendish Spirit",
+      "tokenName": "Fiendish Spirit",
+      "items": {
+        "Death Throes": {
+          "name": "Death Throes"
+        },
+        "Devil’s Sight": {
+          "name": "Devil’s Sight"
+        },
+        "Magic Resistance": {
+          "name": "Magic Resistance"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Bite (Demon Only)": {
+          "name": "Bite (Demon Only)"
+        },
+        "Claws (Yugoloth Only)": {
+          "name": "Claws (Yugoloth Only)"
+        },
+        "Fiery Strike (Devil Only)": {
+          "name": "Fiery Strike (Devil Only)"
+        }
+      }
+    },
+    "Fighter": {
+      "name": "Fighter",
+      "tokenName": "Fighter",
+      "items": {
+        "Soldier": {
+          "name": "Soldier"
+        },
+        "Savage Attacker": {
+          "name": "Savage Attacker"
+        },
+        "Dwarf": {
+          "name": "Dwarf"
+        },
+        "Dwarven Resilience": {
+          "name": "Dwarven Resilience"
+        },
+        "Dwarven Toughness": {
+          "name": "Dwarven Toughness"
+        },
+        "Stonecunning": {
+          "name": "Stonecunning"
+        },
+        "Spear": {
+          "name": "Spear"
+        },
+        "Shortbow": {
+          "name": "Shortbow"
+        },
+        "Arrows": {
+          "name": "Arrows"
+        },
+        "Dice": {
+          "name": "Dice"
+        },
+        "Healer’s Kit": {
+          "name": "Healer’s Kit"
+        },
+        "Quiver": {
+          "name": "Quiver"
+        },
+        "Traveler's Clothes": {
+          "name": "Traveler's Clothes"
+        },
+        "Chain Mail": {
+          "name": "Chain Mail"
+        },
+        "Greatsword": {
+          "name": "Greatsword"
+        },
+        "Flail": {
+          "name": "Flail"
+        },
+        "Javelin": {
+          "name": "Javelin"
+        },
+        "Dungeoneer’s Pack": {
+          "name": "Dungeoneer’s Pack"
+        },
+        "Caltrops": {
+          "name": "Caltrops"
+        },
+        "Crowbar": {
+          "name": "Crowbar"
+        },
+        "Oil": {
+          "name": "Oil"
+        },
+        "Rations": {
+          "name": "Rations"
+        },
+        "Rope": {
+          "name": "Rope"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Torch": {
+          "name": "Torch"
+        },
+        "Waterskin": {
+          "name": "Waterskin"
+        },
+        "Water (Pint)": {
+          "name": "Water (Pint)"
+        },
+        "Fighter": {
+          "name": "Fighter"
+        },
+        "Fighting Style": {
+          "name": "Fighting Style"
+        },
+        "Second Wind": {
+          "name": "Second Wind"
+        },
+        "Weapon Mastery": {
+          "name": "Weapon Mastery"
+        },
+        "Defense": {
+          "name": "Defense"
+        }
+      }
+    },
+    "Fire Elemental Spirit": {
+      "name": "Fire Elemental Spirit",
+      "tokenName": "Elemental Spirit",
+      "items": {
+        "Amorphous Form": {
+          "name": "Amorphous Form"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Flaming Sphere": {
+      "name": "Flaming Sphere",
+      "tokenName": "Flaming Sphere",
+      "items": {
+        "Flames": {
+          "name": "Flames"
+        },
+        "Roll": {
+          "name": "Roll"
+        }
+      }
+    },
+    "Floating Disk": {
+      "name": "Floating Disk",
+      "tokenName": "Floating Disk",
+      "items": {
+        "Carry Weight Adjustment": {
+          "name": "Carry Weight Adjustment"
+        }
+      }
+    },
+    "Frog": {
+      "name": "Frog",
+      "tokenName": "Frog",
+      "items": {
+        "Amphibious": {
+          "name": "Amphibious"
+        },
+        "Standing Leap": {
+          "name": "Standing Leap"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Fuming Fey Spirit": {
+      "name": "Fuming Fey Spirit",
+      "tokenName": "Fey Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Fey Blade": {
+          "name": "Fey Blade"
+        },
+        "Fey Step": {
+          "name": "Fey Step"
+        }
+      }
+    },
+    "Galley": {
+      "name": "Galley",
+      "tokenName": "Galley"
+    },
+    "Ghostly Spirit": {
+      "name": "Ghostly Spirit",
+      "tokenName": "Undead Spirit",
+      "items": {
+        "Incorporeal Passage": {
+          "name": "Incorporeal Passage"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Deathly Touch": {
+          "name": "Deathly Touch"
+        }
+      }
+    },
+    "Giant Badger": {
+      "name": "Giant Badger",
+      "tokenName": "Giant Badger",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Giant Centipede": {
+      "name": "Giant Centipede",
+      "tokenName": "Giant Insect",
+      "items": {
+        "Spider Climb": {
+          "name": "Spider Climb"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Poison Jab": {
+          "name": "Poison Jab"
+        },
+        "Venomous Spew": {
+          "name": "Venomous Spew"
+        }
+      }
+    },
+    "Giant Crab": {
+      "name": "Giant Crab",
+      "tokenName": "Giant Crab",
+      "items": {
+        "Amphibious": {
+          "name": "Amphibious"
+        },
+        "Claw": {
+          "name": "Claw"
+        }
+      }
+    },
+    "Giant Goat": {
+      "name": "Giant Goat",
+      "tokenName": "Giant Goat",
+      "items": {
+        "Ram": {
+          "name": "Ram"
+        }
+      }
+    },
+    "Giant Insect": {
+      "name": "Giant Insect",
+      "tokenName": "Giant Insect",
+      "items": {
+        "Spider Climb": {
+          "name": "Spider Climb"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Poison Jab": {
+          "name": "Poison Jab"
+        },
+        "Web Bolt": {
+          "name": "Web Bolt"
+        },
+        "Venomous Spew": {
+          "name": "Venomous Spew"
+        }
+      }
+    },
+    "Giant Seahorse": {
+      "name": "Giant Seahorse",
+      "tokenName": "Giant Seahorse",
+      "items": {
+        "Water Breathing": {
+          "name": "Water Breathing"
+        },
+        "Ram": {
+          "name": "Ram"
+        },
+        "Bubble Dash": {
+          "name": "Bubble Dash"
+        }
+      }
+    },
+    "Giant Spider": {
+      "name": "Giant Spider",
+      "tokenName": "Giant Spider",
+      "items": {
+        "Spider Climb": {
+          "name": "Spider Climb"
+        },
+        "Web Walker": {
+          "name": "Web Walker"
+        },
+        "Bite": {
+          "name": "Bite"
+        },
+        "Web": {
+          "name": "Web"
+        }
+      }
+    },
+    "Giant Wasp": {
+      "name": "Giant Wasp",
+      "tokenName": "Giant Insect",
+      "items": {
+        "Spider Climb": {
+          "name": "Spider Climb"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Poison Jab": {
+          "name": "Poison Jab"
+        }
+      }
+    },
+    "Giant Weasel": {
+      "name": "Giant Weasel",
+      "tokenName": "Giant Weasel",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Goat": {
+      "name": "Goat",
+      "tokenName": "Goat",
+      "items": {
+        "Ram": {
+          "name": "Ram"
+        }
+      }
+    },
+    "Grasping Vine": {
+      "name": "Grasping Vine",
+      "tokenName": "Grasping Vine",
+      "items": {
+        "Vine Attack": {
+          "name": "Vine Attack"
+        }
+      }
+    },
+    "Guardian of Faith": {
+      "name": "Guardian of Faith",
+      "tokenName": "Guardian of Faith",
+      "items": {
+        "Guarded Area": {
+          "name": "Guarded Area"
+        }
+      }
+    },
+    "Hawk": {
+      "name": "Hawk",
+      "tokenName": "Hawk",
+      "items": {
+        "Talons": {
+          "name": "Talons"
+        }
+      }
+    },
+    "Huge Animated Object": {
+      "name": "Huge Animated Object",
+      "tokenName": "Animated Object",
+      "items": {
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Illusory Creature": {
+      "name": "Illusory Creature",
+      "tokenName": "Illusory Creature"
+    },
+    "Illusory Object": {
+      "name": "Illusory Object",
+      "tokenName": "Illusory Object"
+    },
+    "Illusory Phenomenon": {
+      "name": "Illusory Phenomenon",
+      "tokenName": "Illusory Phenomenon"
+    },
+    "Imp": {
+      "name": "Imp",
+      "tokenName": "Imp",
+      "items": {
+        "Devil’s Sight": {
+          "name": "Devil’s Sight"
+        },
+        "Magic Resistance": {
+          "name": "Magic Resistance"
+        },
+        "Sting": {
+          "name": "Sting"
+        },
+        "Invisibility": {
+          "name": "Invisibility"
+        },
+        "Shape-Shift": {
+          "name": "Shape-Shift"
+        }
+      }
+    },
+    "Invisible Sensor": {
+      "name": "Invisible Sensor",
+      "tokenName": "Invisible Sensor"
+    },
+    "Keelboat": {
+      "name": "Keelboat",
+      "tokenName": "Keelboat"
+    },
+    "Large Animated Object": {
+      "name": "Large Animated Object",
+      "tokenName": "Animated Object",
+      "items": {
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Light": {
+      "name": "Light",
+      "tokenName": "Light"
+    },
+    "Lion": {
+      "name": "Lion",
+      "tokenName": "Lion",
+      "items": {
+        "Pack Tactics": {
+          "name": "Pack Tactics"
+        },
+        "Running Leap": {
+          "name": "Running Leap"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Rend": {
+          "name": "Rend"
+        },
+        "Roar": {
+          "name": "Roar"
+        }
+      }
+    },
+    "Lizard": {
+      "name": "Lizard",
+      "tokenName": "Lizard",
+      "items": {
+        "Spider Climb": {
+          "name": "Spider Climb"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Longship": {
+      "name": "Longship",
+      "tokenName": "Longship"
+    },
+    "Mage Hand": {
+      "name": "Mage Hand",
+      "tokenName": "Mage Hand"
+    },
+    "Mastiff": {
+      "name": "Mastiff",
+      "tokenName": "Mastiff",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Medium Animated Object": {
+      "name": "Medium Animated Object",
+      "tokenName": "Animated Object",
+      "items": {
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Metal Construct Spirit": {
+      "name": "Metal Construct Spirit",
+      "tokenName": "Construct Spirit",
+      "items": {
+        "Heated Body": {
+          "name": "Heated Body"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Mind Flayer Spirit": {
+      "name": "Mind Flayer Spirit",
+      "tokenName": "Aberrant Spirit",
+      "items": {
+        "Whispering Aura": {
+          "name": "Whispering Aura"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Psychic Slam": {
+          "name": "Psychic Slam"
+        }
+      }
+    },
+    "Mirthful Fey Spirit": {
+      "name": "Mirthful Fey Spirit",
+      "tokenName": "Fey Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Fey Blade": {
+          "name": "Fey Blade"
+        },
+        "Fey Step": {
+          "name": "Fey Step"
+        }
+      }
+    },
+    "Monk": {
+      "name": "Monk",
+      "tokenName": "Monk",
+      "items": {
+        "Guide": {
+          "name": "Guide"
+        },
+        "Magic Initiate": {
+          "name": "Magic Initiate"
+        },
+        "Dragonborn": {
+          "name": "Dragonborn"
+        },
+        "Breath Weapon": {
+          "name": "Breath Weapon"
+        },
+        "Mage Hand": {
+          "name": "Mage Hand"
+        },
+        "Fire Bolt": {
+          "name": "Fire Bolt"
+        },
+        "Sleep": {
+          "name": "Sleep"
+        },
+        "Glassblower’s Tools": {
+          "name": "Glassblower’s Tools"
+        },
+        "Shortbow": {
+          "name": "Shortbow"
+        },
+        "Arrows": {
+          "name": "Arrows"
+        },
+        "Cartographer’s Tools": {
+          "name": "Cartographer’s Tools"
+        },
+        "Bedroll": {
+          "name": "Bedroll"
+        },
+        "Quiver": {
+          "name": "Quiver"
+        },
+        "Tent": {
+          "name": "Tent"
+        },
+        "Traveler's Clothes": {
+          "name": "Traveler's Clothes"
+        },
+        "Spear": {
+          "name": "Spear"
+        },
+        "Dagger": {
+          "name": "Dagger"
+        },
+        "Explorer’s Pack": {
+          "name": "Explorer’s Pack"
+        },
+        "Oil": {
+          "name": "Oil"
+        },
+        "Rations": {
+          "name": "Rations"
+        },
+        "Rope": {
+          "name": "Rope"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Torch": {
+          "name": "Torch"
+        },
+        "Waterskin": {
+          "name": "Waterskin"
+        },
+        "Water (Pint)": {
+          "name": "Water (Pint)"
+        },
+        "Monk": {
+          "name": "Monk"
+        },
+        "Martial Arts": {
+          "name": "Martial Arts"
+        },
+        "Unarmored Defense": {
+          "name": "Unarmored Defense"
+        },
+        "Unarmed Strike": {
+          "name": "Unarmed Strike"
+        }
+      }
+    },
+    "Mordenkainen’s Sword": {
+      "name": "Mordenkainen’s Sword",
+      "tokenName": "Mordenkainen’s Sword",
+      "items": {
+        "Move and Attack": {
+          "name": "Move and Attack"
+        }
+      }
+    },
+    "Mule": {
+      "name": "Mule",
+      "tokenName": "Mule",
+      "items": {
+        "Beast of Burden": {
+          "name": "Beast of Burden"
+        },
+        "Hooves": {
+          "name": "Hooves"
+        }
+      }
+    },
+    "Octopus": {
+      "name": "Octopus",
+      "tokenName": "Octopus",
+      "items": {
+        "Compression": {
+          "name": "Compression"
+        },
+        "Water Breathing": {
+          "name": "Water Breathing"
+        },
+        "Ink Cloud": {
+          "name": "Ink Cloud"
+        },
+        "Tentacles": {
+          "name": "Tentacles"
+        }
+      }
+    },
+    "Otherworldly Steed": {
+      "name": "Otherworldly Steed",
+      "tokenName": "Otherworldly Steed",
+      "items": {
+        "Life Bond": {
+          "name": "Life Bond"
+        },
+        "Otherworldly Slam": {
+          "name": "Otherworldly Slam"
+        },
+        "Fell Glare": {
+          "name": "Fell Glare"
+        },
+        "Fey Step": {
+          "name": "Fey Step"
+        },
+        "Healing Touch": {
+          "name": "Healing Touch"
+        }
+      }
+    },
+    "Owl": {
+      "name": "Owl",
+      "tokenName": "Owl",
+      "items": {
+        "Flyby": {
+          "name": "Flyby"
+        },
+        "Talons": {
+          "name": "Talons"
+        }
+      }
+    },
+    "Paladin": {
+      "name": "Paladin",
+      "tokenName": "Paladin",
+      "items": {
+        "Noble": {
+          "name": "Noble"
+        },
+        "Skilled": {
+          "name": "Skilled"
+        },
+        "Orc": {
+          "name": "Orc"
+        },
+        "Adrenaline Rush": {
+          "name": "Adrenaline Rush"
+        },
+        "Relentless Endurance": {
+          "name": "Relentless Endurance"
+        },
+        "Dragonchess": {
+          "name": "Dragonchess"
+        },
+        "Fine Clothes": {
+          "name": "Fine Clothes"
+        },
+        "Perfume": {
+          "name": "Perfume"
+        },
+        "Chain Mail": {
+          "name": "Chain Mail"
+        },
+        "Shield": {
+          "name": "Shield"
+        },
+        "Longsword": {
+          "name": "Longsword"
+        },
+        "Javelin": {
+          "name": "Javelin"
+        },
+        "Priest’s Pack": {
+          "name": "Priest’s Pack"
+        },
+        "Heroism": {
+          "name": "Heroism"
+        },
+        "Searing Smite": {
+          "name": "Searing Smite"
+        },
+        "Emblem": {
+          "name": "Emblem"
+        },
+        "Blanket": {
+          "name": "Blanket"
+        },
+        "Holy Water": {
+          "name": "Holy Water"
+        },
+        "Lamp": {
+          "name": "Lamp"
+        },
+        "Rations": {
+          "name": "Rations"
+        },
+        "Robe": {
+          "name": "Robe"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Paladin": {
+          "name": "Paladin"
+        },
+        "Lay on Hands": {
+          "name": "Lay on Hands"
+        },
+        "Spellcasting": {
+          "name": "Spellcasting"
+        },
+        "Weapon Mastery": {
+          "name": "Weapon Mastery"
+        }
+      }
+    },
+    "Panther": {
+      "name": "Panther",
+      "tokenName": "Panther",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Pounce": {
+          "name": "Pounce"
+        },
+        "Prowl": {
+          "name": "Prowl"
+        }
+      }
+    },
+    "Phantom Steed": {
+      "name": "Phantom Steed",
+      "tokenName": "Riding Horse",
+      "items": {
+        "Hooves": {
+          "name": "Hooves"
+        }
+      }
+    },
+    "Pony": {
+      "name": "Pony",
+      "tokenName": "Pony",
+      "items": {
+        "Hooves": {
+          "name": "Hooves"
+        }
+      }
+    },
+    "Pseudodragon": {
+      "name": "Pseudodragon",
+      "tokenName": "Pseudodragon",
+      "items": {
+        "Magic Resistance": {
+          "name": "Magic Resistance"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Bite": {
+          "name": "Bite"
+        },
+        "Sting": {
+          "name": "Sting"
+        }
+      }
+    },
+    "Putrid Spirit": {
+      "name": "Putrid Spirit",
+      "tokenName": "Undead Spirit",
+      "items": {
+        "Festering Aura": {
+          "name": "Festering Aura"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Rotting Claw": {
+          "name": "Rotting Claw"
+        }
+      }
+    },
+    "Quasit": {
+      "name": "Quasit",
+      "tokenName": "Quasit",
+      "items": {
+        "Magic Resistance": {
+          "name": "Magic Resistance"
+        },
+        "Rend": {
+          "name": "Rend"
+        },
+        "Invisibility": {
+          "name": "Invisibility"
+        },
+        "Scare": {
+          "name": "Scare"
+        },
+        "Shape-Shift": {
+          "name": "Shape-Shift"
+        }
+      }
+    },
+    "Ranger": {
+      "name": "Ranger",
+      "tokenName": "Ranger",
+      "items": {
+        "Wayfarer": {
+          "name": "Wayfarer"
+        },
+        "Lucky": {
+          "name": "Lucky"
+        },
+        "Dagger": {
+          "name": "Dagger"
+        },
+        "Thieves’ Tools": {
+          "name": "Thieves’ Tools"
+        },
+        "Bedroll": {
+          "name": "Bedroll"
+        },
+        "Pouch": {
+          "name": "Pouch"
+        },
+        "Traveler's Clothes": {
+          "name": "Traveler's Clothes"
+        },
+        "Playing Cards": {
+          "name": "Playing Cards"
+        },
+        "Elf, Wood": {
+          "name": "Elf, Wood"
+        },
+        "Fey Ancestry": {
+          "name": "Fey Ancestry"
+        },
+        "Keen Senses": {
+          "name": "Keen Senses"
+        },
+        "Trance": {
+          "name": "Trance"
+        },
+        "Elven Lineage, Wood Elf": {
+          "name": "Elven Lineage, Wood Elf"
+        },
+        "Studded Leather Armor": {
+          "name": "Studded Leather Armor"
+        },
+        "Scimitar": {
+          "name": "Scimitar"
+        },
+        "Shortsword": {
+          "name": "Shortsword"
+        },
+        "Longbow": {
+          "name": "Longbow"
+        },
+        "Arrows": {
+          "name": "Arrows"
+        },
+        "Quiver": {
+          "name": "Quiver"
+        },
+        "Explorer’s Pack": {
+          "name": "Explorer’s Pack"
+        },
+        "Cure Wounds": {
+          "name": "Cure Wounds"
+        },
+        "Ensnaring Strike": {
+          "name": "Ensnaring Strike"
+        },
+        "Sprig of mistletoe": {
+          "name": "Sprig of mistletoe"
+        },
+        "Oil": {
+          "name": "Oil"
+        },
+        "Rations": {
+          "name": "Rations"
+        },
+        "Rope": {
+          "name": "Rope"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Torch": {
+          "name": "Torch"
+        },
+        "Waterskin": {
+          "name": "Waterskin"
+        },
+        "Water (Pint)": {
+          "name": "Water (Pint)"
+        },
+        "Ranger": {
+          "name": "Ranger"
+        },
+        "Druidcraft": {
+          "name": "Druidcraft"
+        },
+        "Spellcasting": {
+          "name": "Spellcasting"
+        },
+        "Favored Enemy": {
+          "name": "Favored Enemy"
+        },
+        "Weapon Mastery": {
+          "name": "Weapon Mastery"
+        },
+        "Hunter's Mark": {
+          "name": "Hunter's Mark"
+        }
+      }
+    },
+    "Rat": {
+      "name": "Rat",
+      "tokenName": "Rat",
+      "items": {
+        "Agile": {
+          "name": "Agile"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Raven": {
+      "name": "Raven",
+      "tokenName": "Raven",
+      "items": {
+        "Mimicry": {
+          "name": "Mimicry"
+        },
+        "Beak": {
+          "name": "Beak"
+        }
+      }
+    },
+    "Reef Shark": {
+      "name": "Reef Shark",
+      "tokenName": "Reef Shark",
+      "items": {
+        "Pack Tactics": {
+          "name": "Pack Tactics"
+        },
+        "Water Breathing": {
+          "name": "Water Breathing"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Riding Horse": {
+      "name": "Riding Horse",
+      "tokenName": "Riding Horse",
+      "items": {
+        "Hooves": {
+          "name": "Hooves"
+        }
+      }
+    },
+    "Rogue": {
+      "name": "Rogue",
+      "tokenName": "Rogue",
+      "items": {
+        "Criminal": {
+          "name": "Criminal"
+        },
+        "Alert": {
+          "name": "Alert"
+        },
+        "Halfling": {
+          "name": "Halfling"
+        },
+        "Brave": {
+          "name": "Brave"
+        },
+        "Halfling Nimbleness": {
+          "name": "Halfling Nimbleness"
+        },
+        "Luck": {
+          "name": "Luck"
+        },
+        "Naturally Stealthy": {
+          "name": "Naturally Stealthy"
+        },
+        "Dagger": {
+          "name": "Dagger"
+        },
+        "Thieves’ Tools": {
+          "name": "Thieves’ Tools"
+        },
+        "Crowbar": {
+          "name": "Crowbar"
+        },
+        "Pouch": {
+          "name": "Pouch"
+        },
+        "Clothes, Traveler’s": {
+          "name": "Clothes, Traveler’s"
+        },
+        "Leather Armor": {
+          "name": "Leather Armor"
+        },
+        "Shortsword": {
+          "name": "Shortsword"
+        },
+        "Shortbow": {
+          "name": "Shortbow"
+        },
+        "Arrows": {
+          "name": "Arrows"
+        },
+        "Quiver": {
+          "name": "Quiver"
+        },
+        "Burglar’s Pack": {
+          "name": "Burglar’s Pack"
+        },
+        "Ball Bearings": {
+          "name": "Ball Bearings"
+        },
+        "Bell": {
+          "name": "Bell"
+        },
+        "Candle": {
+          "name": "Candle"
+        },
+        "Hooded Lantern": {
+          "name": "Hooded Lantern"
+        },
+        "Oil": {
+          "name": "Oil"
+        },
+        "Rations": {
+          "name": "Rations"
+        },
+        "Rope": {
+          "name": "Rope"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Waterskin": {
+          "name": "Waterskin"
+        },
+        "Water (Pint)": {
+          "name": "Water (Pint)"
+        },
+        "Rogue": {
+          "name": "Rogue"
+        },
+        "Expertise": {
+          "name": "Expertise"
+        },
+        "Sneak Attack": {
+          "name": "Sneak Attack"
+        },
+        "Thieves' Cant": {
+          "name": "Thieves' Cant"
+        },
+        "Weapon Mastery": {
+          "name": "Weapon Mastery"
+        }
+      }
+    },
+    "Rowboat": {
+      "name": "Rowboat",
+      "tokenName": "Rowboat"
+    },
+    "Sailing Ship": {
+      "name": "Sailing Ship",
+      "tokenName": "Sailing Ship"
+    },
+    "Scorpion": {
+      "name": "Scorpion",
+      "tokenName": "Scorpion",
+      "items": {
+        "Sting": {
+          "name": "Sting"
+        }
+      }
+    },
+    "Secret Chest": {
+      "name": "Secret Chest",
+      "tokenName": "Secret Chest"
+    },
+    "Skeletal Spirit": {
+      "name": "Skeletal Spirit",
+      "tokenName": "Undead Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Grave Bolt": {
+          "name": "Grave Bolt"
+        }
+      }
+    },
+    "Skeleton": {
+      "name": "Skeleton",
+      "tokenName": "Skeleton",
+      "items": {
+        "Shortsword": {
+          "name": "Shortsword"
+        },
+        "Shortbow": {
+          "name": "Shortbow"
+        }
+      }
+    },
+    "Slaad Spirit": {
+      "name": "Slaad Spirit",
+      "tokenName": "Aberrant Spirit",
+      "items": {
+        "Regeneration": {
+          "name": "Regeneration"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Claw": {
+          "name": "Claw"
+        }
+      }
+    },
+    "Slaad Tadpole": {
+      "name": "Slaad Tadpole",
+      "tokenName": "Slaad Tadpole",
+      "items": {
+        "Magic Resistance": {
+          "name": "Magic Resistance"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Small Animated Object": {
+      "name": "Small Animated Object",
+      "tokenName": "Animated Object",
+      "items": {
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Sorcerer": {
+      "name": "Sorcerer",
+      "tokenName": "Sorcerer",
+      "items": {
+        "Charlatan": {
+          "name": "Charlatan"
+        },
+        "Skilled": {
+          "name": "Skilled"
+        },
+        "Elf, Drow": {
+          "name": "Elf, Drow"
+        },
+        "Fey Ancestry": {
+          "name": "Fey Ancestry"
+        },
+        "Keen Senses": {
+          "name": "Keen Senses"
+        },
+        "Trance": {
+          "name": "Trance"
+        },
+        "Elven Lineage, Drow": {
+          "name": "Elven Lineage, Drow"
+        },
+        "Forgery Kit": {
+          "name": "Forgery Kit"
+        },
+        "Costume": {
+          "name": "Costume"
+        },
+        "Clothes, Fine": {
+          "name": "Clothes, Fine"
+        },
+        "Spear": {
+          "name": "Spear"
+        },
+        "Dagger": {
+          "name": "Dagger"
+        },
+        "Dungeoneer’s Pack": {
+          "name": "Dungeoneer’s Pack"
+        },
+        "Light": {
+          "name": "Light"
+        },
+        "Prestidigitation": {
+          "name": "Prestidigitation"
+        },
+        "Shocking Grasp": {
+          "name": "Shocking Grasp"
+        },
+        "Sorcerous Burst": {
+          "name": "Sorcerous Burst"
+        },
+        "Detect Magic": {
+          "name": "Detect Magic"
+        },
+        "Burning Hands": {
+          "name": "Burning Hands"
+        },
+        "Wand": {
+          "name": "Wand"
+        },
+        "Caltrops": {
+          "name": "Caltrops"
+        },
+        "Crowbar": {
+          "name": "Crowbar"
+        },
+        "Oil": {
+          "name": "Oil"
+        },
+        "Rations": {
+          "name": "Rations"
+        },
+        "Rope": {
+          "name": "Rope"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Torch": {
+          "name": "Torch"
+        },
+        "Waterskin": {
+          "name": "Waterskin"
+        },
+        "Water (Pint)": {
+          "name": "Water (Pint)"
+        },
+        "Sorcerer": {
+          "name": "Sorcerer"
+        },
+        "Dancing Lights": {
+          "name": "Dancing Lights"
+        },
+        "Spellcasting": {
+          "name": "Spellcasting"
+        },
+        "Innate Sorcery": {
+          "name": "Innate Sorcery"
+        }
+      }
+    },
+    "Sphinx of Wonder": {
+      "name": "Sphinx of Wonder",
+      "tokenName": "Sphinx of Wonder",
+      "items": {
+        "Magic Resistance": {
+          "name": "Magic Resistance"
+        },
+        "Rend": {
+          "name": "Rend"
+        },
+        "Burst of Ingenuity": {
+          "name": "Burst of Ingenuity"
+        }
+      }
+    },
+    "Spider": {
+      "name": "Spider",
+      "tokenName": "Spider",
+      "items": {
+        "Spider Climb": {
+          "name": "Spider Climb"
+        },
+        "Web Walker": {
+          "name": "Web Walker"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Spiritual Weapon": {
+      "name": "Spiritual Weapon",
+      "tokenName": "Spiritual Weapon",
+      "items": {
+        "Move and Attack": {
+          "name": "Move and Attack"
+        }
+      }
+    },
+    "Sprite": {
+      "name": "Sprite",
+      "tokenName": "Sprite",
+      "items": {
+        "Needle Sword": {
+          "name": "Needle Sword"
+        },
+        "Enchanting Bow": {
+          "name": "Enchanting Bow"
+        },
+        "Heart Sight": {
+          "name": "Heart Sight"
+        },
+        "Invisibility": {
+          "name": "Invisibility"
+        }
+      }
+    },
+    "Stone Construct Spirit": {
+      "name": "Stone Construct Spirit",
+      "tokenName": "Construct Spirit",
+      "items": {
+        "Stony Lethargy": {
+          "name": "Stony Lethargy"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Tiger": {
+      "name": "Tiger",
+      "tokenName": "Tiger",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Pounce": {
+          "name": "Pounce"
+        },
+        "Prowl": {
+          "name": "Prowl"
+        }
+      }
+    },
+    "Tiny Animated Object": {
+      "name": "Tiny Animated Object",
+      "tokenName": "Animated Object",
+      "items": {
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Tricksy Fey Spirit": {
+      "name": "Tricksy Fey Spirit",
+      "tokenName": "Fey Spirit",
+      "items": {
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Fey Blade": {
+          "name": "Fey Blade"
+        },
+        "Fey Step": {
+          "name": "Fey Step"
+        }
+      }
+    },
+    "Undead Spirit": {
+      "name": "Undead Spirit",
+      "tokenName": "Undead Spirit",
+      "items": {
+        "Festering Aura": {
+          "name": "Festering Aura"
+        },
+        "Incorporeal Passage": {
+          "name": "Incorporeal Passage"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Deathly Touch": {
+          "name": "Deathly Touch"
+        },
+        "Grave Bolt": {
+          "name": "Grave Bolt"
+        },
+        "Rotting Claw": {
+          "name": "Rotting Claw"
+        }
+      }
+    },
+    "Unseen Servant": {
+      "name": "Unseen Servant",
+      "tokenName": "Unseen Servant"
+    },
+    "Venomous Snake": {
+      "name": "Venomous Snake",
+      "tokenName": "Venomous Snake",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Warhorse": {
+      "name": "Warhorse",
+      "tokenName": "Warhorse",
+      "items": {
+        "Hooves": {
+          "name": "Hooves"
+        }
+      }
+    },
+    "Warlock": {
+      "name": "Warlock",
+      "tokenName": "Warlock",
+      "items": {
+        "Acolyte": {
+          "name": "Acolyte"
+        },
+        "Magic Initiate": {
+          "name": "Magic Initiate"
+        },
+        "Calligrapher’s Supplies": {
+          "name": "Calligrapher’s Supplies"
+        },
+        "Book of Prayers": {
+          "name": "Book of Prayers"
+        },
+        "Reliquary": {
+          "name": "Reliquary"
+        },
+        "Parchment": {
+          "name": "Parchment"
+        },
+        "Robe": {
+          "name": "Robe"
+        },
+        "Gnome, Rock": {
+          "name": "Gnome, Rock"
+        },
+        "Gnomish Cunning": {
+          "name": "Gnomish Cunning"
+        },
+        "Gnomish Lineage, Rock": {
+          "name": "Gnomish Lineage, Rock"
+        },
+        "Mending": {
+          "name": "Mending"
+        },
+        "Prestidigitation": {
+          "name": "Prestidigitation"
+        },
+        "Leather Armor": {
+          "name": "Leather Armor"
+        },
+        "Sickle": {
+          "name": "Sickle"
+        },
+        "Dagger": {
+          "name": "Dagger"
+        },
+        "Orb": {
+          "name": "Orb"
+        },
+        "Book of Occult Lore": {
+          "name": "Book of Occult Lore"
+        },
+        "Sacred Flame": {
+          "name": "Sacred Flame"
+        },
+        "Bane": {
+          "name": "Bane"
+        },
+        "Eldritch Blast": {
+          "name": "Eldritch Blast"
+        },
+        "Blade Ward": {
+          "name": "Blade Ward"
+        },
+        "Charm Person": {
+          "name": "Charm Person"
+        },
+        "Hex": {
+          "name": "Hex"
+        },
+        "Book of Shadows": {
+          "name": "Book of Shadows"
+        },
+        "Comprehend Languages": {
+          "name": "Comprehend Languages"
+        },
+        "Find Familiar": {
+          "name": "Find Familiar"
+        },
+        "Toll the Dead": {
+          "name": "Toll the Dead"
+        },
+        "Mind Sliver": {
+          "name": "Mind Sliver"
+        },
+        "Guidance": {
+          "name": "Guidance"
+        },
+        "Scholar’s Pack": {
+          "name": "Scholar’s Pack"
+        },
+        "Lamp": {
+          "name": "Lamp"
+        },
+        "Ink": {
+          "name": "Ink"
+        },
+        "Oil": {
+          "name": "Oil"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Book": {
+          "name": "Book"
+        },
+        "Ink Pen": {
+          "name": "Ink Pen"
+        },
+        "Warlock": {
+          "name": "Warlock"
+        },
+        "Eldritch Invocations": {
+          "name": "Eldritch Invocations"
+        },
+        "Pact Magic": {
+          "name": "Pact Magic"
+        },
+        "Pact of the Tome": {
+          "name": "Pact of the Tome"
+        }
+      }
+    },
+    "Warship": {
+      "name": "Warship",
+      "tokenName": "Warship"
+    },
+    "Water Elemental Spirit": {
+      "name": "Water Elemental Spirit",
+      "tokenName": "Elemental Spirit",
+      "items": {
+        "Amorphous Form": {
+          "name": "Amorphous Form"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    },
+    "Weasel": {
+      "name": "Weasel",
+      "tokenName": "Weasel",
+      "items": {
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Wizard": {
+      "name": "Wizard",
+      "tokenName": "Wizard",
+      "items": {
+        "Scribe": {
+          "name": "Scribe"
+        },
+        "Skilled": {
+          "name": "Skilled"
+        },
+        "Calligrapher’s Supplies": {
+          "name": "Calligrapher’s Supplies"
+        },
+        "Fine Clothes": {
+          "name": "Fine Clothes"
+        },
+        "Lamp": {
+          "name": "Lamp"
+        },
+        "Oil": {
+          "name": "Oil"
+        },
+        "Parchment": {
+          "name": "Parchment"
+        },
+        "Aasimar": {
+          "name": "Aasimar"
+        },
+        "Celestial Resistance": {
+          "name": "Celestial Resistance"
+        },
+        "Healing Hands": {
+          "name": "Healing Hands"
+        },
+        "Light Bearer": {
+          "name": "Light Bearer"
+        },
+        "Light": {
+          "name": "Light"
+        },
+        "Dagger": {
+          "name": "Dagger"
+        },
+        "Robe": {
+          "name": "Robe"
+        },
+        "Scholar’s Pack": {
+          "name": "Scholar’s Pack"
+        },
+        "Mage Hand": {
+          "name": "Mage Hand"
+        },
+        "Ray of Frost": {
+          "name": "Ray of Frost"
+        },
+        "Acid Splash": {
+          "name": "Acid Splash"
+        },
+        "Detect Magic": {
+          "name": "Detect Magic"
+        },
+        "Feather Fall": {
+          "name": "Feather Fall"
+        },
+        "Mage Armor": {
+          "name": "Mage Armor"
+        },
+        "Magic Missile": {
+          "name": "Magic Missile"
+        },
+        "Sleep": {
+          "name": "Sleep"
+        },
+        "Thunderwave": {
+          "name": "Thunderwave"
+        },
+        "Staff": {
+          "name": "Staff"
+        },
+        "Book": {
+          "name": "Book"
+        },
+        "Ink": {
+          "name": "Ink"
+        },
+        "Ink Pen": {
+          "name": "Ink Pen"
+        },
+        "Tinderbox": {
+          "name": "Tinderbox"
+        },
+        "Wizard": {
+          "name": "Wizard"
+        },
+        "Spellcasting": {
+          "name": "Spellcasting"
+        },
+        "Ritual Adept": {
+          "name": "Ritual Adept"
+        },
+        "Arcane Recovery": {
+          "name": "Arcane Recovery"
+        }
+      }
+    },
+    "Wolf": {
+      "name": "Wolf",
+      "tokenName": "Wolf",
+      "items": {
+        "Pack Tactics": {
+          "name": "Pack Tactics"
+        },
+        "Bite": {
+          "name": "Bite"
+        }
+      }
+    },
+    "Yugoloth Spirit": {
+      "name": "Yugoloth Spirit",
+      "tokenName": "Fiendish Spirit",
+      "items": {
+        "Magic Resistance": {
+          "name": "Magic Resistance"
+        },
+        "Multiattack": {
+          "name": "Multiattack"
+        },
+        "Claws": {
+          "name": "Claws"
+        }
+      }
+    },
+    "Zombie": {
+      "name": "Zombie",
+      "tokenName": "Zombie",
+      "items": {
+        "Undead Fortitude": {
+          "name": "Undead Fortitude"
+        },
+        "Slam": {
+          "name": "Slam"
+        }
+      }
+    }
+  }
+}
