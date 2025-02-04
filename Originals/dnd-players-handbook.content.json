@@ -1,5 +1,16 @@
 {
   "label": "Player's Handbook",
+  "mapping": {},
+  "folders": {
+    "Appendices": "Appendices",
+    "Chapter 1": "Chapter 1",
+    "Chapter 2": "Chapter 2",
+    "Chapter 3": "Chapter 3",
+    "Chapter 4": "Chapter 4",
+    "Chapter 5": "Chapter 5",
+    "Chapter 6": "Chapter 6",
+    "Chapter 7": "Chapter 7"
+  },
   "entries": {
     "Actions": {
       "name": "Actions",
@@ -710,7 +721,8 @@
         },
         "Time (2014)": {
           "name": "Time (2014)",
-          "text": "<p>In situations where keeping track of the passage of time is important, the GM determines the time a task requires. The GM might use a different time scale depending on the context of the situation at hand. In a dungeon environment, the adventurers' movement happens on a scale of <strong>minutes</strong>. It takes them about a minute to creep down a long hallway, another minute to check for traps on the door at the end of the hall, and a good ten minutes to search the chamber beyond for anything interesting or valuable.</p><p>In a city or wilderness, a scale of <strong>hours</strong> is often more appropriate. Adventurers eager to reach the lonely tower at the heart of the forest hurry across those fifteen miles in just under four hours' time.</p><p>For long journeys, a scale of <strong>days</strong> works best. Following the road from Baldur's Gate to Waterdeep, the adventurers spend four uneventful days before a goblin ambush interrupts their journey.</p><p>In combat and other fast-paced situations, the game relies on <strong>rounds</strong>, a 6-second span of time.</p>"
+          "text": "<p>In situations where keeping track of the passage of time is important, the GM determines the time a task requires. The GM might use a different time scale depending on the context of the situation at hand. In a dungeon environment, the adventurers' movement happens on a scale of <strong>minutes</strong>. It takes them about a minute to creep down a long hallway, another minute to check for traps on the door at the end of the hall, and a good ten minutes to search the chamber beyond for anything interesting or valuable.</p><p>In a city or wilderness, a scale of <strong>hours</strong> is often more appropriate. Adventurers eager to reach the lonely tower at the heart of the forest hurry across those fifteen miles in just under four hours' time.</p><p>For long journeys, a scale of <strong>days</strong> works best. Following the road from Baldur's Gate to Waterdeep, the adventurers spend four uneventful days before a goblin ambush interrupts their journey.</p><p>In combat and other fast-paced situations, the game relies on <strong>rounds</strong>, a 6-second span of time.</p>",
+          "tooltip": "<p>Outside of combat, the GM determines how fast time passes depending on what the situation requires, <strong>minutes</strong> for exploring a dungeon or breaking into a house, <strong>hours</strong> for traveling through a city or through the wilderness, or <strong>days</strong> for long journeys through the world.</p><p>During combat and other fast-paced situations, the game relies on <strong>rounds</strong>, a 6-second span of time.</p>"
         },
         "Speed": {
           "name": "Speed",
@@ -718,7 +730,7 @@
         },
         "Travel Pace": {
           "name": "Travel Pace",
-          "text": "<p>While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a &amp;Reference[Short Rest]{Short} or &amp;Reference[Long Rest] before they can move at that increased pace again (see @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbMountsAndVehi.JournalEntryPage.NVPIUDJEdFDaErTg]{chapter 6} for a selection of mounts for sale). The <em>Dungeon Master’s Guide</em> has rules that affect which pace you can choose in certain types of terrain.</p><table><caption>Travel Pace</caption><thead><tr><th><p>Pace</p></th><th colspan=\"3\"><p>Distance Traveled Per …</p></th></tr><tr><th><p>Minute</p></th><th><p>Hour</p></th><th colspan=\"2\"><p>Day</p></th></tr></thead><tbody><tr><td><p>Fast</p></td><td><p>400 feet</p></td><td><p>4 miles</p></td><td><p>30 miles</p></td></tr><tr><td><p>Normal</p></td><td><p>300 feet</p></td><td><p>3 miles</p></td><td><p>24 miles</p></td></tr><tr><td><p>Slow</p></td><td><p>200 feet</p></td><td><p>2 miles</p></td><td><p>18 miles</p></td></tr></tbody></table><p>Each travel pace has a game effect, as defined below.</p><p>@Embed[.mpnTe02usA9fgzCr inline]</p><p>@Embed[.bcPsR1qaLLv7uBGe inline]</p><p>@Embed[.khOKcrcql9Cssgnb inline]</p>"
+          "text": "<p>While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a &amp;Reference[Short Rest]{Short} or &amp;Reference[Long Rest] before they can move at that increased pace again (see @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbMountsAndVehi.JournalEntryPage.NVPIUDJEdFDaErTg]{chapter 6} for a selection of mounts for sale). The <em>Dungeon Master’s Guide</em> has rules that affect which pace you can choose in certain types of terrain.</p><table><caption>Travel Pace</caption><thead><tr><th colspan=\"5\"><p>Distance Traveled Per …</p></th></tr><tr><th><p>Pace</p></th><th><p>Minute</p></th><th><p>Hour</p></th><th colspan=\"2\"><p>Day</p></th></tr></thead><tbody><tr><td><p>Fast</p></td><td><p>400 feet</p></td><td><p>4 miles</p></td><td><p>30 miles</p></td></tr><tr><td><p>Normal</p></td><td><p>300 feet</p></td><td><p>3 miles</p></td><td><p>24 miles</p></td></tr><tr><td><p>Slow</p></td><td><p>200 feet</p></td><td><p>2 miles</p></td><td><p>18 miles</p></td></tr></tbody></table><p>Each travel pace has a game effect, as defined below.</p><p>@Embed[.mpnTe02usA9fgzCr inline]</p><p>@Embed[.bcPsR1qaLLv7uBGe inline]</p><p>@Embed[.khOKcrcql9Cssgnb inline]</p>"
         },
         "Difficult Terrain": {
           "name": "Difficult Terrain",
@@ -1034,7 +1046,8 @@
         },
         "Creature Size": {
           "name": "Creature Size",
-          "text": "<p>A creature belongs to a size category, which determines the width of the square space the creature occupies on a map, as shown on the Creature Size and Space table. That table lists the sizes from smallest (Tiny) to largest (Gargantuan). A creature’s space is the area that it effectively controls in combat and the area it needs to fight effectively.</p><p>A character’s size is determined by species, and a monster’s size is specified in the monster’s stat block.</p><table><caption>Creature Size and Space</caption><thead><tr><th><p>Size</p></th><th><p>Space (Feet)</p></th><th><p>Space (Squares)</p></th></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>2½ by 2½ feet</p></td><td><p>4 per square</p></td></tr><tr><td><p>Small</p></td><td><p>5 by 5 feet</p></td><td><p>1 square</p></td></tr><tr><td><p>Medium</p></td><td><p>5 by 5 feet</p></td><td><p>1 square</p></td></tr><tr><td><p>Large</p></td><td><p>10 by 10 feet</p></td><td><p>4 squares (2 by 2)</p></td></tr><tr><td><p>Huge</p></td><td><p>15 by 15 feet</p></td><td><p>9 squares (3 by 3)</p></td></tr><tr><td><p>Gargantuan</p></td><td><p>20 by 20 feet</p></td><td><p>16 squares (4 by 4)</p></td></tr></tbody></table><h3>Squeezing into a Smaller Space</h3><p>@Embed[.wKtOwagDAiNfVoPS inline]</p>"
+          "text": "<p>A creature belongs to a size category, which determines the width of the square space the creature occupies on a map, as shown on the Creature Size and Space table. That table lists the sizes from smallest (Tiny) to largest (Gargantuan). A creature’s space is the area that it effectively controls in combat and the area it needs to fight effectively.</p><p>A character’s size is determined by species, and a monster’s size is specified in the monster’s stat block.</p><table><caption>Creature Size and Space</caption><thead><tr><th><p>Size</p></th><th><p>Space (Feet)</p></th><th><p>Space (Squares)</p></th></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>2½ by 2½ feet</p></td><td><p>4 per square</p></td></tr><tr><td><p>Small</p></td><td><p>5 by 5 feet</p></td><td><p>1 square</p></td></tr><tr><td><p>Medium</p></td><td><p>5 by 5 feet</p></td><td><p>1 square</p></td></tr><tr><td><p>Large</p></td><td><p>10 by 10 feet</p></td><td><p>4 squares (2 by 2)</p></td></tr><tr><td><p>Huge</p></td><td><p>15 by 15 feet</p></td><td><p>9 squares (3 by 3)</p></td></tr><tr><td><p>Gargantuan</p></td><td><p>20 by 20 feet</p></td><td><p>16 squares (4 by 4)</p></td></tr></tbody></table><h3>Squeezing into a Smaller Space</h3><p>@Embed[.wKtOwagDAiNfVoPS inline]</p>",
+          "tooltip": "<p>Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.</p><table border=\"0\"><caption><h4>Size Categories</h4></caption><thead><tr><td>Size</td><td>Space</td></tr></thead><tbody><tr><td>Tiny</td><td>2½ by 2½ ft.</td></tr><tr><td>Small</td><td>5 by 5 ft.</td></tr><tr><td>Medium</td><td>5 by 5 ft.</td></tr><tr><td>Large</td><td>10 by 10 ft.</td></tr><tr><td>Huge</td><td>15 by 15 ft.</td></tr><tr><td>Gargantuan</td><td>20 by 20 ft. or larger</td></tr></tbody></table>"
         },
         "Space (2014)": {
           "name": "Space (2014)",
@@ -1102,7 +1115,8 @@
         },
         "Ranged Attacks": {
           "name": "Ranged Attacks",
-          "text": "<p>When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send projectiles to strike a foe at a distance. Many spells also involve making a ranged attack.</p><h3>Range</h3><p>@Embed[.HjKXuB8ndjcqOds7 inline]</p><h3>Ranged Attacks in Close Combat</h3><p>@Embed[.qEZvxW0NM7ixSQP5 inline]</p>"
+          "text": "<p>When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send projectiles to strike a foe at a distance. Many spells also involve making a ranged attack.</p><h3>Range</h3><p>@Embed[.HjKXuB8ndjcqOds7 inline]</p><h3>Ranged Attacks in Close Combat</h3><p>@Embed[.qEZvxW0NM7ixSQP5 inline]</p>",
+          "tooltip": "<p>When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send projectiles to strike a foe at a distance. Many spells also involve making a ranged attack.</p>"
         },
         "Range": {
           "name": "Range",
@@ -1114,7 +1128,8 @@
         },
         "Melee Attacks": {
           "name": "Melee Attacks",
-          "text": "<p>A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.</p><p>A creature has a 5-foot reach and can thus attack targets within 5 feet when making a melee attack. Certain creatures have melee attacks with a reach greater than 5 feet, as noted in their descriptions.</p><p>@Embed[.xJjJ4lhymAYXAOvO inline]</p><h3>Opportunity Attacks</h3><p>@Embed[.zeU0NyCyP10lkLg3 inline]</p><h3>Grappling</h3><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.YSLWJcQCP6kzsPql inline]</p><p></p>"
+          "text": "<p>A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.</p><p>A creature has a 5-foot reach and can thus attack targets within 5 feet when making a melee attack. Certain creatures have melee attacks with a reach greater than 5 feet, as noted in their descriptions.</p><p>@Embed[.xJjJ4lhymAYXAOvO inline]</p><h3>Opportunity Attacks</h3><p>@Embed[.zeU0NyCyP10lkLg3 inline]</p><h3>Grappling</h3><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.YSLWJcQCP6kzsPql inline]</p><p></p>",
+          "tooltip": "<p>A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.</p><p>A creature has a 5-foot reach and can thus attack targets within 5 feet when making a melee attack. Certain creatures have melee attacks with a reach greater than 5 feet, as noted in their descriptions.</p>"
         },
         "Opportunity Attacks": {
           "name": "Opportunity Attacks",
@@ -1134,11 +1149,13 @@
         },
         "Escaping a Grapple": {
           "name": "Escaping a Grapple",
-          "text": "<p><em><strong>Escaping a Grapple.</strong></em> A Grappled creature can use its action to make a [[/check ath]] or [[/check acr]] against the grapple’s escape DC, ending the condition on itself on a success. The condition also ends if the grappler has the Incapacitated condition or if the distance between the Grappled target and the grappler exceeds the grapple’s range.</p>"
+          "text": "<p><em><strong>Escaping a Grapple.</strong></em> A Grappled creature can use its action to make a [[/check ath]] or [[/check acr]] against the grapple’s escape DC, ending the condition on itself on a success. The condition also ends if the grappler has the Incapacitated condition or if the distance between the Grappled target and the grappler exceeds the grapple’s range.</p>",
+          "tooltip": "<p>A grappled creature can use its action to escape. To do so, it must succeed on a [[/check ath]] or [[/check acr]] check contested by your Strength (Athletics) check.</p>"
         },
         "Moving a Grappled Creature": {
           "name": "Moving a Grappled Creature",
-          "text": "<p><strong>Moving a Grappled Creature. </strong>When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.</p>"
+          "text": "<p><strong>Moving a Grappled Creature. </strong>When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.</p>",
+          "tooltip": "<p>When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.</p>"
         },
         "Reach": {
           "name": "Reach",
@@ -1290,7 +1307,8 @@
         },
         "Forced March (2014)": {
           "name": "Forced March (2014)",
-          "text": "<p><strong>Forced March. </strong>The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of exhaustion.</p><p>For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of &amp;Reference[Exhaustion].</p>"
+          "text": "<p><strong>Forced March. </strong>The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of exhaustion.</p><p>For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of &amp;Reference[Exhaustion].</p>",
+          "tooltip": "<p>For each additional hour of travel beyond 8 hours each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of &amp;Reference[Exhaustion].</p>"
         },
         "Mounts and Vehicles": {
           "name": "Mounts and Vehicles",
@@ -1498,11 +1516,13 @@
         },
         "Huge and Gargantuan Objects": {
           "name": "Huge and Gargantuan Objects",
-          "text": "<p><em><strong>Huge and Gargantuan Objects.</strong></em> To track Hit Points for a Huge or Gargantuan object, divide it into Large or smaller sections, and track each section’s Hit Points separately. The DM determines whether destroying part of an object causes the whole thing to collapse.</p>"
+          "text": "<p><em><strong>Huge and Gargantuan Objects.</strong></em> To track Hit Points for a Huge or Gargantuan object, divide it into Large or smaller sections, and track each section’s Hit Points separately. The DM determines whether destroying part of an object causes the whole thing to collapse.</p>",
+          "tooltip": "<p>To track Hit Points for a Huge or Gargantuan object, divide it into Large or smaller sections, and track each section’s Hit Points separately. The DM determines whether destroying part of an object causes the whole thing to collapse.</p>"
         },
         "Objects and Damage Types": {
           "name": "Objects and Damage Types",
-          "text": "<p><em><strong>Damage Types and Objects.</strong></em> Objects have Immunity to Poison and Psychic damage. The DM might decide that some damage types are more or less effective against an object. For example, Bludgeoning damage works well for smashing things but not for cutting. Paper or cloth objects might have Vulnerability to Fire damage.</p>"
+          "text": "<p><em><strong>Damage Types and Objects.</strong></em> Objects have Immunity to Poison and Psychic damage. The DM might decide that some damage types are more or less effective against an object. For example, Bludgeoning damage works well for smashing things but not for cutting. Paper or cloth objects might have Vulnerability to Fire damage.</p>",
+          "tooltip": "<p>Objects have Immunity to Poison and Psychic damage. The DM might decide that some damage types are more or less effective against an object. For example, Bludgeoning damage works well for smashing things but not for cutting. Paper or cloth objects might have Vulnerability to Fire damage.</p>"
         },
         "Damage Threshold": {
           "name": "Damage Threshold",
@@ -1514,19 +1534,23 @@
         },
         "Contact (2014)": {
           "name": "Contact (2014)",
-          "text": "<p><strong>Contact.</strong> Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.</p>"
+          "text": "<p><strong>Contact.</strong> Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.</p>",
+          "tooltip": "<p>Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.</p>"
         },
         "Ingested (2014)": {
           "name": "Ingested (2014)",
-          "text": "<p><strong>Ingested. </strong>A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.</p>"
+          "text": "<p><strong>Ingested. </strong>A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.</p>",
+          "tooltip": "<p>A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.</p>"
         },
         "Inhaled (2014)": {
           "name": "Inhaled (2014)",
-          "text": "<p><strong>Inhaled.</strong> These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.</p>"
+          "text": "<p><strong>Inhaled.</strong> These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.</p>",
+          "tooltip": "<p>These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.</p>"
         },
         "Injury (2014)": {
           "name": "Injury (2014)",
-          "text": "<p><strong>Injury. </strong>Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>"
+          "text": "<p><strong>Injury. </strong>Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>",
+          "tooltip": "<p>Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>"
         },
         "Attunement": {
           "name": "Attunement",
@@ -1782,7 +1806,8 @@
         },
         "Diseases (2014)": {
           "name": "Diseases (2014)",
-          "text": "<p>A plague ravages the kingdom, setting the adventurers on a quest to find a cure. An adventurer emerges from an ancient tomb, unopened for centuries, and soon finds herself suffering from a wasting illness. A warlock offends some dark power and contracts a strange affliction that spreads whenever he casts spells.</p><p>A simple outbreak might amount to little more than a small drain on party resources, curable by a casting of @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration}. A more complicated outbreak can form the basis of one or more adventures as characters search for a cure, stop the spread of the disease, and deal with the consequences.</p><p>A disease that does more than infect a few party members is primarily a plot device. The rules help describe the effects of the disease and how it can be cured, but the specifics of how a disease works aren't bound by a common set of rules. Diseases can affect any creature, and a given illness might or might not pass from one race or kind of creature to another. A plague might affect only constructs or undead, or sweep through a halfling neighborhood but leave other races untouched. What matters is the story you want to tell.</p>"
+          "text": "<p>A plague ravages the kingdom, setting the adventurers on a quest to find a cure. An adventurer emerges from an ancient tomb, unopened for centuries, and soon finds herself suffering from a wasting illness. A warlock offends some dark power and contracts a strange affliction that spreads whenever he casts spells.</p><p>A simple outbreak might amount to little more than a small drain on party resources, curable by a casting of @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration}. A more complicated outbreak can form the basis of one or more adventures as characters search for a cure, stop the spread of the disease, and deal with the consequences.</p><p>A disease that does more than infect a few party members is primarily a plot device. The rules help describe the effects of the disease and how it can be cured, but the specifics of how a disease works aren't bound by a common set of rules. Diseases can affect any creature, and a given illness might or might not pass from one race or kind of creature to another. A plague might affect only constructs or undead, or sweep through a halfling neighborhood but leave other races untouched. What matters is the story you want to tell.</p>",
+          "tooltip": "<p>A disease that does more than infect a few party members is primarily a plot device. The rules help describe the effects of the disease and how it can be cured, but the specifics of how a disease works aren't bound by a common set of rules. Diseases can affect any creature, and a given illness might or might not pass from one race or kind of creature to another. A plague might affect only constructs or undead, or sweep through a halfling neighborhood but leave other races untouched. What matters is the story you want to tell.</p>"
         },
         "Strength Saving Throw": {
           "name": "Strength Saving Throw",
@@ -1873,222 +1898,25 @@
     "Art Handouts": {
       "name": "Art Handouts",
       "pages": {
-        "Otiluke Casts Cone of Cold": {
-          "name": "Otiluke Casts Cone of Cold",
-          "caption": "The icy Wizard Otiluke blasts monsters with Cone of Cold.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/otiluke-uses-cone-of-cold.webp"
+        "The Planes of the Multiverse": {
+          "name": "The Planes of the Multiverse",
+          "src": "modules/dnd-players-handbook/assets/journal-art/multiverse-planes.webp"
         },
-        "Archmages Prepare their Magic": {
-          "name": "Archmages Prepare their Magic",
-          "caption": "Archmages of Greyhawk—Jallarzi, Mordenkainen, and Bigby—prepare their magic as they open a gate to another plane.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/archmages-prepare-magic.webp"
+        "Glossary Heading 1": {
+          "name": "Glossary Heading 1",
+          "src": "modules/dnd-players-handbook/assets/journal-art/glossary-heading-1.webp"
         },
-        "Aasimar Wizard Casts Cone of Cold": {
-          "name": "Aasimar Wizard Casts Cone of Cold",
-          "caption": "An Aasimar Wizard uses a crystal material component to focus the magic of Cone of Cold.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/aasimar-wizard-casts-cone-of-cold.webp"
+        "Glossary Heading 2": {
+          "name": "Glossary Heading 2",
+          "src": "modules/dnd-players-handbook/assets/journal-art/glossary-heading-2.webp"
         },
-        "Point of Origin Chalk Board": {
-          "name": "Point of Origin Chalk Board",
-          "src": "modules/dnd-players-handbook/assets/journal-art/point-of-origin-chalk-board.webp"
+        "Glossary Heading 3": {
+          "name": "Glossary Heading 3",
+          "src": "modules/dnd-players-handbook/assets/journal-art/glossary-heading-3.webp"
         },
-        "Animated Brazier": {
-          "name": "Animated Brazier",
-          "caption": "A Brazier affected by the spell Animate Objects",
-          "src": "modules/dnd-players-handbook/assets/journal-art/animated-brazier.webp"
-        },
-        "Goliath Warlock Casts Armor of Agathys": {
-          "name": "Goliath Warlock Casts Armor of Agathys",
-          "caption": "A Goliath Warlock calls on Armor of Agathys and Arms of Hadar to battle foes from the deep.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/goliath-warlock-armor-agathys.webp"
-        },
-        "Bigby's Hand Holds Minotaur": {
-          "name": "Bigby's Hand Holds Minotaur",
-          "caption": "The Wizard Bigby uses his signature spell, Bigby's Hand, to prevent interruptions to his research.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/bigbys-hand-holds-minotaur.webp"
-        },
-        "Sorcerer Chastises Ghouls": {
-          "name": "Sorcerer Chastises Ghouls",
-          "caption": "A human Sorcerer chastises ghouls with the unpredictable energy of a Chromatic Orb.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/sorcerer-chastises-ghouls.webp"
-        },
-        "Brass Dragon Casts Control Weather": {
-          "name": "Brass Dragon Casts Control Weather",
-          "caption": "A brass dragon casts Control Weather to save a community from a destructive storm.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/brass-dragon-casts-control-weather.webp"
-        },
-        "Elf Cleric Casts Daylight": {
-          "name": "Elf Cleric Casts Daylight",
-          "caption": "An elf Cleric uses the spell Daylight to bring the light of dawn to a vampire court.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/elf-cleric-casts-daylight.webp"
-        },
-        "Tiefling Cleric Casts Dispel Evil and Good": {
-          "name": "Tiefling Cleric Casts Dispel Evil and Good",
-          "caption": "A tiefling Cleric casts Dispel Evil and Good to expel an evil spirit from a possessed innocent.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling-cleric-casts-dispel-evil-and-good.webp"
-        },
-        "Dwarf Paladin Uses Divine Smite": {
-          "name": "Dwarf Paladin Uses Divine Smite",
-          "caption": "A dwarf Paladin empowers her weapon with Divine Smite, unleashing holy wrath on fiendish mezzoloths.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/dwarf-paladin-uses-divine-smite.webp"
-        },
-        "Sprite Casts Druidcraft": {
-          "name": "Sprite Casts Druidcraft",
-          "caption": "A sprite casts Druidcraft to make flowers blossom.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/sprite-casts-druidcraft.webp"
-        },
-        "Dragonborn Druid Uses Entangle": {
-          "name": "Dragonborn Druid Uses Entangle",
-          "caption": "A dragonborn Druid uses Entangle to stop rampaging gnolls.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/dragonborn-druid-uses-entangle.webp"
-        },
-        "Evard's Black Tentacles": {
-          "name": "Evard's Black Tentacles",
-          "caption": "The Wizard Evard calls on his infamous spell, Evard's Black Tentacles, to teach reckless bandits a lesson.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/evards-black-tentacles.webp"
-        },
-        "Summoned Familiars": {
-          "name": "Summoned Familiars",
-          "caption": "Spirits summoned by Find Familiar take forms inspired by the mages who conjure them.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/familiar-spirits.webp"
-        },
-        "Elf Wizard Casts Fireball": {
-          "name": "Elf Wizard Casts Fireball",
-          "caption": "An elf Wizard demonstrates the problem-solving potential of the spell Fireball.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/elf-wizard-casts-fireball.webp"
-        },
-        "Otto Casts Gate to the Outlands": {
-          "name": "Otto Casts Gate to the Outlands",
-          "caption": "Otto the Bard casts Gate to open a portal to the Outlands.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/otto-casts-gate-to-outlands.webp"
-        },
-        "Halfling Cleric Casts Guardian of Faith": {
-          "name": "Halfling Cleric Casts Guardian of Faith",
-          "caption": "A halfling Cleric casts Guardian of Faith to fend off a ravenous worg.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/halfling-cleric-casts-guardian-of-faith.webp"
-        },
-        "Heroes Feast": {
-          "name": "Heroes Feast",
-          "caption": "The spell Heroes' Feast prepares adventurers for greatness.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/heroes-feast.webp"
-        },
-        "Aasimar Warlock Casts Hunger of Hadar": {
-          "name": "Aasimar Warlock Casts Hunger of Hadar",
-          "caption": "An aasimar Warlock exposes foes to the all-consuming Hunger of Hadar.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/aasimar-warlock-casts-hunger-of-hadar.webp"
-        },
-        "Ice Knife": {
-          "name": "Ice Knife",
-          "src": "modules/dnd-players-handbook/assets/journal-art/ice-knife.webp"
-        },
-        "Jallarzi's Storm of Radiance": {
-          "name": "Jallarzi's Storm of Radiance",
-          "caption": "With her spell, Jallarzi's Storm of Radiance, the Warlock Jallarzi makes vrocks regret leaving the abyss.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/jallarzis-storm-of-radiance.webp"
-        },
-        "Human Druid Casts Lesser Restoration": {
-          "name": "Human Druid Casts Lesser Restoration",
-          "caption": "A human Druid casts Lesser Restoration to ease the suffering of a friend who was poisoned in battle.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/human-druid-casts-lesser-restoration.webp"
-        },
-        "Human Wizard Fends Off Peril": {
-          "name": "Human Wizard Fends Off Peril",
-          "caption": "A human Wizard fends off peril with Mage Armor and the unerring bolts of Magic Missile.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/human-wizards-fends-off-peril.webp"
-        },
-        "Melf Takes Aim at a Rampaging Troll": {
-          "name": "Melf Takes Aim at a Rampaging Troll",
-          "caption": "The daring Wizard Melf takes aim at a rampaging troll with Melf's Acid Arrow.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/melf-takes-aim.webp"
-        },
-        "Mordenkainen Welcomes Guests": {
-          "name": "Mordenkainen Welcomes Guests",
-          "caption": "The Wizard Mordenkainen welcomes guests to his magical dwelling. Mordenkainen's Magnificent Mansion.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/mordenkainen-welcomes-guests.webp"
-        },
-        "Phantom Steed": {
-          "name": "Phantom Steed",
-          "src": "modules/dnd-players-handbook/assets/journal-art/phantom-steed.webp"
-        },
-        "Dwarf Turned to Stone": {
-          "name": "Dwarf Turned to Stone",
-          "caption": "A dwarf had an unfortunate encounter with the indigo ray of Prismatic Spray.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/dwarf-turned-to-stone.webp"
-        },
-        "Programmed Illusion": {
-          "name": "Programmed Illusion",
-          "caption": "A spellcaster could use Programmed Illusion to cause a watchdog to appear and kindly ask intruders to leave.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/programmed-illusion.webp"
-        },
-        "Human Cleric Casts Raise Dead": {
-          "name": "Human Cleric Casts Raise Dead",
-          "caption": "A human Cleric casts Raise Dead to return a fallen comrade to life.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/human-cleric-casts-raise-dead.webp"
-        },
-        "Gnome Bard Casts Scrying Spell": {
-          "name": "Gnome Bard Casts Scrying Spell",
-          "caption": "The Scrying spell helps a gnome Bard keep in touch with friends and family around the world.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/gnome-bard-casts-scrying-spell.webp"
-        },
-        "Rival Mages Use Shapechange": {
-          "name": "Rival Mages Use Shapechange",
-          "caption": "Rival mages use Shapechange to transform into a Beholder and a Behir during a magical duel.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/rival-mages-battle-in-shapechange.webp"
-        },
-        "Silent Image Illusion": {
-          "name": "Silent Image Illusion",
-          "caption": "Silent Image can concoct illusions of the mundane and the whimsical.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/silent-image-illusion.webp"
-        },
-        "Human Druid with Bear": {
-          "name": "Human Druid with Bear",
-          "caption": "A human Druid uses Speak with Animals to chat with his best bear friend.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/human-druid-with-bear.webp"
-        },
-        "Goliath Cleric Casts Spiritual Weapon": {
-          "name": "Goliath Cleric Casts Spiritual Weapon",
-          "caption": "A goliath Cleric casts Spiritual Weapon in battle with an umber hulk.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/goliath-cleric-casts-spiritual-weapon.webp"
-        },
-        "Ranger Casts Summon Fey": {
-          "name": "Ranger Casts Summon Fey",
-          "caption": "A Ranger casts Summon Fey, conjuring a fuming fey spirit to confront a marauding merrow.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/ranger-casts-summon-fey.webp"
-        },
-        "Tasha Casts Tasha's Bubbling Cauldron": {
-          "name": "Tasha Casts Tasha's Bubbling Cauldron",
-          "caption": "The legendary witch Tasha uses her spell, Tasha's Bubbling Cauldron, to produce a magic potion.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/tashas-casts-bubbling-cauldron.webp"
-        },
-        "Red Wizard Orders Skeletal Servants": {
-          "name": "Red Wizard Orders Skeletal Servants",
-          "caption": "A red Wizard of Thay orders skeletal servants to heap riches on the disk of Tenser's Floating Disk.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/red-wizard-orders-skeletal-servants.webp"
-        },
-        "Trees as a Transportation Network": {
-          "name": "Trees as a Transportation Network",
-          "caption": "Transport via Plants and Tree Stride turn trees into a transportation network.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/trees-are-a-transportation-network.webp"
-        },
-        "Gnome Bard Casts Vicious Mockery": {
-          "name": "Gnome Bard Casts Vicious Mockery",
-          "caption": "A gnome Bard casts Vicious Mockery to skewer a kobold with magical insults.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/gnome-bard-casts-vicious-mockery.webp"
-        },
-        "Tiefling Sorcerer Unleashes Vitriolic Sphere": {
-          "name": "Tiefling Sorcerer Unleashes Vitriolic Sphere",
-          "caption": "A tiefling Sorcerer unleashes Vitriolic Sphere on nothics.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling-sorcerer-unleashes-vitriolic-sphere.webp"
-        },
-        "Visit Aquatic Realms": {
-          "name": "Visit Aquatic Realms",
-          "caption": "Spells like Water Breathing and Water Walk assist visits to aquatic realms.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/visit-aquatic-realms.webp"
-        },
-        "Halfling Warlock Zaps Zombie": {
-          "name": "Halfling Warlock Zaps Zombie",
-          "caption": "A halfling Warlock zaps a zombie with the grasping lightning of Witch Bolt.",
-          "src": "modules/dnd-players-handbook/assets/journal-art/halfling-warlock-zaps-zombie.webp"
+        "Glossary Heading 4": {
+          "name": "Glossary Heading 4",
+          "src": "modules/dnd-players-handbook/assets/journal-art/glossary-heading-4.webp"
         }
       }
     },
@@ -2169,19 +1997,26 @@
       "name": "Barbarian",
       "pages": {
         "Path of the Berserker": {
-          "name": "Path of the Berserker"
+          "name": "Path of the Berserker",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.EceyH0R2456kRdtW caption=false classes=\"right three\"]</p><blockquote><p>Channel Rage into Violent Fury</p></blockquote><p>Barbarians who walk the @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbBerserker0]{Path of the Berserker} direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.</p>"
         },
         "Path of the Wild Heart": {
-          "name": "Path of the Wild Heart"
+          "name": "Path of the Wild Heart",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Rk0QcsmW6g5c4XzL caption=false classes=\"three right\"]</p><blockquote><p>Walk in Community with the Animal World</p></blockquote><p>Barbarians who follow the @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbWildHeart0]{Path of the Wild Heart} view themselves as kin to animals. These Barbarians learn magical means to communicate with animals, and their Rage heightens their connection to animals as it fills them with supernatural might.</p>"
         },
         "Path of the World Tree": {
-          "name": "Path of the World Tree"
+          "name": "Path of the World Tree",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Z2RPOWDkIBXRG0CQ caption=false classes=\"three right\"]</p><blockquote><p>Trace the Roots and Branches of the Multiverse</p></blockquote><p>Barbarians who follow the @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbWorldTree0]{Path of the World Tree} connect with the cosmic tree Yggdrasil through their Rage. This tree grows among the Outer Planes, connecting them to each other and the Material Plane. These Barbarians draw on the tree’s magic for vitality and as a means of dimensional travel.</p>"
         },
         "Path of the Zealot": {
-          "name": "Path of the Zealot"
+          "name": "Path of the Zealot",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.rbUcTqEpuFZlIQiX caption=false classes=\"three right\"]</p><blockquote><p>Rage in Ecstatic Union with a God</p></blockquote><p>Barbarians who walk the @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbZealot0000]{Path of the Zealot} receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon.</p>"
         },
         "Barbarian": {
-          "name": "Barbarian"
+          "name": "Barbarian",
+          "subclassHeader": "Barbarian Subclasses",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.SEwCFWmoe5wPqLWP caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbBarbarian0]{Barbarians} are mighty warriors who are powered by primal forces of the multiverse that manifest as a Rage. More than a mere emotion—and not limited to anger—this Rage is an incarnation of a predator’s ferocity, a storm’s fury, and a sea’s turmoil.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.TA4xDoWO2cXuWKgX caption=false classes=\"right three\"]</p><p>Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess, but also uncanny reflexes and heightened senses.</p><p>Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those under their protection don’t have to. Their courage in the face of danger makes Barbarians perfectly suited for adventure.</p><h2>Becoming a Barbarian …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Barbarian Traits table.</p></li><li><p>Gain the Barbarian’s level 1 features, which are listed in the Barbarian Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Barbarian Traits table: Hit Point Die, proficiency with Martial weapons, and training with Shields.</p></li><li><p>Gain the Barbarian’s level 1 features, which are listed in the Barbarian Features table.</p></li></ul>",
+          "subclass": "<p>A Barbarian subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBarbarian0000.JournalEntryPage.GvRPKO7EAbXB7TXM]{Path of the Berserker}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBarbarian0000.JournalEntryPage.DZftqg73PEeRWY4J]{Path of the Wild Heart}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBarbarian0000.JournalEntryPage.0NPflCZJaxFKhpXu]{Path of the World Tree}, and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBarbarian0000.JournalEntryPage.JZkVWnkmB47BwtLi]{Path of the Zealot} subclasses.</p>"
         }
       }
     },
@@ -2189,19 +2024,26 @@
       "name": "Bard",
       "pages": {
         "Bard": {
-          "name": "Bard"
+          "name": "Bard",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.UH2FRBZlS7owFx0R caption=false]</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.mwPJyvhdaQxLSOkX caption=false classes=\"right two\"]</p><p>Invoking magic through music, dance, and verse, @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdBard000000]{Bards} are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions. Bards believe the multiverse was spoken into existence and that remnants of its Words of Creation still resound and glimmer on every plane of existence. Bardic magic attempts to harness those words, which transcend any language.</p><p>Anything can inspire a new song or tale, so Bards are fascinated by almost everything. They become masters of many things, including performing music, working magic, and making jests.</p><p>A Bard’s life is spent traveling, gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards’ depth of knowledge and mastery of magic sets them apart.</p><h2>Becoming a Bard …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Bard Traits table.</p></li><li><p>Gain the Bard’s level 1 features, which are listed in the Bard Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.</p></li><li><p>Gain the Bard’s level 1 features, which are listed in the Bard Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>",
+          "subclass": "<p>A Bard subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdDance00000]{College of Dance}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdGlamour000]{College of Glamour}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdLore000000]{College of Lore}, and @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdValor00000]{College of Valor} subclasses.</p>"
         },
         "College of Dance": {
-          "name": "College of Dance"
+          "name": "College of Dance",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.UH2FRBZlS7owFx0R caption=false]</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.mwPJyvhdaQxLSOkX caption=false classes=\"right two\"]</p><p>Invoking magic through music, dance, and verse, @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdBard000000]{Bards} are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions. Bards believe the multiverse was spoken into existence and that remnants of its Words of Creation still resound and glimmer on every plane of existence. Bardic magic attempts to harness those words, which transcend any language.</p><p>Anything can inspire a new song or tale, so Bards are fascinated by almost everything. They become masters of many things, including performing music, working magic, and making jests.</p><p>A Bard’s life is spent traveling, gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards’ depth of knowledge and mastery of magic sets them apart.</p><h2>Becoming a Bard …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Bard Traits table.</p></li><li><p>Gain the Bard’s level 1 features, which are listed in the Bard Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.</p></li><li><p>Gain the Bard’s level 1 features, which are listed in the Bard Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>",
+          "subclass": "<p>A Bard subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdDance00000]{College of Dance}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdGlamour000]{College of Glamour}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdLore000000]{College of Lore}, and @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdValor00000]{College of Valor} subclasses.</p>"
         },
         "College of Glamour": {
-          "name": "College of Glamour"
+          "name": "College of Glamour",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.8FZ9RIiHgj7UPntB caption=false classes=\"three right\"]</p><blockquote><p>Weave Beguiling Fey Magic</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdGlamour000]{College of Glamour} traces its origins to the beguiling magic of the Feywild. Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of long-held fears, and tug at the emotions of even the most hard-hearted listeners.</p>"
         },
         "College of Lore": {
-          "name": "College of Lore"
+          "name": "College of Lore",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.rKcbuxF24YtAkfrB caption=false classes=\"three right\"]</p><blockquote><p>Plumb the Depths of Magical Knowledge</p></blockquote><p>Bards of the @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdLore000000]{College of Lore} collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college’s members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.</p>"
         },
         "College of Valor": {
-          "name": "College of Valor"
+          "name": "College of Valor",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Ddbv0hTmdZCJ7N7u caption=false classes=\"three right\"]</p><blockquote><p>Sing the Deeds of Ancient Heroes</p></blockquote><p>Bards of the @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdValor00000]{College of Valor} are daring storytellers whose tales preserve the memory of the great heroes of the past. These Bards sing the deeds of the mighty in vaulted halls or to crowds gathered around great bonfires. They travel to witness great events firsthand and to ensure that the memory of these events doesn’t pass away. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old.</p>"
         }
       }
     },
@@ -2219,7 +2061,8 @@
       "pages": {
         "Overview": {
           "name": "Overview",
-          "text": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh4ArtHandout.JournalEntryPage.2tRHWrt4zwY6tqoD]</p><p>This chapter describes the two components of an adventurer’s origin: background and species. Together, these elements suggest your character’s early experience and family origin before taking up the adventuring life and learning the capabilities of a @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCharacterClas.JournalEntryPage.jlSMyO89AI0ZtQjd]{class}.</p><h2>Origin Components</h2><p>Each part of your character’s origin reflects facets of your character, their life, and the circumstances that started them on the path to adventure.</p><p>If you choose a background or a species from an older book, see the sidebar @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh#backgrounds-and-species-from-older-books]{Backgrounds and Species from Older Books} in chapter 2 for how to use them with the options here.</p>"
+          "text": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh4ArtHandout.JournalEntryPage.2tRHWrt4zwY6tqoD]</p><p>This chapter describes the two components of an adventurer’s origin: background and species. Together, these elements suggest your character’s early experience and family origin before taking up the adventuring life and learning the capabilities of a @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCharacterClas.JournalEntryPage.jlSMyO89AI0ZtQjd]{class}.</p><h2>Origin Components</h2><p>Each part of your character’s origin reflects facets of your character, their life, and the circumstances that started them on the path to adventure.</p><p>If you choose a background or a species from an older book, see the sidebar @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh#backgrounds-and-species-from-older-books]{Backgrounds and Species from Older Books} in chapter 2 for how to use them with the options here.</p>",
+          "flagsTitle": "Origin Components"
         },
         "Character Backgrounds": {
           "name": "Character Backgrounds",
@@ -2235,19 +2078,25 @@
       "name": "Cleric",
       "pages": {
         "Cleric": {
-          "name": "Cleric"
+          "name": "Cleric",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.UuvlT8YBqkDMyj9R caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric0000]{Clerics} draw power from the realms of the gods and harness it to work miracles. Blessed by a deity, a pantheon, or another immortal entity, a Cleric can reach out to the divine magic of the Outer Planes—where gods dwell—and channel it to bolster people and battle foes.</p><p>Because their power is a divine gift, Clerics typically associate themselves with temples dedicated to the deity or other immortal force that unlocked their magic. Harnessing divine magic doesn’t rely on specific training, yet Clerics might learn prayers and rites that help them draw on power from the Outer Planes.</p><p>Not every member of a temple or shrine is a Cleric. Some priests are called to a simple life of temple service, carrying out their devotion through prayer and rituals, not through magic. Many mortals claim to speak for the gods, but few can marshal the power of those gods the way a Cleric can.</p><h2>Becoming a Cleric …</h2><h3>As a Level 1 Character</h3><p>Gain all the traits in the Core Cleric Traits table.</p><ul><li><p>Gain the Cleric’s level 1 features, which are listed in the Cleric Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.</p></li><li><p>Gain the Cleric’s level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>",
+          "subclass": "<p>A Cleric subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCleric0000000.JournalEntryPage.aGYpgynZ3nkBCPaT]{Life Domain}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCleric0000000.JournalEntryPage.ChPhvB57FhM48ECO]{Light Domain}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCleric0000000.JournalEntryPage.G4wCgd6yslvpvKyN]{Trickery Domain}, and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCleric0000000.JournalEntryPage.r6CueEIytzMeRwwo]{War Domain} subclasses.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.iYYIz9iJWpRfYyFF caption=false]</p>"
         },
         "Life Domain": {
-          "name": "Life Domain"
+          "name": "Life Domain",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.ni0tD2OhmzJVVjxZ caption=false classes=\"three right\"]</p><blockquote><p>Soothe the Hurts of the World</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcLifeDomain]{Life Domain} focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.</p><p>Existence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.</p>"
         },
         "Light Domain": {
-          "name": "Light Domain"
+          "name": "Light Domain",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.TJBxb5HP0PQZbYKY caption=false classes=\"three right\"]</p><blockquote><p>Bring Light to Banish Darkness</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcLightDomai]{Light Domain} emphasizes the divine power to bring about blazing fire and revelation. Clerics who wield this power are enlightened souls infused with radiance and the power of their deities’ discerning vision, charged with chasing away lies and burning away darkness.</p><p>The Light Domain is associated with gods of truth, vigilance, beauty, insight, and renewal. Some of these gods are identified with the sun or as charioteers who guide the sun across the sky. Others are sentinels who pierce deception. Some are deities of beauty and artistry who teach that art is a vehicle for the soul’s improvement.</p>"
         },
         "Trickery Domain": {
-          "name": "Trickery Domain"
+          "name": "Trickery Domain",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.XofZMGocNyaKDoNg caption=false classes=\"three right\"]</p><blockquote><p>Make Mischief and Challenge Authority</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcTrickeryDo]{Trickery Domain} offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, freeing captives, and flouting hollow traditions. They prefer subterfuge and pranks to direct confrontation.</p><p>Gods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They embody the forces of change and social upheaval, and they’re patrons of thieves, scoundrels, gamblers, rebels, and liberators. Religious orders that operate in secret, especially those that seek to undermine oppressive governments or hierarchies, also draw on the power of the Trickery Domain.</p>"
         },
         "War Domain": {
-          "name": "War Domain"
+          "name": "War Domain",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.YG7dCEzrtTYtdhZz caption=false classes=\"three right\"]</p><blockquote><p>Inspire Valor and Smite Foes</p></blockquote><p>War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcWarDomain0]{War Domain} excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.</p><p>Gods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.</p>"
         }
       }
     },
@@ -2494,19 +2343,25 @@
       "name": "Druid",
       "pages": {
         "Druid": {
-          "name": "Druid"
+          "name": "Druid",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.psX0aM7vWPnjDy1f caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdDruid00000]{Druids} belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, and the four elements, Druids heal, transform into animals, and wield elemental destruction.</p><p>Revering nature above all, individual Druids gain their magic from nature, a nature deity, or both, and they typically unite with other Druids to perform rites that mark the passage of the seasons and other natural cycles.</p><p>Druids are concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature. Druids often guard sacred sites or watch over regions of unspoiled nature, but when a significant danger arises, Druids take a more active role as adventurers who combat the threat.</p><h2>Becoming a Druid …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Druid Traits table.</p></li><li><p>Gain the Druid’s level 1 features, which are listed in the Druid Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.</p></li><li><p>Gain the Druid’s level 1 features, which are listed in the Druid Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>",
+          "subclass": "<p>A Druid subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirland000]{Circle of the Land}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirmoon000]{Circle of the Moon}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirsea0000]{Circle of the Sea}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirstars00]{Circle of the Stars} subclasses.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.pBmHaKHliLvuPfUs caption=false]</p>"
         },
         "Circle of Land": {
-          "name": "Circle of Land"
+          "name": "Circle of Land",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.nZYRZlB2TkxCbQC5 caption=false classes=\"three right\"]</p><blockquote><p>Celebrate Connection to the Natural World</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirland000]{Circle of the Land} comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle’s wisest members preside as the chief priests of their communities.</p>"
         },
         "Circle of Moon": {
-          "name": "Circle of Moon"
+          "name": "Circle of Moon",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.n1JJcOrHZkyaTHZ3 caption=false classes=\"three right\"]</p><blockquote><p>Adopt Animal Forms to Guard the Wilds</p></blockquote><p>Druids of the @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirmoon000]{Circle of the Moon} draw on lunar magic to transform themselves. Their order gathers under the moon to share news and perform rituals.</p><p>Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and then crash through undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid’s blood.</p>"
         },
         "Circle of Sea": {
-          "name": "Circle of Sea"
+          "name": "Circle of Sea",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.mHpIstCE24qkzKqy caption=false classes=\"three right\"]</p><blockquote><p>Become One with Tides and Storms</p></blockquote><p>Druids of the @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirsea0000]{Circle of the Sea} draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature’s wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds.</p>"
         },
         "Circle of Stars": {
-          "name": "Circle of Stars"
+          "name": "Circle of Stars",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.lOyX9K8LEAd5IswG caption=false classes=\"three right\"]</p><blockquote><p>Harness Secrets Hidden in Constellations</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdCirstars00]{Circle of the Stars} has tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By understanding these secrets, the Druids of this circle seek to harness the powers of the cosmos.</p>"
         }
       }
     },
@@ -2547,7 +2402,7 @@
         },
         "Other Tools": {
           "name": "Other Tools",
-          "text": "<p>These tools support adventure and other pursuits.</p><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulDisguiseKi]{Disguise Kit} (25 GP)</h3><p><strong>Ability:</strong> Charisma <strong>Weight:</strong> 3 lb.</p><p><strong>Utilize:</strong> Apply makeup (DC 10)</p><p><strong>Craft:</strong> Costume</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulForgeryKit]{Forgery Kit} (15 GP)</h3><p><strong>Ability:</strong> Dexterity <strong>Weight:</strong> 5 lb.</p><p><strong>Utilize:</strong> Mimic 10 or fewer words of someone else’s handwriting (DC 15), or duplicate a wax seal (DC 20)</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulGamingSetV]{Gaming Set (Varies)}</h3><p><strong>Ability:</strong> Wisdom <strong>Weight:</strong> —</p><p><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p><p><strong>Variants:</strong> Dice (1 SP), dragonchess (1 GP), playing cards (5 SP), three-dragon ante (1 GP)</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]{Herbalism Kit} (5 GP)</h3><p><strong>Ability:</strong> Intelligence <strong>Weight:</strong> 3 lb.</p><p><strong>Utilize:</strong> Identify a plant (DC 10)</p><p><strong>Craft:</strong> Antitoxin, Candle, Healer’s Kit, <em>Potion of Healing</em></p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulMusicalIns]{Musical Instrument (Varies)}</h3><p><strong>Ability:</strong> Charisma <strong>Weight:</strong> Varies</p><p><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p><p><strong>Variants:</strong> Bagpipes (30 GP, 6 lb.), drum (6 GP, 3 lb.), dulcimer (25 GP, 10 lb.), flute (2 GP, 1 lb.), horn (3 GP, 2 lb.), lute (35 GP, 2 lb.), lyre (30 GP, 2 lb.), pan flute (12 GP, 2 lb.), shawm (2 GP, 1 lb.), viol (30 GP, 1 lb.)</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators]{Navigator’s Tools} (25 GP)</h3><p><strong>Ability:</strong> Wisdom <strong>Weight:</strong> 2 lb.</p><p><strong>Utilize:</strong> Plot a course (DC 10), or determine position by stargazing (DC 15)</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPoisonersK]{Poisoner’s Kit} (50 GP)</h3><p><strong>Ability:</strong> Intelligence <strong>Weight:</strong> 2 lb.</p><p><strong>Utilize:</strong> Detect a poisoned object (DC 10)</p><p><strong>Craft:</strong> Basic Poison</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Thieves’ Tools} (25 GP)</h3><p><strong>Ability:</strong> Dexterity <strong>Weight:</strong> 1 lb.</p><p><strong>Utilize:</strong> Pick a lock (DC 15), or disarm a trap (DC 15)</p>"
+          "text": "<p>These tools support adventure and other pursuits.</p><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulDisguiseKi]{Disguise Kit} (25 GP)</h3><p><strong>Ability:</strong> Charisma <strong>Weight:</strong> 3 lb.</p><p><strong>Utilize:</strong> Apply makeup (DC 10)</p><p><strong>Craft:</strong> Costume</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulForgeryKit]{Forgery Kit} (15 GP)</h3><p><strong>Ability:</strong> Dexterity <strong>Weight:</strong> 5 lb.</p><p><strong>Utilize:</strong> Mimic 10 or fewer words of someone else’s handwriting (DC 15), or duplicate a wax seal (DC 20)</p><hr /><h3>Gaming Set (Varies)</h3><p><strong>Ability:</strong> Wisdom <strong>Weight:</strong> —</p><p><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p><p><strong>Variants:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstDice000000]{Dice} (1 SP), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstDragonches]{dragonchess} (1 GP), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstPlayingcar]{playing cards} (5 SP), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstThreedrago]{three-dragon ante} (1 GP)</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]{Herbalism Kit} (5 GP)</h3><p><strong>Ability:</strong> Intelligence <strong>Weight:</strong> 3 lb.</p><p><strong>Utilize:</strong> Identify a plant (DC 10)</p><p><strong>Craft:</strong> Antitoxin, Candle, Healer’s Kit, <em>Potion of Healing</em></p><hr /><h3>Musical Instrument (Varies)</h3><p><strong>Ability:</strong> Charisma <strong>Weight:</strong> Varies</p><p><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p><p><strong>Variants:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusBagpipes00]{Bagpipes} (30 GP, 6 lb.), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusDrum000000]{drum} (6 GP, 3 lb.), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusDulcimer00]{dulcimer} (25 GP, 10 lb.), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusFlute00000]{flute} (2 GP, 1 lb.), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusHorn000000]{horn} (3 GP, 2 lb.), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusLute000000]{lute} (35 GP, 2 lb.), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusLyre000000]{lyre} (30 GP, 2 lb.), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusPanflute00]{pan flute} (12 GP, 2 lb.), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusShawm00000]{shawm} (2 GP, 1 lb.), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusViol000000]{viol} (30 GP, 1 lb.)</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators]{Navigator’s Tools} (25 GP)</h3><p><strong>Ability:</strong> Wisdom <strong>Weight:</strong> 2 lb.</p><p><strong>Utilize:</strong> Plot a course (DC 10), or determine position by stargazing (DC 15)</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPoisonersK]{Poisoner’s Kit} (50 GP)</h3><p><strong>Ability:</strong> Intelligence <strong>Weight:</strong> 2 lb.</p><p><strong>Utilize:</strong> Detect a poisoned object (DC 10)</p><p><strong>Craft:</strong> Basic Poison</p><hr /><h3>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Thieves’ Tools} (25 GP)</h3><p><strong>Ability:</strong> Dexterity <strong>Weight:</strong> 1 lb.</p><p><strong>Utilize:</strong> Pick a lock (DC 15), or disarm a trap (DC 15)</p>"
         },
         "Weapon Properties": {
           "name": "Weapon Properties",
@@ -2584,7 +2439,7 @@
         },
         "Vision and Light": {
           "name": "Vision and Light",
-          "text": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh1ArtHandout.JournalEntryPage.678vnBXr3wCQ8onH classes=\"right two\" caption=false cite=false]</p><p>Some adventuring tasks—such as noticing danger, hitting an enemy, and targeting certain spells—are affected by sight, so effects that obscure vision can hinder you, as explained below.</p><h2>Obscured Areas</h2><p>An area might be &amp;Reference[Lightly Obscured] or &amp;Referencee[heavilyobscured]. In a Lightly Obscured area—such as an area with &amp;Reference[Dim Light], patchy fog, or moderate foliage—you have &amp;Reference[Disadvantage] on Wisdom (Perception) checks that rely on sight.</p><p>A Heavily Obscured area—such as an area with &amp;Reference[Darkness], heavy fog, or dense foliage—is opaque. You have the &amp;Reference[Blinded] condition when trying to see something there.</p><h2>Light</h2><p>The presence or absence of light determines the category of illumination in an area, as defined below.</p><p><em><strong>Bright Light.</strong></em> Bright Light lets most creatures see normally. Even gloomy days provide Bright Light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.</p><p><em><strong>Dim Light.</strong></em> Dim Light, also called shadows, creates a &amp;Reference[Lightly Obscured] area. An area of Dim Light is usually a boundary between Bright Light and surrounding Darkness. The soft light of twilight and dawn also counts as Dim Light. A full moon might bathe the land in Dim Light.</p><p><em><strong>Darkness.</strong></em> Darkness creates a &amp;Reference[Heavily Obscured] area. Characters face Darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon, or in an area of magical Darkness.</p><h2>Special Senses</h2><p>Some creatures have special senses that help them perceive things in certain situations. The rules glossary defines the following special senses:</p><ul><li><p>&amp;Reference[Blindsight]</p></li><li><p>&amp;Reference[Darkvision]</p></li><li><p>&amp;Reference[Tremorsense]</p></li><li><p>&amp;Reference[Truesight]</p></li></ul>"
+          "text": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh1ArtHandout.JournalEntryPage.678vnBXr3wCQ8onH classes=\"right two\" caption=false cite=false]</p><p>Some adventuring tasks—such as noticing danger, hitting an enemy, and targeting certain spells—are affected by sight, so effects that obscure vision can hinder you, as explained below.</p><h2>Obscured Areas</h2><p>An area might be &amp;Reference[Lightly Obscured] or &amp;Reference[Heavily Obscured]. In a Lightly Obscured area—such as an area with &amp;Reference[Dim Light], patchy fog, or moderate foliage—you have &amp;Reference[Disadvantage] on Wisdom (Perception) checks that rely on sight.</p><p>A Heavily Obscured area—such as an area with &amp;Reference[Darkness], heavy fog, or dense foliage—is opaque. You have the &amp;Reference[Blinded] condition when trying to see something there.</p><h2>Light</h2><p>The presence or absence of light determines the category of illumination in an area, as defined below.</p><p><em><strong>Bright Light.</strong></em> Bright Light lets most creatures see normally. Even gloomy days provide Bright Light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.</p><p><em><strong>Dim Light.</strong></em> Dim Light, also called shadows, creates a &amp;Reference[Lightly Obscured] area. An area of Dim Light is usually a boundary between Bright Light and surrounding Darkness. The soft light of twilight and dawn also counts as Dim Light. A full moon might bathe the land in Dim Light.</p><p><em><strong>Darkness.</strong></em> Darkness creates a &amp;Reference[Heavily Obscured] area. Characters face Darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon, or in an area of magical Darkness.</p><h2>Special Senses</h2><p>Some creatures have special senses that help them perceive things in certain situations. The rules glossary defines the following special senses:</p><ul><li><p>&amp;Reference[Blindsight]</p></li><li><p>&amp;Reference[Darkvision]</p></li><li><p>&amp;Reference[Tremorsense]</p></li><li><p>&amp;Reference[Truesight]</p></li></ul>"
         },
         "Hiding": {
           "name": "Hiding",
@@ -2649,19 +2504,25 @@
       "name": "Fighter",
       "pages": {
         "Fighter": {
-          "name": "Fighter"
+          "name": "Fighter",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.esJhJ8UP0U2EJu74 caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrFighter000]{Fighters} rule many battlefields.</p><p>Questing knights, royal champions, elite soldiers, and hardened mercenaries—as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and defying it.</p><p>Fighters master various weapon techniques, and a well-equipped Fighter always has the right tool at hand for any combat situation. Likewise, a Fighter is adept with every form of armor. Beyond that basic degree of familiarity, each Fighter specializes in certain styles of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad ability and extensive specialization makes Fighters superior combatants.</p><h2>Becoming a Fighter …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Fighter Traits table.</p></li><li><p>Gain the Fighter’s level 1 features, which are listed in the Fighter Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.</p></li><li><p>Gain the Fighter’s level 1 features, which are listed in the Fighter Features table.</p></li></ul>",
+          "subclass": "<p>A Fighter subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrBattleMast]{Battle Master}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrChampion00]{Champion}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrEldritchKn]{Eldritch Knight}, and @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrPsiWarrior]{Psi Warrior} subclasses. @Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Dxmovf4md47R3EjZ]</p>"
         },
         "Battle Master": {
-          "name": "Battle Master"
+          "name": "Battle Master",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Lmsac07AO6ZzvEcG caption=false classes=\"three right\"]</p><blockquote><p>Master Sophisticated Battle Maneuvers</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrBattleMast]{Battle Masters} are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts.</p>"
         },
         "Champion": {
-          "name": "Champion"
+          "name": "Champion",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.qayHNwOyTmTv3cXj caption=false classes=\"three right\"]</p><blockquote><p>Pursue Physical Excellence in Combat</p></blockquote><p>A @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrChampion00]{Champion} focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.</p>"
         },
         "Eldritch Knight": {
-          "name": "Eldritch Knight"
+          "name": "Eldritch Knight",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.iW2cLi93r3AuYxUi caption=false classes=\"three right\"]</p><blockquote><p>Support Combat Skills with Arcane Magic</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrEldritchKn]{Eldritch Knights} combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.</p>"
         },
         "Psi Warrior": {
-          "name": "Psi Warrior"
+          "name": "Psi Warrior",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.1A9tH1YFWh3bj4Ps caption=false classes=\"three right\"]</p><blockquote><p>Augment Physical Might with Psionic Power</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrPsiWarrior]{Psi Warriors} awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.</p>"
         },
         "Maneuver Options": {
           "name": "Maneuver Options",
@@ -2694,19 +2555,25 @@
       "name": "Monk",
       "pages": {
         "Monk": {
-          "name": "Monk"
+          "name": "Monk",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.fYVTGxSWBTBc602Y]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMonk000000]{Monks} use rigorous combat training and mental discipline to align themselves with the multiverse and focus their internal reservoirs of power. Different Monks conceptualize this power in various ways: as breath, energy, life force, essence, or self, for example. Whether channeled as a striking display of martial prowess or as a subtler manifestation of defense and speed, this power infuses all that a Monk does.</p><p>Monks focus their internal power to create extraordinary, even supernatural, effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In a Monk’s hands, even the most basic weapons can become sophisticated implements of combat mastery.</p><p>Many Monks find that a structured life of ascetic withdrawal helps them cultivate the physical and mental focus they need to harness their power. Other Monks believe that immersing themselves in the vibrant confusion of life helps to fuel their determination and discipline.</p><p>Monks generally view adventures as tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to turn themselves into living weapons.</p><h2>Becoming a Monk …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Monk Traits table.</p></li><li><p>Gain the Monk’s level 1 features, which are listed in the Monk Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the Hit Point Die trait from the Core Monk Traits table.</p></li><li><p>Gain the Monk’s level 1 features, which are listed in the Monk Features table.</p></li></ul>",
+          "subclass": "<p>A Monk subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMercyWarri]{Warrior of Mercy}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkShadowWarr]{Warrior of Shadow}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkElementsWa]{Warrior of the Elements}, and @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkOpenHandWa]{Warrior of the Open Hand} subclasses.</p>"
         },
         "Warrior of Mercy": {
-          "name": "Warrior of Mercy"
+          "name": "Warrior of Mercy",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.LbGptG9eEuu2nNwL caption=false classes=\"three right\"]</p><blockquote><p>Manipulate Forces of Life and Death</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMercyWarri]{Warriors of Mercy} manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death.</p>"
         },
         "Warrior of Shadow": {
-          "name": "Warrior of Shadow"
+          "name": "Warrior of Shadow",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.yIwAis0MvTMsjCe5 caption=false classes=\"three right\"]</p><blockquote><p>Harness Shadow Power for Stealth and Subterfuge</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkShadowWarr]{Warriors of Shadow} practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form.</p>"
         },
         "Warrior of the Elements": {
-          "name": "Warrior of the Elements"
+          "name": "Warrior of the Elements",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.NLBWCSUy2sIvCtzJ caption=false classes=\"three right\"]</p><blockquote><p>Wield Strikes and Bursts of Elemental Power</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkElementsWa]{Warriors of the Elements} tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle.</p>"
         },
         "Warrior of the Open Hand": {
-          "name": "Warrior of the Open Hand"
+          "name": "Warrior of the Open Hand",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.jmcZttoCPWV91sB1 caption=false classes=\"three right\"]</p><blockquote><p>Master Unarmed Combat Techniques</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkOpenHandWa]{Warriors of the Open Hand} are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.</p>"
         }
       }
     },
@@ -2731,19 +2598,25 @@
       "name": "Paladin",
       "pages": {
         "Paladin": {
-          "name": "Paladin"
+          "name": "Paladin",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.iPWoJTCp4yt4DQRw]</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.TC9abWoNH0c8izAp caption=false classes=\"right three\"]</p><p>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbprgPaladin000]{Paladins} are united by their oaths to stand against the forces of annihilation and corruption. Whether sworn before a god’s altar, in a sacred glade before nature spirits, or in a moment of desperation and grief with the dead as the only witnesses, a Paladin’s oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.</p><p>Paladins train to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield: power to heal the injured, smite their foes, and protect the helpless and those who fight at their side.</p><p>Almost by definition, the life of a Paladin is an adventuring life, for every Paladin lives on the front lines of the cosmic struggle against annihilation. Fighters are rare enough among the ranks of a world’s armies, but even fewer people can claim the calling of a Paladin. When they do receive the call, these blessed folk turn from their former occupations and take up arms and magic.</p><h2>Becoming a Paladin …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Paladin Traits table.</p></li><li><p>Gain the Paladin’s level 1 features, which are listed in the Paladin Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.</p></li><li><p>Gain the Paladin’s level 1 features, which are listed in the Paladin Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>",
+          "subclass": "<p>A Paladin subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfDevo]{Oath of Devotion}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfGlor]{Oath of Glory}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfTheA]{Oath of the Ancients},  @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfVeng]{Oath of Vengeance} subclasses.</p>"
         },
         "Oath of Devotion": {
-          "name": "Oath of Devotion"
+          "name": "Oath of Devotion",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.3DHjTK7qlPg4HNYU caption=false classes=\"three right\"]</p><blockquote><p>Uphold the Ideals of Justice and Order</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfDevo]{Oath of Devotion} binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.</p><p>Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.</p><p>These paladins share the following tenets:</p><ul><li><p>Let your word be your promise.</p></li><li><p>Protect the weak and never fear to act.</p></li><li><p>Let your honorable deeds be an example.</p></li></ul>"
         },
         "Oath of Glory": {
-          "name": "Oath of Glory"
+          "name": "Oath of Glory",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.NSQCO8WeewZNRNvb caption=false classes=\"three right\"]</p><blockquote><p>Strive for the Heights of Heroism</p></blockquote><p>Paladins who take the @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfGlor]{Oath of Glory} believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they’re all ready when destiny calls.</p><p>These paladins share the following tenets:</p><ul><li><p>Endeavor to be known by your deeds.</p></li><li><p>Face hardships with courage.</p></li><li><p>Inspire others to strive for glory.</p></li></ul>"
         },
         "Oath of the Ancients": {
-          "name": "Oath of the Ancients"
+          "name": "Oath of the Ancients",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.MOn6qZ2dV0VBHusB caption=false classes=\"three right\"]</p><blockquote><p>Preserve Life and Light in the World</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfTheA]{Oath of the Ancients} is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They often adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light.</p><p>These paladins share the following tenets:</p><ul><li><p>Kindle the light of hope.</p></li><li><p>Shelter life.</p></li><li><p>Delight in art and laughter.</p></li></ul>"
         },
         "Oath of Vengeance": {
-          "name": "Oath of Vengeance"
+          "name": "Oath of Vengeance",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.8J2SuRksDxJJcFiv caption=false classes=\"three right\"]</p><blockquote><p>Punish Evildoers at Any Cost</p></blockquote><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfVeng]{Oath of Vengeance} is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves’ guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.</p><p>These paladins share the following tenets:</p><ul><li><p>Show the wicked no mercy.</p></li><li><p>Fight injustice and its causes.</p></li><li><p>Aid those harmed by injustice.</p></li></ul>"
         }
       }
     },
@@ -2761,6 +2634,10 @@
         "1.2.0": {
           "name": "1.2.0",
           "text": "<h2>Feature Enhancements</h2><ul><li>Added templates for Detect Magic, Detect Thoughts, Detect Poison and Disease, and Detect Evil and Good. They are configured to not prompt you to place the template on cast to reduce visual noise but the chat card will allow placing it. Their Active Effects have also been updated for more clarity. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/764\">[#764]</a></li><li>Added an Unarmed Strike item as an advancement grant to the College of Dance subclass which can be used in place of the activity on the Dazzling Footwork feature. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/759\">[#759]</a></li></ul><h2>Bug Fixes</h2><ul><li>Added Musket and Pistol as Base Weapon options. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/753\">[#753]</a></li><li>The Net now includes a Save activity and an inline check for escaping the net. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/763\">[#763]</a></li><li>Added spell progression formula for Eldritch Knight. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/761\">[#761]</a></li><li>The Bard no longer grants the multiclass skill proficiency to the original class. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/760\">[#760]</a></li><li>Added missing text to the Wizard's \"Expanding and Replacing a Spellbook\" callout. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/757\">[#757]</a></li><li>Removed \"Bludgeoning\" from the Martial Arts' Monk Attack activity. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/755\">[#755]</a></li><li>Corrected the amount of HP granted to the Primal Companion when they're summoned to ensure the Beast of the Sky gets the correct value. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/754\">[#754]</a></li><li>Warlock subclass spells are all added as \"Pact Magic\" now. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/750\">[#750]</a></li><li>The Druid class now adds Druidic as a language. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/747\">[#747]</a></li><li>Fixed link issue with Alchemist's Fire. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/748\">[#748]</a></li><li>The \"Magician\" Druid feature now modifies the correct scale value. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/746\">[#746]</a></li><li>Added Darkvision to the Skeleton. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/745\">[#745]</a></li><li>Corrected Stunning Strike to use Wisdom. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/744\">[#744]</a></li><li>Eldritch Invocations are now all granted at the appropriate levels. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/743\">[#743]</a></li><li>Fixed typo in the Agonizing Blast invocation. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/742\">[#742]</a></li><li>Fixed a typo in the Rage feature's lookup value. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/769\">[#769]</a></li><li>The Aasimar's Healing Hands feature now correctly consumes item uses instead of activity uses. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/770\">[#770]</a></li><li>Divine Smite now allows critical damage. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/771\">[#771]</a></li></ul><h2>Miscellaneous Unreported Issues/Feature Enhancements</h2><ul><li>[BUG] Rebuilt all example Actors with the latest version of their class.</li><li>[BUG] Added damage type to Monk's Unarmed Strike.</li><li>[ENHANCEMENT] Set the granted Misty Step with free uses from the Archfey Patron to be \"At-Will\" to distinguish it from the standard version which consumes spell slots.</li></ul>"
+        },
+        "1.3.0": {
+          "name": "1.3.0",
+          "text": "<h2>Feature Enhancements</h2><ul><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Aid} now uses \"system.attributes.hp.tempmax\" so it can be applied to NPCs as well. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/818\">[#818]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftWarCaster00]{War Caster} now includes an Active Effect which will automate the advantage on Concentration checks. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/825\">[#825]</a></p></li><li><p>All Unarmed Strike items now include a link to the Unarmed Strike rules (not embedded to prevent a lot of repeated content in chat cards) and an additional activity for Grapple/Shove with accompanying Active Effects. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/778\">#778</a>, <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/905\">#905</a>]</p></li><li><p>Simplified @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShillelagh]{Shillelagh} and improved support for damage being set to Formula. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/810\">[#810]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnProtection]{Aura of Protection} no longer includes a utility roll to improve the feature's grouping and because the roll was not usable by other players. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/891\">[#891]</a></p></li></ul><h2>Bug Fixes</h2><ul><li><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnSacredWeap]{Sacred Weapon} now includes the bonus to attack rolls. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/904\">[#904]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptInfernalLe]{Fiendish Legacy, Infernal}'s description now correctly matches the species description and what it provides. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/903\">[#903]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{Wild Magic Surge} now has the correct result for 41-44. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/902\">[#902]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi]{Font of Magic}'s Regain Sorcery Points activity now correctly supports scaling the spell slot level and restores the appropriate number of sorcery points by expending a spell slot. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/901\">[#901]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]{Divine Smite} now has a damage type set. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/890\">[#890]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobPseudodrag]{Pseudodragon}'s Bite feature now uses Dexterity instead of Strength. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/886\">[#886]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnOathOfGlor]{Oath of Glory} subclass now includes @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnPeerlessAt]{Peerless Athlete} as an advancement at level 3. The @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMonk000000]{Monk} now also receives @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkSelfrestor]{Self-Restoration} at level 10. The @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkGreatOldOn]{Great Old One} Warlock now also receives @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkThoughtShi]{Thought Shield} at level 10. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/884\">[#884]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbinvFiendishVi]{Fiendish Vigor} no longer scales based on the Warlock's pact magic spell level.</p></li><li><p>The Player's Handbook table of contents no longer shows two entries for Warlock. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/867\">[#867]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExploration00.JournalEntryPage.LxNKnBjL1rx6MQUO]{Travel Pace} table's headings are now in their correct columns. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/865\">#865</a>, <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/789\">#789</a>]</p></li><li><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeArcaneTric]{Arcane Trickster} now grants Mage Hand as a cantrip and the Mage Hand Legerdemain includes a Cast a Spell activity for Mage Hand that uses a Bonus Action. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/859\">[#859]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrFighter000]{Fighter} class now includes additional Weapon Mastery advancements. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/850\">[#850]</a></p></li><li><p>Fixed a typo in @UUID[Compendium.dnd-players-handbook.classes.Item.phbDivineStrike0]{Blessed Strikes: Divine Strike}. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/828\">[#828]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnInspiringS]{Inspiring Smite} now scales based on Paladin level and not Charisma. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/827\">#827</a>, <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/909\">#909</a>]</p></li><li><p>Removed a duplicate advancement from the @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdAbjurer000]{Abjurer}. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/826\">[#826]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{Burning Hands} now correctly requires a Dexterity Saving Throw. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/819\">[#819]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{Web} now includes the full damage even if the save is successful. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/815\">[#815]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrRanger0000]{Ranger} now allows choosing two languages as part of the Deft Explorer feature. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/814\">[#814]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas]{Summon Beast} creatures now have the correct scaling. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/808\">[#808]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbscrAberrantSo]{Aberrant Sorcery} subclass correctly applies resistance at level 6 instead of 3. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/806\">[#806]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCompelledD]{Compelled Duel} now uses a Bonus Action not an Action. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/803\">[#803]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobWolf000000]{Wolf} now includes 60 feet of Darkvision. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/800\">[#800]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Spear} now includes the correct standard and versatile damage. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/796\">[#796]</a></p></li><li><p>Corrected the scale value in @UUID[Compendium.dnd-players-handbook.classes.Item.phbFuryPrimalStr]{Elemental Fury: Primal Strike}. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/795\">[#795]</a></p></li><li><p>Spiritual Weapon now correctly scales the damage it deals. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/794\">[#794]</a></p></li><li><p>The typo in the Heavily Obscured enricher in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExploration00.JournalEntryPage.j39OCLFX4okynRIO]{Vision and Light} section has been fixed. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/788\">[#788]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkMistyEscap]{Misty Escape} and @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkStepsOfThe]{Steps of the Fey} features both include the ability to cast Misty Step now and it has been removed from the Archfey advancement. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/780\">[#780]</a></p></li><li><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe]{Fiendish Resilience}'s Active Effects no longer have a duration of 1 turn. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/907\">[#907]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Musket} and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistol} now have their base item's set. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/835\">[#835]</a></p></li><li><p>The @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting Style Feats} are now correctly categorized as Feats and not Class Features. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/908\">[#908]</a></p></li><li><p>Simplified the implementation of @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTrueStrike]{True Strike} to improve scaling. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/816\">[#816]</a></p></li><li><p>Resolved an issue with @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW]{Spiritual Weapon} that led to it dealing an additional 1d8 damage. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/794\">[#794]</a></p></li><li><p>The Unarmed Strike and Barbarian Unarmed Strike now include the correct damage calculations. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/787\">[#787]</a></p></li><li><p>Various minor typographical fixes like missing spaces.</p></li></ul>"
         }
       }
     },
@@ -2797,19 +2674,25 @@
       "name": "Ranger",
       "pages": {
         "Ranger": {
-          "name": "Ranger"
+          "name": "Ranger",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.7qN4IGLvwpc7j7KP caption=false]</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.r9NYYGWNoSxEYTlU caption=false classes=\"right two\"]</p><p>Far from bustling cities, amid the trees of trackless forests and across wide plains, @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrRanger0000]{Rangers} keep their unending watch in the wilderness. Rangers learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble.</p><p>Thanks to their connection with nature, Rangers can also cast spells that harness primal powers of the wilderness. A Ranger’s talents and magic are honed with deadly focus to protect the world from the ravages of monsters and tyrants.</p><h2>Becoming a Ranger …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Ranger Traits table.</p></li><li><p>Gain the Ranger’s level 1 features, which are listed in the Ranger Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger’s skill list, and training with Light and Medium armor and Shields.</p></li><li><p>Gain the Ranger’s level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>",
+          "subclass": "<p>A Ranger subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrBeastMaste]{Beast Master}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrFeyWander0]{Fey Wanderer}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrGloomStalk]{Gloom Stalker}, and @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrHunter0000]{Hunter} subclasses.</p>"
         },
         "Beast Master": {
-          "name": "Beast Master"
+          "name": "Beast Master",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.fzHuYQM4SG6qynLV caption=false classes=\"three right\"]</p><blockquote><p>Bond with a Primal Beast</p></blockquote><p>A @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrBeastMaste]{Beast Master} forms a mystical bond with a special animal, drawing on primal magic and a deep connection to the natural world.</p>"
         },
         "Fey Wanderer": {
-          "name": "Fey Wanderer"
+          "name": "Fey Wanderer",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.ckJhsBIlf7Qxo19z caption=false classes=\"three right\"]</p><blockquote><p>Wield Fey Mirth and Fury</p></blockquote><p>A fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrFeyWander0]{Fey Wanderer}. Your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.</p>"
         },
         "Gloom Stalker": {
-          "name": "Gloom Stalker"
+          "name": "Gloom Stalker",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.6lH0bBjC8Fxg9rkI caption=false classes=\"three right\"]</p><blockquote><p>Draw on Shadow Magic to Fight Your Foes</p></blockquote><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrGloomStalk]{Gloom Stalkers} are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness.</p>"
         },
         "Hunter": {
-          "name": "Hunter"
+          "name": "Hunter",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.eDSDWaZqyZqNAGxd caption=false classes=\"three right\"]</p><blockquote><p>Protect Nature and People from Destruction</p></blockquote><p>You stalk prey in the wilds and elsewhere, using your abilities as a @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrHunter0000]{Hunter} to protect nature and people everywhere from forces that would destroy them.</p>"
         }
       }
     },
@@ -2817,19 +2700,25 @@
       "name": "Rogue",
       "pages": {
         "Rogue": {
-          "name": "Rogue"
+          "name": "Rogue",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.EJGPmvmIPA4IT60s caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeRogue00000]{Rogues} rely on cunning, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem. A few even learn magical tricks to supplement their other abilities. Many Rogues focus on stealth and deception, while others refine skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.</p><p>In combat, Rogues prioritize subtle strikes over brute strength. They would rather make one precise strike than wear an opponent down with a barrage of blows.</p><p>Some Rogues began their careers as criminals, while others used their cunning to fight crime. Whatever a Rogue’s relation to the law, no common criminal or officer of the law can match the subtle brilliance of the greatest Rogues.</p><h2>Becoming a Rogue …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Rogue Traits table.</p></li><li><p>Gain the Rogue’s level 1 features, which are listed in the Rogue Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue’s skill list, proficiency with Thieves’ Tools, and training with Light armor.</p></li><li><p>Gain the Rogue’s level 1 features, which are listed in the Rogue Features table.</p></li></ul><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.A8wujCme7opVrxUE caption=false]</p>",
+          "subclass": "<p>A Rogue subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeArcaneTric]{Arcane Trickster}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeAssassin00]{Assassin}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeSoulknife0]{Soulknife}, and @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeThief00000]{Thief} subclasses.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.si6movwFtZhNx4q3 caption=false]</p>"
         },
         "Arcane Trickster": {
-          "name": "Arcane Trickster"
+          "name": "Arcane Trickster",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Hkz5LQZS0MKSTWoM caption=false classes=\"three right\"]</p><blockquote><p>Enhance Stealth with Arcane Spells</p></blockquote><p>Some Rogues enhance their fine-honed skills of stealth and agility with spells, learning magical tricks to aid them in their trade. Some @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeArcaneTric]{Arcane Tricksters} use their talents as pickpockets and burglars, while others are pranksters.</p>"
         },
         "Assassin": {
-          "name": "Assassin"
+          "name": "Assassin",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.GcgIi51M6G6QXj6l caption=false classes=\"three right\"]</p><blockquote><p>Practice the Grim Art of Death</p></blockquote><p>An @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeAssassin00]{Assassin’s} training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.</p>"
         },
         "Soulknife": {
-          "name": "Soulknife"
+          "name": "Soulknife",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.jkA7ZFJd0Brfoor9 caption=false classes=\"three right\"]</p><blockquote><p>Strike Foes with Psionic Blades</p></blockquote><p>A @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeSoulknife0]{Soulknife} strikes with the mind, cutting through barriers both physical and psychic. These Rogues discover psionic power within themselves and channel it to do their roguish work. As a Soulknife, your psionic abilities might have haunted you since childhood, revealing their full potential only as you experienced the stress of adventure. Or you might have sought out an order of psychic adepts and spent years learning how to manifest your power.</p>"
         },
         "Thief": {
-          "name": "Thief"
+          "name": "Thief",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.DE7Opse8FQcWzA45 caption=false classes=\"three right\"]</p><blockquote><p>Hunt for Treasure as a Classic Adventurer</p></blockquote><p>A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer (@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeThief00000]{Thief subclass}). In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.</p>"
         }
       }
     },
@@ -2887,19 +2776,25 @@
       "name": "Sorcerer",
       "pages": {
         "Sorcerer": {
-          "name": "Sorcerer"
+          "name": "Sorcerer",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.9RyrQV2snF08NjFc caption=false]</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.CaXX3GYGe2p3JJ33 caption=false classes=\"right three\"]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrSorcerer00]{Sorcerers} wield innate magic that is stamped into their being. Some Sorcerers can’t name the origin of their power, while others trace it to strange events in their personal or family history. The blessing of a dragon or a dryad at a baby’s birth or the strike of lightning from a clear sky might spark a Sorcerer’s gift. So too might the gift of a deity, exposure to the strange magic of another plane of existence, or a glimpse into the inner workings of reality. Whatever the origin, the result is an indelible mark on the Sorcerer, a churning magic that can be passed down through generations.</p><p>Sorcerers don’t learn magic; the raw, roiling power of magic is part of them. The essential art of a Sorcerer is learning to harness and channel that innate magic, allowing the Sorcerer to discover new and staggering ways to unleash their power. As Sorcerers master their innate magic, they grow more attuned to its origin, developing distinct powers that reflect its source.</p><p>Sorcerers are rare. Some family lines produce exactly one Sorcerer in every generation, but most of the time, the talents of sorcery appear as a fluke. People who have this magical power soon discover that it doesn’t like to stay quiet. A Sorcerer’s magic wants to be wielded.</p><h2>Becoming a Sorcerer …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Sorcerer Traits table.</p></li><li><p>Gain the Sorcerer’s level 1 features, which are listed in the Sorcerer Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the Hit Point Die from the Core Sorcerer Traits table.</p></li><li><p>Gain the Sorcerer’s level 1 features, which are listed in the Sorcerer Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>",
+          "subclass": "<p>A Sorcerer subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbscrAberrantSo]{Aberrant Sorcery}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbscrClockworkS]{Clockwork Sorcery}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbscrDraconicSo]{Draconic Sorcery}, and @UUID[Compendium.dnd-players-handbook.classes.Item.phbscrWildMagicS]{Wild Magic Sorcery} subclasses.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.Sc9DhurPdmkq4ole]</p>"
         },
         "Aberrant Sorcery": {
-          "name": "Aberrant Sorcery"
+          "name": "Aberrant Sorcery",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.V5olgMSrd0Zacz0K caption=false classes=\"three right\"]</p><blockquote><p>Wield Unnatural Psionic Power</p></blockquote><p>An alien influence has wrapped its tendrils around your mind, giving you psionic power (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrAberrantSo]{Aberrant Sorcery} subclass). You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?</p><p>Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm’s warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole’s psionic power is yours. However you acquired this power, your mind is aflame with it.</p>"
         },
         "Clockwork Sorcery": {
-          "name": "Clockwork Sorcery"
+          "name": "Clockwork Sorcery",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.H0eF1w5Ar7ksQI98 caption=false classes=\"three right\"]</p><blockquote><p>Channel Cosmic Forces of Order</p></blockquote><p>The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it’s part of a vast and glorious system (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrClockworkS]{Clockwork Sorcery} subclass).</p>"
         },
         "Draconic Sorcery": {
-          "name": "Draconic Sorcery"
+          "name": "Draconic Sorcery",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.bJx0jRA0yw5VQH8U caption=false classes=\"three right\"]</p><blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrDraconicSo]{Draconic Sorcery} subclass).</p>"
         },
         "Wild Magic Sorcery": {
-          "name": "Wild Magic Sorcery"
+          "name": "Wild Magic Sorcery",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.oVr588YdgC7sUNmD caption=false classes=\"three right\"]</p><blockquote><p>Unleash Chaotic Magic</p></blockquote><p>Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet (@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrWildMagicS]{Wild Magic Sorcery} subclass).</p>"
         },
         "Metamagic Options": {
           "name": "Metamagic Options",
@@ -3036,19 +2931,25 @@
       "name": "Warlock",
       "pages": {
         "Warlock": {
-          "name": "Warlock"
+          "name": "Warlock",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.IwQ9ZXbNnPbNVcWH caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkWarlock000]{Warlocks} quest for knowledge that lies hidden in the fabric of the multiverse. They often begin their search for magical power by delving into tomes of forbidden lore, dabbling in invocations meant to attract the power of extraplanar beings, or seeking places of power where the influence of these beings can be felt. In no time, each Warlock is drawn into a binding pact with a powerful patron. Drawing on the ancient knowledge of beings such as angels, archfey, demons, devils, hags, and alien entities of the Far Realm, Warlocks piece together arcane secrets to bolster their own power.</p><p>Warlocks view their patrons as resources, as means to the end of achieving magical power. Some Warlocks respect, revere, or even love their patrons; some serve their patrons grudgingly; and some seek to undermine their patrons even as they wield the power their patrons have given them.</p><p>Once a pact is made, a Warlock’s thirst for knowledge and power can’t be slaked with mere study. Most Warlocks spend their days pursuing greater power and deeper knowledge, which typically means some kind of adventure.</p><h2>Becoming a Warlock …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Warlock Traits table.</p></li><li><p>Gain the Warlock’s level 1 features, which are listed in the Warlock Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.</p></li><li><p>Gain the Warlock’s level 1 features, which are listed in the Warlock Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>",
+          "subclass": "<p>A Warlock subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkArchfeyPat]{Archfey Patron}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkCelestialP]{Celestial Patron}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkFiendPatro]{Fiend Patron}, and @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkGreatOldOn]{Great Old One Patron} subclasses.</p>"
         },
         "Archfey Patron": {
-          "name": "Archfey Patron"
+          "name": "Archfey Patron",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.yLL5lQDuwybWHdR3 caption=false classes=\"three right\"]</p><blockquote><p>Bargain with Whimsical Fey</p></blockquote><p>Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical (@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkArchfeyPat]{Archfey Patron} subclass).</p>"
         },
         "Celestial Patron": {
-          "name": "Celestial Patron"
+          "name": "Celestial Patron",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.0ODzCQ4DDHMYzAqQ caption=false classes=\"three right\"]</p><blockquote><p>Call on the Power of the Heavens</p></blockquote><p>Your pact draws on the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another heavenly entity. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience a hint of the holy light that illuminates the multiverse (@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkCelestialP]{Celestial Patron} subclass).</p>"
         },
         "Fiend Patron": {
-          "name": "Fiend Patron"
+          "name": "Fiend Patron",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.hBj1dxfsrtTE3qET caption=false classes=\"three right\"]</p><blockquote><p>Make a Deal with the Lower Planes</p></blockquote><p>Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially mighty. That patron’s aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims (@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkFiendPatro]{Fiend Patron} subclass).</p>"
         },
         "Great Old One Patron": {
-          "name": "Great Old One Patron"
+          "name": "Great Old One Patron",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.GlIQYJVBy6ndD6La caption=false classes=\"three right\"]</p><blockquote><p>Unearth Forbidden Lore of Ineffable Beings</p></blockquote><p>When you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you’ve learned nevertheless allow you to draw strange magic from it (@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkGreatOldOn]{Great Old One Patron} subclass).</p>"
         },
         "Eldritch Invocation Options": {
           "name": "Eldritch Invocation Options",
@@ -3089,19 +2990,911 @@
       "name": "Wizard",
       "pages": {
         "Wizard": {
-          "name": "Wizard"
+          "name": "Wizard",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.PL7bJ0pKJowitAfU caption=false]</p><p>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdWizard0000]{Wizards} are defined by their exhaustive study of magic’s inner workings. They cast spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations. Their magic conjures monsters from other planes of existence, glimpses the future, or forms protective barriers. Their mightiest spells change one substance into another, call meteors from the sky, or open portals to other worlds.</p><p>Most Wizards share a scholarly approach to magic. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic. Renowned Wizards such as Bigby, Tasha, Mordenkainen, and Yolande have built on their studies to invent iconic spells now used across the multiverse.</p><p>The closest a Wizard is likely to come to an ordinary life is working as a sage or lecturer. Other Wizards sell their services as advisers, serve in military forces, or pursue lives of crime or domination.</p><p>But the lure of knowledge calls even the most unadventurous Wizards from the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most Wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.</p><h2>Becoming a Wizard …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Wizard Traits table.</p></li><li><p>Gain the Wizard’s level 1 features, which are listed in the Wizard Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the Hit Point Die from the Core Wizard Traits table.</p></li><li><p>Gain the Wizard’s level 1 features, which are listed in the Wizard Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.n1xrSQG1U8RQ4vJj]</p><aside class=\"notable\"><p><strong>Expanding and Replacing a Spellbook</strong></p><p>The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.</p><p><strong>Copying a Spell into the Book.</strong> When you find a level 1+ Wizard spell, you can copy it into your spellbook if it’s of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.</p><p><strong>Copying the Book.</strong> You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.</p><p>If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.</p></aside>",
+          "subclass": "<p>A Wizard subclass is a specialization that grants you features at certain levels, as specified in the subclass. The next pages present the @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdAbjurer000]{Abjurer}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdDiviner000]{Diviner}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdEvoker0000]{Evoker}, @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdIllusionis]{Illusionist} subclasses.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.rU3ZOyOp2VugnZM2 caption=false]</p>"
         },
         "Abjurer": {
-          "name": "Abjurer"
+          "name": "Abjurer",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.M8tgQdPBaQ7jyCqk caption=false classes=\"three right\"]</p><blockquote><p>Shield Companions and Banish Foes</p></blockquote><p>Your study of magic is focused on spells that block, banish, or protect—ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdAbjurer000]{Abjurers} for the protection they provide against a variety of hostile magic and other attacks.</p>"
         },
         "Diviner": {
-          "name": "Diviner"
+          "name": "Diviner",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.hzwogHc8FgJFXMmX caption=false classes=\"three right\"]</p><blockquote><p>Learn the Secrets of the Multiverse</p></blockquote><p>The counsel of a @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdDiviner000]{Diviner} is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.</p>"
         },
         "Evoker": {
-          "name": "Evoker"
+          "name": "Evoker",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.kFstrFfYAMz5QZmV caption=false classes=\"three right\"]</p><blockquote><p>Create Explosive Elemental Effects</p></blockquote><p>Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some @UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdEvoker0000]{Evokers} find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.</p>"
         },
         "Illusionist": {
-          "name": "Illusionist"
+          "name": "Illusionist",
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh3ArtHandout.JournalEntryPage.rDfM6y3Au4DQ9HS3 caption=false classes=\"three right\"]</p><blockquote><p>Weave Subtle Spells of Deception</p></blockquote><p>You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real (@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdIllusionis]{Illusionist} subclass).</p>"
+        }
+      }
+    },
+    "phbCh1ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Wyvern Attacks Adventurers": {
+          "name": "Wyvern Attacks Adventurers",
+          "caption": "While adventuring in the Dragonlance setting, the siblings Caramon Majere, Raistlin Majere, and Kitiara uth Matar provoke the rage of a wyvern.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wyvern-attacks-adventurers.webp"
+        },
+        "Line Up of Dice": {
+          "name": "Line Up of Dice",
+          "caption": "A d4, d6, d8, d10 (Ones Digit), d10 (Tens Digit), d12, and d20.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dice-lineup.webp"
+        },
+        "Depiction of Success and Failure": {
+          "name": "Depiction of Success and Failure",
+          "caption": "A D20 Test can result in a dramatic success, a simple accomplishment, or a catastrophe.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/d20-success-failure.webp"
+        },
+        "Advantage/Disadvantage": {
+          "name": "Advantage/Disadvantage",
+          "caption": "If you have Advantage use the 18, if you have Disadvantage, use the 3.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/advantage-disadvantage.webp"
+        },
+        "Characters Charming/Bartering with a Hag": {
+          "name": "Characters Charming/Bartering with a Hag",
+          "caption": "Characters lay on the charm while bartering for magic items with a green hag.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/characters-charming-bartering-with-hag.webp"
+        },
+        "Social Interaction Example": {
+          "name": "Social Interaction Example",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dungeon-master-social-example.webp"
+        },
+        "Adventurers Exploring": {
+          "name": "Adventurers Exploring",
+          "src": "modules/dnd-players-handbook/assets/journal-art/adventurers-exploring.webp"
+        },
+        "Dungeon Master Social Example 2": {
+          "name": "Dungeon Master Social Example 2",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dungeon-master-social-example-2.webp"
+        },
+        "Adventurers Fighting": {
+          "name": "Adventurers Fighting",
+          "src": "modules/dnd-players-handbook/assets/journal-art/adventurers-fighting.webp"
+        },
+        "Creatures Occupy Space": {
+          "name": "Creatures Occupy Space",
+          "caption": "Creatures occupy spaces of varying sizes. This Displacer Beast occupies a 10-by-10 foot space, while the adventurers occupy 5-by-5 foot spaces.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/creatures-occupy-space.webp"
+        },
+        "Tiefling Paladin on Seahorse": {
+          "name": "Tiefling Paladin on Seahorse",
+          "caption": "Astride a giant seahorse, a paladin adventures underwater.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling-paladin-on-seahorse.webp"
+        },
+        "Group Rolls and Cheers": {
+          "name": "Group Rolls and Cheers",
+          "src": "modules/dnd-players-handbook/assets/journal-art/group-rolls-cheers.webp"
+        },
+        "Book Cover": {
+          "name": "Book Cover",
+          "caption": "2024 Player's Handbook Cover by Tyler Jacobsen",
+          "src": "modules/dnd-players-handbook/assets/journal-art/phb-2024-cover.webp"
+        }
+      }
+    },
+    "phbCh2ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Adventurers on Threshold of New Adventure": {
+          "name": "Adventurers on Threshold of New Adventure",
+          "caption": "World traveling explorers Hank, Bobby, Sheila, Diana, and Presto stand on the threshold of their next adventure.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/adventurers-ready-for-new-adventure.webp"
+        },
+        "Adventurer Sketch": {
+          "name": "Adventurer Sketch",
+          "caption": "Consider how your choices combine to set your character on the path to adventure.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/consider-choices-sketch.webp"
+        },
+        "Strength": {
+          "name": "Strength",
+          "src": "modules/dnd-players-handbook/assets/journal-art/strength.webp"
+        },
+        "Dexterity": {
+          "name": "Dexterity",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dexterity.webp"
+        },
+        "Constitution": {
+          "name": "Constitution",
+          "src": "modules/dnd-players-handbook/assets/journal-art/constitution.webp"
+        },
+        "Intelligence": {
+          "name": "Intelligence",
+          "src": "modules/dnd-players-handbook/assets/journal-art/intelligence.webp"
+        },
+        "Wisdom": {
+          "name": "Wisdom",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wisdom.webp"
+        },
+        "Charisma": {
+          "name": "Charisma",
+          "src": "modules/dnd-players-handbook/assets/journal-art/charisma.webp"
+        },
+        "Alignment Chart": {
+          "name": "Alignment Chart",
+          "caption": "Alignments might be visualized as a grid like this—along with creatures that embody those alignments.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/alignment-chart.webp"
+        },
+        "Adventuring Gear Sketch": {
+          "name": "Adventuring Gear Sketch",
+          "caption": "Adventuring equipment improves as a character progresses through the tiers of play.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/adventuring-equipment-sketch.webp"
+        },
+        "Warlock and Tentacles": {
+          "name": "Warlock and Tentacles",
+          "caption": "A character with Paladin and Warlock levels might call on both a mighty oath and an otherworldly patron.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/paladin-with-warlock-patron.webp"
+        },
+        "Key, egg, and claw": {
+          "name": "Key, egg, and claw",
+          "src": "modules/dnd-players-handbook/assets/journal-art/key-egg-claw.webp"
+        },
+        "Mask, fish, and pin": {
+          "name": "Mask, fish, and pin",
+          "src": "modules/dnd-players-handbook/assets/journal-art/mask-fish-pin.webp"
+        }
+      }
+    },
+    "phbCh3ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Heroes Protecting a Portal": {
+          "name": "Heroes Protecting a Portal",
+          "caption": "The heroes Mercion, Molliver, Strongheart, and Ringlerun protect a portal to another plane from diabolical invaders.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/heroes-protect-portal.webp"
+        },
+        "Barbarian": {
+          "name": "Barbarian",
+          "caption": "A Fierce Warrior of Primal Rage",
+          "src": "modules/dnd-players-handbook/assets/journal-art/barbarian.webp"
+        },
+        "Sword, axe, and rock": {
+          "name": "Sword, axe, and rock",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sword-axe-rock.webp"
+        },
+        "Path of the Berserker": {
+          "name": "Path of the Berserker",
+          "src": "modules/dnd-players-handbook/assets/journal-art/path-of-the-berserker.webp"
+        },
+        "Path of the Wild Heart": {
+          "name": "Path of the Wild Heart",
+          "src": "modules/dnd-players-handbook/assets/journal-art/path-of-the-wild-heart.webp"
+        },
+        "Path of the World Tree": {
+          "name": "Path of the World Tree",
+          "src": "modules/dnd-players-handbook/assets/journal-art/path-of-the-world-tree.webp"
+        },
+        "Path of the Zealot": {
+          "name": "Path of the Zealot",
+          "src": "modules/dnd-players-handbook/assets/journal-art/path-of-the-zealot.webp"
+        },
+        "Bard": {
+          "name": "Bard",
+          "caption": "An Inspiring Performer of Music, Dance, and Magic",
+          "src": "modules/dnd-players-handbook/assets/journal-art/bard.webp"
+        },
+        "Bard Shapes Magic": {
+          "name": "Bard Shapes Magic",
+          "caption": "A Bard shapes inspiration and imagination into magic.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/bard-shapes-magic.webp"
+        },
+        "College of Dance": {
+          "name": "College of Dance",
+          "src": "modules/dnd-players-handbook/assets/journal-art/college-of-dance.webp"
+        },
+        "College of Glamour": {
+          "name": "College of Glamour",
+          "src": "modules/dnd-players-handbook/assets/journal-art/college-of-glamour.webp"
+        },
+        "College of Lore": {
+          "name": "College of Lore",
+          "src": "modules/dnd-players-handbook/assets/journal-art/college-of-lore.webp"
+        },
+        "College of Valor": {
+          "name": "College of Valor",
+          "src": "modules/dnd-players-handbook/assets/journal-art/college-of-valor.webp"
+        },
+        "Cleric": {
+          "name": "Cleric",
+          "caption": "A Miraculous Priest of Divine Power",
+          "src": "modules/dnd-players-handbook/assets/journal-art/cleric.webp"
+        },
+        "A Cleric Prays for the Day's Spells": {
+          "name": "A Cleric Prays for the Day's Spells",
+          "src": "modules/dnd-players-handbook/assets/journal-art/cleric-prays-for-spells.webp"
+        },
+        "Life Domain": {
+          "name": "Life Domain",
+          "src": "modules/dnd-players-handbook/assets/journal-art/life-domain.webp"
+        },
+        "Light Domain": {
+          "name": "Light Domain",
+          "src": "modules/dnd-players-handbook/assets/journal-art/light-domain.webp"
+        },
+        "Trickery Domain": {
+          "name": "Trickery Domain",
+          "src": "modules/dnd-players-handbook/assets/journal-art/trickery-domain.webp"
+        },
+        "War Domain": {
+          "name": "War Domain",
+          "caption": "War Domain",
+          "src": "modules/dnd-players-handbook/assets/journal-art/war-domain.webp"
+        },
+        "Druid": {
+          "name": "Druid",
+          "caption": "A Nature Priest of Primal Power",
+          "src": "modules/dnd-players-handbook/assets/journal-art/druid.webp"
+        },
+        "Druid Channeling Power": {
+          "name": "Druid Channeling Power",
+          "caption": "A Druid channels the power of nature through their magic.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/druid-channels-power.webp"
+        },
+        "Circle of the Land": {
+          "name": "Circle of the Land",
+          "src": "modules/dnd-players-handbook/assets/journal-art/circle-of-the-land.webp"
+        },
+        "Circle of the Moon": {
+          "name": "Circle of the Moon",
+          "src": "modules/dnd-players-handbook/assets/journal-art/circle-of-the-moon.webp"
+        },
+        "A Druid in wolf form howls at the moon": {
+          "name": "A Druid in wolf form howls at the moon",
+          "src": "modules/dnd-players-handbook/assets/journal-art/druid-in-wolf-form.webp"
+        },
+        "Circle of the Sea": {
+          "name": "Circle of the Sea",
+          "src": "modules/dnd-players-handbook/assets/journal-art/circle-of-the-sea.webp"
+        },
+        "Circle of the Stars": {
+          "name": "Circle of the Stars",
+          "src": "modules/dnd-players-handbook/assets/journal-art/circle-of-the-stars.webp"
+        },
+        "Fighter": {
+          "name": "Fighter",
+          "caption": "A Master of All Arms and Armor",
+          "src": "modules/dnd-players-handbook/assets/journal-art/fighter.webp"
+        },
+        "Fighter Stands Between Ally and Dragon": {
+          "name": "Fighter Stands Between Ally and Dragon",
+          "caption": "A Fighter stands between an ally and the onslaught of a black dragon.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/fighter-stands-between-ally-dragon.webp"
+        },
+        "Battle Master": {
+          "name": "Battle Master",
+          "src": "modules/dnd-players-handbook/assets/journal-art/battle-master.webp"
+        },
+        "Champion": {
+          "name": "Champion",
+          "src": "modules/dnd-players-handbook/assets/journal-art/champion.webp"
+        },
+        "Eldritch Knight": {
+          "name": "Eldritch Knight",
+          "src": "modules/dnd-players-handbook/assets/journal-art/eldritch-knight.webp"
+        },
+        "Psi Warrior": {
+          "name": "Psi Warrior",
+          "src": "modules/dnd-players-handbook/assets/journal-art/psi-warrior.webp"
+        },
+        "Monk": {
+          "name": "Monk",
+          "caption": "A Martial Artist of Supernatural Focus",
+          "src": "modules/dnd-players-handbook/assets/journal-art/monk.webp"
+        },
+        "Warrior of Mercy": {
+          "name": "Warrior of Mercy",
+          "src": "modules/dnd-players-handbook/assets/journal-art/warrior-of-mercy.webp"
+        },
+        "Warrior of Shadow": {
+          "name": "Warrior of Shadow",
+          "src": "modules/dnd-players-handbook/assets/journal-art/warrior-of-shadow.webp"
+        },
+        "Warrior of the Elements": {
+          "name": "Warrior of the Elements",
+          "src": "modules/dnd-players-handbook/assets/journal-art/warrior-of-the-elements.webp"
+        },
+        "Warrior of the Open Mind": {
+          "name": "Warrior of the Open Mind",
+          "src": "modules/dnd-players-handbook/assets/journal-art/warrior-of-the-open-mind.webp"
+        },
+        "Paladin": {
+          "name": "Paladin",
+          "src": "modules/dnd-players-handbook/assets/journal-art/paladin.webp"
+        },
+        "A Paladin Dedicates Themselves": {
+          "name": "A Paladin Dedicates Themselves",
+          "caption": "A Paladin's dedication to her claws manifests as magical might.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/paladin-dedicating-themselves.webp"
+        },
+        "Oath of Devotion": {
+          "name": "Oath of Devotion",
+          "src": "modules/dnd-players-handbook/assets/journal-art/oath-of-devotion.webp"
+        },
+        "Oath of Glory": {
+          "name": "Oath of Glory",
+          "src": "modules/dnd-players-handbook/assets/journal-art/oath-of-glory.webp"
+        },
+        "Oath of the Ancients": {
+          "name": "Oath of the Ancients",
+          "src": "modules/dnd-players-handbook/assets/journal-art/oath-of-the-ancients.webp"
+        },
+        "Oath of Vengeance": {
+          "name": "Oath of Vengeance",
+          "src": "modules/dnd-players-handbook/assets/journal-art/oath-of-vengeance.webp"
+        },
+        "Ranger": {
+          "name": "Ranger",
+          "src": "modules/dnd-players-handbook/assets/journal-art/ranger.webp"
+        },
+        "Deer Watching a Ranger": {
+          "name": "Deer Watching a Ranger",
+          "src": "modules/dnd-players-handbook/assets/journal-art/deer-watching-druid.webp"
+        },
+        "Hunter": {
+          "name": "Hunter",
+          "src": "modules/dnd-players-handbook/assets/journal-art/hunter.webp"
+        },
+        "Gloom Stalker": {
+          "name": "Gloom Stalker",
+          "src": "modules/dnd-players-handbook/assets/journal-art/gloom-stalker.webp"
+        },
+        "Fey Wanderer": {
+          "name": "Fey Wanderer",
+          "src": "modules/dnd-players-handbook/assets/journal-art/fey-wanderer.webp"
+        },
+        "Beast Master": {
+          "name": "Beast Master",
+          "src": "modules/dnd-players-handbook/assets/journal-art/beast-master.webp"
+        },
+        "Rogue": {
+          "name": "Rogue",
+          "src": "modules/dnd-players-handbook/assets/journal-art/rogue-balancing-knife.webp"
+        },
+        "Arcane Trickster": {
+          "name": "Arcane Trickster",
+          "src": "modules/dnd-players-handbook/assets/journal-art/arcane-trickster.webp"
+        },
+        "Rogue Running from Fire Breath": {
+          "name": "Rogue Running from Fire Breath",
+          "src": "modules/dnd-players-handbook/assets/journal-art/rogue-running-from-fire-breath.webp"
+        },
+        "Assassin": {
+          "name": "Assassin",
+          "src": "modules/dnd-players-handbook/assets/journal-art/assassin.webp"
+        },
+        "Soulknife": {
+          "name": "Soulknife",
+          "src": "modules/dnd-players-handbook/assets/journal-art/soulknife.webp"
+        },
+        "Infiltrators Restraining Guards": {
+          "name": "Infiltrators Restraining Guards",
+          "src": "modules/dnd-players-handbook/assets/journal-art/infiltrators-restraining-guards.webp"
+        },
+        "Thief": {
+          "name": "Thief",
+          "src": "modules/dnd-players-handbook/assets/journal-art/thief.webp"
+        },
+        "Sorcerer": {
+          "name": "Sorcerer",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sorcerer.webp"
+        },
+        "Sorcerer on Rock": {
+          "name": "Sorcerer on Rock",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sorcerer-on-rock.webp"
+        },
+        "Aberrant": {
+          "name": "Aberrant",
+          "src": "modules/dnd-players-handbook/assets/journal-art/aberrant.webp"
+        },
+        "Clockwork": {
+          "name": "Clockwork",
+          "src": "modules/dnd-players-handbook/assets/journal-art/clockwork.webp"
+        },
+        "Draconic": {
+          "name": "Draconic",
+          "src": "modules/dnd-players-handbook/assets/journal-art/draconic.webp"
+        },
+        "Wild Magic": {
+          "name": "Wild Magic",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wild-magic.webp"
+        },
+        "Delina Manipulates Wild Magic": {
+          "name": "Delina Manipulates Wild Magic",
+          "caption": "The Sorcerer Delina manipulates wild magic to create unpredictable wonders.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/delina-manipulates-wild-magic.webp"
+        },
+        "Warlock": {
+          "name": "Warlock",
+          "src": "modules/dnd-players-handbook/assets/journal-art/warlock.webp"
+        },
+        "Skull and Spiders": {
+          "name": "Skull and Spiders",
+          "src": "modules/dnd-players-handbook/assets/journal-art/skull-and-spiders.webp"
+        },
+        "Archfey": {
+          "name": "Archfey",
+          "src": "modules/dnd-players-handbook/assets/journal-art/archfey.webp"
+        },
+        "Celestial": {
+          "name": "Celestial",
+          "src": "modules/dnd-players-handbook/assets/journal-art/celestial.webp"
+        },
+        "Fiend": {
+          "name": "Fiend",
+          "src": "modules/dnd-players-handbook/assets/journal-art/fiend.webp"
+        },
+        "Great Old One": {
+          "name": "Great Old One",
+          "src": "modules/dnd-players-handbook/assets/journal-art/great-old-one.webp"
+        },
+        "Wizard": {
+          "name": "Wizard",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wizard.webp"
+        },
+        "Elf Queen Yolande": {
+          "name": "Elf Queen Yolande",
+          "caption": "The elf queen Yolande awes a red dragon with her spell Yolande's Regal Presence.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/elf-queen-yolande.webp"
+        },
+        "Spellbook and Potions": {
+          "name": "Spellbook and Potions",
+          "src": "modules/dnd-players-handbook/assets/journal-art/spellbook-and-potions.webp"
+        },
+        "Leomund Studying": {
+          "name": "Leomund Studying",
+          "caption": "The Wizard Leomund studies spellbooks to prepare his magic.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/leomund-studying-spellbooks.webp"
+        },
+        "Abjurer": {
+          "name": "Abjurer",
+          "src": "modules/dnd-players-handbook/assets/journal-art/abjurer.webp"
+        },
+        "Diviner": {
+          "name": "Diviner",
+          "src": "modules/dnd-players-handbook/assets/journal-art/diviner.webp"
+        },
+        "Evoker": {
+          "name": "Evoker",
+          "src": "modules/dnd-players-handbook/assets/journal-art/evoker.webp"
+        },
+        "Illusionist": {
+          "name": "Illusionist",
+          "src": "modules/dnd-players-handbook/assets/journal-art/illusionist.webp"
+        }
+      }
+    },
+    "phbCh4ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Heroes of the Forgotten Realm": {
+          "name": "Heroes of the Forgotten Realm",
+          "caption": "Not even a white dragon's wrath can chill these heroes of the Forgotten Realms: Laeral Silverhand, Drizzt Do'Urden, an Vajra Safahr.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/heroes-of-the-forgotten-realm.webp"
+        },
+        "Acolyte": {
+          "name": "Acolyte",
+          "src": "modules/dnd-players-handbook/assets/journal-art/acolyte-origin.webp"
+        },
+        "Artisan": {
+          "name": "Artisan",
+          "src": "modules/dnd-players-handbook/assets/journal-art/artisan-origin.webp"
+        },
+        "Charlatan": {
+          "name": "Charlatan",
+          "src": "modules/dnd-players-handbook/assets/journal-art/charlatan-origin.webp"
+        },
+        "Criminal": {
+          "name": "Criminal",
+          "src": "modules/dnd-players-handbook/assets/journal-art/criminal-origin.webp"
+        },
+        "Entertainer": {
+          "name": "Entertainer",
+          "src": "modules/dnd-players-handbook/assets/journal-art/entertainer-origin.webp"
+        },
+        "Farmer": {
+          "name": "Farmer",
+          "src": "modules/dnd-players-handbook/assets/journal-art/farmer-origin.webp"
+        },
+        "Guard": {
+          "name": "Guard",
+          "src": "modules/dnd-players-handbook/assets/journal-art/guard-origin.webp"
+        },
+        "Guide": {
+          "name": "Guide",
+          "src": "modules/dnd-players-handbook/assets/journal-art/guide.webp"
+        },
+        "Hermit": {
+          "name": "Hermit",
+          "src": "modules/dnd-players-handbook/assets/journal-art/hermit.webp"
+        },
+        "Merchant": {
+          "name": "Merchant",
+          "src": "modules/dnd-players-handbook/assets/journal-art/merchant.webp"
+        },
+        "Noble": {
+          "name": "Noble",
+          "src": "modules/dnd-players-handbook/assets/journal-art/noble.webp"
+        },
+        "Sage": {
+          "name": "Sage",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sage.webp"
+        },
+        "Sailor": {
+          "name": "Sailor",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sailor.webp"
+        },
+        "Scribe": {
+          "name": "Scribe",
+          "src": "modules/dnd-players-handbook/assets/journal-art/scribe.webp"
+        },
+        "Soldier": {
+          "name": "Soldier",
+          "src": "modules/dnd-players-handbook/assets/journal-art/soldier.webp"
+        },
+        "Wayfarer": {
+          "name": "Wayfarer",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wayfarer.webp"
+        },
+        "Aasimar Working": {
+          "name": "Aasimar Working",
+          "src": "modules/dnd-players-handbook/assets/journal-art/aasimar-working.webp"
+        },
+        "Dragonborn Meeting": {
+          "name": "Dragonborn Meeting",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dragonborn-meeting.webp"
+        },
+        "Dwarves Working": {
+          "name": "Dwarves Working",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dwarves-working.webp"
+        },
+        "Elves Socializing": {
+          "name": "Elves Socializing",
+          "src": "modules/dnd-players-handbook/assets/journal-art/elves-socializing.webp"
+        },
+        "Ship Departs City": {
+          "name": "Ship Departs City",
+          "caption": "A ship departs from a city built by High Elves.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/ship-departs-city.webp"
+        },
+        "Gnomes Working on Armor": {
+          "name": "Gnomes Working on Armor",
+          "src": "modules/dnd-players-handbook/assets/journal-art/gnomes-working-on-armor.webp"
+        },
+        "Goliaths Moving Stone": {
+          "name": "Goliaths Moving Stone",
+          "src": "modules/dnd-players-handbook/assets/journal-art/goliaths-transporting-stone.webp"
+        },
+        "Halflings Dining": {
+          "name": "Halflings Dining",
+          "src": "modules/dnd-players-handbook/assets/journal-art/halflings-dining.webp"
+        },
+        "Humans Celebrating": {
+          "name": "Humans Celebrating",
+          "src": "modules/dnd-players-handbook/assets/journal-art/humans-celebrate.webp"
+        },
+        "Orcs Riding": {
+          "name": "Orcs Riding",
+          "src": "modules/dnd-players-handbook/assets/journal-art/orcs-riding.webp"
+        },
+        "Cards, Map, and Knife": {
+          "name": "Cards, Map, and Knife",
+          "src": "modules/dnd-players-handbook/assets/journal-art/cards-knife-map.webp"
+        },
+        "Tiefling": {
+          "name": "Tiefling",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling.webp"
+        },
+        "Tiefling Types": {
+          "name": "Tiefling Types",
+          "caption": "Infernal Tiefling, Chthonic Tiefling, and Abyssal Tiefling",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling-types.webp"
+        },
+        "Tieflings Playing Cards": {
+          "name": "Tieflings Playing Cards",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tieflings-playing-cards.webp"
+        }
+      }
+    },
+    "phbCh5ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Fighting to Escape the Horrors of Castle Ravenloft": {
+          "name": "Fighting to Escape the Horrors of Castle Ravenloft",
+          "src": "modules/dnd-players-handbook/assets/journal-art/fighting-to-escape-castle-ravenloft.webp"
+        },
+        "Herbs and Bandages": {
+          "name": "Herbs and Bandages",
+          "src": "modules/dnd-players-handbook/assets/journal-art/herbs-and-bandages.webp"
+        },
+        "Book and Potions": {
+          "name": "Book and Potions",
+          "src": "modules/dnd-players-handbook/assets/journal-art/book-and-potions.webp"
+        },
+        "Mushroom, leaf, acorn, butterfly": {
+          "name": "Mushroom, leaf, acorn, butterfly",
+          "src": "modules/dnd-players-handbook/assets/journal-art/mushroom-leaf-acorn-butterfly.webp"
+        },
+        "Shackles, Necklace, Orb": {
+          "name": "Shackles, Necklace, Orb",
+          "src": "modules/dnd-players-handbook/assets/journal-art/shackles-necklace-orb.webp"
+        },
+        "Bowl, candle, necklace": {
+          "name": "Bowl, candle, necklace",
+          "src": "modules/dnd-players-handbook/assets/journal-art/bowl-candle-necklace.webp"
+        },
+        "Arrows, banner, sheath": {
+          "name": "Arrows, banner, sheath",
+          "src": "modules/dnd-players-handbook/assets/journal-art/arrows-banner-sheath.webp"
+        },
+        "Ax and Sword Stack": {
+          "name": "Ax and Sword Stack",
+          "src": "modules/dnd-players-handbook/assets/journal-art/ax-sword-stack.webp"
+        },
+        "Paladin Sword, Napkin, and Star": {
+          "name": "Paladin Sword, Napkin, and Star",
+          "src": "modules/dnd-players-handbook/assets/journal-art/paladin-sword-napkin-star.webp"
+        },
+        "Helmet, belt, necklace": {
+          "name": "Helmet, belt, necklace",
+          "src": "modules/dnd-players-handbook/assets/journal-art/helmet-belt-necklace.webp"
+        }
+      }
+    },
+    "phbCh6ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Vi Escapes the Lord of Blades": {
+          "name": "Vi Escapes the Lord of Blades",
+          "caption": "In the skies of Eberron, the inventor Vi and her Fixers escape the Lord of Blades and a plumetting airship that burns with green flame!",
+          "src": "modules/dnd-players-handbook/assets/journal-art/vi-escapes-lord-of-blades.webp"
+        },
+        "Glasses and Tools": {
+          "name": "Glasses and Tools",
+          "src": "modules/dnd-players-handbook/assets/journal-art/glasses-tools.webp"
+        },
+        "Dragonborn Warlock Channels Magic": {
+          "name": "Dragonborn Warlock Channels Magic",
+          "caption": "A Warlock channels magic through an Arcane Focus.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dragonborn-warlock-channels-magic.webp"
+        },
+        "Lantern and Net": {
+          "name": "Lantern and Net",
+          "src": "modules/dnd-players-handbook/assets/journal-art/lantern-net.webp"
+        },
+        "Dragonborn Exploring with Lantern": {
+          "name": "Dragonborn Exploring with Lantern",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dragonborn-exploring-with-lantern.webp"
+        },
+        "Wizard and Familiar Shopping": {
+          "name": "Wizard and Familiar Shopping",
+          "caption": "A Wizard and her Familiar spend an afternoon shopping.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wizard-familiar-shopping.webp"
+        }
+      }
+    },
+    "phbCh7ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Otiluke Casts Cone of Cold": {
+          "name": "Otiluke Casts Cone of Cold",
+          "caption": "The icy Wizard Otiluke blasts monsters with Cone of Cold.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/otiluke-uses-cone-of-cold.webp"
+        },
+        "Archmages Prepare their Magic": {
+          "name": "Archmages Prepare their Magic",
+          "caption": "Archmages of Greyhawk—Jallarzi, Mordenkainen, and Bigby—prepare their magic as they open a gate to another plane.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/archmages-prepare-magic.webp"
+        },
+        "Aasimar Wizard Casts Cone of Cold": {
+          "name": "Aasimar Wizard Casts Cone of Cold",
+          "caption": "An Aasimar Wizard uses a crystal material component to focus the magic of Cone of Cold.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/aasimar-wizard-casts-cone-of-cold.webp"
+        },
+        "Point of Origin Chalk Board": {
+          "name": "Point of Origin Chalk Board",
+          "src": "modules/dnd-players-handbook/assets/journal-art/point-of-origin-chalk-board.webp"
+        },
+        "Animated Brazier": {
+          "name": "Animated Brazier",
+          "caption": "A Brazier affected by the spell Animate Objects",
+          "src": "modules/dnd-players-handbook/assets/journal-art/animated-brazier.webp"
+        },
+        "Goliath Warlock Casts Armor of Agathys": {
+          "name": "Goliath Warlock Casts Armor of Agathys",
+          "caption": "A Goliath Warlock calls on Armor of Agathys and Arms of Hadar to battle foes from the deep.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/goliath-warlock-armor-agathys.webp"
+        },
+        "Bigby's Hand Holds Minotaur": {
+          "name": "Bigby's Hand Holds Minotaur",
+          "caption": "The Wizard Bigby uses his signature spell, Bigby's Hand, to prevent interruptions to his research.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/bigbys-hand-holds-minotaur.webp"
+        },
+        "Sorcerer Chastises Ghouls": {
+          "name": "Sorcerer Chastises Ghouls",
+          "caption": "A human Sorcerer chastises ghouls with the unpredictable energy of a Chromatic Orb.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sorcerer-chastises-ghouls.webp"
+        },
+        "Brass Dragon Casts Control Weather": {
+          "name": "Brass Dragon Casts Control Weather",
+          "caption": "A brass dragon casts Control Weather to save a community from a destructive storm.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/brass-dragon-casts-control-weather.webp"
+        },
+        "Elf Cleric Casts Daylight": {
+          "name": "Elf Cleric Casts Daylight",
+          "caption": "An elf Cleric uses the spell Daylight to bring the light of dawn to a vampire court.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/elf-cleric-casts-daylight.webp"
+        },
+        "Tiefling Cleric Casts Dispel Evil and Good": {
+          "name": "Tiefling Cleric Casts Dispel Evil and Good",
+          "caption": "A tiefling Cleric casts Dispel Evil and Good to expel an evil spirit from a possessed innocent.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling-cleric-casts-dispel-evil-and-good.webp"
+        },
+        "Dwarf Paladin Uses Divine Smite": {
+          "name": "Dwarf Paladin Uses Divine Smite",
+          "caption": "A dwarf Paladin empowers her weapon with Divine Smite, unleashing holy wrath on fiendish mezzoloths.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dwarf-paladin-uses-divine-smite.webp"
+        },
+        "Sprite Casts Druidcraft": {
+          "name": "Sprite Casts Druidcraft",
+          "caption": "A sprite casts Druidcraft to make flowers blossom.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sprite-casts-druidcraft.webp"
+        },
+        "Dragonborn Druid Uses Entangle": {
+          "name": "Dragonborn Druid Uses Entangle",
+          "caption": "A dragonborn Druid uses Entangle to stop rampaging gnolls.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dragonborn-druid-uses-entangle.webp"
+        },
+        "Evard's Black Tentacles": {
+          "name": "Evard's Black Tentacles",
+          "caption": "The Wizard Evard calls on his infamous spell, Evard's Black Tentacles, to teach reckless bandits a lesson.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/evards-black-tentacles.webp"
+        },
+        "Summoned Familiars": {
+          "name": "Summoned Familiars",
+          "caption": "Spirits summoned by Find Familiar take forms inspired by the mages who conjure them.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/familiar-spirits.webp"
+        },
+        "Elf Wizard Casts Fireball": {
+          "name": "Elf Wizard Casts Fireball",
+          "caption": "An elf Wizard demonstrates the problem-solving potential of the spell Fireball.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/elf-wizard-casts-fireball.webp"
+        },
+        "Otto Casts Gate to the Outlands": {
+          "name": "Otto Casts Gate to the Outlands",
+          "caption": "Otto the Bard casts Gate to open a portal to the Outlands.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/otto-casts-gate-to-outlands.webp"
+        },
+        "Halfling Cleric Casts Guardian of Faith": {
+          "name": "Halfling Cleric Casts Guardian of Faith",
+          "caption": "A halfling Cleric casts Guardian of Faith to fend off a ravenous worg.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/halfling-cleric-casts-guardian-of-faith.webp"
+        },
+        "Heroes Feast": {
+          "name": "Heroes Feast",
+          "caption": "The spell Heroes' Feast prepares adventurers for greatness.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/heroes-feast.webp"
+        },
+        "Aasimar Warlock Casts Hunger of Hadar": {
+          "name": "Aasimar Warlock Casts Hunger of Hadar",
+          "caption": "An aasimar Warlock exposes foes to the all-consuming Hunger of Hadar.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/aasimar-warlock-casts-hunger-of-hadar.webp"
+        },
+        "Ice Knife": {
+          "name": "Ice Knife",
+          "src": "modules/dnd-players-handbook/assets/journal-art/ice-knife.webp"
+        },
+        "Jallarzi's Storm of Radiance": {
+          "name": "Jallarzi's Storm of Radiance",
+          "caption": "With her spell, Jallarzi's Storm of Radiance, the Warlock Jallarzi makes vrocks regret leaving the abyss.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/jallarzis-storm-of-radiance.webp"
+        },
+        "Human Druid Casts Lesser Restoration": {
+          "name": "Human Druid Casts Lesser Restoration",
+          "caption": "A human Druid casts Lesser Restoration to ease the suffering of a friend who was poisoned in battle.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/human-druid-casts-lesser-restoration.webp"
+        },
+        "Human Wizard Fends Off Peril": {
+          "name": "Human Wizard Fends Off Peril",
+          "caption": "A human Wizard fends off peril with Mage Armor and the unerring bolts of Magic Missile.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/human-wizards-fends-off-peril.webp"
+        },
+        "Melf Takes Aim at a Rampaging Troll": {
+          "name": "Melf Takes Aim at a Rampaging Troll",
+          "caption": "The daring Wizard Melf takes aim at a rampaging troll with Melf's Acid Arrow.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/melf-takes-aim.webp"
+        },
+        "Mordenkainen Welcomes Guests": {
+          "name": "Mordenkainen Welcomes Guests",
+          "caption": "The Wizard Mordenkainen welcomes guests to his magical dwelling. Mordenkainen's Magnificent Mansion.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/mordenkainen-welcomes-guests.webp"
+        },
+        "Phantom Steed": {
+          "name": "Phantom Steed",
+          "src": "modules/dnd-players-handbook/assets/journal-art/phantom-steed.webp"
+        },
+        "Dwarf Turned to Stone": {
+          "name": "Dwarf Turned to Stone",
+          "caption": "A dwarf had an unfortunate encounter with the indigo ray of Prismatic Spray.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dwarf-turned-to-stone.webp"
+        },
+        "Programmed Illusion": {
+          "name": "Programmed Illusion",
+          "caption": "A spellcaster could use Programmed Illusion to cause a watchdog to appear and kindly ask intruders to leave.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/programmed-illusion.webp"
+        },
+        "Human Cleric Casts Raise Dead": {
+          "name": "Human Cleric Casts Raise Dead",
+          "caption": "A human Cleric casts Raise Dead to return a fallen comrade to life.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/human-cleric-casts-raise-dead.webp"
+        },
+        "Gnome Bard Casts Scrying Spell": {
+          "name": "Gnome Bard Casts Scrying Spell",
+          "caption": "The Scrying spell helps a gnome Bard keep in touch with friends and family around the world.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/gnome-bard-casts-scrying-spell.webp"
+        },
+        "Rival Mages Use Shapechange": {
+          "name": "Rival Mages Use Shapechange",
+          "caption": "Rival mages use Shapechange to transform into a Beholder and a Behir during a magical duel.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/rival-mages-battle-in-shapechange.webp"
+        },
+        "Silent Image Illusion": {
+          "name": "Silent Image Illusion",
+          "caption": "Silent Image can concoct illusions of the mundane and the whimsical.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/silent-image-illusion.webp"
+        },
+        "Human Druid with Bear": {
+          "name": "Human Druid with Bear",
+          "caption": "A human Druid uses Speak with Animals to chat with his best bear friend.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/human-druid-with-bear.webp"
+        },
+        "Goliath Cleric Casts Spiritual Weapon": {
+          "name": "Goliath Cleric Casts Spiritual Weapon",
+          "caption": "A goliath Cleric casts Spiritual Weapon in battle with an umber hulk.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/goliath-cleric-casts-spiritual-weapon.webp"
+        },
+        "Ranger Casts Summon Fey": {
+          "name": "Ranger Casts Summon Fey",
+          "caption": "A Ranger casts Summon Fey, conjuring a fuming fey spirit to confront a marauding merrow.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/ranger-casts-summon-fey.webp"
+        },
+        "Tasha Casts Tasha's Bubbling Cauldron": {
+          "name": "Tasha Casts Tasha's Bubbling Cauldron",
+          "caption": "The legendary witch Tasha uses her spell, Tasha's Bubbling Cauldron, to produce a magic potion.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tashas-casts-bubbling-cauldron.webp"
+        },
+        "Red Wizard Orders Skeletal Servants": {
+          "name": "Red Wizard Orders Skeletal Servants",
+          "caption": "A red Wizard of Thay orders skeletal servants to heap riches on the disk of Tenser's Floating Disk.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/red-wizard-orders-skeletal-servants.webp"
+        },
+        "Trees as a Transportation Network": {
+          "name": "Trees as a Transportation Network",
+          "caption": "Transport via Plants and Tree Stride turn trees into a transportation network.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/trees-are-a-transportation-network.webp"
+        },
+        "Gnome Bard Casts Vicious Mockery": {
+          "name": "Gnome Bard Casts Vicious Mockery",
+          "caption": "A gnome Bard casts Vicious Mockery to skewer a kobold with magical insults.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/gnome-bard-casts-vicious-mockery.webp"
+        },
+        "Tiefling Sorcerer Unleashes Vitriolic Sphere": {
+          "name": "Tiefling Sorcerer Unleashes Vitriolic Sphere",
+          "caption": "A tiefling Sorcerer unleashes Vitriolic Sphere on nothics.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling-sorcerer-unleashes-vitriolic-sphere.webp"
+        },
+        "Visit Aquatic Realms": {
+          "name": "Visit Aquatic Realms",
+          "caption": "Spells like Water Breathing and Water Walk assist visits to aquatic realms.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/visit-aquatic-realms.webp"
+        },
+        "Halfling Warlock Zaps Zombie": {
+          "name": "Halfling Warlock Zaps Zombie",
+          "caption": "A halfling Warlock zaps a zombie with the grasping lightning of Witch Bolt.",
+          "src": "modules/dnd-players-handbook/assets/journal-art/halfling-warlock-zaps-zombie.webp"
         }
       }
     }

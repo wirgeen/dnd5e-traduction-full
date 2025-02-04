@@ -1,5 +1,17 @@
 {
   "label": "Guide du Maitre",
+  "mapping": {},
+  "folders": {
+    "Appendices": "Appendices",
+    "Chapter 1": "Chapter 1",
+    "Chapter 2": "Chapter 2",
+    "Chapter 3": "Chapter 3",
+    "Chapter 4": "Chapter 4",
+    "Chapter 5": "Chapter 5",
+    "Chapter 6": "Chapter 6",
+    "Chapter 7": "Chapter 7",
+    "Chapter 8": "Chapter 8"
+  },
   "entries": {
     "Adventure Examples": {
       "name": "Exemple d'Aventures",
@@ -90,9 +102,9 @@
           "name": "Porte de Baldur",
           "text": "<p>La ville de la Porte de Baldur <em>(BAWL-durz GATE)</em>, dans le décor des Royaumes Oubliés, est une métropole grouillante, hantée par l’influence persistante de trois dieux maléfiques (Bane, Bhaal et Myrkul) qui refusent de rester morts. C’est un endroit où un mercenaire peut trouver un riche mécène, rejoindre une guilde secrète, poursuivre des assassins pour une prime ou aider des citoyens désespérés. La ville offre des opportunités aux champions bienveillants pour combattre la corruption et traduire les meurtriers en justice, tandis que les mercenaires moins scrupuleux y trouvent de bons contrats. La Porte de Baldur abrite le marché le plus fiable et impitoyable de la <strong>@UUID[.bT0sJC4afzBm3Ace]{Côte des Épées}</strong>. Informations, trésors, secrets et âmes peuvent y être achetés ou vendus au bon prix.</p>"
         },
-        "Barovie": {
-          "name": "Barovie",
-          "text": "<p>La Barovie <em>(buh-ROVE-ee-ah)</em> est un Domaine de l’Effroi isolé dans le @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCosmology0000.JournalEntryPage.mG9cIFR0V3B2x1ch]{Fellombre}—une sorte de prison spirituelle pour <strong>@UUID[.eKoPq67ouskOaAQ9]{Strahd von Zarovich}</strong> dans son <strong>@UUID[.OThsxxS6UGEhiQvF]{Château Ravenloft}</strong>. C’est également le nom d’un village situé dans ce domaine.</p>"
+        "Barovia": {
+          "name": "Barovia",
+          "text": "<p>Barovia <em>(buh-ROVE-ee-ah) </em>is a Domain of Dread sequestered in the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCosmology0000.JournalEntryPage.mG9cIFR0V3B2x1ch]{Shadowfell}—a sort of spiritual prison for <strong>@UUID[.eKoPq67ouskOaAQ9]{Strahd von Zarovich}</strong> in his <strong>@UUID[.OThsxxS6UGEhiQvF]{Castle Ravenloft}</strong>. It’s also the name of a village in that domain.</p>"
         },
         "Bigby": {
           "name": "Bigby",
@@ -357,6 +369,10 @@
         "Zargon": {
           "name": "Zargon",
           "text": "<p>Zargon <em>(ZAR-gawn)</em> is an <strong>@UUID[.hJvjfl6xRxurDUtn]{Elder Evil}</strong>—an undying abomination from eons past with an insatiable appetite. A tentacled, slime-covered horror with a cyclopic red eye and an indestructible horn, Zargon corrupts creatures it doesn’t devour, transforming its victims into amorphous servants. Zargon is imprisoned on the Material Plane in a prison deep in the earth. This prison is described in the <em>Quests from the Infinite Staircase</em> adventure anthology.</p>"
+        },
+        "Barovie": {
+          "name": "Barovie",
+          "text": "<p>La Barovie <em>(buh-ROVE-ee-ah)</em> est un Domaine de l’Effroi isolé dans le @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCosmology0000.JournalEntryPage.mG9cIFR0V3B2x1ch]{Fellombre}—une sorte de prison spirituelle pour <strong>@UUID[.eKoPq67ouskOaAQ9]{Strahd von Zarovich}</strong> dans son <strong>@UUID[.OThsxxS6UGEhiQvF]{Château Ravenloft}</strong>. C’est également le nom d’un village situé dans ce domaine.</p>"
         }
       }
     },
@@ -476,6 +492,30 @@
           "caption": "A bastion by the sea is more than just an adventurer's getaway. A lot can happen here to fuel stories in the campaign.",
           "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ch-8-opener-bastion-by-sea.webp"
         },
+        "Cocked Die": {
+          "name": "Cocked Die",
+          "caption": "What do you do when a die lands cocked? See the end of this chapter for advice.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/cocked-die.webp"
+        },
+        "Demon Queen of Fungi": {
+          "name": "Demon Queen of Fungi",
+          "caption": "Like Zuggtmoy, the Demon Queen of Fungi, cultivates her fungal gardens, you can carefully cultivate a vibrantly growing campaign!",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/demon-queen-of-fungi.webp"
+        },
+        "Shapes Lurking": {
+          "name": "Shapes Lurking",
+          "caption": "Sinister shapes lurk near the cave entrance as the adventurers approach.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/sinister-shapes-lurk-near-cave-entrance.webp"
+        },
+        "Conflicts Between Characters": {
+          "name": "Conflicts Between Characters",
+          "caption": "Conflicts between characters aren't always bad, but they can get in the way of the game.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/conflicts-between-characters.webp"
+        },
+        "Cover": {
+          "name": "Cover",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/dmg-cover.webp"
+        },
         "Bastion Over Time": {
           "name": "Bastion Over Time",
           "caption": "A bastion grows over time.",
@@ -590,20 +630,20 @@
       "name": "Début de Campagne",
       "pages": {
         "Introduction": {
-            "name": "Introduction",
-            "text": "<p>Avec votre journal de campagne en main et la prémisse de base de votre campagne (personnages, conflits et cadre) en tête, il est temps de réfléchir à comment débuter la campagne.</p>"
+          "name": "Introduction",
+          "text": "<p>Avec votre journal de campagne en main et la prémisse de base de votre campagne (personnages, conflits et cadre) en tête, il est temps de réfléchir à comment débuter la campagne.</p>"
         },
         "Session Zero": {
-            "name": "Session Zéro",
-            "text": "<p>Au début d’une campagne, vous et vos joueurs pouvez organiser une session spéciale, appelée session zéro car elle se déroule avant la première session de jeu, pour établir des attentes, partager des idées et discuter des règles maison, dans le but d’assurer que le jeu soit une expérience agréable pour tous. La section @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgEnsuringFunFo]{Garantir le plaisir pour tous} couvre les bases essentielles à établir au début d’une nouvelle campagne.</p><p>Souvent, la session zéro inclut la création des personnages ensemble. En tant que MJ, vous pouvez aider les joueurs pendant cette étape en leur conseillant les options qui conviennent le mieux à la campagne.</p><h2>Création de Personnage</h2><p>Lorsque les joueurs choisissent les classes et origines de leurs personnages, vous pouvez limiter les options inadaptées à la campagne.</p><p>Encouragez les joueurs à choisir des classes différentes pour que le groupe d’aventuriers dispose d’une variété de capacités. Il est moins important d’avoir une diversité dans les historiques ou les espèces ; il peut parfois être amusant de jouer un groupe entièrement constitué de Nains ou une troupe d’Artistes aventuriers.</p><p>Les origines choisies par les joueurs définissent qui étaient leurs personnages avant de devenir aventuriers. Réfléchissez à la manière dont les historiques des personnages pourraient influencer les aventures de votre campagne. Par exemple, si un joueur choisit l’historique de Criminel, aidez-le à étoffer le passé criminel de son personnage et utilisez ces informations pour intégrer des éléments narratifs pertinents dans la campagne.</p><p><em><strong>Niveau de Départ.</strong></em><strong> </strong>Quel niveau ont les personnages au début ? De nombreuses campagnes de D&D commencent les personnages au niveau 1. Si vous souhaitez qu’ils soient un peu plus résistants et que vos joueurs sont expérimentés, commencez la campagne au niveau 3. (Voir le <em>Manuel des Joueurs</em> pour les règles de départ à des niveaux plus élevés.)</p><h2>Rassembler le Groupe</h2><p>Lors de la session zéro, aidez les joueurs à imaginer des explications sur la manière dont leurs personnages se connaissent et partagent une certaine histoire, même brève. Pour comprendre les relations au sein du groupe, voici quelques questions à poser aux joueurs lors de la création de personnages :</p><ul><li class=\"Core-Styles_Core-Bulleted\">Certains personnages sont-ils liés par le sang ou par d’autres relations ?</li><li class=\"Core-Styles_Core-Bulleted\">Qu’est-ce qui maintient les personnages ensemble en tant que groupe ?</li><li class=\"Core-Styles_Core-Bulleted\">Qu’est-ce que chaque personnage apprécie le plus chez les membres du groupe ?</li><li class=\"Core-Styles_Core-Bulleted\">Le groupe a-t-il un mécène, une personne ou une organisation qui les oriente vers des aventures ?</li></ul><p>Si les joueurs ont du mal à trouver une histoire pour expliquer comment leurs personnages se sont rencontrés, vous pouvez proposer les options suivantes :</p><p><em><strong>Événement de Cohésion.</strong></em> Un événement rassembleur (comme un mariage, un festival ou des funérailles) réunit les personnages, leur faisant rapidement découvrir un objectif commun.</p><p><em><strong>Coïncidence.</strong></em> Quelqu’un lance un appel aux aventuriers pour accomplir une quête, et les personnages répondent à cet appel. Alternativement, les personnages pourraient se rencontrer par hasard, découvrant qu’ils se dirigent tous vers le même endroit, ou se retrouvent piégés ensemble.</p><p><em><strong>Connaissance Commune.</strong></em> Les personnages sont présentés les uns aux autres par une connaissance commune PNJ qu’ils respectent tous. Cette connaissance pourrait également servir de mécène au groupe, représentant une organisation (une académie, une guilde criminelle, une guilde, une force militaire ou un ordre religieux), une personne influente (un aristocrate ou même un souverain) ou une créature magique comme un sphinx ou un dragon.</p><p><em><strong>Histoire Partagée.</strong></em> Les personnages ont grandi dans le même endroit et se connaissent depuis des années. Malgré leurs formations et leurs antécédents différents, ils sont déjà de bons amis.</p><p><em><strong>Rencontre dans une Taverne.</strong></em> Les personnages se rencontrent dans une taverne autour de chopes de bière et décident de se lancer ensemble dans une vie d’aventures—un classique indémodable !</p><h2>Préparer le Décor</h2><p>La session zéro est l’occasion idéale de partager des informations de base sur la campagne avec vos joueurs. Ces informations incluent généralement :</p><p><strong>Détails du Lieu de Départ.</strong> Vos joueurs ont besoin d’informations de base sur le lieu où leurs personnages commencent, comme le nom de la colonie, les lieux importants dans et autour de celle-ci, ainsi que les PNJ notables qu’ils connaissent (voir @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCampaignStart.JournalEntryPage.bxHujOTV6qbwdHBa]{Lieu de départ}).</p><p><strong>Événements Clés.</strong> Décrivez les événements passés ou présents qui aident à poser le cadre de la campagne. Par exemple, la campagne pourrait commencer après une grande guerre ou lors d’un festival. Décrire les événements clés aide à poser l’ambiance et à préparer les joueurs pour les aventures à venir.</p><p><strong>Règles Maison.</strong> Si vous utilisez des @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTheBasics0000.JournalEntryPage.di6PPvo499vRq1NT#house-rules]{règles maison} ou adoptez des variantes présentées dans ce livre ou un autre, informez vos joueurs.</p><p>Rappelez-vous, vous en savez toujours plus sur votre monde de campagne que vos joueurs. Cependant, les personnages, ayant vécu toute leur vie dans ce monde, en savent plus que leurs joueurs. Fournissez les informations essentielles que les personnages devraient connaître chaque fois que cela est pertinent pour leurs aventures.</p>"
+          "name": "Session Zéro",
+          "text": "<p>Au début d’une campagne, vous et vos joueurs pouvez organiser une session spéciale, appelée session zéro car elle se déroule avant la première session de jeu, pour établir des attentes, partager des idées et discuter des règles maison, dans le but d’assurer que le jeu soit une expérience agréable pour tous. La section @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgEnsuringFunFo]{Garantir le plaisir pour tous} couvre les bases essentielles à établir au début d’une nouvelle campagne.</p><p>Souvent, la session zéro inclut la création des personnages ensemble. En tant que MJ, vous pouvez aider les joueurs pendant cette étape en leur conseillant les options qui conviennent le mieux à la campagne.</p><h2>Création de Personnage</h2><p>Lorsque les joueurs choisissent les classes et origines de leurs personnages, vous pouvez limiter les options inadaptées à la campagne.</p><p>Encouragez les joueurs à choisir des classes différentes pour que le groupe d’aventuriers dispose d’une variété de capacités. Il est moins important d’avoir une diversité dans les historiques ou les espèces ; il peut parfois être amusant de jouer un groupe entièrement constitué de Nains ou une troupe d’Artistes aventuriers.</p><p>Les origines choisies par les joueurs définissent qui étaient leurs personnages avant de devenir aventuriers. Réfléchissez à la manière dont les historiques des personnages pourraient influencer les aventures de votre campagne. Par exemple, si un joueur choisit l’historique de Criminel, aidez-le à étoffer le passé criminel de son personnage et utilisez ces informations pour intégrer des éléments narratifs pertinents dans la campagne.</p><p><em><strong>Niveau de Départ.</strong></em><strong> </strong>Quel niveau ont les personnages au début ? De nombreuses campagnes de D&D commencent les personnages au niveau 1. Si vous souhaitez qu’ils soient un peu plus résistants et que vos joueurs sont expérimentés, commencez la campagne au niveau 3. (Voir le <em>Manuel des Joueurs</em> pour les règles de départ à des niveaux plus élevés.)</p><h2>Rassembler le Groupe</h2><p>Lors de la session zéro, aidez les joueurs à imaginer des explications sur la manière dont leurs personnages se connaissent et partagent une certaine histoire, même brève. Pour comprendre les relations au sein du groupe, voici quelques questions à poser aux joueurs lors de la création de personnages :</p><ul><li class=\"Core-Styles_Core-Bulleted\">Certains personnages sont-ils liés par le sang ou par d’autres relations ?</li><li class=\"Core-Styles_Core-Bulleted\">Qu’est-ce qui maintient les personnages ensemble en tant que groupe ?</li><li class=\"Core-Styles_Core-Bulleted\">Qu’est-ce que chaque personnage apprécie le plus chez les membres du groupe ?</li><li class=\"Core-Styles_Core-Bulleted\">Le groupe a-t-il un mécène, une personne ou une organisation qui les oriente vers des aventures ?</li></ul><p>Si les joueurs ont du mal à trouver une histoire pour expliquer comment leurs personnages se sont rencontrés, vous pouvez proposer les options suivantes :</p><p><em><strong>Événement de Cohésion.</strong></em> Un événement rassembleur (comme un mariage, un festival ou des funérailles) réunit les personnages, leur faisant rapidement découvrir un objectif commun.</p><p><em><strong>Coïncidence.</strong></em> Quelqu’un lance un appel aux aventuriers pour accomplir une quête, et les personnages répondent à cet appel. Alternativement, les personnages pourraient se rencontrer par hasard, découvrant qu’ils se dirigent tous vers le même endroit, ou se retrouvent piégés ensemble.</p><p><em><strong>Connaissance Commune.</strong></em> Les personnages sont présentés les uns aux autres par une connaissance commune PNJ qu’ils respectent tous. Cette connaissance pourrait également servir de mécène au groupe, représentant une organisation (une académie, une guilde criminelle, une guilde, une force militaire ou un ordre religieux), une personne influente (un aristocrate ou même un souverain) ou une créature magique comme un sphinx ou un dragon.</p><p><em><strong>Histoire Partagée.</strong></em> Les personnages ont grandi dans le même endroit et se connaissent depuis des années. Malgré leurs formations et leurs antécédents différents, ils sont déjà de bons amis.</p><p><em><strong>Rencontre dans une Taverne.</strong></em> Les personnages se rencontrent dans une taverne autour de chopes de bière et décident de se lancer ensemble dans une vie d’aventures—un classique indémodable !</p><h2>Préparer le Décor</h2><p>La session zéro est l’occasion idéale de partager des informations de base sur la campagne avec vos joueurs. Ces informations incluent généralement :</p><p><strong>Détails du Lieu de Départ.</strong> Vos joueurs ont besoin d’informations de base sur le lieu où leurs personnages commencent, comme le nom de la colonie, les lieux importants dans et autour de celle-ci, ainsi que les PNJ notables qu’ils connaissent (voir @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCampaignStart.JournalEntryPage.bxHujOTV6qbwdHBa]{Lieu de départ}).</p><p><strong>Événements Clés.</strong> Décrivez les événements passés ou présents qui aident à poser le cadre de la campagne. Par exemple, la campagne pourrait commencer après une grande guerre ou lors d’un festival. Décrire les événements clés aide à poser l’ambiance et à préparer les joueurs pour les aventures à venir.</p><p><strong>Règles Maison.</strong> Si vous utilisez des @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTheBasics0000.JournalEntryPage.di6PPvo499vRq1NT#house-rules]{règles maison} ou adoptez des variantes présentées dans ce livre ou un autre, informez vos joueurs.</p><p>Rappelez-vous, vous en savez toujours plus sur votre monde de campagne que vos joueurs. Cependant, les personnages, ayant vécu toute leur vie dans ce monde, en savent plus que leurs joueurs. Fournissez les informations essentielles que les personnages devraient connaître chaque fois que cela est pertinent pour leurs aventures.</p>"
         },
         "Starting Location": {
-            "name": "Lieu de Départ",
-            "text": "<p>Commencez votre campagne dans un lieu que vous pouvez détailler, comme un village, un quartier d’une grande ville, un avant-poste ou une auberge en bord de route. Préparez-vous à donner aux joueurs suffisamment d’informations sur ce lieu pour les aider à comprendre quels liens, le cas échéant, leurs personnages ont avec celui-ci. Une fois ce centre de campagne défini, créez une ou deux attractions locales qui pourraient servir de lieux d’aventure, comme une maison hantée en périphérie ou un complexe de donjons niché dans les collines voisines.</p><p>Si vous utilisez un cadre de campagne publié, choisissez un lieu quelconque dans ce cadre et développez-le à votre guise. Un cadre ou une aventure publiée pourrait vous fournir tous les détails nécessaires. La @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFreeCityOfGre]{Cité Libre de Greyhawk}, décrite plus loin dans ce chapitre, est un lieu de départ idéal et illustre les éléments à considérer en détaillant un lieu de départ.</p><p>Si vous construisez votre propre cadre, commencez petit en détaillant uniquement cette zone de départ. Le reste de votre cadre peut rester indéveloppé pour le moment. Ne passez pas trop de temps à élaborer le paysage géopolitique de votre monde ou des lieux que les aventuriers ne visiteront probablement pas immédiatement ; réservez ces tâches pour plus tard, lorsque vous et vos joueurs aurez une meilleure idée de la direction de la campagne.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.YlYQcqllKIRGAd5F]</p>"
+          "name": "Lieu de Départ",
+          "text": "<p>Commencez votre campagne dans un lieu que vous pouvez détailler, comme un village, un quartier d’une grande ville, un avant-poste ou une auberge en bord de route. Préparez-vous à donner aux joueurs suffisamment d’informations sur ce lieu pour les aider à comprendre quels liens, le cas échéant, leurs personnages ont avec celui-ci. Une fois ce centre de campagne défini, créez une ou deux attractions locales qui pourraient servir de lieux d’aventure, comme une maison hantée en périphérie ou un complexe de donjons niché dans les collines voisines.</p><p>Si vous utilisez un cadre de campagne publié, choisissez un lieu quelconque dans ce cadre et développez-le à votre guise. Un cadre ou une aventure publiée pourrait vous fournir tous les détails nécessaires. La @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFreeCityOfGre]{Cité Libre de Greyhawk}, décrite plus loin dans ce chapitre, est un lieu de départ idéal et illustre les éléments à considérer en détaillant un lieu de départ.</p><p>Si vous construisez votre propre cadre, commencez petit en détaillant uniquement cette zone de départ. Le reste de votre cadre peut rester indéveloppé pour le moment. Ne passez pas trop de temps à élaborer le paysage géopolitique de votre monde ou des lieux que les aventuriers ne visiteront probablement pas immédiatement ; réservez ces tâches pour plus tard, lorsque vous et vos joueurs aurez une meilleure idée de la direction de la campagne.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.YlYQcqllKIRGAd5F]</p>"
         },
         "First Adventure": {
-            "name": "Première Aventure",
-            "text": "<p>Si vous utilisez une aventure publiée pour lancer votre campagne, servez-vous des accroches pour personnages incluses dans cette aventure pour emmener les personnages de leur lieu de départ vers l’action de l’aventure. De nombreuses campagnes commencent avec une aventure publiée et se développent ensuite de manière organique au fur et à mesure que les personnages explorent au-delà de la portée de l’aventure.</p><p>Si vous créez votre propre aventure pour débuter la campagne, référez-vous aux conseils donnés dans @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCreatingAdven.JournalEntryPage.Yj1abxxXzi5U0FVL]{le chapitre 4}. Gardez la première aventure relativement courte et simple, laissant amplement de temps aux personnages pour apprendre à se connaître alors que les joueurs les interprètent. Ce qui importe le plus, c’est qu’ils commencent à se sentir comme un groupe d’aventuriers et se familiarisent avec leurs capacités. L’ensemble de la campagne pourra se dévoiler à eux par la suite.</p>"
+          "name": "Première Aventure",
+          "text": "<p>Si vous utilisez une aventure publiée pour lancer votre campagne, servez-vous des accroches pour personnages incluses dans cette aventure pour emmener les personnages de leur lieu de départ vers l’action de l’aventure. De nombreuses campagnes commencent avec une aventure publiée et se développent ensuite de manière organique au fur et à mesure que les personnages explorent au-delà de la portée de l’aventure.</p><p>Si vous créez votre propre aventure pour débuter la campagne, référez-vous aux conseils donnés dans @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCreatingAdven.JournalEntryPage.Yj1abxxXzi5U0FVL]{le chapitre 4}. Gardez la première aventure relativement courte et simple, laissant amplement de temps aux personnages pour apprendre à se connaître alors que les joueurs les interprètent. Ce qui importe le plus, c’est qu’ils commencent à se sentir comme un groupe d’aventuriers et se familiarisent avec leurs capacités. L’ensemble de la campagne pourra se dévoiler à eux par la suite.</p>"
         }
       }
     },
@@ -613,6 +653,10 @@
         "1.0.0": {
           "name": "1.0.0",
           "text": "<p>Version initiale.</p>"
+        },
+        "1.1.0": {
+          "name": "1.1.0",
+          "text": "<h1>Bug Fixes</h1><ul><li><p>Fixed typo in \"Coming Soon\" callout. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/836\">[#836]</a></p></li><li><p>Corrected content links in @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgRunningCombat.JournalEntryPage.6UthtPzF3dIb2EnV#change-the-terrain]{Running Combat}. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/837\">[#837]</a></p></li><li><p>@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTheBasics0000.JournalEntryPage.crbl7kSxiGnU8X29]{Example of Play} now includes the callout borders. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/838\">[#838]</a></p></li><li><p>Resolved issues with teleportation Scene Regions not correctly linking to their target region. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/839\">[#839]</a></p></li><li><p>Added @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBrownMold0000]{Brown Mold} item which resolves broken link/embed in the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#example-hazards]{Example Hazards}. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/840\">[#840]</a> and <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/856\">[#856]</a></p></li><li><p>Corrected paths for the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.NLscoKNP7uuyBQt0]{Eastern Oerik Unlabeled} and @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.ITXwJmk9IRhKhJXL]{City Locations (District Labels Only)} art handouts. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/842\">[#842]</a> and <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/852\">[#852]</a></p></li><li><p>Set correct roll formula for the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmg25GpArtObject]{25 GP Art Objects} roll table. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/843\">[#843]</a></p></li><li><p>Set correct roll formula for the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmg13CardDeckOfM]{Deck of Many Things: 13 Cards} roll table. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/844\">[#844]</a></p></li><li><p>Set correct roll formula for the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgArmamentsRare]{Armaments - Rare} roll table. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/845\">[#845]</a></p></li><li><p>Filled out the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgSenSenses0000]{Senses} roll table. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/846\">[#846]</a></p></li><li><p>Fixed typo in @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgRunningExplor.JournalEntryPage.52a3vRwhCNY60oEZ]{Weather} section of Running Exploration. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/848\">[#848]</a></p></li><li><p>Removed the empty Random Individual Treasure and Random Treasure Hoard tables which are not rollable tables but tables of data. These tables can be found here: @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgAdventureRewa.JournalEntryPage.EBcNErEifQuAkTR5]{Individual Treasure} and @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgAdventureRewa.JournalEntryPage.BPBTY8qIVTjIZ9Zl]{Treasure Hoards}. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/849\">[#849]</a></p></li><li><p>Marked a number of items as being \"Magical\". <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/853\">[#853]</a></p></li><li><p>Fixed a number of walling issues and improved the lighting across some Scenes with global illumination and underground Regions which disable them. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/863\">[#863]</a></p><ul><li><p>Some changes listed in the issue were not implemented like walling certain areas of crypts as they are not marked as regular or secret doors and the intent is for the wall to be an archway. There are a few other things (curtains in front of windows namely) that we've reached out to determine if they are intended to block vision.</p></li></ul></li><li><p>The @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgHappenstanceH]{Happenstance Hooks} roll table now has its correct contents. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/869\">[#869]</a></p></li><li><p>The @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHatOfWizardry]{Hat of Wizardry} now includes limited uses which are consumed by the activity. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/870\">[#870]</a></p></li><li><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWandOfMagicMi]{Wand of Magic Missiles} now has a maximum scaling of 3 or the remaining number of uses, whichever is lower. [Discord Feedback]</p></li></ul><h1>Feature Enhancements</h1><ul><li><p>Implemented the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.RYnuZEZ9wXoKpHbD#creature-traits]{Creature Traits} from DM's Toolbox. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/847\">[#847]</a></p></li><li><p>Added a @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh1ArtHandout.JournalEntryPage.DtDJc9DEHjVssHu6]{cover} image to the Chapter 1 Art Handouts.</p></li><li><p>Set the @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgGiantSpider00]{Giant Spider} to use Wildcard Tokens so either of the two provided Giant Spider tokens can be used.</p></li></ul>"
         }
       }
     },
@@ -892,7 +936,7 @@
           "name": "Titres et Prestiges",
           "text": "<p>Parfois, la récompense la plus mémorable pour des aventuriers est le prestige qu’ils acquièrent dans un royaume. Leurs aventures leur valent souvent renommée et pouvoir, alliés et ennemis, ainsi que des titres qu’ils peuvent transmettre à leurs descendants. Cette section détaille les marques de prestige les plus courantes que les aventuriers peuvent acquérir au cours d’une campagne.</p><p>Les meilleures récompenses dans une aventure sont directement liées aux circonstances de l’aventure. Par exemple, si un marchand engage les personnages pour récupérer un héritage familial dans une tour abandonnée depuis longtemps, le marchand pourrait leur offrir l’acte de propriété de la tour en guise de récompense.</p><h2>Fortifications</h2><p>Une fortification est une récompense généralement donnée à des aventuriers chevronnés qui ont démontré une loyauté indéfectible envers une figure politique puissante ou une entité dirigeante, telle qu’un monarque, un ordre de chevalerie ou un conseil de magiciens. Une fortification peut être une forteresse au cœur d’une ville ou un donjon provincial aux confins du royaume. Bien que la fortification soit destinée aux personnages pour qu’ils la gouvernent à leur guise, la terre sur laquelle elle se trouve reste la propriété de la couronne ou du dirigeant local. Si les personnages se montrent déloyaux ou indignes de ce don, ils peuvent être invités ou contraints à céder la fortification. À cet égard, la fortification diffère des @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgBastions00000]{Bastions} des personnages. Cependant, vous pouvez également utiliser le don d’une fortification comme prétexte pour que les personnages acquièrent leurs Bastions.</p><p>La personne offrant la fortification peut proposer d’en couvrir les frais d’entretien pour un ou plusieurs mois, après quoi cette responsabilité revient aux personnages. Le type de fortification détermine ses coûts d’entretien, comme indiqué dans la table des Coûts d’entretien.</p><table><caption>Coûts d'entretien</caption><thead><tr><th><p>Fortification</p></th><th><p>Coût par jour</p></th><th></th></tr></thead><tbody><tr><td><p>Avant-poste fortifié ou tour de guet</p></td><td><p>50 PO</p></td><td></td></tr><tr><td><p>Donjon ou petit château</p></td><td><p>100 PO</p></td><td></td></tr><tr><td><p>Grand château ou forteresse</p></td><td><p>400 PO</p></td><td></td></tr></tbody></table><h2>Lettres de recommandation</h2><p>Un bienfaiteur pourrait fournir aux aventuriers une lettre de recommandation plutôt qu’un paiement. Une telle lettre est généralement placée dans un élégant dossier, étui ou tube à parchemin pour être transportée en toute sécurité, et elle porte habituellement la signature et le sceau de son auteur.</p><p>Une lettre de recommandation émanant d’une personne à la réputation irréprochable peut permettre aux aventuriers d’accéder à des PNJ qu’ils auraient autrement du mal à rencontrer, tels qu’un duc, une duchesse, un vice-roi ou un monarque. De plus, porter une telle recommandation sur soi établit un niveau de confiance de base avec les autorités locales.</p><p>La valeur d’une lettre de recommandation repose uniquement sur la réputation de son auteur et n’offre aucun avantage là où son rédacteur n’a aucune influence.</p><h2>Médailles</h2><p>Bien qu’elles soient souvent façonnées en or et d’autres matériaux précieux, les médailles ont une valeur symbolique encore plus grande pour ceux qui les décernent et les reçoivent. Les médailles sont généralement attribuées par des figures politiques pour des actes d’héroïsme, et en porter une suffit souvent à gagner le respect de ceux qui en comprennent la signification.</p><p>Différents actes d’héroïsme peuvent justifier différents types de médailles. Le roi de Breland (dans l’univers d’Eberron) pourrait attribuer un Badge Royal de Vaillance (en forme de bouclier et fait de rubis et d’électrum) à des aventuriers ayant défendu des citoyens brelish. L’Ours d’Or de Breland (une médaille en or en forme de tête d’ours, avec des gemmes en guise d’yeux) pourrait être réservé aux aventuriers qui prouvent leur allégeance à la couronne de Breland.</p><p>Une médaille n’offre pas de bénéfice spécifique en jeu à celui qui la porte, mais elle peut influencer les relations avec les PNJ. Par exemple, un personnage arborant l’Ours d’Or de Breland est considéré comme un héros du peuple au sein du royaume de Breland. En dehors de Breland, la médaille a beaucoup moins de poids, sauf auprès des alliés du roi de Breland.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh3ArtHandout.JournalEntryPage.Ue0tuQdx29lqXOhj]</p><h2>Parcelles de terre</h2><p>Une parcelle de terre est généralement accompagnée d’une lettre d’un dirigeant local affirmant que la terre a été accordée en récompense pour un service rendu. Ce type de terre reste généralement la propriété du dirigeant local ou de l’autorité gouvernante, mais elle est prêtée à un personnage avec la compréhension qu’elle peut être retirée, en particulier si la loyauté du personnage venait à être mise en doute.</p><p>Les personnages qui reçoivent une parcelle de terre sont libres d’y construire et sont tenus de la protéger. Ils peuvent transmettre la terre en héritage, mais ils ne peuvent ni la vendre ni l’échanger sans l’autorisation du dirigeant local ou de l’autorité gouvernante. Si un personnage possède déjà un @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgBastions00000]{Bastion}, la parcelle de terre pourrait entourer le Bastion ou être située à proximité.</p><p>Les parcelles de terre sont de belles récompenses pour des aventuriers cherchant un endroit où s’établir ou ayant une famille ou un intérêt personnel dans la région où se trouve la terre.</p><h2>Faveurs spéciales</h2><p>Une récompense peut être une faveur que les personnages peuvent réclamer ultérieurement. Les faveurs spéciales fonctionnent mieux lorsque la personne qui les accorde est digne de confiance. Un PNJ Loyal Bon ou Loyal Neutre fera tout ce qui est possible pour honorer une obligation lorsque le moment viendra, sauf enfreindre les lois. Un PNJ Loyal Mauvais fera de même, mais uniquement parce qu’un accord est un accord. Un PNJ Neutre Bon ou Neutre peut honorer des faveurs pour protéger sa réputation. Un PNJ Chaotique Bon est davantage préoccupé par le fait de rendre justice aux aventuriers, honorant ses obligations sans trop se soucier des risques personnels ou du respect des lois.</p><h2>Droits spéciaux</h2><p>Une personne politiquement influente peut récompenser des personnages en leur accordant des droits spéciaux, qui peuvent être décrits dans un document officiel ou une proclamation. Par exemple, les personnages pourraient obtenir le droit spécial d’attaquer des navires pirates ou d’autres ennemis de la couronne, de diriger des rites ou des cérémonies dans une communauté, ou de négocier au nom d’un dirigeant. Ils pourraient bénéficier d’un hébergement et d’une pension gratuits à vie offerts par des citoyens reconnaissants ou obtenir le service juré de soldats locaux pour les assister en cas de besoin.</p><p>Les droits spéciaux ne durent que pendant la période stipulée dans le document légal, et ces droits peuvent être révoqués si les aventuriers en abusent.</p><h2>Titres</h2><p>Une figure politiquement influente a le pouvoir de décerner des titres. Un titre est souvent accompagné d’une parcelle de terre (voir ci-dessus). Par exemple, un personnage pourrait recevoir le titre de Comte de Rivorage ou de Comtesse de Dun Fjord, ainsi qu’une parcelle de terre comprenant une localité ou une région portant le même nom. Les Archifées aiment attribuer des titres fantaisistes (et allitératifs), tels que Chancelier du Chocolat ou Grand Duc des Rires, qui pourraient s’accompagner de légers @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.U9qU1oUFTPAK7g50]{Dons Surnaturels} plutôt que de terres.</p><p>Un personnage peut détenir plusieurs titres, et dans une société féodale, ces titres peuvent être transmis (ou répartis) entre ses enfants. Un personnage détenant un titre est censé agir d’une manière conforme à ce titre. Par décret, les titres peuvent être retirés si le personnage ne respecte pas les obligations et responsabilités qui y sont liées.</p><h2>Formation</h2><p>Un personnage pourrait se voir offrir une formation spéciale. Ce type de formation n’est pas largement disponible et est donc très recherché.</p><p>Le personnage doit passer 30 jours avec le formateur pour recevoir un avantage spécial. Les avantages possibles de la formation incluent les suivants :</p><ul><li class=\"Core-Styles_Core-Bulleted\">Le personnage acquiert une maîtrise dans une compétence.</li><li class=\"Core-Styles_Core-Bulleted\">Le personnage acquiert une maîtrise dans un outil.</li><li class=\"Core-Styles_Core-Bulleted\">Le personnage apprend une langue.</li></ul>"
         },
-        "Mobs": { 
+        "Mobs": {
           "name": "Monstres",
           "text": "<p>Cette section peut vous aider à accélérer le jeu lorsque vous résolvez des situations impliquant de grands groupes de monstres, également appelés \"mobs\".</p><h2>Conseils</h2><p>Suivez ces conseils pour fluidifier une rencontre de combat avec un grand nombre de monstres :</p><p><strong>Dégâts.</strong> Utilisez les dégâts moyens spécifiés dans le bloc de statistiques d’un monstre.</p><p><strong>Points de vie.</strong> Si un sort ou une attaque réduit un monstre à quelques Points de vie, supposez que le monstre est tué ou autrement neutralisé dans le combat.</p><p><strong>Mobs de monstres.</strong> Divisez un grand nombre de monstres identiques en petits groupes (mobs) et répartissez leurs tours entre ceux des personnages. Des mobs de cinq à huit créatures identiques fonctionnent bien, mais ne créez pas plus de mobs qu’il n’y a de personnages.</p><h2>Résultats moyens</h2><p>Chaque fois que vous devriez effectuer plusieurs Tests de d20 pour des monstres identiques, la table des Résultats des mobs peut vous aider à déterminer le nombre de Tests de d20 réussis sans avoir à lancer de dés. Suivez ces étapes :</p><p><strong>Étape 1.</strong> Déterminez le résultat minimum au d20 dont les monstres ont besoin pour réussir le Test de d20 en utilisant la formule suivante :</p><p style=\"text-align:center\"><strong>Résultat nécessaire</strong> = valeur cible − bonus du monstre</p><p><strong>Étape 2.</strong> Trouvez le résultat nécessaire dans la table des Résultats des mobs. Si tous les monstres ont l’Avantage sur le jet (par exemple, s’ils attaquent et ont le trait Tactiques de meute, ou s’ils effectuent un jet de sauvegarde contre un sort et ont le trait Résistance à la magie), trouvez le résultat nécessaire dans la colonne Avec avantage. Si tous les monstres ont le Désavantage (par exemple, s’ils attaquent une créature protégée par le sort <em>Flou</em>), utilisez la colonne Avec désavantage. Sinon, utilisez la colonne Normale.</p><p><strong>Étape 3.</strong> Lisez la table pour trouver un nombre fractionnaire de réussites que vous pouvez facilement appliquer au groupe de monstres. Ce nombre représente la fraction des monstres qui réussissent le Test de d20.</p><div class=\"scroll-x\"><table><caption>Résultats des Mobs</caption><thead><tr><th colspan=\"3\"><p>Jet Nécessaire</p></th><th style=\"border-left:1px solid\" colspan=\"5\"><p>Nombre de Réussites</p></th></tr><tr><th><p>Normal</p></th><th><p>Avec Avantage</p></th><th><p>Avec Désavantage</p></th><th><p>Sur 4</p></th><th><p>Sur 5</p></th><th><p>Sur 6</p></th><th><p>Sur 8</p></th><th><p>Sur 10</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>1–4</p></td><td><p>1</p></td><td><p>4/4</p></td><td><p>5/5</p></td><td><p>6/6</p></td><td><p>8/8</p></td><td><p>10/10</p></td></tr><tr><td><p>2</p></td><td><p>5–6</p></td><td><p>—</p></td><td><p>4/4</p></td><td><p>5/5</p></td><td><p>6/6</p></td><td><p>8/8</p></td><td><p>10/10</p></td></tr><tr><td><p>3</p></td><td><p>7–8</p></td><td><p>2</p></td><td><p>4/4</p></td><td><p>5/5</p></td><td><p>5/6</p></td><td><p>7/8</p></td><td><p>9/10</p></td></tr><tr><td><p>4</p></td><td><p>9</p></td><td><p>—</p></td><td><p>3/4</p></td><td><p>4/5</p></td><td><p>5/6</p></td><td><p>7/8</p></td><td><p>9/10</p></td></tr><tr><td><p>5</p></td><td><p>10</p></td><td><p>3</p></td><td><p>3/4</p></td><td><p>4/5</p></td><td><p>5/6</p></td><td><p>6/8</p></td><td><p>8/10</p></td></tr><tr><td><p>6</p></td><td><p>11</p></td><td><p>—</p></td><td><p>3/4</p></td><td><p>4/5</p></td><td><p>5/6</p></td><td><p>6/8</p></td><td><p>8/10</p></td></tr><tr><td><p>7</p></td><td><p>12</p></td><td><p>4</p></td><td><p>3/4</p></td><td><p>4/5</p></td><td><p>4/6</p></td><td><p>6/8</p></td><td><p>7/10</p></td></tr><tr><td><p>8</p></td><td><p>13</p></td><td><p>5</p></td><td><p>3/4</p></td><td><p>3/5</p></td><td><p>4/6</p></td><td><p>5/8</p></td><td><p>7/10</p></td></tr><tr><td><p>9</p></td><td><p>14</p></td><td><p>—</p></td><td><p>2/4</p></td><td><p>3/5</p></td><td><p>4/6</p></td><td><p>5/8</p></td><td><p>6/10</p></td></tr><tr><td><p>10</p></td><td><p>—</p></td><td><p>6</p></td><td><p>2/4</p></td><td><p>3/5</p></td><td><p>3/6</p></td><td><p>4/8</p></td><td><p>6/10</p></td></tr><tr><td><p>11</p></td><td><p>15</p></td><td><p>7</p></td><td><p>2/4</p></td><td><p>3/5</p></td><td><p>3/6</p></td><td><p>4/8</p></td><td><p>5/10</p></td></tr><tr><td><p>12</p></td><td><p>16</p></td><td><p>—</p></td><td><p>2/4</p></td><td><p>2/5</p></td><td><p>3/6</p></td><td><p>4/8</p></td><td><p>5/10</p></td></tr><tr><td><p>13</p></td><td><p>—</p></td><td><p>8</p></td><td><p>2/4</p></td><td><p>2/5</p></td><td><p>2/6</p></td><td><p>3/8</p></td><td><p>4/10</p></td></tr><tr><td><p>14</p></td><td><p>17</p></td><td><p>9</p></td><td><p>1/4</p></td><td><p>2/5</p></td><td><p>2/6</p></td><td><p>3/8</p></td><td><p>4/10</p></td></tr><tr><td><p>15</p></td><td><p>18</p></td><td><p>10</p></td><td><p>1/4</p></td><td><p>2/5</p></td><td><p>2/6</p></td><td><p>2/8</p></td><td><p>3/10</p></td></tr><tr><td><p>16</p></td><td><p>—</p></td><td><p>11</p></td><td><p>1/4</p></td><td><p>1/5</p></td><td><p>2/6</p></td><td><p>2/8</p></td><td><p>3/10</p></td></tr><tr><td><p>17</p></td><td><p>19</p></td><td><p>12</p></td><td><p>1/4</p></td><td><p>1/5</p></td><td><p>1/6</p></td><td><p>2/8</p></td><td><p>2/10</p></td></tr><tr><td><p>18</p></td><td><p>—</p></td><td><p>13</p></td><td><p>1/4</p></td><td><p>1/5</p></td><td><p>1/6</p></td><td><p>1/8</p></td><td><p>2/10</p></td></tr><tr><td><p>19</p></td><td><p>20</p></td><td><p>14–15</p></td><td><p>0</p></td><td><p>1/5</p></td><td><p>1/6</p></td><td><p>1/8</p></td><td><p>1/10</p></td></tr><tr><td><p>20</p></td><td><p>—</p></td><td><p>16–17</p></td><td><p>0</p></td><td><p>0</p></td><td><p>0</p></td><td><p>0</p></td><td><p>1/10</p></td></tr></tbody></table></div><h2>Jugement des zones d’effet</h2><p>Lorsque les personnages affrontent un grand nombre de monstres, il n’est pas toujours pratique d’utiliser des figurines sur une grille de bataille ou un autre support visuel. Alors, comment déterminer combien de monstres sont affectés par le sort <em>Boule de feu</em> de l’Ensorceleur ou par une autre zone d’effet ?</p><p>La table *Cibles dans une zone d’effet* offre une ligne directrice. Pour l’utiliser, trouvez la colonne correspondant à la forme de la zone, puis descendez jusqu’à sa taille. Ensuite, consultez la colonne la plus à droite pour voir combien de créatures sont approximativement prises dans la zone. Si vous imaginez que les cibles sont dispersées, diminuez le nombre de 1d3. Si elles sont regroupées, vous pouvez augmenter le nombre de [[/r 1d3]]. Bien sûr, une zone ne peut englober plus de créatures que celles présentes dans une rencontre.</p><p>Votre jugement prime toujours sur ces directives, et il est acceptable d’augmenter le nombre de créatures affectées. Par exemple, si huit zombies entourent un Guerrier lorsque le Barde centre un sort <em>Fracas</em> sur l’espace du Guerrier, la zone du sort devrait certainement englober les huit zombies, même si selon la table, une sphère de 3 mètres de rayon inclut seulement trois créatures.</p><h2>Exemples</h2><p>Le scénario suivant montre des exemples de la manière dont vous, en tant que MJ, pouvez appliquer les lignes directrices décrites dans cette section.</p><p>Huit <strong>zombies</strong> entourent et attaquent un Guerrier. Le bonus d’attaque des zombies est de +3, et la CA du Guerrier est de 18, donc le jet requis est de 15 (18 − 3). En trouvant 15 dans la colonne *Normal* et en lisant jusqu’à la colonne *Sur 8*, le MJ obtient un résultat de 2/8 : deux des zombies touchent. En utilisant les dégâts moyens des zombies (4 dégâts contondants), le Guerrier subit 8 dégâts contondants.</p><p>Après avoir vu le Guerrier se faire malmener par les zombies, le Barde lance <em>Fracas</em>, en centrant le sort sur le Guerrier. (Le Barde fait confiance au Guerrier pour réussir le jet de sauvegarde de Constitution et survivre aux dégâts infligés.) Le sort affecte une sphère de 3 mètres de rayon, et la table *Cibles dans une zone d’effet* suggère que cette zone devrait englober trois zombies. Cependant, le MJ décide que les huit zombies (et le Guerrier) sont affectés. Le bonus au jet de sauvegarde de Constitution des zombies est de +3, et le DD du jet de sauvegarde contre les sorts du Barde est de 16, donc le jet requis est de 13 (16 − 3). En trouvant 13 dans la colonne *Normal* et en lisant jusqu’à la colonne *Sur 8*, le MJ obtient un résultat de 3/8, donc trois des zombies réussissent leur jet de sauvegarde.</p><p>Voyant une foule plus importante de zombies au loin, l’Ensorceleur lance <em>Boule de feu</em>. Le sort couvre une sphère de 6 mètres de rayon. La table *Cibles dans une zone d’effet* suggère que cette zone couvre dix zombies, mais le MJ décide qu’ils sont densément regroupés et ajoute 1d3, obtenant un 2. Ainsi, le sort englobe douze zombies dans sa zone. Le modificateur de sauvegarde de Dextérité des zombies est de −2, et le DD du jet de sauvegarde contre les sorts de l’Ensorceleur est de 16, donc le jet requis est de 18 (16 − [−2]). En trouvant 18 dans la colonne *Normal* et en lisant jusqu’à la colonne *Sur 6*, le MJ obtient un résultat de 1/6. Douze fois 1/6 donne 2, donc deux des douze zombies réussissent leur jet de sauvegarde.</p><table><caption>Cibles dans une zone d’effet</caption><thead><tr><th colspan=\"5\"><p>Forme et taille de la zone</p></th></tr><tr><th><p>Cône</p></th><th><p>Cube</p></th><th><p>Circulaire*</p></th><th><p>Ligne</p></th><th><p>Nombre de cibles</p></th></tr></thead><tbody><tr><td><p>3 mètres</p></td><td><p>1,5 à 3 mètres</p></td><td><p>1,5 mètre de rayon</p></td><td><p>—</p></td><td><p>1</p></td></tr><tr><td><p>4,5 à 6 mètres</p></td><td><p>4,5 mètres</p></td><td><p>—</p></td><td><p>9 mètres de long, 1,5 mètre de large</p></td><td><p>2</p></td></tr><tr><td><p>7,5 mètres</p></td><td><p>—</p></td><td><p>3 mètres de rayon</p></td><td><p>9 mètres de long, 3 mètres de large ou 18 mètres de long, 1,5 mètre de large</p></td><td><p>3</p></td></tr><tr><td><p>—</p></td><td><p>6 mètres</p></td><td><p>—</p></td><td><p>27 ou 30 mètres de long, 1,5 mètre de large</p></td><td><p>4</p></td></tr><tr><td><p>9 mètres</p></td><td><p>—</p></td><td><p>—</p></td><td><p>18 mètres de long, 3 mètres de large ou 36 mètres de long, 1,5 mètre de large</p></td><td><p>5</p></td></tr><tr><td><p>10,5 mètres</p></td><td><p>7,5 mètres</p></td><td><p>4,5 mètres de rayon</p></td><td><p>—</p></td><td><p>6</p></td></tr><tr><td><p>12 mètres</p></td><td><p>9 mètres</p></td><td><p>—</p></td><td><p>27 ou 30 mètres de long, 3 mètres de large</p></td><td><p>8</p></td></tr><tr><td><p>13,5 mètres</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td><td><p>9</p></td></tr><tr><td><p>15 mètres</p></td><td><p>10,5 mètres</p></td><td><p>6 mètres de rayon</p></td><td><p>36 mètres de long, 3 mètres de large</p></td><td><p>10</p></td></tr><tr><td><p>16,5 mètres</p></td><td><p>12 mètres</p></td><td><p>—</p></td><td><p>—</p></td><td><p>12</p></td></tr><tr><td><p>18 mètres</p></td><td><p>13,5 mètres</p></td><td><p>7,5 mètres de rayon</p></td><td><p>—</p></td><td><p>16</p></td></tr><tr><td><p>—</p></td><td><p>15 mètres</p></td><td><p>9 mètres de rayon</p></td><td><p>—</p></td><td><p>20</p></td></tr></tbody></table>"
         },
@@ -1491,8 +1535,8 @@
           "text": "<p>Donjons &amp; Dragons est un jeu dans lequel vous et vos amis incarnez des rôles et racontez une histoire commune. Bien que le <a href=\"https://foundryvtt.com/packages/dnd-players-handbook\"><em>Manuel des Joueurs</em></a> vous apprenne à jouer et à créer des personnages qui sont les héros de l'histoire, le <em>Guide du Maître de Donjon</em> s'adresse au joueur qui préside la partie et s'assure que tout le monde s'amuse. Ce joueur est le Maître de Donjon, ou MJ. Être Maître de Donjon est une expérience amusante, valorisante et gratifiante, et ce chapitre vous guide à travers les bases.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh1ArtHandout.JournalEntryPage.SYNOULb09ESfU2vZ]</p>"
         },
         "Preparing a Session": {
-            "name": "Préparer une session",
-            "text": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh1ArtHandout.JournalEntryPage.2BO45esGI5A0Rtcn classes=\"three right\"]</p><p>Plus vous vous préparez avant votre partie, plus celle-ci se déroulera sans accroc—jusqu’à un certain point. Pour éviter d’être soit sous-préparé, soit sur-préparé, suivez les directives d’une heure ci-dessous et priorisez vos préparatifs en fonction du temps dont vous disposez.</p><h2>La directive d’une heure</h2><p>Une session de jeu de D&amp;D commence généralement par quelques discussions hors-jeu pendant que tout le monde s’installe. Une fois la session lancée, la plupart des groupes peuvent accomplir au moins trois choses en une heure de jeu, où chaque « chose » pourrait être :</p><ul><li>Explorer un lieu comme une salle d’un château ou une grotte</li><li>Dialoguer avec une créature intelligente</li><li>Parvenir à un consensus sur une question controversée</li><li>Résoudre une énigme ou un casse-tête complexe</li><li>Survivre à un piège mortel</li><li>Mener un combat de faible difficulté</li></ul><p>Un combat plus difficile peut compter comme deux ou trois choses, et une négociation tendue peut consommer la majeure partie ou la totalité d’une heure de jeu.</p><h2>Temps de préparation</h2><p>Les directives suivantes peuvent vous aider à préparer une session de jeu en utilisant une aventure publiée.</p><h3>Préparation d’une heure</h3><p>Si vous consacrez une heure par semaine à la préparation de votre partie, suivez ces étapes :</p><p><strong>Étape 1. </strong>Concentrez-vous sur l’histoire de l’aventure. Lisez ou relisez l’introduction et les informations de fond de l’aventure. Créez une liste à puces des points clés de l’intrigue pour garantir un déroulement cohérent.</p><p><strong>Étape 2.</strong> Identifiez les rencontres que vous souhaitez gérer, puis évaluez la probabilité que chaque rencontre soit jouée, en les classant comme « certaines », « possibles » ou « improbables ».</p><p><strong>Étape 3.</strong> Rassemblez les cartes dont vous aurez besoin pour les rencontres certaines et possibles, puis concentrez le reste de votre temps de préparation sur les rencontres certaines, comme indiqué ci-dessous.</p><p>Pour les rencontres de combat, révisez les tactiques et blocs de statistiques des monstres. Notez toutes les règles spéciales applicables au cadre de la rencontre.</p><p>Pour les rencontres d’interaction sociale, prenez des notes sur les personnages non-joueurs (PNJs) impliqués : leurs personnalités, objectifs et tactiques.</p><p>Pour les rencontres d’exploration, consignez les indices ou autres informations que les personnages devraient apprendre, et révisez les règles spéciales qui pourraient s’appliquer.</p><p><strong>Étape 4.</strong> Réfléchissez à la manière dont chaque rencontre certaine est liée aux motivations des joueurs (voir @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgRunningTheGam.JournalEntryPage.tiekOc44JRTfFZgS]{Connaître vos joueurs}). Pensez à des éléments que vous pouvez ajouter pour les intéresser. Par exemple, une rencontre de combat pourrait commencer par une négociation tendue destinée à captiver les joueurs qui aiment l’interaction sociale.</p><p><strong>Étape 5.</strong> Parcourez les rencontres que vous avez classées comme possibles.</p><h3>Préparation de deux heures</h3><p>Avec une heure supplémentaire, ajoutez ces étapes :</p><p><strong>Étape 6.</strong> Examinez attentivement chaque rencontre « possible ».</p><p><strong>Étape 7.</strong> Consacrez le temps restant à la création d’aides à l’improvisation (voir @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgResolvingOutc.JournalEntryPage.3i7ndnxVAYh4YkeH]{Improviser des réponses}).</p><h3>Préparation de trois heures</h3><p>Si vous avez trois heures pour vous préparer, ajoutez ces étapes :</p><p><strong>Étape 8.</strong> Parcourez chaque rencontre « improbable ».</p><p><strong>Étape 9.</strong> Créez une nouvelle rencontre conçue pour plaire spécifiquement à un joueur, ou modifiez une rencontre existante pour qu’elle corresponde aux objectifs et motivations du personnage de ce joueur. Au fil de plusieurs sessions, faites cela pour tous vos joueurs et leurs personnages.</p>"
+          "name": "Préparer une session",
+          "text": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh1ArtHandout.JournalEntryPage.2BO45esGI5A0Rtcn classes=\"three right\"]</p><p>Plus vous vous préparez avant votre partie, plus celle-ci se déroulera sans accroc—jusqu’à un certain point. Pour éviter d’être soit sous-préparé, soit sur-préparé, suivez les directives d’une heure ci-dessous et priorisez vos préparatifs en fonction du temps dont vous disposez.</p><h2>La directive d’une heure</h2><p>Une session de jeu de D&amp;D commence généralement par quelques discussions hors-jeu pendant que tout le monde s’installe. Une fois la session lancée, la plupart des groupes peuvent accomplir au moins trois choses en une heure de jeu, où chaque « chose » pourrait être :</p><ul><li>Explorer un lieu comme une salle d’un château ou une grotte</li><li>Dialoguer avec une créature intelligente</li><li>Parvenir à un consensus sur une question controversée</li><li>Résoudre une énigme ou un casse-tête complexe</li><li>Survivre à un piège mortel</li><li>Mener un combat de faible difficulté</li></ul><p>Un combat plus difficile peut compter comme deux ou trois choses, et une négociation tendue peut consommer la majeure partie ou la totalité d’une heure de jeu.</p><h2>Temps de préparation</h2><p>Les directives suivantes peuvent vous aider à préparer une session de jeu en utilisant une aventure publiée.</p><h3>Préparation d’une heure</h3><p>Si vous consacrez une heure par semaine à la préparation de votre partie, suivez ces étapes :</p><p><strong>Étape 1. </strong>Concentrez-vous sur l’histoire de l’aventure. Lisez ou relisez l’introduction et les informations de fond de l’aventure. Créez une liste à puces des points clés de l’intrigue pour garantir un déroulement cohérent.</p><p><strong>Étape 2.</strong> Identifiez les rencontres que vous souhaitez gérer, puis évaluez la probabilité que chaque rencontre soit jouée, en les classant comme « certaines », « possibles » ou « improbables ».</p><p><strong>Étape 3.</strong> Rassemblez les cartes dont vous aurez besoin pour les rencontres certaines et possibles, puis concentrez le reste de votre temps de préparation sur les rencontres certaines, comme indiqué ci-dessous.</p><p>Pour les rencontres de combat, révisez les tactiques et blocs de statistiques des monstres. Notez toutes les règles spéciales applicables au cadre de la rencontre.</p><p>Pour les rencontres d’interaction sociale, prenez des notes sur les personnages non-joueurs (PNJs) impliqués : leurs personnalités, objectifs et tactiques.</p><p>Pour les rencontres d’exploration, consignez les indices ou autres informations que les personnages devraient apprendre, et révisez les règles spéciales qui pourraient s’appliquer.</p><p><strong>Étape 4.</strong> Réfléchissez à la manière dont chaque rencontre certaine est liée aux motivations des joueurs (voir @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgRunningTheGam.JournalEntryPage.tiekOc44JRTfFZgS]{Connaître vos joueurs}). Pensez à des éléments que vous pouvez ajouter pour les intéresser. Par exemple, une rencontre de combat pourrait commencer par une négociation tendue destinée à captiver les joueurs qui aiment l’interaction sociale.</p><p><strong>Étape 5.</strong> Parcourez les rencontres que vous avez classées comme possibles.</p><h3>Préparation de deux heures</h3><p>Avec une heure supplémentaire, ajoutez ces étapes :</p><p><strong>Étape 6.</strong> Examinez attentivement chaque rencontre « possible ».</p><p><strong>Étape 7.</strong> Consacrez le temps restant à la création d’aides à l’improvisation (voir @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgResolvingOutc.JournalEntryPage.3i7ndnxVAYh4YkeH]{Improviser des réponses}).</p><h3>Préparation de trois heures</h3><p>Si vous avez trois heures pour vous préparer, ajoutez ces étapes :</p><p><strong>Étape 8.</strong> Parcourez chaque rencontre « improbable ».</p><p><strong>Étape 9.</strong> Créez une nouvelle rencontre conçue pour plaire spécifiquement à un joueur, ou modifiez une rencontre existante pour qu’elle corresponde aux objectifs et motivations du personnage de ce joueur. Au fil de plusieurs sessions, faites cela pour tous vos joueurs et leurs personnages.</p>"
         },
         "How to Run a Session": {
           "name": "Comment Exécuter une Session",
@@ -1505,6 +1549,10 @@
         "Every DM is Unique": {
           "name": "Chaque maître de donjon est unique",
           "text": "<p>L'exemple de jeu précédent montre comment un maître de donjon peut gérer une rencontre, mais aucun MJ ne dirige le jeu exactement de la même manière—et c'est ainsi que cela doit être ! Vous aurez le plus de succès en tant que MJ si vous choisissez un style de jeu qui fonctionne le mieux pour vous et vos joueurs.</p><h2>Style de jeu</h2><p>Voici quelques questions qui peuvent vous aider à définir votre style unique en tant que MJ et le type de jeu que vous souhaitez diriger :</p><p><strong>Combat et action ou jeu de rôle immersif ?</strong> Le jeu met-il l'accent sur le combat et l'action ou sur une histoire riche avec des PNJ détaillés ?</p><p><strong>Tout public ou thèmes matures ?</strong> Le jeu est-il destiné à tout public, ou inclut-il des thèmes matures ?</p><p><strong>Réaliste ou cinématographique ?</strong> Préférez-vous un réalisme rigoureux ou êtes-vous plus axé sur un jeu cinématographique et héroïque ?</p><p><strong>Sérieux ou humoristique ?</strong> Voulez-vous maintenir un ton sérieux ou viser un jeu humoristique ?</p><p><strong>Préparé ou improvisé ?</strong> Préférez-vous planifier minutieusement ou improviser ?</p><p><strong>Général ou thématique ?</strong> Le jeu est-il un mélange de thèmes et de genres, ou se concentre-t-il sur un thème particulier ou un genre comme l'horreur ?</p><p><strong>Ambigu moralement ou héroïque ?</strong> Êtes-vous à l'aise avec l'ambiguïté morale, comme permettre aux personnages d'explorer si la fin justifie les moyens ? Ou préférez-vous des principes héroïques clairs comme la justice, le sacrifice et l'aide aux opprimés ?</p><h2>Règles maison</h2><p>Les règles maison sont des règles nouvelles ou modifiées que vous ajoutez à votre jeu pour le personnaliser et améliorer le style que vous avez en tête. Avant de définir une règle maison, posez-vous deux questions :</p><ul><li>Cette règle ou modification améliorera-t-elle le jeu ?</li><li>Mes joueurs l'apprécieront-ils ?</li></ul><p>Si vous êtes sûr que la réponse à ces deux questions est oui, essayez cette nouvelle règle. Présentez les règles maison comme des expériences, et demandez à vos joueurs de donner leur avis. Si une règle maison n'est pas amusante, retirez-la ou modifiez-la.</p><h4>Enregistrement des interprétations des règles</h4><p>Si une question sur l'interprétation d'une règle se pose pendant votre partie, notez comment vous décidez de l'interpréter. Ajoutez cela à votre collection de règles maison afin que vous et les joueurs puissiez vous y référer lorsqu'elle se présente à nouveau.</p><h2>Ambiance</h2><p>Certains MJ utilisent de la musique pour créer une ambiance appropriée à leurs sessions de jeu. Ils peuvent utiliser des bandes-son de films d'aventure ou de jeux vidéo, bien que des styles comme le classique, l'ambiant ou d'autres genres puissent également convenir.</p><p>Certains MJ ajustent l'éclairage ou utilisent des effets sonores. Les figurines et les dioramas peuvent contribuer à l'ambiance du jeu et aider les joueurs à visualiser les événements. Consultez vos joueurs cependant : certains pourraient trouver la musique, l'éclairage ou les effets sonores distrayants ; pourraient préférer ne pas être surpris par des bruits forts ; ou pourraient avoir besoin d'éviter certains effets d'éclairage.</p><h2>Délégation</h2><p>Si certaines parties du jeu ne vous plaisent pas, confiez-les à des joueurs qui les apprécient. Si vous ne voulez pas interrompre votre récit en cherchant une règle, désignez un joueur comme expert des règles. Si vous n'aimez pas suivre l'initiative, demandez à un autre joueur de le faire.</p><h2>Apprentissage par observation</h2><p>Une des meilleures façons d'apprendre à diriger une partie de D&amp;D est d'observer d'autres MJ en action. Un autre MJ peut vous fournir une base solide pour comprendre ce rôle, ainsi que vous inspirer avec des idées géniales pour vos propres jeux.</p><p>Vous pouvez utiliser ces questions pour réfléchir à une partie que vous observez :</p><p><strong>Commencer la session.</strong> Comment le MJ a-t-il commencé la session ? Y avait-il un récapitulatif ?</p><p><strong>Langage corporel.</strong> Quels gestes le MJ a-t-il utilisés pour décrire une scène ? Comment son langage corporel a-t-il changé en jouant différents PNJ ?</p><p><strong>Voix du MJ.</strong> Le MJ a-t-il utilisé des voix ou des manières différentes pour les PNJ ? A-t-il modifié la hauteur ou le tempo de sa narration selon les situations ?</p><p><strong>Participation des joueurs.</strong> Les joueurs ont-ils participé à la création du monde ou pris des décisions qui semblaient orienter l'aventure dans une direction inattendue ? Comment le MJ a-t-il géré cela ?</p><p><strong>Interprétation des règles.</strong> Dans quelle mesure le MJ s'est-il appuyé sur les règles pour interpréter les résultats ? Le MJ a-t-il interprété les situations de manière judicieuse ou de façon à rendre le jeu amusant à regarder ?</p><p><strong>Les trois piliers.</strong> Quelle part de la session a été consacrée au combat, à l'exploration ou à l'interaction sociale ?</p><p><strong>Tonalité et ambiance.</strong> Comment décririez-vous la tonalité et l'ambiance du jeu ? Ont-elles changé au cours de la session ?</p><p><strong>Expressions marquantes.</strong> Y a-t-il eu des mots ou des narrations que vous avez particulièrement appréciés ? (Si oui, notez-les.)</p><p><strong>Création du monde.</strong> Quels éléments du monde du MJ ou de l'aventure ont retenu votre attention ?</p>"
+        },
+        "Dungeon Master's Guide": {
+          "name": "Dungeon Master's Guide",
+          "text": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh1ArtHandout.JournalEntryPage.DtDJc9DEHjVssHu6 caption=false]</p>"
         }
       }
     },
@@ -1567,6 +1615,571 @@
         "Art Objects": {
           "name": "Objets d'Art",
           "text": "<p>Idoles en or massif, colliers sertis de pierres précieuses, peintures de rois anciens, plats incrustés de bijoux—les objets d'art incluent tout cela et bien plus encore.</p><p>Si un trésor contient des objets d'art, vous pouvez utiliser les tables suivantes pour déterminer aléatoirement quels objets d'art sont trouvés, en fonction de leur valeur. Lancez sur une table autant de fois qu'il y a d'objets d'art dans le trésor. Il peut y avoir plusieurs exemplaires d'un même objet d'art.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmg25GpArtObject rollable]</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmg250GpArtObjec rollable]</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmg750GpArtObjec rollable]</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmg2500GpArtObje rollable]</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmg7500GpArtObje rollable]</p>"
+        }
+      }
+    },
+    "dmgCh2ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Party Travelling": {
+          "name": "Party Travelling",
+          "caption": "Different players enjoy different aspects of playing D&D.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/players-enjoy-different-aspects.webp"
+        },
+        "Stealthy Infiltration": {
+          "name": "Stealthy Infiltration",
+          "caption": "Adventures requiring stealth, like this infiltration, are ideal for some small parties of adventurers.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/stealth-infiltration.webp"
+        },
+        "Steaming Mug": {
+          "name": "Steaming Mug",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/steaming-mug.webp"
+        },
+        "Explorable Room": {
+          "name": "Explorable Room",
+          "caption": "A dungeon room offers plenty of details for adventurers to explore.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/candle-lit-study.webp"
+        },
+        "Flying Fortress Crashing": {
+          "name": "Flying Fortress Crashing",
+          "caption": "When a flying fortress crashes to the ground, unfortunate adventurers in its path might take 18d10 damage or more!",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/crashing-fortress.webp"
+        },
+        "Adventurers Descend Steps": {
+          "name": "Adventurers Descend Steps",
+          "caption": "Exploration draws adventurers into all sorts of unusual environments.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/adventurers-descending-steps.webp"
+        },
+        "Traversing a River": {
+          "name": "Traversing a River",
+          "caption": "A river presents an obstacle to characters traveling through the wilderness.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/fording-a-river.webp"
+        },
+        "Courtyard Full of Monsters": {
+          "name": "Courtyard Full of Monsters",
+          "caption": "Ina  courtyard full of monsters, will characters even notice that the tree has eyes?",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/monsters-around-tree.webp"
+        },
+        "Traveling Fantastical Landscapes": {
+          "name": "Traveling Fantastical Landscapes",
+          "caption": "Traveling through fantastical landscapes can be a fun and interesting part of any adventure.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/traversing-fantastical-landscapes.webp"
+        },
+        "Ogre Trio": {
+          "name": "Ogre Trio",
+          "caption": "Three ogres block a narrow mountain pass.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ogres-block-mountain-pass.webp"
+        },
+        "Creature Size Square": {
+          "name": "Creature Size Square",
+          "caption": "Tiny, Small or Medium, Large, Huge, Gargantuan",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/creature-size-square.webp"
+        },
+        "Creature Size Hex": {
+          "name": "Creature Size Hex",
+          "caption": "Tiny, Small or Medium, Large, Huge, Gargantuan",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/creature-size-hex.webp"
+        },
+        "Cover on Squares": {
+          "name": "Cover on Squares",
+          "caption": "Half Cover, Three-Quarters Cover",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/square-grid-cover.webp"
+        },
+        "Cover on Hexes": {
+          "name": "Cover on Hexes",
+          "caption": "Half Cover, Three-Quarters Cover",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/hex-grid-cover.webp"
+        },
+        "Dragon Arrives": {
+          "name": "Dragon Arrives",
+          "caption": "A dragon's arrival makes a simple fight against zombies much more interesting.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/dragon-arrives-to-fight.webp"
+        },
+        "Chapter Start": {
+          "name": "Chapter Start",
+          "caption": "The fiendish villain Venger uses a Crystal Ball to scry on his nemesis, Tiamat.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ch-2-opener-venger-crystal-ball.webp"
+        },
+        "Tiny": {
+          "name": "Tiny",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/creature-size-hex-tiny.webp"
+        },
+        "Small/Medium": {
+          "name": "Small/Medium",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/creature-size-hex-medium.webp"
+        },
+        "Large": {
+          "name": "Large",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/creature-size-hex-large.webp"
+        },
+        "Huge": {
+          "name": "Huge",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/creature-size-hex-huge.webp"
+        },
+        "Gargantuan": {
+          "name": "Gargantuan",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/creature-size-hex-gargantuan.webp"
+        }
+      }
+    },
+    "dmgCh3ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Chase Conclusion": {
+          "name": "Chase Conclusion",
+          "caption": "An exciting chase nears its conclusion.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/chase-nears-conclusion.webp"
+        },
+        "Ill-Advised Theft": {
+          "name": "Ill-Advised Theft",
+          "caption": "An ill-advised attempt to steal Xanathar's pet goldfish, Sylgar, leads to a heated chase.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/stealing-xanathars-goldfish-background.webp"
+        },
+        "Ship Battle": {
+          "name": "Ship Battle",
+          "caption": "You might alter the Sailor background to reflect a character's youth on the seas of Greyhawk.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ships-in-battle.webp"
+        },
+        "Creating a Creature": {
+          "name": "Creating a Creature",
+          "caption": "Baba Yaga invents a new creature - A fire-breathing Giant Toad",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/baba-yaga-invents-fire-breathing-giant-toad.webp"
+        },
+        "Creating a Spell": {
+          "name": "Creating a Spell",
+          "caption": "Ringlerun's spell research leads in unexpected directions as he unintentionally creates a flying gelatinous cubelet.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ringlerun-researching-spells.webp"
+        },
+        "Possessed Knight": {
+          "name": "Possessed Knight",
+          "caption": "The curse of demonic possession has devastating effects.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/curse-of-demonic-possession.webp"
+        },
+        "Trip with Death": {
+          "name": "Trip with Death",
+          "caption": "Sometimes death - even the death of an entire party - is just a passage to new adventures.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/death-is-a-passage-to-new-adventure.webp"
+        },
+        "Giant Dungeon": {
+          "name": "Giant Dungeon",
+          "caption": "A dungeon built by giants offers enormous adventures.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/giant-dungeon.webp"
+        },
+        "Storm-Tossed Ship": {
+          "name": "Storm-Tossed Ship",
+          "caption": "A friendly bronze dragon keeps a watchful eye on a storm-tossed ship.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/friendly-bronze-dragon-monitors-ship.webp"
+        },
+        "Fight, flight, or Freeze?": {
+          "name": "Fight, flight, or Freeze?",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/fight-flight-or-freeze.webp"
+        },
+        "Firearms and Explosives": {
+          "name": "Firearms and Explosives",
+          "caption": "When faced with a troll, there's no time to figure out the right way to hold a shotgun.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/fighter-with-shotgun.webp"
+        },
+        "Hazards": {
+          "name": "Hazards",
+          "caption": "Sheila discovers that green slime is more dangerous than it looks.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/green-slime-burns-sheila.webp"
+        },
+        "Webs": {
+          "name": "Webs",
+          "caption": "When caught in a web, it's best to get out before the spider shows up.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/caught-in-a-web.webp"
+        },
+        "Medals": {
+          "name": "Medals",
+          "caption": "Queen Yolande of Celene is grateful for adventurers' aid.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/queen-yolande-awards-adventurers.webp"
+        },
+        "NPCs": {
+          "name": "NPCs",
+          "caption": "Nonplayer characters come in all shapes and sizes.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/nonplayer-characters-shapes-sizes.webp"
+        },
+        "NPC Appearance": {
+          "name": "NPC Appearance",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/character-looks-down-with-swords-in-hand.webp"
+        },
+        "NPC Party Members": {
+          "name": "NPC Party Members",
+          "caption": "As a member of another group of heroes, Niko first joined Sheila, Diana, Eric, and Presto as an NPC healer.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/npc-healer.webp"
+        },
+        "Apply Poison": {
+          "name": "Apply Poison",
+          "caption": "Zarak applies poison to his dagger.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/zarak-applies-poison-to-dagger.webp"
+        },
+        "Settlements": {
+          "name": "Settlements",
+          "caption": "Life in a city is full of fantastical surprises!",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/fantastical-city-surprises.webp"
+        },
+        "Keg Launcher": {
+          "name": "Keg Launcher",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/keg-launcher.webp"
+        },
+        "Mangonel": {
+          "name": "Mangonel",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/mangonel.webp"
+        },
+        "Supernatural Gifts": {
+          "name": "Supernatural Gifts",
+          "caption": "A magical creature like a unicorn might bestow a supernatural gift.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/unicorn-bestows-gift.webp"
+        },
+        "Traps": {
+          "name": "Traps",
+          "caption": "Bobby and Hank barely avoid a fusillade of poisoned darts!",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/bobby-hank-avoid-pusillade-poisoned-darts.webp"
+        },
+        "Chapter Start": {
+          "name": "Chapter Start",
+          "caption": "A blob of annihilation attacks Sharn, the City of Towers, in the world of Eberron.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ch-3-opener-blob-annihilation-eberron.webp"
+        }
+      }
+    },
+    "dmgCh4ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Foundation Shaking Events": {
+          "name": "Foundation Shaking Events",
+          "caption": "The death of an ancient dragon can shake the foundations of the world.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ancient-dragons-lair.webp"
+        },
+        "Common Map Symbols": {
+          "name": "Common Map Symbols",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/common-map-symbols.webp"
+        },
+        "Factions": {
+          "name": "Factions",
+          "caption": "When rival factions inhabit a ruined city, sometimes the best course is to stay out of the way!",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/rival-factions-ruined-city.webp"
+        },
+        "Goblin Ambush": {
+          "name": "Goblin Ambush",
+          "caption": "Goblin raiders prepare an ambush in a gorge.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/goblin-raiders-in-gorge.webp"
+        },
+        "Otto's Magic Mirror": {
+          "name": "Otto's Magic Mirror",
+          "caption": "Otto's conversation with a magic mirror is an exciting social interaction encounter.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/otto-converses-with-magic-mirror.webp"
+        },
+        "Skeletal Warrior": {
+          "name": "Skeletal Warrior",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/skeleton-warrior.webp"
+        },
+        "Monster Behavior": {
+          "name": "Monster Behavior",
+          "caption": "Kobolds build a barricade to keep adventurers at bay.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/kobolds-build-barricade.webp"
+        },
+        "Random Encounters": {
+          "name": "Random Encounters",
+          "caption": "Mysterious lights glimmer in a remote mountain lake, drawing adventurers to explore.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/mysterious-lights-over-remote-mountain-lake.webp"
+        },
+        "Dramatic End": {
+          "name": "Dramatic End",
+          "caption": "A climactic battle at the Temple of Elemental Evil brings an adventure to a dramatic end.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/climactic-battle-temple-of-elemental-evil.webp"
+        },
+        "Boreal Ball": {
+          "name": "Boreal Ball",
+          "caption": "Minsc, Boo, and Delina navigate the intrigues of the Boreal Ball",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/navigating-the-intrigues-of-the-boreal-ball.webp"
+        },
+        "Chapter Start": {
+          "name": "Chapter Start",
+          "caption": "A mysterious carriage brings the vampire Strahd von Zarovich out from Castle Ravenloft.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ch-4-opener-mysterious-carriage-strahd-ravenloft.webp"
+        }
+      }
+    },
+    "dmgCh5ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Chapter Start": {
+          "name": "Chapter Start",
+          "caption": "The arrival of a mind flayer nautiloid means trouble for any world - and adventure for that world's heroes!",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ch-5-opener-mind-flayer-nautiloid.webp"
+        },
+        "Dragon Turtle Fortress": {
+          "name": "Dragon Turtle Fortress",
+          "caption": "Fortresses on the backs of dragon turtles rise from the depths, heralding the return of a long-lost dynasty.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/dragon-turtle-fortress.webp"
+        },
+        "Murlynd with Talking Clock": {
+          "name": "Murlynd with Talking Clock",
+          "caption": "The bold adventurer Murlynd has visited many worlds and has a fondness for six-shooters and talking clocks.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/murlynd-with-talking-clock.webp"
+        },
+        "Funeral Pyre": {
+          "name": "Funeral Pyre",
+          "caption": "A time of sorrow can bring people together and even launch an adventuring party.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/party-at-funeral-pyre.webp"
+        },
+        "Dragonlance Tavern": {
+          "name": "Dragonlance Tavern",
+          "caption": "In the Dragonlance setting, Tanis and Tika call their local inn home: a place to see familiar faces like Fizban the Fabulous.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/dragonlance-inn.webp"
+        },
+        "Tiamat Ends Campaign": {
+          "name": "Tiamat Ends Campaign",
+          "caption": "Tiamat herself brings a campaign to a dramatic close.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/tiamat-strikes.webp"
+        },
+        "Greyhawk Calendar": {
+          "name": "Greyhawk Calendar",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/calendar.webp"
+        },
+        "White Plume Mountain": {
+          "name": "White Plume Mountain",
+          "caption": "White Plume Mountain is a natural wonder - and a haunt of evil.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/white-plume-mountain.webp"
+        },
+        "Free City of Greyhawk Docks": {
+          "name": "Free City of Greyhawk Docks",
+          "caption": "The Free City of Greyhawk rises up behind the teeming city docks.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/free-city-greyhawk-port.webp"
+        },
+        "City Locations (Labeled)": {
+          "name": "City Locations (Labeled)",
+          "src": "modules/dnd-dungeon-masters-guide/assets/scenes/greyhawk-city-map-labeled.webp"
+        },
+        "City Locations (District Labels Only)": {
+          "name": "City Locations (District Labels Only)",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/greyhawk-city-map-districts.webp"
+        },
+        "City Locations (Site Labels Only)": {
+          "name": "City Locations (Site Labels Only)",
+          "src": "modules/dnd-dungeon-masters-guide/assets/scenes/greyhawk-city-map-sites.webp"
+        },
+        "City Locations (Blank)": {
+          "name": "City Locations (Blank)",
+          "src": "modules/dnd-dungeon-masters-guide/assets/scenes/greyhawk-city-map-blank.webp"
+        },
+        "Silver Dragon Inn": {
+          "name": "Silver Dragon Inn",
+          "caption": "The Silver Dragon Inn is a lively hub of activity in Greyhawk's Foreign Quarter.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/silver-dragon-inn.webp"
+        },
+        "Unearthed Arcana Shelves": {
+          "name": "Unearthed Arcana Shelves",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/shelves-of-components-and-equipment.webp"
+        },
+        "City of Greyhawk and Environs (Labeled)": {
+          "name": "City of Greyhawk and Environs (Labeled)",
+          "src": "modules/dnd-dungeon-masters-guide/assets/scenes/greyhawk-environs-labeled.webp"
+        },
+        "City of Greyhawk and Environs (Major Locations, Paths)": {
+          "name": "City of Greyhawk and Environs (Major Locations, Paths)",
+          "src": "modules/dnd-dungeon-masters-guide/assets/scenes/greyhawk-environs-major-locations-paths.webp"
+        },
+        "City of Greyhawk and Environs (Major Locations, No Paths)": {
+          "name": "City of Greyhawk and Environs (Major Locations, No Paths)",
+          "src": "modules/dnd-dungeon-masters-guide/assets/scenes/greyhawk-environs-major-locations-no-paths.webp"
+        },
+        "City of Greyhawk and Environs (Unlabeled)": {
+          "name": "City of Greyhawk and Environs (Unlabeled)",
+          "src": "modules/dnd-dungeon-masters-guide/assets/scenes/greyhawk-environs-blank.webp"
+        },
+        "Eastern Oerik Map (Labeled)": {
+          "name": "Eastern Oerik Map (Labeled)",
+          "src": "modules/dnd-dungeon-masters-guide/assets/scenes/greyhawk-world-map-labeled.webp"
+        },
+        "Eastern Oerik Map (Unlabeled)": {
+          "name": "Eastern Oerik Map (Unlabeled)",
+          "src": "modules/dnd-dungeon-masters-guide/assets/scenes/greyhawk-world-map-blank.webp"
+        },
+        "Festival for Holy Days of Rao": {
+          "name": "Festival for Holy Days of Rao",
+          "caption": "The holy days of Rao are occasions for joyful processions and festivals in Veluna.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/procession-during-holy-day-of-rao.webp"
+        },
+        "Tomb of Horrors": {
+          "name": "Tomb of Horrors",
+          "caption": "The Tomb of Horrors lies deep within the Vast Swamp.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/tomb-of-hororrs.webp"
+        },
+        "North Kingdom Adventurers": {
+          "name": "North Kingdom Adventurers",
+          "caption": "Adventurers int he North Kingdoms help a frost giant's pet mammoth find its way home.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/adventurers-riding-mammoth.webp"
+        },
+        "Beneath Hellfurances Surface": {
+          "name": "Beneath Hellfurances Surface",
+          "caption": "Beneath the beautiful surface of the Hellfurnaces lie endless hidden evils.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/hellfurnaces-surfaces.webp"
+        }
+      }
+    },
+    "dmgCh6ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Chapter Start": {
+          "name": "Chapter Start",
+          "caption": "The Lady of Pain appears without warning in the bustling streets of Sigil, and the city's residents get out of her way.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ch-6-opener-lady-of-pain-appears-sigil.webp"
+        },
+        "Planes": {
+          "name": "Planes",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/inner-outer-planes.webp"
+        },
+        "Planar Portal": {
+          "name": "Planar Portal",
+          "caption": "A portal to the Beastlands opens amid the branches of the World Tree.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/portal-to-the-beastlands-opens-in-world-tree.webp"
+        },
+        "Demonweb Pits": {
+          "name": "Demonweb Pits",
+          "caption": "The detritus of the planes is tangled int he Demonweb Pits.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/detritus-of-the-planes-tangled-in-demonweb-pits.webp"
+        },
+        "Pink Tree": {
+          "name": "Pink Tree",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/pink-tree-in-field.webp"
+        },
+        "Spelljamming Wasp Ship": {
+          "name": "Spelljamming Wasp Ship",
+          "caption": "A spelljamming wasp ship approaches the Githyanki city of Tu'narath.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/spelljammer-wasp-approaches-githyank-city.webp"
+        },
+        "Carceri": {
+          "name": "Carceri",
+          "caption": "Unknown horrors are entrapped in the ice of Carceri.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/unknown-horrors-entrapped-in-ice.webp"
+        },
+        "Elemental Plane of Air": {
+          "name": "Elemental Plane of Air",
+          "caption": "Aarakocra scouts return home to a city on the Plane of Air.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/aarakocra-scouts-return-home.webp"
+        },
+        "City of Brass": {
+          "name": "City of Brass",
+          "caption": "The City of Brass is a hub for trade from across the multiverse.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/city-of-brass-dock.webp"
+        },
+        "Ethereal Plane": {
+          "name": "Ethereal Plane",
+          "caption": "The Radiant Citadel is a refuge in the Ethereal Plane, despite its proximity to a raging ether cyclone.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/radiant-citadel-in-ethereal-plane.webp"
+        },
+        "Ethereal Flower": {
+          "name": "Ethereal Flower",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ethereal-plane-flower.webp"
+        },
+        "Far Realm": {
+          "name": "Far Realm",
+          "caption": "When the Dragon's Tear comet appears above Firestorm Peak, the Vast Gate forms a bridge to the Far Realm.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/dragons-tear-comet-above-firestorm-peak.webp"
+        },
+        "Fey Revel": {
+          "name": "Fey Revel",
+          "caption": "Fey revel in the Gloaming Court under the watchful eye of the Queen of Air and Darkness.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/fey-revel-in-gloaming-court.webp"
+        },
+        "Eberron": {
+          "name": "Eberron",
+          "caption": "With its magical marvels of technology, Eberron is one of countless worlds on the Material Plane.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/magical-marvels-technology-in-eberron.webp"
+        },
+        "Mount Celestia": {
+          "name": "Mount Celestia",
+          "caption": "The seven heavens of Mount Celestia beckon virtuous souls toward ever-greater heights.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/seven-heavens-of-mount-celestia.webp"
+        },
+        "Avernus": {
+          "name": "Avernus",
+          "caption": "The first of the Nine Hells, Avernus, is an eternal battlefield in the Blood War.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/avernus-first-of-the-nine-hells.webp"
+        },
+        "Asmodeus": {
+          "name": "Asmodeus",
+          "caption": "Asmodeus, the Lord of the Nine, maintains a veneer of pleasantry while inflicting agony on imprisoned souls.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/asmodeus-lord-of-the-nine.webp"
+        },
+        "Pandemonium": {
+          "name": "Pandemonium",
+          "caption": "Three adventurers brave the howling winds of Pandemonium in search of Mowler's Crag.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/adventurers-brave-howling-winds-pandemonium.webp"
+        },
+        "Shadowfell": {
+          "name": "Shadowfell",
+          "caption": "The Shadowfell is a realm of death, despair, and dread.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/shadowfell-realm.webp"
+        },
+        "Sigil": {
+          "name": "Sigil",
+          "caption": "In the cosmopolitan streets of Sigil, creatures from across the multiverse coexist in uneasy peace.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/cosmopolitan-streets-of-sigil.webp"
+        }
+      }
+    },
+    "dmgCh7ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Chapter Start": {
+          "name": "Chapter Start",
+          "caption": "The black dragon Onyx guards her treasure hoard in the ruins of Xak Tsaroth.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ch-7-opener-black-dragon-onyx-guards-treasure.webp"
+        },
+        "Coin Purse": {
+          "name": "Coin Purse",
+          "src": "modules/dnd-dungeon-masters-guide/assets/full/items/coin-purse.webp"
+        },
+        "Crafting Magic Items": {
+          "name": "Crafting Magic Items",
+          "caption": "Crafting magic items requires time and research.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/full/items/crafting-magic-item-research.webp"
+        },
+        "Book Artifact": {
+          "name": "Book Artifact",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/artifact-magic-book.webp"
+        },
+        "Kobolds with Treasure": {
+          "name": "Kobolds with Treasure",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/kobolds-with-treasure.webp"
+        }
+      }
+    },
+    "dmgCh8ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Chapter Start": {
+          "name": "Chapter Start",
+          "caption": "A bastion by the sea is more than just an adventurer's getaway. A lot can happen here to fuel stories in the campaign.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/ch-8-opener-bastion-by-sea.webp"
+        },
+        "Bastion Over Time": {
+          "name": "Bastion Over Time",
+          "caption": "A bastion grows over time.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time.webp"
+        },
+        "Potion Brewer's Laboratory Cauldron": {
+          "name": "Potion Brewer's Laboratory Cauldron",
+          "caption": "A cauldron is standard equipment in a potion brewer's laboratory.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/cauldron-brewing.webp"
+        },
+        "Observatory": {
+          "name": "Observatory",
+          "caption": "The addition of an Observatory can lead to the discovery of eldritch secrets lost among the stars.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-observatory.webp"
+        },
+        "Scriptorium Desk": {
+          "name": "Scriptorium Desk",
+          "caption": "A Scriptorium has desks and supplies for crafting books, scrolls, and other paperwork.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-scriptorium.webp"
+        },
+        "Spring Festival": {
+          "name": "Spring Festival",
+          "caption": "A hero's Bastion hosts a spring festival to which everyone is invited.",
+          "src": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-spring-festival.webp"
         }
       }
     }

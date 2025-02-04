@@ -1,10 +1,11 @@
 {
   "label": "Scenes",
+  "mapping": {},
   "folders": {
     "Encounter Maps": "Encounter Maps",
     "Greyhawk": "Greyhawk",
-    "Greyhawk and Environs": "Greyhawk and Environs",
-    "Greyhawk World": "Greyhawk World"
+    "Greyhawk World": "Greyhawk World",
+    "Greyhawk and Environs": "Greyhawk and Environs"
   },
   "entries": {
     "Barrow Crypt": {

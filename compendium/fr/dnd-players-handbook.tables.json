@@ -1,33 +1,34 @@
 {
   "label": "Roll Tables",
-  "folders": { 
-		"Chapter 2": "Chapitre 2",
-		"Descriptions by Ability Score": "Descriptions par Score de Caractéristique",
-		"Personality Traits by Alignment": "Traits de Personnalité par Alignement",
-		"Chapter 3": "Chapitre 3",
-		"Chapter 7": "Chapitre 7",
-		"Reincarnated Lineages": "Lignées Réincarnées"
-	},
+  "mapping": {},
+  "folders": {
+    "Chapter 2": "Chapitre 2",
+    "Chapter 3": "Chapitre 3",
+    "Chapter 7": "Chapitre 7",
+    "Descriptions by Ability Score": "Descriptions par Score de Caractéristique",
+    "Personality Traits by Alignment": "Traits de Personnalité par Alignement",
+    "Reincarnated Lineages": "Lignées Réincarnées"
+  },
   "entries": {
     "Cardinal Directions": {
       "name": "Directions Cardinales",
-      "description": "",
       "results": {
         "1-1": "Nord",
         "2-2": "Est",
         "3-3": "Sud",
         "4-4": "Ouest"
-      }
+      },
+      "description": ""
     },
     "Chaotic Traits": {
       "name": "Traits Chaotiques",
-      "description": "",
       "results": {
         "1-1": "Vantard",
         "2-2": "Impulsif",
         "3-3": "Rebelle",
         "4-4": "Égocentrique"
-      }
+      },
+      "description": ""
     },
     "Charisma": {
       "name": "Charisme",
@@ -80,17 +81,16 @@
     },
     "Evil Traits": {
       "name": "Traits Maléfiques",
-      "description": "",
       "results": {
         "1-1": "Malhonnête",
         "2-2": "Vindicatif",
         "3-3": "Cruel",
         "4-4": "Cupide"
-      }
+      },
+      "description": ""
     },
     "Feywild Gifts": {
       "name": "Dons du Feywild",
-      "description": "",
       "results": {
         "1-1": "Des papillons illusoires voltigent autour de vous pendant que vous prenez un repos court ou long.",
         "2-2": "Des fleurs éclosent dans vos cheveux à chaque aube.",
@@ -98,7 +98,8 @@
         "4-4": "Votre ombre danse quand personne ne la regarde directement.",
         "5-5": "Des cornes ou des bois poussent sur votre tête.",
         "6-6": "Votre peau et vos cheveux changent de couleur chaque aube."
-      }
+      },
+      "description": ""
     },
     "Fiendish Legacy": {
       "name": "Héritage Diabolique",
@@ -119,13 +120,13 @@
     },
     "Good Traits": {
       "name": "Traits Vertueux",
-      "description": "",
       "results": {
         "1-1": "Compatissant",
         "2-2": "Serviable",
         "3-3": "Honnête",
         "4-4": "Aimable"
-      }
+      },
+      "description": ""
     },
     "Intelligence": {
       "name": "Intelligence",
@@ -139,17 +140,16 @@
     },
     "Lawful Traits": {
       "name": "Traits Légaux",
-      "description": "",
       "results": {
         "1-1": "Coopératif",
         "2-2": "Loyal",
         "3-3": "Critique",
         "4-4": "Méthodique"
-      }
+      },
+      "description": ""
     },
     "Manifestations of Order": {
       "name": "Manifestations de l’Ordre",
-      "description": "",
       "results": {
         "1-1": "Des rouages spectraux flottent derrière vous.",
         "2-2": "Les aiguilles d'une horloge tournent dans vos yeux.",
@@ -157,21 +157,21 @@
         "4-4": "Des équations flottantes et des objets géométriques recouvrent votre corps.",
         "5-5": "Votre Focalisateur Arcanique prend temporairement la forme d’un minuscule mécanisme d’horlogerie.",
         "6-6": "Le tic-tac des engrenages ou le son d’une horloge peut être entendu par vous et par ceux affectés par votre magie."
-      }
+      },
+      "description": ""
     },
     "Neutral Traits": {
       "name": "Traits Neutres",
-      "description": "",
       "results": {
         "1-1": "Égoïste",
         "2-2": "Désintéressé",
         "3-3": "Laconique",
         "4-4": "Pragmatique"
-      }
+      },
+      "description": ""
     },
     "Prismatic Layers": {
       "name": "Couches Prismatiques",
-      "description": "",
       "results": {
         "1-1": "<p><strong>Rouge.</strong><em> Échec au jet de sauvegarde :</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> dégâts de feu</span>. <em>Jet réussi :</em> Moitié moins de dégâts. <em>Effets supplémentaires :</em> Les attaques à distance non magiques ne peuvent pas traverser cette couche, qui est détruite si elle subit au moins 25 points de dégâts de froid.</p>",
         "2-2": "<p><strong>Orange.</strong><em> Échec au jet de sauvegarde :</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> dégâts d'acide</span>. <em>Jet réussi :</em> Moitié moins de dégâts. <em>Effets supplémentaires :</em> Les attaques à distance magiques ne peuvent pas traverser cette couche, qui est détruite par un vent fort (comme celui créé par le sort <em>Rafale de vent</em>).</p>",
@@ -180,11 +180,11 @@
         "5-5": "<p><strong>Bleu.</strong><em> Échec au jet de sauvegarde :</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> dégâts de froid</span>. <em>Jet réussi :</em> Moitié moins de dégâts. <em>Effets supplémentaires :</em> La couche est détruite si elle subit au moins 25 points de dégâts de feu.</p>",
         "6-6": "<p><strong>Indigo.</strong><em> Échec au jet de sauvegarde :</em> La cible est <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Entravée</a></span> et effectue un jet de sauvegarde de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a></span> à la fin de chacun de ses tours. Si elle réussit trois fois, la condition prend fin. Si elle échoue trois fois, elle devient <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Pétrifiée</a></span> jusqu'à ce qu'elle soit libérée par un effet tel que le sort <em>Restauration suprême</em>. Les réussites et échecs ne sont pas obligatoirement consécutifs; gardez une trace jusqu'à ce que la cible obtienne trois réussites ou échecs.</p>",
         "7-7": "<p><strong>Violet.</strong><em> Échec au jet de sauvegarde :</em> La cible est <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Aveuglée</a></span> et effectue un jet de sauvegarde de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Sagesse</a></span> au début de votre prochain tour. Sur une réussite, la condition prend fin. Sur un échec, la condition prend fin et la créature est téléportée sur un autre plan d'existence (au choix du MJ). <em>Effets supplémentaires :</em> Cette couche est détruite par <em>Dissipation de la magie</em>.</p>"
-      }
+      },
+      "description": ""
     },
     "Prismatic Rays": {
       "name": "Rayons Prismatiques",
-      "description": "",
       "results": {
         "1-1": "<p><strong>Rouge.</strong><em> Échec au jet de sauvegarde :</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> dégâts de feu</span>. <em>Jet réussi :</em> Moitié moins de dégâts.</p>",
         "2-2": "<p><strong>Orange.</strong><em> Échec au jet de sauvegarde :</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> dégâts d'acide</span>. <em>Jet réussi :</em> Moitié moins de dégâts.</p>",
@@ -192,8 +192,10 @@
         "4-4": "<p><strong>Vert.</strong><em> Échec au jet de sauvegarde :</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> dégâts de poison</span>. <em>Jet réussi :</em> Moitié moins de dégâts.</p>",
         "5-5": "<p><strong>Bleu.</strong><em> Échec au jet de sauvegarde :</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> dégâts de froid</span>. <em>Jet réussi :</em> Moitié moins de dégâts.</p>",
         "6-6": "<p><strong>Indigo.</strong><em> Échec au jet de sauvegarde :</em> La cible est <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Entravée</a></span> et effectue un jet de sauvegarde de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a></span> à la fin de chacun de ses tours. Si elle réussit trois fois, la condition prend fin. Si elle échoue trois fois, elle devient <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Pétrifiée</a></span> jusqu'à ce qu'elle soit libérée par un effet tel que le sort <em>Restauration suprême</em>. Les réussites et échecs ne sont pas obligatoirement consécutifs; gardez une trace jusqu'à ce que la cible obtienne trois réussites ou échecs.</p>",
-        "7-7": "<p><strong>Violet.</strong><em> Échec au jet de sauvegarde :</em> La cible est <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Aveuglée</a></span> et effectue un jet de sauvegarde de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Sagesse</a></span> au début de votre prochain tour. Sur une réussite, la condition prend fin. Sur un échec, la condition prend fin et la créature est téléportée sur un autre plan d'existence (au choix du MJ).</p>"
-      }
+        "7-7": "<p><strong>Violet.</strong><em> Échec au jet de sauvegarde :</em> La cible est <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Aveuglée</a></span> et effectue un jet de sauvegarde de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Sagesse</a></span> au début de votre prochain tour. Sur une réussite, la condition prend fin. Sur un échec, la condition prend fin et la créature est téléportée sur un autre plan d'existence (au choix du MJ).</p>",
+        "8-8": "<p><strong>Special.</strong> The target is struck by two rays. Roll twice, rerolling any 8.</p>"
+      },
+      "description": ""
     },
     "Reincarnated Species": {
       "name": "Espèces Réincarnées",
@@ -213,14 +215,13 @@
     },
     "Standard Languages": {
       "name": "Langues Standard",
-      "description": "",
       "results": {
         "1-1": "Table des Sous-Langues"
-      }
+      },
+      "description": ""
     },
     "Star Map Forms": {
       "name": "Formes de Carte Stellaire",
-      "description": "",
       "results": {
         "1-1": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapScroll]{parchemin} portant des représentations de constellations",
         "2-2": "Une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapStoneT]{tablette en pierre} percée de trous fins",
@@ -228,7 +229,8 @@
         "4-4": "Une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapBoundI]{collection de cartes} reliée dans une couverture d’ébène",
         "5-5": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapCrysta]{cristal} gravé de motifs étoilés",
         "6-6": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapGlassD]{disque en verre} gravé de constellations"
-      }
+      },
+      "description": ""
     },
     "Strength": {
       "name": "Force",
@@ -242,7 +244,6 @@
     },
     "Sub-Languages Table": {
       "name": "Table des Sous-Langues",
-      "description": "",
       "results": {
         "1-1": "<strong>Langue :</strong> Langue des Signes Commune. <strong>Origine :</strong> Sigil.",
         "2-2": "<strong>Langue :</strong> Draconique. <strong>Origine :</strong> Dragons.",
@@ -253,7 +254,8 @@
         "9-9": "<strong>Langue :</strong> Gobelin. <strong>Origine :</strong> Gobelinoïdes.",
         "10-11": "<strong>Langue :</strong> Halfelin. <strong>Origine :</strong> Halfelins.",
         "12-12": "<strong>Langue :</strong> Orc. <strong>Origine :</strong> Orcs."
-      }
+      },
+      "description": ""
     },
     "Teleport Mishap": {
       "name": "Incident de Téléportation",
@@ -276,7 +278,6 @@
     },
     "Trinkets": {
       "name": "Babiole",
-      "description": "",
       "results": {
         "1-1": "Une main de gobelin momifiée",
         "2-2": "Un cristal qui luit faiblement sous le clair de lune",
@@ -378,11 +379,11 @@
         "98-98": "Un bocal en verre contenant du saindoux avec une étiquette indiquant « Graisse de Griffon »",
         "99-99": "Une boîte en bois avec un fond en céramique contenant un ver vivant avec une tête à chaque extrémité",
         "100-100": "Une urne métallique contenant les cendres d’un héros"
-      }
+      },
+      "description": ""
     },
     "Wild Magic Surge": {
       "name": "Jaillissement de Magie Sauvage",
-      "description": "",
       "results": {
         "1-4": "Lancez sur cette table au début de chacun de vos tours pendant la prochaine minute, en ignorant ce résultat lors des lancers suivants.",
         "5-8": "Une créature Amicale à votre égard apparaît dans un espace inoccupé aléatoire situé dans un rayon de 18 mètres autour de vous. La créature est contrôlée par le MD et disparaît au bout d’une minute. Lancez [[/r 1d4]] pour déterminer la créature : sur un 1, un Duodrone Modron apparaît ; sur un 2, un Flumph apparaît ; sur un 3, un Monodrone Modron apparaît ; sur un 4, une Licorne apparaît. Consultez le Manuel des Monstres pour les statistiques de la créature.",
@@ -409,7 +410,8 @@
         "89-92": "Jusqu’à trois créatures de votre choix que vous pouvez voir dans un rayon de 9 mètres subissent [[/damage 4d10 type=lightning]] dégâts de Foudre.",
         "93-96": "Vous et toutes les créatures situées dans un rayon de 9 mètres autour de vous avez la Vulnérabilité aux dégâts Perforants pendant la prochaine minute.",
         "97-100": "Lancez [[/r 1d6]] : sur un 1, vous regagnez [[/healing 2d10]]{2d10} Points de Vie ; sur un 2, un allié de votre choix situé dans un rayon de 90 mètres regagne [[/healing 2d10]]{2d10} Points de Vie ; sur un 3, vous regagnez votre emplacement de sort dépensé de plus bas niveau ; sur un 4, un allié de votre choix situé dans un rayon de 90 mètres regagne son emplacement de sort dépensé de plus bas niveau ; sur un 5, vous regagnez tous vos Points de Sorcellerie dépensés ; sur un 6, tous les effets de la ligne 17–20 vous affectent simultanément."
-      }
+      },
+      "description": ""
     },
     "Wisdom": {
       "name": "Sagesse",
