@@ -1989,11 +1989,11 @@
       }
     },
     "Guiding Bolt": {
-      "name": "Trait Guidant",
+      "name": "Éclair traçant",
       "description": "<p>Vous lancez un trait de lumière vers une créature dans la portée. Effectuez une attaque de sort à distance contre la cible. En cas de succès, elle subit 4d6 dégâts radiants, et le prochain jet d'attaque contre elle avant la fin de votre prochain tour bénéficie d’un Avantage.</p><p><strong>Utilisation d’un emplacement de sort supérieur.</strong> Les dégâts augmentent de 1d6 pour chaque niveau d'emplacement supérieur au 1er.</p>",
       "effects": {
         "Guiding Bolt": {
-          "name": "Guiding Bolt",
+          "name": "Éclair traçant",
           "description": "<p><span style=\"font-family:Signika, sans-serif\">The next attack roll made against the target before the end of your next turn has Advantage.</span></p>"
         }
       }
