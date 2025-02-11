@@ -163,7 +163,7 @@
       }
     },
     "Animal Speaker": {
-      "name": "Parleur animalier",
+      "name": "Voix Animale",
       "description": "<p>Vous pouvez lancer les sorts @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense]{Sens bestial} et @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Parler avec les animaux} mais uniquement en tant que rituels. La Sagesse est votre caractéristique de lancement de sorts pour ces sorts.</p><section class=\"secret\" id=\"secret-BXxC4W21QpMgqgeQ\"><p><strong>Note Foundry</strong></p><p>Lorsque vous atteignez le niveau 3, ces sorts sont ajoutés à l'onglet de vos sorts en tant que rituels utilisant votre modificateur de Sagesse.</p></section>"
     },
     "Aquatic Affinity": {
@@ -885,8 +885,8 @@
       }
     },
     "Channel Divinity": {
-      "name": "Canalisation de Divinité",
-      "description": "<p>Vous pouvez canaliser l'énergie divine directement des Plans Extérieurs pour alimenter des effets magiques. Vous commencez avec un tel effet : Détection Divine, qui est décrit ci-dessous. D'autres fonctionnalités de Paladin donnent des options supplémentaires d'effets de Canalisation de Divinité. Chaque fois que vous utilisez la Canalisation de Divinité de cette façon, vous choisissez l'effet souhaité parmi ceux disponibles à vous.</p><p>Vous pouvez utiliser votre Canalisation de Divinité deux fois entre chaque repos Long. Lorsque vous atteignez le niveau 18 dans cette classe, vous pouvez l'utiliser trois fois entre chaque repos Long.</p><section class=\"secret\" id=\"secret-8iXaNsYcn8ulTwKs\"><p><strong>Note Foundry</strong></p><p>Ce sera visible dans l'onglet « Lancer une capacité » lorsque les effets de Canalisation de Divinité sont configurés.</p></section>",
+      "name": "Canalisation Divine",
+      "description": "<p>Vous pouvez canaliser l'énergie divine directement des Plans Extérieurs pour alimenter des effets magiques. Vous commencez avec un tel effet : Détection Divine, qui est décrit ci-dessous. D'autres fonctionnalités de Paladin donnent des options supplémentaires d'effets de Canalisation Divine. Chaque fois que vous utilisez la Canalisation Divine de cette façon, vous choisissez l'effet souhaité parmi ceux disponibles à vous.</p><p>Vous pouvez utiliser votre Canalisation Divine deux fois entre chaque repos Long. Lorsque vous atteignez le niveau 18 dans cette classe, vous pouvez l'utiliser trois fois entre chaque repos Long.</p><section class=\"secret\" id=\"secret-8iXaNsYcn8ulTwKs\"><p><strong>Note Foundry</strong></p><p>Ce sera visible dans l'onglet « Lancer une capacité » lorsque les effets de Canalisation Divine sont configurés.</p></section>",
       "activities": {
         "Divine Spark: Heal": {
           "name": "Étincelle Divine : Soin"
@@ -1009,7 +1009,7 @@
           "title": "Caractéristiques de Classe"
         },
         "Channel Divinity Uses": {
-          "title": "Utilisations de Canalisation de Divinité"
+          "title": "Utilisations de Canalisation Divine"
         },
         "Max Prepared Spells": {
           "title": "Maximum de Sorts Préparés"
@@ -1691,7 +1691,7 @@
     },
     "Elder Champion": {
       "name": "Champion Ancien",
-      "description": "<p>En tant qu'action bonus, vous pouvez imprégner votre Aura de Protection d'une puissance primordiale, accordant les avantages ci-dessous pendant 1 minute ou jusqu'à ce que vous y mettiez fin (aucune action requise). Une fois que vous utilisez cette caractéristique, vous ne pouvez pas la réutiliser avant d'avoir terminé un repos long. Vous pouvez également restaurer son utilisation en dépensant un emplacement de sort de niveau 5 (aucune action requise).</p><p><strong>Affaiblissement de la Défense.</strong> Les ennemis dans l'aura ont un désavantage aux jets de sauvegarde contre vos sorts et options de Canalisation de Divinité.</p><p><strong>Régénération.</strong> Au début de chacun de vos tours, vous regagnez 10 points de vie.</p><p><strong>Sorts Rapides.</strong> Chaque fois que vous lancez un sort ayant un temps d'incantation d'une action, vous pouvez le lancer en utilisant une action bonus à la place.</p><section id=\"secret-EKKHqruZyH8NdBEa\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Champion Ancien</strong> consomme une utilisation et inclut un Effet Actif pour suivre les créatures impactées par la Défense Réduite.</p><p>L'activité <strong>Régénération</strong> inclut les 10 points de vie que vous pouvez regagner chaque tour.</p><p>L'activité <strong>Restaurer l'Utilisation</strong> consomme un emplacement de sort de niveau 5 et restaure une utilisation de cette caractéristique.</p></section>",
+      "description": "<p>En tant qu'action bonus, vous pouvez imprégner votre Aura de Protection d'une puissance primordiale, accordant les avantages ci-dessous pendant 1 minute ou jusqu'à ce que vous y mettiez fin (aucune action requise). Une fois que vous utilisez cette caractéristique, vous ne pouvez pas la réutiliser avant d'avoir terminé un repos long. Vous pouvez également restaurer son utilisation en dépensant un emplacement de sort de niveau 5 (aucune action requise).</p><p><strong>Affaiblissement de la Défense.</strong> Les ennemis dans l'aura ont un désavantage aux jets de sauvegarde contre vos sorts et options de Canalisation Divine.</p><p><strong>Régénération.</strong> Au début de chacun de vos tours, vous regagnez 10 points de vie.</p><p><strong>Sorts Rapides.</strong> Chaque fois que vous lancez un sort ayant un temps d'incantation d'une action, vous pouvez le lancer en utilisant une action bonus à la place.</p><section id=\"secret-EKKHqruZyH8NdBEa\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Champion Ancien</strong> consomme une utilisation et inclut un Effet Actif pour suivre les créatures impactées par la Défense Réduite.</p><p>L'activité <strong>Régénération</strong> inclut les 10 points de vie que vous pouvez regagner chaque tour.</p><p>L'activité <strong>Restaurer l'Utilisation</strong> consomme un emplacement de sort de niveau 5 et restaure une utilisation de cette caractéristique.</p></section>",
       "activities": {
         "Elder Champion": {
           "name": "Champion Ancien"
@@ -2939,7 +2939,7 @@
       "description": "<p>Vous pouvez effectuer un rite ésotérique pendant 1 minute. À la fin de ce rite, vous récupérez des emplacements de sorts de Pacte Magique dépensés, sans dépasser un nombre égal à la moitié de votre maximum (arrondi au supérieur). Une fois que vous avez utilisé cette capacité, vous ne pouvez plus le faire avant d’avoir terminé un Repos Long.</p><section id=\"secret-uXJIaDc9mWHsrILV\" class=\"secret\"><p><strong>Note pour Foundry</strong></p><p>Cette capacité comprend une utilisation gratuite et restaurera le nombre correct d'emplacements de sorts de Pacte Magique.</p></section>",
       "activities": {
         "Regain Pact Spell Slots": {
-          "name": "Regain Pact Spell Slots"
+          "name": "Récupération du Pacte : Emplacements de Sorts"
         }
       }
     },
@@ -2954,11 +2954,11 @@
     "Maneuvering Attack": {
       "name": "Attaque de Manœuvre",
       "description": "<p>Lorsque vous touchez une créature avec un jet d'attaque, vous pouvez dépenser un dé de Supériorité pour manœuvrer un de vos camarades dans une autre position. Ajoutez le résultat du dé de Supériorité au jet de dégâts de l'attaque, et choisissez une créature consentante qui peut vous voir ou vous entendre. Cette créature peut utiliser sa Réaction pour se déplacer jusqu'à la moitié de sa Vitesse sans provoquer une Attaque d'Opportunité de la part de la cible de votre attaque.</p>",
-      "activities": {
-        "Maneuver": {
-          "name": "Maneuver",
-          "roll": "Attack Bonus",
-          "condition": "When you hit a creature with an attack roll"
+      "activités": {
+        "Manœuvre": {
+          "nom": "Manœuvre",
+          "jet": "Bonus d'attaque",
+          "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
         }
       }
     },
@@ -2975,15 +2975,15 @@
       "description": "<p>Vous avez toujours le sort @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Commandement} préparé.</p><p>Comme Action Bonus, vous lancez <em>Commandement</em> sans dépenser de slot de sort, et vous prenez une apparence surnaturelle pendant 1 minute ou jusqu'à ce que votre Concentration prenne fin. Pendant ce temps, vous pouvez lancer <em>Commandement</em> en tant qu'Action Bonus sans dépenser de slot de sort.</p><p>Toute créature &amp;Reference[Charmed] par vous échoue automatiquement à son jet de sauvegarde contre le <em>Commandement</em> que vous lancez avec cette caractéristique.</p><p>Une fois que vous utilisez cette caractéristique, vous ne pouvez plus l'utiliser avant d'avoir terminé un Long Repos. Vous pouvez également restaurer votre utilisation en dépensant un slot de sort de niveau 3+ (aucune action requise).</p><section class=\"secret\" id=\"secret-MMFYPO9Is3ifsQRP\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Restaurer avec un Slot de Sort</strong> accorde une utilisation supplémentaire de cette caractéristique.</p><p>Les sorts sont automatiquement ajoutés à votre feuille comme toujours préparés.</p></section>",
       "activities": {
         "Unearthly Appearance": {
-          "name": "Unearthly Appearance"
+          "name": "Apparence Surnaturelle"
         },
         "Restore with Spell Slot": {
-          "name": "Restore with Spell Slot"
+          "name": "Restauration avec Emplacement de Sort"
         }
       },
       "effects": {
         "Unearthly Appearance": {
-          "name": "Unearthly Appearance"
+          "name": "Apparence Surnaturelle"
         }
       }
     },
@@ -2992,18 +2992,18 @@
       "description": "<p>Votre pratique des arts martiaux vous confère une maîtrise des styles de combat utilisant votre Frappe à Mains Nues et les armes de Moine, qui sont les suivantes :</p><ul><li>Armes de Mêlée simples</li><li>Armes de Mêlée martiales qui possèdent la propriété Légère</li></ul><p>Vous gagnez les avantages suivants lorsque vous êtes désarmé ou ne maniez que des armes de Moine et que vous ne portez pas d'armure ni de Bouclier.</p><p><strong>Frappe à Mains Nues Bonus.</strong> Vous pouvez faire une Frappe à Mains Nues en tant qu'Action Bonus.</p><p><strong>Dé d'Arts Martiaux.</strong> Vous pouvez lancer 1d6 à la place des dégâts normaux de votre Frappe à Mains Nues ou de vos armes de Moine. Ce dé change à mesure que vous gagnez des niveaux de Moine, comme indiqué dans la colonne Arts Martiaux de la table des caractéristiques du Moine.</p><p><strong>Dé d'Arts Martiaux actuel :</strong> [[lookup @scale.monk.die]]</p><p><strong>Attaques Dextres.</strong> Vous pouvez utiliser votre modificateur de Dextérité au lieu de votre modificateur de Force pour les jets d'attaque et de dégâts de vos Frappes à Mains Nues et armes de Moine. De plus, lorsque vous utilisez l'option de Saisie ou de Poussée avec votre Frappe à Mains Nues, vous pouvez utiliser votre modificateur de Dextérité au lieu de votre modificateur de Force pour déterminer le DD de sauvegarde.</p><section class=\"secret\" id=\"secret-krbGYn2lplFe7kOG\"><p><strong>Note Foundry</strong></p><p>Cette caractéristique inclut des activités pour enchanter une arme, ajoutant une activité <strong>Attaque de Moine</strong> qui intègre les modifications mentionnées ci-dessus.</p></section>",
       "activities": {
         "Master Simple Weapon": {
-          "name": "Master Simple Weapon"
+          "name": "Maîtrise des Armes Simples"
         },
         "Master Light Martial Weapon": {
-          "name": "Master Light Martial Weapon"
+          "name": "Maîtrise des Armes Martiales Légères"
         },
         "Monk Attack": {
-          "name": "Monk Attack"
+          "name": "Attaque de Moine"
         }
       },
       "effects": {
         "Martial Arts": {
-          "name": "Martial Arts"
+          "name": "Arts Martiaux"
         }
       }
     },
@@ -3021,8 +3021,8 @@
       },
       "effects": {
         "Disguised": {
-          "name": "Disguised",
-          "description": "<p><span style=\"font-family:Signika, sans-serif\">To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your spell save DD.</span></p>"
+          "name": "Déguisé",
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">Pour discerner que vous êtes déguisé, une créature doit utiliser l’action Étudier pour inspecter votre apparence et réussir un [[/check ability=int skill=inv]] contre votre DD de sauvegarde de sort.</span></p>"
         }
       }
     },
@@ -3031,35 +3031,35 @@
       "description": "<blockquote><p>Prérequis : Niveau 5+ Ensorceleur</p></blockquote><p>Vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Altération d'Apparence} sans dépenser de slot de sort.</p><section class=\"secret\" id=\"secret-x7wmXuFqGaXQspxB\"><p><strong>Note Foundry</strong></p><p>Cette caractéristique inclut les activités d'Altération d'Apparence.</p><p>Les activités <strong>Adaptation Aquatique</strong>, <strong>Changement d'Apparence</strong> et <strong>Armes Naturelles</strong> incluent des Effets Actifs pour suivre votre choix et nécessitent de la Concentration.</p><p>Les activités <strong>Attaque</strong> peuvent être utilisées pour vos jets d'attaque/dégâts lorsque vous choisissez l'option <strong>Armes Naturelles</strong>.</p></section>",
       "activities": {
         "Aquatic Adaptation": {
-          "name": "Aquatic Adaptation"
+          "name": "Adaptation Aquatique"
         },
         "Change Appearance": {
-          "name": "Change Appearance"
+          "name": "Changement d'Apparence"
         },
         "Natural Weapons": {
-          "name": "Natural Weapons"
+          "name": "Armes Naturelles"
         },
         "Attack: Claws": {
-          "name": "Attack: Claws"
+          "name": "Attaque : Griffes"
         },
         "Attack: Fangs/Horns": {
-          "name": "Attack: Fangs/Horns"
+          "name": "Attaque : Crocs/Cornes"
         },
         "Attack: Hooves": {
-          "name": "Attack: Hooves"
+          "name": "Attaque : Sabots"
         }
       },
       "effects": {
         "Aquatic Adaptation": {
-          "name": "Aquatic Adaptation",
-          "description": "<p>You can breathe underwater and gain a Swim Speed equal to your Speed.</p>"
+          "name": "Adaptation Aquatique",
+          "description": "<p>Vous pouvez respirer sous l’eau et vous obtenez une vitesse de nage égale à votre vitesse.</p>"
         },
         "Altered Appearance": {
-          "name": "Altered Appearance"
+          "name": "Apparence Altérée"
         },
         "Natural Weapon": {
-          "name": "Natural Weapon",
-          "description": "<p>When you use your Unarmed Strike to deal damage with that new growth, it deals 1d6 damage of the type in parentheses instead of dealing the normal damage for your Unarmed Strike, and you use your spellcasting ability modifier for the attack and damage rolls rather than using Strength.</p>"
+          "name": "Arme Naturelle",
+          "description": "<p>Lorsque vous utilisez votre Coup Non Armé pour infliger des dégâts avec cette nouvelle excroissance, il inflige 1d6 dégâts du type indiqué entre parenthèses au lieu des dégâts normaux de votre Coup Non Armé, et vous utilisez votre modificateur de capacité d’incantation pour les jets d’attaque et de dégâts au lieu de la Force.</p>"
         }
       }
     },
@@ -3072,17 +3072,17 @@
       "description": "<p>Quand vous touchez une créature avec un jet d'attaque, vous pouvez dépenser un dé de supériorité pour tenter d'effrayer la cible. Ajoutez le dé de supériorité aux dégâts de l'attaque. La cible doit réussir un jet de sauvegarde de Sagesse ou être effrayée jusqu'à la fin de votre prochain tour.</p><section class=\"secret\" id=\"secret-sPNAs2sYsogCvvxn\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut une activité de <strong>Jet de sauvegarde de Force</strong> et une activité de <strong>Jet de sauvegarde de Dextérité</strong> qui consommera un dé de supériorité.</p><p>L'activité <strong>Dégâts</strong> vous permet de sélectionner le type de dégâts qu'elle inflige dans la boîte de dialogue de jet.</p></section>",
       "activities": {
         "Save Against Strength": {
-          "name": "Save Against Strength",
-          "condition": "When you hit a creature with an attack roll"
+          "name": "Jet de Sauvegarde contre la Force",
+          "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
         },
         "Save Against Dexterity": {
-          "name": "Save Against Dexterity",
-          "condition": "When you hit a creature with an attack roll"
+          "name": "Jet de Sauvegarde contre la Dextérité",
+          "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
         }
       },
       "effects": {
         "Menaced": {
-          "name": "Menaced"
+          "name": "Menacé"
         }
       }
     },
@@ -3094,30 +3094,30 @@
       "name": "Rage Insensible",
       "description": "<p>Vous êtes immunisé contre les conditions &amp;Reference[Charmed] et &amp;Reference[Frightened] tant que votre Rage est active. Si vous êtes charmé ou effrayé lorsque vous entrez en Rage, la condition prend fin sur vous.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un effet actif qui accorde l'immunité contre les conditions Charmé et Effrayé. Il n'est pas appliqué automatiquement lorsque vous commencez votre Rage.</p></section>",
       "effects": {
-        "Mindless Rage": {
-          "name": "Mindless Rage"
-        }
+      "Mindless Rage": {
+        "name": "Rage Insensible"
       }
+    }
     },
     "Misty Escape": {
       "name": "Évasion Brumeuse",
       "description": "<p>Vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Pas Brumeux} en tant que Réaction en réponse aux dégâts reçus.</p><p>De plus, les effets suivants font désormais partie de vos options Pas des Fééries.</p><p><strong>Pas Disparaissant. </strong>Vous êtes &amp;Reference[Invisible] jusqu'au début de votre prochain tour ou jusqu'à ce que vous fassiez immédiatement un jet d'attaque, infligiez des dégâts ou lanciez un sort.</p><p><strong>Pas Effrayant.</strong> Les créatures situées à moins de 1,5 mètre de l'espace que vous avez quitté ou de l'espace où vous apparaissez (à votre choix) doivent réussir un jet de sauvegarde de Sagesse contre le DD de sauvegarde de votre sort ou subir 2d10 dégâts psychiques.</p><section class=\"secret\" id=\"secret-TTIMVNpwS90Cackr\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Pas Disparaissant</strong> inclut un effet actif appliquant la condition Invisible.</p><p>Le sort vous est automatiquement accordé à mesure que vous montez de niveau.</p></section>",
       "activities": {
         "Disappearing Step": {
-          "name": "Disappearing Step",
-          "condition": "After teleporting"
+          "name": "Pas Disparition",
+          "condition": "Après une téléportation"
         },
         "Dreadful Step": {
-          "name": "Dreadful Step",
-          "condition": "After teleporting"
+          "name": "Pas Effroyable",
+          "condition": "Après une téléportation"
         },
         "2ceGTpBbBclN3qF9": {
-          "condition": "After taking damage"
+          "condition": "Après avoir subi des dégâts"
         }
       },
       "effects": {
         "Disappearing Step": {
-          "name": "Disappearing Step"
+          "name": "Pas Disparition"
         }
       }
     },
@@ -3130,7 +3130,7 @@
       "description": "<p>Vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Pas Brumeux} sans dépenser de slot de sort. Vous pouvez le faire un nombre de fois égal à votre modificateur de Sagesse (au moins une fois), et vous récupérez toutes les utilisations dépensées lorsque vous terminez un repos long.</p><p>De plus, chaque fois que vous lancez <em>Pas Brumeux</em>, vous pouvez emmener une créature consentante que vous pouvez voir à moins de 1,5 mètre de vous. Cette créature se téléporte dans un espace inoccupé de votre choix à moins de 1,5 mètre de votre destination.</p><section id=\"secret-ZBwLFJ6wcrANu0xZ\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette capacité peut être utilisée pour suivre vos utilisations limitées. Ensuite, vous pouvez lancer le sort normalement et décocher la case \"Consommation\".</p></section>",
       "activities": {
         "Wander": {
-          "name": "Wander"
+          "name": "Errer"
         }
       }
     },
@@ -3142,16 +3142,16 @@
           "title": "Caractéristiques de Classe"
         },
         "Body and Mind": {
-          "title": "Body and Mind"
+          "title": "Corps et Esprit"
         },
         "Martial Arts Die": {
-          "title": "Martial Arts Die"
+          "title": "Dé d'Arts Martiaux"
         },
         "Unarmored Movement": {
-          "title": "Unarmored Movement"
+          "title": "Déplacement Sans Armure"
         },
         "Disciplined Survivor": {
-          "title": "Disciplined Survivor"
+          "title": "Survivant Discipliné"
         },
         "Epic Boon": {
           "title": "Don Épique"
@@ -3169,7 +3169,7 @@
           "title": "Maîtrises des Outils"
         },
         "Focus Points": {
-          "title": "Focus Points"
+          "title": "Points de Concentration"
         }
       }
     },
@@ -3178,24 +3178,24 @@
       "description": "<p>Votre concentration et votre entraînement martial vous permettent de puiser dans une énergie extraordinaire en vous. Cette énergie est représentée par des Points de Concentration. Votre niveau de Moine détermine le nombre de points que vous avez, comme indiqué dans la colonne Points de Concentration du tableau des Caractéristiques du Moine.</p><p>Vous pouvez dépenser ces points pour améliorer ou alimenter certaines caractéristiques du Moine. Vous commencez avec la connaissance de trois de ces caractéristiques : Rafale de Coups, Défense Patiente et Pas du Vent, chacune étant détaillée ci-dessous.</p><p>Lorsque vous dépensez un Point de Concentration, il est indisponible jusqu'à ce que vous terminiez un repos court ou long, à la fin duquel vous récupérez tous vos points dépensés.</p><p>Certaines caractéristiques utilisant des Points de Concentration nécessitent que votre cible effectue un jet de sauvegarde. Le DD de sauvegarde est égal à 8 plus votre modificateur de Sagesse et votre bonus de compétence.</p><p><strong>Rafale de Coups.</strong> Vous pouvez dépenser 1 Point de Concentration pour effectuer deux frappes à mains nues en tant qu'Action Bonus.</p><p><strong>Défense Patiente.</strong> Vous pouvez effectuer l'action de Désengagement en tant qu'Action Bonus. Alternativement, vous pouvez dépenser 1 Point de Concentration pour effectuer à la fois les actions de Désengagement et d'Esquive en tant qu'Action Bonus.</p><p><strong>Pas du Vent.</strong> Vous pouvez effectuer l'action de Ruée en tant qu'Action Bonus. Alternativement, vous pouvez dépenser 1 Point de Concentration pour effectuer à la fois les actions de Désengagement et de Ruée en tant qu'Action Bonus, et votre distance de saut est doublée pour le tour.</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Rafale de Coups</strong> est une Action Bonus qui dépense un Point de Concentration et inclut le Jet d'Attaque et les Dégâts pour une frappe à mains nues utilisant votre Dé d'Arts Martiaux, qui se met automatiquement à jour lorsque vous gagnez des niveaux.</p><p>L'activité Défense Patiente en Action Bonus inclut un Effet Actif pour indiquer que vous êtes Désengagé. L'activité <strong>Défense Patiente (Point de Concentration)</strong> dépense un Point de Concentration et inclut un Effet Actif ajoutant le statut d'Esquive.</p><p>L'activité <strong>Pas du Vent</strong> en Action Bonus dépense 1 Point de Concentration et inclut un Effet Actif pour indiquer que vous êtes Désengagé.</p></section>",
       "activities": {
         "Flurry of Blows": {
-          "name": "Flurry of Blows"
+          "name": "Pluie de Coups"
         },
         "Patient Defense (Focus Point)": {
-          "name": "Patient Defense (Focus Point)"
+          "name": "Défense Patiente (Point de Focus)"
         },
         "Patient Defense": {
-          "name": "Patient Defense"
+          "name": "Défense Patiente"
         },
         "Step of the Wind": {
-          "name": "Step of the Wind"
+          "name": "Pas du Vent"
         }
       },
       "effects": {
         "Patient Defense (Focus Point)": {
-          "name": "Patient Defense (Focus Point)"
+          "name": "Défense Patiente (Point de Focus)"
         },
         "Disengaged": {
-          "name": "Disengaged"
+          "name": "Dégagé"
         }
       }
     },
@@ -3207,12 +3207,12 @@
           "name": "Transport"
         },
         "Recharge with Spell Slot": {
-          "name": "Recharge with Spell Slot"
+          "name": "Recharge avec Emplacement de Sort"
         }
       },
       "effects": {
         "Moonlight Step": {
-          "name": "Moonlight Step"
+          "name": "Pas de Lune"
         }
       }
     },
@@ -3225,11 +3225,11 @@
       "description": "<p>Vous pouvez lancer un des sorts de niveau 1+ que vous avez préparé depuis votre caractéristique de Sorts du Cercle sans dépenser d'emplacement de sort, et vous devez terminer un repos long avant de pouvoir le faire à nouveau.</p><p>De plus, lorsque vous terminez un repos court, vous pouvez choisir des emplacements de sort dépensés à récupérer. Les emplacements de sort peuvent avoir un niveau combiné égal ou inférieur à la moitié de votre niveau de Druide (arrondi à l'entier supérieur, actuellement [[lookup @classes.druid.levels]]), et aucun ne peut être de niveau 6 ou plus. Par exemple, si vous êtes un Druide de niveau 6, vous pouvez récupérer jusqu'à trois niveaux d'emplacements de sort. Vous pouvez récupérer un emplacement de sort de niveau 3, un de niveau 2 et un de niveau 1, ou trois de niveau 1. Une fois que vous avez récupéré des emplacements de sort avec cette caractéristique, vous ne pouvez pas le faire à nouveau avant d'avoir terminé un repos long.</p><section class=\"secret\" id=\"secret-xLFXthYlJ7wwFlSS\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Lancer un Sort</strong> peut être utilisée pour suivre son unique utilisation gratuite.</p><p>L'activité <strong>Récupérer un Emplacement de Sort</strong> ne permet pas d'automatiser la restauration des emplacements de sort mais peut être utilisée pour suivre son unique utilisation.</p></section>",
       "activities": {
         "Cast Spell": {
-          "name": "Cast Spell"
+          "name": "Lancer un Sort"
         },
         "Recover Spell Slots": {
-          "name": "Recover Spell Slots",
-          "condition": "When you finish a Short Rest"
+          "name": "Récupérer des Emplacements de Sort",
+          "condition": "Lorsque vous terminez un Repos Court"
         }
       }
     },
@@ -3242,24 +3242,24 @@
       "description": "<p>En utilisant une action magique, vous pouvez dépenser une utilisation de votre Forme Sauvage et faire apparaître des arbres et des lianes spectraux dans un cube de 4,5 mètres de côté au sol, à une distance maximale de 16 mètres de vous. Ils restent en place pendant 1 minute ou jusqu'à ce que vous soyez Incapacité ou mouriez. Vous et vos alliés bénéficiez d'une Demi-Couverture dans cette zone, et vos alliés obtiennent la Résistance actuelle de votre Protection de la Nature lorsqu'ils sont là.</p><p>En utilisant une Action Bonus, vous pouvez déplacer le cube jusqu'à 18 mètres vers une zone de sol dans un rayon de 16 mètres autour de vous.</p><section class=\"secret\" id=\"secret-OyXlvV2zR9s0WXyn\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut des Effets Actifs pour chaque type de terrain de Protection de la Nature et ajoute l'effet de statut Demi-Couverture qui applique automatiquement les bonus pertinents. Appliquez l'effet pertinent à vos alliés.</p><p>Cependant, ces Effets Actifs ne sont pas automatiquement ajoutés/supprimés pour les Acteurs dans la zone désignée.</p><p>Elle inclut également une activité qui peut être utilisée pour suivre l'utilisation de votre Action Bonus lorsque vous déplacez les arbres et lianes spectraux.</p></section>",
       "activities": {
         "Spectral Trees and Vines": {
-          "name": "Spectral Trees and Vines"
+          "name": "Arbres et Vignes Spectraux"
         },
         "Move": {
-          "name": "Move"
+          "name": "Se Déplacer"
         }
       },
       "effects": {
         "Nature's Ward: Arid": {
-          "name": "Nature's Ward: Arid"
+          "name": "Protection de la Nature : Aride"
         },
         "Nature's Ward: Polar": {
-          "name": "Nature's Ward: Polar"
+          "name": "Protection de la Nature : Polaire"
         },
         "Nature's Ward: Temperate": {
-          "name": "Nature's Ward: Temperate"
+          "name": "Protection de la Nature : Tempéré"
         },
         "Nature's Ward: Tropical": {
-          "name": "Nature's Ward: Tropical"
+          "name": "Protection de la Nature : Tropical"
         }
       }
     },
@@ -3268,12 +3268,12 @@
       "description": "<p>Vous invoquez les esprits de la nature pour vous cacher magiquement. En utilisant une Action Bonus, vous pouvez vous conférer la condition Invisible jusqu'à la fin de votre prochain tour.</p><p>Vous pouvez utiliser cette capacité un nombre de fois égal à votre modificateur de Sagesse (au minimum une fois), et vous récupérez toutes les utilisations dépensées lorsque vous terminez un repos long.</p><section id=\"secret-CrVc4y9VaKTGeCuG\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un Effet Actif qui applique la condition Invisible.</p></section>",
       "activities": {
         "Veil": {
-          "name": "Veil"
+          "name": "Voile"
         }
       },
       "effects": {
         "Veiled": {
-          "name": "Veiled"
+          "name": "Voilé"
         }
       }
     },
@@ -3282,19 +3282,19 @@
       "description": "<p>Vous êtes immunisé contre la condition Empoisonné, et vous avez une Résistance à un type de dégâts associé à votre choix de terrain actuel dans la caractéristique de Sorts du Cercle, comme indiqué dans le tableau de Protection de la Nature.</p><table><caption>Protection de la Nature</caption><thead><tr><td>Type de Terrain</td><td>Résistance</td></tr></thead><tbody><tr><td>Aride</td><td>Feu</td></tr><tr><td>Polaire</td><td>Froid</td></tr><tr><td>Tempéré</td><td>Foudre</td></tr><tr><td>Tropical</td><td>Poison</td></tr></tbody></table><section class=\"secret\" id=\"secret-0muLLDjt1zqXptme\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un Effet Actif pour l'immunité à la condition Empoisonné et un Effet Actif pour chaque type de terrain. Vous pouvez activer l'Effet Actif pour le type de terrain que vous avez choisi.</p></section>",
       "effects": {
         "Nature's Ward": {
-          "name": "Nature's Ward"
+          "name": "Protection de la Nature"
         },
         "Nature's Ward: Arid": {
-          "name": "Nature's Ward: Arid"
+          "name": "Protection de la Nature : Aride"
         },
         "Nature's Ward: Polar": {
-          "name": "Nature's Ward: Polar"
+          "name": "Protection de la Nature : Polaire"
         },
         "Nature's Ward: Temperate": {
-          "name": "Nature's Ward: Temperate"
+          "name": "Protection de la Nature : Tempéré"
         },
         "Nature's Ward: Tropical": {
-          "name": "Nature's Ward: Tropical"
+          "name": "Protection de la Nature : Tropical"
         }
       }
     },
@@ -3303,7 +3303,7 @@
       "description": "<p>En utilisant une action magique, vous pouvez dépenser une utilisation de votre Canal Divin pour invoquer des lianes spectrales autour des créatures proches. Chaque créature de votre choix que vous pouvez voir dans un rayon de 4,5 mètres autour de vous doit réussir un jet de sauvegarde de Force ou subir la condition Entravé pendant 1 minute. Une créature Entravée répète le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de réussite.</p><section id=\"secret-0hFWoWfW8qGxYckC\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un Effet Actif qui applique la condition Entravé.</p></section>",
       "effects": {
         "Nature's Wrath": {
-          "name": "Nature's Wrath"
+          "name": "Colère de la Nature"
         }
       }
     },
@@ -3315,7 +3315,7 @@
           "title": "Caractéristiques de la Sous-classe"
         },
         "Oath of Devotion Spells": {
-          "title": "Oath of Devotion Spells"
+          "title": "Sorts du Serment de Dévotion"
         }
       }
     },
@@ -3331,7 +3331,7 @@
           "title": "Caractéristiques de la Sous-classe"
         },
         "Oath of Glory Spells": {
-          "title": "Oath of Glory Spells"
+          "title": "Sorts du Serment de Gloire"
         }
       }
     },
@@ -3347,7 +3347,7 @@
           "title": "Caractéristiques de la Sous-classe"
         },
         "Oath of Vengeance Spells": {
-          "title": "Oath of Vengeance Spells"
+          "title": "Sorts du Serment de Vengeance"
         }
       }
     },
@@ -3363,7 +3363,7 @@
           "title": "Caractéristiques de la Sous-classe"
         },
         "Oath of the Ancients Spells": {
-          "title": "Oath of the Ancients Spells"
+          "title": "Sorts du Serment des Anciens"
         }
       }
     },
@@ -3376,15 +3376,15 @@
       "description": "<p>Au lieu de manifester l’Émanation de Courroux de la Mer autour de vous, vous pouvez la manifester autour d’une créature consentante dans un rayon de 18 mètres. Cette créature bénéficie de l’Émanation et utilise votre DD de sauvegarde de sort et votre modificateur de Sagesse.</p><p>De plus, vous pouvez manifester l’Émanation autour de la créature et de vous-même en dépensant deux utilisations de votre Forme Sauvage au lieu d'une seule lors de la manifestation.</p><section class=\"secret\" id=\"secret-eZ9lyvQjA22ulGI1\"><p><strong>Note Foundry</strong></p><p>Vous pouvez utiliser cette fonction à la place de Courroux de la Mer et Né des Tempêtes. Elle inclut une activité pour une émanation unique ou une double manifestation. Elle inclut également l’effet actif de Né des Tempêtes, applicable aux deux personnages lors d'une double émanation.</p></section>",
       "activities": {
         "Manifest Single Emanation": {
-          "name": "Manifest Single Emanation"
+          "name": "Manifestation d'une Émanation Unique"
         },
         "Manifest Double Emanation": {
-          "name": "Manifest Double Emanation"
+          "name": "Manifestation d'une Émanation Double"
         }
       },
       "effects": {
         "Stormborn": {
-          "name": "Stormborn"
+          "name": "Né de la Tempête"
         }
       }
     },
@@ -3399,7 +3399,7 @@
       "effects": {
         "Invisible": {
           "name": "Invisible",
-          "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
+          "description": "<p>Le sort prend fin immédiatement après que la cible effectue un jet d'attaque, inflige des dégâts, ou lance un sort.</p>"
         }
       }
     },
@@ -3408,24 +3408,24 @@
       "description": "<p>Chaque fois que vous touchez une créature avec une attaque de Frappe Multiple, vous pouvez lui imposer l’un des effets suivants.</p><p><strong>Étourdissant.</strong> La cible ne peut pas faire d’attaques d’opportunité jusqu’au début de son prochain tour.</p><p><strong>Pousser.</strong> La cible doit réussir un jet de sauvegarde de Force ou être repoussée de 4,5 mètres.</p><p><strong>Renverser.</strong> La cible doit réussir un jet de sauvegarde de Dextérité ou être Prone.</p><section id=\"secret-4BkgU26V2trst09S\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L’activité <strong>Étourdissant</strong> inclut un effet actif pour suivre la cible étourdie.</p><p>L’activité <strong>Renverser</strong> inclut un effet actif qui applique l’état Prone.</p></section>",
       "activities": {
         "Addle": {
-          "name": "Addle",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "name": "Confusion",
+          "condition": "Chaque fois que vous touchez une créature avec une attaque accordée par votre Pluie de Coups"
         },
         "Push": {
-          "name": "Push",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "name": "Pousser",
+          "condition": "Chaque fois que vous touchez une créature avec une attaque accordée par votre Pluie de Coups"
         },
         "Topple": {
-          "name": "Topple",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "name": "Renverser",
+          "condition": "Chaque fois que vous touchez une créature avec une attaque accordée par votre Pluie de Coups"
         }
       },
       "effects": {
         "Addled": {
-          "name": "Addled"
+          "name": "Confus"
         },
         "Toppled": {
-          "name": "Toppled"
+          "name": "Renversé"
         }
       }
     },
@@ -3434,7 +3434,7 @@
       "description": "<p>Chaque fois que vous faites un test de Charisme, vous gagnez un bonus à ce test égal à votre modificateur de Sagesse (minimum de +1).</p><p>Vous gagnez également la maîtrise dans une de ces compétences de votre choix : Tromperie, Spectacle ou Persuasion.</p><section id=\"secret-G1217mPhZSkH8hBY\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un Effet Actif qui ajoute automatiquement le bonus à vos tests de Charisme.</p><p>Vous serez invité à choisir votre compétence de maîtrise lorsque vous montez de niveau.</p></section>",
       "effects": {
         "Glamorous": {
-          "name": "Glamorous"
+          "name": "Glamour"
         }
       }
     },
@@ -3443,8 +3443,8 @@
       "description": "<blockquote><p>Prérequis : Ensorceleur de niveau 2+</p></blockquote><p>Vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Saut} sur vous-même sans dépenser de slot de sort.</p><section id=\"secret-JpQyXOJAkEKVXxff\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette capacité peut être utilisée à la place du sort Saut et inclut un Effet Actif pour le suivi.</p></section>",
       "effects": {
         "Jump": {
-          "name": "Jump",
-          "description": "<p>Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.</p>"
+          "name": "Saut",
+          "description": "<p>Une fois à chaque tour, jusqu'à la fin du sort, cette créature peut sauter jusqu'à 9 mètres (30 pieds) en dépensant 3 mètres (10 pieds) de mouvement.</p>"
         }
       }
     },
@@ -3453,12 +3453,12 @@
       "description": "<p>Vous pouvez augmenter la puissance de vos sorts. Lorsque vous lancez un sort de magie de niveau 1 à 5 qui inflige des dégâts, vous pouvez infliger des dégâts maximaux avec ce sort lors du tour où vous le lancez.</p><p>La première fois que vous le faites, vous ne subissez aucun effet néfaste. Si vous utilisez cette capacité de nouveau avant de terminer un repos long, vous subissez 2d12 de dégâts nécrotiques par niveau du slot de sort immédiatement après l'avoir lancé. Ces dégâts ignorent la Résistance et l'Immunité.</p><p>Chaque fois que vous réutilisez cette capacité avant de terminer un repos long, les dégâts nécrotiques par niveau de sort augmentent de 1d12.</p><section class=\"secret\" id=\"secret-Uh2cD0di8YB1gKPG\"><p><strong>Note Foundry</strong></p><p>Cette capacité a des Utilisations Limitées pour suivre le nombre de fois qu'elle a été utilisée pour automatiser les dégâts.</p><p>L'activité <strong>Première Utilisation</strong> inclut une utilisation gratuite et restaure toutes les utilisations de la capacité.</p><p>L'activité <strong>Deuxième Utilisation et suivantes</strong> consomme une utilisation et augmente automatiquement les dégâts ; elle doit être utilisée pour toutes les utilisations suivantes jusqu'à la fin d'un repos long.</p></section>",
       "activities": {
         "Second+ Use": {
-          "name": "Second+ Use",
-          "condition": "When you cast a Wizard spell with a spell slot of levels 1-5 that deals damage"
+          "name": "Deuxième+ Utilisation",
+          "condition": "Lorsque vous lancez un sort de Magicien avec un emplacement de sort de niveaux 1 à 5 qui inflige des dégâts"
         },
         "First Use": {
-          "name": "First Use",
-          "condition": "When you cast a Wizard spell with a spell slot of levels 1-5 that deals damage"
+          "name": "Première Utilisation",
+          "condition": "Lorsque vous lancez un sort de Magicien avec un emplacement de sort de niveaux 1 à 5 qui inflige des dégâts"
         }
       }
     },
@@ -3471,17 +3471,17 @@
       "description": "<p>Comme action bonus, vous pouvez conjurer une arme de pacte dans votre main—une arme de mêlée simple ou martiale de votre choix avec laquelle vous liez un pacte—ou créer un lien avec une arme magique que vous touchez; vous ne pouvez pas vous lier à une arme magique si quelqu'un d'autre y est accordé ou si un autre Ensorceleur y est lié. Tant que le lien perdure, vous avez la maîtrise de l'arme, et vous pouvez l'utiliser comme Focus de Sort.</p><p>Lorsque vous attaquez avec l'arme liée, vous pouvez utiliser votre modificateur de Charisme pour les jets d'attaque et de dégâts au lieu de la Force ou de la Dextérité ; et vous pouvez faire en sorte que l'arme inflige des dégâts nécrotiques, psychiques, radiants ou son type de dégâts normal.</p><p>Votre lien avec l'arme se termine si vous utilisez de nouveau l'action bonus de cette capacité, si l'arme est à plus de 1,5 mètre de vous pendant plus d'une minute, ou si vous mourez. Une arme conjurée disparaît lorsque le lien se termine.</p>",
       "activities": {
         "Forge Pact Weapon": {
-          "name": "Forge Pact Weapon"
+          "name": "Forger une Arme de Pacte"
         },
         "Spellcasting Attack": {
-          "name": "Spellcasting Attack"
+          "name": "Attaque de Sort"
         }
       },
       "effects": {
         "Pact Weapon": {
-          "name": "Pact Weapon",
+          "name": "Arme de Pacte",
           "changes": {
-            "name": ", Pact Weapon"
+            "name": ", Arme de Pacte"
           }
         }
       }
@@ -3491,15 +3491,15 @@
       "description": "<p>Vous apprenez le sort @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Invocation d'un Familier} et pouvez le lancer en tant qu'action magique sans dépenser de slot de sort.</p><p>Lorsque vous lancez le sort, vous choisissez une des formes normales pour votre familier ou une des formes spéciales suivantes : @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobImp0000000]{Diablotin}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobPseudodrag]{Pseudo-dragon}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobQuasit0000]{Quasit}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00]{Squelette}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSlaadTadpo]{Têtard de Slaad}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSphinxofWo]{Sphinx de Merveilles}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSprite0000]{Sprite}, ou @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobVenomousSn]{Serpent Venimeux}.</p><p>De plus, lorsque vous effectuez une action d'attaque, vous pouvez renoncer à l'une de vos propres attaques pour permettre à votre familier de faire une attaque avec sa réaction.</p><section id=\"secret-aKbhLPfPD3R9Y1KL\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Invoquer un Familier</strong> inclut les options normales d'invocation et l'activité <strong>Invoquer un Familier (Options Étendues)</strong> inclut les options supplémentaires.</p></section>",
       "activities": {
         "Find Familiar": {
-          "name": "Find Familiar",
+          "name": "Trouver un Familier",
           "profiles": {
             "CR 0 Beast": {
-              "name": "CR 0 Beast"
+              "name": "Bête CR 0"
             }
           }
         },
         "Find Familiar (Expanded Options)": {
-          "name": "Find Familiar (Expanded Options)"
+          "name": "Trouver un Familier (Options Élargies)"
         }
       }
     },
@@ -3515,13 +3515,13 @@
           "title": "Caractéristiques de Classe"
         },
         "Aura Distance": {
-          "title": "Aura Distance"
+          "title": "Distance de l'Aura"
         },
         "Max Prepared Spells": {
           "title": "Maximum de Sorts Préparés"
         },
         "Channel Divinity Uses": {
-          "title": "Channel Divinity Uses"
+          "title": "Utilisations de Canalisation Divine"
         },
         "Epic Boon": {
           "title": "Don Épique"
@@ -3536,10 +3536,10 @@
           "title": "Maîtrises des Armes"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "title": "Entraînement en Armure"
         },
         "Fighting Style": {
-          "title": "Fighting Style"
+          "title": "Style de Combat"
         },
         "Weapon Mastery": {
           "title": "Maîtrise des Armes"
@@ -3555,7 +3555,7 @@
       "description": "<p>Quand une autre créature vous inflige des dégâts avec une attaque de mêlée, vous pouvez utiliser une Réaction et dépenser un dé de Supériorité pour réduire les dégâts du montant que vous obtenez sur votre dé de Supériorité, additionné de votre modificateur de Force ou de Dextérité (au choix).</p><section id=\"secret-0wY3O9dAMQDKj066\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut une activité de Réaction de Soin qui peut être utilisée pour réduire les dégâts.</p></section>",
       "activities": {
         "heal": {
-          "condition": "When another creature damages you with a melee attack roll"
+          "condition": "Lorsque qu'une autre créature vous inflige des dégâts avec un jet d'attaque au corps à corps"
         }
       }
     },
@@ -3576,11 +3576,11 @@
           "title": "Caractéristiques de la Sous-classe"
         },
         "Animal Speaker": {
-          "title": "Parleur Animal",
-          "hint": "La capacité Parleur Animal vous accorde les sorts Sens de la Bête et Parler avec les Animaux, mais uniquement sous forme de Rituels. La Sagesse est votre capacité à lancer ces sorts."
+          "title": "Voix Animale",
+          "hint": "La capacité Voix Animale vous accorde les sorts Sens de la Bête et Parler avec les Animaux, mais uniquement sous forme de Rituels. La Sagesse est votre capacité à lancer ces sorts."
         },
         "Nature Speaker": {
-          "title": "Parleur de la Nature"
+          "title": "Voix de la Nature"
         }
       }
     },
@@ -3614,8 +3614,8 @@
       "description": "<p>Lorsque vous faites un test de capacité ou un jet d'attaque et que vous échouez, vous pouvez dépenser une utilisation de l'Inspiration Bardique; lancez le dé d'Inspiration Bardique et ajoutez le nombre obtenu au d20, ce qui peut transformer un échec en réussite. En cas d'échec, l'Inspiration Bardique n'est pas dépensée.</p>",
       "activities": {
         "utility": {
-          "roll": "Bardic Inspiration",
-          "condition": "When you fail an ability check or attack roll"
+          "roll": "Inspiration Bardique",
+          "condition": "Lorsque vous échouez un test de caractéristique ou un jet d'attaque"
         }
       }
     },
@@ -3628,8 +3628,8 @@
       "description": "<p>Lorsque vous lancez l'Initiative, vous pouvez récupérer toutes les utilisations dépensées de Rage. Une fois que vous avez récupéré des utilisations de Rage de cette manière, vous ne pouvez plus le faire avant d'avoir terminé un repos long.</p><p>De plus, votre Rage est si intense qu'elle dure maintenant 10 minutes sans que vous ayez besoin de faire quoi que ce soit pour la prolonger de tour en tour. Votre Rage prend fin prématurément si vous avez la condition &amp;Reference[Unconscious] (et pas seulement la condition &amp;Reference[Incapacitated]) ou si vous portez une armure lourde.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>Note Foundry</strong></p><p>Cette fonctionnalité inclut une activité qui peut être utilisée lors du lancement de l'Initiative et qui recharge toutes vos utilisations de Rage.</p></section>",
       "activities": {
         "Recharge Rage on Initiative": {
-          "name": "Recharge Rage on Initiative",
-          "condition": "When you roll initiative"
+          "name": "Rechargez votre rage à l'initiative",
+          "condition": "Quand vous lancez l'initiative"
         }
       }
     },
@@ -3650,16 +3650,16 @@
       "description": "<p>Votre Main de Dégât et Main de Guérison s'améliorent, comme indiqué ci-dessous.</p><p><strong>Main de Dégât.</strong> Lorsque vous utilisez Main de Dégât sur une créature, vous pouvez également lui donner la condition Empoisonné jusqu'à la fin de votre prochain tour.</p><p><strong>Main de Guérison.</strong> Lorsque vous utilisez Main de Guérison, vous pouvez également mettre fin à l'une des conditions suivantes sur la créature que vous soignez : Aveuglé, Assourdi, Paralysé, Empoisonné ou Étourdi.</p><section id=\"secret-0OzKGSx4PSkIO5se\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Vous pouvez utiliser les activités <strong>Main de Dégât</strong> et <strong>Main de Guérison</strong> avec cette fonctionnalité. <strong>Main de Dégât</strong> inclut un Effet Actif appliquant le statut Empoisonné.</p></section>",
       "activities": {
         "Hand of Harm": {
-          "name": "Hand of Harm",
-          "condition": "Once per turn when you hit a creature with an Unarmed Strike and deal damage"
+          "name": "Main du Mal",
+          "condition": "Une fois par tour lorsque vous touchez une créature avec un Coup Imprécis et infligez des dégâts"
         },
         "Healing Hand": {
-          "name": "Healing Hand"
+          "name": "Main de Guérison"
         }
       },
       "effects": {
         "Physician's Touch: Hand of Harm": {
-          "name": "Physician's Touch: Hand of Harm"
+          "name": "Toucher du Médecin : Main du Mal"
         }
       }
     },
@@ -3676,20 +3676,20 @@
       "description": "<p>Lorsque vous activez votre Rage, vous gagnez l'une des options suivantes de votre choix.</p><p><strong>Faucon.</strong> Tant que votre Rage est active, vous avez une Vitesse de Vol égale à votre Vitesse si vous ne portez pas d'armure.</p><p><strong>Lion.</strong> Tant que votre Rage est active, tous vos ennemis à moins de 1,5 mètre de vous ont Désavantage aux jets d'attaque contre des cibles autres que vous ou un autre Barbare ayant cette option active.</p><p><strong>Bélier.</strong> Tant que votre Rage est active, vous pouvez infliger la condition &amp;Reference[Prone] à une créature Moyenne ou plus petite lorsque vous la touchez avec une attaque de mêlée.</p><section class=\"secret\" id=\"secret-xneCqbl2nZsx0YOE\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Bélier</strong> inclut un Effet Actif appliquant la condition À Terre.</p><p>Les options <strong>Faucon</strong> et <strong>Lion</strong> ne sont pas automatisées.</p></section>",
       "activities": {
         "Falcon": {
-          "name": "Falcon",
-          "chatFlavor": "You gain a Fly Speed equal to your Speed if you aren't wearing any armor."
+          "name": "Faucon",
+          "chatFlavor": "Vous gagnez une Vitesse de Vol égale à votre Vitesse si vous ne portez pas d'armure."
         },
         "Lion": {
           "name": "Lion"
         },
         "Ram": {
-          "name": "Ram",
-          "condition": "When you a Large or smaller creature with a melee attack"
+          "name": "Bélier",
+          "condition": "Lorsque vous touchez une créature de Taille Grande ou plus petite avec une attaque au corps à corps"
         }
       },
       "effects": {
         "Power of the Wilds: Ram": {
-          "name": "Power of the Wilds: Ram"
+          "name": "Pouvoir des Sauvages : Bélier"
         }
       }
     },
@@ -3703,7 +3703,7 @@
       "activities": {
         "utility": {
           "roll": "Bonus",
-          "condition": "When you miss with an attack roll"
+          "condition": "Quand vous ratez un jet d'attaque"
         }
       }
     },
@@ -3720,13 +3720,13 @@
       "description": "<p>Vous invoquez magiquement une bête primordiale, qui puise sa force de votre lien avec la nature. Choisissez son bloc de statistiques : @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheLan]{Bête de la Terre}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSea]{Bête de la Mer} ou @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSky]{Bête du Ciel}. Vous déterminez également le type d'animal, en fonction de ce bloc. Quelle que soit la bête choisie, elle porte des marques primordiales indiquant son origine surnaturelle.</p><p>La bête est Amicale envers vous et vos alliés et obéit à vos ordres. Elle disparaît si vous mourrez.</p><p><strong>La Bête en Combat.</strong> En combat, la bête agit pendant votre tour. Elle peut se déplacer et utiliser sa Réaction seule, mais elle ne prend que l'action Esquiver, sauf si vous utilisez une Action Bonus pour lui ordonner d'utiliser une action de son bloc de statistiques ou une autre action. Vous pouvez aussi sacrifier une de vos attaques lorsque vous utilisez l'action Attaquer pour lui permettre d'utiliser l'action Frappe de la Bête. Si vous êtes Incapacité, la bête agit de manière autonome et n'est plus limitée à l'action Esquiver.</p><p><strong>Restauration ou Remplacement de la Bête.</strong> Si la bête est morte depuis moins d'une heure, vous pouvez utiliser une action magique pour la toucher et dépenser un emplacement de sort. Elle revient à la vie après 1 minute avec tous ses Points de Vie restaurés.</p><p>À chaque Repos Long, vous pouvez invoquer une bête primordiale différente, qui apparaît dans un espace inoccupé à 1,5 mètres de vous. Vous choisissez son bloc de statistiques et son apparence. Si vous avez déjà une bête invoquée via cette capacité, l'ancienne disparaît lorsque la nouvelle apparaît.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>En plus des statistiques associées de base, les attributs suivants sont également affectés.</p><table><caption>Commun</caption><tbody><tr><td><strong>CA</strong></td><td>13 plus votre modificateur de Sagesse</td></tr><tr><td><strong>BM</strong></td><td>égal à votre Bonus de Maîtrise</td></tr></tbody></table><table><caption>Bête de la Terre</caption><tbody><tr><td><strong>PV</strong></td><td>5 plus cinq fois votre niveau de Ranger</td></tr><tr><td><strong>DV</strong></td><td>[d8] égal à votre niveau de Ranger</td></tr><tr><td><strong>Vitesse</strong></td><td>12 mètres, Escalade 12 mètres</td></tr><tr><td><strong>Sens</strong></td><td>Vision dans le Noir 18 mètres</td></tr></tbody></table><table><caption>Bête du Ciel</caption><tbody><tr><td><strong>PV</strong></td><td>4 plus quatre fois votre niveau de Ranger</td></tr><tr><td><strong>DV</strong></td><td>[d6] égal à votre niveau de Ranger</td></tr><tr><td><strong>Vitesse</strong></td><td>3 mètres, Vol 18 mètres</td></tr><tr><td><strong>Sens</strong></td><td>Vision dans le Noir 18 mètres</td></tr></tbody></table><table><caption>Bête de la Mer</caption><tbody><tr><td><strong>PV</strong></td><td>5 plus cinq fois votre niveau de Ranger</td></tr><tr><td><strong>DV</strong></td><td>[d8] égal à votre niveau de Ranger</td></tr><tr><td><strong>Vitesse</strong></td><td>1,5 mètres, Nage 18 mètres</td></tr><tr><td><strong>Sens</strong></td><td>Vision dans le Noir 27 mètres</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-vZalmDSCpVh4yzu3\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Invocation</strong> vous permet de choisir le type de votre Compagnon Primal. Son bloc de statistiques sera automatiquement configuré avec les valeurs appropriées.</p><p>L'activité <strong>Restauration avec un Emplacement de Sort</strong> vous permet de le rappeler et de consommer un emplacement de sort.</p><p>L'activité <strong>Commandement</strong> ne doit être utilisée que si vous suivez l'utilisation de votre Action Bonus, car elle n'ajoute rien en elle-même.</p></section>",
       "activities": {
         "summon": {
-          "condition": "Whenever you finish a Long Rest"
+          "condition": "Chaque fois que vous terminez un repos long"
         },
         "Command": {
-          "name": "Command"
+          "name": "Commandement"
         },
         "Summon with Spell Slot": {
-          "name": "Summon with Spell Slot"
+          "name": "Invocation avec l'emplacement de sort"
         }
       }
     },
@@ -3735,7 +3735,7 @@
       "description": "<p>Vous gagnez la maîtrise d'une compétence de votre choix parmi celles disponibles pour les Barbares au niveau 1.</p><p>De plus, lorsque votre Rage est active, vous pouvez canaliser la puissance primordiale pour accomplir certaines tâches ; chaque fois que vous effectuez un test de compétence avec l'une des compétences suivantes, vous pouvez le faire en utilisant la Force même si elle utilise normalement une autre caractéristique : Acrobaties, Intimidation, Perception, Discrétion ou Survie. Lorsque vous utilisez cette capacité, votre Force représente le pouvoir primordial qui coule en vous, aiguisant votre agilité, votre prestance et vos sens.</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un Effet Actif qui appliquera automatiquement votre modificateur de Force pour ces compétences si celui-ci est supérieur à la caractéristique normalement associée à la compétence.</p></section>",
       "effects": {
         "Primal Knowledge": {
-          "name": "Primal Knowledge"
+          "name": "Connaissance Primal"
         }
       }
     },
@@ -3748,7 +3748,7 @@
       "description": "<p>Vous connaissez un Sort mineur supplémentaire de la @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU#cantrip]{liste des sorts de Druide}. De plus, votre connexion mystique avec la nature vous confère un bonus à vos tests d'Intelligence (Arcanes ou Nature). Ce bonus est égal à votre modificateur de Sagesse (bonus minimum de +1, actuellement [[lookup @abilities.wis.mod]]).</p><section class=\"secret\" id=\"secret-adiIB9wCX5zZdZ9F\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un Effet Actif qui automatise l'ajout de votre Sort mineursupplémentaire et le bonus à vos tests d'Arcane et Nature.</p></section>",
       "effects": {
         "Magician": {
-          "name": "Magician"
+          "name": "Magicien"
         }
       }
     },
@@ -3757,7 +3757,7 @@
       "description": "<p>Formé au combat, vous gagnez la maîtrise des armes de guerre et la formation pour l'armure moyenne.</p><section id=\"secret-hVQSjHcU93Zpf54G\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un Effet Actif qui automatise l'ajout de votre maîtrise des armes de guerre et de la formation à l'armure moyenne.</p></section>",
       "effects": {
         "Primal Order: Warden": {
-          "name": "Primal Order: Warden"
+          "name": "Ordre Primal : Gardien"
         }
       }
     },
@@ -3766,8 +3766,8 @@
       "description": "<p>Quand une créature que vous pouvez voir dans un rayon de 9 mètres subit des dégâts, vous pouvez utiliser une Réaction pour que votre Barrière Arcanique absorbe ces dégâts. Si ces dégâts réduisent les Points de Vie de la barrière à 0, la créature protégée subit les dégâts restants. Si cette créature a des Résistances ou Vulnérabilités, appliquez-les avant de réduire les Points de Vie de la barrière.</p><section class=\"secret\" id=\"secret-pSOEhQX3JbZyO19Q\"><p><strong>Note Foundry</strong></p><p>L’activité <strong>Projeter la Barrière</strong> utilise votre réaction et peut être utilisée pour réduire les points de vie de la barrière.</p></section>",
       "activities": {
         "Project Ward": {
-          "name": "Project Ward",
-          "condition": "When a creature that you can see within 30 feet of yourself takes damage"
+          "name": "Projeter une Protection",
+          "condition": "Lorsqu'une créature que vous pouvez voir dans un rayon de 9 mètres (30 pieds) subit des dégâts"
         }
       }
     },
@@ -3779,15 +3779,15 @@
           "title": "Caractéristiques de la Sous-classe"
         },
         "Psionic Energy Die": {
-          "title": "Psionic Energy Die"
-        },
-        "Telekinetic Master": {
-          "title": "Telekinetic Master"
-        },
-        "Guarded Mind": {
-          "title": "Guarded Mind",
-          "hint": "You have Resistance to Psychic damage."
-        }
+        "title": "Dé d'Énergie Psionique"
+      },
+      "Telekinetic Master": {
+        "title": "Maître Télékinétique"
+      },
+      "Guarded Mind": {
+        "title": "Esprit Protégé",
+        "hint": "Vous avez une Résistance aux dégâts Psychiques."
+      }
       }
     },
     "Psionic Power": {
@@ -3795,20 +3795,20 @@
       "description": "<p>Vous possédez une source d'énergie psionique en vous, représentée par vos Dés d’Énergie Psionique, qui alimentent certains pouvoirs de cette sous-classe. La table des Dés d’Énergie du Soulknife indique le nombre de ces dés et leur taille lorsque vous atteignez certains niveaux de Voleur.</p><table><caption>Dés d’Énergie Soulknife</caption><thead><tr><td>Niveau de Voleur</td><td>Taille du Dé</td><td>Nombre</td></tr></thead><tbody><tr><td>3</td><td>D6</td><td>4</td></tr><tr><td>5</td><td>D8</td><td>6</td></tr><tr><td>9</td><td>D8</td><td>8</td></tr><tr><td>11</td><td>D10</td><td>8</td></tr><tr><td>13</td><td>D10</td><td>10</td></tr><tr><td>17</td><td>D12</td><td>12</td></tr></tbody></table><p>Les caractéristiques de cette sous-classe utilisant un Dé d’Énergie Psionique se servent uniquement de ces dés. Certains de vos pouvoirs dépensent un Dé d’Énergie Psionique, comme indiqué dans leur description, et vous ne pouvez pas utiliser un pouvoir s'il nécessite un dé alors que tous vos Dés d’Énergie Psionique sont épuisés.</p><p>Vous regagnez un Dé d’Énergie Psionique dépensé à la fin d’un repos court, et tous à la fin d’un repos long.</p><p><strong>Talent Amélioré par le Psi.</strong> Si vous échouez à un test de capacité en utilisant une compétence ou un outil dans lesquels vous avez la maîtrise, vous pouvez lancer un Dé d’Énergie Psionique et ajouter le nombre obtenu au test, transformant potentiellement l’échec en succès. Le dé n'est dépensé que si le test réussit.</p><p><strong>Murmures Psychiques.</strong> Vous pouvez établir une communication télépathique avec d’autres créatures. En tant qu'action magique, choisissez une ou plusieurs créatures que vous pouvez voir, jusqu’à un nombre de créatures égal à votre bonus de maîtrise, puis lancez un Dé d’Énergie Psionique. Pendant un nombre d’heures égal au nombre obtenu, les créatures choisies peuvent communiquer télépathiquement avec vous et vous avec elles. Pour envoyer ou recevoir un message (sans action requise), vous et l’autre créature devez être dans un rayon de 1 mille l'un de l'autre. Une créature peut mettre fin à la connexion télépathique à tout moment (sans action requise).</p><p>La première fois que vous utilisez ce pouvoir après chaque repos long, vous ne dépensez pas de Dé d’Énergie Psionique. Toutes les autres utilisations de ce pouvoir dépensent un dé.</p><section class=\"secret\" id=\"secret-mhJXgkN4LKUlFHGh\"><p><strong>Note Foundry</strong></p><p>Cette caractéristique regagne automatiquement une utilisation lors d'un repos court et toutes lors d'un repos long.</p><p>L’activité <strong>Talent Amélioré par le Psi</strong> dépense un dé et inclut un jet bonus. Si l’échec persiste, vous pouvez rembourser le dé dépensé.</p><p>Cette caractéristique inclut une activité <strong>Murmures Psychiques</strong> et une activité <strong>Murmures Psychiques (Gratuit)</strong>. Elles incluent un effet actif permettant de suivre les créatures incluses.</p></section>",
       "activities": {
         "Protective Field": {
-          "name": "Protective Field",
-          "condition": "When you or another creature you can see within 30 feet takes damage"
+          "name": "Champ Protecteur",
+          "condition": "Lorsque vous ou une autre créature que vous pouvez voir dans un rayon de 9 mètres (30 pieds) subissez des dégâts"
         },
         "Psionic Strike": {
-          "name": "Psionic Strike",
-          "condition": "Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage to it with a weapon"
+          "name": "Coup Psionique",
+          "condition": "Une fois à chaque tour, immédiatement après avoir touché une cible dans un rayon de 9 mètres (30 pieds) avec une attaque et lui infligé des dégâts avec une arme"
         },
         "Telekinetic Movement": {
-          "name": "Telekinetic Movement",
-          "condition": "One target within 30 feet, if an object it must be Large or smaller, if a creature, it must be willing"
+          "name": "Mouvement Télékinétique",
+          "condition": "Une cible dans un rayon de 9 mètres (30 pieds), si c'est un objet, il doit être de Taille Grande ou plus petite, si c'est une créature, elle doit être consentante"
         },
         "Telekinetic Movement Using Psionic Energy": {
-          "name": "Telekinetic Movement Using Psionic Energy",
-          "condition": "One target within 30 feet, if an object it must be Large or smaller, if a creature, it must be willing"
+          "name": "Mouvement Télékinétique avec Énergie Psionique",
+          "condition": "Une cible dans un rayon de 9 mètres (30 pieds), si c'est un objet, il doit être de Taille Grande ou plus petite, si c'est une créature, elle doit être consentante"
         }
       }
     },
@@ -3830,7 +3830,7 @@
       "description": "<p>Vous avez manifesté des lames étincelantes d'énergie psychique. Chaque fois que vous effectuez une action d'Attaque ou une Attaque d'Opportunité, vous pouvez manifester une Lame Psychique dans votre main libre et réaliser une attaque avec cette lame.</p><p>La lame disparaît immédiatement après avoir touché ou raté sa cible, et elle ne laisse aucune marque si elle inflige des dégâts.</p><p>Après avoir attaqué avec la lame pendant votre tour, vous pouvez faire une attaque au corps à corps ou à distance avec une seconde lame psychique en tant qu'Action Bonus dans le même tour, si votre autre main est libre pour la créer. Le dé de dégâts de cette attaque bonus est 1d4 au lieu de 1d6.</p>",
       "activities": {
         "Bonus Attack": {
-          "name": "Bonus Attack"
+          "name": "Attaque bonus"
         }
       }
     },
@@ -3851,16 +3851,16 @@
       "description": "<p>Vous pouvez tisser un voile de statique psychique pour vous masquer. En tant qu'action magique, vous gagnez la condition &amp;Reference[Invisible] pendant 1 heure ou jusqu'à ce que vous révoquiez cet effet (aucune action requise). Cette invisibilité prend fin immédiatement après que vous infligez des dégâts à une créature ou que vous forcez une créature à effectuer un jet de sauvegarde.</p><p>Une fois que vous avez utilisé cette caractéristique, vous ne pouvez plus le faire avant d'avoir terminé un repos long, sauf si vous dépensez un dé d'énergie psionique (aucune action requise) pour restaurer son utilisation.</p><section class=\"secret\" id=\"secret-MTMHfyyZutKeocHW\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Voile Psychique (Gratuit)</strong> contient une utilisation gratuite. L'activité <strong>Voile Psychique</strong> consomme un dé psionique. Les deux incluent un effet actif appliquant la condition Invisible.</p></section>",
       "activities": {
         "Psychic Veil (Free)": {
-          "name": "Psychic Veil (Free)"
+          "name": "Voile Psychique (Gratuit)"
         },
         "Psychic Veil": {
-          "name": "Psychic Veil"
+          "name": "Voile Psychique"
         }
       },
       "effects": {
         "Veiled": {
-          "name": "Veiled",
-          "description": "<p>You gain the Invisible condition for 1 hour or until you dismiss this effect (no action required). This invisibility ends early immediately after you deal damage to a creature or you force a creature to make a saving throw.</p>"
+          "name": "Voilé",
+          "description": "<p>Vous obtenez la condition Invisible pendant 1 heure ou jusqu'à ce que vous dissipez cet effet (aucune action requise). Cette invisibilité prend fin immédiatement après que vous infligiez des dégâts à une créature ou forciez une créature à effectuer un jet de sauvegarde.</p>"
         }
       }
     },
@@ -3869,12 +3869,12 @@
       "description": "<p>Lorsque vous touchez une créature avec un jet d'attaque utilisant une arme ou une frappe sans arme, vous pouvez dépenser un dé de supériorité pour tenter de repousser la cible. Ajoutez le dé de supériorité au jet de dégâts de l'attaque. Si la cible est de taille Large ou plus petite, elle doit réussir un jet de sauvegarde de Force ou être repoussée jusqu'à 4,5 mètres directement loin de vous.</p><section id=\"secret-S6d1XbWlRjPp1t0t\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette caractéristique inclut une activité de <strong>Sauvegarde de Force</strong> et une activité de <strong>Sauvegarde de Dextérité</strong> qui consommeront un dé de supériorité.</p><p>L'activité <strong>Dégâts</strong> permet de sélectionner le type de dégâts dans la boîte de dialogue de jet de dés.</p></section>",
       "activities": {
         "Strength Save": {
-          "name": "Strength Save",
-          "condition": "When you hit a creature with an attack roll using a weapon or an Unarmed Strike"
+          "name": "Jet de Sauvegarde de Force",
+          "condition": "Lorsque vous touchez une créature avec un jet d'attaque utilisant une arme ou un Coup Imprécis"
         },
         "Dexterity Save": {
-          "name": "Dexterity Save",
-          "condition": "When you hit a creature with an attack roll using a weapon or an Unarmed Strike"
+          "name": "Jet de Sauvegarde de Dextérité",
+          "condition": "Lorsque vous touchez une créature avec un jet d'attaque utilisant une arme ou un Coup Imprécis"
         }
       }
     },
@@ -3883,8 +3883,8 @@
       "description": "<blockquote><p>Coût : 2 Points de Sorcellerie</p></blockquote><p>Lorsque vous lancez un sort ayant un temps d'incantation d'une action, vous pouvez dépenser 2 Points de Sorcellerie pour changer le temps d'incantation en une Action Bonus pour ce lancement. Vous ne pouvez pas modifier un sort de cette manière si vous avez déjà lancé un sort de niveau 1 ou plus au tour actuel, et vous ne pouvez pas lancer un sort de niveau 1 ou plus dans ce tour après avoir modifié un sort de cette manière.</p>",
       "activities": {
         "Quickened Spell": {
-          "name": "Quickened Spell",
-          "condition": "When you cast a spell that has a casting time of an action"
+          "name": "Sort Accéléré",
+          "condition": "Lorsque vous lancez un sort ayant un temps d'incantation de 1 action"
         }
       }
     },
@@ -3893,17 +3893,17 @@
       "description": "<p>Vous obtenez la capacité d'induire des vibrations mortelles dans le corps de quelqu'un. Lorsque vous touchez une créature avec une frappe sans arme, vous pouvez dépenser 4 points de concentration pour commencer ces vibrations imperceptibles, qui durent un nombre de jours égal à votre niveau de Moine. Les vibrations sont inoffensives sauf si vous prenez une action pour les arrêter. Alternativement, lorsque vous prenez l'action Attaque pendant votre tour, vous pouvez renoncer à une attaque pour arrêter les vibrations. Pour les terminer, vous et la cible devez être sur le même plan d'existence. Lorsque vous les terminez, la cible doit réussir un jet de sauvegarde de Constitution, subissant 10d12 dégâts de Force en cas d'échec ou la moitié en cas de réussite.</p><p>Vous ne pouvez avoir qu'une seule créature sous l'effet de cette caractéristique à la fois. Vous pouvez terminer les vibrations sans effet (aucune action requise).</p><section id=\"secret-BSTexn4tHp20evAQ\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Induire des Vibrations</strong> dépense 4 points de concentration et inclut un effet actif permettant de suivre la cible que vous avez affectée par les vibrations mortelles.</p><p>L'activité <strong>Mettre Fin aux Vibrations</strong> inclut le jet de sauvegarde et les jets de dégâts.</p></section>",
       "activities": {
         "End Vibrations": {
-          "name": "End Vibrations",
-          "condition": "When you take the Attack action on your turn"
+          "name": "Cesser les Vibrations",
+          "condition": "Lorsque vous effectuez l'action Attaque pendant votre tour"
         },
         "Instill Vibrations": {
-          "name": "Instill Vibrations",
-          "condition": "When you hit a creature with an Unarmed Strike"
+          "name": "Instiller des Vibrations",
+          "condition": "Lorsque vous touchez une créature avec un Coup Imprécis"
         }
       },
       "effects": {
         "Lethal Vibrations": {
-          "name": "Lethal Vibrations"
+          "name": "Vibrations Létales"
         }
       }
     },
@@ -3920,7 +3920,7 @@
       "description": "<p>Vos frappes portent désormais une puissance surnaturelle. Lorsque vous touchez une cible avec un jet d'attaque utilisant une arme de mêlée ou une frappe sans arme, la cible subit 1d8 dégâts Radiants supplémentaires.</p><section class=\"secret\" id=\"secret-fSg1MH5IBJqfecX2\"><p><strong>Note Foundry</strong></p><p>Cette caractéristique inclut un Effet Actif qui ajoute automatiquement les dégâts Radiants à tous les jets de dégâts effectués avec vos attaques d'arme de mêlée et frappes sans arme.</p></section>",
       "effects": {
         "Radiant Strikes": {
-          "name": "Radiant Strikes"
+          "name": "Frappes Radieuses"
         }
       }
     },
@@ -3929,7 +3929,7 @@
       "description": "<p>Vous pouvez vous imprégner d'une puissance primordiale appelée Rage, une force qui vous confère une force et une résilience extraordinaires. Vous pouvez entrer en Rage comme Action Bonus si vous ne portez pas d'armure Lourde.</p><p>Vous pouvez entrer en Rage un nombre de fois égal à celui indiqué pour votre niveau de Barbare dans la colonne Rages du tableau des caractéristiques de Barbare (actuellement [[lookup @scale.barbarian.rages]]). Vous regagnez une utilisation dépensée lorsque vous terminez un repos court, et toutes les utilisations dépensées lorsque vous terminez un repos long.</p><p>Tant qu'elle est active, votre Rage suit les règles ci-dessous.</p><p><strong>Résistance aux Dégâts.</strong> Vous avez la Résistance aux dégâts de type contondant, perforant et tranchant.</p><p><strong>Dégâts de Rage.</strong> Lorsque vous faites une attaque en utilisant la Force—avec une arme ou une frappe sans arme—et infligez des dégâts à la cible, vous gagnez un bonus aux dégâts qui augmente avec votre niveau de Barbare, comme indiqué dans la colonne Dégâts de Rage du tableau des caractéristiques de Barbare.</p><p><strong>Avantage en Force.</strong> Vous avez l'Avantage aux tests de Force et jets de sauvegarde de Force.</p><p><strong>Pas de Concentration ou de Sorts.</strong> Vous ne pouvez pas maintenir de Concentration, et vous ne pouvez pas lancer de sorts.</p><p><strong>Durée.</strong> La Rage dure jusqu'à la fin de votre prochain tour et se termine prématurément si vous enfilez une armure Lourde ou si vous avez la condition Incapacité. Si votre Rage est toujours active à votre prochain tour, vous pouvez la prolonger d'un autre tour en effectuant l'une des actions suivantes :</p><ul><li>Faire un jet d'attaque contre un ennemi.</li><li>Forcer un ennemi à faire un jet de sauvegarde.</li><li>Prendre une Action Bonus pour prolonger votre Rage.</li></ul><p>Chaque fois que la Rage est prolongée, elle dure jusqu'à la fin de votre prochain tour. Vous pouvez maintenir une Rage jusqu'à 10 minutes.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Note Foundry</strong></p><p>Cette caractéristique inclut un Effet Actif qui automatise la Résistance et les dégâts supplémentaires. Cette caractéristique recharge également automatiquement vos utilisations de Rage lors d'un repos court et long.</p></section>",
       "activities": {
         "Expend Rage": {
-          "name": "Expend Rage"
+          "name": "Dépenser de la rage"
         }
       },
       "effects": {
@@ -3943,19 +3943,19 @@
       "description": "<p>Lorsque vous activez votre Rage, vous pouvez prendre la forme d'un guerrier divin. Cette forme dure 1 minute ou jusqu'à ce que vous tombiez à 0 Points de Vie. Une fois que vous utilisez cette caractéristique, vous ne pouvez plus le faire avant de terminer un repos long.</p><p>Pendant cette forme, vous gagnez les avantages suivants :</p><p><strong>Vol.</strong> Vous avez une Vitesse de Vol égale à votre Vitesse et vous pouvez léviter.</p><p><strong>Résistance.</strong> Vous avez la Résistance aux dégâts Nécrotiques, Psychiques et Radiants.</p><p><strong>Ravivification.</strong> Lorsqu'une créature dans un rayon de 9 mètres de vous serait réduite à 0 Points de Vie, vous pouvez utiliser une Réaction pour dépenser une utilisation de votre Rage pour changer les Points de Vie de la cible en un nombre égal à votre niveau de Barbare (actuellement [[lookup @classes.barbarian.levels]]).</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Rage des Dieux</strong> inclut un Effet Actif pour ajouter automatiquement les résistances et la lévitation, mais ne fournit pas la vitesse de vol.</p><p>L'activité <strong>Ravivification</strong> inclut un jet de guérison de votre niveau de Barbare.</p></section>",
       "activities": {
         "Revivification": {
-          "name": "Revivification",
-          "roll": "Barbarian Level",
-          "condition": "When a creature within 30 feet of you would drop to 0 Hit Points"
+          "name": "Révivification",
+          "roll": "Niveau du Barbare",
+          "condition": "Lorsque qu'une créature à 30 pieds de vous tombe à 0 points de vie"
         },
         "Rage of the Gods": {
-          "name": "Rage of the Gods",
-          "condition": "When you activate your Rage"
+          "name": "Colère des Dieux",
+          "condition": "Lorsque vous activez votre Colère"
         }
       },
       "effects": {
         "Rage of the Gods": {
-          "name": "Rage of the Gods",
-          "description": "<p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level.</p>"
+          "name": "Colère des Dieux",
+          "description": "<p>Tant que vous êtes sous cette forme, vous bénéficiez des avantages ci-dessous.</p><p><strong>Vol.</strong> Vous avez une Vitesse de Vol égale à votre Vitesse et pouvez léviter.</p><p><strong>Résistance.</strong> Vous avez une Résistance aux dégâts Nécrotiques, Psychiques et Radiants.</p><p><strong>Révivification.</strong> Lorsqu'une créature à 30 pieds de vous tombe à 0 points de vie, vous pouvez utiliser une Réaction pour dépenser une utilisation de votre Colère et remplacer les points de vie de la cible par un nombre égal à votre niveau de Barbare.</p>"
         }
       }
     },
@@ -3964,18 +3964,18 @@
       "description": "<p>Votre Rage puise dans la puissance primordiale des animaux. Chaque fois que vous activez votre Rage, vous gagnez une des options suivantes au choix :</p><p><strong>Ours.</strong> Tant que votre Rage est active, vous avez la Résistance à tous les types de dégâts sauf Force, Nécrotique, Psychique, et Radiant.</p><p><strong>Aigle.</strong> Lorsque vous activez votre Rage, vous pouvez effectuer les actions Désengager et Se Précipiter dans le cadre de cette Action Bonus. Tant que votre Rage est active, vous pouvez utiliser une Action Bonus pour réaliser ces deux actions.</p><p><strong>Loup.</strong> Tant que votre Rage est active, vos alliés ont l'Avantage aux jets d'attaque contre tout ennemi à 1,5 mètres de vous.</p><section class=\"secret\" id=\"secret-NkFSYzGdf370PpSv\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Ours</strong> inclut un Effet Actif qui peut automatiser l'ajout des résistances.</p><p>L'activité <strong>Aigle</strong> utilise une Action Bonus pour Désengager et Se Précipiter.</p><p>L'activité <strong>Loup</strong> inclut un modèle de cible de 1,5 mètres pour identifier les créatures affectées.</p></section>",
       "activities": {
         "Eagle": {
-          "name": "Eagle"
+          "name": "Aigle"
         },
         "Wolf": {
-          "name": "Wolf"
+          "name": "Loup"
         },
         "Bear": {
-          "name": "Bear"
+          "name": "Ours"
         }
       },
       "effects": {
         "Rage of the Bear": {
-          "name": "Rage of the Bear"
+          "name": "La rage de l'ours"
         }
       }
     },
@@ -4077,7 +4077,7 @@
       "description": "<p>Grâce à votre athlétisme, vous avez l'Avantage sur les jets d'Initiative et les tests de Force (Athlétisme).</p><p>De plus, immédiatement après avoir réussi un Coup Critique, vous pouvez vous déplacer jusqu'à la moitié de votre Vitesse sans provoquer d'Attaques d'Opportunité.</p><section class=\"secret\" id=\"secret-uyi38uA0t76MZ3Ae\"><p><strong>Note Foundry</strong></p><p>Cette fonctionnalité confère automatiquement l'Avantage sur les jets d'Initiative.</p></section>",
       "effects": {
         "Remarkable Athlete": {
-          "name": "Remarkable Athlete"
+          "name": "Athlète Remarquable"
         }
       }
     },
@@ -4086,18 +4086,18 @@
       "description": "<p>Vous pouvez traverser l'esprit d'une créature avec vos Lames Psychiques. Lorsque vous infligez des dégâts d'Attaque Sournoise à une créature avec vos Lames Psychiques, vous pouvez forcer la cible à effectuer un jet de sauvegarde de Sagesse (DD 8 plus votre modificateur de Dextérité et votre Bonus de Maîtrise). Si elle échoue, la cible est Assommée pour 1 minute. La cible Assommée répète le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet en cas de réussite.</p><p>Une fois que vous avez utilisé cette capacité, vous ne pouvez pas la réutiliser avant un Long Repos, sauf si vous dépensez trois dés d'Énergie Psionique (aucune action requise) pour restaurer son utilisation.</p><section id=\"secret-Zq3j5BJjksLsQv5k\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Déchirer l'Esprit (Libre)</strong> inclut une utilisation gratuite de cette fonctionnalité. L'activité <strong>Déchirer l'Esprit</strong> consommera trois dés d'Énergie Psionique. Les deux activités incluent le jet de sauvegarde et un Effet Actif qui applique l'état Assommé.</p></section>",
       "activities": {
         "Rend Mind (Free)": {
-          "name": "Rend Mind (Free)",
-          "condition": "When you deal Sneak Attack damage with your Psychic Blades"
+          "name": "Déchirer l'Esprit (Gratuit)",
+          "condition": "Lorsque vous infligez des dégâts de Frappe Sournoise avec vos Lames Psychiques"
         },
         "Rend Mind": {
-          "name": "Rend Mind",
-          "condition": "When you deal Sneak Attack damage with your Psychic Blades"
+          "name": "Déchirer l'Esprit",
+          "condition": "Lorsque vous infligez des dégâts de Frappe Sournoise avec vos Lames Psychiques"
         }
       },
       "effects": {
         "Rend Mind": {
-          "name": "Rend Mind",
-          "description": "<p>The target has the Stunned condition for 1 minute. The Stunned target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>"
+          "name": "Déchirer l'Esprit",
+          "description": "<p>La cible subit la condition Étourdi pendant 1 minute. La cible Étourdie répète le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet en cas de succès.</p>"
         }
       }
     },
@@ -4106,15 +4106,15 @@
       "description": "<blockquote><p>Prérequis : Niveau 2+ de Ensorceleur, un Sort mineurde Ensorceleur qui inflige des dégâts via un jet d'attaque</p></blockquote><p>Choisissez un de vos Sorts mineurs de Ensorceleur connu nécessitant un jet d'attaque. Lorsque vous touchez une créature de taille Grande ou inférieure avec ce Sort mineur, vous pouvez repousser la créature de 3 mètres directement loin de vous.</p><p>Réutilisable. Vous pouvez acquérir cette invocation plusieurs fois. Chaque fois que vous le faites, choisissez un Sort mineuréligible différent.</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Rendre Repoussant</strong> peut être utilisée pour enchanter un Sort mineur, ajoutant \", Repoussant\" comme rappel.</p></section>",
       "activities": {
         "Make Repelling": {
-          "name": "Make Repelling"
+          "name": "Créer Repousser"
         }
       },
       "effects": {
         "Repelling Blast": {
-          "name": "Repelling Blast",
-          "description": "<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>",
+          "name": "Explosion Repoussante",
+          "description": "<p>Choisissez un de vos cantrips d'Occultiste connus qui nécessite un jet d'attaque. Lorsque vous touchez une créature de Taille Grande ou plus petite avec ce cantrip, vous pouvez repousser la créature jusqu'à 3 mètres de vous.</p>",
           "changes": {
-            "name": ", Repelling"
+            "name": ", Repousser"
           }
         }
       }
@@ -4124,8 +4124,8 @@
       "description": "<p>Votre connexion au plan de l'ordre absolu vous permet d'équilibrer des moments chaotiques. Lorsqu'une créature que vous pouvez voir dans un rayon de 18 mètres s'apprête à lancer un d20 avec Avantage ou Désavantage, vous pouvez prendre une Réaction pour empêcher le jet d'être affecté par l'Avantage ou le Désavantage.</p><p>Vous pouvez utiliser cette capacité un nombre de fois égal à votre modificateur de Charisme (minimum une fois), et vous récupérez toutes les utilisations dépensées après un Long Repos.</p>",
       "activities": {
         "Prevent Advantage/Disadvantage": {
-          "name": "Prevent Advantage/Disadvantage",
-          "condition": "When a creature you can see within 60 feet is about to roll d20 with Advantage/Disadvantage"
+          "name": "Prévenir l'Avantage/Désavantage",
+          "condition": "Lorsqu'une créature que vous pouvez voir dans un rayon de 18 mètres est sur le point de lancer un d20 avec Avantage/Désavantage"
         }
       }
     },
@@ -4138,8 +4138,8 @@
       "description": "<p>Lorsque vous subissez des dégâts d'une créature située à 1,5 mètres de vous, vous pouvez utiliser une Réaction pour effectuer une attaque de mêlée contre cette créature, en utilisant une arme ou une attaque à mains nues.</p>",
       "activities": {
         "Retaliate": {
-          "name": "Retaliate",
-          "condition": "When you take damage from a creature within 5 feet of you"
+          "name": "Riposte",
+          "condition": "Lorsque vous subissez des dégâts d'une créature située à 1,50 mètre ou moins de vous"
         }
       }
     },
@@ -4148,21 +4148,21 @@
       "description": "<p>Vous pouvez libérer la vérité aberrante cachée en vous. En tant qu'Action Bonus, vous pouvez dépenser 1 point de Sorcellerie ou plus pour modifier votre corps de manière magique pendant 10 minutes. Pour chaque point de Sorcellerie dépensé, vous obtenez un des avantages suivants de votre choix, les effets durant jusqu'à la fin de la modification.</p><p><strong>Adaptation Aquatique.</strong> Vous gagnez une Vitesse de Nage égale au double de votre Vitesse, et vous pouvez respirer sous l'eau. Des branchies poussent de votre cou ou derrière vos oreilles, et vos doigts deviennent palmés ou développent des cils ondulants.</p><p><strong>Vol Scintillant.</strong> Vous gagnez une Vitesse de Vol égale à votre Vitesse et vous pouvez planer. En volant, votre peau scintille de mucus ou d'une lumière surnaturelle.</p><p><strong>Voir l'Invisible.</strong> Vous pouvez voir toute créature Invisible dans un rayon de 18 mètres qui n'est pas derrière une Couverture Totale. Vos yeux deviennent noirs ou se transforment en tentacules sensoriels ondulants.</p><p><strong>Mouvement Sinueux.</strong> Votre corps, ainsi que tout équipement que vous portez, devient glissant et malléable. Vous pouvez vous déplacer dans tout espace aussi étroit qu'un pouce, et vous pouvez dépenser 1,5 mètres de mouvement pour vous libérer de contraintes non-magiques ou de l'état Agrippé.</p><section id=\"secret-jX8dvHDf5youPS4j\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Dépenser des Points de Sorcellerie</strong> vous permettra de sélectionner le nombre de points de Sorcellerie à dépenser. Elle inclut un Effet Actif pour chaque option pour le suivi, mais n'automatise pas leurs changements.</p></section>",
       "activities": {
         "Expend Sorcery Points": {
-          "name": "Expend Sorcery Points"
+          "name": "Dépenser des Points de Sorcellerie"
         }
       },
       "effects": {
         "Aquatic Adaptation": {
-          "name": "Aquatic Adaptation"
+          "name": "Adaptation Aquatique"
         },
         "Glistening Flight": {
-          "name": "Glistening Flight"
+          "name": "Vol Scintillant"
         },
         "See the Invisible": {
-          "name": "See the Invisible"
+          "name": "Voir l'Invisible"
         },
         "Wormlike Movement": {
-          "name": "Wormlike Movement"
+          "name": "Mouvement Vermiforme"
         }
       }
     },
@@ -4171,8 +4171,8 @@
       "description": "<p>Lorsqu'une créature vous rate avec un jet d'attaque de mêlée, vous pouvez utiliser une Réaction et dépenser un dé de Supériorité pour effectuer un jet d'attaque de mêlée avec une arme ou une attaque à mains nues contre cette créature. Si vous touchez, ajoutez le dé de Supériorité aux dégâts de l'attaque.</p><section id=\"secret-aL4TzEY3Wy7mzsWY\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité de réaction <strong>Dégâts de Riposte</strong> vous permet de sélectionner le type de dégâts à infliger dans la boîte de dialogue de jet et consommera une utilisation de votre dé de Supériorité.</p></section>",
       "activities": {
         "Riposte Damage": {
-          "name": "Riposte Damage",
-          "condition": "When a creature misses you with a melee attack roll"
+          "name": "Dégâts de Riposte",
+          "condition": "Lorsqu'une créature vous rate avec une attaque de mêlée"
         }
       }
     },
@@ -4189,24 +4189,24 @@
         },
         "Expertise": {
           "title": "Expertise",
-          "hint": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them."
+          "hint": "Vous gagnez l'Expertise dans deux de vos compétences maîtrisées au choix. Escamotage et Discrétion sont recommandés si vous les maîtrisez."
         },
         "sqWH6tnUg7jiGaEj": {
           "title": "Expertise"
         },
         "Sneak Attack": {
-          "title": "Sneak Attack"
+          "title": "Attaque sournoise"
         },
         "Thieves' Cant": {
-          "title": "Thieves' Cant",
-          "hint": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages below."
+          "title": "Argot des Voleurs",
+          "hint": "Vous avez appris diverses langues dans les communautés où vous avez exercé vos talents de roublard. Vous connaissez le Argot des Voleurs et une autre langue de votre choix parmi celles listées ci-dessous."
         },
         "FiaNLovfP6tnY4tD": {
-          "hint": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
+          "hint": "Votre esprit rusé est particulièrement difficile à contrôler. Vous gagnez la maîtrise des jets de sauvegarde de Sagesse et de Charisme."
         },
         "Epic Boon": {
           "title": "Don Épique",
-          "hint": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended."
+          "hint": "Vous gagnez un don épique ou un autre don de votre choix auquel vous êtes éligible. Le Don de l'Esprit Nocturne est recommandé."
         },
         "Weapon Mastery": {
           "title": "Maîtrise des Armes"
@@ -4224,7 +4224,7 @@
           "title": "Maîtrises des Outils"
         },
         "Armor Training": {
-          "title": "Armor Training"
+          "title": "Formation aux Armures"
         }
       }
     },
@@ -4262,7 +4262,7 @@
       "description": "<p>Chaque fois que vous utilisez Chasser les Morts-Vivants, vous pouvez lancer un nombre de d8 égal à votre modificateur de Sagesse (minimum de 1d8, actuellement [[lookup @abilities.wis.mod]]) et additionner les résultats. Chaque Mort-Vivant qui rate son jet de sauvegarde contre cet usage de Chasser les Morts-Vivants subit des dégâts radiants égaux au total des jets. Ces dégâts ne mettent pas fin à l'effet de Chasse.</p><section class=\"secret\" id=\"secret-VJPPRFTlu1fFg8XB\"><p><strong>Note Foundry</strong></p><p>Cette capacité peut être utilisée à la place de Chasser les Morts-Vivants. Elle consomme une utilisation de Canalisation Divine, inclut le jet de sauvegarde, les effets actifs pour les conditions et le jet de dégâts de cette capacité.</p></section>",
       "activities": {
         "Channel Divinity: Turn Undead": {
-          "name": "Canalisation de Divinité : Repousser les Morts-vivants"
+          "name": "Canalisation Divine : Repousser les Morts-vivants"
         }
       },
       "effects": {
@@ -4276,7 +4276,7 @@
       "description": "<p>Lorsque vous ou un allié dans un rayon de 18 mètres est sur le point de faire un jet de sauvegarde contre la mort, vous pouvez libérer de l'énergie radiante pour sauver la créature. Elle récupère des Points de Vie égaux à la moitié de son maximum de Points de Vie et peut mettre fin à la condition de &amp;Reference[Prone] sur elle-même. Chaque créature de votre choix dans un rayon de 9 mètres autour de la créature subit des dégâts radiants égaux à 2d8 plus votre modificateur de Charisme, et chacune reçoit la condition &amp;Reference[Blinded] jusqu'à la fin du tour actuel.</p><p>Une fois cette capacité utilisée, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos long.</p><section id=\"secret-fOSDxWyY7FdboIM7\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>La guérison jusqu'à la moitié du maximum de Points de Vie n'est pas automatisée, mais l'activité <strong>Dégâts</strong> inclut le modèle de ciblage et le jet de dégâts. Elle inclut également un effet actif qui applique la condition Aveuglé.</p></section>",
       "activities": {
         "damage": {
-          "condition": "When you or an ally within 60 feet of you is about to make a Death Saving Throw"
+          "condition": "Lorsque vous ou un allié dans un rayon de 18 mètres êtes sur le point de faire un Jet de Sauvegarde contre la Mort"
         }
       },
       "effects": {
@@ -4452,7 +4452,7 @@
       "description": "<p>Vous pouvez désormais utiliser les pouvoirs suivants avec vos Lames Psychiques.</p><p><strong>Frappe Guidée.</strong> Si vous effectuez un jet d’attaque avec votre Lame Psychique et ratez la cible, vous pouvez lancer un dé d’Énergie Psionique et ajouter le résultat au jet d’attaque. Si cela permet de toucher, le dé est dépensé.</p><p><strong>Téléportation Psychique.</strong> En tant qu'Action Bonus, vous manifestez une Lame Psychique, dépensez un dé d’Énergie Psionique et le lancez, puis jetez la lame vers un espace inoccupé visible dans une portée égale à 10 fois le résultat du dé. Vous vous téléportez alors à cet endroit, et la lame disparaît.</p><section class=\"secret\" id=\"secret-1npFnCTwWLq6hxhx\"><p><strong>Note de Foundry</strong></p><p>L’activité <strong>Frappe Guidée</strong> consomme un dé et fournit un jet. Si le test échoue toujours, vous pouvez rembourser le dé.</p><p>L’activité <strong>Téléportation Psychique</strong> consomme un dé et fournit un jet. Vous pouvez ensuite placer un gabarit dans la portée indiquée pour indiquer où vous souhaitez vous téléporter (bien que vous ne soyez pas automatiquement téléporté).</p></section>",
       "activities": {
         "Homing Strikes": {
-          "name": "Coups Homing",
+          "name": "Frappes à tête chercheuse",
           "roll": "Bonus Psionique",
           "condition": "Échouer un jet d'attaque avec vos Lames Psychiques"
         },
@@ -4746,7 +4746,7 @@
     },
     "Supreme Healing": {
       "name": "Guérison Suprême",
-      "description": "<p>Lorsque vous lanceriez normalement un ou plusieurs dés pour restaurer des Points de Vie à une créature avec un sort ou une Canalisation de Divinité, ne lancez pas ces dés pour la guérison ; utilisez plutôt le nombre le plus élevé possible pour chaque dé. Par exemple, au lieu de restaurer 2d6 Points de Vie à une créature avec un sort, vous en restaurez 12.</p><section id=\"secret-1Bw7MOem4xyPO17q\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette fonctionnalité ne permet pas d'automatiser la maximisation de tous vos jets.</p></section>"
+      "description": "<p>Lorsque vous lanceriez normalement un ou plusieurs dés pour restaurer des Points de Vie à une créature avec un sort ou une Canalisation Divine, ne lancez pas ces dés pour la guérison ; utilisez plutôt le nombre le plus élevé possible pour chaque dé. Par exemple, au lieu de restaurer 2d6 Points de Vie à une créature avec un sort, vous en restaurez 12.</p><section id=\"secret-1Bw7MOem4xyPO17q\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette fonctionnalité ne permet pas d'automatiser la maximisation de tous vos jets.</p></section>"
     },
     "Supreme Sneak": {
       "name": "Furtivité Suprême",
@@ -4890,8 +4890,8 @@
       "description": "<p>Vous êtes habile pour tendre des embuscades et échapper rapidement au danger. Vous pouvez prendre deux tours pendant le premier round de tout combat. Vous jouez votre premier tour à votre Initiative normale et votre deuxième tour à votre Initiative moins 10.</p>"
     },
     "Thieves' Cant": {
-      "name": "Langage des Voleurs",
-      "description": "<p>Vous avez appris diverses langues dans les communautés où vous avez exercé vos talents de voleur. Vous connaissez le Langage des Voleurs ainsi qu'une autre langue de votre choix, que vous choisissez dans les tables des langues du @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{chapitre 2}.</p><section id=\"secret-xG1Y223QZRsrOTCZ\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Le Langage des Voleurs sera automatiquement ajouté à votre fiche, et vous serez invité à choisir la langue supplémentaire.</p></section>"
+      "name": "Argot des Voleurs",
+      "description": "<p>Vous avez appris diverses langues dans les communautés où vous avez exercé vos talents de voleur. Vous connaissez le Argot des Voleurs ainsi qu'une autre langue de votre choix, que vous choisissez dans les tables des langues du @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{chapitre 2}.</p><section id=\"secret-xG1Y223QZRsrOTCZ\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Le Argot des Voleurs sera automatiquement ajouté à votre fiche, et vous serez invité à choisir la langue supplémentaire.</p></section>"
     },
     "Thirsting Blade": {
       "name": "Lame Assoiffée",
@@ -5581,16 +5581,16 @@
       }
     },
     "phbpdnChannelDiv": {
-      "name": "Channel Divinity",
-      "description": "<p>You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class’s Channel Divinity, you choose which effect from this class to create.</p><p>You can use this class’s Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.</p><p>If a Channel Divinity effect requires a saving throw, the DD equals the spell save DD from this class’s Spellcasting feature.</p><p><strong>Divine Sense.</strong> As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Hallow} spell.</p><section class=\"secret\" id=\"secret-lIHCt32JLE7PAUbn\"><p><strong>Foundry Note</strong></p><p>The uses of your Channel Divinity increase automatically as you level up. It automatically regains the correct uses after Short and Long Rests.</p><p>The <strong>Divine Sense</strong> activity includes an Active Effect but it does not automatically reveal the given creatures.</p></section>",
+      "name": "Canalisation Divine",
+      "description": "<p>Vous pouvez canaliser l’énergie divine directement depuis les Plans Extérieurs, l’utilisant pour alimenter des effets magiques. Vous commencez avec un tel effet : Sens Divin, qui est décrit ci-dessous. D’autres caractéristiques du Paladin offrent des options supplémentaires pour la Canalisation Divine. À chaque utilisation de cette capacité de classe, vous choisissez quel effet appliquer.</p><p>Vous pouvez utiliser cette capacité deux fois. Vous récupérez une utilisation dépensée lorsque vous terminez un Repos Court, et vous récupérez toutes les utilisations dépensées lorsque vous terminez un Repos Long. Vous gagnez une utilisation supplémentaire lorsque vous atteignez le niveau 11 de Paladin.</p><p>Si un effet de Canalisation Divine nécessite un jet de sauvegarde, le DD est égal au DD de sauvegarde des sorts de cette classe.</p><p><strong>Sens Divin.</strong> En tant qu’Action Bonus, vous pouvez ouvrir votre perception pour détecter les Célestes, Fiélons et Morts-vivants. Pendant les 10 prochaines minutes ou jusqu’à ce que vous obteniez la condition Incapacité, vous connaissez l’emplacement de toute créature de ces types dans un rayon de 18 mètres autour de vous, ainsi que son type de créature. Dans le même rayon, vous détectez également la présence de tout lieu ou objet ayant été consacré ou profané, comme avec le sort @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Sanctification}.</p><section class=\"secret\" id=\"secret-lIHCt32JLE7PAUbn\"><p><strong>Note Foundry</strong></p><p>Les utilisations de votre Canalisation Divine augmentent automatiquement à mesure que vous montez de niveau. Elles sont automatiquement restaurées après un Repos Court ou Long.</p><p>L’activité <strong>Sens Divin</strong> inclut un Effet Actif, mais il ne révèle pas automatiquement les créatures détectées.</p></section>",
       "activities": {
         "Divine Sense": {
-          "name": "Divine Sense"
+          "name": "Sens Divin"
         }
       },
       "effects": {
         "Divine Sense": {
-          "name": "Divine Sense"
+          "name": "Sens Divin"
         }
       }
     },
