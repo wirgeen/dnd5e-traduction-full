@@ -50,6 +50,15 @@
     "Weapons": "Armes"
   },
   "entries": {
+    "67ScUFYRuMU0J2Wt": {
+      "name": "Water (Pint)",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "Consume": {
+          "name": "Consume"
+        }
+      }
+    },
     "Acid": {
       "name": "Acide",
       "description": "<p>Lorsque vous effectuez une action d'attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'acide. Ciblez une créature ou un objet que vous pouvez voir dans un rayon de 6 mètres autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DD 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou subir 2d6 dégâts d'acide.</p>",
@@ -414,6 +423,15 @@
       "name": "Paquet de Spéléologue",
       "description": "<p>Un paquet de spéléologue contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Chausse-trapes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Pied-de-biche}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte d'Amadou}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
     },
+    "EGuDt2xpscYtalmV": {
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
+        }
+      }
+    },
     "Ebony-bound Atlas": {
       "name": "Atlas Relié en Ébène",
       "description": "<p>Une collection de cartes reliée dans une couverture d’ébène qui peut être utilisée comme focalisateur de sorts par les druides du Cercle des Étoiles. C’est un objet minuscule.</p>"
@@ -596,6 +614,10 @@
         }
       }
     },
+    "I6wPnS0Z1qcpXjdL": {
+      "name": "Parchment",
+      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>"
+    },
     "Ink": {
       "name": "Encre",
       "description": "<p>L'encre est contenue dans une bouteille de 1 once, ce qui suffit pour écrire environ 500 pages.</p>"
@@ -603,6 +625,15 @@
     "Ink Pen": {
       "name": "Plume",
       "description": "<p>Utilisée avec de l’Encre, une Plume permet d’écrire ou de dessiner.</p>"
+    },
+    "It6m0vGGZwCf9E7r": {
+      "name": "Water (Pint)",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "Consume": {
+          "name": "Consume"
+        }
+      }
     },
     "Javelin": {
       "name": "Javeline",
@@ -617,9 +648,34 @@
         }
       }
     },
+    "JpE7eqjwXw95Sai5": {
+      "name": "Oil",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "Throw": {
+          "name": "Throw"
+        },
+        "Douse Space": {
+          "name": "Douse Space"
+        }
+      }
+    },
     "Jug": {
       "name": "Cruche",
       "description": "<p>Une Cruche peut contenir jusqu'à 1 gallon.</p>"
+    },
+    "KH8g5hD7Q6ZX1YqV": {
+      "name": "Bedroll",
+      "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>"
+    },
+    "KUlBAAjJ9KmOCSsC": {
+      "name": "Lamp",
+      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
+        }
+      }
     },
     "Ladder": {
       "name": "Échelle",
@@ -669,6 +725,21 @@
         }
       }
     },
+    "LfDewuKszszreg6i": {
+      "name": "Rope",
+      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "activities": {
+        "Tie Knot": {
+          "name": "Tie Knot"
+        },
+        "Burst Rope": {
+          "name": "Burst Rope"
+        },
+        "Escape Check": {
+          "name": "Escape Check"
+        }
+      }
+    },
     "Light Crossbow": {
       "name": "Arbalète Légère",
       "description": ""
@@ -688,6 +759,10 @@
     "Longsword": {
       "name": "Épée Longue",
       "description": ""
+    },
+    "LuLBFWwxjbNKU9FF": {
+      "name": "Waterskin",
+      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>"
     },
     "Lute": {
       "name": "Luth",
@@ -798,6 +873,10 @@
           "name": "Caught in Net"
         }
       }
+    },
+    "NmDigoAOjCENDrea": {
+      "name": "Bell",
+      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>"
     },
     "Oil": {
       "name": "Huile",
@@ -918,6 +997,15 @@
       "name": "Sac du Prêtre",
       "description": "<p>Un sac de prêtre contient les objets suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Couverture}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Eau Sainte}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}, 7 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, et @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte à Amorcer}.</p>"
     },
+    "Qgekp4euuB5S9tpe": {
+      "name": "Water (Pint)",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "Consume": {
+          "name": "Consume"
+        }
+      }
+    },
     "Quarterstaff": {
       "name": "Bâton de combat",
       "description": ""
@@ -966,6 +1054,28 @@
         },
         "Escape Check": {
           "name": "Escape Check"
+        }
+      }
+    },
+    "RqrWyXa9XkriaxTP": {
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
+        }
+      }
+    },
+    "SKDkrz7KSUIfOnHE": {
+      "name": "Map or Scroll Case",
+      "description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>"
+    },
+    "SMj5QHHkDCdvkx35": {
+      "name": "Lamp",
+      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
         }
       }
     },
@@ -1138,6 +1248,14 @@
       "name": "Trident",
       "description": ""
     },
+    "UOiM3icOTVhR3llN": {
+      "name": "Waterskin",
+      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>"
+    },
+    "UPfmTzNgqi9QblZR": {
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+    },
     "Unarmed Strike": {
       "name": "Coup à mains nues",
       "description": "",
@@ -1152,6 +1270,30 @@
         },
         "Prone": {
           "name": "Prone"
+        }
+      }
+    },
+    "Ur2LYFqSdOgeWWF0": {
+      "name": "Oil",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "Throw": {
+          "name": "Throw"
+        },
+        "Douse Space": {
+          "name": "Douse Space"
+        }
+      }
+    },
+    "VczW1tStT5y7No3b": {
+      "name": "Oil",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "Throw": {
+          "name": "Throw"
+        },
+        "Douse Space": {
+          "name": "Douse Space"
         }
       }
     },
@@ -1222,9 +1364,287 @@
       "name": "Bâton en bois",
       "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Focalisateur druidique} prend l'une des formes de la table des focalisateurs druidiques et est sculpté, attaché avec un ruban ou peint pour canaliser la magie primitive. Un druide ou un ranger peut utiliser un tel objet comme focalisateur pour le lancement de sorts.</p><p>Cet objet fonctionne également comme un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de combat}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Note de Foundry</strong></p><p>Cet objet a été configuré avec les propriétés supplémentaires d'un bâton de combat.</p></section>"
     },
+    "X5XgogJLLydoKdrJ": {
+      "name": "Waterskin",
+      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>"
+    },
+    "YAXBQxHMEtJx6OuQ": {
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
+        }
+      }
+    },
     "Yew wand": {
       "name": "Bâton en if",
       "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Focalisateur druidique} prend l'une des formes de la table des focalisateurs druidiques et est sculpté, attaché avec un ruban ou peint pour canaliser la magie primitive. Un druide ou un ranger peut utiliser un tel objet comme focalisateur pour le lancement de sorts.</p>"
+    },
+    "aWEY8Xh0wfn69Q1w": {
+      "name": "Water (Pint)",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "Consume": {
+          "name": "Consume"
+        }
+      }
+    },
+    "etKzfLUMWikSsi3R": {
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
+        }
+      }
+    },
+    "gHOs5HRZJdnUwfng": {
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
+        }
+      }
+    },
+    "gYKSyS7STTresmnS": {
+      "name": "Torch",
+      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>"
+    },
+    "llmXULupnKVHUGuE": {
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+    },
+    "nFFc8hnpFeiIhQWa": {
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+    },
+    "phbWaterpint0000": {
+      "name": "Water (Pint)",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "Consume": {
+          "name": "Consume"
+        }
+      }
+    },
+    "phbagBallBearing": {
+      "name": "Ball Bearings",
+      "description": "<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the &amp;Reference[Prone] condition. It takes 10 minutes to recover the Ball Bearings.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>",
+      "activities": {
+        "Spill Ball Bearings": {
+          "name": "Spill Ball Bearings"
+        },
+        "Recover Ball Bearings": {
+          "name": "Recover Ball Bearings"
+        }
+      },
+      "effects": {
+        "Tripped": {
+          "name": "Tripped"
+        }
+      }
+    },
+    "phbagBedroll0000": {
+      "name": "Bedroll",
+      "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>"
+    },
+    "phbagBell0000000": {
+      "name": "Bell",
+      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>"
+    },
+    "phbagBlanket0000": {
+      "name": "Blanket",
+      "description": "<p>While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>"
+    },
+    "phbagCaltrops000": {
+      "name": "Caltrops",
+      "description": "<p>As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.</p>",
+      "effects": {
+        "Slowed": {
+          "name": "Slowed"
+        }
+      }
+    },
+    "phbagCostume0000": {
+      "name": "Costume",
+      "description": "<p>While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.</p>"
+    },
+    "phbagCrowbar0000": {
+      "name": "Crowbar",
+      "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied.</p>"
+    },
+    "phbagHolyWater00": {
+      "name": "Holy Water",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.</p>",
+      "activities": {
+        "Throw": {
+          "name": "Throw"
+        }
+      }
+    },
+    "phbagInk00000000": {
+      "name": "Ink",
+      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>"
+    },
+    "phbagLamp0000000": {
+      "name": "Lamp",
+      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
+        }
+      }
+    },
+    "phbagMirror00000": {
+      "name": "Mirror",
+      "description": "<p>A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.</p>"
+    },
+    "phbagOil00000000": {
+      "name": "Oil",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "Throw": {
+          "name": "Throw"
+        },
+        "Douse Space": {
+          "name": "Douse Space"
+        }
+      }
+    },
+    "phbagParchment00": {
+      "name": "Parchment",
+      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>"
+    },
+    "phbagRations0000": {
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+    },
+    "phbagRobe0000000": {
+      "name": "Robe",
+      "description": "<p>A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.</p>"
+    },
+    "phbagRope0000000": {
+      "name": "Rope",
+      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "activities": {
+        "Tie Knot": {
+          "name": "Tie Knot"
+        },
+        "Burst Rope": {
+          "name": "Burst Rope"
+        },
+        "Escape Check": {
+          "name": "Escape Check"
+        }
+      }
+    },
+    "phbagTinderbox00": {
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
+        }
+      }
+    },
+    "phbagTorch000000": {
+      "name": "Torch",
+      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>"
+    },
+    "phbagWaterskin00": {
+      "name": "Waterskin",
+      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>"
+    },
+    "phiPN9UzkXk3i5xh": {
+      "name": "Book",
+      "description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>"
+    },
+    "q6nVEb4XnTWxqA81": {
+      "name": "Oil",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "Throw": {
+          "name": "Throw"
+        },
+        "Douse Space": {
+          "name": "Douse Space"
+        }
+      }
+    },
+    "rIuY5ZDJh6ctfUwG": {
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
+        }
+      }
+    },
+    "rZATMqE6y9uD3uzz": {
+      "name": "Paper",
+      "description": "<p>One sheet of Paper can hold about 250 handwritten words.</p>"
+    },
+    "rvz6gQc3OcOMgIQz": {
+      "name": "Crowbar",
+      "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied.</p>"
+    },
+    "rwITntQ6OAy0neX8": {
+      "name": "Oil",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "Throw": {
+          "name": "Throw"
+        },
+        "Douse Space": {
+          "name": "Douse Space"
+        }
+      }
+    },
+    "ts2DfyhdfsR092Td": {
+      "name": "Candle",
+      "description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>",
+      "activities": {
+        "Light": {
+          "name": "Light"
+        }
+      }
+    },
+    "uBvsyY44RP4LJLzp": {
+      "name": "Ink Pen",
+      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>"
+    },
+    "vi0j4PYnO596a2L1": {
+      "name": "Ink",
+      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>"
+    },
+    "x8jC9e00t4cUYiKR": {
+      "name": "Rope",
+      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "activities": {
+        "Tie Knot": {
+          "name": "Tie Knot"
+        },
+        "Burst Rope": {
+          "name": "Burst Rope"
+        },
+        "Escape Check": {
+          "name": "Escape Check"
+        }
+      }
+    },
+    "x9BzTUcsOj6K6OJE": {
+      "name": "Ink Pen",
+      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>"
+    },
+    "xP6OWuEaxQbDUfJV": {
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+    },
+    "yoRKNd2QddQp1XuX": {
+      "name": "Perfume",
+      "description": "<p>Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.</p>"
     }
   }
 }

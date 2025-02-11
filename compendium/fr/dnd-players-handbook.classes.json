@@ -280,7 +280,7 @@
         "Levitating": {
           "name": "Lévitation",
           "description": "<p>La cible ne peut se déplacer qu'en poussant ou en tirant contre un objet fixe ou une surface à portée (comme un mur ou un plafond), ce qui lui permet de se déplacer comme si elle escaladait.</p>"
-  }
+        }
       }
     },
     "Aspect of the Wilds": {
@@ -313,6 +313,10 @@
         }
       },
       "effects": {
+        "Assasinate": {
+          "name": "Assasinate",
+          "description": "<p>You have Advantage on Initiative rolls.</p>"
+        },
         "Assassinat": {
           "name": "Assassinat",
           "description": "<p>Vous avez l'Avantage aux jets d'Initiative.</p>"
@@ -783,7 +787,7 @@
     "Branches of the Tree": {
       "name": "Branches de l'Arbre",
       "description": "<p>Chaque fois qu'une créature que vous pouvez voir commence son tour à moins de 9 mètres de toi alors que ta Rage est active, vous pouvez utiliser une Réaction pour invoquer des branches spectrales de l'Arbre Mondial autour d'elle. La cible doit réussir un jet de sauvegarde de Force (DD 8 plus ton modificateur de Force et ton Bonus de Maîtrise) ou être téléportée dans un espace inoccupé que vous pouvez voir à moins de 1,5 mètre de toi ou dans l'espace inoccupé le plus proche que vous pouvez voir. Après que la cible soit téléportée, vous pouvez réduire sa Vitesse à 0 jusqu'à la fin du tour actuel.</p><section id=\"secret-iHFpYS3WUCeaQIVP\" class=\"secret\"><p><strong>Note de Foundry</strong></p><p>Cette capacité inclut un Effet Actif qui peut être appliqué à la cible et réduira sa Vitesse.</p></section>",
-        "activities": {
+      "activities": {
         "save": {
           "condition": "À chaque fois qu'une créature que vous pouvez voir commence son tour à moins de 9 mètres de vous pendant que vous êtes en Rage"
         }
@@ -1068,10 +1072,10 @@
       "description": "<p>Vous invoquez momentanément des esprits d'ordre pour éliminer le désordre autour de vous. En tant qu'action magique, vous invoquez les esprits dans un cube de 9 mètres centré sur vous. Les esprits ressemblent à des modrons ou à d'autres Constructs de votre choix. Les esprits sont intangibles et invulnérables, et ils créent les effets ci-dessous dans le cube avant de disparaître. Une fois que vous utilisez cette action, vous ne pouvez pas l'utiliser à nouveau avant d'avoir terminé un repos long, sauf si vous dépensez 7 Points de Sorcellerie (aucune action requise) pour restaurer son utilisation.</p><p><strong>Soin.</strong> Les esprits restaurent jusqu'à 100 Points de Vie, répartis comme vous le souhaitez parmi les créatures de votre choix dans le cube.</p><p><strong>Réparation.</strong> Tous les objets endommagés entièrement dans le cube sont réparés instantanément.</p><p><strong>Dissipation.</strong> Chaque sort de niveau 6 ou inférieur prend fin sur les créatures et objets de votre choix dans le cube.</p><section id=\"secret-wH5odny5bILRv7eY\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Cavalcade (Gratuit)</strong> inclut une utilisation gratuite et l'activité <strong>Cavalcade (Points de Sorcellerie)</strong> dépense le nombre correct de Points de Sorcellerie. Les deux incluent un modèle pour suivre la zone impactée.</p></section>",
       "activities": {
         "Cavalcade (Free)": {
-            "name": "Cavalcade (Gratuit)"
+          "name": "Cavalcade (Gratuit)"
         },
         "Cavalcade (Sorcery Points)": {
-            "name": "Cavalcade (Points de Sorcellerie)"
+          "name": "Cavalcade (Points de Sorcellerie)"
         }
       }
     },
@@ -1786,9 +1790,9 @@
       "name": "Affinité Élémentaire",
       "description": "<p>Votre magie draconique a une affinité avec un type de dégâts associé aux dragons. Choisissez l'un de ces types : Acide, Froid, Feu, Foudre ou Poison.</p><p>Vous avez une résistance à ce type de dégâts, et lorsque vous lancez un sort qui inflige des dégâts de ce type, vous pouvez ajouter votre modificateur de Charisme à un jet de dégâts de ce sort.</p><section class=\"secret\" id=\"secret-3vHUORtVzoP6V4xF\"><p><strong>Note Foundry</strong></p><p>Vous serez invité à choisir le type de dégâts en montant de niveau. Les dégâts supplémentaires ne sont pas automatiquement ajoutés, mais cette caractéristique comprend une activité pour chaque type de dégâts.</p><p>Vous pouvez accélérer l'utilisation de cette caractéristique en déplaçant votre type de dégâts choisi en haut, il sera utilisé automatiquement lorsque vous utiliserez cette caractéristique.</p></section>",
       "activities": {
-        "Acide": {
-          "name": "Acide",
-          "condition": "Lorsque vous lancez un sort qui inflige des dégâts correspondant à votre affinité élémentaire"
+        "Acid": {
+          "name": "Acid",
+          "condition": "When you cast a spell that deals damage of your elemental affinity"
         },
         "Cold": {
           "name": "Froid",
@@ -1804,6 +1808,10 @@
         },
         "Poison": {
           "name": "Poison",
+          "condition": "Lorsque vous lancez un sort qui inflige des dégâts correspondant à votre affinité élémentaire"
+        },
+        "Acide": {
+          "name": "Acide",
           "condition": "Lorsque vous lancez un sort qui inflige des dégâts correspondant à votre affinité élémentaire"
         }
       }
@@ -2101,9 +2109,9 @@
           "title": "Caractéristiques de la Sous-classe"
         },
         "Fiend Spells": {
-        "title": "Sorts Diaboliques",
-        "hint": "La magie de votre protecteur vous assure d'avoir toujours certains sorts prêts ; lorsque vous atteignez un niveau d'Occultiste spécifié dans le tableau des Sorts Diaboliques, vous avez ensuite toujours ces sorts préparés."
-      }
+          "title": "Sorts Diaboliques",
+          "hint": "La magie de votre protecteur vous assure d'avoir toujours certains sorts prêts ; lorsque vous atteignez un niveau d'Occultiste spécifié dans le tableau des Sorts Diaboliques, vous avez ensuite toujours ces sorts préparés."
+        }
       }
     },
     "Fiend Spells": {
@@ -2286,16 +2294,16 @@
       "description": "<blockquote><p>Prérequis : Ensorceleur de Niveau 9+, Invocation @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00]{Pacte du Grimoire}</p></blockquote><p>Une nouvelle page apparaît dans votre @UUID[Compendium.dnd5e.items.Item.CwWbeQ6XyqFzbMYw]{Livre des Ombres} lorsque vous le conjurez. Avec votre permission, une créature peut entreprendre une action pour écrire son nom sur cette page, qui peut contenir un nombre de noms égal à votre modificateur de Charisme (minimum d'un nom).</p><p>Lorsqu'une créature dont le nom est inscrit sur la page est réduite à 0 Points de Vie sans être tuée instantanément, elle tombe magiquement à 1 Point de Vie à la place. Une fois cette magie activée, aucune créature ne peut en bénéficier avant que vous n'ayez terminé un Repos Long.</p><p>En tant qu'action magique, vous pouvez effacer un nom de la page en le touchant.</p><section id=\"secret-VzLQ7nRPLs0fIkvE\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Protection</strong> consomme une utilisation de son activité qui se rafraîchit à chaque Repos Long.</p><p>L'activité <strong>Inscrire un Nom</strong> consomme une utilisation de l'élément qui peut être utilisée pour suivre le nombre de noms inscrits.</p><p>L'activité <strong>Effacer un Nom</strong> restaure une utilisation de l'élément et vous permet d'ajouter un autre nom.</p></section>",
       "activities": {
         "Protect": {
-            "name": "Protéger",
-            "condition": "Lorsqu'une créature dont le nom figure sur la page est réduite à 0 Points de Vie mais n'est pas tuée immédiatement"
+          "name": "Protéger",
+          "condition": "Lorsqu'une créature dont le nom figure sur la page est réduite à 0 Points de Vie mais n'est pas tuée immédiatement"
         },
         "Write Name": {
-            "name": "Écrire le Nom"
+          "name": "Écrire le Nom"
         },
         "Erase Name": {
-            "name": "Effacer le Nom"
+          "name": "Effacer le Nom"
         }
-    }
+      }
     },
     "Gloom Stalker": {
       "name": "Traqueur des Ombres",
@@ -2324,12 +2332,12 @@
       "name": "Défense Glorieuse",
       "description": "<p>Vous pouvez transformer votre défense en une attaque soudaine. Lorsqu'une attaque touche une créature que vous pouvez voir dans un rayon de 3 mètres autour de vous, vous pouvez prendre une Réaction pour accorder un bonus à la CA de la cible contre cette attaque, potentiellement la rendant inefficace. Le bonus est égal à votre modificateur de Charisme (minimum de +1). Si l'attaque échoue, vous pouvez effectuer une attaque avec une arme contre l'attaquant dans le cadre de cette Réaction si celui-ci est à portée de votre arme.</p><p>Vous pouvez utiliser cette capacité un nombre de fois égal à votre modificateur de Charisme (minimum une fois), et vous récupérez toutes les utilisations dépensées lorsque vous terminez un Repos Long.</p>",
       "activities": {
-      "Glorious Defense": {
-        "name": "Défense Glorieuse",
-        "roll": "Bonus de CA",
-        "condition": "Lorsque vous ou une autre créature que vous pouvez voir dans un rayon de 3 mètres de vous êtes touché par un jet d'attaque"
+        "Glorious Defense": {
+          "name": "Défense Glorieuse",
+          "roll": "Bonus de CA",
+          "condition": "Lorsque vous ou une autre créature que vous pouvez voir dans un rayon de 3 mètres de vous êtes touché par un jet d'attaque"
+        }
       }
-  }
     },
     "Goading Attack": {
       "name": "Attaque Provocante",
@@ -2343,7 +2351,7 @@
           "name": "Sauvegarde contre la Dextérité",
           "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
         }
-    }
+      }
     },
     "Great Old One Patron": {
       "name": "Pacte de l'Ancien",
@@ -2390,15 +2398,15 @@
       "name": "Frappe Guidée",
       "description": "<p>Lorsque vous ou une créature dans un rayon de 9 mètres ratez un jet d'attaque, vous pouvez dépenser une utilisation de votre Canal Divin et ajouter +10 à ce jet, ce qui peut lui permettre de toucher. Si vous utilisez cette capacité pour le jet d'attaque d'une autre créature, vous devez utiliser une réaction.</p><section class=\"secret\" id=\"secret-VjIYg1WvWqp7p6Jh\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Vous Guider</strong> ne consomme pas de réaction.</p><p>L'activité <strong>Guider une Autre Créature</strong> en consomme une.</p></section>",
       "activities": {
-      "Guide Yourself": {
-        "name": "Guider soi-même",
-        "condition": "Lorsque vous manquez une créature avec un jet d'attaque"
-      },
-      "Guide Another Creature": {
-        "name": "Guider une autre créature",
-        "condition": "Lorsque vous ou une créature située dans un rayon de 30 pieds de vous manquez un jet d'attaque"
+        "Guide Yourself": {
+          "name": "Guider soi-même",
+          "condition": "Lorsque vous manquez une créature avec un jet d'attaque"
+        },
+        "Guide Another Creature": {
+          "name": "Guider une autre créature",
+          "condition": "Lorsque vous ou une créature située dans un rayon de 30 pieds de vous manquez un jet d'attaque"
+        }
       }
-    }
     },
     "Hand of Harm": {
       "name": "Main du Mal",
@@ -2559,7 +2567,7 @@
           "name": "Magie Puissante : Guérison",
           "condition": "Lorsque vous lancez un sort mineur de Prêtre et infligez des dégâts à une créature avec ce sort"
         }
-      }    
+      }
     },
     "Improved Brutal Strike": {
       "name": "Frappe Brutale Améliorée",
@@ -2954,6 +2962,13 @@
     "Maneuvering Attack": {
       "name": "Attaque de Manœuvre",
       "description": "<p>Lorsque vous touchez une créature avec un jet d'attaque, vous pouvez dépenser un dé de Supériorité pour manœuvrer un de vos camarades dans une autre position. Ajoutez le résultat du dé de Supériorité au jet de dégâts de l'attaque, et choisissez une créature consentante qui peut vous voir ou vous entendre. Cette créature peut utiliser sa Réaction pour se déplacer jusqu'à la moitié de sa Vitesse sans provoquer une Attaque d'Opportunité de la part de la cible de votre attaque.</p>",
+      "activities": {
+        "Maneuver": {
+          "name": "Maneuver",
+          "roll": "Attack Bonus",
+          "condition": "When you hit a creature with an attack roll"
+        }
+      },
       "activités": {
         "Manœuvre": {
           "nom": "Manœuvre",
@@ -3094,10 +3109,10 @@
       "name": "Rage Insensible",
       "description": "<p>Vous êtes immunisé contre les conditions &amp;Reference[Charmed] et &amp;Reference[Frightened] tant que votre Rage est active. Si vous êtes charmé ou effrayé lorsque vous entrez en Rage, la condition prend fin sur vous.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un effet actif qui accorde l'immunité contre les conditions Charmé et Effrayé. Il n'est pas appliqué automatiquement lorsque vous commencez votre Rage.</p></section>",
       "effects": {
-      "Mindless Rage": {
-        "name": "Rage Insensible"
+        "Mindless Rage": {
+          "name": "Rage Insensible"
+        }
       }
-    }
     },
     "Misty Escape": {
       "name": "Évasion Brumeuse",
@@ -3779,15 +3794,15 @@
           "title": "Caractéristiques de la Sous-classe"
         },
         "Psionic Energy Die": {
-        "title": "Dé d'Énergie Psionique"
-      },
-      "Telekinetic Master": {
-        "title": "Maître Télékinétique"
-      },
-      "Guarded Mind": {
-        "title": "Esprit Protégé",
-        "hint": "Vous avez une Résistance aux dégâts Psychiques."
-      }
+          "title": "Dé d'Énergie Psionique"
+        },
+        "Telekinetic Master": {
+          "title": "Maître Télékinétique"
+        },
+        "Guarded Mind": {
+          "title": "Esprit Protégé",
+          "hint": "Vous avez une Résistance aux dégâts Psychiques."
+        }
       }
     },
     "Psionic Power": {
@@ -4026,7 +4041,7 @@
         "Weapon Mastery": {
           "title": "Maîtrise des Armes"
         }
-      }  
+      }
     },
     "Reckless Attack": {
       "name": "Attaque Téméraire",
@@ -4199,7 +4214,7 @@
         },
         "Thieves' Cant": {
           "title": "Argot des Voleurs",
-          "hint": "Vous avez appris diverses langues dans les communautés où vous avez exercé vos talents de roublard. Vous connaissez le Argot des Voleurs et une autre langue de votre choix parmi celles listées ci-dessous."
+          "hint": "Vous avez appris diverses langues dans les communautés où vous avez exercé vos talents de roublard. Vous connaissez l'argot des Voleurs et une autre langue de votre choix parmi celles listées ci-dessous."
         },
         "FiaNLovfP6tnY4tD": {
           "hint": "Votre esprit rusé est particulièrement difficile à contrôler. Vous gagnez la maîtrise des jets de sauvegarde de Sagesse et de Charisme."
@@ -4535,8 +4550,8 @@
         "Mass Fear": {
           "name": "Peur de Masse",
           "condition": "Lorsque vous utilisez l'effet Frappe Effroyable"
+        }
       }
-    }
     },
     "Star Map": {
       "name": "Carte des étoiles",
@@ -4862,7 +4877,7 @@
           "name": "Voir l'Invisible"
         }
       },
-      "effects": { 
+      "effects": {
         "Third Eye: Darkvision": {
           "name": "Troisième Œil : Vision dans le Noir",
           "description": "<p>La capacité Troisième Œil vous confère la Vision dans le Noir avec une portée de 120 pieds.</p>"
@@ -4891,7 +4906,7 @@
     },
     "Thieves' Cant": {
       "name": "Argot des Voleurs",
-      "description": "<p>Vous avez appris diverses langues dans les communautés où vous avez exercé vos talents de voleur. Vous connaissez le Argot des Voleurs ainsi qu'une autre langue de votre choix, que vous choisissez dans les tables des langues du @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{chapitre 2}.</p><section id=\"secret-xG1Y223QZRsrOTCZ\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Le Argot des Voleurs sera automatiquement ajouté à votre fiche, et vous serez invité à choisir la langue supplémentaire.</p></section>"
+      "description": "<p>Vous avez appris diverses langues dans les communautés où vous avez exercé vos talents de voleur. Vous connaissez l'argot des Voleurs ainsi qu'une autre langue de votre choix, que vous choisissez dans les tables des langues du @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{chapitre 2}.</p><section id=\"secret-xG1Y223QZRsrOTCZ\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'argot des Voleurs sera automatiquement ajouté à votre fiche, et vous serez invité à choisir la langue supplémentaire.</p></section>"
     },
     "Thirsting Blade": {
       "name": "Lame Assoiffée",
@@ -5630,6 +5645,19 @@
       "name": "Pouvoir Psionique",
       "description": "<p>Vous abritez en vous une source d’énergie psionique. Elle est représentée par vos Dés d'Énergie Psionique, qui alimentent certaines capacités de cette sous-classe. La table des Dés d'Énergie du Couteau Spirituel indique le nombre de ces dés que vous possédez à certains niveaux de Roublard, ainsi que leur taille.</p><table><caption>Dés d'Énergie du Couteau Spirituel</caption><thead><tr><td>Niveau de Roublard</td><td>Taille du Dé</td><td>Nombre</td></tr></thead><tbody><tr><td>3</td><td>D6</td><td>4</td></tr><tr><td>5</td><td>D8</td><td>6</td></tr><tr><td>9</td><td>D8</td><td>8</td></tr><tr><td>11</td><td>D10</td><td>8</td></tr><tr><td>13</td><td>D10</td><td>10</td></tr><tr><td>17</td><td>D12</td><td>12</td></tr></tbody></table><p>Toutes les capacités de cette sous-classe qui utilisent un Dé d'Énergie Psionique n’emploient que les dés issus de cette sous-classe. Certaines de vos capacités dépensent un Dé d'Énergie Psionique, comme spécifié dans leur description, et vous ne pouvez pas utiliser une capacité nécessitant un dé si tous vos Dés d'Énergie Psionique sont épuisés.</p><p>Vous récupérez un Dé d'Énergie Psionique dépensé lorsque vous terminez un Repos Court et vous les récupérez tous lorsque vous terminez un Repos Long.</p><p><strong>Talent Renforcé par la Psionique.</strong> Si vous ratez un test de caractéristique lié à une compétence ou un outil que vous maîtrisez, vous pouvez lancer un Dé d'Énergie Psionique et ajouter le résultat au test, transformant potentiellement l’échec en réussite. Le dé n’est dépensé que si le test réussit.</p><p><strong>Murmures Psychiques.</strong> Vous pouvez établir une communication télépathique entre vous et d’autres créatures. Par une action magique, choisissez un nombre de créatures visibles pouvant aller jusqu’à votre Bonus de Maîtrise, puis lancez un Dé d'Énergie Psionique. Pendant un nombre d’heures égal au résultat obtenu, les créatures choisies peuvent communiquer télépathiquement avec vous, et vous avec elles. Pour envoyer ou recevoir un message (aucune action requise), vous et l’autre créature devez être à 1 mile (1,6 km) l’un de l’autre. Une créature peut mettre fin à la connexion télépathique à tout moment (aucune action requise).</p><p>La première fois que vous utilisez cette capacité après chaque Repos Long, vous ne dépensez pas de Dé d'Énergie Psionique. Toutes les utilisations suivantes dépensent un dé.</p><section class=\"secret\" id=\"secret-mhJXgkN4LKUlFHGh\"><p><strong>Note Foundry</strong></p><p>Cette capacité récupère automatiquement une utilisation lors d’un Repos Court et toutes ses utilisations lors d’un Repos Long.</p><p>L'activité <strong>Talent Renforcé par la Psionique</strong> dépense un dé et inclut un jet de bonus. Si l’échec persiste, vous pouvez récupérer le dé dépensé.</p><p>Cette capacité inclut une activité <strong>Murmures Psychiques</strong> et une activité <strong>Murmures Psychiques (Gratuit)</strong>. Elles incluent toutes deux un Effet Actif permettant de suivre les créatures incluses.</p></section>",
       "activities": {
+        "Psi-Bolstered Knack": {
+          "name": "Psi-Bolstered Knack",
+          "roll": "Bonus",
+          "condition": "When you fail an ability check using a skill or tool with which you're proficient"
+        },
+        "Psychic Whispers (Free)": {
+          "name": "Psychic Whispers (Free)",
+          "roll": "Psionic Energy Die"
+        },
+        "Psychic Whispers": {
+          "name": "Psychic Whispers",
+          "roll": "Psionic Energy Die"
+        },
         "Talent Renforcé par la Psionique": {
           "name": "Talent Renforcé par la Psionique",
           "roll": "Bonus",
@@ -5645,6 +5673,10 @@
         }
       },
       "effects": {
+        "Psychic Whispers": {
+          "name": "Psychic Whispers",
+          "description": "<p>The chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can end the telepathic connection at any time (no action required).</p>"
+        },
         "Murmures Psychiques": {
           "name": "Murmures Psychiques",
           "description": "<p>Les créatures choisies peuvent communiquer télépathiquement avec vous, et vous avec elles. Pour envoyer ou recevoir un message (aucune action requise), vous et l’autre créature devez être à 1 mile (1,6 km) l’un de l’autre. Une créature peut mettre fin à la connexion télépathique à tout moment (aucune action requise).</p>"
