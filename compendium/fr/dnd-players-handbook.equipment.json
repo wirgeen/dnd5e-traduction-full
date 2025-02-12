@@ -51,11 +51,11 @@
   },
   "entries": {
     "67ScUFYRuMU0J2Wt": {
-      "name": "Water (Pint)",
-      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "name": "Eau (pinte)",
+      "description": "<p>Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Consume"
+          "name": "Consommer"
         }
       }
     },
@@ -64,7 +64,7 @@
       "description": "<p>Lorsque vous effectuez une action d'attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'acide. Ciblez une créature ou un objet que vous pouvez voir dans un rayon de 6 mètres autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DD 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou subir 2d6 dégâts d'acide.</p>",
       "activities": {
         "Throw Acid": {
-          "name": "Throw Acid"
+          "name": "Jet d'acide"
         }
       }
     },
@@ -89,7 +89,7 @@
       "description": "<p>En tant qu'Action Bonus, vous pouvez boire une fiole d'antitoxine pour obtenir l'avantage sur les jets de sauvegarde pour éviter ou mettre fin à l'état Empoisonné pendant 1 heure.</p>",
       "effects": {
         "Antitoxin": {
-          "name": "Antitoxin"
+          "name": "Antitoxine"
         }
       }
     },
@@ -110,10 +110,10 @@
       "description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Jouer un air connu (DD 10), ou improviser une chanson (DD 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Play a Known Tune"
+          "name": "Jouer une Mélodie Connue"
         },
         "Improvise a Song": {
-          "name": "Improvise a Song"
+          "name": "Improviser une Chanson"
         }
       }
     },
@@ -122,15 +122,15 @@
       "description": "<p>En tant qu'action d'Utilisation, vous pouvez répandre des billes de métal depuis leur sacoche. Elles s'étendent pour couvrir une zone de 3 mètres carrés au sol dans un rayon de 3 mètres autour de vous. Une créature entrant dans cette zone pour la première fois durant un tour doit réussir un jet de sauvegarde de Dextérité DD 10 ou se retrouver à terre (&amp;Reference[Prone]). Il faut 10 minutes pour récupérer les billes.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Récupérer les Billes de Métal</strong> permet un nouvel usage de cet objet.</p></section>",
       "activities": {
         "Spill Ball Bearings": {
-          "name": "Spill Ball Bearings"
+          "name": "Renverser des Billes de Métal"
         },
         "Recover Ball Bearings": {
-          "name": "Recover Ball Bearings"
+          "name": "Récupérer des Billes de Métal"
         }
       },
       "effects": {
         "Tripped": {
-          "name": "Tripped"
+          "name": "Renversé"
         }
       }
     },
@@ -187,10 +187,10 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Détecter une boisson empoisonnée (DD 15), ou identifier de l'alcool (DD 10)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxine}</p>",
       "activities": {
         "Detect Poisoned Drink": {
-          "name": "Detect Poisoned Drink"
+          "name": "Détecter une Boisson Empoisonnée"
         },
         "Identify Alcohol": {
-          "name": "Identify Alcohol"
+          "name": "Identifier l'Alcool"
         }
       }
     },
@@ -223,7 +223,7 @@
       "description": "<p>Comme une action d'Utilisation, vous pouvez étaler les Chausse-trapes de leur sac pour couvrir une zone de 1,5 mètre de côté à 1,5 mètre de vous. Une créature qui entre dans cette zone pour la première fois lors d'un tour doit réussir un jet de sauvegarde de Dextérité de DD 15 ou subir 1 dégât perforant et voir sa Vitesse réduite à 0 jusqu'au début de son prochain tour. Il faut 10 minutes pour récupérer les Chausse-trapes.</p>",
       "effects": {
         "Slowed": {
-          "name": "Slowed"
+          "name": "Ralenti"
         }
       }
     },
@@ -232,7 +232,7 @@
       "description": "<p>Pendant 1 heure, une Bougie allumée émet une lumière vive dans un rayon de 1,5 mètre et une lumière faible dans un rayon supplémentaire de 1,5 mètre.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Lumière"
         }
       }
     },
@@ -241,7 +241,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Force</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Sceller ou forcer l'ouverture d'une porte ou d'un conteneur (DD 20)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Gourdin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Grande masse}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de combat}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Tonneau}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Coffre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Échelle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Perche}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Bélier portatif}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torche}</p>",
       "activities": {
         "Seal or Pry Open": {
-          "name": "Seal or Pry Open"
+          "name": "Sceller ou Ouvrir de Force"
         }
       }
     },
@@ -250,7 +250,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Dessiner une carte d'une petite zone (DD 15)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Carte}</p>",
       "activities": {
         "Draft a Map": {
-          "name": "Draft a Map"
+          "name": "Dessiner une carte"
         }
       }
     },
@@ -267,13 +267,13 @@
       "description": "<p>En tant qu'action d'Utilisation, vous pouvez enrouler une Chaîne autour d'une créature réticente située à moins de 1,5 mètre de vous et ayant les conditions &amp;Reference[Grappled], &amp;Reference[Incapacitated] ou &amp;Reference[Restrained] si vous réussissez un test de Force (Athlétisme) DD 13. Si les jambes de la créature sont entravées, elle gagne la condition Entravée jusqu'à ce qu'elle s'en échappe. S'échapper de la chaîne nécessite un test de Dextérité (Acrobaties) DD 18 réussi en tant qu'action. Rompre la chaîne nécessite un test de Force (Athlétisme) DD 20 réussi en tant qu'action.</p>",
       "activities": {
         "Wrap Chain Check": {
-          "name": "Wrap Chain Check"
+          "name": "Vérification de la Chaîne"
         },
         "Escape Check": {
-          "name": "Escape Check"
+          "name": "Vérification d'Évasion"
         },
         "Burst Chain Check": {
-          "name": "Burst Chain Check"
+          "name": "Vérification de Rupture de Chaîne"
         }
       }
     },
@@ -310,7 +310,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Modifier les chaussures pour donner l’avantage au prochain test de Dextérité (Acrobaties) du porteur (DD 10)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Kit d'Escalade}</p>",
       "activities": {
         "Modify Footwear": {
-          "name": "Modify Footwear"
+          "name": "Modifier les chaussures"
         }
       }
     },
@@ -327,10 +327,10 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Améliorer la saveur des aliments (DD 10), ou détecter les aliments avariés ou empoisonnés (DD 15)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}</p>",
       "activities": {
         "Improve Flavor": {
-          "name": "Improve Flavor"
+          "name": "Améliorer la saveur"
         },
         "Detect Spoiled or Poisoned Food": {
-          "name": "Detect Spoiled or Poisoned Food"
+          "name": "Détecter les aliments avariés ou empoisonnés"
         }
       }
     },
@@ -359,23 +359,23 @@
       "description": "<p><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Discerner si quelqu'un triche (DD 10), ou gagner la partie (DD 20)</p>",
       "activities": {
         "Catch Cheating": {
-          "name": "Catch Cheating"
+          "name": "Discerner la triche"
         },
         "Play to Win": {
-          "name": "Play to Win"
+          "name": "Jouer pour gagner"
         }
       }
     },
     "Diplomat's Pack": {
       "name": "Paquet du Diplomate",
-      "description": "<p>Un paquet du diplomate contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Coffre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Vêtements Raffinés}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Encre}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Stylos à Encre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Étuis à Carte ou Parchemin}, 4 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 5 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papier}, 5 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchemin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Parfum}, et @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte d'Amadou}.</p>"
+      "description": "<p>Un paquet du diplomate contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Coffre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Vêtements Raffinés}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Encre}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Stylos à Encre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Étuis à Carte ou Parchemin}, 4 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 5 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papier}, 5 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchemin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Parfum}, et @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}.</p>"
     },
     "Disguise Kit": {
       "name": "Kit de Déguisement",
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Appliquer du maquillage (DD 10)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costume}</p>",
       "activities": {
         "Apply Makeup": {
-          "name": "Apply Makeup"
+          "name": "Appliquer du maquillage"
         }
       }
     },
@@ -384,10 +384,10 @@
       "description": "<p><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Discerner si quelqu’un triche (DD 10), ou gagner la partie (DD 20)</p>",
       "activities": {
         "Catch Cheating": {
-          "name": "Catch Cheating"
+          "name": "Discerner la triche"
         },
         "Play to Win": {
-          "name": "Play to Win"
+          "name": "Jouer pour gagner"
         }
       }
     },
@@ -400,10 +400,10 @@
       "description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Jouer un air connu (DD 10), ou improviser une chanson (DD 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Play a Known Tune"
+          "name": "Jouer une Mélodie Connue"
         },
         "Improvise a Song": {
-          "name": "Improvise a Song"
+          "name": "Improviser une Chanson"
         }
       }
     },
@@ -412,23 +412,23 @@
       "description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Jouer un air connu (DD 10), ou improviser une chanson (DD 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Play a Known Tune"
+          "name": "Jouer une Mélodie Connue"
         },
         "Improvise a Song": {
-          "name": "Improvise a Song"
+          "name": "Improviser une Chanson"
         }
       }
     },
     "Dungeoneer's Pack": {
       "name": "Paquet de Spéléologue",
-      "description": "<p>Un paquet de spéléologue contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Chausse-trapes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Pied-de-biche}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte d'Amadou}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
+      "description": "<p>Un paquet de spéléologue contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Chausse-trapes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Pied-de-biche}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
     },
     "EGuDt2xpscYtalmV": {
-      "name": "Tinderbox",
-      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "name": "Boite d'allume-feu",
+      "description": "<p>Une Boite d'allume-feu est un petit contenant contenant de la pierre à feu, du fer à feu et de l'amadou (généralement un tissu sec trempé dans de l'huile légère) utilisé pour allumer un feu. L'utiliser pour allumer une bougie, une lampe, une lanterne ou une torche — ou tout autre objet avec un combustible exposé — prend une action bonus. Allumer tout autre feu prend 1 minute.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Allumer"
         }
       }
     },
@@ -446,7 +446,7 @@
     },
     "Entertainer's Pack": {
       "name": "Paquet d'Artiste",
-      "description": "<p>Un paquet d’artiste contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de Couchage}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Cloche}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Lanterne de Visée}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Miroir}, 8 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 9 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte d'Amadou}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
+      "description": "<p>Un paquet d’artiste contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de Couchage}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Cloche}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Lanterne de Visée}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Miroir}, 8 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 9 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
     },
     "Etched Glass Disk": {
       "name": "Disque de Verre Gravé",
@@ -454,7 +454,7 @@
     },
     "Explorer's Pack": {
       "name": "Paquet d'Explorateur",
-      "description": "<p>Un paquet d'explorateur contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de Couchage}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte d'Amadou}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
+      "description": "<p>Un paquet d'explorateur contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de Couchage}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
     },
     "Fine Clothes": {
       "name": "Vêtements de Luxe",
@@ -473,10 +473,10 @@
       "description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Jouer un air connu (DC 10), ou improviser une mélodie (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Play a Known Tune"
+          "name": "Jouer une Mélodie Connue"
         },
         "Improvise a Song": {
-          "name": "Improvise a Song"
+          "name": "Improviser une Chanson"
         }
       }
     },
@@ -485,10 +485,10 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Imiter l’écriture de quelqu’un d’autre sur 10 mots ou moins (DC 15), ou reproduire un sceau en cire (DC 20)</p>",
       "activities": {
         "Mimic Handwriting": {
-          "name": "Mimic Handwriting"
+          "name": "Imiter l'Écriture"
         },
         "Duplicate Wax Seal": {
-          "name": "Duplicate Wax Seal"
+          "name": "Dupliquer le Sceau de Cire"
         }
       }
     },
@@ -501,7 +501,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Déterminer ce qu’un objet en verre a tenu au cours des 24 dernières heures (DC 15)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Bouteille en Verre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Loupe}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Longue-vue}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Fioles}</p>",
       "activities": {
         "Discern Previous Contents": {
-          "name": "Discern Previous Contents"
+          "name": "Discerner les contenus précédents"
         }
       }
     },
@@ -510,7 +510,7 @@
       "description": "<p>En tant qu’action d’utilisation, vous pouvez lancer le crochet de grappin sur une balustrade, un rebord ou un autre support à moins de 15 mètre de vous. Le crochet s’accroche si vous réussissez un test de Dextérité (Acrobaties) DC 13. Si vous avez attaché une corde au crochet, vous pouvez alors grimper.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "Lancer"
         }
       }
     },
@@ -547,7 +547,7 @@
       "description": "<p>Une trousse de soins dispose de dix utilisations. En tant qu'action d’utilisation, vous pouvez dépenser une de ses utilisations pour stabiliser une créature Inconsciente ayant 0 Points de Vie sans avoir besoin de faire un test de Sagesse (Médecine).</p>",
       "activities": {
         "Stabilize": {
-          "name": "Stabilize"
+          "name": "Stabiliser"
         }
       }
     },
@@ -560,7 +560,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Identifier une plante (DC 10)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxine}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Bougie}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Trousse de Soins}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Potion de Soin}</p>",
       "activities": {
         "Identify Plant": {
-          "name": "Identify Plant"
+          "name": "Identifier une plante"
         }
       }
     },
@@ -577,7 +577,7 @@
       "description": "<p>Lorsque vous prenez l'action Attaque, vous pouvez remplacer une de vos attaques par le lancer d'une fiole d'Eau Bénite. Ciblez une créature que vous pouvez voir dans un rayon de 6 mètre. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre Bonus de Maîtrise) ou subir 2d8 dégâts de Radiance si c'est un Démon ou un Mort-vivant.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "lancer"
         }
       }
     },
@@ -590,10 +590,10 @@
       "description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Jouer un air connu (DC 10), ou improviser une mélodie (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Play a Known Tune"
+          "name": "Jouer une Mélodie Connue"
         },
         "Improvise a Song": {
-          "name": "Improvise a Song"
+          "name": "Improviser une Chanson"
         }
       }
     },
@@ -602,21 +602,21 @@
       "description": "<p>En tant qu'action d'utilisation, vous pouvez poser un Piège de Chasse, un anneau en acier denté qui se referme lorsqu'une créature marche sur une plaque de pression au centre. Le piège est fixé par une lourde chaîne à un objet immobile, tel qu'un arbre ou un pieu planté dans le sol. Une créature qui marche sur la plaque doit réussir un jet de sauvegarde de Dextérité (DC 13) ou subir 1d4 dégâts Perforants et voir sa Vitesse réduite à 0 jusqu’au début de son prochain tour. Ensuite, jusqu'à ce qu'elle se libère du piège, son mouvement est limité par la longueur de la chaîne (généralement 1 mètre). Une créature peut utiliser son action pour faire un test de Force (Athlétisme) DC 13, se libérant ou libérant une autre créature à portée en cas de succès. Chaque échec inflige [[/damage 1 type=piercing]] dégâts à la créature piégée.</p>",
       "activities": {
         "save": {
-          "condition": "Steps on the plate"
+          "condition": "Pose le pied sur la plaque"
         },
         "Escape": {
-          "name": "Escape"
+          "name": "Évasion"
         }
       },
       "effects": {
         "Trapped": {
-          "name": "Trapped"
+          "name": "Piégé"
         }
       }
     },
     "I6wPnS0Z1qcpXjdL": {
-      "name": "Parchment",
-      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>"
+      "name": "Parchemin",
+      "description": "<p>Une feuille de parchemin peut contenir environ 250 mots manuscrits.</p>"
     },
     "Ink": {
       "name": "Encre",
@@ -627,11 +627,11 @@
       "description": "<p>Utilisée avec de l’Encre, une Plume permet d’écrire ou de dessiner.</p>"
     },
     "It6m0vGGZwCf9E7r": {
-      "name": "Water (Pint)",
-      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "name": "Eau (pinte)",
+      "description": "<p>Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Consume"
+          "name": "Consommer"
         }
       }
     },
@@ -649,14 +649,14 @@
       }
     },
     "JpE7eqjwXw95Sai5": {
-      "name": "Oil",
-      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "name": "Huile",
+      "description": "<p>Vous pouvez arroser une créature, un objet ou un espace avec de l'huile ou l'utiliser comme carburant, comme détaillé ci-dessous.</p><p><strong>Arroser une créature ou un objet.</strong> Lorsque vous effectuez l'action Attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'huile. Visez une créature ou un objet dans un rayon de 6 mètre autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou être couverte d'huile. Si la cible subit des dégâts de feu avant que l'huile ne sèche (après 1 minute), elle subit des [[/damage 5 type=fire]] dégâts supplémentaires en raison de l'huile enflammée.</p><p><strong>Arroser un espace.</strong> Vous pouvez utiliser l'action Utiliser pour verser une fiole d'huile sur un terrain plat pour couvrir une zone de 1,5 mètres carrés dans un rayon de 1,5 mètres autour de vous. Si elle est enflammée, l'huile brûle jusqu'à la fin du tour 2 rounds après que l'huile ait été allumée (ou 12 secondes) et inflige 5 dégâts de feu à toute créature qui entre dans la zone ou qui y termine son tour. Une créature ne peut subir ces dégâts qu'une seule fois par tour.</p><p><strong>Carburant.</strong> L'huile sert de carburant pour les lampes et les lanternes. Une fois allumée, une fiole d'huile brûle pendant 6 heures dans une lampe ou une lanterne. Cette durée n'a pas besoin d'être consécutive ; vous pouvez éteindre l'huile brûlante (comme une action Utiliser) et la rallumer jusqu'à ce qu'elle ait brûlé pendant un total de 6 heures.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "Lancer"
         },
         "Douse Space": {
-          "name": "Douse Space"
+          "name": "Arroser une Zone"
         }
       }
     },
@@ -669,11 +669,11 @@
       "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>"
     },
     "KUlBAAjJ9KmOCSsC": {
-      "name": "Lamp",
-      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "name": "Lampe",
+      "description": "<p>Une Lampe brûle de l'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile} comme combustible pour projeter une lumière vive dans un rayon de 11,5 mètres et une lumière faible sur 9 mètre supplémentaires.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Lumière"
         }
       }
     },
@@ -686,7 +686,7 @@
       "description": "<p>Une Lampe brûle de l'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile} comme combustible pour projeter une lumière vive dans un rayon de 11,5 mètres et une lumière faible sur 9 mètre supplémentaires.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Lumière"
         }
       }
     },
@@ -726,17 +726,17 @@
       }
     },
     "LfDewuKszszreg6i": {
-      "name": "Rope",
-      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "name": "Corde",
+      "description": "<p>En tant qu'action Utiliser, vous pouvez faire un nœud avec la corde si vous réussissez un test de Dextérité (Habileté) DC 10. La corde peut être rompue avec un test de Force (Athlétisme) réussi DC 20.</p><p>Vous pouvez lier une créature récalcitrante avec la corde uniquement si la créature a la condition &amp;Reference[Grappled], &amp;Reference[Incapacitated], ou &amp;Reference[Restrained]. Si les jambes de la créature sont liées, elle a la condition Entravée jusqu'à ce qu'elle s'échappe. S'échapper de la corde nécessite à la créature de réussir un test de Dextérité (Acrobaties) DC 15 en tant qu'action.</p>",
       "activities": {
         "Tie Knot": {
-          "name": "Tie Knot"
+          "name": "Faire un Nœud"
         },
         "Burst Rope": {
-          "name": "Burst Rope"
+          "name": "Faire Sauter la Corde"
         },
         "Escape Check": {
-          "name": "Escape Check"
+           "name": "Vérification d'Évasion"
         }
       }
     },
@@ -761,18 +761,18 @@
       "description": ""
     },
     "LuLBFWwxjbNKU9FF": {
-      "name": "Waterskin",
-      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>"
+      "name": "Outre",
+      "description": "<p>Une outre peut contenir jusqu'à 4 pintes. Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Dehydration].</p>"
     },
     "Lute": {
       "name": "Luth",
       "description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Jouer un air connu (DC 10), ou improviser une mélodie (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Play a Known Tune"
+          "name": "Jouer une Mélodie Connue"
         },
         "Improvise a Song": {
-          "name": "Improvise a Song"
+          "name": "Improviser une Chanson"
         }
       }
     },
@@ -781,10 +781,10 @@
       "description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Jouer un air connu (DC 10), ou improviser une mélodie (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Play a Known Tune"
+          "name": "Jouer une Mélodie Connue"
         },
         "Improvise a Song": {
-          "name": "Improvise a Song"
+          "name": "Improviser une Chanson"
         }
       }
     },
@@ -883,10 +883,10 @@
       "description": "<p>Vous pouvez arroser une créature, un objet ou un espace avec de l'huile ou l'utiliser comme carburant, comme détaillé ci-dessous.</p><p><strong>Arroser une créature ou un objet.</strong> Lorsque vous effectuez l'action Attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'huile. Visez une créature ou un objet dans un rayon de 6 mètre autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou être couverte d'huile. Si la cible subit des dégâts de feu avant que l'huile ne sèche (après 1 minute), elle subit des [[/damage 5 type=fire]] dégâts supplémentaires en raison de l'huile enflammée.</p><p><strong>Arroser un espace.</strong> Vous pouvez utiliser l'action Utiliser pour verser une fiole d'huile sur un terrain plat pour couvrir une zone de 1,5 mètres carrés dans un rayon de 1,5 mètres autour de vous. Si elle est enflammée, l'huile brûle jusqu'à la fin du tour 2 rounds après que l'huile ait été allumée (ou 12 secondes) et inflige 5 dégâts de feu à toute créature qui entre dans la zone ou qui y termine son tour. Une créature ne peut subir ces dégâts qu'une seule fois par tour.</p><p><strong>Carburant.</strong> L'huile sert de carburant pour les lampes et les lanternes. Une fois allumée, une fiole d'huile brûle pendant 6 heures dans une lampe ou une lanterne. Cette durée n'a pas besoin d'être consécutive ; vous pouvez éteindre l'huile brûlante (comme une action Utiliser) et la rallumer jusqu'à ce qu'elle ait brûlé pendant un total de 6 heures.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "Lancer"
         },
         "Douse Space": {
-          "name": "Douse Space"
+          "name": "Arroser une Zone"
         }
       }
     },
@@ -903,7 +903,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Peindre une image reconnaissable de quelque chose que vous avez vu (DC 10)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> Focaliseur Druide, Symbole Sacré</p>",
       "activities": {
         "Paint a Recognizable Image": {
-          "name": "Paint a Recognizable Image"
+          "name": "Peindre une image reconnaissable"
         }
       }
     },
@@ -912,10 +912,10 @@
       "description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Jouer une mélodie connue (DC 10), ou improviser une chanson (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Play a Known Tune"
+          "name": "Jouer une Mélodie Connue"
         },
         "Improvise a Song": {
-          "name": "Improvise a Song"
+          "name": "Improviser une Chanson"
         }
       }
     },
@@ -948,10 +948,10 @@
       "description": "<p><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Déterminer si quelqu'un triche (DC 10), ou gagner la partie (DC 20)</p>",
       "activities": {
         "Catch Cheating": {
-          "name": "Catch Cheating"
+          "name": "Discerner la triche"
         },
         "Play to Win": {
-          "name": "Play to Win"
+          "name": "Jouer pour gagner"
         }
       }
     },
@@ -964,7 +964,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Détecter un objet empoisonné (DC 10)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Poison Basique}</p>",
       "activities": {
         "Detect Poisoned Object": {
-          "name": "Detect Poisoned Object"
+          "name": "Détecter un objet empoisonné"
         }
       }
     },
@@ -985,7 +985,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Intelligence <strong>Poids :</strong> 3 lb.</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Déterminer quel objet en céramique a été tenu dans les 24 dernières heures (DC 15)</p><p class=\"phb-meta\"><strong>Fabrication :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jarre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}</p>",
       "activities": {
         "Discern Previous Contents": {
-          "name": "Discern Previous Contents"
+          "name": "Discerner les contenus précédents"
         }
       }
     },
@@ -998,11 +998,11 @@
       "description": "<p>Un sac de prêtre contient les objets suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Couverture}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Eau Sainte}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}, 7 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, et @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte à Amorcer}.</p>"
     },
     "Qgekp4euuB5S9tpe": {
-      "name": "Water (Pint)",
-      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "name": "Eau (pinte)",
+      "description": "<p>Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Consume"
+          "name": "Consommer"
         }
       }
     },
@@ -1047,35 +1047,35 @@
       "description": "<p>En tant qu'action Utiliser, vous pouvez faire un nœud avec la corde si vous réussissez un test de Dextérité (Habileté) DC 10. La corde peut être rompue avec un test de Force (Athlétisme) réussi DC 20.</p><p>Vous pouvez lier une créature récalcitrante avec la corde uniquement si la créature a la condition &amp;Reference[Grappled], &amp;Reference[Incapacitated], ou &amp;Reference[Restrained]. Si les jambes de la créature sont liées, elle a la condition Entravée jusqu'à ce qu'elle s'échappe. S'échapper de la corde nécessite à la créature de réussir un test de Dextérité (Acrobaties) DC 15 en tant qu'action.</p>",
       "activities": {
         "Tie Knot": {
-          "name": "Tie Knot"
+          "name": "Faire un Nœud"
         },
         "Burst Rope": {
-          "name": "Burst Rope"
+          "name": "Faire Sauter la Corde"
         },
         "Escape Check": {
-          "name": "Escape Check"
+           "name": "Vérification d'Évasion"
         }
       }
     },
     "RqrWyXa9XkriaxTP": {
-      "name": "Tinderbox",
-      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "name": "Boite d'allume-feu",
+      "description": "<p>Une Boite d'allume-feu est un petit contenant contenant de la pierre à feu, du fer à feu et de l'amadou (généralement un tissu sec trempé dans de l'huile légère) utilisé pour allumer un feu. L'utiliser pour allumer une bougie, une lampe, une lanterne ou une torche — ou tout autre objet avec un combustible exposé — prend une action bonus. Allumer tout autre feu prend 1 minute.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Allumer"
         }
       }
     },
     "SKDkrz7KSUIfOnHE": {
-      "name": "Map or Scroll Case",
-      "description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>"
+      "name": "Étui pour Carte ou Parchemin",
+      "description": "<p>Cet étui cylindrique en cuir peut contenir jusqu'à dix feuilles de papier enroulées ou cinq feuilles de parchemin enroulées.</p>"
     },
     "SMj5QHHkDCdvkx35": {
-      "name": "Lamp",
-      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "name": "Lampe",
+      "description": "<p>Une Lampe brûle de l'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile} comme combustible pour projeter une lumière vive dans un rayon de 11,5 mètres et une lumière faible sur 9 mètre supplémentaires.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Lumière"
         }
       }
     },
@@ -1100,10 +1100,10 @@
       "description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Jouer une mélodie connue (DC 10), ou improviser une chanson (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Play a Known Tune"
+          "name": "Jouer une Mélodie Connue"
         },
         "Improvise a Song": {
-          "name": "Improvise a Song"
+          "name": "Improviser une Chanson"
         }
       }
     },
@@ -1132,7 +1132,7 @@
       "description": "<p>Lorsque vous le sifflez en tant qu'action Utiliser, un sifflet de signal produit un son qui peut être entendu jusqu'à 182,5 mètres de distance.</p>",
       "activities": {
         "Whistle": {
-          "name": "Whistle"
+          "name": "Siffler"
         }
       }
     },
@@ -1202,7 +1202,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Ouvrir une serrure (DC 15) ou désamorcer un piège (DC 15)</p>",
       "activities": {
         "Pick a Lock/Disarm a Trap": {
-          "name": "Pick a Lock/Disarm a Trap"
+          "name": "Crocheter une serrure/désarmer un piège"
         }
       }
     },
@@ -1211,16 +1211,16 @@
       "description": "<p><strong>Capacité :</strong> Sagesse</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Déterminer si quelqu'un triche (DC 10) ou gagner la partie (DC 20)</p>",
       "activities": {
         "Catch Cheating": {
-          "name": "Catch Cheating"
+          "name": "Discerner la triche"
         },
         "Play to Win": {
-          "name": "Play to Win"
+          "name": "Jouer pour gagner"
         }
       }
     },
     "Tinderbox": {
-      "name": "Boîte à feu",
-      "description": "<p>Une boîte à feu est un petit conteneur contenant du silex, de l'acier à feu et de l'amadou (généralement un tissu sec imbibé d'huile légère) utilisé pour allumer un feu. L'utiliser pour allumer une bougie, une lampe, une lanterne ou une torche — ou tout autre objet avec un combustible exposé — nécessite une action bonus. Allumer tout autre feu prend 1 minute.</p>",
+      "name": "Boite d'allume-feu",
+      "description": "<p>Une Boite d'allume-feu est un petit conteneur contenant du silex, de l'acier à feu et de l'amadou (généralement un tissu sec imbibé d'huile légère) utilisé pour allumer un feu. L'utiliser pour allumer une bougie, une lampe, une lanterne ou une torche — ou tout autre objet avec un combustible exposé — nécessite une action bonus. Allumer tout autre feu prend 1 minute.</p>",
       "activities": {
         "Light": {
           "name": "Light"
@@ -1229,10 +1229,10 @@
     },
     "Tinker's Tools": {
       "name": "Outils de bricoleur",
-      "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Assembler un objet minuscule composé de morceaux de métal, qui se désintègre en 1 minute (DC 20)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Fusil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistolet}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Cloche}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Lanterne Bullseye}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Flacon}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Lanterne à capuchon}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Piège de chasse}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Serrure}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Menottes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Miroir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pelle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Sifflet de signal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boîte à feu}</p>",
+      "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Assembler un objet minuscule composé de morceaux de métal, qui se désintègre en 1 minute (DC 20)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Fusil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistolet}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Cloche}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Lanterne Bullseye}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Flacon}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Lanterne à capuchon}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Piège de chasse}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Serrure}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Menottes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Miroir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pelle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Sifflet de signal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}</p>",
       "activities": {
         "Assemble a Tiny Item": {
-          "name": "Assemble a Tiny Item"
+          "name": "Assembler un petit objet"
         }
       }
     },
@@ -1249,51 +1249,51 @@
       "description": ""
     },
     "UOiM3icOTVhR3llN": {
-      "name": "Waterskin",
-      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>"
+       "name": "Outre",
+      "description": "<p>Une outre peut contenir jusqu'à 4 pintes. Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Dehydration].</p>"
     },
     "UPfmTzNgqi9QblZR": {
       "name": "Rations",
-      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+      "description": "<p>Les rations consistent en de la nourriture prête à voyager, y compris de la viande séchée, des fruits secs, du biscuit de mer et des noix. Consultez &amp;Reference[Malnutrition] dans le glossaire des règles pour connaître les risques liés à une mauvaise alimentation.</p>"
     },
     "Unarmed Strike": {
       "name": "Coup à mains nues",
       "description": "",
       "activities": {
         "Grapple/Shove": {
-          "name": "Grapple/Shove"
+          "name": "Aggriper/Pousser"
         }
       },
       "effects": {
         "Grappled": {
-          "name": "Grappled"
+          "name": "Aggriper"
         },
         "Prone": {
-          "name": "Prone"
+          "name": "À Terre"
         }
       }
     },
     "Ur2LYFqSdOgeWWF0": {
-      "name": "Oil",
-      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "name": "Huile",
+      "description": "<p>Vous pouvez arroser une créature, un objet ou un espace avec de l'huile ou l'utiliser comme carburant, comme détaillé ci-dessous.</p><p><strong>Arroser une créature ou un objet.</strong> Lorsque vous effectuez l'action Attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'huile. Visez une créature ou un objet dans un rayon de 6 mètre autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou être couverte d'huile. Si la cible subit des dégâts de feu avant que l'huile ne sèche (après 1 minute), elle subit des [[/damage 5 type=fire]] dégâts supplémentaires en raison de l'huile enflammée.</p><p><strong>Arroser un espace.</strong> Vous pouvez utiliser l'action Utiliser pour verser une fiole d'huile sur un terrain plat pour couvrir une zone de 1,5 mètres carrés dans un rayon de 1,5 mètres autour de vous. Si elle est enflammée, l'huile brûle jusqu'à la fin du tour 2 rounds après que l'huile ait été allumée (ou 12 secondes) et inflige 5 dégâts de feu à toute créature qui entre dans la zone ou qui y termine son tour. Une créature ne peut subir ces dégâts qu'une seule fois par tour.</p><p><strong>Carburant.</strong> L'huile sert de carburant pour les lampes et les lanternes. Une fois allumée, une fiole d'huile brûle pendant 6 heures dans une lampe ou une lanterne. Cette durée n'a pas besoin d'être consécutive ; vous pouvez éteindre l'huile brûlante (comme une action Utiliser) et la rallumer jusqu'à ce qu'elle ait brûlé pendant un total de 6 heures.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "Lancer"
         },
         "Douse Space": {
-          "name": "Douse Space"
+          "name": "Arroser une Zone"
         }
       }
     },
     "VczW1tStT5y7No3b": {
-      "name": "Oil",
-      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "name": "Huile",
+      "description": "<p>Vous pouvez arroser une créature, un objet ou un espace avec de l'huile ou l'utiliser comme carburant, comme détaillé ci-dessous.</p><p><strong>Arroser une créature ou un objet.</strong> Lorsque vous effectuez l'action Attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'huile. Visez une créature ou un objet dans un rayon de 6 mètre autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou être couverte d'huile. Si la cible subit des dégâts de feu avant que l'huile ne sèche (après 1 minute), elle subit des [[/damage 5 type=fire]] dégâts supplémentaires en raison de l'huile enflammée.</p><p><strong>Arroser un espace.</strong> Vous pouvez utiliser l'action Utiliser pour verser une fiole d'huile sur un terrain plat pour couvrir une zone de 1,5 mètres carrés dans un rayon de 1,5 mètres autour de vous. Si elle est enflammée, l'huile brûle jusqu'à la fin du tour 2 rounds après que l'huile ait été allumée (ou 12 secondes) et inflige 5 dégâts de feu à toute créature qui entre dans la zone ou qui y termine son tour. Une créature ne peut subir ces dégâts qu'une seule fois par tour.</p><p><strong>Carburant.</strong> L'huile sert de carburant pour les lampes et les lanternes. Une fois allumée, une fiole d'huile brûle pendant 6 heures dans une lampe ou une lanterne. Cette durée n'a pas besoin d'être consécutive ; vous pouvez éteindre l'huile brûlante (comme une action Utiliser) et la rallumer jusqu'à ce qu'elle ait brûlé pendant un total de 6 heures.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "Lancer"
         },
         "Douse Space": {
-          "name": "Douse Space"
+          "name": "Arroser une Zone"
         }
       }
     },
@@ -1306,10 +1306,10 @@
       "description": "<p><strong>Capacité :</strong> Charisme</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Jouer une mélodie connue (DC 10) ou improviser une chanson (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Play a Known Tune"
+          "name": "Jouer une Mélodie Connue"
         },
         "Improvise a Song": {
-          "name": "Improvise a Song"
+          "name": "Improviser une Chanson"
         }
       }
     },
@@ -1330,12 +1330,12 @@
       "description": "<p>Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Consume"
+          "name": "Consommer"
         }
       }
     },
     "Waterskin": {
-      "name": "Outre",
+       "name": "Outre",
       "description": "<p>Une outre peut contenir jusqu'à 4 pintes. Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Dehydration].</p>"
     },
     "Weaver's Tools": {
@@ -1343,7 +1343,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Réparer une déchirure dans un vêtement (DC 10) ou coudre un petit motif (DC 10)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{Armure rembourrée}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Panier}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Couverture de sol}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Couverture}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Vêtements fins}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Filet}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Sac}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{Fil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tente}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Vêtements de voyage}</p>",
       "activities": {
         "Mend or Sew": {
-          "name": "Mend or Sew"
+          "name": "Réparer ou coudre"
         }
       }
     },
@@ -1356,7 +1356,7 @@
       "description": "<p class=\"phb-meta\"><strong>Capacité :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Sculpter un motif dans le bois (DC 10)</p><p class=\"phb-meta\"><strong>Fabriquer :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Clube}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Gros clube}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de combat}, Armes à distance (sauf Pistolet, Fusil et Fronde), Focalisateur arcanique, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flèches}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Boulons}, Focalisateur druidique, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Stylo à encre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Aiguilles}</p>",
       "activities": {
         "Carve Pattern": {
-          "name": "Carve Pattern"
+          "name": "Motif sculpté"
         }
       }
     },
@@ -1365,15 +1365,15 @@
       "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Focalisateur druidique} prend l'une des formes de la table des focalisateurs druidiques et est sculpté, attaché avec un ruban ou peint pour canaliser la magie primitive. Un druide ou un ranger peut utiliser un tel objet comme focalisateur pour le lancement de sorts.</p><p>Cet objet fonctionne également comme un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de combat}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Note de Foundry</strong></p><p>Cet objet a été configuré avec les propriétés supplémentaires d'un bâton de combat.</p></section>"
     },
     "X5XgogJLLydoKdrJ": {
-      "name": "Waterskin",
-      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>"
+       "name": "Outre",
+      "description": "<p>Une outre peut contenir jusqu'à 4 pintes. Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Dehydration].</p>"
     },
     "YAXBQxHMEtJx6OuQ": {
-      "name": "Tinderbox",
-      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "name": "Boite d'allume-feu",
+      "description": "<p>Une Boite d'allume-feu est un petit contenant contenant de la pierre à feu, du fer à feu et de l'amadou (généralement un tissu sec trempé dans de l'huile légère) utilisé pour allumer un feu. L'utiliser pour allumer une bougie, une lampe, une lanterne ou une torche — ou tout autre objet avec un combustible exposé — prend une action bonus. Allumer tout autre feu prend 1 minute.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Allumer"
         }
       }
     },
@@ -1382,269 +1382,270 @@
       "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Focalisateur druidique} prend l'une des formes de la table des focalisateurs druidiques et est sculpté, attaché avec un ruban ou peint pour canaliser la magie primitive. Un druide ou un ranger peut utiliser un tel objet comme focalisateur pour le lancement de sorts.</p>"
     },
     "aWEY8Xh0wfn69Q1w": {
-      "name": "Water (Pint)",
-      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "name": "Eau (Pinte)",
+      "description": "<p>Si vous ne buvez pas suffisamment d'eau, vous risquez la &Reference[déshydratation].</p>",
       "activities": {
         "Consume": {
-          "name": "Consume"
+          "name": "Consommer"
         }
       }
     },
     "etKzfLUMWikSsi3R": {
-      "name": "Tinderbox",
-      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "name": "Boite d'allume-feu",
+      "description": "<p>Une Boite d'allume-feu est un petit contenant contenant de la pierre à feu, du fer à feu et de l'amadou (généralement un tissu sec trempé dans de l'huile légère) utilisé pour allumer un feu. L'utiliser pour allumer une bougie, une lampe, une lanterne ou une torche — ou tout autre objet avec un combustible exposé — prend une action bonus. Allumer tout autre feu prend 1 minute.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Allumer"
         }
       }
     },
     "gHOs5HRZJdnUwfng": {
-      "name": "Tinderbox",
-      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "name": "Boite d'allume-feu",
+      "description": "<p>Une Boite d'allume-feu est un petit contenant contenant de la pierre à feu, du fer à feu et de l'amadou (généralement un tissu sec trempé dans de l'huile légère) utilisé pour allumer un feu. L'utiliser pour allumer une bougie, une lampe, une lanterne ou une torche — ou tout autre objet avec un combustible exposé — prend une action bonus. Allumer tout autre feu prend 1 minute.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Allumer"
         }
       }
     },
     "gYKSyS7STTresmnS": {
-      "name": "Torch",
-      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>"
+      "name": "Torche",
+      "description": "<p>Une torche brûle pendant 1 heure, projetant une lumière vive dans un rayon de 6 mètre et une lumière tamisée sur 6 mètre supplémentaires. Lorsque vous prenez l'action Attaque, vous pouvez attaquer avec la torche, l'utilisant comme une arme de mêlée simple. Si vous touchez, la cible subit 1 dégât de feu.</p>"
     },
     "llmXULupnKVHUGuE": {
       "name": "Rations",
-      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+      "description": "<p>Les rations consistent en de la nourriture prête à voyager, y compris de la viande séchée, des fruits secs, du biscuit de mer et des noix. Consultez &amp;Reference[Malnutrition] dans le glossaire des règles pour connaître les risques liés à une mauvaise alimentation.</p>"
     },
     "nFFc8hnpFeiIhQWa": {
       "name": "Rations",
-      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+      "description": "<p>Les rations consistent en de la nourriture prête à voyager, y compris de la viande séchée, des fruits secs, du biscuit de mer et des noix. Consultez &amp;Reference[Malnutrition] dans le glossaire des règles pour connaître les risques liés à une mauvaise alimentation.</p>"
     },
     "phbWaterpint0000": {
-      "name": "Water (Pint)",
-      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "name": "Eau (Pinte)",
+      "description": "<p>Si vous ne buvez pas suffisamment d'eau, vous risquez la &Reference[déshydratation].</p>",
       "activities": {
         "Consume": {
-          "name": "Consume"
+          "name": "Consommer"
         }
       }
     },
     "phbagBallBearing": {
-      "name": "Ball Bearings",
-      "description": "<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the &amp;Reference[Prone] condition. It takes 10 minutes to recover the Ball Bearings.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>",
+      "name": "Billes",
+      "description": "<p>En tant qu'action d'utilisation, vous pouvez renverser des Billes de leur sac. Elles se répandent pour couvrir une zone de 3 mètres de côté dans un rayon de 3 mètres autour de vous. Une créature qui entre dans cette zone pour la première fois lors d'un tour doit réussir un jet de sauvegarde de Dextérité DD 10 ou subir la condition &Reference[Prone]. Il faut 10 minutes pour récupérer les Billes.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Récupérer les Billes</strong> permet une nouvelle utilisation de cet objet.</p></section>",
       "activities": {
         "Spill Ball Bearings": {
-          "name": "Spill Ball Bearings"
+          "name": "Renverser les Billes"
         },
         "Recover Ball Bearings": {
-          "name": "Recover Ball Bearings"
+          "name": "Récupérer les Billes"
         }
       },
       "effects": {
         "Tripped": {
-          "name": "Tripped"
+          "name": "Chuté"
         }
       }
     },
     "phbagBedroll0000": {
-      "name": "Bedroll",
-      "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>"
+      "name": "Sac de Couchage",
+      "description": "<p>Un Sac de Couchage permet de dormir à une créature de taille Petite ou Moyenne. Lorsque vous êtes dans un Sac de Couchage, vous réussissez automatiquement les jets de sauvegarde contre le froid extrême (voir le <em>Guide du Maître du Donjon</em>).</p>"
     },
     "phbagBell0000000": {
-      "name": "Bell",
-      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>"
+      "name": "Cloche",
+      "description": "<p>Lorsqu'elle est sonnée en tant qu'action d'utilisation, une Cloche produit un son qui peut être entendu jusqu'à 18 mètres de distance.</p>"
     },
     "phbagBlanket0000": {
-      "name": "Blanket",
-      "description": "<p>While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>"
+      "name": "Couverture",
+      "description": "<p>Lorsque vous êtes enveloppé dans une couverture, vous avez un Avantage sur les jets de sauvegarde contre le froid extrême (voir le <em>Guide du Maître du Donjon</em>).</p>"
     },
     "phbagCaltrops000": {
-      "name": "Caltrops",
-      "description": "<p>As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.</p>",
+      "name": "Chausse-trapes",
+      "description": "<p>En tant qu'action d'utilisation, vous pouvez étendre des Chausse-trapes depuis leur sac pour couvrir une zone de 1,5 mètre carré dans un rayon de 1,5 mètre autour de vous. Une créature qui entre dans cette zone pour la première fois lors d'un tour doit réussir un jet de sauvegarde de Dextérité DD 15 ou subir 1 point de dégâts perforants et voir sa vitesse réduite à 0 jusqu'au début de son prochain tour. Il faut 10 minutes pour récupérer les Chausse-trapes.</p>",
       "effects": {
         "Slowed": {
-          "name": "Slowed"
+          "name": "Ralenti"
         }
       }
     },
     "phbagCostume0000": {
       "name": "Costume",
-      "description": "<p>While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.</p>"
+      "description": "<p>Lorsque vous portez un Costume, vous avez un Avantage sur tout test de compétence que vous effectuez pour imiter la personne ou le type de personne qu'il représente.</p>"
     },
     "phbagCrowbar0000": {
-      "name": "Crowbar",
-      "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied.</p>"
+      "name": "Pied-de-biche",
+      "description": "<p>Utiliser un Pied-de-biche vous accorde un Avantage sur les tests de Force où le levier du Pied-de-biche peut être appliqué.</p>"
     },
     "phbagHolyWater00": {
-      "name": "Holy Water",
-      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.</p>",
+      "name": "Eau Bénite",
+      "description": "<p>Lorsque vous effectuez l'action Attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'Eau Bénite. Ciblez une créature que vous pouvez voir à moins de 6 mètres de vous. La créature doit réussir un jet de sauvegarde de Dextérité (DD 8 plus votre modificateur de Dextérité et votre Bonus de Maîtrise) ou subir 2d8 points de dégâts Radiants si elle est un Démon ou un Morts-vivants.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "Lancer"
         }
       }
     },
     "phbagInk00000000": {
-      "name": "Ink",
-      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>"
+      "name": "Encre",
+      "description": "<p>L'encre est contenue dans une bouteille de 30 ml, ce qui suffit pour écrire environ 500 pages.</p>"
     },
     "phbagLamp0000000": {
-      "name": "Lamp",
-      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "name": "Lampe",
+      "description": "<p>Une Lampe brûle de l'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile} comme combustible pour émettre de la lumière vive dans un rayon de 4,5 mètres et de la lumière tamisée pour un rayon supplémentaire de 9 mètres.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Allumer"
         }
       }
     },
     "phbagMirror00000": {
-      "name": "Mirror",
-      "description": "<p>A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.</p>"
+      "name": "Miroir",
+      "description": "<p>Un miroir en acier portable est utile pour la cosmétique personnelle mais aussi pour regarder autour des coins et réfléchir la lumière comme signal.</p>"
     },
     "phbagOil00000000": {
-      "name": "Oil",
-      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "name": "Huile",
+      "description": "<p>Vous pouvez arroser une créature, un objet ou un espace avec de l'huile ou l'utiliser comme carburant, comme détaillé ci-dessous.</p><p><strong>Arroser une créature ou un objet.</strong> Lorsque vous effectuez l'action Attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'huile. Visez une créature ou un objet dans un rayon de 6 mètre autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou être couverte d'huile. Si la cible subit des dégâts de feu avant que l'huile ne sèche (après 1 minute), elle subit des [[/damage 5 type=fire]] dégâts supplémentaires en raison de l'huile enflammée.</p><p><strong>Arroser un espace.</strong> Vous pouvez utiliser l'action Utiliser pour verser une fiole d'huile sur un terrain plat pour couvrir une zone de 1,5 mètres carrés dans un rayon de 1,5 mètres autour de vous. Si elle est enflammée, l'huile brûle jusqu'à la fin du tour 2 rounds après que l'huile ait été allumée (ou 12 secondes) et inflige 5 dégâts de feu à toute créature qui entre dans la zone ou qui y termine son tour. Une créature ne peut subir ces dégâts qu'une seule fois par tour.</p><p><strong>Carburant.</strong> L'huile sert de carburant pour les lampes et les lanternes. Une fois allumée, une fiole d'huile brûle pendant 6 heures dans une lampe ou une lanterne. Cette durée n'a pas besoin d'être consécutive ; vous pouvez éteindre l'huile brûlante (comme une action Utiliser) et la rallumer jusqu'à ce qu'elle ait brûlé pendant un total de 6 heures.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "Lancer"
         },
         "Douse Space": {
-          "name": "Douse Space"
+          "name": "Arroser une Zone"
         }
       }
     },
     "phbagParchment00": {
-      "name": "Parchment",
-      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>"
+      "name": "Parchemin",
+      "description": "<p>Une feuille de parchemin peut contenir environ 250 mots manuscrits.</p>"
     },
     "phbagRations0000": {
       "name": "Rations",
-      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+      "description": "<p>Les rations consistent en de la nourriture prête à voyager, y compris de la viande séchée, des fruits secs, du biscuit de mer et des noix. Consultez &amp;Reference[Malnutrition] dans le glossaire des règles pour connaître les risques liés à une mauvaise alimentation.</p>"
     },
     "phbagRobe0000000": {
       "name": "Robe",
-      "description": "<p>A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.</p>"
+      "description": "<p>Une Robe a une signification professionnelle ou cérémonielle. Certains événements et lieux n'admettent que les personnes portant une Robe portant des couleurs ou des symboles spécifiques.</p>"
     },
     "phbagRope0000000": {
-      "name": "Rope",
-      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "name": "Cordage",
+      "description": "<p>En effectuant une action Utiliser, vous pouvez nouer une corde si vous réussissez un jet de Dextérité (Rapidité manuelle) DD 10. Le cordage peut être brisé par un jet de Force (Athlétisme) DD 20 réussi.</p><p>Vous pouvez lier une créature récalcitrante avec la corde uniquement si la créature est affectée par les conditions &amp;Reference[Attrapé], &amp;Reference[Incapacités] ou &amp;Reference[Entravé]. Si les jambes de la créature sont liées, celle-ci est Entravée jusqu'à ce qu'elle s'échappe. S'échapper du cordage nécessite à la créature de réussir un jet de Dextérité (Acrobaties) DD 15 comme action.</p>",
       "activities": {
         "Tie Knot": {
-          "name": "Tie Knot"
+          "name": "Nouer un nœud"
         },
         "Burst Rope": {
-          "name": "Burst Rope"
+          "name": "Casser la corde"
         },
         "Escape Check": {
-          "name": "Escape Check"
+          "name": "Vérification d'évasion"
         }
       }
     },
     "phbagTinderbox00": {
-      "name": "Tinderbox",
-      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "name": "Boite d'allume-feu",
+      "description": "<p>Une Boite d'allume-feu est un petit contenant contenant de la pierre à feu, du fer à feu et de l'amadou (généralement un tissu sec trempé dans de l'huile légère) utilisé pour allumer un feu. L'utiliser pour allumer une bougie, une lampe, une lanterne ou une torche — ou tout autre objet avec un combustible exposé — prend une action bonus. Allumer tout autre feu prend 1 minute.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Allumer"
         }
       }
     },
     "phbagTorch000000": {
-      "name": "Torch",
-      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>"
+      "name": "Torche",
+      "description": "<p>Une torche brûle pendant 1 heure, projetant une lumière vive dans un rayon de 6 mètre et une lumière tamisée sur 6 mètre supplémentaires. Lorsque vous prenez l'action Attaque, vous pouvez attaquer avec la torche, l'utilisant comme une arme de mêlée simple. Si vous touchez, la cible subit 1 dégât de feu.</p>"
     },
     "phbagWaterskin00": {
-      "name": "Waterskin",
-      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>"
+      "name": "Outre d'eau",
+      "description": "<p>Une outre d'eau contient jusqu'à 2 pintes. Si vous ne buvez pas suffisamment d'eau, vous risquez &amp;Reference[Déshydratation].</p>"
     },
     "phiPN9UzkXk3i5xh": {
-      "name": "Book",
-      "description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>"
+      "name": "Livre",
+      "description": "<p>Un livre contient de la fiction ou de la non-fiction. Si vous consultez un livre de non-fiction précis concernant son sujet, vous gagnez un bonus de +5 aux jets de compétences Intelligence (Arcane, Histoire, Nature ou Religion) que vous effectuez concernant ce sujet.</p>"
     },
     "q6nVEb4XnTWxqA81": {
-      "name": "Oil",
-      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "name": "Huile",
+      "description": "<p>Vous pouvez arroser une créature, un objet ou un espace avec de l'huile ou l'utiliser comme carburant, comme détaillé ci-dessous.</p><p><strong>Arroser une créature ou un objet.</strong> Lorsque vous effectuez l'action Attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'huile. Visez une créature ou un objet dans un rayon de 6 mètre autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou être couverte d'huile. Si la cible subit des dégâts de feu avant que l'huile ne sèche (après 1 minute), elle subit des [[/damage 5 type=fire]] dégâts supplémentaires en raison de l'huile enflammée.</p><p><strong>Arroser un espace.</strong> Vous pouvez utiliser l'action Utiliser pour verser une fiole d'huile sur un terrain plat pour couvrir une zone de 1,5 mètres carrés dans un rayon de 1,5 mètres autour de vous. Si elle est enflammée, l'huile brûle jusqu'à la fin du tour 2 rounds après que l'huile ait été allumée (ou 12 secondes) et inflige 5 dégâts de feu à toute créature qui entre dans la zone ou qui y termine son tour. Une créature ne peut subir ces dégâts qu'une seule fois par tour.</p><p><strong>Carburant.</strong> L'huile sert de carburant pour les lampes et les lanternes. Une fois allumée, une fiole d'huile brûle pendant 6 heures dans une lampe ou une lanterne. Cette durée n'a pas besoin d'être consécutive ; vous pouvez éteindre l'huile brûlante (comme une action Utiliser) et la rallumer jusqu'à ce qu'elle ait brûlé pendant un total de 6 heures.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "Lancer"
         },
         "Douse Space": {
-          "name": "Douse Space"
+          "name": "Arroser une Zone"
         }
       }
     },
     "rIuY5ZDJh6ctfUwG": {
-      "name": "Tinderbox",
-      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "name": "Boite d'allume-feu",
+      "description": "<p>Une Boite d'allume-feu est un petit contenant contenant de la pierre à feu, du fer à feu et de l'amadou (généralement un tissu sec trempé dans de l'huile légère) utilisé pour allumer un feu. L'utiliser pour allumer une bougie, une lampe, une lanterne ou une torche — ou tout autre objet avec un combustible exposé — prend une action bonus. Allumer tout autre feu prend 1 minute.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Allumer"
         }
       }
     },
     "rZATMqE6y9uD3uzz": {
-      "name": "Paper",
-      "description": "<p>One sheet of Paper can hold about 250 handwritten words.</p>"
+      "name": "Papier",
+      "description": "<p>Une feuille de papier peut contenir environ 250 mots manuscrits.</p>"
     },
     "rvz6gQc3OcOMgIQz": {
-      "name": "Crowbar",
-      "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied.</p>"
+      "name": "Pied-de-biche",
+      "description": "<p>L'utilisation d'un pied-de-biche vous accorde un avantage sur les tests de Force où le levier du pied-de-biche peut être appliqué.</p>"
     },
     "rwITntQ6OAy0neX8": {
-      "name": "Oil",
-      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "name": "Huile",
+      "description": "<p>Vous pouvez arroser une créature, un objet ou un espace avec de l'huile ou l'utiliser comme carburant, comme détaillé ci-dessous.</p><p><strong>Arroser une créature ou un objet.</strong> Lorsque vous effectuez l'action Attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une fiole d'huile. Visez une créature ou un objet dans un rayon de 6 mètre autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DC 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou être couverte d'huile. Si la cible subit des dégâts de feu avant que l'huile ne sèche (après 1 minute), elle subit des [[/damage 5 type=fire]] dégâts supplémentaires en raison de l'huile enflammée.</p><p><strong>Arroser un espace.</strong> Vous pouvez utiliser l'action Utiliser pour verser une fiole d'huile sur un terrain plat pour couvrir une zone de 1,5 mètres carrés dans un rayon de 1,5 mètres autour de vous. Si elle est enflammée, l'huile brûle jusqu'à la fin du tour 2 rounds après que l'huile ait été allumée (ou 12 secondes) et inflige 5 dégâts de feu à toute créature qui entre dans la zone ou qui y termine son tour. Une créature ne peut subir ces dégâts qu'une seule fois par tour.</p><p><strong>Carburant.</strong> L'huile sert de carburant pour les lampes et les lanternes. Une fois allumée, une fiole d'huile brûle pendant 6 heures dans une lampe ou une lanterne. Cette durée n'a pas besoin d'être consécutive ; vous pouvez éteindre l'huile brûlante (comme une action Utiliser) et la rallumer jusqu'à ce qu'elle ait brûlé pendant un total de 6 heures.</p>",
       "activities": {
         "Throw": {
-          "name": "Throw"
+          "name": "Lancer"
         },
         "Douse Space": {
-          "name": "Douse Space"
+          "name": "Arroser une Zone"
         }
       }
     },
     "ts2DfyhdfsR092Td": {
-      "name": "Candle",
-      "description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>",
+      "name": "Bougie",
+      "description": "<p>Une bougie allumée émet de la lumière vive dans un rayon de 1,5 mètre et de la lumière tamisée dans un rayon supplémentaire de 1,5 mètre pendant 1 heure.</p>",
       "activities": {
         "Light": {
-          "name": "Light"
+          "name": "Allumer"
         }
       }
     },
     "uBvsyY44RP4LJLzp": {
-      "name": "Ink Pen",
-      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>"
+      "name": "Plume à encre",
+      "description": "<p>En utilisant de l'encre, une plume à encre est utilisée pour écrire ou dessiner.</p>"
     },
     "vi0j4PYnO596a2L1": {
-      "name": "Ink",
-      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>"
+      "name": "Encre",
+      "description": "<p>L'encre se trouve dans une bouteille de 30 ml, ce qui suffit pour écrire environ 500 pages.</p>"
     },
     "x8jC9e00t4cUYiKR": {
-      "name": "Rope",
-      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "name": "Cordage",
+      "description": "<p>En effectuant une action Utiliser, vous pouvez nouer une corde si vous réussissez un jet de Dextérité (Rapidité manuelle) DD 10. Le cordage peut être brisé par un jet de Force (Athlétisme) DD 20 réussi.</p><p>Vous pouvez lier une créature récalcitrante avec la corde uniquement si la créature est affectée par les conditions &amp;Reference[Attrapé], &amp;Reference[Incapacités] ou &amp;Reference[Entravé]. Si les jambes de la créature sont liées, celle-ci est Entravée jusqu'à ce qu'elle s'échappe. S'échapper du cordage nécessite à la créature de réussir un jet de Dextérité (Acrobaties) DD 15 comme action.</p>",
       "activities": {
         "Tie Knot": {
-          "name": "Tie Knot"
+          "name": "Nouer un nœud"
         },
         "Burst Rope": {
-          "name": "Burst Rope"
+          "name": "Casser la corde"
         },
         "Escape Check": {
-          "name": "Escape Check"
+          "name": "Vérification d'évasion"
         }
       }
     },
     "x9BzTUcsOj6K6OJE": {
-      "name": "Ink Pen",
-      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>"
+      "name": "Plume à encre",
+      "description": "<p>En utilisant de l'encre, une plume à encre est utilisée pour écrire ou dessiner.</p>"
     },
     "xP6OWuEaxQbDUfJV": {
       "name": "Rations",
-      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+      "description": "<p>Les rations consistent en de la nourriture prête à voyager, y compris de la viande séchée, des fruits secs, du biscuit de mer et des noix. Consultez &amp;Reference[Malnutrition] dans le glossaire des règles pour connaître les risques liés à une mauvaise alimentation.</p>"
     },
     "yoRKNd2QddQp1XuX": {
-      "name": "Perfume",
-      "description": "<p>Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.</p>"
+      "name": "Parfum",
+      "description": "<p>Le parfum est contenu dans un flacon de 4 onces. Pendant 1 heure après avoir appliqué du parfum sur vous, vous avez l'Avantage sur les tests de Charisme (Persuasion) effectués pour influencer un Humanoïde Indifférent à moins de 1,5 mètres de vous.</p>"
     }
+
   }
 }
