@@ -1003,7 +1003,7 @@
       }
     },
     "Boots of Elvenkind": {
-      "name": "Bottes des Elfes",
+      "name": "Bottes Elfiques",
       "description": "<div><p><em>Objet merveilleux, Peu commun</em></p></div><p>Tant que vous portez ces bottes, vos pas ne produisent aucun bruit, quelle que soit la surface sur laquelle vous vous déplacez. Vous bénéficiez également de l'Avantage sur les tests de Dextérité (Discrétion).</p>"
     },
     "Boots of False Tracks": {
@@ -3032,11 +3032,11 @@
       }
     },
     "Goggles of Night": {
-      "name": "Goggles of Night",
-      "description": "<p><em>Wondrous Item, Uncommon</em></p><p>While wearing these dark lenses, you have Darkvision out to 60 feet. If you already have Darkvision, wearing the goggles increases its range by 60 feet.</p>",
+      "name": "Lunettes de Nuit",
+      "description": "<p><em>Objet merveilleux, Peu commun</em></p><p>Lorsque vous portez ces verres teintés, vous obtenez une vision dans le noir jusqu'à 18 mètres. Si vous possédez déjà une vision dans le noir, le port de ces lunettes augmente sa portée de 18 mètres.</p>",
       "effects": {
         "Goggles On": {
-          "name": "Goggles On"
+          "name": "Lunettes Activées"
         }
       }
     },
@@ -4041,16 +4041,16 @@
       }
     },
     "Mithral Armor": {
-      "name": "Mithral Armor",
-      "description": "<p><em>Armor (Any Medium or Heavy, Except Hide Armor), Uncommon</em></p><p>Mithral is a light, flexible metal. Armor made of this substance can be worn under normal clothes. If the armor normally imposes Disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn’t.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "name": "Armure en mithral",
+      "description": "<p><em>Armure (toute armure moyenne ou lourde, sauf l'armure de peau), peu commune</em></p><p>Le mithral est un métal léger et flexible. Une armure fabriquée avec cette substance peut être portée sous des vêtements normaux. Si l'armure impose normalement un Désavantage aux tests de Dextérité (Discrétion) ou a une exigence de Force, la version en mithral de l'armure n'a pas ces contraintes.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "activities": {
         "Mithral Armor": {
-          "name": "Mithral Armor"
+          "name": "Armure en mithral"
         }
       },
       "effects": {
         "Mithral Armor": {
-          "name": "Mithral Armor",
+          "name": "Armure en mithral",
           "changes": {
             "name": "Mithral {}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMithralArmor0 caption=false]</p>"
@@ -4909,16 +4909,16 @@
       }
     },
     "Potion of Water Breathing": {
-      "name": "Potion of Water Breathing",
-      "description": "<p><em>Potion, Uncommon</em></p><p>You can breathe underwater for 24 hours after drinking this potion.</p><p>This potion’s cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</p><section class=\"secret\" id=\"secret-Hak8pdfo1Rbwhrgv\"><p><strong>Foundry Note</strong></p><p>The <strong>Water Breather</strong> Active Effect can be used for tracking.</p></section>",
+      "name": "Potion de Respiration aquatique",
+      "description": "<p><em>Potion, peu commune</em></p><p>Vous pouvez respirer sous l'eau pendant 1 heure après avoir bu cette potion.</p><p>Le fluide vert nuageux de cette potion sent la mer et contient une bulle ressemblant à une méduse en suspension.</p><section class=\"secret\" id=\"secret-Hak8pdfo1Rbwhrgv\"><p><strong>Note Foundry</strong></p><p>L'effet actif <strong>Respiration aquatique</strong> peut être utilisé pour le suivi.</p></section>",
       "activities": {
         "Drink": {
-          "name": "Drink"
+          "name": "Boire"
         }
       },
       "effects": {
         "Water Breather": {
-          "name": "Water Breather"
+          "name": "Respiration aquatique"
         }
       }
     },
@@ -7058,11 +7058,11 @@
       }
     },
     "Wand of Secrets": {
-      "name": "Wand of Secrets",
-      "description": "<p><em>Wand, Uncommon</em></p><p>This wand has 3 charges and regains 1d3 expended charges daily at dawn. While holding it, you can take a Magic action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you.</p>",
+      "name": "Baguette des Secrets",
+      "description": "<p><em>Baguette, peu commune</em></p><p>Cette baguette possède 3 charges et récupère 1d3 charges dépensées chaque jour à l'aube. Tant que vous la tenez, vous pouvez utiliser une action magique pour dépenser 1 charge. Si une porte secrète ou un piège se trouve dans un rayon de 9 mètres autour de vous, la baguette vibre et pointe vers le plus proche.</p>",
       "activities": {
         "Detect Secret Door/Trap": {
-          "name": "Detect Secret Door/Trap"
+          "name": "Détecter une porte secrète/un piège"
         }
       }
     },

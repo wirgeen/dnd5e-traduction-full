@@ -3490,27 +3490,27 @@
       },
       "effects": {
         "Shillelagh (1d8)": {
-          "name": "Shillelagh (1d8)",
+          "name": "Gourdin Magique (1d8)",
           "changes": {
-            "name": "{} Shillelagh"
+            "name": "{} Gourdin Magique"
           }
         },
         "Shillelagh (1d10)": {
-          "name": "Shillelagh (1d10)",
+          "name": "Gourdin Magique (1d10)",
           "changes": {
-            "name": "{} (Shillelagh)"
+            "name": "{} (Gourdin Magique)"
           }
         },
         "Shillelagh (1d12)": {
-          "name": "Shillelagh (1d12)",
+          "name": "Gourdin Magique (1d12)",
           "changes": {
-            "name": "{} (Shillelagh)"
+            "name": "{} (Gourdin Magique)"
           }
         },
         "Shillelagh (2d6)": {
-          "name": "Shillelagh (2d6)",
+          "name": "Gourdin Magique (2d6)",
           "changes": {
-            "name": "{} (Shillelagh)"
+            "name": "{} (Gourdin Magique)"
           }
         }
       }
@@ -3623,7 +3623,7 @@
       }
     },
     "Spider Climb": {
-      "name": "Escalade d'Araignée",
+      "name": "Pattes d'araignée",
       "description": "<p>Jusqu'à la fin du sort, une créature consentante que vous touchez gagne la capacité de se déplacer vers le haut, vers le bas, sur des surfaces verticales, et le long des plafonds, tout en gardant les mains libres. La cible obtient également une Vitesse d’Escalade égale à sa Vitesse.</p><p><strong>Utiliser un Emplacement de Sort Supérieur.</strong> Vous pouvez cibler une créature supplémentaire pour chaque niveau d'emplacement de sort supérieur à 2.</p><section class=\"secret\" id=\"secret-4LoECjSnyIsXFdKY\"><p><strong>Note Foundry</strong></p><p>L’effet actif fourni par l’activité <strong>Lancer</strong> ajuste la Vitesse d’Escalade du personnage à une valeur de \"1\" pour indiquer l'équivalence avec sa Vitesse de marche.</p></section>",
       "activities": {
         "Cast": {
@@ -4030,7 +4030,7 @@
       }
     },
     "Thorn Whip": {
-      "name": "Fouet d'Épines",
+      "name": "Fouet'Épineux",
       "description": "<p>Vous créez un fouet ressemblant à une liane couverte d'épines qui s'élance vers une créature dans la portée du sort sous votre commandement. Effectuez une attaque de sort de mêlée contre la cible. En cas de succès, la cible subit 1d6 dégâts perforants et, si elle est de taille Large ou plus petite, vous pouvez la rapprocher de vous jusqu'à 3 mètres.</p><p><strong>Amélioration du Tour de Magie.</strong> Les dégâts augmentent de 1d6 lorsque vous atteignez les niveaux 5 (2d6), 11 (3d6) et 17 (4d6).</p>",
       "activities": {
         "Attack and Pull": {
@@ -4132,7 +4132,7 @@
       }
     },
     "True Strike": {
-      "name": "Coup Vrai",
+      "name": "Coup au But",
       "description": "<p>Guidé par un éclair d'intuition magique, vous effectuez une attaque avec l'arme utilisée pour lancer le sort. L'attaque utilise votre capacité de lancement de sorts pour les jets d'attaque et de dégâts au lieu de la Force ou de la Dextérité. Si l'attaque inflige des dégâts, ils peuvent être des dégâts Radiants ou le type de dégâts habituel de l'arme (à votre choix).</p><p><strong>Amélioration du Tour de Magie.</strong> Que vous infligiez des dégâts Radiants ou le type de dégâts habituel de l'arme, l'attaque inflige des dégâts Radiants supplémentaires lorsque vous atteignez les niveaux 5 (1d6), 11 (2d6), et 17 (3d6).</p>",
       "activities": {
         "Enchant Weapon": {
@@ -4141,9 +4141,9 @@
       },
       "effects": {
         "True Strike": {
-          "name": "True Strike",
+          "name": "Coup au But",
           "changes": {
-            "name": "{} (True Strike)"
+            "name": "{} (Coup au But)"
           }
         }
       }

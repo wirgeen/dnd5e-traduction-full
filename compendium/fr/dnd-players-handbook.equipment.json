@@ -367,8 +367,8 @@
       }
     },
     "Diplomat's Pack": {
-      "name": "Paquet du Diplomate",
-      "description": "<p>Un paquet du diplomate contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Coffre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Vêtements Raffinés}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Encre}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Stylos à Encre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Étuis à Carte ou Parchemin}, 4 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 5 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papier}, 5 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchemin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Parfum}, et @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}.</p>"
+      "name": "Sac du Diplomate",
+      "description": "<p>Un Sac du diplomate contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Coffre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Vêtements Raffinés}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Encre}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Stylos à Encre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Étuis à Carte ou Parchemin}, 4 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 5 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papier}, 5 feuilles de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchemin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Parfum}, et @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}.</p>"
     },
     "Disguise Kit": {
       "name": "Kit de Déguisement",
@@ -420,8 +420,8 @@
       }
     },
     "Dungeoneer's Pack": {
-      "name": "Paquet de Spéléologue",
-      "description": "<p>Un paquet de spéléologue contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Chausse-trapes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Pied-de-biche}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
+      "name": "Sac de Spéléologue",
+      "description": "<p>Un Sac de spéléologue contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Chausse-trapes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Pied-de-biche}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
     },
     "EGuDt2xpscYtalmV": {
       "name": "Boite d'allume-feu",
@@ -445,16 +445,16 @@
       "description": "<p>Un cristal gravé de motifs stellaires qui peut être utilisé comme focalisateur de sorts par les druides du Cercle des Étoiles. C’est un objet minuscule.</p>"
     },
     "Entertainer's Pack": {
-      "name": "Paquet d'Artiste",
-      "description": "<p>Un paquet d’artiste contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de Couchage}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Cloche}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Lanterne de Visée}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Miroir}, 8 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 9 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
+      "name": "Sac d'Artiste",
+      "description": "<p>Un Sac d’artiste contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de Couchage}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Cloche}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Lanterne de Visée}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Miroir}, 8 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 9 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
     },
     "Etched Glass Disk": {
       "name": "Disque de Verre Gravé",
       "description": "<p>Un disque de verre gravé de constellations qui peut être utilisé comme focalisateur de sorts par les druides du Cercle des Étoiles. C’est un objet minuscule.</p>"
     },
     "Explorer's Pack": {
-      "name": "Paquet d'Explorateur",
-      "description": "<p>Un paquet d'explorateur contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de Couchage}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
+      "name": "Sac d'Explorateur",
+      "description": "<p>Un Sac d'explorateur contient les articles suivants : @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Sac à Dos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de Couchage}, 2 fioles d'@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile}, 10 jours de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Boite d'allume-feu}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, et une @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Outre}.</p>"
     },
     "Fine Clothes": {
       "name": "Vêtements de Luxe",
@@ -691,7 +691,7 @@
       }
     },
     "Lance": {
-      "name": "Lance",
+      "name": "Lance d'arçon",
       "description": ""
     },
     "Lantern, Bullseye": {

@@ -690,8 +690,8 @@
         }
       }
     },
-    "Combat aux armes de jets": {
-      "name": "Lancer d'Arme",
+    "Thrown Weapon Fighting": {
+      "name": "Combat avec des Armes à Lancer",
       "description": "<p><em>(Prérequis : Style de Combat)</em></p><p>Lorsque vous touchez avec un jet d'attaque à distance en utilisant une arme avec la propriété Lancé, vous gagnez un bonus de +2 au jet de dégâts.</p><section class=\"secret\" id=\"secret-bEw60cBL96wx9JH4\"><p><strong>Note Foundry</strong></p><p>Cette caractéristique n'est pas automatisée. Vous pouvez ajouter +2 dans le champ Bonus Situationnel du jet de dégâts.</p></section>"
     },
     "Tough": {

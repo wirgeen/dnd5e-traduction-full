@@ -88,7 +88,7 @@
   "DND5E.AbilityCheckConfigure": "Jets de caractéristique de {ability}",
   "DND5E.AbilityCheckConfigurationHint": "Configurer les jets bonus.",
   "DND5E.AbilityConfigurationHint": "Configurer le bonus de Maîtrise sur les jets de sauvegarde de caractéristique, le bonus des jets de sauvegarde et les jets bonus.",
-  "DND5E.AbilityCheckBonus": "Jet Bonus",
+  "DND5E.AbilityCheckBonus": "Tests de caractéristique",
   "DND5E.AbilityCheckGlobalBonusHint": "Ce bonus s'applique à tous les tests de caractéristiques effectués par cet acteur.",
   "DND5E.Action": "Action",
   "DND5E.ActionAbbr": "A",
@@ -133,7 +133,8 @@
       "Time": "Durée",
       "Monster": "Monstre",
       "Vehicle": "Véhicule",
-      "Combat": "Combat"
+      "Combat": "Combats",
+      "Rest": "Repos"
     },
     "Type": {
       "Encounter": {
@@ -150,6 +151,12 @@
       },
       "TurnStart": {
         "Label": "Début du tour"
+      },
+      "LongRest": {
+        "Label": "Fin d'un repos long"
+      },
+      "ShortRest": {
+        "Label": "Fin d'un repos court"
       }
     },
     "Warning": {
@@ -251,6 +258,9 @@
         "DescriptionLegacy": "<p>Lorsque vous atteignez le niveau {firstLevelOrdinal}, et de nouveau aux niveaux {otherLevelsOrdinal}, vous pouvez augmenter une caractéristique de votre choix de 2, ou augmenter deux caractéristiques de votre choix de 1. Comme d'habitude, vous ne pouvez pas augmenter une caractéristique au-delà de {maxAbilityScore} en utilisant cette aptitude.</p><p>En utilisant la règle optionnelle des dons, vous pouvez renoncer à cette amélioration pour choisir un don à la place.</p>",
         "DescriptionModern": "<p>Vous obtenez le don d'amélioration de caractéristique ou un autre don de votre choix pour lequel vous remplissez les conditions. Vous obtenez à nouveau cette fonctionnalité aux niveaux {class} {otherLevels}.</p>",
         "Name": "Amélioration de caractéristique"
+      },
+      "Action": {
+        "Select": "Sélectionner un don"
       }
     },
     "SPELLCONFIG": {
@@ -284,6 +294,9 @@
       "Hint": "Spécifie à quel niveau cette classe reçoit sa sous-classe.",
       "Warning": {
         "InvalidType": "Seules les sous-classes peuvent être sélectionnées."
+      },
+      "Action": {
+        "Select": "Sélectionner la sous-classe"
       }
     },
     "Config": {
@@ -473,6 +486,9 @@
           "Identifier": "Cette valeur d'évolution pour le niveau actuel sera disponible dans une formule en utilisant :<br><copyable-text>@scale.{class}.{identifier}</copyable-text>",
           "Label": "Tout"
         }
+      },
+      "Action": {
+        "CopyFormula": "Copier la formule"
       }
     },
     "Size": {
@@ -545,6 +561,13 @@
       },
       "TraitType": "Type de trait",
       "Title": "Traits"
+    },
+    "Action": {
+      "Create": "Créer la Progression",
+      "Delete": "Supprimer la Progression",
+      "Duplicate": "Dupliquer la Progression",
+      "Edit": "Éditer la Progression",
+      "View": "Voir la Progression"
     }
   },
   "DND5E.AdvancementChoices": "choix",
@@ -562,10 +585,6 @@
   "DND5E.AdvancementConfigureDropAreaHint": "Déposez des objets ici pour les ajouter à la liste des objets qu'un joueur peut choisir.",
   "DND5E.AdvancementConfiguredComplete": "Entièrement configuré",
   "DND5E.AdvancementConfiguredIncomplete": "Non configuré",
-  "DND5E.AdvancementControlCreate": "Créer la Progression",
-  "DND5E.AdvancementControlDelete": "Supprimer la Progression",
-  "DND5E.AdvancementControlDuplicate": "Dupliquer la Progression",
-  "DND5E.AdvancementControlEdit": "Éditer la Progression",
   "DND5E.AdvancementCustomIcon": "Icône personnalisée",
   "DND5E.AdvancementCustomTitle": "Titre personnalisé",
   "DND5E.AdvancementDeleteConfirmationLabel": "Supprimer les changements de progression",
@@ -763,30 +782,12 @@
   "DND5E.BiopgrahyPublicEdit": "Modifier la biographie publique",
   "DND5E.Bonds": "Liens",
   "DND5E.Bonus": "Bonus",
-  "DND5E.BonusAbility": "Bonus de Caractéristique globale",
-  "DND5E.BonusAbilityCheck": "Bonus général aux jets de caractéristique",
-  "DND5E.BonusAbilitySave": "Bonus général aux jets de sauvegarde",
-  "DND5E.BonusAbilitySaveTitle": "Jets de sauvegarde globaux",
-  "DND5E.BonusAbilitySkill": "Bonus général aux jets de compétence",
   "DND5E.BonusAction": "Action Bonus",
   "DND5E.BonusActionAbbr": "AB",
   "DND5E.BonusAttack": "Bonus d'attaque",
   "DND5E.BonusDamage": "Bonus de dégâts",
-  "DND5E.BonusMSAttack": "Bonus d'att. : attaque au corps-à-corps avec un sort",
-  "DND5E.BonusMSDamage": "Bonus Dégats : attaque au corps-à-corps avec un sort",
-  "DND5E.BonusMWAttack": "Bonus d'att. : attaque au corps-à-corps avec une arme",
-  "DND5E.BonusMWDamage": "Bonus Dégats : attaque au corps-à-corps avec une arme",
-  "DND5E.BonusRSAttack": "Bonus d'att. : attaque à distance avec un sort",
-  "DND5E.BonusRSDamage": "Bonus Dégats : attaque à distance avec un sort",
-  "DND5E.BonusRWAttack": "Bonus d'att. : attaque à distance avec une arme",
-  "DND5E.BonusRWDamage": "Bonus Dégats : attaque à distance avec une arme",
   "DND5E.BonusSaveForm": "Mise à jour des bonus",
-  "DND5E.BonusSpell": "Bonus d'Incantation globaux",
-  "DND5E.BonusSpellDC": "Bonus général au DD de sauvegarde des sorts",
   "DND5E.BonusTitle": "Configurer les bonus des acteurs",
-  "DND5E.Bonuses": "Bonus généraux",
-  "DND5E.BonusesHint": "Définir les bonus généraux comme des formules qui sont ajoutées à certains lancers. Par exemple : 1d4 + 2",
-  "DND5E.BonusesInstructions": "Configurer les bonus de personnage qui sont ajoutés au jet de dés approprié",
   "DND5E.Casting": "Incantation",
   "DND5E.Conditions": "États",
   "DND5E.Controls": {
@@ -1381,7 +1382,9 @@
     "Scaling": {
       "Half": "Un niveau sur deux",
       "None": "Pas d'évolution",
-      "Whole": "Chaque niveau"
+      "Whole": "Chaque niveau",
+      "HalfCantrip": "Évolution des tours de magie (moitié)",
+      "WholeCantrip": "Évolution des tours de magie"
     }
   },
   "DND5E.DamImm": "Immunités aux dégâts",
@@ -2074,7 +2077,7 @@
   "DND5E.Minimum": "Minimum",
   "DND5E.Modifier": "Modificateur",
   "DND5E.ModuleArtConfigH": "Configurer quel art fourni par le module doit être utilisé.",
-  "DND5E.ModuleArtConfigL": "Configurer les Arts",
+  "DND5E.ModuleArtConfigL": "Configurer les arts",
   "DND5E.ModuleArtConfigN": "Art fourni par module",
   "DND5E.ModuleArtConfigPortraits": "Portraits",
   "DND5E.ModuleArtConfigTokens": "Tokens",
@@ -2308,7 +2311,7 @@
     },
     "OnSave": "JdS réussi"
   },
-  "DND5E.SaveBonus": "Bonus aux jets de sauvegarde",
+  "DND5E.SaveBonus": "Jets de sauvegarde",
   "DND5E.SaveGlobalBonusHint": "Ce bonus s'applique à tous les jets de sauvegarde effectués par cet acteur.",
   "DND5E.Scroll": {
     "CreateFrom": "Créer un parchemin à partir de {sort}",
@@ -2402,7 +2405,7 @@
   "DND5E.SkillSlt": "Escamotage",
   "DND5E.SkillSte": "Discrétion",
   "DND5E.SkillSur": "Survie",
-  "DND5E.SkillPromptTitle": "Jet de compétence : {skill}",
+  "DND5E.SkillPromptTitle": "Jet de {ability} ({skill})",
   "DND5E.SkillConfigureTitle": "Configurer {skill}",
   "DND5E.SkillConfigure": "Configurer la compétence",
   "DND5E.SkillsConfig": "Configurer les compétences",
@@ -3483,7 +3486,7 @@
   },
   "KEYBINDINGS.DND5E.SkipDialogNormal": "Ignorer la boîte de dialogue",
   "KEYBINDINGS.DND5E.SkipDialogAdvantage": "Ignorer la boîte de dialogue (lancer avec Avantage/Critique)",
-  "KEYBINDINGS.DND5E.SkipDialogDisadvantage": "Ignorer la boîte de dialogue (lancer avec Désavantage)",
+  "KEYBINDINGS.DND5E.SkipDialogDisadvantage": "Ignorer le dialogue (lancer avec désavantage/non critique)",
   "MACRO.5eMissingTargetWarn": "Votre acteur contrôlé '{actor}' n'a pas de {type} avec le nom '{name}'.",
   "MACRO.5eMultipleTargetsWarn": "Votre acteur contrôlé '{actor}' possède plus d'un {type} avec le nom '{name}'. La première correspondance sera choisie.",
   "MACRO.5eNoActorSelected": "Aucun acteur sélectionné ou assigné n'a pu être trouvé pour être ciblé par la macro.",
@@ -3497,53 +3500,12 @@
   "SETTINGS.5eAutoCollapseCardN": "Réduire les cartes d'objet dans le tchat",
   "SETTINGS.5eAutoSpellTemplateL": "Lorsqu'un sort est lancé, commence par créer le gabarit correspondant le cas échéant (nécessite un role de joueur de 'confiance' -TRUSTED- ou supérieur)",
   "SETTINGS.5eAutoSpellTemplateN": "Toujours poser le gabarit du sort",
-  "SETTINGS.5eCriticalMaxDiceN": "Maximiser les dégâts critiques",
-  "SETTINGS.5eCriticalMaxDiceL": "Rendez les coups critiques plus mortels en maximisant les valeurs des dés de dégâts de base.",
-  "SETTINGS.5eCriticalModifiersN": "Multiplication des modificateurs de dégâts critiques",
-  "SETTINGS.5eCriticalModifiersL": "Rendez les coups critiques plus mortels en multipliant les modificateurs sans dés en plus des dés lancés.",
-  "SETTINGS.5eCurWtL": "L'argent affecte la charge totale portée selon la définition du Manuel des Joueurs p143.",
-  "SETTINGS.5eCurWtN": "Appliquer le poids de l'argent",
-  "SETTINGS.5eDiagEuclidean": "Euclidien (2,15m de diagonale)",
-  "SETTINGS.5eDiagL": "Configurez quelle règle de mouvement diagonal doit être utilisée pour les parties utilisant ce système.",
-  "SETTINGS.5eDiagN": "Règle de mouvement en diagonal",
-  "SETTINGS.5eDiagPHB": "Équidistant : Manuel des Joueurs (1,5/1,5/1,5)",
-  "SETTINGS.5eDiagDMG": "Alterné : Dungeon Master's Guide p251 (1,5/3/1,5)",
-  "SETTINGS.5eEncumbrance": {
-    "Hint": "Activer le suivi automatique de l'encombrement et l'application des effets d'état pour les personnages portant trop de choses.",
-    "Name": "Suivi de l'encombrement",
-    "None": "Aucun",
-    "Normal": "Normal (capacité de port maximale)",
-    "Variant": "Variante (encombré & très encombré)"
-  },
-  "SETTINGS.5eFeatsL": "Permet aux joueurs de choisir un don plutôt que d'améliorer un score de caractéristique lors de la progression de classe en utilisant les règles Héritage.",
-  "SETTINGS.5eFeatsN": "Autoriser les Dons",
-  "SETTINGS.5eHonorL": "Permet d'utiliser la caractéristique facultatif Honneur. Nécessite le rechargement du monde.",
-  "SETTINGS.5eHonorN": "Score d'Honneur",
-  "SETTINGS.5eInitTBL": "Ajouter en décimal le score brut de Dextérité pour départager les initiatives identiques.",
-  "SETTINGS.5eInitTBN": "Départager les initiatives identiques",
   "SETTINGS.5eNoAdvancementsN": "Désactiver l'automatisation des niveaux supérieurs",
   "SETTINGS.5eNoAdvancementsL": "Ne demandez pas de choix pour la montée de niveau ou la création de personnage.",
   "SETTINGS.5eNoConcentrationN": "Désactiver le suivi de la concentration",
   "SETTINGS.5eNoConcentrationL": "Désactiver le suivi automatisé de la concentration du système.",
-  "SETTINGS.5eProfBonus": "PHB : Bonus (+2, +3, +4, +5, +6)",
-  "SETTINGS.5eProfDice": "DMG : Dés (1d4, 1d6, 1d8, 1d10, 1d12)",
-  "SETTINGS.5eProfL": "Configurer le bonus de maitrise pour utiliser un bonus fixe ou un jet de dé. Le rechargement du monde est nécessaire pour que ce changement prenne effet.",
-  "SETTINGS.5eProfN": "Variante de maîtrise",
-  "SETTINGS.5eReset": "Réinitialiser",
-  "SETTINGS.5eRestL": "Configurer quelle variante de repos doit être utilisée pour les parties.",
-  "SETTINGS.5eRestN": "Durée de Repos",
-  "SETTINGS.5eRestPHB": "Manuel des Joueurs (RL : 8 heures, RC : 1 heure)",
-  "SETTINGS.5eRestGritty": "Réaliste ~dur~ (RL : 7 jours, RC : 8 heures)",
-  "SETTINGS.5eRestEpic": "Héroïsme épique (RL : 1 heure, RC : 1 min)",
   "SETTINGS.5eGridAlignedSquareTemplatesL": "Lorsque des gabarits carrés sont créés suite à un sort ou à l'utilisation d'un objet, ils seront verrouillés sur l'alignement de la grille et ne pourront pas être tournés.",
   "SETTINGS.5eGridAlignedSquareTemplatesN": "Gabarits carrés alignés sur la grille",
-  "SETTINGS.5eSanityL": "Permet d'utiliser la caractéristique facultatif Santé mental. Nécessite le rechargement du monde.",
-  "SETTINGS.5eSanityN": "Score de Santé Mental",
-  "SETTINGS.5eUndoChanges": "Annuler les modifications",
-  "SETTINGS.5eTokenRings": {
-    "Name": "Désactiver les anneaux de token dynamiques",
-    "Hint": "La désactivation des animations de l'anneau de token peut améliorer les performances."
-  },
   "SETTINGS.DND5E": {
     "ALLOWSUMMONING": {
       "Name": "Permettre les invocations",
@@ -3551,7 +3513,7 @@
     },
     "BLOODIED": {
       "Name": "Statut Ensanglanté",
-      "Hint": "Configurer la visibilité du statut Ensanglanté est s'il est suivi automatiquement.",
+      "Hint": "Configurer la visibilité du statut Ensanglanté et s'il est suivi automatiquement.",
       "All": "Afficher pour les Alliés et les Ennemis",
       "Player": "Afficher uniquement pour les Alliés",
       "None": "Ne jamais afficher"
@@ -3567,13 +3529,6 @@
       "Name": "Compétences par défaut",
       "Hint": "Les compétences par défaut qui apparaissent sur les fiches des PNJ, quel que soit leur niveau de maîtrise."
     },
-    "LEVELING": {
-      "Name": "Mode de gain de niveau",
-      "Hint": "Déterminer comment les joueurs gagnent de nouveaux niveaux.",
-      "NoXP": "Gain de niveau sans PX",
-      "XP": "Points d'expérience",
-      "XPBoons": "Points d'expérience avec des Faveurs épique"
-    },
     "THEME": {
       "Name": "Thème",
       "Hint": "Thème qui s'appliquera à l'interface utilisateur et à toutes les feuilles par défaut. Le mode automatique sera déterminé par les paramètres de votre navigateur ou de votre système d'exploitation."
@@ -3585,27 +3540,27 @@
       "Modern": "Règles modernes (2024)"
     },
     "VISIBILITY": {
-      "ITEMDESCRIPTIONS": {
-        "Name": "Masquer les descriptions des PNJ",
-        "Hint": "Masque les descriptions des objets des PNJ pour les joueurs lorsqu'elles sont envoyées dans le tchat par le MJ. Ne masque que les descriptions des objets sans description de tchat définie."
-      },
       "Hint": "Diverses options de configuration qui affectent la visibilité de certaines informations par les joueurs, que le MJ peut souhaiter garder secrètes.",
-      "CHALLENGE": {
-        "All": "Tout afficher",
-        "Hint": "Contrôle les DD des jets visibles par les joueurs et si les réussites/échecs sont mis en évidence.",
-        "Name": "Visibilité des oppositions",
-        "None": "Tout masquer",
-        "Player": "Afficher uniquement ceux des autres joueurs"
+      "Label": "Configurer la visibilités",
+      "Name": "Visibilités",
+      "Challenge": {
+        "Hint": "Contrôler quels DD de jets sont visibles pour les joueurs et si les succès/échecs sont mis en évidence.",
+        "All": "Montrer tout",
+        "Name": "Visibilité du DD",
+        "None": "Cacher tout",
+        "Player": "Montrer uniquement ceux des autres joueurs"
       },
-      "ATTACK": {
-        "Hint": "Contrôle la visibilité des résultats des jets d'attaque dans les cartes de tchat pour les joueurs.",
-        "Name": "Visibilité des résultats d'attaque",
-        "All": "Afficher les résultats et les CA des cibles",
-        "HideAC": "Afficher uniquement les résultats",
-        "None": "Tout masquer"
+      "Attack": {
+        "Name": "Visibilité du résultat d'attaque",
+        "Hint": "Contrôler la visibilité des résultats de jets d'attaque dans les cartes de tchat pour les joueurs.",
+        "All": "Montrer les résultats & les CA cibles",
+        "HideAC": "Montrer uniquement les résultats",
+        "None": "Cacher tout"
       },
-      "Label": "Configurer la visibilité",
-      "Name": "Visibilité"
+      "ItemDescriptions": {
+        "Hint": "Cacher les descriptions des objets des PNJ aux joueurs lorsqu'elles sont postées dans le tchat par le MJ. Cela ne cachera les descriptions que pour les objets sans description de tchat définie.",
+        "Name": "Masquer les descriptions des PNJ"
+      }
     },
     "METRIC": {
       "WeightUnits": {
@@ -3621,16 +3576,102 @@
         "Hint": "Utilise par défaut les litres au lieu des pieds cubes pour la capacité des conteneurs."
       }
     },
-    "INITIATIVESCORE": {
-      "Name": "Score d'initiative",
-      "Hint": "Utiliser le score d'initiative d'une créature (10 + bonus) plutôt que de lancer un jet.",
-      "All": "Utiliser le score pour tout le monde",
-      "None": "Toujours effectuer un jet d'initiative",
-      "NPCs": "Utiliser le score pour les PNJ du MJ"
-    },
     "LOYALTY": {
       "Hint": "Activer le suivi facultatif de la Loyauté.",
       "Name": "Score de Loyauté"
+    },
+    "COMBAT": {
+      "Hint": "Diverses options de configuration affectant le combat.",
+      "Label": "Configurer les combats",
+      "Name": "Combat",
+      "DexTiebreaker": {
+        "Name": "Égalité de Dextérité",
+        "Hint": "Ajouter le score de Dextérité brut pour départager les égalités d'Initiative."
+      },
+      "InitiativeScore": {
+        "Name": "Score d'Initiative",
+        "Hint": "Utiliser le score d'initiative d'une créature (10 + bonus) plutôt que de lancer pour l'initiative.",
+        "All": "Utiliser le score pour tout le monde",
+        "NPCs": "Utiliser le score pour les PNJ du MJ",
+        "None": "Toujours lancer l'initiative"
+      }
+    },
+    "CRITICAL": {
+      "Name": "Dégâts critiques",
+      "MaxDice": {
+        "Name": "Maximiser les dés",
+        "Hint": "Rendre les coups critiques plus mortels en maximisant les valeurs des dés de dégâts de base."
+      },
+      "MultiplyModifiers": {
+        "Name": "Multiplier les modificateurs",
+        "Hint": "Rendre les coups critiques plus mortels en multipliant les modificateurs non-dés en plus des dés lancés."
+      }
+    },
+    "General": "Général",
+    "NPCS": {
+      "Name": "PNJ",
+      "AutoRecharge": {
+        "Name": "Recharge des capacités",
+        "Hint": "Lancer pour recharger les capacités des PNJ automatiquement au début du tour du PNJ.",
+        "No": "Ne pas recharger automatiquement",
+        "Yes": "Recharger et afficher la carte de tchat",
+        "Silent": "Recharger sans créer de carte de tchat"
+      },
+      "AutoRollNPCHP": {
+        "Name": "Points de vie",
+        "Hint": "Configurer s'il faut lancer pour les PV max des PNJ à chaque création d'un nouveau token.",
+        "No": "Ne pas lancer",
+        "Silent": "Lancer sans créer de carte de tchat",
+        "Yes": "Lancer et créer une carte de tchat"
+      }
+    },
+    "VARIANT": {
+      "Hint": "Activer et configurer les variantes de règles proposées par le système.",
+      "Label": "Configurer les règles variantes",
+      "Name": "Règles variantes",
+      "AllowFeats": {
+        "Hint": "Permettre aux joueurs de choisir un don plutôt que d'améliorer un score de caractéristique lors de la progression de classe en utilisant les règles Legacy.",
+        "Name": "Autoriser les dons"
+      },
+      "CurrencyWeight": {
+        "Hint": "L'argent transporté affecte l'encombrement du personnage.",
+        "Name": "Suivre le poids de l'argent"
+      },
+      "Encumbrance": {
+        "Hint": "Activer le suivi automatique de l'encombrement et l'application des effets d'état pour les personnages transportant trop de choses.",
+        "Name": "Suivi de l'encombrement",
+        "None": "Aucun",
+        "Normal": "Normal (capacité de port maximale)",
+        "Variant": "Variante (encombré & très encombré)"
+      },
+      "HonorScore": {
+        "Hint": "Activer l'utilisation du score d'Honneur facultatif.",
+        "Name": "Score d'Honneur"
+      },
+      "LevelingMode": {
+        "Hint": "Déterminer comment les joueurs gagnent de nouveaux niveaux.",
+        "Name": "Mode de progression",
+        "XP": "Points d'expérience",
+        "NoXP": "Progression sans PX",
+        "XPBoons": "Points d'expérience avec Dons Épiques"
+      },
+      "ProficiencyModifier": {
+        "Bonus": "PHB : Bonus (+2, +3, +4, +5, +6)",
+        "Dice": "DMG : Dés (1d4, 1d6, 1d8, 1d10, 1d12)",
+        "Hint": "Configurer le modificateur de maîtrise pour utiliser un bonus fixe ou un lancer de dés.",
+        "Name": "Variante de maîtrise"
+      },
+      "Rest": {
+        "Epic": "Héroïsme épique (RL : 1 heure, RC : 1 min)",
+        "Gritty": "Réalisme brutal (RL : 7 jours, RC : 8 heures)",
+        "Hint": "Configurer quelle variante de repos doit être utilisée.",
+        "Name": "Variante de repos",
+        "Normal": "Manuel du Joueur (RL : 8 heures, RC : 1 heure)"
+      },
+      "SanityScore": {
+        "Hint": "Activer l'utilisation du score de Santé mentale facultatif.",
+        "Name": "Score de Santé mentale"
+      }
     }
   },
   "SHEETS.DND5E": {
@@ -4058,9 +4099,13 @@
       "Traits": "Traits"
     },
     "Label": "PNJ",
-    "Important": {
-      "Hint": "Les PNJ importants suivent les jets de sauvegarde contre la mort, les dés de vie et la loyauté (si activée). Tout PNJ ayant des niveaux de classe est considéré comme important, quel que soit ce paramètre.",
-      "Label": "PNJ important"
+    "FIELDS": {
+      "traits": {
+        "important": {
+          "hint": "Les PNJ importants suivent les jets de sauvegarde contre la mort, les dés de vie et la loyauté (si activée). Tout PNJ avec des niveaux de classe est considéré comme important indépendamment de ce paramètre.",
+          "label": "PNJ important"
+        }
+      }
     }
   },
   "DND5E.RechargeShort": "Recharge après un repos court ou long",
@@ -4333,17 +4378,29 @@
   },
   "DND5E.CHATMESSAGE": {
     "TURN": {
-      "Activities": "Activités",
       "NoCombatant": "Le combattant n'existe plus !"
     },
     "Deltas": {
       "Recovery": "Récupération"
-    }
+    },
+    "Activities": "Activités"
   },
   "DND5E.CreatureTag": "{size} {type}, {alignment}",
   "DND5E.Habitat": {
     "Categories": {
-      "Any": "N'importe lequel"
+      "Any": "N'importe lequel",
+      "Arctic": "Arctique",
+      "Coastal": "Côtier",
+      "Desert": "Désert",
+      "Forest": "Forêt",
+      "Hill": "Colline",
+      "Grassland": "Prairie",
+      "Mountain": "Montagne",
+      "Planar": "Planaire",
+      "Swamp": "Marécage",
+      "Underdark": "Souterrain",
+      "Underwater": "Sous-marin",
+      "Urban": "Urbain"
     },
     "Configuration": {
       "Custom": "Personnalisé",
@@ -4458,7 +4515,10 @@
       "few": "{n}e Action légendaire",
       "other": "{n}e Action légendaire"
     },
-    "Remaining": "Actions légendaires restantes"
+    "Remaining": "Actions légendaires restantes",
+    "Description": "Utilisations des actions légendaires : {uses}.",
+    "DescriptionLegacy": "Le {name} peut effectuer {usesNamed}, en choisissant parmi les options ci-dessous. Une seule option d'action légendaire peut être utilisée à la fois et uniquement à la fin du tour d'une autre créature. Le {name} récupère les actions légendaires dépensées au début de son tour.",
+    "LairUses": "{normal} ({lair} dans l'antre)"
   },
   "DND5E.Loyalty": "Loyauté",
   "DND5E.ProficiencyOther": "Autre",
@@ -4559,5 +4619,96 @@
     }
   },
   "DND5E.DeathSaveBonus": "Bonus aux Sauvegardes contre la mort",
-  "DND5E.DeathSaveConfigure": "Configurer les JDS contre la mort"
+  "DND5E.DeathSaveConfigure": "Configurer les JDS contre la mort",
+  "DND5E.ACTIVEEFFECT": {
+    "FIELDS": {
+      "statuses": {
+        "label": "États",
+        "hint": "Lorsqu'elle est affectée par cet effet actif, la cible est traitée comme ayant ces états supplémentaires."
+      }
+    }
+  },
+  "DND5E.BONUSES": {
+    "FIELDS": {
+      "bonuses": {
+        "label": "Bonus globaux",
+        "hint": "Les bonus globaux sont des formules qui s'ajoutent à certains jets.",
+        "abilities": {
+          "label": "Bonus globaux de caractéristique",
+          "check": {
+            "label": "Tests de caractéristique"
+          },
+          "save": {
+            "label": "Jets de sauvegarde"
+          },
+          "skill": {
+            "label": "Jets de compétences"
+          }
+        },
+        "msak": {
+          "damage": {
+            "label": "Dégâts de sorts de corps à corps"
+          },
+          "label": "Bonus aux sorts de mêlée",
+          "attack": {
+            "label": "Attaque de sorts de corps à corps"
+          }
+        },
+        "mwak": {
+          "label": "Bonus aux armes de mêlée",
+          "attack": {
+            "label": "Attaque d'armes de corps à corps"
+          },
+          "damage": {
+            "label": "Dégâts d'armes de corps à corps"
+          }
+        },
+        "rsak": {
+          "label": "Bonus aux sorts à distance",
+          "attack": {
+            "label": "Attaque de sorts à distance"
+          },
+          "damage": {
+            "label": "Dégâts de sorts à distance"
+          }
+        },
+        "rwak": {
+          "label": "Bonus aux armes à distance",
+          "attack": {
+            "label": "Attaque d'armes à distance"
+          },
+          "damage": {
+            "label": "Dégâts d'armes à distance"
+          }
+        },
+        "spell": {
+          "label": "Bonus globaux aux sorts",
+          "dc": {
+            "label": "Degrés de difficultés des sorts"
+          }
+        }
+      }
+    }
+  },
+  "DND5E.COMBAT": {
+    "Group": {
+      "ActiveCount": "{current} sur {combatants}",
+      "Title": "Groupe {name}"
+    }
+  },
+  "DND5E.COMBATANT": {
+    "Counted": {
+      "one": "{number} combattant",
+      "other": "{number} combattants"
+    }
+  },
+  "DND5E.CONDITIONS": {
+    "RiderConditions": {
+      "hint": "Lorsque cet effet actif est appliqué, ces états supplémentaires seront appliquées séparément.",
+      "label": "État séparées"
+    }
+  },
+  "DND5E.DisplayCard": "Afficher dans le chat",
+  "KEYBINDINGS.DND5E.DragCopy": "Forcer la copie lors du glissement d'un document",
+  "KEYBINDINGS.DND5E.DragMove": "Forcer le déplacement lors du glissement d'un document"
 }

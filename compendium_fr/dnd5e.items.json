@@ -1,31 +1,5 @@
 {
   "label": "Objets (DRS)",
-  "mapping": {
-    "weight": {
-      "path": "system.weight",
-      "converter": "weight"
-    },
-    "range": {
-      "path": "system.range",
-      "converter": "range"
-    },
-    "sources": {
-      "path": "system.source",
-      "converter": "source"
-    },
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    },
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    }
-  },
   "folders": {
     "Ammunition": "Munition",
     "Armor": "Armure",
@@ -117,7 +91,7 @@
     },
     "Amulet": {
       "name": "Amulette",
-      "description": "Cela peut être une amulette avec un symbole représentant une divinité, ce même symbole gravé ou incrusté tel un emblème sur un bouclier, ou une toute petite boîte renfermant le fragment d'une relique sacrée. Un clerc ou paladin peut utiliser un symbole sacré comme focaliseur magique. Pour utiliser le symbole de cette manière, le lanceur doit le porter visiblement, en main ou sur un bouclier.</p>"
+      "description": "<p>Une amulette marquée du symbole d'une divinité par laquelle un vrai croyant peut faire appel à son pouvoir et, ce faisant, répandre la foi.</p><p><strong>Focaliseur arcanique.</strong> Clercs et paladins peuvent se servir d'un symbole sacré comme focaliseur d'incantation. Pour utiliser le symbole de cette façon, le lanceur doit le tenir dans une main, le porter ostensiblement ou l'arborer sur un bouclier.</p>"
     },
     "Amulet of Health": {
       "name": "Amulette de bonne santé",
@@ -195,7 +169,7 @@
     },
     "Backpack": {
       "name": "Sac à dos",
-      "description": "<p>Un sac à dos peut contenir un 30 cm3 ou 15 kg de matériel. Vous pouvez également attacher des objets, tels qu'un duvet ou une corde enroulée, à l'extérieur du sac à dos.</span></p>"
+      "description": "<p>Un sac à dos peut contenir 0,03 mètre cube ou 15 kg d'équipement. Vous pouvez aussi attacher des objets, comme un sac de couchage ou un rouleau de corde, au sac à dos.</p>"
     },
     "Bag of Beans": {
       "name": "Sac de haricots magiques",
@@ -272,7 +246,7 @@
     },
     "Bedroll": {
       "name": "Sac de couchage",
-      "description": "<p>Utilisé par le voyageur pour dormir.</p>"
+      "description": "<p>Rouleau de tissu utilisé par le voyageur pour dormir.</p>"
     },
     "Bell": {
       "name": "Cloche",
@@ -388,8 +362,8 @@
       "description": "<p>Un livre peut contenir de la poésie, des récits historiques, des informations relatives à un domaine particulier de connaissance, des diagrammes et des notes sur une invention gnome, ou n'importe quoi d'autre qui peut être représenté en utilisant du texte ou des images. Un livre de sorts est un grimoire (voir la description plus loin ci-dessus).</p>"
     },
     "Book of Lore": {
-      "name": "Livre de l'histoire",
-      "description": "<p>Un livre contenant des récits historiques, des informations relatives à un domaine particulier de l'histoire, du mythe ou de la légende.</p>"
+      "name": "Livre de connaissance",
+      "description": "<p>Un livre contenant des récits historiques, des informations relatives à un domaine particulier de la connaissance, du mythe ou de la légende.</p>"
     },
     "Book of Shadows": {
       "name": "Livre des Ombres",
@@ -606,7 +580,7 @@
     },
     "Chain Mail": {
       "name": "Cotte de mailles",
-      "description": "<p>Fait d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé porté sous la cotte pour éviter les frottements et amortir l'impact de coups. L'ensemble comprend des gantelets.</p>"
+      "description": "<p>Composée d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé portée dessous pour éviter les frottements et amortir les coups. Des gantelets complètent l'ensemble.</p>"
     },
     "Chain Mail +1": {
       "name": "Cotte de mailles +1",
@@ -654,7 +628,7 @@
     },
     "Chest": {
       "name": "Coffre",
-      "description": "<p>Un coffre contient 150 kg (~0.5 m3) de matériel.</span></p>"
+      "description": "<p>Un coffre peut contenir 0,36 mètres cubes ou 150 kg d'équipement.</p>"
     },
     "Chime of Opening": {
       "name": "Carillon d'ouverture",
@@ -714,7 +688,7 @@
     },
     "Club": {
       "name": "Gourdin",
-      "description": "<p>Un gros bout de bois de forme un simple, mais efficace, aussi appelée calebasse. Ces armes sont utilisées pour matraquer les ennemis, meurtrir la chair et briser les os.</p>"
+      "description": "<p>Une solide poignée de bois forme un simple, mais efficace, gourdin. Ces armes sont utilisées pour matraquer les ennemis, meurtrir la chair et briser les os.</p>"
     },
     "Club +1": {
       "name": "Gourdin +1",
@@ -733,24 +707,24 @@
       "description": "<p>Ces outils spéciaux comprennent les éléments nécessaires à l'exercice d'un métier ou d'un commerce. La table montre des exemples des types d'outils les plus communs, chacun offrant des objets liés à un seul métier. La maîtrise d'un type d'outil d'artisan vous permet d'ajouter votre bonus de maîtrise à tous les jets de caractéristique que vous faites en utilisant les outils de votre travail. Chaque type d'outil d'artisan nécessite une maîtrise distincte.</p>"
     },
     "Common Clothes": {
-      "name": "Vêtements communs",
-      "description": "<p>Vêtements portés par la plupart des gens.</span></p>"
+      "name": "Habits courants",
+      "description": "<p>Vêtements portés par la plupart des roturiers.</p>"
     },
     "Component Pouch": {
       "name": "Sacoche à composantes",
-      "description": "<p>Une sacoche à composantes est une petite sacoche étanche en cuir qui possède des compartiments pour contenir toutes les composantes matérielles et autres éléments spéciaux dont vous avez besoin pour lancer vos sorts, à l'exception des composantes qui ont un coût spécifique (comme indiqué dans la description des sorts).</span></p>"
+      "description": "<p>Une sacoche à composantes est une petite sacoche en cuir étanche qui se porte à la ceinture, dotée de compartiments accueillant toutes les composantes matérielles et autres objets demandés par l'incantation de vos sorts, en dehors des composantes associées à un coût (ce qui est alors indiqué dans la description du sort).</p>"
     },
     "Cook's Utensils": {
       "name": "Ustensiles de cuisinier",
       "description": "<p>Ces outils spéciaux comprennent les éléments nécessaires à l'exercice d'un métier ou d'un commerce. La table montre des exemples des types d'outils les plus communs, chacun offrant des objets liés à un seul métier. La maîtrise d'un type d'outil d'artisan vous permet d'ajouter votre bonus de maîtrise à tous les jets de caractéristique que vous faites en utilisant les outils de votre travail. Chaque type d'outil d'artisan nécessite une maîtrise distincte.</p>"
     },
     "Costume Clothes": {
-      "name": "Costume (vêtement)",
+      "name": "Costume",
       "description": "<p>Un costume complet généralement utilisé par les artistes et les interprètes dans toutes sortes de salles de spectacle ou pour ceux qui refusent simplement de sortir de leur personnage.</p>"
     },
     "Crossbow Bolt": {
       "name": "Carreaux d'arbalète",
-      "description": "<p>Cette munition, utilisée par les arbalètes, est généralement faite d'une tige en métal avec une pointe acérée.</p>"
+      "description": "<p>Cette munition est utilisée pour toutes les variétés d'arbalètes et se présente généralement sous la forme d'une courte tige métallique avec une pointe perforante étroite.</p>"
     },
     "Crossbow Bolt +1": {
       "name": "Carreau d'arbalète +1",
@@ -770,7 +744,7 @@
     },
     "Crowbar": {
       "name": "Pied-de-biche",
-      "description": "<p>Un pied de biche octroie un avantage aux jets de Force lorsque le levier du pied de biche peut être utilisé.</span></p>"
+      "description": "<p>L'utilisation d'un pied-de-biche octroie l'avantage aux tests de Force pour lesquels l'objet peut servir de levier.</p>"
     },
     "Crystal": {
       "name": "Boule de cristal",
@@ -817,7 +791,7 @@
     },
     "Dagger": {
       "name": "Dague",
-      "description": "<p>Une lame en métal courte montée sur une petite poignée avec une garde. La dague est efficace en arme secondaire pour les combattants agguéris ou pour en arme cachée pour les assassins et les voleurs.</p>"
+      "description": "<p>Une courte lame de métal montée sur une petite poignée et une garde transversale. La dague constitue un armement latéral efficace pour les guerriers endurcis ou une lame cachée pour les assassins et les voleurs.</p>"
     },
     "Dagger +1": {
       "name": "Dague +1",
@@ -857,7 +831,7 @@
     },
     "Dart": {
       "name": "Fléchette",
-      "description": "<p>Un petit outil de lancé fabriqué en bois avec un empennage en plume en forme de croix ainsi qu'une extrémité pointue en bois ou en métal. Avec suffisament de force, une fléchette peut percer la peau.</p>"
+      "description": "<p>Un petit objet lancé fabriqué avec une courte tige en bois et des plumes croisées avec une pointe acérée en bois ou en métal. Les fléchettes peuvent être lancées avec suffisamment de force pour perforer la peau.</p>"
     },
     "Dart +1": {
       "name": "Fléchette +1",
@@ -930,8 +904,8 @@
       "description": "<p>Un sac à dos peut contenir un 30 cm3 ou 15 kg de matériel. Vous pouvez également attacher des objets, tels qu'un duvet ou une corde enroulée, à l'extérieur du sac à dos.</p>"
     },
     "Disguise Kit": {
-      "name": "Kit de déguisement",
-      "description": "<p>Ce kit comprend des produits cosmétiques, de la teinture pour les cheveux et de petits accessoires pour vous permettre de créer des déguisements qui changent votre apparence physique. Si vous maîtrisez le kit de déguisement, vous ajoutez votre bonus de maîtrise à tous les jets de caractéristiques pour créer un déguisement visuel.</p>"
+      "name": "Accessoires de déguisement",
+      "description": "<p>Cette pochette de maquillage, de teintures et d'accessoires vous permet d'altérer votre apparence physique. La maîtrise de ces accessoires vous permet d'ajouter votre bonus de maîtrise à tout test de caractéristique visant à créer un déguisement visuel.</p>"
     },
     "Dragon Scale Mail": {
       "name": "Armure d'écailles de dragon",
@@ -959,7 +933,7 @@
     },
     "Drum": {
       "name": "Tambour",
-      "description": "<p>Cet instrument peut susciter l'admiration, l'émerveillement ou la crainte de votre public. Si vous maîtrisez un instrument de musique particulier, vous ajoutez votre bonus de maîtrise à tous les jets de caractéristique pour jouer de la musique avec cet instrument. Un barde peut utiliser un instrument de musique comme focaliseur magique. Chaque instrument de musique nécessite une maîtrise distincte. Un barde peut utiliser un instrument de musique comme focaliseur pour lancer ses sorts. &nbsp;</p>"
+      "description": "<p>Un tambour, quel qu'il soit, pour évoquer l'admiration, l'émerveillement ou la peur chez votre public.</p><p>Si vous avez la maîtrise d'un instrument de musique, vous pouvez ajouter votre bonus de maîtrise aux tests de caractéristique intervenant pour en jouer. Un barde peut recourir à un instrument de musique comme focaliseur d'incantation. Chaque type d'instrument de musique correspond à une maîtrise distincte.</p>"
     },
     "Dulcimer": {
       "name": "Tympanon",
@@ -1127,8 +1101,8 @@
       "description": "<p><em>Objet merveilleux, rareté selon le type de statuette</em></p>\n<p>A&nbsp;<em>Une figurine merveilleuse</em>&nbsp;est une statuette de bête suffisamment petite pour être placée dans une poche. Si vous utilisez une action pour prononcer le mot de commande et lancez la figurine au sol dans un rayon de 18 mètres autour de vous, celle-ci devient une créature vivante. Si l'espace est déjà occupé par une autre créature ou s'il n'y a pas assez d'espace, la figurine ne prend pas la forme d'une créature.</p>\n<p>La créature est amicale avec vous et vos compagnons. Elle comprend vos langues et obéit à vos ordres audibles. Si vous ne donnez aucun ordre, la créature se défend mais n'effectue aucune autre action. Se reporter au Manuel des Monstres pour les caractéristiques, sauf pour la mouche géante.</p>\n<p>La créature existe pour une durée spécifique à chaque statuette. À la fin de cette durée, la créature reprend la forme de la statuette. Elle reprend la forme de la figurine plus tôt si elle tombe à 0 pv ou si vous utilisez une action pour prononcer le mot de commande tout en la touchant. Quand la créature redevient une statuette, ses propriétés ne peuvent être de nouveau utilisées avant un certain temps, spécifié dans la description de la statuette.</p>\n<p><strong>Corbeau d'argent</strong>. Cette statuette de corbeau en argent peut devenir un @Compendium[dnd5e.monsters.LPdX5YLlwci0NDZx]{Corbeau} pour une durée maximale de 12 heures. Une fois utilisée, elle ne peut plus l'être avant 2 jours. Dans sa forme animale, la statuette vous permet de lancer sur elle le sort @Compendium[dnd5e.spells.X8w9EzYLGc4vQ1H2]{Messager animal} à volonté.</p>"
     },
     "Fine Clothes": {
-      "name": "Vêtements ostentatoires",
-      "description": "<p>Ensemble de vêtements conçus spécialement pour être chers et le montrer.</span></p>"
+      "name": "Vêtements de qualité",
+      "description": "<p>Ensemble de vêtements conçus spécialement pour être chers et le montrer.</p>"
     },
     "Fishing Tackle": {
       "name": "Matériel de pêche",
@@ -1210,7 +1184,7 @@
     },
     "Flute": {
       "name": "Flûte",
-      "description": "<p>Cet instrument peut susciter l'admiration, l'émerveillement ou la crainte de votre public. Si vous maîtrisez un instrument de musique particulier, vous ajoutez votre bonus de maîtrise à tous les jets de caractéristique pour jouer de la musique avec cet instrument. Un barde peut utiliser un instrument de musique comme focaliseur magique. Chaque instrument de musique nécessite une maîtrise distincte. Un barde peut utiliser un instrument de musique comme focaliseur pour lancer ses sorts. &nbsp;</p>"
+      "description": "<p>Une flûte pour évoquer l'admiration, l'émerveillement ou la peur chez votre public.</p><p>Si vous avez la maîtrise d'un instrument de musique, vous pouvez ajouter votre bonus de maîtrise aux tests de caractéristique intervenant pour en jouer. Un barde peut recourir à un instrument de musique comme focaliseur d'incantation. Chaque type d'instrument de musique correspond à une maîtrise distincte.</p>"
     },
     "Folding Boat": {
       "name": "Bateau pliable",
@@ -1350,7 +1324,7 @@
     },
     "Greataxe": {
       "name": "Hache à deux mains",
-      "description": "Cette énorme hache comporte deux lames en double croissant montées de chaque côté d'un grand arbre à pointes. Conçue pour être maniée à deux mains et pour fendre les ennemis en deux"
+      "description": "<p>Cette énorme hache comporte deux lames jumelles en forme de croissant montées de part et d'autre d'un grand manche à pointes. Elle est conçue pour être maniée à deux mains et couper les ennemis en deux.</p>"
     },
     "Greataxe +1": {
       "name": "Hache à deux mains +1",
@@ -1402,9 +1376,6 @@
       "activities": {
         "attack": {
           "condition": "Doit obtenir un 20 et la cible ne peut pas être un mort-vivant."
-        },
-        "utility": {
-          "condition": "Doit obtenir un 20 et la cible ne peut pas être un mort-vivant."
         }
       }
     },
@@ -1413,9 +1384,6 @@
       "description": "<p>Lorsque vous attaquez un objet avec cette épée magique et le touchez, les dés de dégâts de votre arme sont maximisés contre cette cible.\n<br>Lorsque vous attaquez une créature avec cette épée et obtenez un 20 naturel à votre jet d'attaque, la cible subit 14 dégâts tranchants supplémentaires. Puis lancez un autre d20. Si vous obtenez de nouveau un 20 naturel, vous amputez la cible de l'un de ses membres, l'effet d'une telle perte est déterminé par le MD. Si la créature ne possède aucun membre à sectionner, vous tranchez une portion de son corps à la place.\n<br>De plus, vous pouvez prononcer le mot de commande de la lame pour qu'elle émette une lumière vive dans un rayon de 3 mètres et une lumière faible dans un rayon supplémentaire de 3 mètres. Répétez le mot de commande ou rengainez l'épée pour éteindre la lumière.</p>",
       "activities": {
         "attack": {
-          "condition": "Mot de commande."
-        },
-        "utility": {
           "condition": "Mot de commande."
         }
       }
@@ -1462,7 +1430,7 @@
     },
     "Hammer": {
       "name": "Marteau",
-      "description": "<p>Un outil avec une tête métallique lourde montée à angle droit au bout d'un manche, utilisé pour casser des objets et enfoncer des clous.</p>"
+      "description": "<p>Un outil avec une lourde tête métallique montée à angle droit à l'extrémité d'un manche, utilisé pour des travaux tels que casser des objets et enfoncer des clous.</p>"
     },
     "Hammer of Thunderbolts": {
       "name": "Marteau de tonnerre",
@@ -1505,7 +1473,7 @@
     },
     "Handaxe": {
       "name": "Hachette",
-      "description": "<p>Cette hache à une main est légère et équilibrée pour le lancer tout en restant utile dans le combat au contact.</p>"
+      "description": "<p>Cette hache à une main est légère et équilibrée pour le lancer tout en restant utile en combat rapproché.</p>"
     },
     "Handaxe +1": {
       "name": "Hachette +1",
@@ -1592,7 +1560,7 @@
     },
     "Hempen Rope (50 ft.)": {
       "name": "Corde en chanvre (15 m)",
-      "description": "<p>Une corde, qu'elle soit faite de chanvre ou de soie, possède 2 pv et peut être cassée avec un jet de Force DD 17.</span></p>",
+      "description": "<p>Toute corde, qu'elle soit en chanvre ou en soie, est dotée de 2 points de vie et se rompt sur un test de Force DD 17.</p>",
       "activities": {
         "Burst": {
           "name": "Rupture"
@@ -1600,8 +1568,8 @@
       }
     },
     "Herbalism Kit": {
-      "name": "Kit d'herboriste",
-      "description": "<p>Ce kit contient une variété d'instruments, tels des pinces, un pilon, des sachets et des flacons que les herboristes utilisent pour créer des remèdes et des potions. Si vous maîtrisez le kit d'herboriste, vous ajoutez votre bonus de maîtrise à tous les jets de caractéristique pour identifier des herbes ou concocter des mélanges et des infusions. Maîtriser le kit d'herboriste est indispensable pour créer des potions de soins et des antidotes.</p>"
+      "name": "Matériel d'herboriste",
+      "description": "<p>Ce matériel regroupe un ensemble d'outils : sécateurs, mortier et pilon, bourses et flacons utilisés par les herboristes pour créer leurs remèdes et potions. La maîtrise de ce matériel vous permet d'ajouter votre bonus de maîtrise à tout test de caractéristique visant à identifier et utiliser des plantes. En outre, la maîtrise de ce matériel est requise pour préparer antidotes et potions de guérison.</p>"
     },
     "Hide Armor": {
       "name": "Armure de peaux",
@@ -1649,7 +1617,7 @@
     },
     "Horn": {
       "name": "Cor",
-      "description": "<p>Cet instrument peut susciter l'admiration, l'émerveillement ou la crainte de votre public. Si vous maîtrisez un instrument de musique particulier, vous ajoutez votre bonus de maîtrise à tous les jets de caractéristique pour jouer de la musique avec cet instrument. Un barde peut utiliser un instrument de musique comme focaliseur magique. Chaque instrument de musique nécessite une maîtrise distincte. Un barde peut utiliser un instrument de musique comme focaliseur pour lancer ses sorts. &nbsp;</p>"
+      "description": "<p>Un cor, quel qu'il soit, pour évoquer l'admiration, l'émerveillement ou la peur chez votre public.</p><p>Si vous avez la maîtrise d'un instrument de musique, vous pouvez ajouter votre bonus de maîtrise aux tests de caractéristique intervenant pour en jouer. Un barde peut recourir à un instrument de musique comme focaliseur d'incantation. Chaque type d'instrument de musique correspond à une maîtrise distincte.</p>"
     },
     "Horn of Blasting": {
       "name": "Cor de dévastation",
@@ -1684,12 +1652,12 @@
       "description": "<p>Ce sceptre plat en fer possède un bouton à une extrémité. Vous pouvez utiliser une action pour appuyer sur le bouton, ce qui fixe magiquement le sceptre sur place. Jusqu'à ce que vous ou une autre créature n'utilisiez une action pour appuyer de nouveau le bouton, le sceptre ne bouge pas, même si cela défie la gravité. Le sceptre peut retenir jusqu'à 4000 kilos. Plus de poids désactive le sceptre et le fait tomber. Une créature peut utiliser une action pour réaliser un jet de Force DD 30, lui permettant de déplacer le sceptre de 3 mètres en cas de réussite.</p>"
     },
     "Ink Bottle": {
-      "name": "Encre (bouteille de 30 ml)",
-      "description": "<p>Une petite bouteille d'encre pour écrire sur le parchemin.</p>"
+      "name": "Encre (bouteille de 30 cl)",
+      "description": "<p>Une petite bouteille d'encre pour écrire sur un parchemin.</p>"
     },
     "Ink Pen": {
-      "name": "Plume d’écriture",
-      "description": "<p>Utilisé en combinaison avec l'encre pour écrire ou dessiner sur une feuille de papier</p>"
+      "name": "Porte-plume",
+      "description": "<p>Dispositif utilisé avec de l'encre pour écrire ou dessiner sur une feuille de papier.</p>"
     },
     "Instant Fortress": {
       "name": "Forteresse instantanée",
@@ -1823,7 +1791,7 @@
     },
     "Javelin": {
       "name": "Javeline",
-      "description": "<p>Cette lance légère et flexible est conçue pour être lancée, mais elle est aussi suffisamment polyvalente pour être utilisée en combat en mêlée.</p>"
+      "description": "<p>Cette lance légère et flexible est conçue pour être lancée, mais elle est suffisamment polyvalente pour être utilisée en combat au corps à corps.</p>"
     },
     "Javelin +1": {
       "name": "Javeline +1",
@@ -1846,9 +1814,6 @@
         },
         "save": {
           "condition": "Mot de commande."
-        },
-        "utility": {
-          "condition": "Mot de commande."
         }
       }
     },
@@ -1866,7 +1831,7 @@
     },
     "Lamp": {
       "name": "Lampe",
-      "description": "<p>Une lampe projette une lumière vive dans un rayon de 4,50 mètres et une lumière faible sur 9 mètres supplémentaires. Une fois allumée, elle brûle pendant 6 heures tout en consommant une flasque d'huile (50 cl).</span></p>"
+      "description": "<p>Une lampe produit une lumière vive sur un rayon de 4,50 m et une lumière faible sur 9 m de plus. Une fois allumée, elle brûle pendant 6 heures en consommant une flasque d'huile (50 cl).</p>"
     },
     "Lance": {
       "name": "Lance d'arçon",
@@ -1890,7 +1855,7 @@
     },
     "Leather Armor": {
       "name": "Armure de cuir",
-      "description": "<p>La cuirasse et les protecteurs d'épaules de cette armure sont faits de cuir qui a été durci en étant bouilli dans de l'huile. Le reste de l'armure est fait de matériaux plus tendres et plus souples.</p>"
+      "description": "<p>La cuirasse et les spalières de cette armure sont en cuir durci par le procédé classique qui consiste à le faire bouillir dans l'huile. Le reste de l'armure est en matériaux plus souples et plus flexibles.</p>"
     },
     "Leather Armor +1": {
       "name": "Armure de cuir +1",
@@ -1914,7 +1879,7 @@
     },
     "Light Crossbow": {
       "name": "Arbalète légère",
-      "description": "<p>Une petite arbalète avec un manche en bois et une corde tendue qui est capable de tirer un seul coup qui peut perforer même les armures lourdes à bout portant.</p>"
+      "description": "<p>Une petite arbalète avec un manche en bois et une corde tendue, capable de tirer un seul carreau qui peut perforer même une armure lourde à courte distance.</p>"
     },
     "Light Crossbow +1": {
       "name": "Arbalète légère +1",
@@ -1966,7 +1931,7 @@
     },
     "Longsword": {
       "name": "Épée longue",
-      "description": "<p>L'épée longue est une arme très polyvalente qui peut également être maniée à deux mains pour des coups plus punitifs.</p>"
+      "description": "<p>Longue lame droite conçue pour trancher les ennemis, l'épée longue est une arme très polyvalente qui peut également être maniée à deux mains pour des frappes plus percutantes.</p>"
     },
     "Longsword +1": {
       "name": "Épée longue +1",
@@ -1986,9 +1951,6 @@
       "activities": {
         "attack": {
           "condition": "Doit obtenir un 20 et la cible ne peut pas être un mort-vivant."
-        },
-        "utility": {
-          "condition": "Doit obtenir un 20 et la cible ne peut pas être un mort-vivant."
         }
       }
     },
@@ -1997,9 +1959,6 @@
       "description": "<p>Lorsque vous attaquez un objet avec cette épée magique et le touchez, les dés de dégâts de votre arme sont maximisés contre cette cible.\n<br>Lorsque vous attaquez une créature avec cette épée et obtenez un 20 naturel à votre jet d'attaque, la cible subit 14 dégâts tranchants supplémentaires. Puis lancez un autre d20. Si vous obtenez de nouveau un 20 naturel, vous amputez la cible de l'un de ses membres, l'effet d'une telle perte est déterminé par le MD. Si la créature ne possède aucun membre à sectionner, vous tranchez une portion de son corps à la place.\n<br>De plus, vous pouvez prononcer le mot de commande de la lame pour qu'elle émette une lumière vive dans un rayon de 3 mètres et une lumière faible dans un rayon supplémentaire de 3 mètres. Répétez le mot de commande ou rengainez l'épée pour éteindre la lumière.</p>",
       "activities": {
         "attack": {
-          "condition": "Mot de commande."
-        },
-        "utility": {
           "condition": "Mot de commande."
         }
       }
@@ -2030,7 +1989,7 @@
     },
     "Lute": {
       "name": "Luth",
-      "description": "<p>Cet instrument peut susciter l'admiration, l'émerveillement ou la crainte de votre public. Si vous maîtrisez un instrument de musique particulier, vous ajoutez votre bonus de maîtrise à tous les jets de caractéristique pour jouer de la musique avec cet instrument. Un barde peut utiliser un instrument de musique comme focaliseur magique. Chaque instrument de musique nécessite une maîtrise distincte. Un barde peut utiliser un instrument de musique comme focaliseur pour lancer ses sorts. &nbsp;</p>"
+      "description": "<p>Un luth pour évoquer l'admiration, l'émerveillement ou la peur chez votre public.</p><p>Si vous avez la maîtrise d'un instrument de musique, vous pouvez ajouter votre bonus de maîtrise aux tests de caractéristique intervenant pour en jouer. Un barde peut recourir à un instrument de musique comme focaliseur d'incantation. Chaque type d'instrument de musique correspond à une maîtrise distincte.</p>"
     },
     "Lyre": {
       "name": "Lyre",
@@ -2038,7 +1997,7 @@
     },
     "Mace": {
       "name": "Masse d'armes",
-      "description": "<p>Une lourde boule de métal montée au bout d'une massue également de métal. La tête est munie de pointes et de lames conçues pour perforer l'armure et briser les os situés en dessous.</p>"
+      "description": "<p>Une arme contondante lourde montée à l'extrémité d'une massue en métal. La tête est munie de pointes et de lames conçues pour perforer les armures et briser les os en dessous.</p>"
     },
     "Mace +1": {
       "name": "Masse d'armes +1",
@@ -2120,8 +2079,8 @@
       "description": "<p>Cet étui en cuir cylindrique peut contenir jusqu'à dix feuilles de papier enroulées ou cinq feuilles de parchemin enroulées.</p>"
     },
     "Map or Scroll Case": {
-      "name": "Étui à cartes ou parchemins",
-      "description": "<p>Cet étui en cuir cylindrique peut contenir jusqu'à dix feuilles de papier enroulées ou cinq feuilles de parchemin enroulées.</span></p>"
+      "name": "Étui à cartes ou à parchemins",
+      "description": "<p>Cet étui cylindrique en cuir peut contenir jusqu'à dix feuilles de papier roulées ou cinq parchemins roulés.</p>"
     },
     "Marvelous Pigments": {
       "name": "Pigments merveilleux",
@@ -2157,7 +2116,7 @@
     },
     "Mess Kit": {
       "name": "Gamelle",
-      "description": "<p>Cette boîte en étain contient une tasse et des couverts. Faite de deux parties qui s'assemblent, un côté de la boîte peut être utilisé pour cuire des aliments et l'autre comme une assiette ou une petite cuvette.</p>"
+      "description": "<p>Cette boîte en fer-blanc renferme un bol et des couverts rudimentaires. Elle est constituée de deux parties qui s'imbriquent, l'une pouvant servir de casserole tandis que l'autre sera utilisée comme assiette creuse.</p>"
     },
     "Military Saddle": {
       "name": "Selle militaire",
@@ -2225,7 +2184,7 @@
       "description": "<p><em>Par le biais d'un enchantement démoniaque, d'un leg céleste, d'une expérience folle, ou d'une facrication exceptionnelle, cette arme a été enchanté pour que son porteur fasse couler plus de sang.</em></p>\n<p>Vous bénéficiez d'un bonus de +3 aux jets d'attaque et de dégâts effectués avec cette arme magique.</p>"
     },
     "Navigator's Tools": {
-      "name": "Outils de navigateur",
+      "name": "Instruments de navigateur",
       "description": "<p>Ces outils sont utilisés pour la navigation en mer. La maîtrise des outils de navigateur vous permet de tracer le parcours d'un navire et de suivre des cartes de navigation. En outre, ces outils vous permettent d'ajouter votre bonus de maîtrise à tous les jets de caractéristique pour éviter de se perdre en mer.</p>"
     },
     "Necklace of Adaptation": {
@@ -2285,9 +2244,6 @@
       "activities": {
         "attack": {
           "condition": "Coup critique sur une créature de 100 points de vie ou moins. Les artificiels et les morts-vivants sont immunisé."
-        },
-        "save": {
-          "condition": "Coup critique sur une créature de 100 points de vie ou moins. Les artificiels et les morts-vivants sont immunisé."
         }
       }
     },
@@ -2296,9 +2252,6 @@
       "description": "<p>Vous gagnez un bonus de +2 aux jets d'attaque et de dégâts effectués avec cette arme magique.\n<br>L'épée possède 1d8 + 1 charges. Quand vous obtenez un coup critique contre une créature à qui il reste moins de 100 points de vies, celle-ci doit réussir un jet de sauvegarde de Constitution DD 15 ou être tuée instantanément, sa force vitale étant arrachée de son corps (les morts-vivants et les créatures artificielles sont immunisés). L'épée perd 1 charge si la créature est tuée. Elle perd cette propriété une fois toutes les charges épuisées.</p>",
       "activities": {
         "attack": {
-          "condition": "Coup critique sur une créature de 100 points de vie ou moins. Les artificiels et les morts-vivants sont immunisé."
-        },
-        "save": {
           "condition": "Coup critique sur une créature de 100 points de vie ou moins. Les artificiels et les morts-vivants sont immunisé."
         }
       }
@@ -2309,9 +2262,6 @@
       "activities": {
         "attack": {
           "condition": "Coup critique sur une créature de 100 points de vie ou moins. Les artificiels et les morts-vivants sont immunisé."
-        },
-        "save": {
-          "condition": "Coup critique sur une créature de 100 points de vie ou moins. Les artificiels et les morts-vivants sont immunisé."
         }
       }
     },
@@ -2320,9 +2270,6 @@
       "description": "<p>Vous gagnez un bonus de +2 aux jets d'attaque et de dégâts effectués avec cette arme magique.\n<br>L'épée possède 1d8 + 1 charges. Quand vous obtenez un coup critique contre une créature à qui il reste moins de 100 points de vies, celle-ci doit réussir un jet de sauvegarde de Constitution DD 15 ou être tuée instantanément, sa force vitale étant arrachée de son corps (les morts-vivants et les créatures artificielles sont immunisés). L'épée perd 1 charge si la créature est tuée. Elle perd cette propriété une fois toutes les charges épuisées.</p>",
       "activities": {
         "attack": {
-          "condition": "Coup critique sur une créature de 100 points de vie ou moins. Les artificiels et les morts-vivants sont immunisé."
-        },
-        "save": {
           "condition": "Coup critique sur une créature de 100 points de vie ou moins. Les artificiels et les morts-vivants sont immunisé."
         }
       }
@@ -2333,9 +2280,6 @@
       "activities": {
         "attack": {
           "condition": "Coup critique sur une créature de 100 points de vie ou moins. Les artificiels et les morts-vivants sont immunisé."
-        },
-        "save": {
-          "condition": "Coup critique sur une créature de 100 points de vie ou moins. Les artificiels et les morts-vivants sont immunisé."
         }
       }
     },
@@ -2345,15 +2289,12 @@
       "activities": {
         "attack": {
           "condition": "Phrase de commande."
-        },
-        "utility": {
-          "condition": "Phrase de commande."
         }
       }
     },
     "Oil Flask": {
       "name": "Huile (flasque)",
-      "description": "<p> L'huile vient habituellement dans une flasque d'argile de 50 cl. Au prix d'une action, vous pouvez lancer le contenu de cette flasque sur une créature à 1,50 mètre ou moins de vous, ou jeter la flasque jusqu'à 6 mètres, la brisant à l'impact. Dans les deux cas, faire une attaque à distance contre une créature ou un objet, en considérant l'huile comme une arme improvisée. En cas de succès, la cible est couverte d'huile. Si la cible reçoit des dégâts de feu avant que l'huile ne sèche (après 1 minute), la cible prend 5 points de dégâts de feu supplémentaire dus à l'huile brûlante. Vous pouvez aussi verser une flasque d'huile sur le sol pour couvrir une zone de 1,50 m x 1,50 m, à condition que la surface soit plane. Une fois allumée, l'huile brûle pendant 2 rounds et inflige 5 points de dégâts de feu à toute créature qui pénètre dans la zone ou qui y termine son tour. Une créature ne peut prendre ces dégâts qu'une fois par tour.</p>"
+      "description": "<p>L'huile se présente généralement dans une flasque d'argile de 50 cl. Au prix d'une action, vous pouvez asperger d'huile une créature située à 1,50 m ou moins de vous du contenu de cette flasque ou la lancer à une distance maximale de 6 m, auquel cas elle se brise à l'impact. Dans un cas comme dans l'autre, effectuez une attaque à distance contre la créature ou l'objet ciblé, l'huile étant considérée comme une arme improvisée. Si l'attaque touche, la cible est recouverte d'huile. Si elle subit des dégâts de feu avant que l'huile ait séché (ce qui demande 1 minute), la cible subit 5 dégâts de feu supplémentaires, provoqués par l'embrasement de l'huile. Vous pouvez également verser le contenu de la flasque sur une zone horizontale carrée de 1,50 m de côté. Si vous embrasez la zone, l'huile brûle pendant 2 rounds et inflige 5 dégâts de feu à toute créature qui pénètre dans la zone ou y termine son tour. Une même créature ne peut subir ces dégâts qu'une fois par tour.</p>"
     },
     "Oil of Etherealness": {
       "name": "Huile éthérée",
@@ -2374,7 +2315,7 @@
     },
     "Orb": {
       "name": "Orbe",
-      "description": "<p>Focaliseur arcanique. Un focaliseur arcanique est un objet spécial (orbe, boule de cristal, baguette, bâton, sceptre) conçu pour canaliser la puissance de sorts de la magie des arcanes. Un ensorceleur, un sorcier ou un magicien peut utiliser ce type d'objet comme focaliseur pour ses sorts.</p>"
+      "description": "<p>Ce talisman sphérique sert de focaliseur arcanique, aidant le pratiquant à canaliser les énergies arcaniques, primitives ou divines.</p><p><strong>Focaliseur arcanique.</strong> Un focaliseur arcanique est un objet spécial conçu pour canaliser les énergies des sorts arcaniques. Un personnage ensorceleur, magicien ou occultiste peut se servir d'un tel objet comme focaliseur d'incantation, à la place de n'importe quelle composante matérielle dont le coût n'est pas indiqué.</p>"
     },
     "Orb of Dragonkind": {
       "name": "Orbe des dragons",
@@ -2413,12 +2354,12 @@
       "description": "<p>Cet instrument peut susciter l'admiration, l'émerveillement ou la crainte de votre public. Si vous maîtrisez un instrument de musique particulier, vous ajoutez votre bonus de maîtrise à tous les jets de caractéristique pour jouer de la musique avec cet instrument. Un barde peut utiliser un instrument de musique comme focaliseur magique. Chaque instrument de musique nécessite une maîtrise distincte. Un barde peut utiliser un instrument de musique comme focaliseur pour lancer ses sorts. &nbsp;</p>"
     },
     "Paper": {
-      "name": "Papier (une feuille)",
+      "name": "Papier",
       "description": "<p>Une simple feuille de papier.</p>"
     },
     "Parchment": {
-      "name": "Parchemin (une feuille)",
-      "description": "<p>Une simple feuille de parchemin.</p>"
+      "name": "Parchemin",
+      "description": "<p>Une seule feuille de papier parchemin plus épais.</p>"
     },
     "Pearl of Power": {
       "name": "Perle de thaumaturgie",
@@ -2430,8 +2371,8 @@
       }
     },
     "Perfume": {
-      "name": "Parfum (fiole)",
-      "description": "<p>Un flacon de parfum.</p>"
+      "name": "Parfum",
+      "description": "<p>Un flacon de parfum aromatique.</p>"
     },
     "Periapt of Health": {
       "name": "Amulette de santé",
@@ -2492,7 +2433,7 @@
     },
     "Piton": {
       "name": "Piton",
-      "description": "<p>pour faciliter l'escalade ou autre utilisation.</p>"
+      "description": "<p>Une pointe métallique qui est enfoncée dans une fente d'une surface d'escalade à l'aide d'un marteau d'escalade. Il peut également être utilisé comme les pointes de fer pour bloquer les portes en cas de besoin.</p>"
     },
     "Plate Armor": {
       "name": "Harnois",
@@ -2686,11 +2627,11 @@
     },
     "Pouch": {
       "name": "Sacoche",
-      "description": "<p>Une sacoche en tissu ou en cuir peut contenir jusqu'à 20 billes de fronde ou 50 aiguilles de sarbacane, entre autres choses. Une sacoche compartimentée pour abriter des composantes de sorts est appelée une sacoche à composantes (voir la description ci-dessous).</span></p>"
+      "description": "<p>Une sacoche en tissu ou en cuir peut contenir jusqu'à 20 billes de fronde ou 50 dards de sarbacane, entre autres. La sacoche compartimentée permettant de contenir des composantes de sort, et logiquement appelée sacoche à composantes. Une sacoche peut contenir jusqu'à 0,006 mètre cube ou 3 kg d'équipement.</p>"
     },
     "Prayer Book": {
       "name": "Livre de prières",
-      "description": "<p>Un livre contenant des prières et des incantations dédiées à un pouvoir spécifique que les fidèles doivent suivre.</p>"
+      "description": "<p>Un livre contenant des prières et des incantations dédiées à un pouvoir spécifique que les croyants doivent suivre.</p>"
     },
     "Prayer Wheel": {
       "name": "Moulin à prière",
@@ -2701,7 +2642,7 @@
       "description": "<p>Un sac à dos peut contenir un 30 cm3 ou 15 kg de matériel. Vous pouvez également attacher des objets, tels qu'un duvet ou une corde enroulée, à l'extérieur du sac à dos.</p>"
     },
     "Quarterstaff": {
-      "name": "Bâton",
+      "name": "Bâton de combat",
       "description": "<p>Un épais manche en bois enveloppé d'une solide poignée fait une arme très fonctionnelle en plus d'un solide bâton de marche.</p>"
     },
     "Quarterstaff +1": {
@@ -2718,11 +2659,11 @@
     },
     "Quiver": {
       "name": "Carquois",
-      "description": "<p>Un carquois peut contenir jusqu'à 20 flèches.</span></p>"
+      "description": "<p>Un carquois peut contenir jusqu'à 20 flèches.</p>"
     },
     "Rapier": {
       "name": "Rapière",
-      "description": "<p>Une lame métallique mince et résistante, légère mais de longue portée, conçue pour des attaques rapides afin de cibler les points faibles des défenses ennemies avec une rapidité fulgurante.</p>"
+      "description": "<p>Une lame de métal fine et résistante, légère mais longue, conçue pour des attaques rapides et fulgurantes visant les points faibles des défenses ennemies.</p>"
     },
     "Rapier +1": {
       "name": "Rapière +1",
@@ -2742,9 +2683,6 @@
       "activities": {
         "attack": {
           "condition": "Doit obtenir un 20 et la cible ne peut pas être un mort-vivant."
-        },
-        "utility": {
-          "condition": "Doit obtenir un 20 et la cible ne peut pas être un mort-vivant."
         }
       }
     },
@@ -2753,12 +2691,12 @@
       "description": "<p>Les points de vie perdus à cause de dégâts infligés par cette arme ne peuvent être récupérés que par le biais d'un repos court ou long, mais pas à l'aide de capacités de régénération, de pouvoirs magiques, de sorts, ou de tout autre moyen.\n<br>Une fois par tour, lorsque vous touchez une créature avec une attaque utilisant cette arme magique, vous pouvez blesser profondément la cible. Au début de chacun des tours de la créature blessée, celle-ci subit 1d4 dégâts nécrotiques pour chaque blessure profonde que vous lui avez infligée, et elle peut ensuite effectuer un jet de sauvegarde de Constitution DD 15, mettant un terme à l'effet de toutes les blessures profondes que vous lui avez infligées en cas de réussite. Sinon, la créature blessée profondément, ou une créature se trouvant à 1,50 mètre d'elle, peut utiliser son action pour effectuer un jet de Sagesse (Médecine) DD 15, mettant un terme à l'effet des blessures profondes qui l'affectent en cas de réussite.</p>"
     },
     "Rations": {
-      "name": "Rations (1 jour)",
-      "description": "<p>Aliments compacts et secs appropriés pour un voyage prolongé, les rations incluent du bœuf séché, des fruits secs, des biscuits et des noix.</span></p>"
+      "name": "Rations",
+      "description": "<p>Les rations consistent en des vivres adaptés aux longs voyages, notamment de la viande séchée, des biscuits, noix, noisettes et autres fruits secs.</p>"
     },
     "Reliquary": {
       "name": "Reliquaire",
-      "description": "Une petite boîte ou un autre récipient contenant un fragment d'une précieuse relique, d'un saint ou d'un autre personnage historique qui ont consacré leur vie à suivre le chemin d'un vrai croyant. Une divinité confère au porteur de cet artefact la capacité d'invoquer son pouvoir et, ce faisant, de répandre la foi une fois de plus.Un symbole sacré est une représentation d'un dieu ou d'un panthéon. Cela peut être une amulette avec un symbole représentant une divinité, ce même symbole gravé ou incrusté tel un emblème sur un bouclier, ou une toute petite boîte renfermant le fragment d'une relique sacrée. Un clerc ou paladin peut utiliser un symbole sacré comme focaliseur magique. Pour utiliser le symbole de cette manière, le lanceur doit le porter visiblement, en main ou sur un bouclier.</p>"
+      "description": "<p>Une petite boîte ou un autre récipient contenant un fragment d'une précieuse relique, d'un saint ou d'une autre figure historique qui a consacré sa vie à suivre le chemin d'un vrai croyant. Une divinité confère au porteur de cet artefact la capacité de faire appel à son pouvoir et, ce faisant, de répandre la foi une fois de plus.</p><p><strong>Focaliseur arcanique.</strong> Clercs et paladins peuvent se servir d'un symbole sacré comme focaliseur d'incantation. Pour utiliser le symbole de cette façon, le lanceur doit le tenir dans une main, le porter ostensiblement ou l'arborer sur un bouclier.</p>"
     },
     "Restorative Ointment": {
       "name": "Baume revigorant",
@@ -3070,8 +3008,8 @@
       }
     },
     "Robes": {
-      "name": "Robes",
-      "description": "<p>Simple ou cérémoniel, souvent utilisé par les prêtres et autres figures religieuses.</p>"
+      "name": "Habit de cérémonie",
+      "description": "<p>Vêtements simples ou de cérémonie, souvent utilisés par les prêtres et autres personnalités religieuses.</p>"
     },
     "Rod": {
       "name": "Sceptre",
@@ -3141,7 +3079,7 @@
     },
     "Scale Mail": {
       "name": "Armure d'écailles",
-      "description": "<p>Cette armure se compose d'une veste et de jambières (et parfois d’une jupe séparée) de cuir recouvert de pièces de métal qui se chevauchent, un peu comme les écailles d'un poisson. L'ensemble comprend également des gantelets.</p>"
+      "description": "<p>Cette armure se compose d'un plastron et de jambières (et parfois d'une jupe séparée) de cuir recouverts de plaques de métal qui se chevauchent, à la manière des écailles d'un poisson. Des gantelets complètent l'ensemble.</p>"
     },
     "Scale Mail +1": {
       "name": "Armure d'écailles +1",
@@ -3194,9 +3132,6 @@
       "activities": {
         "attack": {
           "condition": "Doit obtenir un 20 et la cible ne peut pas être un mort-vivant."
-        },
-        "utility": {
-          "condition": "Doit obtenir un 20 et la cible ne peut pas être un mort-vivant."
         }
       }
     },
@@ -3205,9 +3140,6 @@
       "description": "<p>Lorsque vous attaquez un objet avec cette épée magique et le touchez, les dés de dégâts de votre arme sont maximisés contre cette cible.\n<br>Lorsque vous attaquez une créature avec cette épée et obtenez un 20 naturel à votre jet d'attaque, la cible subit 14 dégâts tranchants supplémentaires. Puis lancez un autre d20. Si vous obtenez de nouveau un 20 naturel, vous amputez la cible de l'un de ses membres, l'effet d'une telle perte est déterminé par le MD. Si la créature ne possède aucun membre à sectionner, vous tranchez une portion de son corps à la place.\n<br>De plus, vous pouvez prononcer le mot de commande de la lame pour qu'elle émette une lumière vive dans un rayon de 3 mètres et une lumière faible dans un rayon supplémentaire de 3 mètres. Répétez le mot de commande ou rengainez l'épée pour éteindre la lumière.</p>",
       "activities": {
         "attack": {
-          "condition": "Mot de commande."
-        },
-        "utility": {
           "condition": "Mot de commande."
         }
       }
@@ -3222,7 +3154,7 @@
     },
     "Scroll Case": {
       "name": "Étui à parchemins",
-      "description": "<p>Cet étui en cuir cylindrique peut contenir jusqu'à dix feuilles de papier enroulées ou cinq feuilles de parchemin enroulées.</p>"
+      "description": "<p>Cet étui cylindrique en cuir peut contenir jusqu'à dix feuilles de papier roulées ou cinq parchemins roulés.</p>"
     },
     "Sealing Wax": {
       "name": "Cire à cacheter",
@@ -3234,7 +3166,7 @@
     },
     "Shield": {
       "name": "Bouclier",
-      "description": "<p>Un bouclier est fait de bois ou de métal et est porté dans une main. Le fait de porter un bouclier augmente votre classe d'armure de 2. Vous ne pouvez bénéficier que d'un seul bouclier à la fois.</p>"
+      "description": "<p>Un bouclier est fait de bois ou de métal, et se porte d'une main. Le port d'un bouclier augmente votre classe d'armure de 2. Vous ne pouvez bénéficier que d'un bouclier à la fois.</p>"
     },
     "Shield +1": {
       "name": "Bouclier +1",
@@ -3254,7 +3186,7 @@
     },
     "Shortbow": {
       "name": "Arc court",
-      "description": "<p>Cet arc à deux mains est un peu plus petit que la variante traditionnelle de l'arc long, ce qui le rend bien adapté aux attaques rapides en mouvement ou à cheval.</p>"
+      "description": "<p>Cet arc à deux mains est un peu plus petit que l'arc long traditionnel, ce qui le rend idéal pour les attaques rapides en mouvement ou à cheval.</p>"
     },
     "Shortbow +1": {
       "name": "Arc court +1",
@@ -3270,7 +3202,7 @@
     },
     "Shortsword": {
       "name": "Épée courte",
-      "description": "<p> lame de taille moyenne avec une garde croisée ferme et un manche gainé de cuir. Une arme qui compense en polyvalence ce qui lui manque en termes de portée.</p>"
+      "description": "<p>Une lame de taille moyenne avec une garde transversale ferme et une poignée enveloppée de cuir. Une arme polyvalente qui compense son manque de portée par sa polyvalence.</p>"
     },
     "Shortsword +1": {
       "name": "Épée courte +1",
@@ -3289,9 +3221,6 @@
       "description": "<p>Lorsque vous attaquez une créature avec cette arme magique et obtenez un 20 au jet d'attaque, la cible subit 10 dégâts nécrotiques supplémentaires, à condition qu'elle ne soit pas une créature artificielle ou un mort-vivant. Vous gagnez un nombre de points de vie temporaires égal aux dégâts supplémentaires infligés.</p>",
       "activities": {
         "attack": {
-          "condition": "Doit obtenir un 20 et la cible ne peut pas être un mort-vivant."
-        },
-        "utility": {
           "condition": "Doit obtenir un 20 et la cible ne peut pas être un mort-vivant."
         }
       }
@@ -3392,11 +3321,11 @@
     },
     "Small Knife": {
       "name": "Petit couteau",
-      "description": "<p>Un couteau émoussé utilisé par l'érudit pour ouvrir les lettres et la correspondance.</p>"
+      "description": "<p>Un couteau émoussé utilisé par les érudits pour ouvrir les lettres et la correspondance.</p>"
     },
     "Smith's Tools": {
       "name": "Outils de forgeron",
-      "description": "<p>Ces outils spéciaux comprennent les éléments nécessaires à l'exercice d'un métier ou d'un commerce. La table montre des exemples des types d'outils les plus communs, chacun offrant des objets liés à un seul métier. La maîtrise d'un type d'outil d'artisan vous permet d'ajouter votre bonus de maîtrise à tous les jets de caractéristique que vous faites en utilisant les outils de votre travail. Chaque type d'outil d'artisan nécessite une maîtrise distincte.</p>"
+      "description": "<p>Ce type particulier d'outils réunit les objets nécessaires à l'artisanats et aux métiers de forgeron.</p><p>La maîtrise d'un type d'outils d'artisan vous permet d'ajouter votre bonus de maîtrise à tout test de caractéristique qui y recourt. Chaque type d'outils d'artisan correspond à une maîtrise distincte.</p>"
     },
     "Soap": {
       "name": "Savon",
@@ -3469,7 +3398,7 @@
     },
     "Spellbook": {
       "name": "Grimoire",
-      "description": "<p>Essentiel pour les magiciens, un grimoire est un livre relié en cuir qui contient 100 pages de vélin blanc, et sur lesquelles on peut recopier des sorts.</p>\n<p>&nbsp;</p>"
+      "description": "<p>Indispensable pour les magiciens, le grimoire est un tome en cuir relié comportant 100 pages en vélin pour accueillir les formules de sorts.</p>"
     },
     "Spellguard Shield": {
       "name": "Bouclier gardesort",
@@ -3715,11 +3644,11 @@
     },
     "Thieves' Tools": {
       "name": "Outils de voleur",
-      "description": "<p>Ces outils comprennent une petite lime, divers outils de crochetage, un petit miroir monté sur une poignée en métal, une paire de ciseaux à lames fines et une paire de pinces. Si vous maîtrisez les outils de voleur, vous pouvez ajouter votre bonus de maîtrise à tous les jets de caractéristique pour désactiver un piège ou crocheter une serrure.</p>"
+      "description": "<p>Cet ensemble d'outils comprend une lime, plusieurs crochets, un petit miroir articulé sur une poignée métallique, des ciseaux fins et une paire de pinces. La maîtrise de ces outils vous permet d'ajouter votre bonus de maîtrise à tout test de caractéristique visant à désarmer un piège ou crocheter une serrure.</p>"
     },
     "Tinderbox": {
-      "name": "Boite d'allume-feu",
-      "description": "<p>Cette petite boite contient un silex, des amorces et de l'amadou (généralement des bouts de tissu sec trempés dans de l'huile), soit tout le nécessaire pour allumer un feu. L'utiliser pour allumer une torche, ou autre chose qui contient suffisamment d'huile, prend une action. Allumer tout autre type de feu prend 1 minute.</p>\n<p>&nbsp;</p>"
+      "name": "Boîte à amadou",
+      "description": "<p>Ce petit conteneur renferme silex, pierre à briquet et amorce (généralement un morceau de tissu imbibé d'huile), soit de quoi allumer un feu. Utiliser cet objet pour allumer une torche ou un autre objet imprégné de combustible demande une action. Produire un autre type de flammes demande 1 minute.</p>"
     },
     "Tinker's Tools": {
       "name": "Outils de bricoleur",
@@ -3754,7 +3683,7 @@
     },
     "Torch": {
       "name": "Torche",
-      "description": "<p>Une torche brûle pendant 1 heure, projetant une lumière vive dans un rayon de 6 mètres et une lumière faible sur 6 mètres supplémentaires. Si vous effectuez une attaque au corps à corps avec une torche enflammée et touchez, vous infligez 1 point de dégât de feu.</span></p>"
+      "description": "<p>Une torche produit une lumière vive sur un rayon de 6 m et une lumière faible sur 6 m de plus. Si vous effectuez une attaque de corps à corps avec une torche embrasée et que vous touchez, elle inflige 1 dégât de feu.</p>"
     },
     "Totem": {
       "name": "Totem",
@@ -3798,15 +3727,15 @@
     },
     "Unarmed Strike": {
       "name": "Mains Nues",
-      "description": "Un coup de poing, un coup de pied, un coup de tête ou un coup violent similaire (aucun de ces coups ne compte comme une arme). En cas de succès, une frappe à mains nues inflige des dégâts égaux à 1 + votre modificateur de Force. Vous êtes compétent en matière de frappes à mains nues."
+      "description": "<p>Un coup de poing, de pied ou de tête, ou autre frappe violente (rien de tout cela n'étant considéré comme une arme). Une attaque à mains nues qui touche inflige des dégâts contondants égaux à 1 + votre modificateur de Force. Vous avez la maîtrise de vos attaques à mains nues.</p>"
     },
     "Universal Solvent": {
       "name": "Solvant universel",
       "description": "<p>Ce tube contient un liquide laiteux qui dégage une forte odeur d'alcool. Vous pouvez utiliser une action pour verser le contenu du tube sur une surface à portée. Le liquide dissout instantanément les adhésifs qu'il touche, dont de la colle universelle, sur une surface carrée de 30 centimètres de côté maximum.</p>"
     },
     "Vestments": {
-      "name": "Vêtements d'apparat",
-      "description": "<p>Simple ou ostentatoire, souvent utilisé par les prêtres et autres figures religieuses pour les rituels et les cérémonies.</p>"
+      "name": "Habits de cérémonie",
+      "description": "<p>Vêtements simples ou ostentatoires, souvent utilisés par les prêtres et autres figures religieuses pour les rituels et les cérémonies.</p>"
     },
     "Vial": {
       "name": "Fiole (10 cl)",
@@ -4123,8 +4052,8 @@
       "description": "<p>Vous avez un bonus aux jets d'attaque et de dégâts effectués avec cette arme magique. Le bonus est déterminé par la rareté de l'arme.</p>"
     },
     "Waterskin": {
-      "name": "Gourde (pleine)",
-      "description": "<p>Une peau de cuir cousue dans une peau fermée qui peut contenir jusqu'à 3 litres de liquide. Elle pèse 3,5 kg lorsqu'elle est pleine.</p>"
+      "name": "Outre",
+      "description": "<p>Une peau de cuir cousue dans une peau fermée qui peut contenir jusqu'à 2 litres de liquide. Elle pèse 2,5 kg lorsqu'elle est pleine.</p>"
     },
     "Weaver's Tools": {
       "name": "Outils de tisserand",

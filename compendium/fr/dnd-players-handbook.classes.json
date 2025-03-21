@@ -889,7 +889,7 @@
       }
     },
     "Channel Divinity": {
-      "name": "Canalisation Divine",
+      "name": "Conduite Divine",
       "description": "<p>Vous pouvez canaliser l'énergie divine directement des Plans Extérieurs pour alimenter des effets magiques. Vous commencez avec un tel effet : Détection Divine, qui est décrit ci-dessous. D'autres fonctionnalités de Paladin donnent des options supplémentaires d'effets de Canalisation Divine. Chaque fois que vous utilisez la Canalisation Divine de cette façon, vous choisissez l'effet souhaité parmi ceux disponibles à vous.</p><p>Vous pouvez utiliser votre Canalisation Divine deux fois entre chaque repos Long. Lorsque vous atteignez le niveau 18 dans cette classe, vous pouvez l'utiliser trois fois entre chaque repos Long.</p><section class=\"secret\" id=\"secret-8iXaNsYcn8ulTwKs\"><p><strong>Note Foundry</strong></p><p>Ce sera visible dans l'onglet « Lancer une capacité » lorsque les effets de Canalisation Divine sont configurés.</p></section>",
       "activities": {
         "Divine Spark: Heal": {
