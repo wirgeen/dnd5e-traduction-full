@@ -1,5 +1,5 @@
 {
-  "label": "Acteurs",
+  "label": "Actors",
   "mapping": {
     "sources": {
       "path": "system.source",
@@ -25,21 +25,21 @@
   },
   "folders": {
     "Aberration": "Aberration",
-    "Beast": "Bête",
-    "Celestial": "Céleste",
-    "Construct": "Créature artificielle",
+    "Beast": "Beast",
+    "Celestial": "Celestial",
+    "Construct": "Construct",
     "Dragon": "Dragon",
-    "Elemental": "Élémentaire",
-    "Fey": "Fée",
-    "Fiend": "Fiélon",
-    "Giant": "Géant",
-    "Humanoid": "Humanoïde",
-    "Monstrosity": "Monstruosité",
-    "Ooze": "Gelée",
-    "Plant": "Plante",
-    "Summon": "Invocation",
-    "Swarm": "Nuée",
-    "Undead": "Mort-vivant"
+    "Elemental": "Elemental",
+    "Fey": "Fey",
+    "Fiend": "Fiend",
+    "Giant": "Giant",
+    "Humanoid": "Humanoid",
+    "Monstrosity": "Monstrosity",
+    "Ooze": "Ooze",
+    "Plant": "Plant",
+    "Summon": "Summon",
+    "Swarm": "Swarm",
+    "Undead": "Undead"
   },
   "entries": {
     "Aarakocra Aeromancer": {

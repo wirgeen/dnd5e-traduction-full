@@ -499,6 +499,14 @@
         "Gnome Traits": {
           "title": "Traits des Gnomes"
         },
+        "Forest Gnome Lineage Spell": {
+          "title": "Sort de la Lignée des Gnomes des Forêts",
+          "hint": "Intelligence, Sagesse ou Charisme peuvent être choisis comme capacité de lancement de sorts."
+        },
+        "Forest Gnome Lineage Cantrip": {
+          "title": "Sorts mineurs de la Lignée des Gnomes des Forêts",
+          "hint": "Intelligence, Sagesse ou Charisme peuvent être choisis comme capacité de lancement de sorts."
+        },
         "Forest Gnome Lineage": {
           "title": "Lignée des Gnomes des Forêts",
           "hint": "Intelligence, Sagesse ou Charisme peuvent être choisis comme capacité de lancement de sorts."

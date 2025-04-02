@@ -447,7 +447,7 @@
       }
     },
     "Befuddlement": {
-      "name": "Confusion",
+      "name": "Perplexité",
       "description": "<p>Vous perturbez l'esprit d'une créature que vous pouvez voir dans la portée. La cible doit faire un jet de sauvegarde d'Intelligence.</p><p>En cas d'échec, la cible subit 10d12 dégâts psychiques et ne peut pas lancer de sorts ou effectuer l'action Magie. À la fin de chaque période de 30 jours, la cible refait le jet de sauvegarde, mettant fin à l'effet en cas de réussite. L'effet peut également être annulé par les sorts <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauration Supérieure}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeal000000]{Guérison}</em>, ou <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Souhait}</em>.</p><p>En cas de réussite, la cible subit seulement la moitié des dégâts.</p>",
       "effects": {
         "Befuddled": {
@@ -532,6 +532,9 @@
       "name": "Protection contre les Lames",
       "description": "<p>Chaque fois qu'une créature effectue un jet d'attaque contre vous avant la fin du sort, l'attaquant soustrait 1d4 du jet d'attaque.</p>",
       "activities": {
+        "utility": {
+          "roll": "Pénalité d'attaque"
+        },
         "Cast": {
           "name": "Lancer",
           "roll": "Malus à l'attaque"
@@ -592,7 +595,13 @@
     },
     "Blur": {
       "name": "Flou",
-      "description": "<p>Votre corps devient flou. Pendant toute la durée, toute créature subit un Désavantage sur les jets d’attaque contre vous. Un attaquant est immunisé à cet effet s’il vous perçoit grâce à la &amp;Reference[blindsight] ou à la &amp;Reference[truesight].</p>"
+      "description": "<p>Votre corps devient flou. Pendant toute la durée, toute créature subit un Désavantage sur les jets d’attaque contre vous. Un attaquant est immunisé à cet effet s’il vous perçoit grâce à la &amp;Reference[blindsight] ou à la &amp;Reference[truesight].</p>",
+      "effects": {
+        "Blurred": {
+          "name": "Flou",
+          "description": "<p>Pendant toute la durée, toute créature subit un Désavantage sur les jets d'attaque contre vous. Un attaquant est immunisé à cet effet s'il vous perçoit grâce à la Vision Aveugle ou à la Vision Vraie.</p>"
+        }
+      }
     },
     "Burning Hands": {
       "name": "Mains Brûlantes",
@@ -722,14 +731,14 @@
     "Comprehend Languages": {
       "name": "Compréhension des Langues",
       "description": "<p>Pendant la durée, vous comprenez le sens littéral de toute langue que vous entendez ou voyez signée. Vous comprenez aussi toute langue écrite que vous voyez, mais vous devez toucher la surface sur laquelle les mots sont inscrits. Lire une page de texte prend environ une minute. Ce sort ne décode pas les symboles ou messages secrets.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Comprehension": {
           "name": "Comprehension"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -969,14 +978,14 @@
     "Crusader's Mantle": {
       "name": "Aura du croisé",
       "description": "<p>Vous rayonnez une aura magique dans une émanation de 9 mètres. Tant qu'ils sont dans l'aura, vous et vos alliés infligez 1d4 dégâts Radiants supplémentaires avec leurs attaques d'arme ou frappes à mains nues.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Crusader’s Mantle": {
           "name": "Manteau du Croisé"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -1066,42 +1075,42 @@
     "Detect Evil and Good": {
       "name": "Détection du Bien et du Mal",
       "description": "<p>Pendant la durée du sort, vous ressentez la présence d'Aberrations, Célestes, Élémentaires, Feys, Fiélons, ou Morts-Vivants dans un rayon de 9 mètres autour de vous. Vous ressentez aussi si le sort <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Hallow}</em> est actif, et si oui, sa localisation.</p><p>Le sort est bloqué par 30 cm de pierre, terre ou bois, 2,5 cm de métal ou une fine couche de plomb.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Detect Evil and Good": {
           "name": "Détection du Bien et du Mal"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
     "Detect Magic": {
       "name": "Détection de la Magie",
       "description": "<p>Pendant la durée du sort, vous ressentez la présence d’effets magiques dans un rayon de 9 mètres autour de vous. En utilisant une action magique, vous pouvez voir une faible aura autour des créatures ou objets visibles portant cette magie, et apprendre l’école de magie du sort si l’effet est lié à un sort.</p><p>Le sort est bloqué par 30 cm de pierre, de terre ou de bois ; 2,5 cm de métal ; ou une mince feuille de plomb.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Detect Magic": {
           "name": "Détection de la Magie"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
     "Detect Poison and Disease": {
       "name": "Détection du Poison et des Maladies",
       "description": "<p>Pendant la durée du sort, vous ressentez l’emplacement des poisons, des créatures vénéneuses, et des contagions magiques dans un rayon de 9 mètres autour de vous. Vous pouvez également identifier la nature du poison, de la créature ou de la contagion.</p><p>Le sort est bloqué par 30 cm de pierre, de terre ou de bois ; 2,5 cm de métal ; ou une mince feuille de plomb.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Detect Poison and Disease": {
           "name": "Détection du Poison et des Maladies"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -1129,15 +1138,15 @@
     "Disguise Self": {
       "name": "Déguisement",
       "description": "<p>Vous changez votre apparence ainsi que celle de vos vêtements, armures, armes, et objets portés, jusqu’à la fin du sort. Vous pouvez sembler plus petit ou plus grand d’environ 30 cm, et plus maigre ou plus lourd, tout en gardant la même structure de membres.</p><p>Les changements ne résistent pas à une inspection physique ; par exemple, si vous créez un chapeau avec ce sort, il n’aura pas de consistance au toucher.</p><p>Pour découvrir votre déguisement, une créature doit faire une vérification d’Intelligence (Investigation) contre votre DD de sauvegarde de sort.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Disguised": {
           "name": "déguisé",
           "description": "<p><span style=\"font-family:Signika, sans-serif\">Pour discerner que vous êtes déguisé, une créature doit utiliser l'action Étudier pour inspecter votre apparence et réussir un test [[/check ability=int skill=inv]] contre le DD de sauvegarde de vos sorts.</span></p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -1186,14 +1195,14 @@
     "Divine Favor": {
       "name": "Faveur Divine",
       "description": "<p>Jusqu’à la fin du sort, vos attaques avec des armes infligent 1d4 dégâts radiants supplémentaires en cas de touche.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Divine Favor": {
           "name": "Faveur Divine"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -1325,7 +1334,7 @@
       }
     },
     "Eldritch Blast": {
-      "name": "Trait Élémentaire",
+      "name": "Décharge occulte",
       "description": "<p>Vous lancez un rayon d’énergie crépitante. Faites une attaque de sort à distance contre une créature ou un objet à portée. En cas de réussite, la cible subit 1d10 dégâts de force.</p><p><strong>Amélioration du tour de passe-passe.</strong> Le sort crée deux rayons au niveau 5, trois rayons au niveau 11, et quatre rayons au niveau 17. Vous pouvez diriger les rayons vers la même cible ou vers des cibles différentes. Effectuez un jet d’attaque pour chaque rayon.</p><p>[[(floor((@details.level+1)/6)+1)]]{Total des rayons}</p>"
     },
     "Elemental Weapon": {
@@ -1395,11 +1404,6 @@
     "Enhance Ability": {
       "name": "Amélioration de caractéristique",
       "description": "<p>Vous touchez une créature et choisissez la Force, la Dextérité, l'Intelligence, la Sagesse ou le Charisme. Pendant la durée, la cible bénéficie d'Avantage aux tests de capacité utilisant la caractéristique choisie.</p><p><strong>Utilisation d'un emplacement de niveau supérieur.</strong> Vous pouvez cibler une créature supplémentaire pour chaque niveau d’emplacement de sort au-delà du 2. Vous pouvez choisir une caractéristique différente pour chaque cible.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Enhanced Strength": {
           "name": "Force Améliorée",
@@ -1420,6 +1424,11 @@
         "Enhanced Charisma": {
           "name": "Charisme Amélioré",
           "description": "<p>La cible a l'Avantage sur les tests de capacité effectués avec la caractéristique choisie.</p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -1769,34 +1778,33 @@
           "description": "<p>La créature a la condition &amp;Reference[Aveuglé apply=false] jusqu'à la fin de votre prochain tour.</p>"
         }
       }
-
     },
     "Freedom of Movement": {
       "name": "Liberté de Mouvement",
       "description": "<p>Vous touchez une créature consentante. Pendant la durée du sort, le mouvement de la cible n’est pas affecté par &amp;Reference[DifficultTerrain], et les sorts et autres effets magiques ne peuvent ni réduire sa vitesse ni lui infliger les conditions &amp;Reference[Paralyzed apply=false] ou &amp;Reference[Restrained apply=false]. La cible obtient également une Vitesse de Nage égale à sa Vitesse.</p><p>De plus, la cible peut dépenser 1,5 mètre de mouvement pour échapper automatiquement aux entraves non magiques, telles que des menottes ou une créature lui imposant la condition &amp;Reference[Grappled apply=false].</p><p><strong>Utilisation d'un emplacement de sort de niveau supérieur.</strong> Vous pouvez cibler une créature supplémentaire pour chaque niveau de sort au-dessus du 4e.</p><section class=\"secret\" id=\"secret-uwteEBj1fBNIf7KZ\"><p><strong>Note Foundry</strong></p><p>L'effet actif fourni par l'activité <strong>Cast</strong> améliore la Vitesse de Nage du personnage à une valeur de \"1\" pour indiquer une équivalence avec la Vitesse de marche, en plus des immunités aux conditions.</p></section>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Unrestricted Movement": {
           "name": "Mouvement sans restriction"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
     "Friends": {
       "name": "Amis",
       "description": "<p>Vous émettez magiquement un sentiment d’amitié envers une créature que vous pouvez voir dans votre portée. La cible doit réussir un jet de sauvegarde de Sagesse ou être affectée par la condition &amp;Reference[Charmed apply=false]{Charmée} pendant la durée. La cible réussit automatiquement si ce n’est pas un Humanoïde, si vous l’attaquez ou si vous avez lancé ce sort sur elle dans les 24 dernières heures.</p><p>Le sort prend fin prématurément si la cible subit des dégâts ou si vous effectuez un jet d’attaque, infligez des dégâts ou obligez quelqu’un à effectuer un jet de sauvegarde. Lorsque le sort se termine, la cible sait qu’elle a été Charmée par vous.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Charmed": {
           "name": "Créer une aura",
           "description": "<p>Le sort prend fin prématurément si la cible &amp;Reference[Charmed apply=false] subit des dégâts ou si vous effectuez un jet d'attaque, infligez des dégâts ou forcez quelqu'un à faire un jet de sauvegarde. Lorsque le sort prend fin, la cible sait qu'elle a été Charmée par vous.</p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -1849,14 +1857,14 @@
     "Glibness": {
       "name": "Bagou",
       "description": "<p>Jusqu'à la fin du sort, lorsque vous effectuez un test de Charisme, vous pouvez remplacer le nombre que vous obtenez par un 15. De plus, peu importe ce que vous dites, la magie qui déterminerait si vous dites la vérité indique que vous dites la vérité.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Glib": {
           "name": "Désinvolte"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -1927,11 +1935,6 @@
     "Guidance": {
       "name": "Assistance",
       "description": "<p>Vous touchez une créature consentante et choisissez une compétence. Jusqu'à la fin du sort, la créature ajoute 1d4 à tout test de capacité utilisant la compétence choisie.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Acrobatic Guidance": {
           "name": "Acrobatic Guidance"
@@ -1987,6 +1990,11 @@
         "Survival Guidance": {
           "name": "Survival Guidance"
         }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
+        }
       }
     },
     "Guiding Bolt": {
@@ -2016,7 +2024,7 @@
       "description": "<p>Vous transformez un terrain naturel dans un cube de 115 mètres en un autre type de terrain naturel. Ainsi, des champs ouverts ou une route peuvent devenir un marais, une colline, un gouffre ou tout autre terrain difficile ou infranchissable. Une mare peut paraître être une prairie verdoyante, un précipice peut sembler une pente douce, ou un ravin jonché de rochers peut sembler une route lisse et large. Les structures fabriquées, les équipements et les créatures dans la zone ne changent pas.</p><p>Les caractéristiques tactiles du terrain ne changent pas, de sorte que les créatures entrant dans la zone peuvent remarquer l'illusion. Si la différence n'est pas évidente au toucher, une créature qui examine l'illusion peut faire une action d'étude pour effectuer un [[/check ability=int skill=inv dc=@attributes.spelldc]] test contre votre DD de sauvegarde de sort pour discerner l'illusion. Si une créature perçoit l'illusion, elle voit une image vague superposée au terrain réel.</p>"
     },
     "Harm": {
-      "name": "Dégât",
+      "name": "Contamination",
       "description": "<p>Vous libérez une magie virulente sur une créature que vous pouvez voir dans la portée. La cible doit effectuer un jet de sauvegarde de Constitution. En cas d'échec, elle subit 14d6 dégâts nécrotiques, et son maximum de points de vie est réduit d'une quantité égale aux dégâts nécrotiques subis. En cas de réussite, elle ne subit que la moitié des dégâts. Ce sort ne peut pas réduire le maximum de points de vie de la cible en dessous de 1.</p>"
     },
     "Haste": {
@@ -2221,7 +2229,7 @@
       }
     },
     "Ice Knife": {
-      "name": "Dague de Glace",
+      "name": "Couteau de glace",
       "description": "<p>Vous créez un éclat de glace et le lancez sur une créature dans la portée. Faites une attaque de sort à distance contre la cible. En cas de réussite, la cible subit 1d10 dégâts perforants. Touchée ou non, l'éclat explose ensuite. La cible et chaque créature dans un rayon de 1,5 mètres autour d'elle doivent réussir un jet de sauvegarde de Dextérité ou subir 2d6 dégâts de Froid.</p><p><strong>Utilisation d'un emplacement de sort de niveau supérieur.</strong> Les dégâts de Froid augmentent de 1d6 pour chaque niveau d'emplacement au-dessus de 1.</p>",
       "activities": {
         "Shard Explosion": {
@@ -2238,7 +2246,7 @@
       "description": "<p>Vous touchez un objet pendant toute la durée d'incantation du sort. Si l'objet est un objet magique ou un autre objet enchanté, vous en apprenez les propriétés et comment l'utiliser, s'il nécessite un lien magique et combien de charges il possède, le cas échéant. Vous apprenez également quels sorts en cours affectent l'objet, ainsi que leur nature. Si l'objet a été créé par un sort, vous apprenez le nom de ce sort.</p><p>Si vous touchez à la place une créature pendant l'incantation, vous apprenez quels sorts en cours, le cas échéant, l'affectent actuellement.</p>"
     },
     "Illusory Script": {
-      "name": "Écriture illusoire",
+      "name": "Texte illusoire",
       "description": "<p>Vous écrivez sur du parchemin, du papier ou un autre matériau adapté et imprégnez l'écriture d'une illusion qui dure le temps du sort. Pour vous et toute créature que vous désignez lors de l'incantation, l'écriture semble normale, comme écrite de votre main, et transmet le sens que vous avez voulu au moment de l'écriture. Pour les autres, l'écriture apparaît comme un texte inconnu ou magique, illisible. Alternativement, l'illusion peut changer le sens, l'écriture et la langue du texte, bien que la langue doit être une que vous connaissez.</p><p>Si le sort est dissipé, le texte original et l'illusion disparaissent.</p><p>Une créature dotée de la &amp;Reference[truesight] peut lire le message caché.</p>"
     },
     "Imprisonment": {
@@ -2318,15 +2326,15 @@
       }
     },
     "Knock": {
-      "name": "Fracas",
+      "name": "Déblocage",
       "description": "<p>Choisissez un objet visible à portée. Il peut s'agir d'une porte, d'une boîte, d'un coffre, de menottes, d'un cadenas ou tout autre objet qui contient un moyen d'accès, ordinaire ou magique, bloqué.</p><p>Un objet verrouillé par une serrure ordinaire, coincé ou bloqué, est déverrouillé, dégagé ou débloqué. Si l'objet comporte plusieurs serrures, seule une d'entre elles est déverrouillée.</p><p>Si l'objet est bloqué par un <em>Verrou arcanique</em>, ce sort est supprimé pour 10 minutes, durant lesquelles l'objet peut être ouvert et refermé.</p><p>Lors de l'incantation, un fort bruit de fracas, audible jusqu'à 90 mètres de distance, émane de l'objet.</p>"
     },
     "Legend Lore": {
-      "name": "Connaissance des légendes",
+      "name": "Mythes et légendes",
       "description": "<p>Nommez ou décrivez une personne, un lieu ou un objet célèbre. Le sort vous apporte un bref résumé des légendes importantes concernant cet élément, tel que décrit par le MJ.</p><p>Les légendes peuvent contenir des détails importants, des révélations amusantes ou même des secrets qui ne sont pas largement connus. Plus vous avez déjà de renseignements à son sujet, plus les informations que vous recevez seront précises et détaillées. Ces informations sont exactes, mais peuvent être formulées de manière imagée ou poétique, selon le choix du MJ.</p><p>Si l'objet de votre recherche n'est pas réellement célèbre, vous entendez des notes tristes jouées au trombone, et le sort échoue.</p>"
     },
     "Leomund's Secret Chest": {
-      "name": "Coffre secret de Leomund",
+      "name": "Coffre secret de Léomund",
       "description": "<p>Vous cachez un coffre et tout son contenu sur le Plan Éthéré. Vous devez toucher le coffre et sa réplique miniature qui servent de composants matériels pour ce sort. Le coffre peut contenir jusqu'à 3.5 mètres cubes de matière inanimée (1 mètre par 0.5 mètre par 0.5 mètre).</p><p>Tant que le coffre reste sur le Plan Éthéré, vous pouvez effectuer une action magique et toucher la réplique pour rappeler le coffre. Il apparaît dans un espace inoccupé au sol à moins de 1,5 mètres de vous. Vous pouvez renvoyer le coffre sur le Plan Éthéré en effectuant une action magique pour toucher le coffre et la réplique.</p><p>Après 60 jours, il y a une chance cumulative de 5 % à la fin de chaque jour que le sort prenne fin. Le sort se termine également si vous le lancez à nouveau ou si la réplique miniature est détruite. Si le sort prend fin et que le grand coffre est sur le Plan Éthéré, il y reste pour que vous ou quelqu'un d'autre puisse le retrouver.</p><section class=\"secret\" id=\"secret-FLbvXAg0bRRjYr2v\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Rappel du coffre</strong> invoquera un acteur lié associé à cet objet spécifique pour servir de coffre.</p></section>",
       "activities": {
         "Recall Chest": {
@@ -2338,7 +2346,7 @@
       }
     },
     "Leomund's Tiny Hut": {
-      "name": "Abri de Leomund",
+      "name": "Petite hutte de Léomund",
       "description": "<p>Une émanation de 3 mètres surgit autour de vous et reste immobile pendant toute la durée. Le sort échoue si, au moment de son lancement, l'émanation n'est pas suffisamment grande pour contenir toutes les créatures dans sa zone.</p><p>Les créatures et les objets à l'intérieur de l'émanation lorsque vous lancez le sort peuvent la traverser librement. Tous les autres créatures et objets sont bloqués. Les sorts de niveau 3 ou moins ne peuvent être lancés à travers elle, et leurs effets ne peuvent pas y pénétrer.</p><p>L'atmosphère à l'intérieur de l'émanation est confortable et sèche, indépendamment des conditions extérieures. Jusqu'à la fin du sort, vous pouvez choisir de régler l'intérieur en &amp;Reference[dimlight] ou &amp;Reference[darkness] (aucune action requise). L'émanation est opaque de l'extérieur et peut être de n'importe quelle couleur de votre choix, mais elle est transparente de l'intérieur.</p><p>Le sort se termine prématurément si vous quittez l'émanation ou si vous le relancez.</p>"
     },
     "Lesser Restoration": {
@@ -2365,7 +2373,7 @@
       }
     },
     "Lightning Arrow": {
-      "name": "Flèche foudroyante",
+      "name": "Flèche de foudre",
       "description": "<p>Lorsque votre attaque touche ou manque la cible, l'arme ou le projectile que vous utilisez se transforme en un éclair. Au lieu d'infliger des dégâts normaux, la cible subit 4d8 dégâts de foudre en cas de touche, ou la moitié en cas d'échec. Chaque créature à moins de 3 mètres de la cible effectue ensuite un jet de sauvegarde de Dextérité, subissant 2d8 dégâts de foudre en cas d'échec, ou la moitié en cas de réussite.</p><p>L'arme ou le projectile reprend alors sa forme normale.</p><p><strong>Avec un emplacement de sort de niveau supérieur.</strong> Les dégâts des deux effets du sort augmentent de 1d8 pour chaque niveau d'emplacement de sort au-dessus du niveau 3.</p>"
     },
     "Lightning Bolt": {
@@ -2390,37 +2398,37 @@
       }
     },
     "Longstrider": {
-      "name": "Pas long",
+      "name": "Grande foulée",
       "description": "<p>Vous touchez une créature. Sa vitesse augmente de 3 mètres jusqu'à la fin du sort.</p><p><strong>Avec un emplacement de sort de niveau supérieur.</strong> Vous pouvez cibler une créature supplémentaire pour chaque niveau d'emplacement de sort au-dessus du niveau 1.</p>",
+      "effects": {
+        "Longstrider": {
+          "name": "Grande foulée",
+          "description": "<p>The target’s Speed increases by 10 feet until the spell ends.</p>"
+        }
+      },
       "activities": {
         "Cast": {
           "name": "Lancer"
-        }
-      },
-      "effects": {
-        "Longstrider": {
-          "name": "Longstrider",
-          "description": "<p>The target’s Speed increases by 10 feet until the spell ends.</p>"
         }
       }
     },
     "Mage Armor": {
       "name": "Armure de mage",
       "description": "<p>Vous touchez une créature consentante qui ne porte pas d’armure. Tant que le sort dure, la CA de base de la cible devient 13 plus son modificateur de Dextérité. Le sort prend fin prématurément si la cible enfile une armure.</p>",
+      "effects": {
+        "Mage Armor": {
+          "name": "Armure de mage",
+          "description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>"
+        }
+      },
       "activities": {
         "Cast": {
           "name": "Lancer"
         }
-      },
-      "effects": {
-        "Mage Armor": {
-          "name": "Mage Armor",
-          "description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>"
-        }
       }
     },
     "Mage Hand": {
-      "name": "Main du mage",
+      "name": "Main de mage",
       "description": "<p>Une main spectrale et flottante apparaît à un point que vous choisissez à portée. La main dure le temps du sort. Elle disparaît si elle se trouve à plus de 9 mètres de vous ou si vous lancez ce sort à nouveau.</p><p>Lorsque vous lancez le sort, vous pouvez utiliser la main pour manipuler un objet, ouvrir une porte ou un conteneur non verrouillé, ranger ou récupérer un objet dans un conteneur ouvert, ou verser le contenu d’une fiole.</p><p>À votre tour, en utilisant une action magique, vous pouvez de nouveau contrôler la main. Dans le cadre de cette action, vous pouvez déplacer la main jusqu’à 9 mètres.</p><p>La main ne peut pas attaquer, activer des objets magiques ou porter plus de 4,5 kg.</p>"
     },
     "Magic Circle": {
@@ -2428,7 +2436,7 @@
       "description": "<p>Vous créez un cylindre d'énergie magique de 3 mètres de rayon et de 6 mètres de haut, centré sur un point au sol que vous pouvez voir à portée. Des runes lumineuses apparaissent là où le cylindre intersecte le sol ou une autre surface.</p><p>Choisissez un ou plusieurs des types de créatures suivants : Célestes, Élémentaires, Feys, Fiélons ou Morts-Vivants. Le cercle affecte les créatures du ou des types choisis de la manière suivante :</p><ul><li>La créature ne peut pas entrer volontairement dans le cylindre par des moyens non magiques. Si elle tente d'utiliser la téléportation ou un voyage interplanaire pour le faire, elle doit d'abord réussir un jet de sauvegarde de Charisme.</li><li>La créature a un désavantage aux jets d'attaque contre des cibles à l'intérieur du cylindre.</li><li>Les cibles à l'intérieur du cylindre ne peuvent pas être possédées, ni subir la condition &amp;Reference[charmed apply=false] ou &amp;Reference[frightened apply=false] en provenance de la créature.</li></ul><p>Chaque fois que vous lancez ce sort, vous pouvez inverser son effet, empêchant les créatures du ou des types spécifiés de quitter le cylindre et protégeant les cibles à l'extérieur.</p><p><strong>Utiliser un emplacement de sort supérieur.</strong> La durée augmente de 1 heure pour chaque niveau d'emplacement de sort au-dessus du 3e.</p>"
     },
     "Magic Jar": {
-      "name": "Jarres magiques",
+      "name": "Urne magique",
       "description": "<p>Votre corps tombe dans un état catatonique tandis que votre âme le quitte pour entrer dans le conteneur que vous avez utilisé comme composant matériel du sort. Tant que votre âme habite le conteneur, vous êtes conscient de votre environnement comme si vous étiez dans l’espace du conteneur. Vous ne pouvez pas vous déplacer ni prendre des &amp;Reference[Reaction]{réactions}. La seule action que vous pouvez entreprendre est de projeter votre âme jusqu'à 30 mètres hors du conteneur, soit en revenant dans votre corps vivant (et en mettant fin au sort), soit en tentant de posséder le corps d'un humanoïde.</p><p>Vous pouvez essayer de posséder tout humanoïde à portée et que vous pouvez voir (les créatures protégées par un sort de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{Protection contre le Bien et le Mal}</em> ou un sort de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicCircl]{Cercle magique}</em> ne peuvent pas être possédées). La cible effectue un jet de sauvegarde de Charisme. En cas d'échec, votre âme entre dans le corps de la cible et l’âme de cette dernière est piégée dans le conteneur. En cas de réussite, la cible résiste à vos tentatives et vous ne pouvez pas réessayer avant 24 heures.</p><p>Une fois que vous possédez le corps d'une créature, vous le contrôlez. Vos Points de Vie, vos dés de vie, votre Force, Dextérité, Constitution, vitesse et sens sont remplacés par ceux de la créature. Vos autres statistiques de jeu restent inchangées.</p><p>Entre-temps, l'âme de la créature possédée peut percevoir l'environnement depuis le conteneur en utilisant ses propres sens, mais elle ne peut pas se déplacer et elle est Incapacitated.</p><p>Tandis que vous possédez un corps, vous pouvez effectuer une action magique pour retourner du corps hôte au conteneur si ce dernier est dans un rayon de 30 mètres de vous, redonnant l'âme de l'hôte à son corps. Si le corps hôte meurt pendant que vous l'habitez, la créature meurt et vous effectuez un jet de sauvegarde de Charisme contre votre propre DC de lanceur de sorts. En cas de réussite, vous retournez dans le conteneur s'il est dans un rayon de 30 mètres de vous. Sinon, vous mourrez.</p><p>Si le conteneur est détruit ou si le sort prend fin, votre âme retourne dans votre corps. Si votre corps est à plus de 30 mètres de vous ou s’il est mort, vous mourrez. Si une autre âme de créature se trouve dans le conteneur au moment de sa destruction, cette âme retourne dans son corps si celui-ci est vivant et dans un rayon de 30 mètres. Sinon, cette créature meurt.</p><p>Lorsque le sort prend fin, le conteneur est détruit.</p>",
       "activities": {
         "Transfer Soul": {
@@ -2471,7 +2479,7 @@
       "description": "<p>Vous touchez une arme non magique. Tant que le sort dure, cette arme devient une arme magique avec un bonus de +1 aux jets d’attaque et de dégâts. Le sort prend fin prématurément si vous le lancez à nouveau.</p><p><strong>Avec un emplacement de sort supérieur.</strong> Le bonus passe à +2 avec un emplacement de sort de niveau 3 à 5. Le bonus passe à +3 avec un emplacement de sort de niveau 6 ou supérieur.</p>",
       "effects": {
         "Magic Weapon +1": {
-          "name": "Magic Weapon +1",
+          "name": "Arme magique +1",
           "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p>",
           "changes": {
             "name": "Magic {} +1"
@@ -2506,7 +2514,7 @@
       "description": "<p>Une vague d'énergie curative se répand depuis un point que vous pouvez voir à portée. Choisissez jusqu'à six créatures dans une sphère de 9 mètres de rayon centrée sur ce point. Chaque cible récupère des Points de Vie égaux à 5d8 plus votre modificateur de caractéristique de lanceur de sorts.</p><p><strong>Avec un emplacement de sort supérieur.</strong> La guérison augmente de 1d8 pour chaque niveau d'emplacement de sort au-dessus de 5.</p>"
     },
     "Mass Heal": {
-      "name": "Guérison de masse",
+      "name": "Guérison de groupe",
       "description": "<p>Un flot d'énergie curative émane de vous et affecte les créatures autour de vous. Vous pouvez restaurer jusqu'à 700 Points de Vie, répartis à votre convenance parmi un nombre quelconque de créatures que vous pouvez voir à portée. Les créatures guéries par ce sort voient également leurs états &amp;Reference[Blinded], &amp;Reference[Deafened] et &amp;Reference[Poisoned] supprimés.</p><section id=\"secret-B4SsHM2Uk0rl4qtz\" class=\"secret\"><p>Note Foundry</p><p>L'activité <strong>Guérir</strong> est configurée pour restaurer 700 Points de Vie à la créature sélectionnée. Le pool de points de guérison de ce sort doit être réparti manuellement entre les cibles.</p></section>"
     },
     "Mass Healing Word": {
@@ -2524,7 +2532,7 @@
       }
     },
     "Maze": {
-      "name": "Labyrinthe",
+      "name": "Dédale",
       "description": "<p>Vous bannissez une créature que vous pouvez voir à portée dans un demi-plan labyrinthique. La cible y reste pour la durée ou jusqu'à ce qu'elle échappe au labyrinthe.</p><p>La cible peut tenter une action d'étude pour essayer de s'échapper. Si elle le fait, elle effectue un test d'Intelligence (Investigation) DD 20. En cas de réussite, elle s'échappe et le sort prend fin.</p><p>Lorsque le sort prend fin, la cible réapparaît à l'endroit qu'elle a quitté ou, si cet endroit est occupé, dans l'espace libre le plus proche.</p>",
       "activities": {
         "Banish to Maze": {
@@ -2579,39 +2587,39 @@
       }
     },
     "Meteor Swarm": {
-      "name": "Essaim météorique",
+      "name": "Nuée de météores",
       "description": "<p>Des orbes de feu enflammés s'abattent sur le sol en quatre points différents que vous pouvez voir à portée. Chaque créature dans une sphère de 12 mètres de rayon centrée sur chacun de ces points effectue un jet de sauvegarde de Dextérité. Une créature subit 20d6 dégâts de Feu et 20d6 dégâts de Contusion en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature située dans la zone de plusieurs sphères enflammées n'est affectée qu'une seule fois.</p><p>Un objet non magique qui n'est ni porté ni tenu subit également les dégâts s'il se trouve dans la zone du sort, et l'objet commence à brûler s'il est inflammable.</p>"
     },
     "Mind Blank": {
-      "name": "Protection contre la détection",
+      "name": "Esprit impénétrable",
       "description": "<p>Jusqu'à la fin du sort, une créature consentante que vous touchez bénéficie de l'Immunité aux dégâts Psychiques et à l'état de Charmé. La cible est également protégée de tout ce qui pourrait détecter ses émotions ou son alignement, lire ses pensées ou localiser magiquement sa position. Aucun sort – pas même <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Souhait}</em> – ne peut recueillir d'informations sur la cible, l'observer à distance ou contrôler son esprit.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Mind Blanked": {
           "name": "Mind Blanked"
         }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
+        }
       }
     },
     "Mind Sliver": {
-      "name": "Éclat mental",
+      "name": "Piqûre mentale",
       "description": "<p>Vous essayez de perturber temporairement l'esprit d'une créature que vous pouvez voir à portée. La cible doit réussir un jet de sauvegarde d'Intelligence ou subir 1d6 dégâts Psychiques et soustraire 1d4 de son prochain jet de sauvegarde avant la fin de votre prochain tour.</p><p><strong>Amélioration du tour.</strong> Les dégâts augmentent de 1d6 aux niveaux 5 (2d6), 11 (3d6) et 17 (4d6).</p>",
       "effects": {
         "Slivered": {
-          "name": "Slivered",
+          "name": "Eclats",
           "description": "<p>The target subtracts 1d4 from the next saving throw it makes before the end of your next turn.</p>"
         }
       }
     },
     "Mind Spike": {
-      "name": "Pointe mentale",
+      "name": "Épine mentale",
       "description": "<p>Vous enfoncez un pic d'énergie psionique dans l'esprit d'une créature que vous pouvez voir à portée. La cible effectue un jet de sauvegarde de Sagesse, subissant 3d8 dégâts Psychiques en cas d'échec ou la moitié de ces dégâts en cas de réussite. En cas d'échec, vous connaissez aussi toujours la position de la cible tant que le sort dure, mais seulement si vous êtes sur le même plan d'existence. Pendant que vous avez cette connaissance, la cible ne peut pas se cacher de vous, et si elle est &amp;Reference[invisible apply=false], elle ne bénéficie d'aucun avantage contre vous en étant invisible.</p><p><strong>Avec un emplacement de sort supérieur.</strong> Les dégâts augmentent de 1d8 pour chaque niveau d'emplacement de sort supérieur au niveau 2.</p>",
       "effects": {
         "Spiked": {
-          "name": "Spiked",
+          "name": "Épine",
           "description": "<p>You always know the target’s location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it has the &amp;Reference[invisible apply=false] condition, it gains no benefit from that condition against you.</p>"
         }
       }
@@ -2634,7 +2642,7 @@
       }
     },
     "Mirage Arcane": {
-      "name": "Mirage Arcanique",
+      "name": "Mirage",
       "description": "<p>Vous transformez le terrain dans une zone de 1,5 kilomètre carré pour qu’il semble, sonne, sente et même semble tactilement différent. Un champ ouvert ou une route pourraient être transformés en marais, colline, crevasse ou autre terrain accidenté. Un étang peut sembler un pré d’herbe, un précipice une pente douce, ou un ravin rempli de rochers une route lisse.</p><p>Vous pouvez de même modifier l'apparence de structures ou en ajouter là où il n’y en avait pas. Ce sort ne dissimule, ne cache ni n’ajoute de créatures.</p><p>L'illusion inclut des éléments auditifs, visuels, tactiles et olfactifs, elle peut donc transformer un terrain dégagé en terrain difficile (ou vice versa) ou entraver le déplacement à travers la zone. Tout élément de terrain illusoire (tel qu’un rocher ou bâton) retiré de la zone du sort disparaît immédiatement.</p><p>Les créatures avec la &amp;Reference[truesight] voient à travers l’illusion pour voir la forme véritable du terrain ; cependant, tous les autres éléments de l’illusion demeurent, si bien que même si la créature est consciente de la présence de l’illusion, elle peut tout de même interagir physiquement avec elle.</p>",
       "activities": {
         "Alter Terrain": {
@@ -2658,7 +2666,7 @@
       }
     },
     "Mislead": {
-      "name": "Duperie",
+      "name": "Double illusoire",
       "description": "<p>Vous gagnez la condition &amp;Reference[Invisible apply=false] en même temps qu’un double illusoire de vous-même apparaît là où vous vous tenez. Le double dure pour la durée, mais l’invisibilité prend fin immédiatement si vous effectuez un jet d’attaque, infligez des dégâts ou lancez un sort.</p><p>En tant qu’action magique, vous pouvez déplacer le double illusoire jusqu’à deux fois votre vitesse et lui faire exécuter des gestes, parler et se comporter de la manière que vous choisissez. Il est intangible et invulnérable.</p><p>Vous pouvez voir à travers ses yeux et entendre à travers ses oreilles comme si vous étiez là où il se trouve.</p>",
       "effects": {
         "Invisible": {
@@ -2668,11 +2676,11 @@
       }
     },
     "Misty Step": {
-      "name": "Pas Brumeux",
+      "name": "Foulée brumeuse",
       "description": "<p>Brièvement entouré d’une brume argentée, vous vous téléportez jusqu’à 9 mètres vers un espace inoccupé que vous pouvez voir.</p>"
     },
     "Modify Memory": {
-      "name": "Modification de la Mémoire",
+      "name": "Modification de mémoire",
       "description": "<p>Vous essayez de remodeler les souvenirs d’une créature. Une créature que vous pouvez voir à portée effectue un jet de sauvegarde de Sagesse. Si vous combattez la créature, elle a l’avantage au jet de sauvegarde. En cas d’échec, la cible obtient la condition &amp;Reference[Charmed apply=false] pour la durée. Pendant qu’elle est charmée de cette manière, la cible obtient également la condition &amp;Reference[Incapacitated apply=false] et ignore son environnement, bien qu’elle puisse vous entendre. Si elle subit des dégâts ou est ciblée par un autre sort, le sort prend fin et aucun souvenir n’est modifié.</p><p>Pendant que ce charme dure, vous pouvez affecter le souvenir d’un événement que la cible a vécu dans les dernières 24 heures et qui a duré pas plus de 10 minutes. Vous pouvez effacer définitivement tout souvenir de l’événement, permettre à la cible de s’en souvenir avec une clarté parfaite, changer les détails du souvenir de l’événement ou créer un souvenir d’un autre événement.</p><p>Vous devez parler à la cible pour décrire comment ses souvenirs sont affectés, et elle doit comprendre votre langue pour que les souvenirs modifiés prennent racine. Son esprit comble les éventuelles lacunes dans les détails de votre description. Si le sort prend fin avant que vous ayez fini de décrire les souvenirs modifiés, la mémoire de la créature n’est pas altérée. Sinon, les souvenirs modifiés s’implantent quand le sort prend fin.</p><p>Un souvenir modifié n'affecte pas nécessairement le comportement de la créature, surtout si ce souvenir contredit les inclinations, l’alignement ou les croyances de la créature. Un souvenir modifié illogique, comme un faux souvenir de la manière dont la créature aimait nager dans l’acide, est rejeté comme un mauvais rêve. Le MJ peut juger qu’un souvenir modifié est trop absurde pour affecter une créature.</p><p>Un sort de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Retirer Malédiction}</em> ou de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauration Supérieure}</em> lancé sur la cible restaure le véritable souvenir de la créature.</p><p><strong>Avec un emplacement de sort supérieur.</strong> Vous pouvez modifier les souvenirs de la cible d’un événement remontant jusqu’à 7 jours (niveau de sort 6), 30 jours (niveau 7), 365 jours (niveau 8) ou à n’importe quel moment dans le passé de la créature (niveau 9).</p>",
       "effects": {
         "Memory Modification": {
@@ -2682,11 +2690,11 @@
       }
     },
     "Moonbeam": {
-      "name": "Rayon Lunaire",
+      "name": "Rayon de lune",
       "description": "<p>Un faisceau de lumière argentée éclaire une zone cylindrique de 1,5 mètre de rayon et 12 mètres de haut centrée sur un point à portée. Tant que le sort dure, une lumière faible emplit le cylindre, et vous pouvez prendre une action magique lors de vos tours ultérieurs pour déplacer le cylindre jusqu’à 18 mètres.</p><p>Quand le cylindre apparaît, chaque créature dans la zone effectue un jet de sauvegarde de Constitution. En cas d’échec, la créature subit 2d10 dégâts Radiants, et si la créature est polymorphée (comme par le sort <em>Polymorphisme</em>, par exemple), elle reprend sa véritable forme et ne peut plus se transformer tant qu’elle reste dans le cylindre. En cas de réussite, une créature subit seulement la moitié des dégâts. Une créature effectue également ce jet lorsque la zone du sort se déplace dans son espace ou qu’elle y entre ou termine son tour. Elle fait ce jet seulement une fois par tour.</p><p><strong>Avec un emplacement de sort supérieur.</strong> Les dégâts augmentent de 1d10 pour chaque niveau d’emplacement au-dessus du 2.</p>"
     },
     "Mordenkainen's Faithful Hound": {
-      "name": "Chien Fidèle de Mordenkainen",
+      "name": "Chien de garde de Mordenkainen",
       "description": "<p>Vous invoquez un chien de garde fantomatique dans un espace inoccupé à portée que vous pouvez voir. Le chien reste jusqu’à la fin de la durée ou tant que vous ne vous éloignez pas de lui de plus de 90 mètres.</p><p>Personne d’autre que vous ne peut voir le chien, et il est intangible et invulnérable. Lorsqu'une créature de taille Petite ou supérieure s'approche à moins de 9 mètres sans prononcer le mot de passe que vous avez spécifié lors du lancement du sort, le chien commence à aboyer bruyamment. Le chien possède une vision véritable dans un rayon de 9 mètres.</p><p>Au début de chacun de vos tours, le chien tente de mordre un ennemi situé à 1,5 mètre de lui. Cet ennemi doit réussir un jet de sauvegarde de Dextérité ou subir 4d8 dégâts de Force.</p><p>Lors de vos tours ultérieurs, vous pouvez prendre une action magique pour déplacer le chien jusqu'à 9 mètres.</p>",
       "activities": {
         "Move Hound": {
@@ -2695,7 +2703,7 @@
       }
     },
     "Mordenkainen's Magnificent Mansion": {
-      "name": "Manoir Magnifique de Mordenkainen",
+      "name": "Manoir somptueux de Mordenkainen",
       "description": "<p>Vous invoquez une porte scintillante dans la zone à portée qui dure pour la durée du sort. La porte mène à une demeure extradimensionnelle et mesure 1,5 mètre de large et 3 mètres de haut. Vous et toute créature que vous désignez au lancement du sort pouvez entrer dans la demeure extradimensionnelle tant que la porte reste ouverte. Vous pouvez ouvrir ou fermer la porte (sans action) si vous êtes à moins de 9 mètres. Lorsqu’elle est fermée, la porte devient imperceptible.</p><p>Derrière la porte se trouve un magnifique vestibule avec de nombreuses chambres au-delà. L’atmosphère de la demeure est propre, fraîche et chaleureuse.</p><p>Vous pouvez créer le plan que vous souhaitez pour la demeure, dans la limite de 50 cubes contigus de 3 mètres de côté. L’endroit est meublé et décoré à votre guise. Il contient suffisamment de nourriture pour un banquet de neuf plats pour 100 personnes. Les meubles et autres objets créés par ce sort se dissipent en fumée s’ils sont retirés de la demeure.</p><p>Un personnel de 100 serviteurs presque transparents prend soin de toutes les personnes qui entrent. Vous déterminez l’apparence et la tenue de ces serviteurs. Ils sont invulnérables et obéissent à vos ordres. Chaque serviteur peut accomplir des tâches qu’un humain pourrait réaliser, mais ils ne peuvent ni attaquer ni effectuer d’actions qui pourraient blesser directement une autre créature. Les serviteurs ne peuvent pas quitter la demeure.</p><p>Quand le sort prend fin, toute créature ou objet laissé dans l’espace extradimensionnel est expulsé dans les espaces inoccupés les plus proches de l’entrée.</p>",
       "activities": {
         "Create Door": {
@@ -2722,7 +2730,7 @@
       }
     },
     "Move Earth": {
-      "name": "Déplacer la Terre",
+      "name": "Terraformage",
       "description": "<p>Choisissez une zone de terrain de 12 mètres de côté maximum dans la portée du sort. Vous pouvez remodeler la terre, le sable ou l’argile dans cette zone comme vous le souhaitez pendant la durée. Vous pouvez élever ou abaisser la zone, créer ou combler une tranchée, ériger ou aplatir un mur, ou former une colonne. L’ampleur de ces modifications ne peut pas dépasser la moitié de la plus grande dimension de la zone. Par exemple, si vous affectez un carré de 12 mètres, vous pouvez créer une colonne jusqu’à 6 mètres de haut, élever ou abaisser le terrain de 6 mètres, creuser une tranchée de 6 mètres de profondeur, etc. Les modifications prennent 10 minutes pour se terminer. Comme la transformation du terrain est progressive, les créatures dans la zone ne peuvent généralement pas être piégées ou blessées par le mouvement du sol.</p><p>À la fin de chaque période de 10 minutes pendant laquelle vous concentrez le sort, vous pouvez choisir une nouvelle zone de terrain à affecter dans la portée du sort.</p><p>Ce sort ne peut pas manipuler de la pierre naturelle ou des constructions en pierre. Les rochers et structures se déplacent pour s’adapter au nouveau terrain. Si la forme du terrain modifiée rend une structure instable, elle pourrait s’effondrer.</p><p>De même, ce sort n’affecte pas directement la croissance des plantes. La terre déplacée emporte les plantes avec elle.</p>",
       "activities": {
         "Initial Cast": {
@@ -2778,17 +2786,17 @@
       }
     },
     "Otiluke's Resilient Sphere": {
-      "name": "Sphère Résistante d'Otiluke",
+      "name": "Sphère résiliente d'Otiluke",
       "description": "<p>Une sphère chatoyante enferme une créature ou un objet de taille G ou plus petit dans la portée du sort. Une créature non consentante doit réussir un jet de sauvegarde de Dextérité pour éviter d'être enfermée.</p><p>Rien — ni objet physique, ni énergie, ni autre effet magique — ne peut traverser la barrière, ni de l'intérieur vers l'extérieur, ni de l'extérieur vers l'intérieur, bien qu’une créature enfermée puisse respirer. La sphère est immunisée contre tous les dégâts, et une créature ou un objet à l'intérieur ne peut être blessé par des attaques ou effets venant de l’extérieur, ni blesser quelque chose à l'extérieur.</p><p>La sphère est sans poids et juste assez grande pour contenir la créature ou l'objet enfermé. Une créature enfermée peut utiliser une action pour pousser contre les parois de la sphère, la faisant rouler jusqu’à la moitié de sa vitesse. De même, la sphère peut être ramassée et déplacée par d'autres créatures.</p><p>Un sort de <em>Désintégration</em> ciblant la sphère la détruit sans endommager ce qui se trouve à l'intérieur.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Enclosed in Sphere": {
           "name": "Enclosed in Sphere",
           "description": "<p>An enclosed creature can take an action to push against the sphere’s walls and thus roll the sphere at up to half the creature’s Speed.</p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -2807,7 +2815,7 @@
       }
     },
     "Pass without Trace": {
-      "name": "Trace Sans Trace",
+      "name": "Passage sans trace",
       "description": "<p>Vous émettez une aura de dissimulation dans un rayon de 9 mètres pendant toute la durée du sort. Tant qu’ils se trouvent dans l’aura, vous et les créatures que vous choisissez bénéficiez d’un bonus de +10 aux tests de Dextérité (Discrétion) et ne laissent aucune trace de leur passage.</p>",
       "effects": {
         "Concealed": {
@@ -2817,7 +2825,7 @@
       }
     },
     "Passwall": {
-      "name": "Passage",
+      "name": "Passe-muraille",
       "description": "<p>Un passage apparaît en un point que vous pouvez voir sur une surface en bois, plâtre ou pierre (comme un mur, plafond ou sol) dans la portée du sort et dure toute la durée. Vous choisissez les dimensions de l'ouverture : jusqu'à 1,5 mètre de large, 2,5 mètres de haut, et 6 mètres de profondeur. Le passage ne crée aucune instabilité dans la structure environnante.</p><p>Lorsque l'ouverture disparaît, toute créature ou objet se trouvant encore dans le passage créé par le sort est éjecté en toute sécurité dans un espace inoccupé le plus proche de la surface où vous avez lancé le sort.</p>",
       "activities": {
         "Cast": {
@@ -2826,7 +2834,7 @@
       }
     },
     "Phantasmal Force": {
-      "name": "Force Fantasmatique",
+      "name": "Force fantasmagorique",
       "description": "<div><p>Vous tentez de créer une illusion dans l'esprit d'une créature que vous pouvez voir à portée. La cible effectue un jet de sauvegarde d'Intelligence. En cas d'échec, vous créez un objet, une créature ou un autre phénomène fantasmagorique qui ne dépasse pas la taille d'un cube de 3 mètres et qui est perceptible uniquement par la cible pendant toute la durée. Le fantasme inclut des sons, des températures et d'autres stimuli.</p><p>La cible peut effectuer une action &amp;Reference[Study]{Étudier} pour examiner le fantasme avec un [[/check ability=int skill=inv dc=@attributes.spelldc]] test contre le DD de sauvegarde de vos sorts. Si le test réussit, la cible réalise que le fantasme est une illusion et le sort prend fin.</p><p>Tant qu'elle est affectée par le sort, la cible traite le fantasme comme s'il était réel et rationalise tout résultat illogique découlant de son interaction avec lui. Par exemple, si la cible traverse un pont fantasmagorique et survit à la chute, elle croit que le pont existe et qu'une autre cause a entraîné sa chute.</p><p>Une cible affectée peut même subir des dégâts dus à l'illusion si le fantasme représente une créature dangereuse ou un danger. À chacun de vos tours, un tel fantasme peut infliger 2d8 dégâts Psychiques à la cible si elle se trouve dans la zone du fantasme ou à 1,5 mètres de celui-ci. La cible perçoit les dégâts comme un type approprié à l'illusion.</p></div>",
       "activities": {
         "Cast": {
@@ -2854,7 +2862,7 @@
       }
     },
     "Phantom Steed": {
-      "name": "Destrier Fantôme",
+      "name": "Monture fantôme",
       "description": "<p>Une grande créature quasi réelle ressemblant à un @UUID[Compendium.dnd-players-handbook.actors.Actor.phbsumPhantomSte]{cheval} apparaît au sol dans un espace inoccupé de votre choix à portée. Vous décidez de l'apparence de la créature, et elle est équipée d'une selle, d'un mors et d'une bride. Tout équipement créé par le sort disparaît en une bouffée de fumée s’il est emporté à plus de 3 mètres du destrier.</p><p>Pour la durée, vous ou une créature choisie pouvez monter le destrier. Le destrier utilise les caractéristiques de la <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRidingHors]{Monture de Selle}</strong> (voir l’annexe B), mais avec une vitesse de 30 mètres et peut parcourir 21 kilomètres en une heure. Lorsque le sort prend fin, le destrier se dissipe progressivement, donnant au cavalier une minute pour descendre. Le sort prend fin prématurément si le destrier subit des dégâts.</p>"
     },
     "Planar Ally": {
@@ -2867,7 +2875,7 @@
       }
     },
     "Planar Binding": {
-      "name": "Lien Planétaire",
+      "name": "Contrat",
       "description": "<p>Vous tentez de lier un Céleste, un Élémentaire, un Féérique ou un Fiélon à votre service. La créature doit rester à portée durant tout le lancement du sort. (Généralement, la créature est d’abord invoquée au centre d’une <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicCircl]{Cercle Magique}</em> inversé pour la piéger pendant que le sort est lancé.) À l’issue du lancement, la cible doit réussir un jet de sauvegarde de Charisme ou être liée pour la durée. Si la créature a été invoquée ou créée par un autre sort, la durée de ce dernier est prolongée pour correspondre à la durée de ce sort.</p><p>Une créature liée doit suivre vos ordres au mieux de ses capacités. Vous pouvez lui ordonner de vous accompagner en aventure, de garder un lieu ou de délivrer un message. Si la créature est hostile, elle cherchera à déformer vos ordres pour atteindre ses propres objectifs. Si elle accomplit vos ordres avant la fin du sort, elle revient pour vous en informer si vous êtes sur le même plan d’existence. Sinon, elle retourne à l’endroit où vous l’avez liée et y reste jusqu’à la fin du sort.</p><p><strong>Utiliser un emplacement de sort supérieur.</strong> La durée augmente avec un emplacement de niveau 6 (10 jours), 7 (30 jours), 8 (180 jours) et 9 (366 jours).</p>",
       "effects": {
         "Bound to Service": {
@@ -2877,7 +2885,7 @@
       }
     },
     "Plane Shift": {
-      "name": "Transfert Planétaire",
+      "name": "Changement de plan",
       "description": "<p>Vous et jusqu’à huit créatures volontaires formant un cercle en se tenant la main êtes transportés vers un autre plan d’existence. Vous pouvez indiquer une destination en termes généraux, comme la Cité de Brass dans le Plan Élémentaire de Feu ou le palais de Dispater sur le deuxième niveau des Neuf Enfers. Vous apparaissez dans ou près de cette destination, selon la décision du MJ.</p><p>Alternativement, si vous connaissez la séquence de sigil d’un cercle de téléportation sur un autre plan, ce sort peut vous y amener. Si le cercle de téléportation est trop petit pour contenir toutes les créatures transportées, elles apparaissent dans les espaces inoccupés les plus proches du cercle.</p>",
       "activities": {
         "Transport": {
@@ -2886,7 +2894,7 @@
       }
     },
     "Plant Growth": {
-      "name": "Croissance des Plantes",
+      "name": "Croissance végétale",
       "description": "<p><strong>Temps d’incantation :</strong> Action (Surcroissance) ou 8 heures (Enrichissement)</p><p>Ce sort canalise de la vitalité dans les plantes. Le temps d’incantation choisi détermine si le sort produit l'effet de Surcroissance ou d'Enrichissement ci-dessous.</p><p><strong>Surcroissance.</strong> Choisissez un point à portée. Toutes les plantes normales dans une sphère de 30 mètres de rayon centrée sur ce point deviennent épaisses et envahissantes. Une créature qui se déplace dans cette zone doit dépenser 4 mètres de déplacement pour chaque mètre qu’elle parcourt. Vous pouvez exclure une ou plusieurs zones de n'importe quelle taille dans l’aire d’effet du sort.</p><p><strong>Enrichissement. </strong>Toutes les plantes dans un rayon d’un kilomètre et demi centré sur un point à portée sont enrichies pendant 365 jours. Les plantes produisent alors deux fois plus de nourriture lors de la récolte. Elles ne peuvent bénéficier que d’un seul <em>Croissance des Plantes</em> par an.</p>",
       "activities": {
         "Overgrowth": {
@@ -2935,11 +2943,6 @@
     "Power Word Stun": {
       "name": "Mot de Pouvoir : Étourdissement",
       "description": "<p>Vous submergez l'esprit d'une créature que vous pouvez voir à portée. Si la cible a 150 Points de Vie ou moins, elle est Étourdie. Sinon, sa Vitesse est réduite à 0 jusqu’au début de votre prochain tour.</p><p>La &amp;Reference[Stunned apply=false] cible effectue un jet de sauvegarde [[/save ability=con dc=@attributes.spelldc]] à la fin de chacun de ses tours, mettant fin à la condition en cas de succès.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Stunned": {
           "name": "Stunned",
@@ -2948,6 +2951,11 @@
         "No Movement": {
           "name": "No Movement",
           "description": "<p>The target's Speed is 0 until the start of your next turn.</p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -2971,7 +2979,7 @@
       }
     },
     "Prismatic Spray": {
-      "name": "Jet Prismatique",
+      "name": "Rayons prismatiques",
       "description": "<p>Huit rayons de lumière jaillissent de vous dans un Cône de 18 mètres. Chaque créature dans le Cône effectue un jet de sauvegarde de Dextérité. Pour chaque cible, lancez 1d8 pour déterminer quel rayon de couleur l'affecte en consultant le tableau des Rayons Prismatiques.</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbPrismaticRays rollable=true caption=false]{Rayons Prismatiques}</p>",
       "activities": {
         "Cast": {
@@ -2996,7 +3004,7 @@
       }
     },
     "Prismatic Wall": {
-      "name": "Mur Prismatique",
+      "name": "Mur prismatique",
       "description": "<p>Un mur scintillant de lumière multicolore forme un plan vertical opaque — jusqu’à 27 mètres de long, 9 mètres de haut et 2,5 cm d’épaisseur — centré sur un point à portée. Alternativement, vous pouvez modeler le mur en une sphère d’un diamètre de 9 mètres centrée sur un point à portée. Le mur persiste pendant toute la durée du sort. Si vous le placez dans un espace occupé par une créature, le sort se termine instantanément sans effet.</p><p>Le mur émet de la &amp;Reference[BrightLight] dans un rayon de 30 mètres et de la &amp;Reference[DimLight] dans un rayon supplémentaire de 30 mètres. Vous et les créatures que vous désignez lors du lancement du sort pouvez passer à travers le mur et rester proches sans danger. Si une autre créature pouvant voir le mur se déplace à 6 mètres de celui-ci ou commence son tour à cet endroit, elle doit réussir un jet de sauvegarde de Constitution ou subir la condition &amp;Reference[Blinded apply=false] pendant 1 minute.</p><p>Le mur est composé de sept couches, chacune d’une couleur différente. Lorsqu’une créature entre dans le mur ou le traverse, elle traverse chaque couche une à une. Chaque couche force la créature à réussir un jet de sauvegarde de Dextérité ou à subir les effets de cette couche, comme décrit dans le tableau des Couches Prismatiques.</p><p>Le mur, qui a une CA de 10, peut être détruit couche par couche, dans l'ordre du rouge au violet, par des moyens spécifiques à chaque couche. Si une couche est détruite, elle disparaît pour la durée du sort. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAntimagicF]{Champ Antimagie}</em> n'a aucun effet sur le mur, et <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagicF]{Dissipation de la Magie}</em> n'affecte que la couche violette.</p><table><caption>Couches Prismatiques</caption><thead><tr><td>Ordre</td><td>Effets</td></tr></thead><tbody><tr><td>1</td><td><strong>Rouge.</strong> <em>Échec au Jet de Sauvegarde :</em> 12d6 dégâts de feu. <em>Réussite :</em> Moitié des dégâts. <em>Effets supplémentaires</em> : Les attaques à distance non magiques ne peuvent pas traverser cette couche, qui est détruite si elle subit au moins 25 dégâts de froid.</td></tr><tr><td>2</td><td><strong>Orange.</strong> <em>Échec :</em> 12d6 dégâts d'acide. <em>Réussite :</em> Moitié des dégâts. <em>Effets supplémentaires :</em> Les attaques à distance magiques ne peuvent pas traverser cette couche, qui est détruite par un vent puissant (comme celui créé par <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Rafale de Vent}</em>).</td></tr><tr><td>3</td><td><strong>Jaune.</strong> <em>Échec :</em> 12d6 dégâts de foudre. <em>Réussite :</em> Moitié des dégâts. <em>Effets supplémentaires :</em> La couche est détruite si elle subit au moins 60 dégâts de force.</td></tr><tr><td>4</td><td><strong>Vert.</strong> <em>Échec :</em> 12d6 dégâts de poison. <em>Réussite :</em> Moitié des dégâts. <em>Effets supplémentaires :</em> Un sort <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswall00]{Passage Sans Trace}</em>, ou un autre sort de même niveau ou supérieur capable d'ouvrir un portail dans une surface solide, détruit cette couche.</td></tr><tr><td>5</td><td><strong>Bleu.</strong> <em>Échec :</em> 12d6 dégâts de froid. <em>Réussite :</em> Moitié des dégâts. <em>Effets supplémentaires :</em> La couche est détruite si elle subit au moins 25 dégâts de feu.</td></tr><tr><td>6</td><td><strong>Indigo.</strong> <em>Échec :</em> La cible obtient la condition &amp;Reference[Restrained apply=false] et effectue un [[/save ability=con dc=@attributes.spelldc format=long]] à la fin de chacun de ses tours. Si elle réussit trois fois, la condition prend fin. Si elle échoue trois fois, elle obtient la condition &amp;Reference[Petrified] jusqu’à ce qu’elle soit libérée par un effet comme le sort <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauration Supérieure}</em>. Les réussites et échecs n’ont pas besoin d’être consécutifs; gardez un suivi jusqu’à trois du même type. <em>Effets supplémentaires :</em> Les sorts ne peuvent pas être lancés à travers cette couche, qui est détruite par la Lumière Vive émise par le sort <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{Lumière du Jour}</em>.</td></tr><tr><td>7</td><td><strong>Violet.</strong> <em>Échec :</em> La cible obtient la condition &amp;Reference[Blinded apply=false] et effectue un [[/save ability=wis dc=@attributes.spelldc format=long]] au début de votre prochain tour. En cas de succès, la condition prend fin. En cas d'échec, la condition prend fin, et la créature est téléportée vers un autre plan d'existence (au choix du MJ). <em>Effets supplémentaires :</em> Cette couche est détruite par <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagicF]{Dissipation de la Magie}</em>.</td></tr></tbody></table>",
       "activities": {
         "Create Wall": {
@@ -3028,7 +3036,7 @@
       }
     },
     "Produce Flame": {
-      "name": "Flamme En Main",
+      "name": "Flammes",
       "description": "<p>Une flamme vacillante apparaît dans votre main et y reste pour la durée du sort. Tant qu’elle y est, elle n’émet aucune chaleur, n’enflamme rien, et diffuse de la Lumière Vive dans un rayon de 6 mètres et de la Lumière Tamisée dans un rayon supplémentaire de 6 mètres. Le sort prend fin si vous le lancez à nouveau.</p><p>Jusqu’à la fin du sort, vous pouvez effectuer une action magique pour lancer la flamme sur une créature ou un objet dans un rayon de 18 mètres. Effectuez une attaque de sort à distance. En cas de succès, la cible subit 1d8 dégâts de feu.</p><p><strong>Amélioration du Tour de Magie.</strong> Les dégâts augmentent de 1d8 aux niveaux 5 (2d8), 11 (3d8) et 17 (4d8).</p>",
       "activities": {
         "Cast": {
@@ -3058,13 +3066,8 @@
       }
     },
     "Protection from Energy": {
-      "name": "Protection contre l'Énergie",
+      "name": "Protection contre une énergie",
       "description": "<div><p>Pendant toute la durée du sort, la créature consentante que vous touchez bénéficie de la Résistance à un type de dégâts de votre choix : Acide, Froid, Feu, Foudre ou Tonnerre.</p></div>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Acid Protection": {
           "name": "Acid Protection"
@@ -3081,20 +3084,25 @@
         "Thunder Protection": {
           "name": "Thunder Protection"
         }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
+        }
       }
     },
     "Protection from Evil and Good": {
       "name": "Protection contre le Bien et le Mal",
       "description": "<div><p>Jusqu'à la fin du sort, une créature consentante que vous touchez est protégée contre les créatures suivantes : Aberrations, Célestes, Élémentaires, Fées, Fiélons, ou Morts-vivants. La protection confère plusieurs avantages. Les créatures de ces types ont un Désavantage sur les jets d’attaque contre la cible. De plus, la cible ne peut pas être possédée ni recevoir les conditions &amp;Reference[Charmed apply=false] ou &amp;Reference[Frightened apply=false] de ces créatures. Si la cible est déjà possédée, Charmée, ou Effrayée par une telle créature, elle a l'Avantage sur tout nouveau jet de sauvegarde contre cet effet.</p></div>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Protected": {
           "name": "Protected",
           "description": "<p>Creatures of those types have Disadvantage on attack rolls against the target. The target also can’t be possessed by or gain the &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened apply=false] conditions from them. </p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -3109,11 +3117,11 @@
       }
     },
     "Purify Food and Drink": {
-      "name": "Purification de la Nourriture et de la Boisson",
+      "name": "Purification de la Nourriture et d'eau",
       "description": "<p>Vous retirez le poison et la pourriture des aliments et boissons non magiques dans une sphère de 1,5 mètre de rayon centrée sur un point dans la portée.</p>"
     },
     "Raise Dead": {
-      "name": "Reviviscence",
+      "name": "Rappel à la vie",
       "description": "<p>En touchant une créature, vous la ramenez à la vie si elle est morte depuis moins de 10 jours et n’était pas un Mort-vivant lorsqu'elle est morte.</p><p>La créature revient à la vie avec 1 point de vie. Ce sort neutralise aussi tout poison affectant la créature au moment de sa mort.</p><p>Ce sort referme toutes les blessures mortelles, mais ne restaure pas les parties du corps manquantes. Si la créature manque de parties corporelles ou d'organes essentiels à sa survie — sa tête, par exemple — le sort échoue automatiquement.</p><p>Revenir de la mort est une épreuve. La cible subit un malus de −4 aux Tests de D20. Chaque fois qu'elle termine un repos long, le malus diminue de 1 jusqu'à revenir à 0.</p>",
       "activities": {
         "Revive": {
@@ -3178,7 +3186,7 @@
       }
     },
     "Ray of Sickness": {
-      "name": "Rayon de Maladie",
+      "name": "Rayon empoisonné",
       "description": "<p>Un rayon verdâtre est projeté vers une créature dans la portée. Effectuez une attaque de sort à distance contre la cible. En cas de réussite, la cible subit 2d8 dégâts de Poison et gagne la condition &amp;Reference[poisoned] jusqu'à la fin de votre prochain tour.</p><p><strong>Utilisation d'un emplacement de sort supérieur.</strong> Les dégâts augmentent de 1d8 pour chaque niveau d’emplacement de sort supérieur au 1er.</p>"
     },
     "Regenerate": {
@@ -3201,7 +3209,7 @@
       }
     },
     "Remove Curse": {
-      "name": "Annulation de Malédiction",
+      "name": "Délivrance des malédictions",
       "description": "<p>En touchant une créature ou un objet, toutes les malédictions affectant cette cible prennent fin. Si l'objet est un objet magique maudit, la malédiction reste, mais le sort rompt l'accord d'attunement avec le porteur pour qu'il puisse s'en débarrasser ou l'enlever.</p>",
       "activities": {
         "Cast": {
@@ -3213,9 +3221,12 @@
       "name": "Résistance",
       "description": "<p>Vous touchez une créature consentante et choisissez un type de dégâts : Acide, Contondant, Froid, Feu, Foudre, Nécrotique, Perforant, Poison, Radiant, Tranchant ou Tonnerre. Lorsqu’elle subit des dégâts de ce type avant la fin du sort, la créature réduit les dégâts subis de 1d4. Une créature ne peut bénéficier de ce sort qu'une fois par tour.</p>",
       "activities": {
+        "utility": {
+          "roll": "Réduction des Dégâts"
+        },
         "Cast": {
           "name": "Lancer",
-          "roll": "Damage Reduction"
+          "roll": "Réduction des Dégâts"
         }
       },
       "effects": {
@@ -3300,15 +3311,15 @@
       }
     },
     "Reverse Gravity": {
-      "name": "Gravité Inversée",
+      "name": "Inversion de la gravité",
       "description": "<p>Ce sort inverse la gravité dans un cylindre de 15 mètres de rayon et 30 mètres de hauteur centré sur un point dans la portée. Toutes les créatures et objets dans cette zone qui ne sont pas ancrés au sol tombent vers le haut et atteignent le sommet du cylindre. Une créature peut faire un jet de sauvegarde de Dextérité pour s'accrocher à un objet fixe qu'elle peut atteindre, évitant ainsi la chute vers le haut.</p><p>Si une créature ou un objet heurte un plafond ou un objet ancré lors de cette chute vers le haut, elle subit les dégâts comme pour une chute vers le bas. Si une créature ou un objet atteint le sommet du cylindre sans heurter quoi que ce soit, elle flotte là pendant la durée du sort. Lorsque le sort prend fin, les objets et créatures affectés retombent vers le bas.</p>"
     },
     "Revivify": {
-      "name": "Renaissance",
+      "name": "Retour à la vie",
       "description": "<p>Vous touchez une créature morte depuis moins d'une minute. Cette créature revient à la vie avec 1 point de vie. Ce sort ne peut pas ressusciter une créature morte de vieillesse et ne restaure pas les parties du corps manquantes.</p>"
     },
     "Rope Trick": {
-      "name": "Truc de Corde",
+      "name": "Corde enchantée",
       "description": "<p>Vous touchez une corde. Une extrémité de la corde s'élève jusqu'à ce qu'elle soit perpendiculaire au sol ou qu'elle atteigne un plafond. À l'extrémité supérieure de la corde, un portail invisible de 90 cm sur 1,5 mètre s'ouvre vers un espace extradimensionnel qui dure jusqu'à la fin du sort. Cet espace peut être atteint en grimpant à la corde, qui peut être tirée dans ou sortie de cet espace.</p><p>L’espace peut contenir jusqu'à huit créatures de taille Moyenne ou plus petite. Les attaques, sorts et autres effets ne peuvent pas traverser cet espace, mais les créatures à l'intérieur peuvent voir à travers le portail. Tout ce qui est à l'intérieur de l'espace tombe en dehors lorsque le sort prend fin.</p>"
     },
     "Sacred Flame": {
@@ -3339,7 +3350,7 @@
       }
     },
     "Scorching Ray": {
-      "name": "Rayon Brûlant",
+      "name": "Rayon ardent",
       "description": "<p>Vous lancez trois rayons enflammés. Vous pouvez les lancer sur une cible à portée ou les répartir entre plusieurs cibles. Faites une attaque de sort à distance pour chaque rayon. En cas de réussite, la cible subit 2d6 dégâts de Feu.</p><p><strong>Utilisation d'un emplacement de sort supérieur.</strong> Vous créez un rayon supplémentaire pour chaque niveau d’emplacement de sort supérieur au 2e.</p><p>[[@item.level + 1]]{Nombre total de rayons}</p>"
     },
     "Scrying": {
@@ -3379,7 +3390,7 @@
       }
     },
     "Searing Smite": {
-      "name": "Châtiment Brûlant",
+      "name": "Châtiment calcinant",
       "description": "<p>Lorsque vous touchez la cible, elle subit 1d6 dégâts de Feu supplémentaires. Au début de chacun de ses tours jusqu'à la fin du sort, la cible subit 1d6 dégâts de Feu, puis effectue un jet de sauvegarde de Constitution. En cas d'échec, le sort continue. En cas de réussite, le sort prend fin.</p><p><strong>Utilisation d'un emplacement de sort supérieur.</strong> Tous les dégâts augmentent de 1d6 pour chaque niveau d’emplacement de sort supérieur au 1er.</p>",
       "activities": {
         "Start of Turn Save": {
@@ -3428,22 +3439,22 @@
       "description": "<p>Vous envoyez un court message de 25 mots ou moins à une créature que vous avez rencontrée ou décrite par quelqu'un qui l'a rencontrée. La cible entend le message dans son esprit, vous reconnaît comme l’expéditeur si elle vous connaît, et peut répondre de la même manière immédiatement. Le sort permet aux cibles de comprendre le message.</p><p>Vous pouvez envoyer le message à n'importe quelle distance et même vers d'autres plans d'existence, mais si la cible se trouve sur un autre plan, il y a 5 % de chances que le message n'arrive pas. Vous savez si la livraison échoue.</p><p>Après avoir reçu votre message, une créature peut bloquer votre capacité à la joindre à nouveau avec ce sort pendant 8 heures. Si vous tentez d’envoyer un autre message pendant ce temps, vous apprenez que vous êtes bloqué et le sort échoue.</p>"
     },
     "Sequester": {
-      "name": "Séquestration",
+      "name": "Dissimulation",
       "description": "<p>En touchant un objet ou une créature consentante, vous le séquestrez magiquement. Pour la durée du sort, la cible gagne la condition Invisible et ne peut être ciblée par des sorts de Divination, détectée par magie, ni observée à distance par magie.</p><p>Si la cible est une créature, elle entre dans un état d'animation suspendue ; elle gagne la condition Inconsciente, ne vieillit pas, et n’a pas besoin de nourriture, d’eau, ni d’air.</p><p>Vous pouvez fixer une condition pour que le sort se termine prématurément. Cette condition peut être n'importe quoi de votre choix, mais doit se produire ou être visible à 1,6 km de la cible. Exemples : “après 1 000 ans” ou “lorsque le tarrasque s'éveille”. Ce sort prend également fin si la cible subit des dégâts.</p>",
+      "effects": {
+        "Sequestered": {
+          "name": "Dissimuler",
+          "description": "<p>If the target is a creature, it enters a state of suspended animation; it has the &amp;Reference[Unconscious apply=false] condition, doesn’t age, and doesn’t need food, water, or air. This spell also ends if the target takes any damage.</p>"
+        }
+      },
       "activities": {
         "Cast": {
           "name": "Lancer"
         }
-      },
-      "effects": {
-        "Sequestered": {
-          "name": "Sequestered",
-          "description": "<p>If the target is a creature, it enters a state of suspended animation; it has the &amp;Reference[Unconscious apply=false] condition, doesn’t age, and doesn’t need food, water, or air. This spell also ends if the target takes any damage.</p>"
-        }
       }
     },
     "Shapechange": {
-      "name": "Métamorphose",
+      "name": "Changement de forme",
       "description": "<p>Vous vous transformez en une autre créature pour la durée du sort ou jusqu'à ce que vous utilisiez une action magique pour adopter une autre forme admissible. La nouvelle forme doit être celle d'une créature dont la valeur de difficulté ne dépasse pas votre niveau ou votre propre valeur de difficulté. Vous devez déjà avoir vu ce type de créature, et elle ne peut être ni un Construct ni un Mort-vivant.</p><p>Lorsque vous vous transformez, vous gagnez un nombre de points de vie temporaires égal aux points de vie de la nouvelle forme. Le sort prend fin plus tôt si vous n'avez plus de points de vie temporaires.</p><p>Vos caractéristiques de jeu sont remplacées par les statistiques de la forme choisie, mais vous conservez votre type de créature, alignement, personnalité, ainsi que vos scores d'Intelligence, de Sagesse et de Charisme, vos points de vie, vos dés de vie, vos compétences et votre capacité de communication. Si vous avez la caractéristique de Lancer de sorts, vous la conservez également.</p><p>Lors de votre transformation, vous décidez si votre équipement tombe au sol ou s'adapte en taille et en forme pour convenir à votre nouvelle forme.</p>",
       "activities": {
         "Cast": {
@@ -3452,21 +3463,21 @@
       }
     },
     "Shatter": {
-      "name": "Fracas",
+      "name": "Fracassement",
       "description": "<p>Un bruit intense éclate à un point de votre choix dans la portée du sort. Chaque créature dans une sphère de 3 mètres de rayon centrée sur ce point doit faire un jet de sauvegarde de Constitution, subissant 3d8 dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les Constructs ont un désavantage sur ce jet de sauvegarde.</p><p>Un objet non magique qui n'est ni porté ni tenu subit également les dégâts s'il est dans la zone du sort.</p><p><strong>En utilisant un emplacement de sort supérieur.</strong> Les dégâts augmentent de 1d8 pour chaque niveau d'emplacement de sort au-delà du niveau 2.</p>"
     },
     "Shield": {
       "name": "Bouclier",
       "description": "<p>Une barrière magique imperceptible vous protège. Jusqu'au début de votre prochain tour, vous bénéficiez d'un bonus de +5 à la CA, y compris contre l'attaque déclenchante, et vous ne subissez aucun dégât du sort <em>Projectiles Magiques</em>.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Imperceptible Barrier": {
           "name": "Imperceptible Barrier",
           "description": "<p>Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>Magic Missile</em>.</p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -3516,7 +3527,7 @@
       }
     },
     "Shining Smite": {
-      "name": "Châtiment Lumineux",
+      "name": "Châtiment de Lumière",
       "description": "<p>La cible touchée par le coup subit 2d6 dégâts Radiants supplémentaires de l'attaque. Jusqu'à la fin du sort, la cible émet une &amp;Reference[BrightLight]{lumière vive} dans un rayon de 1,5 mètres, les jets d'attaque contre elle ont l'Avantage, et elle ne peut pas bénéficier de la condition &amp;Reference[Invisible]{Invisible}.</p><p><strong>Utilisation d'un emplacement de sort de niveau supérieur.</strong> Les dégâts augmentent de 1d6 pour chaque niveau d'emplacement de sort au-delà du 2e.</p>",
       "effects": {
         "Shining": {
@@ -3526,7 +3537,7 @@
       }
     },
     "Shocking Grasp": {
-      "name": "Poigne Électrisante",
+      "name": "Poigne électrique",
       "description": "<p>Un éclair jaillit de vous vers une créature que vous tentez de toucher. Effectuez une attaque de sort de mêlée contre la cible. En cas de succès, la cible subit 1d8 dégâts de foudre et ne peut pas faire d'attaques d'opportunité jusqu'au début de votre prochain tour.</p><p><strong>Amélioration de tour gratuit.</strong> Les dégâts augmentent de 1d8 à mesure que vous atteignez les niveaux 5 (2d8), 11 (3d8) et 17 (4d8).</p>",
       "effects": {
         "Shocked": {
@@ -3573,66 +3584,66 @@
       "description": "<p>Jusqu'à la fin du sort, de la grêle tombe dans un cylindre de 12 mètres de hauteur et de 6 mètres de rayon centré sur un point de votre choix dans la portée du sort. La zone est &amp;Reference[heavilyobscured], et les flammes exposées dans la zone sont éteintes.</p><p>Le sol dans le cylindre est &amp;Reference[difficultterrain]. Lorsqu'une créature entre dans le cylindre pour la première fois lors d’un tour ou commence son tour dans cette zone, elle doit réussir un jet de sauvegarde de Dextérité ou être affectée par la condition &amp;Reference[prone] et perdre sa &amp;Reference[concentration].</p>"
     },
     "Slow": {
-      "name": "Ralenti",
+      "name": "Lenteur",
       "description": "<p>Vous altérez le temps autour de jusqu'à six créatures de votre choix dans un cube de 12 mètres de côté dans la portée du sort. Chaque cible doit réussir un jet de sauvegarde de Sagesse ou être affectée par ce sort pour la durée.</p><p>La Vitesse de la cible affectée est réduite de moitié, elle subit un malus de −2 à la CA et aux jets de sauvegarde de Dextérité, et elle ne peut pas prendre de Réactions. Lors de son tour, elle ne peut prendre qu'une Action ou une Action Bonus, mais pas les deux, et elle ne peut faire qu'une seule attaque si elle choisit l'action Attaque. Si elle lance un sort comportant une composante Somatique, il y a une [[/r 1d100cs&lt;=25#Réussite du sort ralenti]]{chance de 25 pour cent} que le sort échoue, car la cible exécute les gestes du sort trop lentement.</p><p>La cible affectée répète le jet de sauvegarde à la fin de chacun de ses tours, mettant fin au sort sur elle-même en cas de réussite.</p><section id=\"secret-2RobIVhv3tn7gmU7\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Le jet en ligne ci-dessus retournera 1 si réussi ou 0 si échoué.</p></section>",
       "effects": {
         "Slowed": {
-          "name": "Slowed",
+          "name": "Lenteur",
           "description": "<p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Slowed spell cast success]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the [[/save ability=wis]] save at the end of each of its turns, ending the spell on itself on a success.</p>"
         }
       }
     },
     "Sorcerous Burst": {
-      "name": "Explosion Sorcière",
-      "description": "<p>Vous lancez une énergie sorcière vers une créature ou un objet dans la portée du sort. Effectuez un jet d'attaque à distance contre la cible. En cas de réussite, la cible subit 1d8 dégâts d'un type que vous choisissez : Acide, Froid, Feu, Foudre, Poison, Psychique ou Tonnerre.</p><p>Si vous obtenez un 8 sur un d8 pour ce sort, vous pouvez lancer un autre d8 et ajouter ce résultat aux dégâts. Lors du lancement de ce sort, le nombre maximum de d8 supplémentaires que vous pouvez ajouter aux dégâts du sort est égal à votre modificateur de capacité de lancer de sorts.</p><p><strong>Amélioration du Sort mineur.</strong> Les dégâts augmentent de 1d8 lorsque vous atteignez les niveaux 5 (2d8), 11 (3d8), et 17 (4d8).</p>"
+      "name": "Explosion Ensorcelée",
+      "description": "<p>Vous lancez une énergie Magique vers une créature ou un objet dans la portée du sort. Effectuez un jet d'attaque à distance contre la cible. En cas de réussite, la cible subit 1d8 dégâts d'un type que vous choisissez : Acide, Froid, Feu, Foudre, Poison, Psychique ou Tonnerre.</p><p>Si vous obtenez un 8 sur un d8 pour ce sort, vous pouvez lancer un autre d8 et ajouter ce résultat aux dégâts. Lors du lancement de ce sort, le nombre maximum de d8 supplémentaires que vous pouvez ajouter aux dégâts du sort est égal à votre modificateur de capacité de lancer de sorts.</p><p><strong>Amélioration du Sort mineur.</strong> Les dégâts augmentent de 1d8 lorsque vous atteignez les niveaux 5 (2d8), 11 (3d8), et 17 (4d8).</p>"
     },
     "Spare the Dying": {
-      "name": "Épargner les Mourants",
+      "name": "Stabilisation",
       "description": "<p>Choisissez une créature dans la portée du sort ayant 0 point de vie et n’étant pas morte. La créature devient Stable.</p><p><strong>Amélioration du Sort mineur.</strong> La portée double lorsque vous atteignez les niveaux 5 (9 mètres), 11 (18 mètres), et 17 (36 mètres).</p>",
+      "effects": {
+        "Stabilized": {
+          "name": "Stabliser"
+        }
+      },
       "activities": {
         "Cast": {
           "name": "Lancer"
         }
-      },
-      "effects": {
-        "Stabilized": {
-          "name": "Stabilized"
-        }
       }
     },
     "Speak with Animals": {
-      "name": "Parler aux Animaux",
+      "name": "Communication avec les animaux",
       "description": "<p>Pendant la durée, vous pouvez comprendre et communiquer verbalement avec les Bêtes, et vous pouvez utiliser les options de compétences de l’action Influence avec elles.</p><p>La plupart des Bêtes ont peu à dire sur des sujets autres que la survie ou la compagnie, mais elles peuvent au minimum fournir des informations sur les lieux et les créatures à proximité, y compris ce qu'elles ont perçu au cours de la dernière journée.</p>",
       "effects": {
         "Bestial Communication": {
-          "name": "Bestial Communication"
+          "name": "Communication Bestiale"
         }
       }
     },
     "Speak with Dead": {
-      "name": "Parler aux Morts",
+      "name": "Communication avec les morts",
       "description": "<p>Vous conférez une apparence de vie à un cadavre de votre choix dans la portée du sort, lui permettant de répondre aux questions que vous lui posez. Le cadavre doit avoir une bouche, et ce sort échoue si la créature décédée était un Mort-vivant lorsqu’elle est morte. Le sort échoue également si le cadavre a déjà été la cible de ce sort au cours des 10 derniers jours.</p><p>Jusqu’à la fin du sort, vous pouvez poser jusqu’à cinq questions au cadavre. Le cadavre ne sait que ce qu’il savait de son vivant, y compris les langues qu’il connaissait. Les réponses sont généralement brèves, cryptiques ou répétitives, et le cadavre n'est pas obligé de dire la vérité si vous lui êtes hostile ou si vous êtes perçu comme un ennemi. Ce sort ne ramène pas l’âme de la créature dans son corps, mais seulement son esprit animant. Ainsi, le cadavre ne peut pas apprendre de nouvelles informations, ne comprend pas ce qui s'est passé depuis sa mort, et ne peut pas spéculer sur des événements futurs.</p>"
     },
     "Speak with Plants": {
-      "name": "Parler aux Plantes",
+      "name": "Communication avec les plantes",
       "description": "<p>Vous conférez aux plantes dans une émanation immobile de 9 mètres une intelligence et une animation limitées, leur permettant de communiquer avec vous et de suivre vos instructions simples. Vous pouvez interroger les plantes sur des événements survenus dans la zone du sort au cours de la journée précédente, obtenant des informations sur les créatures qui sont passées, le temps, et d'autres circonstances.</p><p>Vous pouvez également transformer le &amp;Reference[difficultterrain] causé par la végétation (comme les fourrés et les broussailles) en terrain normal qui dure pour la durée du sort. Ou vous pouvez transformer le terrain normal avec des plantes en Terrain Difficile pour la durée.</p><p>Le sort ne permet pas aux plantes de se déraciner et de se déplacer, mais elles peuvent bouger leurs branches, vrilles et tiges pour vous.</p><p>Si une créature Plante est présente dans la zone, vous pouvez communiquer avec elle comme si vous partagiez une langue commune.</p>",
       "effects": {
         "Speaking with Plants": {
-          "name": "Speaking with Plants"
+          "name": "Communication avec les plantes"
         }
       }
     },
     "Spider Climb": {
       "name": "Pattes d'araignée",
       "description": "<p>Jusqu'à la fin du sort, une créature consentante que vous touchez gagne la capacité de se déplacer vers le haut, vers le bas, sur des surfaces verticales, et le long des plafonds, tout en gardant les mains libres. La cible obtient également une Vitesse d’Escalade égale à sa Vitesse.</p><p><strong>Utiliser un Emplacement de Sort Supérieur.</strong> Vous pouvez cibler une créature supplémentaire pour chaque niveau d'emplacement de sort supérieur à 2.</p><section class=\"secret\" id=\"secret-4LoECjSnyIsXFdKY\"><p><strong>Note Foundry</strong></p><p>L’effet actif fourni par l’activité <strong>Lancer</strong> ajuste la Vitesse d’Escalade du personnage à une valeur de \"1\" pour indiquer l'équivalence avec sa Vitesse de marche.</p></section>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer"
-        }
-      },
       "effects": {
         "Spider Climb": {
           "name": "Spider Climb"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
@@ -3646,7 +3657,7 @@
       }
     },
     "Spirit Guardians": {
-      "name": "Gardiens Spirituels",
+      "name": "Esprits gardiens",
       "description": "<p>Des esprits protecteurs voltigent autour de vous dans un rayonnement de 4,5 mètres pour la durée du sort. Si vous êtes bon ou neutre, ils apparaissent sous une forme spectrale angélique ou féerique (au choix). Si vous êtes mauvais, ils apparaissent sous une forme démoniaque.</p><p>Lorsque vous lancez ce sort, vous pouvez désigner des créatures qui ne seront pas affectées par celui-ci. La vitesse de toute autre créature dans le rayonnement est réduite de moitié, et chaque fois que le rayonnement entre dans l'espace d'une créature, que celle-ci y pénètre ou y termine son tour, elle doit réussir un jet de sauvegarde de Sagesse. En cas d'échec, elle subit 3d8 de dégâts radiants (si vous êtes bon ou neutre) ou 3d8 de dégâts nécrotiques (si vous êtes mauvais). En cas de réussite, elle subit la moitié des dégâts. Une créature fait ce jet de sauvegarde une seule fois par tour.</p><p><strong>Utilisation avec un emplacement de sort de niveau supérieur.</strong> Les dégâts augmentent de 1d8 pour chaque niveau de l'emplacement de sort au-delà du 3e.</p>",
       "activities": {
         "Emanation Save": {
@@ -3668,7 +3679,7 @@
       "description": "<p>Vous créez une force spectrale flottante qui ressemble à une arme de votre choix et dure pour la durée du sort. La force apparaît à portée dans un espace de votre choix, et vous pouvez immédiatement effectuer une attaque de sort au corps à corps contre une créature se trouvant à 1,5 mètre ou moins de la force. En cas de réussite, la cible subit des dégâts de Force égaux à 1d8 plus votre modificateur de capacité d'incantation.</p><p>Comme action bonus lors de vos tours suivants, vous pouvez déplacer la force jusqu'à 6 mètres et répéter l'attaque contre une créature se trouvant à 1,5 mètre d'elle.</p><p><strong>Utilisation avec un emplacement de sort de niveau supérieur.</strong> Les dégâts augmentent de 1d8 pour chaque niveau de l'emplacement de sort au-delà du 2e.</p>"
     },
     "Staggering Smite": {
-      "name": "Châtiment Hébétant",
+      "name": "Châtiment Débilitant",
       "description": "<p>La cible subit 4d6 dégâts psychiques supplémentaires de l'attaque, et elle doit réussir un jet de sauvegarde de Sagesse ou recevoir la condition &amp;Reference[Stunned] jusqu'à la fin de votre prochain tour.</p><p><strong>Utilisation avec un emplacement de sort de niveau supérieur.</strong> Les dégâts supplémentaires augmentent de 1d6 pour chaque niveau de l'emplacement de sort au-delà du 4e.</p>"
     },
     "Starry Wisp": {
@@ -3676,7 +3687,7 @@
       "description": "<p>Vous lancez une petite lueur vers une créature ou un objet à portée. Effectuez une attaque de sort à distance contre la cible. En cas de réussite, la cible subit 1d8 dégâts radiants, et jusqu'à la fin de votre prochain tour, elle émet une lumière faible dans un rayon de 3 mètres et ne peut bénéficier de la condition &amp;Reference[invisible].</p><p><strong>Amélioration de tour de passe-passe.</strong> Les dégâts augmentent de 1d8 lorsque vous atteignez les niveaux 5 (2d8), 11 (3d8) et 17 (4d8).</p>",
       "effects": {
         "Illuminated": {
-          "name": "Illuminated",
+          "name": "Illumination",
           "description": "<p>Until the end of your next turn, it emits Dim Light in a 10-foot radius and can’t benefit from the &amp;Reference[Invisible] condition.</p>"
         }
       }
@@ -3686,7 +3697,7 @@
       "description": "<p>Vous maniez l'arme utilisée pour lancer ce sort et vous disparaissez pour frapper tel le vent. Choisissez jusqu'à cinq créatures que vous pouvez voir à portée. Effectuez une attaque de sort au corps à corps contre chaque cible. En cas de réussite, une cible subit 6d10 dégâts de Force.</p><p>Vous vous téléportez ensuite vers un espace inoccupé que vous pouvez voir à 1,5 mètre de l'une des cibles.</p>"
     },
     "Stinking Cloud": {
-      "name": "Nuage Puant",
+      "name": "Nuage Nauséabond",
       "description": "<p>Vous créez une sphère de gaz jaune et nauséabond de 6 mètres de rayon centrée sur un point à portée. Le nuage est &amp;Reference[heavilyobscured]. Le nuage persiste dans l'air pour la durée du sort ou jusqu'à ce qu'un vent fort (tel que celui créé par <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Rafale de Vent}</em>) le disperse.</p><p>Chaque créature qui commence son tour dans la sphère doit réussir un jet de sauvegarde de Constitution ou recevoir la condition &amp;Reference[Poisoned apply=false] jusqu'à la fin du tour en cours. Tant qu'elle est empoisonnée de cette façon, la créature ne peut ni effectuer d'action ni d'action bonus.</p>",
       "activities": {
         "Start of Turn Save": {
@@ -3704,7 +3715,7 @@
       }
     },
     "Stone Shape": {
-      "name": "Modelage de Pierre",
+      "name": "Façonnage de la Pierre",
       "description": "<p>Vous touchez un objet en pierre de taille Moyenne ou plus petite, ou une section de pierre mesurant jusqu'à 1,5 mètre dans n'importe quelle dimension, et le transformez dans la forme de votre choix. Par exemple, vous pouvez transformer un gros rocher en arme, en statue ou en coffre, ou vous pouvez créer un petit passage dans un mur épais de 1,5 mètre. Vous pouvez également sceller une porte en pierre ou son cadre pour la bloquer. L'objet que vous créez peut avoir jusqu'à deux charnières et un loquet, mais des détails mécaniques fins ne sont pas possibles.</p>"
     },
     "Stoneskin": {
@@ -3717,7 +3728,7 @@
       }
     },
     "Storm of Vengeance": {
-      "name": "Tempête de Vengeance",
+      "name": "Tempête de Vengeresse",
       "description": "<p>Un nuage orageux tourbillonnant se forme pour la durée du sort, centré sur un point à portée et s'étendant sur un rayon de 90 mètres. Chaque créature sous le nuage lorsque celui-ci apparaît doit réussir un jet de sauvegarde de Constitution ou subir 2d6 dégâts de tonnerre et recevoir la condition &amp;Reference[Deafened apply=false] pour la durée.</p><p>Au début de chacun de vos tours suivants, la tempête produit différents effets, comme détaillé ci-dessous.</p><p><strong>Tour 2.</strong> De la pluie acide tombe. Chaque créature et objet sous le nuage subit 4d6 dégâts d'acide.</p><p><strong>Tour 3.</strong> Vous appelez six éclairs du nuage pour frapper six créatures ou objets différents en dessous. Chaque cible doit réussir un jet de sauvegarde de Dextérité, subissant 10d6 dégâts de foudre en cas d'échec, ou la moitié en cas de réussite.</p><p><strong>Tour 4.</strong> Des grêlons tombent. Chaque créature sous le nuage subit 2d6 dégâts de contondants.</p><p><strong>Tours 5–10.</strong> Des rafales de vent et de la pluie glaciale frappent la zone sous le nuage. Chaque créature subit 1d6 dégâts de froid. Jusqu'à la fin du sort, la zone est &amp;Reference[DifficultTerrain] et &amp;Reference[HeavilyObscured], les attaques à distance avec des armes y sont impossibles et un vent fort souffle dans la zone.</p>",
       "activities": {
         "Create Storm": {
@@ -3757,15 +3768,15 @@
       }
     },
     "Summon Aberration": {
-      "name": "Invocation d'Aberration",
+      "name": "Convocation d'Aberration",
       "description": "<p>Vous appelez un esprit aberrant. Il se manifeste dans un espace inoccupé que vous pouvez voir à portée et utilise la fiche de statistiques <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobAberrantSp]{Esprit Aberrant}</strong>. Lorsque vous lancez le sort, choisissez entre Beholderkin, Flagelleur Mental ou Slaad. La créature ressemble à une Aberration de ce type, ce qui détermine certains détails dans sa fiche de statistiques. La créature disparaît lorsqu'elle tombe à 0 Points de Vie ou lorsque le sort prend fin.</p><p>La créature est une alliée pour vous et vos alliés. En combat, elle partage votre compte d'Initiative, mais agit immédiatement après vous. Elle obéit à vos ordres verbaux (aucune action n'est nécessaire de votre part). Si vous n'émettez aucun ordre, elle prend l’action &amp;Reference[Dodge] et utilise son mouvement pour éviter le danger.</p><p><strong>Utilisation d’un emplacement de sort de niveau supérieur.</strong> Utilisez le niveau de l'emplacement de sort pour déterminer le niveau du sort dans la fiche de statistiques.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>En plus de l'utilisation notée du niveau de sort dans les Traits et Actions de l'esprit, les attributs suivants sont également affectés.</p><table><caption>Esprit Aberrant</caption><tbody><tr><td><strong>CA</strong></td><td>11 + le niveau du sort</td></tr><tr><td><strong>PV</strong></td><td>40 + 10 pour chaque niveau de sort au-dessus de 4</td></tr><tr><td><strong>Vitesse</strong></td><td>30 ft.; Vol 30 ft. (vol stationnaire; uniquement pour Beholderkin)</td></tr><tr><td><strong>PB</strong></td><td>équivaut à votre Bonus de Maîtrise</td></tr></tbody></table></article></section>"
     },
     "Summon Beast": {
-      "name": "Invocation de Bête",
+      "name": "Convocation de Bête",
       "description": "<p>Vous faites apparaître un esprit bestial. Il se manifeste dans un espace inoccupé que vous pouvez voir à portée et utilise la fiche de statistiques <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobBestialSpi]{Esprit Bestial}</strong>. Lorsque vous lancez le sort, choisissez un environnement : Air, Terre ou Eau. La créature ressemble à un animal de votre choix originaire de l'environnement choisi, ce qui détermine certains détails dans sa fiche de statistiques. La créature disparaît lorsqu'elle tombe à 0 Points de Vie ou lorsque le sort prend fin.</p><p>La créature est un allié pour vous et vos alliés. En combat, elle partage votre score d'Initiative, mais elle agit immédiatement après votre tour. Elle obéit à vos commandes verbales (aucune action requise de votre part). Si vous ne donnez aucune commande, elle utilise l'action Esquiver et se déplace pour éviter le danger.</p><p><strong>Utilisation d'un emplacement de sort de niveau supérieur.</strong> Utilisez le niveau de l'emplacement de sort pour déterminer le niveau du sort dans la fiche de statistiques.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>En plus de l'utilisation indiquée du niveau du sort dans les traits et actions de l'esprit, les attributs suivants sont également affectés.</p><table><caption>Esprit Bestial</caption><tbody><tr><td><strong>CA</strong></td><td>11 + le niveau du sort</td></tr><tr><td><strong>PV</strong></td><td>20 (Air uniquement) ou 30 (Terre et Eau uniquement) + 5 pour chaque niveau de sort au-delà du 2e</td></tr><tr><td><strong>Vitesse</strong></td><td>30 ft.; Escalade 30 ft. (Terre uniquement); Vol 60 ft. (Air uniquement); Nage 30 ft. (Eau uniquement)</td></tr><tr><td><strong>BP</strong></td><td>égal à votre Bonus de Maîtrise</td></tr></tbody></table></article></section>"
     },
     "Summon Celestial": {
-      "name": "Invocation de Céleste",
+      "name": "Convocation de Céleste",
       "description": "<p>Vous invoquez un esprit céleste. Il se manifeste sous une forme angélique dans un espace inoccupé que vous pouvez voir à portée et utilise la fiche de statistiques <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobCelestialS]{Esprit Céleste}</strong>. Lorsque vous lancez le sort, choisissez Vengeur ou Défenseur. Votre choix détermine certains détails dans sa fiche de statistiques. La créature disparaît lorsqu'elle tombe à 0 Points de Vie ou lorsque le sort prend fin.</p><p>La créature est un allié pour vous et vos alliés. En combat, elle partage votre score d'Initiative, mais elle agit immédiatement après votre tour. Elle obéit à vos commandes verbales (aucune action requise de votre part). Si vous ne donnez aucune commande, elle utilise l'action Esquiver et se déplace pour éviter le danger.</p><p><strong>Utilisation d'un emplacement de sort de niveau supérieur.</strong> Utilisez le niveau de l'emplacement de sort pour déterminer le niveau du sort dans la fiche de statistiques.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>En plus de l'utilisation indiquée du niveau du sort dans les traits et actions de l'esprit, les attributs suivants sont également affectés.</p><table><caption>Esprit Céleste</caption><tbody><tr><td><strong>CA</strong></td><td>11 + le niveau du sort + 2 (Défenseur uniquement)</td></tr><tr><td><strong>PV</strong></td><td>40 + 10 pour chaque niveau de sort au-delà du 5e</td></tr><tr><td><strong>BP</strong></td><td>égal à votre Bonus de Maîtrise</td></tr></tbody></table></article></section>",
       "activities": {
         "summon": {
@@ -3781,7 +3792,7 @@
       }
     },
     "Summon Construct": {
-      "name": "Invocation de Construct",
+      "name": "Convocation d'Artificiel",
       "description": "<p>Vous appelez l’esprit d’un Construct. Il se manifeste dans un espace inoccupé que vous pouvez voir à portée et utilise la fiche de statistiques <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobConstructS]{Esprit de Construct}</strong>. Lorsque vous lancez le sort, choisissez un matériau : Argile, Métal ou Pierre. La créature ressemble à une statue animée (vous en déterminez l'apparence) faite du matériau choisi, ce qui détermine certains détails dans sa fiche de statistiques. La créature disparaît lorsqu'elle tombe à 0 Points de Vie ou lorsque le sort prend fin.</p><p>La créature est une alliée pour vous et vos alliés. En combat, elle partage votre compte d'Initiative, mais agit immédiatement après vous. Elle obéit à vos ordres verbaux (aucune action n'est nécessaire de votre part). Si vous n'émettez aucun ordre, elle prend l’action &amp;Reference[Dodge] et utilise son mouvement pour éviter le danger.</p><p><strong>Utilisation d’un emplacement de sort de niveau supérieur.</strong> Utilisez le niveau de l'emplacement de sort pour déterminer le niveau du sort dans la fiche de statistiques.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>En plus de l'utilisation notée du niveau de sort dans les Traits et Actions de l'esprit, les attributs suivants sont également affectés.</p><table><caption>Esprit de Construct</caption><tbody><tr><td><strong>CA</strong></td><td>13 + le niveau du sort</td></tr><tr><td><strong>PV</strong></td><td>40 + 15 pour chaque niveau de sort au-dessus de 4</td></tr><tr><td><strong>Vitesse</strong></td><td>30 ft.; Nage 30 ft. (uniquement pour Argile)</td></tr><tr><td><strong>PB</strong></td><td>équivaut à votre Bonus de Maîtrise</td></tr></tbody></table></article></section>",
       "activities": {
         "summon": {
@@ -3800,11 +3811,11 @@
       }
     },
     "Summon Dragon": {
-      "name": "Invocation de Dragon",
+      "name": "Convocation d'Esprit Draconique",
       "description": "<p>Vous invoquez un esprit draconique. Il se manifeste dans un espace inoccupé que vous pouvez voir à portée et utilise la fiche de statistiques <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobDraconicSp]{Esprit Draconique}</strong>. La créature disparaît lorsqu'elle tombe à 0 Points de Vie ou lorsque le sort prend fin.</p><p>La créature est un allié pour vous et vos alliés. En combat, elle partage votre score d'Initiative, mais elle agit immédiatement après votre tour. Elle obéit à vos commandes verbales (aucune action requise de votre part). Si vous ne donnez aucune commande, elle utilise l'action Esquiver et se déplace pour éviter le danger.</p><p><strong>Utilisation d'un emplacement de sort de niveau supérieur.</strong> Utilisez le niveau de l'emplacement de sort pour déterminer le niveau du sort dans la fiche de statistiques.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>En plus de l'utilisation indiquée du niveau du sort dans les traits et actions de l'esprit, les attributs suivants sont également affectés.</p><table><caption>Esprit Draconique</caption><tbody><tr><td><strong>CA</strong></td><td>14 + le niveau du sort</td></tr><tr><td><strong>PV</strong></td><td>50 + 10 pour chaque niveau de sort au-delà du 5e</td></tr><tr><td><strong>BP</strong></td><td>égal à votre Bonus de Maîtrise</td></tr></tbody></table></article></section>"
     },
     "Summon Elemental": {
-      "name": "Invocation d'Élémentaire",
+      "name": "Convocation d'Élémentaire",
       "description": "<p>Vous appelez un esprit élémentaire. Il se manifeste dans un espace inoccupé que vous pouvez voir à portée et utilise la fiche de statistiques <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElementalS]{Esprit Élémentaire}</strong>. Lorsque vous lancez le sort, choisissez un élément : Air, Terre, Feu ou Eau. La créature ressemble à une forme bipède enveloppée dans l’élément choisi, ce qui détermine certains détails dans sa fiche de statistiques. La créature disparaît lorsqu'elle tombe à 0 Points de Vie ou lorsque le sort prend fin.</p><p>La créature est une alliée pour vous et vos alliés. En combat, elle partage votre compte d'Initiative, mais elle prend son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (aucune action n’est nécessaire de votre part). Si vous n’émettez aucun ordre, elle prend l’action &amp;Reference[Dodge] et utilise son mouvement pour éviter le danger.</p><p><strong>Utilisation d’un emplacement de sort de niveau supérieur.</strong> Utilisez le niveau de l’emplacement de sort pour déterminer le niveau du sort dans la fiche de statistiques.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>En plus de l’utilisation notée du niveau de sort dans les Traits et Actions de l’esprit, les attributs suivants sont également affectés.</p><table><caption>Esprit Élémentaire</caption><tbody><tr><td><strong>CA</strong></td><td>11 + le niveau du sort</td></tr><tr><td><strong>PV</strong></td><td>50 + 10 pour chaque niveau de sort au-dessus de 4</td></tr><tr><td><strong>Vitesse</strong></td><td>40 ft.; Creuser 40 ft. (uniquement pour Terre); Vol 40 ft. (Air uniquement); Nager 40 ft. (Eau uniquement)</td></tr><tr><td><strong>PB</strong></td><td>équivaut à votre Bonus de Maîtrise</td></tr></tbody></table></article></section>",
       "activities": {
         "summon": {
@@ -3826,7 +3837,7 @@
       }
     },
     "Summon Fey": {
-      "name": "Invocation de Fey",
+      "name": "Invocation de Fée",
       "description": "<p>Vous appelez un esprit fey. Il se manifeste dans un espace inoccupé que vous pouvez voir à portée et utilise la fiche de statistiques <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFeySpirit0]{Esprit Fey}</strong>. Lorsque vous lancez le sort, choisissez une humeur : Colérique, Jovial ou Rusé. La créature ressemble à un Fey de votre choix marqué par l’humeur choisie, ce qui détermine certains détails dans sa fiche de statistiques. La créature disparaît lorsqu'elle tombe à 0 Points de Vie ou lorsque le sort prend fin.</p><p>La créature est une alliée pour vous et vos alliés. En combat, elle partage votre compte d'Initiative, mais elle prend son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux (aucune action n’est nécessaire de votre part). Si vous n’émettez aucun ordre, elle prend l’action &amp;Reference[Dodge] et utilise son mouvement pour éviter le danger.</p><p><strong>Utilisation d’un emplacement de sort de niveau supérieur.</strong> Utilisez le niveau de l’emplacement de sort pour déterminer le niveau du sort dans la fiche de statistiques.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>En plus de l’utilisation notée du niveau de sort dans les Traits et Actions de l’esprit, les attributs suivants sont également affectés.</p><table><caption>Esprit Fey</caption><tbody><tr><td><strong>CA</strong></td><td>12 + le niveau du sort</td></tr><tr><td><strong>PV</strong></td><td>30 + 10 pour chaque niveau de sort au-dessus de 3</td></tr><tr><td><strong>PB</strong></td><td>équivaut à votre Bonus de Maîtrise</td></tr></tbody></table></article></section>"
     },
     "Summon Fiend": {
@@ -3871,7 +3882,7 @@
       }
     },
     "Sunburst": {
-      "name": "Explosion Solaire",
+      "name": "Éclat du soleil",
       "description": "<p>Une lumière solaire éclatante apparaît dans une sphère de 18 mètres de rayon centrée sur un point de votre choix dans la portée du sort. Chaque créature dans la sphère effectue un jet de sauvegarde de Constitution. En cas d'échec, la créature subit 12d6 dégâts radiants et est &amp;Reference[Blinded apply=false] pendant 1 minute. En cas de succès, elle subit seulement la moitié des dégâts.</p><p>Une créature aveuglée par ce sort peut refaire un jet de sauvegarde de Constitution à la fin de chacun de ses tours pour mettre fin à cet effet sur elle-même en cas de réussite.</p><p>Ce sort dissipe toute &amp;Reference[Darkness] dans sa zone créée par un autre sort.</p>",
       "effects": {
         "Blinded": {
@@ -3881,7 +3892,7 @@
       }
     },
     "Swift Quiver": {
-      "name": "Carquois Rapide",
+      "name": "Carquois magique",
       "description": "<p>Lorsque vous lancez ce sort et en tant qu'action bonus jusqu'à la fin du sort, vous pouvez effectuer deux attaques avec une arme qui tire des flèches ou des carreaux, comme un arc long ou une arbalète légère. Le sort crée magiquement les munitions nécessaires pour chaque attaque. Chaque flèche ou carreau créé par le sort inflige des dégâts comme une munition non magique de ce type, puis se désintègre immédiatement après avoir touché ou manqué sa cible.</p><section id=\"secret-XYv43C243UyopCSq\" class=\"secret\"><p><strong>Note pour Foundry</strong></p><p>L'activité <strong>Lancer</strong> par défaut consomme simplement un emplacement de sort sans autres effets.</p><p>L'activité optionnelle <strong>Lancer et Enchanter</strong> est configurée pour appliquer également un enchantement à une arme donnée qui supprime sa consommation de munitions.</p></section>",
       "activities": {
         "Cast": {
@@ -3948,7 +3959,7 @@
       }
     },
     "Synaptic Static": {
-      "name": "Statique Synaptique",
+      "name": "Perturbations Synaptiques",
       "description": "<p>Vous provoquez une éruption d'énergie psychique en un point dans la portée du sort. Chaque créature dans une sphère de 6 mètres de rayon centrée sur ce point effectue un jet de sauvegarde d'Intelligence, subissant 8d6 dégâts psychiques en cas d'échec ou la moitié en cas de réussite.</p><p>En cas d'échec, une cible a des pensées confuses pendant 1 minute. Pendant ce temps, elle soustrait [[/r 1d6]] de tous ses jets d'attaque et de caractéristique, ainsi que de tout jet de sauvegarde de Constitution pour maintenir sa concentration. La cible peut refaire un jet de sauvegarde d'Intelligence à la fin de chacun de ses tours pour mettre fin à cet effet sur elle-même en cas de réussite.</p>",
       "effects": {
         "Muddled Thoughts": {
@@ -3958,7 +3969,7 @@
       }
     },
     "Tasha's Bubbling Cauldron": {
-      "name": "Chaudron Bouillonnant de Tasha",
+      "name": "Mixture Caustique de Tasha",
       "description": "<p>Vous invoquez un chaudron à pieds griffus rempli de liquide bouillonnant. Le chaudron apparaît dans un espace inoccupé au sol dans un rayon de 1,5 mètre autour de vous et dure pour toute la durée du sort. Le chaudron ne peut pas être déplacé et disparaît lorsque le sort prend fin, avec le liquide bouillonnant qu'il contient.</p><p>Le liquide dans le chaudron reproduit les propriétés d'une potion courante ou peu commune de votre choix (telle qu'une <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Potion de Soin}</em>). En tant qu'action bonus, vous ou un allié pouvez plonger la main dans le chaudron et en retirer une potion de ce type. La potion est contenue dans une fiole qui disparaît lorsque la potion est consommée. Le chaudron peut produire un nombre de ces potions égal à votre modificateur de capacité de lancement de sorts (minimum 1). Lorsque la dernière de ces potions est retirée, le chaudron disparaît, et le sort prend fin.</p><p>Les potions obtenues du chaudron qui ne sont pas consommées disparaissent lorsque vous lancez ce sort à nouveau.</p><section id=\"secret-qrXgiTRMAIHRBFCQ\" class=\"secret\"><p><strong>Note pour Foundry</strong></p><p>Les utilisations limitées de ce sort représentent le nombre de potions restantes dans le chaudron, qui est réinitialisé par l'activité <strong>Créer le Chaudron</strong>.</p><p>L'activité optionnelle <strong>Retirer une Potion</strong> consomme une utilisation du chaudron.</p></section>",
       "activities": {
         "Create Cauldron": {
@@ -3971,7 +3982,7 @@
       }
     },
     "Tasha's Hideous Laughter": {
-      "name": "Rire Hystérique de Tasha",
+      "name": "Fou Rire de Tasha",
       "description": "<p>Une créature de votre choix que vous pouvez voir dans la portée du sort effectue un jet de sauvegarde de Sagesse. En cas d'échec, elle obtient les conditions &amp;Reference[prone apply=false] et &amp;Reference[incapacitated apply=false] pour la durée. Pendant ce temps, elle rit de manière incontrôlable si elle en est capable, et ne peut pas mettre fin à la condition Allongé par elle-même.</p><p>À la fin de chacun de ses tours et chaque fois qu'elle subit des dégâts, elle effectue un autre [[/save ability=wis dc=@attributes.spelldc]] jet de sauvegarde. La cible a l'avantage sur le jet si celui-ci est déclenché par des dégâts. En cas de réussite, le sort prend fin.</p><p><strong>Utilisation avec un Emplacement de Sort de Niveau Supérieur.</strong> Vous pouvez cibler une créature supplémentaire pour chaque niveau d'emplacement de sort au-dessus de 1.</p>",
       "effects": {
         "Uncontrollable Laughter": {
@@ -4039,26 +4050,35 @@
       }
     },
     "Thunderclap": {
-      "name": "Tonnerre Fracassant",
+      "name": "Coup de Tonnerre",
       "description": "<p>Toute créature dans une émanation de 1,5 mètre partant de vous doit réussir un jet de sauvegarde de Constitution ou subir 1d6 dégâts de tonnerre. Le bruit du sort peut être entendu jusqu'à 30 mètres de distance.</p><p><strong>Amélioration du Tour de Magie.</strong> Les dégâts augmentent de 1d6 lorsque vous atteignez les niveaux 5 (2d6), 11 (3d6) et 17 (4d6).</p>"
     },
     "Thunderous Smite": {
-      "name": "Frappe Tonitruante",
+      "name": "Châtiment Tonitruant",
       "description": "<p>Votre attaque résonne avec un tonnerre audible dans un rayon de 90 mètres autour de vous, et la cible subit 2d6 dégâts de tonnerre supplémentaires à l'attaque. De plus, si la cible est une créature, elle doit réussir un jet de sauvegarde de Force ou être repoussée de 3 mètres et subir la condition &amp;Reference[prone].</p><p><strong>Utilisation avec un Emplacement de Sort de Niveau Supérieur.</strong> Les dégâts augmentent de 1d6 pour chaque niveau d'emplacement de sort au-dessus du niveau 1.</p>",
       "activities": {
         "Save vs. Push": {
-          "name": "Save vs. Push"
+          "name": "Jet de sauvegarde contre le repoussement"
+        }
+      },
+      "effects": {
+        "Prone": {
+          "name": "À Terre",
+          "description": "<p>En raison du repoussement de 3 mètres, la cible est &amp;Reference[prone apply=false].</p>"
         }
       }
     },
     "Thunderwave": {
-      "name": "Onde de tonnerre",
+      "name": "Vague Tonnante",
       "description": "<p>Vous déchaînez une vague d'énergie tonitruante. Chaque créature dans un cube de 4,5 mètres centré sur vous doit réussir un jet de sauvegarde de Constitution. En cas d'échec, la créature subit 2d8 dégâts de tonnerre et est repoussée de 3 mètres loin de vous. En cas de réussite, elle subit seulement la moitié des dégâts.</p><p>De plus, les objets non sécurisés entièrement contenus dans le cube sont repoussés de 3 mètres, et un grondement tonitruant est audible jusqu'à 90 mètres.</p><p><strong>Utilisation d’un emplacement de sort supérieur.</strong> Les dégâts augmentent de 1d8 par niveau d’emplacement de sort au-delà du niveau 1.</p>"
     },
     "Time Stop": {
       "name": "Arrêt du temps",
       "description": "<p>Vous arrêtez brièvement l'écoulement du temps pour tout le monde sauf vous. Aucun temps ne passe pour les autres créatures, tandis que vous prenez 1d4 + 1 tours consécutifs, pendant lesquels vous pouvez agir et vous déplacer normalement.</p><p>Ce sort prend fin si une de vos actions durant cette période, ou tout effet que vous créez, affecte une créature autre que vous ou un objet porté par une autre créature. De plus, le sort prend fin si vous vous déplacez à plus de 300 mètres de l'endroit où vous l’avez lancé.</p>",
       "activities": {
+        "utility": {
+          "roll": "Consecutive Turns"
+        },
         "Cast": {
           "name": "Lancer",
           "roll": "Consecutive Turns"
@@ -4066,7 +4086,7 @@
       }
     },
     "Toll the Dead": {
-      "name": "Sonnerie de la mort",
+      "name": "Glas",
       "description": "<p>Vous pointez une créature que vous pouvez voir à portée, et un son de cloche funèbre est audible dans un rayon de 3 mètres autour de la cible. La cible doit réussir un jet de sauvegarde de Sagesse ou subir 1d8 dégâts nécrotiques. Si la cible a perdu des points de vie, elle subit plutôt 1d12 dégâts nécrotiques.</p><p><strong>Amélioration du tour de magie.</strong> Les dégâts augmentent d’un dé aux niveaux 5 (2d8 ou 2d12), 11 (3d8 ou 3d12), et 17 (4d8 ou 4d12).</p>",
       "activities": {
         "Healthy Target": {
@@ -4078,16 +4098,16 @@
       }
     },
     "Tongues": {
-      "name": "Langues",
+      "name": "Don des langues",
       "description": "<p>Ce sort confère à la créature que vous touchez la capacité de comprendre toute langue parlée ou signée qu'elle entend ou voit. De plus, lorsque la cible communique en parlant ou en signant, toute créature connaissant au moins une langue peut la comprendre, à condition de pouvoir entendre ses mots ou voir ses signes.</p>",
       "effects": {
         "Universal Communication": {
-          "name": "Universal Communication"
+          "name": "Communication Universelle"
         }
       }
     },
     "Transport via Plants": {
-      "name": "Transport par les plantes",
+      "name": "Voie végétale",
       "description": "<p>Ce sort crée un lien magique entre une plante inanimée de taille grande ou plus située à portée et une autre plante, à toute distance, sur le même plan d’existence. Vous devez avoir vu ou touché la plante de destination au moins une fois auparavant. Pendant la durée du sort, toute créature peut entrer dans la plante cible et en sortir par la plante de destination en utilisant 1,5 mètre de mouvement.</p>",
       "activities": {
         "Cast": {
@@ -4096,7 +4116,7 @@
       }
     },
     "Tree Stride": {
-      "name": "Pas dans les arbres",
+      "name": "Passage par les arbres",
       "description": "<p>Vous obtenez la capacité d'entrer dans un arbre et de vous déplacer vers un autre arbre du même type situé dans un rayon de 150 mètres. Les deux arbres doivent être vivants et de taille au moins égale à la vôtre. Vous devez utiliser 1,5 mètre de mouvement pour entrer dans un arbre. Vous connaissez instantanément la position de tous les autres arbres du même type dans un rayon de 150 mètres et pouvez, en tant que partie du déplacement utilisé pour entrer dans l'arbre, passer dans l'un de ces arbres ou sortir de celui dans lequel vous vous trouvez. Vous apparaissez dans un espace de votre choix à moins de 1,5 mètre de l’arbre de destination, en utilisant encore 1,5 mètre de mouvement. Si vous n'avez plus de mouvement disponible, vous apparaissez à moins de 1,5 mètre de l'arbre dans lequel vous êtes entré.</p><p>Vous pouvez utiliser cette capacité de transport seulement une fois par tour. Vous devez terminer chaque tour à l'extérieur d'un arbre.</p>",
       "activities": {
         "Cast": {
@@ -4105,11 +4125,11 @@
       }
     },
     "True Polymorph": {
-      "name": "Véritable polymorphie",
+      "name": "Métamorphose suprême",
       "description": "<p>Choisissez une créature ou un objet non magique que vous pouvez voir à portée. La créature se transforme en une autre créature ou en un objet non magique, ou l'objet se transforme en une créature (l'objet ne doit ni être porté ni manipulé). La transformation dure jusqu'à la fin de la durée du sort ou jusqu'à ce que la cible meure ou soit détruite. Si vous maintenez la concentration sur ce sort pendant toute sa durée, l'effet devient permanent jusqu’à ce qu’il soit dissipé.</p><p>Une créature non consentante peut faire un jet de sauvegarde de Sagesse ; en cas de réussite, elle n'est pas affectée par ce sort.</p><p><strong>Créature en créature.</strong> Si vous transformez une créature en une autre, la nouvelle forme peut être de n'importe quel type de créature ayant un niveau de difficulté égal ou inférieur à celui de la cible. Les statistiques de la créature sont remplacées par celles de la nouvelle forme, mais elle conserve ses Points de vie, son dé de vie, son alignement et sa personnalité.</p><p>La cible gagne des points de vie temporaires équivalents aux Points de vie de la nouvelle forme.</p><p>La créature est limitée dans ses actions par l'anatomie de sa nouvelle forme et ne peut ni parler ni lancer de sorts.</p><p>L'équipement de la cible fusionne avec sa nouvelle forme. Elle ne peut ni l'utiliser ni bénéficier de cet équipement.</p><p><strong>Objet en créature.</strong> Vous pouvez transformer un objet en une créature de même taille ou plus petite ayant un niveau de difficulté inférieur ou égal à 9. La créature est amicale envers vous et vos alliés. En combat, elle agit immédiatement après vous et obéit à vos ordres.</p><p>Si le sort dure plus d’une heure, vous perdez le contrôle de la créature. Elle peut rester amicale selon la manière dont vous l'avez traitée.</p><p><strong>Créature en objet.</strong> Si vous transformez une créature en objet, elle se transforme avec tout ce qu’elle porte en une forme de taille égale ou inférieure. La créature adopte les caractéristiques de l’objet et n’a aucun souvenir du temps passé sous cette forme une fois le sort terminé.</p><section class=\"secret\" id=\"secret-IB4vzIqK9EZU3ho1\"><p><strong>Note Foundry</strong></p><p>Un Acteur peut être glissé sur la fiche de la créature polymorphée par le Maître du jeu pour gérer la transformation.</p></section>"
     },
     "True Resurrection": {
-      "name": "Véritable résurrection",
+      "name": "Résurrection suprême",
       "description": "<p>Vous touchez une créature morte depuis moins de 200 ans, quelle que soit la cause de la mort, sauf la vieillesse. La créature est ramenée à la vie avec tous ses Points de vie.</p><p>Ce sort referme toutes les blessures, neutralise les poisons, soigne les infections magiques et dissipe toute malédiction affectant la créature au moment de sa mort. Le sort remplace tout organe ou membre manquant. Si la créature était un Mort-vivant, elle retrouve sa forme d'origine.</p><p>Le sort peut créer un nouveau corps si l'original n'existe plus, auquel cas vous devez prononcer le nom de la créature. Celle-ci apparaît alors dans un espace inoccupé à moins de 3 mètres de vous.</p>",
       "activities": {
         "Cast": {
@@ -4166,11 +4186,11 @@
       "description": "<p>Ce sort crée une force invisible, sans esprit, sans forme, de taille Moyenne, qui exécute des tâches simples selon vos ordres jusqu'à la fin du sort. Le serviteur prend forme dans un espace inoccupé au sol, à portée. Il a une CA de 10, 1 Point de Vie, et une Force de 2, et il ne peut pas attaquer. Si ses Points de Vie tombent à 0, le sort prend fin.</p><p>Une fois par tour, en tant qu'Action Bonus, vous pouvez ordonner mentalement au serviteur de se déplacer jusqu'à 4,5 mètres et d'interagir avec un objet. Le serviteur peut effectuer des tâches simples qu'un humain pourrait faire, comme chercher des objets, nettoyer, réparer, plier des vêtements, allumer des feux, servir des repas et verser des boissons. Une fois l'ordre donné, le serviteur exécute la tâche au mieux de ses capacités jusqu'à l'achever, puis attend votre prochain ordre.</p><p>Si vous ordonnez au serviteur d'effectuer une tâche qui l'emmènerait à plus de 18 mètres de vous, le sort prend fin.</p>"
     },
     "Vampiric Touch": {
-      "name": "Toucher Vampirique",
+      "name": "Toucher du Vampirique",
       "description": "<p>Le toucher de votre main enveloppée d'ombres peut siphonner la force vitale des autres pour soigner vos blessures. Effectuez une attaque de sort en mêlée contre une créature à portée. En cas de succès, la cible subit 3d6 dégâts Nécrotiques, et vous regagnez un nombre de Points de Vie égal à la moitié des dégâts Nécrotiques infligés.</p><p>Jusqu'à la fin du sort, vous pouvez répéter cette attaque à chaque tour comme une action Magique, en ciblant la même créature ou une autre.</p><p><strong>Utilisation d'un emplacement de sort de niveau supérieur.</strong> Les dégâts augmentent de 1d6 par niveau d'emplacement de sort au-dessus du niveau 3.</p>"
     },
     "Vicious Mockery": {
-      "name": "Moquerie Cinglante",
+      "name": "Moquerie Cruelle",
       "description": "<p>Vous libérez une série d'insultes enrobées de subtiles enchantements envers une créature que vous pouvez voir ou entendre à portée. La cible doit réussir un jet de sauvegarde de Sagesse ou subir 1d6 dégâts Psychiques et avoir un Désavantage au prochain jet d'attaque qu'elle effectue avant la fin de son prochain tour.</p><p><strong>Amélioration du Tour de Magie.</strong> Les dégâts augmentent de 1d6 lorsque vous atteignez les niveaux 5 (2d6), 11 (3d6), et 17 (4d6).</p>",
       "effects": {
         "Mocked": {
@@ -4180,7 +4200,7 @@
       }
     },
     "Vitriolic Sphere": {
-      "name": "Sphère Vitriolique",
+      "name": "Sphère de Vitriol",
       "description": "<p>Vous désignez une zone à portée et une boule lumineuse de 1 pied de diamètre d'acide se dirige vers elle et explose dans une sphère de 6 mètres de rayon. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité. En cas d'échec, une créature subit 10d4 dégâts d'Acide et subit de nouveau [[/damage 5d4 type=acid]] dégâts à la fin de son prochain tour. En cas de réussite, elle ne subit que la moitié des dégâts initiaux.</p><p><strong>Utilisation d'un emplacement de sort de niveau supérieur.</strong> Les dégâts initiaux augmentent de 2d4 pour chaque niveau d'emplacement de sort au-dessus du niveau 4.</p>",
       "activities": {
         "End of Turn Damage": {
@@ -4296,15 +4316,15 @@
       "description": "<p>Vous faites apparaître une masse de toiles collantes à un point situé dans la portée du sort. Les toiles remplissent un cube de 6 mètres de côté pour la durée. Les toiles sont &amp;Reference[difficultterrain]{difficiles à traverser}, et la zone est &amp;Reference[lightlyobscured]{légèrement obscure}.</p><p>Si les toiles ne sont pas ancrées entre deux masses solides (comme des murs ou des arbres) ou étendues sur un sol, un mur ou un plafond, elles s'effondrent sur elles-mêmes, et le sort prend fin au début de votre prochain tour. Les toiles étendues sur une surface plane ont une profondeur de 1,5 mètre.</p><p>La première fois qu'une créature entre dans les toiles lors d'un tour ou commence son tour dans cette zone, elle doit réussir un jet de sauvegarde de Dextérité ou subir la condition &amp;Reference[restrained]{entravée} jusqu'à ce qu'elle réussisse à se libérer.</p><p>Une créature entravée par les toiles peut utiliser une action pour effectuer un test de [[/check ability=str skill=ath dc=@attributes.spelldc]] contre le DD de sauvegarde du sort. En cas de réussite, elle n'est plus entravée.</p><p>Les toiles sont inflammables. Toute section de 1,5 mètre exposée au feu brûle en 1 tour, infligeant [[/damage 2d4 type=fire]] dégâts de feu à toute créature qui commence son tour dans les flammes.</p>"
     },
     "Weird": {
-      "name": "Terreur",
+      "name": "Ennemi subconscient",
       "description": "<p>Vous essayez de créer des terreurs illusoires dans l'esprit de vos cibles. Chaque créature de votre choix dans une sphère de 9 mètres de rayon centrée sur un point situé dans la portée du sort doit réussir un jet de sauvegarde de Sagesse. En cas d'échec, la cible subit 10d10 dégâts psychiques et est sous la condition &amp;Reference[Frightened apply=false]{effrayée} pour la durée du sort. En cas de réussite, la cible subit seulement la moitié des dégâts.</p><p>Une créature effrayée par le sort peut effectuer un jet de sauvegarde de Sagesse à la fin de chacun de ses tours. En cas d'échec, elle subit [[/damage 5d10 type=psychic]] dégâts psychiques. En cas de réussite, le sort prend fin sur cette cible.</p>",
       "activities": {
-        "Cast": {
-          "name": "Lancer"
-        },
         "End of Turn Save": {
           "name": "End of Turn Save",
           "condition": "at the end of each affected creature's turn"
+        },
+        "Cast": {
+          "name": "Lancer"
         }
       },
       "effects": {
@@ -4315,7 +4335,7 @@
       }
     },
     "Wind Walk": {
-      "name": "Marche Ventée",
+      "name": "Marche sur le Vent",
       "description": "<p>Vous et jusqu'à dix créatures consentantes de votre choix dans la portée du sort prenez la forme gazeuse de nuages pour la durée du sort. Sous cette forme, une cible a une vitesse de vol de 90 mètres et peut léviter; elle est immunisée à la condition &amp;Reference[Prone]{à terre} et bénéficie de la résistance aux dégâts contondants, perforants et tranchants. Les seules actions possibles dans cette forme sont l'action &amp;Reference[Dash]{se précipiter} ou une action magique pour commencer à revenir à sa forme normale. Cette transformation dure 1 minute, pendant laquelle la cible est sous la condition &amp;Reference[Stunned apply=false]{étourdie}. Tant que le sort est actif, la cible peut revenir à la forme de nuage, ce qui nécessite également une action magique suivie d'une transformation d'une minute.</p><p>Si une cible est en forme de nuage et en vol lorsque l'effet se termine, elle descend de 18 mètres par tour pendant 1 minute jusqu'à atterrir en toute sécurité. Si elle ne peut pas atterrir après 1 minute, elle tombe le reste de la distance.</p>",
       "activities": {
         "Transform to Cloud": {
@@ -4342,9 +4362,13 @@
       }
     },
     "Wish": {
-      "name": "Vœu",
+      "name": "Souhait",
       "description": "<p><em>Vœu</em> est le sort le plus puissant qu'un mortel puisse lancer. En prononçant simplement une phrase, vous pouvez altérer la réalité elle-même.</p><p>L'utilisation de base de ce sort est de dupliquer un autre sort de niveau 8 ou inférieur. Si vous l'utilisez de cette façon, vous n'avez pas besoin de remplir les conditions pour lancer ce sort, y compris les composants coûteux. Le sort prend simplement effet.</p><p>Alternativement, vous pouvez créer l'un des effets suivants :</p><p><strong>Création d'Objet.</strong> Vous créez un objet d'une valeur maximale de 25 000 PO qui n'est pas un objet magique. L'objet ne peut pas dépasser 90 mètres dans toutes les dimensions et apparaît dans un espace inoccupé au sol que vous pouvez voir.</p><p><strong>Soin Instantané.</strong> Vous permettez à vous-même et jusqu'à vingt créatures visibles de récupérer tous leurs points de vie et d'annuler tous les effets listés dans le sort <em>Restauration Supérieure</em>.</p><p><strong>Résistance.</strong> Vous accordez à jusqu'à dix créatures visibles la résistance à un type de dégâts que vous choisissez. Cette résistance est permanente.</p><p><strong>Immunité aux Sorts.</strong> Vous accordez à jusqu'à dix créatures visibles l'immunité à un sort ou effet magique unique pour 8 heures.</p><p><strong>Apprentissage Rapide.</strong> Vous remplacez l'un de vos dons par un autre don pour lequel vous êtes éligible. Vous perdez tous les avantages de l'ancien don et gagnez ceux du nouveau. Vous ne pouvez pas remplacer un don qui est une condition préalable pour un de vos autres dons ou caractéristiques.</p><p><strong>Relance de Jet.</strong> Vous annulez un événement récent en forçant un nouveau jet de n'importe quel dé lancé dans le dernier tour (y compris votre dernier tour). La réalité se reconfigure pour s'adapter au nouveau résultat. Par exemple, un sort de <em>Vœu</em> pourrait annuler un jet de sauvegarde raté d'un allié ou un coup critique d'un ennemi. Vous pouvez forcer le reroll avec avantage ou désavantage, et vous choisissez d'utiliser le nouveau jet ou l'original.</p><p><strong>Modification de la Réalité.</strong> Vous pouvez formuler un souhait qui n'est inclus dans aucun des autres effets. Vous devez énoncer votre vœu aussi précisément que possible. Le MD a une grande latitude pour décider de l'effet ; plus le souhait est ambitieux, plus la probabilité qu'il se passe mal est grande. Ce sort peut simplement échouer, l'effet souhaité pourrait être partiellement réalisé, ou vous pourriez subir une conséquence imprévue en fonction de la formulation de votre souhait. Par exemple, souhaiter qu'un ennemi soit mort pourrait vous propulser dans le temps vers une période où cet ennemi n'est plus en vie, vous retirant effectivement de la partie. De même, souhaiter un objet magique légendaire pourrait vous transporter instantanément devant son propriétaire actuel. Si votre souhait est exaucé avec des conséquences pour une communauté, région ou le monde, vous êtes susceptible d'attirer des ennemis puissants. Si votre souhait affecte une divinité, les serviteurs de la divinité peuvent intervenir immédiatement pour l'empêcher ou vous inciter à reformuler le vœu. Si votre souhait devait annuler le multivers, menacer la cité de Sigil ou affecter la Dame de Douleur, vous la voyez dans votre esprit un instant ; elle secoue la tête, et votre souhait échoue.</p><p>Le stress de lancer <em>Vœu</em> pour un effet autre que dupliquer un sort affaiblit le lanceur. Après avoir subi ce stress, à chaque fois que vous lancez un sort jusqu'à la fin d'un repos long, vous subissez 1d10 dégâts nécrotiques par niveau du sort lancé. Ces dégâts ne peuvent être réduits ou empêchés de quelque manière que ce soit. En outre, votre score de Force devient 3 pour 2d4 jours. Chaque jour que vous passez au repos réduit de 2 jours la durée restante de récupération. Finalement, il y a [[/r 1d3cs1]]{33% de chance} que vous soyez définitivement incapable de lancer <em>Vœu</em> si vous subissez ce stress.</p>",
       "activities": {
+        "utility": {
+          "roll": "Durée de Réduction de Force",
+          "chatFlavor": "<em>Vœu</em> perdu sur 1 : [[/r 1d3cs1]]"
+        },
         "Cast": {
           "name": "Lancer",
           "roll": "Strength Sap Duration",
@@ -4378,7 +4402,7 @@
       "description": "<p>Une lumière brûlante éclate autour de vous dans une émanation de 1,5 mètre. Chaque créature de votre choix que vous pouvez voir dans cette zone doit réussir un jet de sauvegarde de Constitution ou subir 1d6 dégâts radiants.</p><p><strong>Amélioration de Tour de Magie.</strong> Les dégâts augmentent de 1d6 lorsque vous atteignez les niveaux 5 (2d6), 11 (3d6) et 17 (4d6).</p>"
     },
     "Word of Recall": {
-      "name": "Mot de Rappel",
+      "name": "Mot de Retour",
       "description": "<p>Vous et jusqu'à cinq créatures consentantes situées à moins de 1,5 mètre de vous vous téléportez instantanément vers un sanctuaire précédemment désigné. Vous et les créatures que vous avez téléportées apparaissez dans l'espace inoccupé le plus proche de l'endroit que vous avez désigné en préparant le sanctuaire (voir ci-dessous). Si vous lancez ce sort sans avoir préparé un sanctuaire au préalable, le sort n'a aucun effet.</p><p>Vous devez désigner un lieu, tel qu'un temple, en tant que sanctuaire en lançant ce sort à cet endroit.</p>",
       "activities": {
         "Teleport to Sanctuary": {
@@ -4390,7 +4414,7 @@
       }
     },
     "Wrathful Smite": {
-      "name": "Frappe Courroucée",
+      "name": "Châtiment Courroucé",
       "description": "<p>La cible subit 1d6 dégâts nécrotiques supplémentaires de l'attaque, et elle doit réussir un jet de sauvegarde de Sagesse ou recevoir la condition &amp;Reference[frightened apply=false]{effrayée} jusqu'à la fin du sort. À la fin de chacun de ses tours, la cible effrayée répète le jet de sauvegarde, mettant fin au sort en cas de réussite.</p><p><strong>Utilisation d'un emplacement de sort de niveau supérieur.</strong> Les dégâts augmentent de 1d6 pour chaque niveau d'emplacement de sort au-dessus du niveau 1.</p>",
       "effects": {
         "Frightened": {

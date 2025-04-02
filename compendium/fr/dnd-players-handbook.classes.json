@@ -271,15 +271,15 @@
     "Ascendant Step": {
       "name": "Marche Ascendante",
       "description": "<blockquote><p>Prérequis : Ensorceleur niveau 5+</p></blockquote><p>Vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00]{Lévitation} sur vous-même sans dépenser d'emplacement de sort.</p>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer un Sort"
-        }
-      },
       "effects": {
         "Levitating": {
           "name": "Lévitation",
           "description": "<p>La cible ne peut se déplacer qu'en poussant ou en tirant contre un objet fixe ou une surface à portée (comme un mur ou un plafond), ce qui lui permet de se déplacer comme si elle escaladait.</p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer un Sort"
         }
       }
     },
@@ -1443,6 +1443,9 @@
       "name": "Attaque Désarmante",
       "description": "<p>Lorsque vous touchez une créature avec un jet d'attaque, vous pouvez dépenser un Dé de Supériorité pour tenter de désarmer la cible. Ajoutez le résultat du Dé de Supériorité au jet de dégâts de l'attaque. La cible doit réussir un jet de sauvegarde de Force ou lâcher un objet de votre choix qu'elle tient, cet objet tombant dans son espace.</p><section class=\"secret\" id=\"secret-OIeqhDE1w3MxjygU\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut une activité <strong>Jet de Sauvegarde de Force</strong> et une activité <strong>Jet de Sauvegarde de Dextérité</strong>, qui consommera une utilisation de votre Dé de Supériorité.</p><p>L'activité <strong>Dégâts</strong> peut être utilisée pour lancer les dégâts et vous permet de sélectionner le type de dégâts dans la boîte de dialogue de jet. Elle se souviendra de votre choix pour les futures utilisations.</p></section>",
       "activities": {
+        "save": {
+          "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
+        },
         "Strength Save": {
           "name": "Jet de sauvegarde de Force",
           "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
@@ -2343,6 +2346,9 @@
       "name": "Attaque Provocante",
       "description": "<p>Lorsque vous touchez une créature avec un jet d'attaque, vous pouvez dépenser un Dé de Supériorité pour tenter de provoquer la cible à vous attaquer. Ajoutez le [[/damage @scale.battle-master.superiority.die]]{Dé de Supériorité} aux dégâts de l'attaque. La cible doit réussir un jet de sauvegarde de Sagesse ou avoir Désavantage aux jets d'attaque contre les autres cibles que vous jusqu'à la fin de votre prochain tour.</p><section class=\"secret\" id=\"secret-BS37R5kndzjT5lCr\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut des activités pour sauvegarder contre votre <strong>Force</strong> ou <strong>Dextérité</strong>. Vous pouvez utiliser le jet de dégâts en ligne pour les dégâts supplémentaires ou l'activité <strong>Dégâts</strong>.</p><p>L'activité <strong>Dégâts</strong> vous permet de choisir le type de dégâts à infliger dans la boîte de dialogue de jet.</p></section>",
       "activities": {
+        "save": {
+          "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
+        },
         "Save Against Strength": {
           "name": "Sauvegarde contre la Force",
           "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
@@ -2350,6 +2356,12 @@
         "Save Against Dexterity": {
           "name": "Sauvegarde contre la Dextérité",
           "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
+        }
+      },
+      "effects": {
+        "Provocation": {
+          "name": "Provocation",
+          "description": "<p>La cible a un Désavantage sur les jets d'attaque contre des cibles autres que vous jusqu'à la fin de votre prochain tour.</p>"
         }
       }
     },
@@ -3029,15 +3041,15 @@
     "Mask of Many Faces": {
       "name": "Masque aux Mille Visages",
       "description": "<blockquote><p>Prérequis : Niveau 2+ Ensorceleur</p></blockquote><p>Vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Déguisement} sans dépenser de slot de sort.</p><section class=\"secret\" id=\"secret-vIzXrLvsSDtyMciU\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Lancer</strong> peut être utilisée à la place de Déguisement et inclut un Effet Actif pour suivre lorsque vous êtes déguisé.</p></section>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer un Sort"
-        }
-      },
       "effects": {
         "Disguised": {
           "name": "Déguisé",
           "description": "<p><span style=\"font-family:Signika, sans-serif\">Pour discerner que vous êtes déguisé, une créature doit utiliser l’action Étudier pour inspecter votre apparence et réussir un [[/check ability=int skill=inv]] contre votre DD de sauvegarde de sort.</span></p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer un Sort"
         }
       }
     },
@@ -3086,6 +3098,9 @@
       "name": "Attaque Menaçante",
       "description": "<p>Quand vous touchez une créature avec un jet d'attaque, vous pouvez dépenser un dé de supériorité pour tenter d'effrayer la cible. Ajoutez le dé de supériorité aux dégâts de l'attaque. La cible doit réussir un jet de sauvegarde de Sagesse ou être effrayée jusqu'à la fin de votre prochain tour.</p><section class=\"secret\" id=\"secret-sPNAs2sYsogCvvxn\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut une activité de <strong>Jet de sauvegarde de Force</strong> et une activité de <strong>Jet de sauvegarde de Dextérité</strong> qui consommera un dé de supériorité.</p><p>L'activité <strong>Dégâts</strong> vous permet de sélectionner le type de dégâts qu'elle inflige dans la boîte de dialogue de jet.</p></section>",
       "activities": {
+        "save": {
+          "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
+        },
         "Save Against Strength": {
           "name": "Jet de Sauvegarde contre la Force",
           "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
@@ -3406,15 +3421,15 @@
     "One with Shadows": {
       "name": "Un avec les Ombres",
       "description": "<blockquote><p>Prérequis : Ensorceleur de niveau 5+</p></blockquote><p>Tant que vous êtes dans une zone de &amp;Reference[Dim Light] ou &amp;Reference[Darkness], vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibilité} sur vous-même sans dépenser de slot de sort.</p><section class=\"secret\" id=\"secret-SvwkLQLYzHCKzuss\"><p><strong>Note Foundry</strong></p><p>L’activité <strong>Lancer</strong> peut être utilisée à la place du sort Invisibilité et inclut un effet actif qui applique l’état Invisible.</p></section>",
-      "activities": {
-        "Cast": {
-          "name": "Lancer un Sort"
-        }
-      },
       "effects": {
         "Invisible": {
           "name": "Invisible",
           "description": "<p>Le sort prend fin immédiatement après que la cible effectue un jet d'attaque, inflige des dégâts, ou lance un sort.</p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer un Sort"
         }
       }
     },
@@ -3883,6 +3898,9 @@
       "name": "Attaque Repoussante",
       "description": "<p>Lorsque vous touchez une créature avec un jet d'attaque utilisant une arme ou une frappe sans arme, vous pouvez dépenser un dé de supériorité pour tenter de repousser la cible. Ajoutez le dé de supériorité au jet de dégâts de l'attaque. Si la cible est de taille Large ou plus petite, elle doit réussir un jet de sauvegarde de Force ou être repoussée jusqu'à 4,5 mètres directement loin de vous.</p><section id=\"secret-S6d1XbWlRjPp1t0t\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette caractéristique inclut une activité de <strong>Sauvegarde de Force</strong> et une activité de <strong>Sauvegarde de Dextérité</strong> qui consommeront un dé de supériorité.</p><p>L'activité <strong>Dégâts</strong> permet de sélectionner le type de dégâts dans la boîte de dialogue de jet de dés.</p></section>",
       "activities": {
+        "save": {
+          "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
+        },
         "Strength Save": {
           "name": "Jet de Sauvegarde de Force",
           "condition": "Lorsque vous touchez une créature avec un jet d'attaque utilisant une arme ou un Coup Imprécis"
@@ -5012,6 +5030,9 @@
       "name": "Attaque de Fauchage",
       "description": "<p>Lorsque vous touchez une créature avec un jet d'attaque utilisant une arme ou une Attaque à Mains Nues, vous pouvez dépenser un Dé de Supériorité et ajouter ce dé aux dégâts de l'attaque. Si la cible est de taille Large ou plus petite, elle doit réussir un jet de sauvegarde de Force ou subir la condition &amp;Reference[Prone].</p><section class=\"secret\" id=\"secret-QeXYRpr665AxyLvo\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut une activité de <strong>Jet de Force</strong> et une activité de <strong>Jet de Dextérité</strong> qui consommera une utilisation de votre Dé de Supériorité. Elles incluent un Effet Actif qui peut appliquer la condition À Terre.</p><p>L'activité <strong>Dégâts</strong> vous permet de sélectionner le type de dégâts à infliger dans la boîte de dialogue de jet.</p></section>",
       "activities": {
+        "save": {
+          "condition": "Lorsque vous touchez une créature avec un jet d'attaque"
+        },
         "damage": {
           "condition": "Lorsque vous touchez une créature avec un jet d'attaque utilisant une arme ou un coup de poing"
         },

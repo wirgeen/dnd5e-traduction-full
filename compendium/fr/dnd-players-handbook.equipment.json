@@ -70,7 +70,13 @@
     },
     "Alchemist's Fire": {
       "name": "Feu de l'alchimiste",
-      "description": "<p>Lorsque vous effectuez une action d'attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une flasque de feu de l'alchimiste. Ciblez une créature ou un objet que vous pouvez voir dans un rayon de 6 mètres autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DD 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou subir 1d4 dégâts de feu et commencer à brûler (voir le glossaire des règles).</p>"
+      "description": "<p>Lorsque vous effectuez une action d'attaque, vous pouvez remplacer l'une de vos attaques par le lancer d'une flasque de feu de l'alchimiste. Ciblez une créature ou un objet que vous pouvez voir dans un rayon de 6 mètres autour de vous. La cible doit réussir un jet de sauvegarde de Dextérité (DD 8 plus votre modificateur de Dextérité et votre bonus de maîtrise) ou subir 1d4 dégâts de feu et commencer à brûler (voir le glossaire des règles).</p>",
+      "effects": {
+        "En Flammes": {
+          "name": "En Flammes",
+          "description": "<p>Référence des règles : &amp;Reference[burning].</p>"
+        }
+      }
     },
     "Alchemist's Supplies": {
       "name": "Fournitures d'Alchimiste",
@@ -1646,6 +1652,5 @@
       "name": "Parfum",
       "description": "<p>Le parfum est contenu dans un flacon de 4 onces. Pendant 1 heure après avoir appliqué du parfum sur vous, vous avez l'Avantage sur les tests de Charisme (Persuasion) effectués pour influencer un Humanoïde Indifférent à moins de 1,5 mètres de vous.</p>"
     }
-
   }
 }
