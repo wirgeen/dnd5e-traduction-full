@@ -1,0 +1,1019 @@
+{
+  "label": "Origines des personnages",
+  "mapping": {
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    }
+  },
+  "folders": {
+    "Aasimar": "Aasimar",
+    "Backgrounds": "Origines",
+    "Dragonborn": "Drakéide",
+    "Dwarf": "Nain",
+    "Elf": "Elfe",
+    "Gnome": "Gnome",
+    "Goliath": "Goliath",
+    "Halfling": "Halfelin",
+    "Human": "Humain",
+    "Orc": "Orc",
+    "Species": "Races",
+    "Tiefling": "Tieffelin",
+    "Traits": "Traits"
+  },
+  "entries": {
+    "phbbgAcolyte0000": {
+      "name": "Acolyte",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Intelligence, Sagesse, Charisme</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Initié à la magie} (Clerc)</p><p><strong>Maîtrises de compétence.</strong> Intuition et Religion</p><p><strong>Maîtrise d'outils.</strong> Matériel de calligraphe</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Matériel de calligraphe},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Livre} (de prières),  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Symbole sacré},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchemins} (10 Feuilles),  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, 8 po ; ou (B) 50 po</p><p>Vous étiez au service d'un temple, situé en ville ou isolé dans quelque bosquet sacré. Vous y accomplissiez des rites religieux en l'honneur d'une divinité ou d'un panthéon. Vous avez servi sous la tutelle d'un prêtre et étudié la religion. Grâce à l'instruction prodiguée par ce prêtre et à votre propre dévotion, vous avez également appris à canaliser un minimum de puissance divine au service de votre lieu de culte et des fidèles qui venaient y prier.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques d'Intelligence, Sagesse et Charisme ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise d'Intuition et de la Religion. Elle vous accorde également la maîtrise du matériel de calligraphe."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Initié à la Magie (Clerc)."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgArtisan0000": {
+      "name": "Artisan",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Force, Dextérité, Intelligence</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000]{Façonneur}</p><p><strong>Maîtrises de compétence.</strong> Investigation et Persuasion</p><p><strong>Maîtrise d'outils.</strong> <em>Choisissez un type parmi les </em> <em>outils d'artisan</em> (Voir chapitre 6)</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A) outils d'artisan (identique à ci-dessus), 2  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Sacoches},  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 32 po ; ou (B) 50 po</p><p>Vous avez commencé à lessiver les sols et récurer les plans de travail dans l'atelier d'un artisan pour quelques piécettes par jour dès que vous avez eu la force de porter un seau. Sitôt en âge de débuter votre apprentissage, vous avez appris à créer des objets artisanaux de base, ainsi qu'amadouer les clients difficiles. Votre métier vous a également permis d'acquérir un sens aigu du détail.</p>",
+      "advancement": {
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise de l'Investigation and de la Persuasion. Elle vous accorde également la maîtrise des outils d'artisan."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don de Façonneur."
+        },
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques de Force, Dextérité, et d'Intelligence ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Tool Proficiency": {
+          "title": "Maîtrise d'outil",
+          "hint": "Accordé par le Don d’Origine : Façonneur. Vous gagnez la maîtrise de trois outils d’artisan différents de votre choix parmi la liste ci-dessous."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgCharlatan00": {
+      "name": "Charlatan",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Dextérité, Constitution, Charisme</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Doué}</p><p><strong>Maîtrises de compétence.</strong> Escamotage et Tromperie</p><p><strong>Maîtrise d'outils.</strong> Matériel de contrefaçon</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulForgeryKit]{Matériel de contrefaçon},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costume},  @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Beaux habits}, 15 po ; ou (B) 50 po</p><p>Sitôt en âge de commander une bière, vous avez eu votre tabouret favori dans toutes les tavernes à quinze kilomètres à la ronde de votre lieu de naissance. Ces virées régulières vous ont appris l'art de vendre du rêve aux malheuruex en quête d'un bobard réconfortant, qu'il s'agisse d'une potion prétendument miraculeuse ou d'un titre de naissance contrefait.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Dextérité, Constitution et Charisme ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise de l'Escamotage et de la Tromperie. Elle vous accorde également la maîtrise des outils de contrefaçon."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Doué."
+        },
+        "Skilled Proficiencies": {
+          "title": "Maîtrises des Compétences",
+          "hint": "Accordé par le Don d’Origine : Doué. Vous gagnez la maîtrise de Trois traits supplémentaire, parmis les compétences et maîtrise ci-dessous."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgCriminal000": {
+      "name": "Criminel",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Dextérité, Constitution, Intelligence</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]{Vigilant}</p><p><strong>Maîtrises de compétence.</strong> Escamotage et Discrétion</p><p><strong>Maîtrise d'outils.</strong> Outils de voleur</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A) 2  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagues},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Outils de voleur},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Pied-de-biche}, 2  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Sacoches},  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 16 po ; ou (B) 50 po</p><p>Vous gagniez votre pain dans les ruelles sombres, en coupant des bourses ou en cambriolant des échoppes. Peu être faisiez-vous partie d'une petite bande de malfrats partageant les mêmes idées et veillant les uns sur les autres. Ou peut-être étiez-vous un loup solitaire, luttant seul contre la guilde de voleurs locale et d'autres brigands plus redoutables encore.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Dextérité, Constitution et Charisme ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Vigilant."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise de l'Escamotage et de la Discrétion. Elle vous accorde également la maîtrise des outils de voleurs."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgEntertainer": {
+      "name": "Artiste",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Force, Dextérité, Charisme</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMusician000]{Musicien}</p><p><strong>Maîtrises de compétence.</strong> Acrobaties et Représentation</p><p><strong>Maîtrise d'outils.</strong> <em>Choisissez un </em> <em>Instrument de musique</em></p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A) Instrument de musique (identique à ci-dessus), 2  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Miroir},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Parfum},  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 11 po ; ou (B) 50 po</p><p>Vous avez passé le plus clair de votre jeunesse à suivre les foires et carnavals itinérants, effectuant de menus travaux pour les musiciens et acrobates en échange de leçons. Vous avez peu être appris à marcher sur une corde raide, à jouer du luth dans un style particulier ou à réciter des poèmes avec une diction impécable. Aujourd'hui encore, vous aimez être applaudi et rêvez de remonter sur scène.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Force, Dextérité et Charisme ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise de l'Acrobaties et de la Représentation. Elle vous accorde également la maîtrise d'un instrument de musique."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Musicien."
+        },
+        "Instrument Training": {
+          "title": "Instrument Training",
+          "hint": "Accordé par le Don d’Origine : Musicien. Vous gagnez la maîtrise de trois instruments de musique de votre choix."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgFarmer00000": {
+      "name": "Fermier",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Force, Constitution, Sagesse</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftTough000000]{Tough}</p><p><strong>Maîtrises de compétence.</strong> Dressage et Nature</p><p><strong>Maîtrise d'outils.</strong> Outils de charpentier</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]{Serpe},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCarpenters]{Outils de charpentier},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Trousse de soin},  @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Pot en fer},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pelle},  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 30 po ; ou (B) 50 po</p><p>Vous avez grandi près de la terre. Les années passées à vous occuper des bêtes et à cultiver la terre vous ont permis de gagner en patience et en robustesse. Vous savez apprécier les bienfaits de la nature et nourrissez un profond respect pour sa colère.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Force, Constitution et Sagesse ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise du Dressage et de la Nature. Elle vous accorde également la maîtrise des outils de charpentier."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Robuste."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgGuard000000": {
+      "name": "Garde",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Force, Intelligence, Sagesse</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]{Vigilant}</p><p><strong>Maîtrises de compétence.</strong> Athlétisme et Perception</p><p><strong>Maîtrise d'outils.</strong> <em>Choisissez un type de </em> <em>boîte de jeux</em></p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Lance},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLightCross]{Arbalète légère}, 20  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{carreaux d'arbalète}, boîte de jeux (identique à ci-dessus),  @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Lanterne à capote},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Menottes},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Étui à carreaux d'arbalète},  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 12 po ; ou (B) 50 po</p><p>Vos pieds vous font mal à la simple évocation des longues heures passées à monter la garde dans la tour. Vous avez appris à garder un oeil par-delà le rempart ; à l'affût des maraudeurs venant de la forêt voisine, et l'autre sur la rue, afin de repérer les coupe-jarrets et les fauteurs de troubles.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Force, Intelligence et Sagesse ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise de l'Athlétisme et de la Perception. Elle vous accorde également la maîtrise d'une boîte de jeux."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Vigilant."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgGuide000000": {
+      "name": "Guide",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Dextérité, Constitution, Sagesse</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Initié à la magie} (Druide)</p><p><strong>Maîtrises de compétence.</strong> Discrétion et Survie</p><p><strong>Maîtrise d'outils.</strong> Outils de cartographe</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]{Arc court}, 20  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flèches},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCartograph]{Outils de cartographe},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de couchage},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carquois},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tente},  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 3 po ; ou (B) 50 po</p><p>Vous avez grandi en plein air, loin des terres habitées. Pour toute maison, vous aviez l'endroit ou vous dérouliez votre sac de couchage. La nature sauvage recèle des merveilles : monstres étranges, forêts et cours d'eau vierges, ruines de hall fabuleux, jadis foulés par des géants, désormais envahies par la végétation ; et vous avez appris à explorer tout cela sans aide. Les prêtres de la nature amicaux que vous guidiez parfois vous ont enseigné à canaliser la magie de la nature.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Dextérité, Constitution et Sagesse ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise de la Discrétion et de la Survie. Elle vous accorde également la maîtrise des outils de cartographe."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Initié à la magie (Druide)."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgHermit00000": {
+      "name": "Ermite",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Constitution, Sagesse, Charisme</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftHealer00000]{Guérisseur}</p><p><strong>Maîtrises de compétence.</strong> Médecine et Religion</p><p><strong>Maîtrise d'outils.</strong> Matériel d'herboriste</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâtoon de combat},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]{Matériel d'herboriste},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de couchage},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Livre} (philosophie),  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile} (3 flasques),  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 16 po ; ou (B) 50 po</p><p>Vous avez passé vos jeunes années isolé dans une hutte ou un monastère situé bien au-delà des limites du bourg le plus proche. À l'époque, vos seuls compagnons étaient les créatures de la forêt et les braves gens qui venaient de temps à autre vous apporter des nouvelles du vaste monde et du ravitaillement. Cette solitude vous a permis de passer de noubreuses heures à réfléchir aux mystères de la création.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Constitution, Sagesse et Charisme ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise de la Médecine et de la Religion. Elle vous accorde également la maîtrise du matériel d'herboriste."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Guérisseur."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgMerchant000": {
+      "name": "Marchand",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Constitution, Intelligence, Charisme</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]{Chanceux}</p><p><strong>Maîtrises de compétence.</strong> Dressage et Persuasion</p><p><strong>Maîtrise d'outils.</strong> Instruments de navigateur</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators]{Instruments de navigateur}, 2  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Sacoches},  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 22 po ; ou (B) 50 po</p><p>Apprenti auprès d'un négociant, d'un chef caravanier ou d'un commerçant ayant pignon sur rue, vous avez appris les bases du commerces. Vous avez roulé votre bosse et gagné votre vie en achetant et en vendant les matières premières dont les artisans ont besoin pour exercer leur métier ou les produits finis de ces mêmes artisans. Peut-être transportiez-vous ces marchandises d'un endroit à l'autre (par bateau, chariot ou caravane), à moins que vous ne les achetiez à des marchands ambulants venus jusque dans votre boutique.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Constitution, Intelligence et Charisme ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise du Dressage et de la Persuasion. Elle vous accorde également la maîtrise des instruments de navigateur."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Chanceux."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgNoble000000": {
+      "name": "Noble",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Force, Intelligence, Charisme</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Doué}</p><p><strong>Maîtrises de compétence.</strong> Histoire et Persuasion</p><p><strong>Maîtrise d'outils.</strong> <em>Choisissez un type de </em> <em>boîte de jeux</em> (cf. @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapitre 6})</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A) Boîte de jeux (identique à ci-dessus),  @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Beau habits},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Parfum}, 29 po ; ou (B) 50 po</p><p>Vous avez passé votre enfance dans un château, au milieu de l'opulence, du pouvoir et des privilèges Votre famille de la petite aristocratie à veillé à ce que vous avez pour moitié appréciée et pour moitié détestée. Cette vie de château, en particulier les nombreuses heures passées à observer votre famille à la cours, vous a en tout cas beaucoup appris sur l'autorité.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Force, Intelligence et Charisme ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise de l'Histoire et de la Persuasion. Elle vous accorde également la maîtrise d'une boîte de jeux."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Doué."
+        },
+        "Skilled Proficiencies": {
+          "title": "Maîtrises des Compétences",
+          "hint": "Accordé par le Don d’Origine: Doué. Vous gagnez la maîtrise de Trois traits supplémentaire, parmis les compétences et maîtrise ci-dessous."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgSage0000000": {
+      "name": "Sage",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Constitution, Intelligence, Sagesse</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Initié à la magie} (Magicien)</p><p><strong>Maîtrises de compétence.</strong> Arcanes et Histoire</p><p><strong>Maîtrise d'outils.</strong> Matériel de calligraphie</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bâton de combat},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Matériel de calligraphie},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Livre} (d'Histoire),  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchemins} (8 feuilles),  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, 8 po ; ou (B) 50 po</p><p>Vos années de formation ont été consacrées à voyager de manoir en monastère, où vous accomplissiez divers menus travaux et services en échange de l'accès à la bibliothèque. Vous avez passé de longues soirées plongé dans l'étude des livres et des parchemins, à engranger le savoir du multivers et quelques rudiments de magie, et vous aspirez à davantage.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Constitution, Intelligence et Sagesse ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise d'Arcanes et de l'Histoire. Elle vous accorde également la maîtrise du matériel de calligraphie."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Initié à la magie (Magicien)."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgSailor00000": {
+      "name": "Marin",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Force, Dextérité, Sagesse</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftTavernBrawl]{Bagarreur de tavernes}</p><p><strong>Maîtrises de compétence.</strong> Acrobaties et Perception</p><p><strong>Maîtrise d'outils.</strong> Instruments de navigation</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daque},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators]{Instruments de navigation},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Corde},  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 20 po ; ou (B) 50 po</p><p>Vous avez vécu l'existance du grand large, le vent dans le dos, le pont oscillant sous vos pieds. Tour à tour perché sur les tabourets d'innombrables tavernes de ports dont vous avez oublié les noms et confronté à de puissantes tempêtes, vous avez échangé maints récits avec le peuple de la mer</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Force, Dextérité et Sagesse ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise d'Acrobaties et de Perception. Elle vous accorde également la maîtrise des instruments de navigateur."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Bagarreur de tavernes."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgScribe00000": {
+      "name": "Scribe",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Dextérité, Intelligence, Sagesse</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Doué}</p><p><strong>Maîtrises de compétence.</strong> Investigation et Perception</p><p><strong>Maîtrise d'outils.</strong> Matériel de calligraphe</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Matériel de calligraphe},  @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Beaux habits},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampe},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Huile} (3 flasques),  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchemins} (12 Feuilles), 23 po ; ou (B) 50 po</p><p>Vous avez passé vos années de formation dans un scriptorium, un monastère dédié à la preservation du savoir ou quelque administration, où l'on vous a appris à écrire lisiblement et à produire des textes impécables. Vous avez pu rédiger des documents administratifs ou recopier des ouvrages littéraires. À moins que vous n'ayez quelque talent en matière de poésie, de narration ou de recherche érudite. Par-dessus tout, vous montez un grand souci du détail, ce qui vous permet d'éviter de truffer d'erreurs les documents que vous copiez ou créez.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Dextérité, Intelligence et Sagesse ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise Investigation and Perception. Elle vous accorde également la maîtrise du matériel de calligraphie."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Doué."
+        },
+        "Skilled Proficiencies": {
+          "title": "Maîtrises des Compétences",
+          "hint": "Accordé par le Don d’Origine: Doué. Vous gagnez la maîtrise de Trois traits supplémentaire, parmis les compétences et maîtrise ci-dessous."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgSoldier0000": {
+      "name": "Soldat",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Force, Dextérité, Constitution</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSavageAttac]{Sauvagerie martiale}</p><p><strong>Maîtrises de compétence.</strong> Athlétisme et Intimidation</p><p><strong>Maîtrise d'outils.</strong> <em>Choisissez un type de </em> <em>boîte de jeux</em> (cf. @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapitre 6})</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A)  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Lance},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]{Arc court}, 20  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flèches}, Boîte de jeux (identique à ci-dessus),  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{trousse de soins},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carquois},  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 14 po ; ou (B) 50 po</p><p>Formé aux rudiments de la guerre sitôt adulte, vous ne gardez que de rares et précieux souvenirs de ce que fut votre vie avant le métier des armes. Vous avez la bataille dans le sang. Il vous arrive de vous surprendre à exécuter par réflexe vos tout premiers exercices de combat. Vous avez fini par mettre à profit cet entraînement sur le champs de bataille, en faisant la guerre pour protéger le royaume.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Force, Dextérité et Constitution ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise de l'Athlétisme et de l'Intimidation. Elle vous accorde également la maîtrise d'une boîte de jeux."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Sauvagerie martiale."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbbgWayfarer000": {
+      "name": "Voyageur",
+      "description": "<p><strong>Valeurs de caractéristique.</strong> Dextérité, Sagesse, Charisme</p><p><strong>Don.</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]{Chanceux}</p><p><strong>Maîtrises de compétence.</strong> Intuition et Discrétion</p><p><strong>Maîtrise d'outils.</strong> Outils de voleur</p><p><strong>Équipement.</strong> <em>Choississez A ou B : </em> (A) 2  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagues},  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Outils de voleur}, Boîte de jeux (tout type),  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Sac de couchage}, 2  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{sacoches},  @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Tenue de voyage}, 16 po ; ou (B) 50 po</p><p>Vous avez grandi dans la rue, entouré de marginaux aussi misérables que vous, dont certains étaient vos amis et d'autres des rivaux. Vous dormiez où vous pouviez et faisiez divers petits boulots pour survivre. Parfois, lorsque la faim se faisait trop pressante, vous aviez recours au vol. Pour autant, vous n'avez jamais perdu votre fierté ni renoncé à l'espoir. Le destin n'en a pas terminé avec vous.</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Passif des valeurs de caractéristique",
+          "hint": "Votre histoire vous permet d'augmenter vos caractéristiques Dextérité, Sagesse et Charisme ; augmentez l'une d'entre elles de 2 et une autre de 1, ou bien augmentez les trois de 1. Ces augmentations ne peuvent en aucun cas porter une valeur au-dessus de 20."
+        },
+        "Background Proficiencies": {
+          "title": "Passif de maîtrises",
+          "hint": "Votre histoire vous confère la maîtrise de l'Intuition et de la Discrétion. Elle vous accorde également la maîtrise des outils de voleurs."
+        },
+        "Background Feat": {
+          "title": "Passif de Don",
+          "hint": "Votre histoire vous accorde le don Chanceux."
+        },
+        "Choose Languages": {
+          "title": "langues connues",
+          "hint": "Vous maîtrisez au moins trois langues : le Commun plus deux langues que vous tirez au sort ou choisissez dans la table des Langues Standards."
+        }
+      }
+    },
+    "phbspAasimar0000": {
+      "name": "Aasimar",
+      "description": "<p>Les aasimars (prononcer « AH-zi-mar » ) sont des mortels dont l'âme contient une étincelle des Plans Supérieurs. Qu'ils descendent d'un être angélique ou soient investis d'un pouvoir céleste, ils peuvent attiser cette étincelle pour apporter la lumière, la guérison et la fureur des cieux.</p><p>Toute population mortels peut engendrer des aasimars. Ils ressemblent à leus parents, mais vivent jusqu'à 160 ans et manifestent des traits qui rappellent leur ascendance céleste : taches de rousseur métalliques, yeux lumineux, auréole ou couleur de peau d'un ange (soit argent, vert opalescent ou rouge cuivré). Ces aspects, de prime abors subtils, deviennent plus manifestes lorsque l'aasimar apprend à révéler sa pleine nature céleste.</p><h3 data-anchor=\"aasimar-traits\">Traits des aasimars</h3><p class=\"phb-meta\"><strong>Type de créature. </strong>Humanoïdee</p><p class=\"phb-meta\"><strong>Catégorie de taille. </strong>M (moyenne, entre 1,20 m et 2,15 m) ou P (petite, de 60 cm à 1,20 m), à choisir lors de la sélection de l'espèce</p><p class=\"phb-meta\"><strong>Vitesse.</strong> 9 m</p><p>En tant qu'aasimar, vous disposez des traits spéciaux suivants.</p><p><strong>Mains guérisseuses.</strong> Au prix de l'action Magie, vous touchez physiquement une créature et jetez autant de d4 que votre bonus de maîtrise. La créature récupère autant de points de vie que le total obtenu. Une fois que vous avez utilisé ce trait, vous devez terminer un Repos long pour pouvoir y recourir de nouveau.</p><p><strong>Porte-lumière.</strong> Vous connaissez le sort mineur <em>Lumière</em>. Le Charisme est la caractéristique d'incantation associée.</p><p><strong>Résistance céleste.</strong> Vous bénéficiez de la &amp;Reference[Resistance] aux dégâts nécrotiques et radiants.</p><p><strong>Vision dans le noir.</strong> Vous disposez de la Vision dans le noir sur 18 m.</p><p><strong>Révélation céleste.</strong> Lorsque vous atteignez le niveau de personnage 3, vous pouvez vous transformer par une action Bonus en utilisant l'une des options ci-dessous (choisissez l'option à chaque transformation). La transformation dure 1 minute ou jusu'a ce que vous y mettiez un terme (pas d'action requise). Vous devez terminer un Repos long avant de pouvoir vous retransformer ainsi.</p><p>Une fois à chacun de vos tours tant que persiste cette transformation, vous pouvez infliger des dégâts supplémentaires à une cible lorsque vous lui infligez des dégâts par une attaque ou un sort. Le montant de ces dégâts supplémentaires est égal à votre bonus de maîtrise, et ils sont de type nécrotiques pour le Linceul nécrotique, ou radiants pour Ailes célestes et Radiance intérieure.</p><p>Voici vos options de transformation :</p><p><strong>Ailes célestes.</strong> Deux ailes intangibles se déploient dans votre dos. Juqu'à la fin de la transformation, vous disposez d'une Vitesse de vol égale à votre Vitesse.</p><p><strong>Linceul nécrotique.</strong> Vos yeux se mient en puits de ténèbres et deux ailes spectrales se déploient dans votre dos. Les créatures autres que vos alliés dasn un rayon de 3 m doivent réussir un jet de sauvegarde de Charisme (DD égal à 8 + votre modificateur de Charisme et votre bonus de maîtrise) sous peine de subir l'état Effrayé jusqu'à la fin de votre tour suivant.</p><p><strong>Radiance intérieure.</strong> Une lumière intense émane de vos yeux et de votre bouche. Pour toute la durée, vous produisez une Lumière vive sur un rayon de 3 m et une Lumière faible sur 3 m  de plus; à la fin de chacun de vos tours, oute créature dans un rayon de 3 m subit autant de dégâts radiants que votre bonus de maîtrise.</p>",
+      "advancement": {
+        "1P6xFzbXPoDqJUwf": {
+          "hint": "M (moyenne, entre 1,20 m et 2,15 m) ou P (petite, de 60 cm à 1,20 m), à choisir lors de la sélection de l'espèce"
+        },
+        "Aasimar Traits": {
+          "title": "Traits des aasimars"
+        },
+        "Light Bearer": {
+          "title": "Porte-lumière",
+          "hint": "Vous connaissez le sort mineur Lumière. Le Charisme est la caractéristique d'incantation associée"
+        },
+        "Celestial Resistance": {
+          "title": "Résistance céleste"
+        }
+      }
+    },
+    "phbspAbyssalTief": {
+      "name": "Tieffelin, Abyssal",
+      "description": "<p>Les tieffelins sont natifs des Plans Inférieurs ou ont un ancêtre fiélon qui en est originaire. Un tieffelin (prononcé tiéf-LIN) est lié par le sang à un diable, un démon ou un autre fiélon. Héritage diélon du tieffelin, ce lien avec les Plans Inférieurs s'accompagne d'une promesse de pouvoir, mais n'a aucun éffet direct sur la boussole morale des individus.</p><p>Chaque tieffelin décide s'il vénère ou déplore cet héritage.</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>L'entropie des Abysses, le chaos du Pandémonium et le désespoir des Cartères « parlent » aux tieffelins qui ont reçu l'héritage abyssal. Cornes, fourrure, défenseset odeur corporelle distinctive sont les traits physiques communs à ces tieffelins, dont la plupart ont du sang de démon qui coule dans leurs veines</p><h3 data-anchor=\"tiefling-traits\">Traits des tieffelins</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 1,20 m et 2,15 m) ou P (petite, de 90 cm à 1,20 m), à choisir lors de la selection de l'espèce</p><p><strong>Vitesse. </strong>9 m</p><p>En tant que tieffelin, vous disposez des traits spéciaux suivants.</p><p><strong>Héritage fiélon. </strong>Votre héritage vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptidude en terminant un Repos long. Vous pouvez égalemnt le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (décidez de la caractéristique lors de la sélection de l'héritage).</p><p><strong>Présence d'outre-monde.</strong> Vous connaissez le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{thaumaturgie}. Lorsque vous le lancez avec ce trait, le sort utilise la même caractéristique d'incantation que celle du trait Héritage fiélon.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 18 m.</p><table><caption>Héritage Abyssal</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Vous bénéficiez de la Résistance aux dégâts de poison. Vous connaissez en outre le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{bouffée de poison}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{rayon empoisonné}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{immobilisation de personne}</td></tr></tbody></table>",
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "hint": "M (moyenne, entre 1,20 m et 2,15 m) ou P (petite, de 90 cm à 1,20 m)"
+        },
+        "Tiefling Traits": {
+          "title": "Traits des tieffelins"
+        },
+        "Abyssal Tiefling Traits": {
+          "title": "Traits des tieffelins abyssaux",
+          "hint": "Vous avez une résistance aux dégâts de poison."
+        },
+        "VhCiGFOLtG8H93jy": {
+          "title": "Traits des tieffelins abyssaux",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que lancez avec ce trait."
+        },
+        "KwcwntR3Ai0R5iPN": {
+          "title": "Traits des tieffelins abyssaux",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que lancez avec ce trait."
+        },
+        "9iZufhdzY3XN7Em3": {
+          "title": "Traits des tieffelins abyssaux",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que lancez avec ce trait."
+        },
+        "Otherworldly Presence": {
+          "title": "Présence d'outre-monde"
+        }
+      }
+    },
+    "phbspChthonicTie": {
+      "name": "Tieffelin, Chtonien",
+      "description": "<p>Les tieffelins sont natifs des Plans Inférieurs ou ont un ancêtre fiélon qui en est originaire. Un tieffelin (prononcé tiéf-LIN) est lié par le sang à un diable, un démon ou un autre fiélon. Héritage diélon du tieffelin, ce lien avec les Plans Inférieurs s'accompagne d'une promesse de pouvoir, mais n'a aucun éffet direct sur la boussole morale des individus.</p><p>Chaque tieffelin décide s'il vénère ou déplore cet héritage.</p><h3 data-anchor=\"chthonic\">Chthonien</h3><p>Les tieffelins qui ont reçu l'héritage chtonien ressentent non seulement l'attraction des Cartères, mais aussi l'avidité de la Géhenne et la noirceur de l'Hadès. Certians ont un aspect cadavérique. D'autres possèdent la beauté surnaturelle d'une succube, ou entretiennent un air de famille avec la guenaude nocturne, le Yugoloth ou quelque autre ancêtre fiélon Neutre Mauvais.</p><h3 data-anchor=\"tiefling-traits\">Traits des tieffelins</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 1,20 m et 2,15 m) ou P (petite, de 90 cm à 1,20 m), à choisir lors de la selection de l'espèce.</p><p><strong>Vitesse. </strong>9 m</p><p>En tant que tieffelin, vous disposez des traits spéciaux suivants.</p><p><strong>Héritage fiélon. </strong>Votre héritage vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptidude en terminant un Rpose long. Vous pouvez égalemnt le lancer avec vos éventuels emplacemens de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (décidez de la caractéristique lors de la sélection de l'héritage).</p><p><strong>Présence d'outre-monde.</strong> Vous connaissez le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{thaumaturgie}. Lorsque vous le lancez avec ce trait, le sort utilise la même caractéristique d'incantation que celle du trait Héritage fiélon.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 18 m.</p><table><caption>Héritage Chtonien</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Vous bénéficiez de la Résistance aux dégâts nécrotiques. Vous connaissez en outre le sort mineur@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{contact glacial}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{simulacre de vie}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{rayon affaiblissement}</td></tr></tbody></table>",
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "hint": "M (moyenne, entre 1,20 m et 2,15 m) ou P (petite, de 90 cm à 1,20 m)"
+        },
+        "Tiefling Traits": {
+          "title": "Traits des tieffelins"
+        },
+        "Otherworldly Presence": {
+          "title": "Présence d'outre-monde"
+        },
+        "Chthonic Tiefling Traits": {
+          "title": "Traits des tieffelins chtoniens",
+          "hint": "Vous avez une résistance aux dégâts nécrotiques."
+        },
+        "pIi692Cevlw7qZRe": {
+          "title": "Traits des tieffelins chtoniens",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que lancez avec ce trait."
+        },
+        "DU7Y6D1IJSSgObJK": {
+          "title": "Traits des tieffelins chtoniens",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que lancez avec ce trait."
+        },
+        "R0k1RmQximNOQw1R": {
+          "title": "Traits des tieffelins chtoniens",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que lancez avec ce trait."
+        }
+      }
+    },
+    "phbspDragonborn0": {
+      "name": "Drakéide",
+      "description": "<p>LEs ancêtres des drakéides sont sortis d'oeufs de dragons chromatiques et métaliques. Selon la légende, ces oeufs auraient reçu la bénédiction des dieux-dragons Bahamut et Tiamat, qui souhaitaient peupler le multivers d'êtres mortels créés à leur images. Une autre version affirme que ce sont les dragons qui ont créé le premier drakéide sans la bénédiction de leurs dieux tutélaires. Quelle que soit leur origine véritable, les drakéides ont élu domicile sur le Plan Matériel.</p><p>Les drakéides ressemblent à des dragons bipèdes dénués d'ailes (écailleux, yeux de couleur vive, ossature épaisse et cornes sur la tête). Leur coloration, ainsi que d'autres aspects, rappellent leurs ancêtres draconiques.</p><h3 data-anchor=\"dragonborn-traits\">Traits des drakéides</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 1,50 m et 2,15 m)</p><p><strong>Vitesse.</strong> 9 m</p><p>En tant que drakéide, vous disposez des traits spéciaux suivants.</p><p><strong>Ascendance draconique. </strong>Votre lignée remonde à un géniteur dragon. Choississez le type de dragon dans la table Ancêtres draconiques. Ce choix affecte vos traits Souffle et Résistance aux dégâts, ainsi que votre apparence.</p><table><caption>Ancêtres draconiques</caption><thead><tr><td>Dragon</td><td>Type de dégâts</td><td>Dragon</td><td>Type de dégâts</td></tr></thead><tbody><tr><td>Airain</td><td>Feu</td><td>Cuivre</td><td>Acide</td></tr><tr><td>Argent</td><td>Froid</td><td>noir</td><td>Acide</td></tr><tr><td>Blanc</td><td>Froid</td><td>Or</td><td>Feu</td></tr><tr><td>Bleu</td><td>Foudre</td><td>Rouge</td><td>feu</td></tr><tr><td>Bronze</td><td>Foudre</td><td>Vert</td><td>Poison</td></tr></tbody></table><p><strong>Résistance aux dégâts. </strong>Vous bénéficiez de la Risitance au type de dégâts déterminé par votre trait Ascendance draconique.</p><p><strong>Souffle. </strong>Lorsque vous entreprenez l'action Attaque à votre tour, vous pouvez remplacer l'une de vos attaques par une expiration d'énergioe magique sous la forme d'un Cône de 4,50 m ou d'une Ligne de 9 m de long et 1,50 m de large (choisissez la forme à chaque fois). Chaque créature prise dans la zone effectue un jet de sauvegarde de Dextérité (DD 8 + votre modificateur de Constitution + votre bonus de maîtrise). En cas d'échec, la créature subit 1d10 dégâts du type déterminé par votre trait Ascendance draconique. En cas de réussite, elle ne subit que la moitié de ces dégâts. Les dégâts augmentent de 1d10 lorsque vous atteignez les niveaux de personnage 5 (2d10), 11 (3d10) et 17 (4d10). Vous pouvez recourir à ce souffle auttant de fois que votre bonus de maîtrise, et récupérez ce quota en terminant un Repos long.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 18 m.</p><p><strong>Vol draconique. </strong>Lorsque vous atteignez le niveau de personnage 5, vous pouvez canaliser la magie draconique pour vous octroyer le vol de façoon temporaire. Par une action bonus, il vous pousse des ailes spectrales dans le dos qui persistent 10 minutes ou jusqu'à ce que vous rétractiez ces ailes (pas d'action requise) ou subissiez l'état Neutralisé. Pour toute la durée, vous disposez d'une Vitesse de vol égale à votre Vitesse. Vos ailes semblent être faites de la même energie que votre souffle. Une fois ce trait utilisé, vous devez terminer un Repos long pour pouvoir y recourir de nouveau.</p>",
+      "advancement": {
+        "65BqBxGcj6z4S803": {
+          "hint": "M (moyenne, entre 1,50 m et 2,15 m)"
+        },
+        "Breath Weapon": {
+          "title": "Souffle"
+        },
+        "Draconic Ancestry": {
+          "title": "Ascendance draconique"
+        },
+        "Damage Resistance": {
+          "title": "Résistance aux dégâts",
+          "hint": "Vous bénéficiez de la Résistance au type de dégâts déterminé par votre trait Ascendance draconique."
+        },
+        "Draconic Flight": {
+          "title": "Vol draconique"
+        }
+      }
+    },
+    "phbspDrow0000000": {
+      "name": "Drow",
+      "description": "<p>Créés par le dieu Corellon, les premiers elfes pouvaient changer de forme à volonté. Ils ont perdu ce pouvoir lorsque Corellon les a maudits pour avoir comploté avec la déesse Loth, qui tentait vainement de détrôner Corellon. Quand Loth fut précipitée dans les Abysses, beaucoup d'elfes renoncèrent à elle et gagnèrent le pardon de Corellon, mais ce que leur dieu tutélaire leur avait repris fut perdu à jamais.</p><p>Désormais incapables de se métarmorphoser à volonté, les elfes se sont retirés en Féerie, où leur chagrin fut accentué par l'influence de ce plan d'existence. Au fil du temps, la curiosité en poussa beaucoup à partir explorer d'autres plan d'existance, y compris les mondes du Plan Matériel.</p><p>Les elfes ont les oreilles pointues et n'ont pas de pilosité faciale ni corporelle. Ils vivent environ 750 ans et ne dorment jamais, entrant en transe lorsqu'ils ont besoin de prendre du repos. Dans cette état, ils demeurent conscients de ce qui les environne tout en s'immergeant dans leurs souvenirs et la méditation.</p><p>L'environement transforme subtilement les elfes après q'uils l'ont habité pendant un millénaire ou davantage, et leur octroie certains type de magie. Drow, haut-elfes et elfes sylvestres sont des exemples d'elfes ayant subi ce type d'imprégnation.</p><h3 data-anchor=\"drow\">Drow</h3><p>Les drows, qui habitent le plus souvent en Outreterre, ont été faconnés par ce monde souterrain. Certains drows, à titre individuel ou en groupe constitué, bien qu'ayant totalement renoncé à l'Outreterre, en conservent la magie. Dans le cadre de campagne d'Éberron, par exemple, les drows vivent en forêt pluviale et dans les ruines cyclopéennes du contient de Xen'drik.</p><h3 data-anchor=\"elf-traits\">Traits des elfes</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 1,50 m et 1,85 m)</p><p><strong>Vitesse. </strong>9 m</p><p>En tant qu'elfe, vous disposez des traits spéciaux suivants.</p><p><strong>Ascendance féerique. </strong>Vous avez l'Avantage aux jets de sauvegarde visant à éviter l'état &amp;Reference[Charmed] ou à y mettre un terme.</p><p><strong>Lignage elfique. </strong>Vous appartenez à un lignage qui vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptitude en terminant un Repos long. Vous pouvez également le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (Décidez de la caractéristique lors de la sélection du lignage)</p><table><caption>Lignage drow</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>La portée de votre Vision dans le noir passe à 36 m. Vous connaissez également le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{lumières dansantes}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{lueurs féériques}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{ténèbres}</td></tr></tbody></table><p><strong>Sens aiguisés. </strong>Vous bénéficiez de la maîrise de la compétence Intuition, Perception ou Survie au choix.</p><p><strong>Trance.</strong> Vous vous passez de sommeil et la magie ne peut pas vous endormir. Vous pouvez terminer un Repos long en 4 heures si vous les passez en transe méditative durant laquelle vous restez en éveil.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 18 m.</p>",
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "M (moyenne, entre 1,50 m et 1,85 m)"
+        },
+        "Elf Traits": {
+          "title": "Traits des elfes"
+        },
+        "Keen Senses": {
+          "title": "Sens aiguisés",
+          "hint": "Vous bénéficiez de la maîrise de la compétence Intuition, Perception ou Survie au choix."
+        },
+        "Drow Traits": {
+          "title": "Traits des drows",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait."
+        }
+      }
+    },
+    "phbspDwarf000000": {
+      "name": "Nain",
+      "description": "<p>Façonnés par une divinité de la forge, les nains sont sortis de terre dans les temps anciens. Appelé différemment selon les mondes (Moradin, Réorx ou autre), ce dieu créateur a donné aux nains une affinité pour la pierre, le métal et pour la vie souterraine. Il les a en outre rendus solides comme le roc, puisqu’ils jouissent d’une longévité d’environ 350 ans.</p><p>Trapus et souvent barbus, les premiers nains creusèrent des villes et des forteresses à flanc de montagne ou sous la terre. Les plus anciennes légendes racontent leur confrontation avec les monstres des montagnes et d’Outreterre, géants immenses et autres horreurs souterraines. Inspirés par ces récits, les nains de toutes les cultures louent la bravoure, en particulier lorsqu’il est question de petits qui l’emportent sur les puissants.</p><p>Sur certains mondes du multivers, les premières colonies de nains ont été construites dans des collines ou des montagnes, et les familles qui en descendent s’appellent respectivement nains des collines et nains des montagnes. Les univers Greyhawk et Dragonlance comptent de telles communautés.</p><h3 data-anchor=\"dwarf-traits\">Dwarf Traits</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 1,20 m ert 1,50 m)</p><p><strong>Vitesse.</strong> 9 m</p><p>En tant que nain, vous disposez des traits spéciaux suivants.</p><p><strong>Connaissance de la pierre. </strong>Par une action Bonus, vous recevez la Perception des vibrations à 18 m pendant 10 minutes. Cette Perception des vibrations nécessite que vous soyez sur une surface en pierre ou en contact physique avec une telle surface. Cette pierre peut être naturelle ou façonnée. Vous pouvez recourir à cette action Bonus autant de fois que votre bonus de maîtrise, et récupérez ce quota en terminant un Repos long.</p><p><strong>Résistance naine.</strong>Vous bénéficiez de la Résistance aux dégâts de poison. Vous avez en outre l’Avantage aux jets de sauvegarde visant à éviter l’état Empoisonné ou à y mettre un terme sur vous-même.</p><p><strong>Ténacité naine. </strong>Votre maximum de points de vie augmente de 1, et augmente encore de 1 chaque fois que vous gagnez un niveau.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 36 m.</p>",
+      "advancement": {
+        "6HdONjMD4UozXSfC": {
+          "hint": "M (moyenne, entre 1,20 m ert 1,50 m)"
+        },
+        "Dwarf Traits": {
+          "title": "Traits des nains"
+        },
+        "Dwarven Resilience": {
+          "title": "Resistance naine",
+          "hint": "Vous bénéficiez de la Résistance aux dégâts de poison."
+        }
+      }
+    },
+    "phbspForestGnome": {
+      "name": "Gnome des Forêts",
+      "description": "<p>Les gnomes sont des êtres magiques créés par les dieux de l’invention, des illusions et de la vie souterraine. Les premiers gnomes étaient rarement vus par les autres peuples en raison de leur nature discrète et de leur propension à résider dans des terriers en forêt. Leur déficit de taille, ils le compensaient par la ruse. Ils déjouaient les prédateurs au moyen de pièges et de tunnels labyrinthiques. Ils ont également appris la magie auprès de dieux comme Garl Brilledor, Baervan Ermiterrant et Baravar Sombretoge, qui leur rendaient visite sous un déguisement. Cette magie a fini par créer les lignages des gnomes des forêts et des gnomes des roches.</p><p>Les gnomes sont un peuple de petite taille aux grands yeux et aux oreilles pointues, qui vivent environ 425 ans. De nombreux gnomes aiment avoir un toit au-dessus de leur tête, quitte à ce que ce « toit » se résume à un chapeau.</p><h3 data-anchor=\"gnome-traits\">Traits des gnomes</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>P (petite, entre 90 cm et 1,20 m)</p><p><strong>Vitesse.</strong> 9 m</p><p>En tant que gnome, vous disposez des traits spéciaux suivants.</p><p><strong>Lignage gnome. </strong>Vous appartenez à un lignage qui vous octroie des aptitudes surnaturelles. Choisissez l’une des options ci-après ; quelle que soit celle que vous choisissez, l’Intelligence, la Sagesse ou le Charisme est votre caractéristique d’incantation pour les sorts que vous lancez avec ce trait (décidez de la caractéristique lors de la sélection du lignage) </p><p><strong>Gnome des forêts.</strong> Vous connaissez le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{illusion mineure}. Le sort @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{communication avec les animaux} est en outre considéré pour vous comme toujours préparé. Vous pouvez le lancer sans emplacement de sort autant de fois que votre bonus de maîtrise, et récupérez ce quota en terminant un Repos long. Vous pouvez en outre désigner les emplacements de sort adaptés dont vous disposez pour lancer ce sort.</p><p><strong>Ruse gnome. </strong>Vous avez l’Avantage aux jets de sauvegarde d’Intelligence, de Sagesse et de Charisme.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 18 m</p>",
+      "advancement": {
+        "O7gYRGMSW3atQ2Yc": {
+          "hint": "P (petite, entre 90 cm et 1,20 m)"
+        },
+        "Gnome Traits": {
+          "title": "Traits des gnomes"
+        },
+        "Gnome des forêts Lineage Spell": {
+          "title": "Sort de la ligné des gnomes des forêts",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait."
+        },
+        "Gnome des forêts Lineage Cantrip": {
+          "title": "Sort mineur de la ligné des gnomes des forêts",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait."
+        }
+      }
+    },
+    "phbspGoliath0000": {
+      "name": "Goliath",
+      "description": "<p>Plus grands que la plupart des autres peuples, les goliaths sont de lointains descendants des géants. Chaque goliath porte les faveurs des tout premiers géants. Ces faveurs se manifestent de façon surnaturelle, par exemple en leur permettant de grandir en un clin d’œil afin d’approcher en court instant le gabarit de leurs imposants ancêtres.</p><p>Les goliaths jouissent d’une apparence physique qui rappelle leur ascendance géante. Certains goliaths, par exemple, ressemblent à des géants des pierres, d’autres à des géants du feu. Quels que soient les géants qu’ils considèrent comme leurs ancêtres directs, les goliaths ont forgé leur propre sillon dans le multivers sans se soucier des querelles millénaires qui ont signé la perte des géants, et s’efforcent de tutoyer des sommets supérieurs à ceux atteints par ces mêmes ancêtres.</p><h3 data-anchor=\"goliath-traits\">Traits des goliaths</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 2,15 m et 2,45 m)</p><p><strong>Vitesse. </strong> 10,50 m</p><p>En tant que goliath, vous disposez des traits spéciaux suivants.</p><p><strong>Ascendance gigante. </strong>Vous êtes un lointain descendant des géants. Choisissez l’un des bénéfices ci-après, une faveur surnaturelle liée à vos ancêtres ; vous pouvez recourir à ce bénéfice autant de fois que votre bonus de maîtrise et récupérez ce quota en terminant un Repos long :</p><p><strong>Brûlure ignée (géants du feu). </strong>Lorsque vous touchez une cible avec un jet d’attaque et lui infligez des dégâts, vous pouvez infliger 1d10 dégâts de feu supplémentaires à cette cible.</p><p><strong>Endurance de la pierre (géants des pierres). </strong>Lorsque vous subissez des dégâts, vous pouvez jouer votre Réaction pour lancer 1d12. Ajoutez votre modificateur de Constitution au résultat du dé et réduisez les dégâts de la somme obtenue.</p><p><strong>Froid mordant (géants du givre). </strong>Lorsque vous touchez une cible avec un jet d’attaque et lui infligez des dégâts, vous pouvez infliger 1d6 dégâts de froid supplémentaires à cette cible et réduire sa Vitesse de 3 m jusqu’au début de votre tour suivant.</p><p><strong>Renversement des coteaux (géants des collines). </strong>Lorsque vous touchez une créature de taille G ou inférieure avec un jet d’attaque et lui infligez des dégâts, vous pouvez faire subir à cette cible l’état &amp;Reference[Prone].</p><p><strong>Saut des nuées (géants des nuages). </strong>Par une action Bonus, vous pouvez vous téléporter magiquement d’un maximum de 9 m dans un espace inoccupé que vous voyez.</p><p><strong>Tonnerre des cieux (géants des tempêtes). </strong>Lorsque vous subissez des dégâts de la part d’une créature dans un rayon de 18 m, vous pouvez jouer votre Réaction pour lui infliger 1d8 dégâts de tonnerre.</p><p><strong>Forme de géant. </strong>À partir du niveau de personnage 5, vous pouvez changer de catégorie de taille et devenir de taille G par une action Bonus, à condition que l’espace que vous occupez soit suffisamment vaste. Cette transformation dure 10 minutes ou jusqu’à ce que vous y mettiez un terme (pas d’action requise). Pour toute la durée, vous avez l’Avantage aux jets de Force et votre Vitesse augmente de 3 m. Une fois ce trait utilisé, vous devez terminer un Repos long pour y recourir de nouveau.</p><p><strong>Forte carrure. </strong>Vous avez l’Avantage à tous les tests de caractéristique que vous effectuez pour mettre un terme à l’état Agrippé. Votre catégorie de taille est en outre considérée comme du cran immédiatement supérieur pour ce qui est de définir votre capacité de charge.</p>",
+      "advancement": {
+        "LETPMtBLvmzWUUb0": {
+          "hint": "M (moyenne, entre 2,15 m et 2,45 m)"
+        },
+        "Goliath Traits": {
+          "title": "Traits des goliaths"
+        },
+        "Giant Ancestry": {
+          "title": "Ascendance géante",
+          "hint": "Vous êtes un lointain descendant des géants. Choisissez l’un des bénéfices, une faveur surnaturelle liée à vos ancêtres; vous pouvez recourir à ce bénéfice autant de fois que votre bonus de maîtrise et récupérez ce quota en terminant un Repos long."
+        }
+      }
+    },
+    "phbspHalfling000": {
+      "name": "Halfelin",
+      "description": "<p>Chéris et guidés par des dieux qui accordent de l’importance à la vie, à la maison et au foyer, les halfelins gravitent autour de havres bucoliques où famille et communauté sont le ciment de l’existence. Cela étant, maints halfelins ayant le goût des exploits et de l’aventure, ils se tournent tout naturellement vers la découverte, partent explorer le vaste monde et nouent de nouvelles amitiés en cours de route. Leur taille, semblable à celle d’un enfant humain, les aide à se fondre dans la foule et à se faufiler dans les moindres recoins.</p><p>Quiconque ayant côtoyé des halfelins, surtout s’ils sont aventuriers, a pu voir à l’œuvre la fameuse « chance des halfelins ». Dès qu’un halfelin est en danger de mort, c’est comme si quelque force invisible jouait en sa faveur. De nombreux halfelins croient au pouvoir de la chance et attribuent ce don inhabituel à un ou plusieurs de leurs dieux bienveillants, par exemple Yondalla, Brandobaris ou Charmalaine. Ce même don pourrait expliquer leur grande longévité (environ 150 ans).</p><p>On trouve toute sorte de communautés halfelines. Pour chaque comté isolé dans une région à l’écart du monde, il existe un syndicat du crime comme le Clan Boromar d’Eberron ou une bande de halfelins farouchement territoriaux, comme ceux du cadre de campagne Dark Sun.</p><p>Les halfelins qui préfèrent vivre sous terre sont parfois appelés Cœur-vaillant ou Forts. Les halfelins nomades, ainsi que ceux qui vivent parmi les humains et autres « grandes gens », sont quant à eux baptisés Pied-léger ou Grands.</p><h3 data-anchor=\"halfling-traits\">Traits des halfelins</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>P (petite, entre 60 cm et 90 cm)</p><p><strong>Vitesse.</strong> 9 m</p><p>En tant que halfelin, vous disposez des traits spéciaux suivants.</p><p><strong>Agilité halfeline. </strong>Vous pouvez vous déplacer dans l’espace de toute créature d’une catégorie de taille supérieure à la vôtre, mais ne pouvez pas vous arrêter dans le même espace que celle-ci.</p><p><strong>Brave. </strong>Vous avez l’Avantage aux jets de sauvegarde visant à éviter l’état Effrayé ou à y mettre un terme.</p><p><strong>Chance. </strong>Lorsque vous obtenez un 1 au d20 d’un Test d20, vous pouvez relancer le dé, mais devez utiliser le nouveau résultat.</p><p><strong>Discrétion naturelle. </strong>Il vous suffit d’être dans l’ombre d’une créature dont la catégorie de taille est d’au moins un cran supérieur à la vôtre pour pouvoir entreprendre l’action Furtivité.</p>",
+      "advancement": {
+        "GYp1vi82hSEoe3mO": {
+          "hint": "P (petite, entre 60 cm et 90 cm)"
+        },
+        "Halfling Traits": {
+          "title": "Traits des halfelins"
+        }
+      }
+    },
+    "phbspHighElf0000": {
+      "name": "Hauts-elfes",
+      "description": "<p>Créés par le dieu Corellon, les premiers elfes pouvaient changer de forme à volonté. Ils ont perdu ce pouvoir lorsque Corellon les a maudits pour avoir comploté avec la déesse Loth, qui tentait vainement de détrôner Corellon. Quand Loth fut précipitée dans les Abysses, beaucoup d'elfes renoncèrent à elle et gagnèrent le pardon de Corellon, mais ce que leur dieu tutélaire leur avait repris fut perdu à jamais.</p><p>Désormais incapables de se métarmorphoser à volonté, les elfes se sont retirés en Féerie, où leur chagrin fut accentué par l'influence de ce plan d'existence. Au fil du temps, la curiosité en poussa beaucoup à partir explorer d'autres plan d'existance, y compris les mondes du Plan Matériel.</p><p>Les elfes ont les oreilles pointues et n'ont pas de pilosité faciale ni corporelle. Ils vivent environ 750 ans et ne dorment jamais, entrant en transe lorsqu'ils ont besoin de prendre du repos. Dans cette état, ils demeurent conscients de ce qui les environne tout en s'immergeant dans leurs souvenirs et la méditation.</p><p>L'environement transforme subtilement les elfes après q'uils l'ont habité pendant un millénaire ou davantage, et leur octroie certains type de magie. Drow, haut-elfes et elfes sylvestres sont des exemples d'elfes ayant subi ce type d'imprégnation.</p><h3 data-anchor=\"high-elves\">Hauts-elfes</h3><p>Les hauts-elfes ont été imprégnés de la magie des passages successifs entre Féerie et Plan Matériel. Sur certains mondes, ils se designet eux-mêmes par d'autres noms. Ils se nomment par exemple elfes du soleil ou de la lune dans le cadre de campagne des Forgotten Realms, Silvanesti et qualinesti dans celui de Dragonlance et aereni sur Éberron.</p><h3 data-anchor=\"elf-traits\">Traits des elfes</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 1,50 m et 1,85 m)</p><p><strong>Vitesse. </strong>9 m</p><p>En tant qu'elfe, vous disposez des traits spéciaux suivants.</p><p><strong>Ascendance féerique. </strong>Vous avez l'Avantage aux jets de sauvegarde visant à éviter l'état &amp;Reference[Charmed] ou à y mettre un terme.</p><p><strong>Lignage elfique. </strong>Vous appartenez à un lignage qui vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptitude en terminant un Repos long. Vous pouvez également le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (Décidez de la caractéristique lors de la sélection du lignage)</p><table><caption>Lignage hauts-elfes</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Vous connaissez le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{prestidigitation}.Chaque fois que vous terminez un Repos long, vous pouvez remplacer ce sort mineur par un autre sort mineur de la liste de sort du @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{magicien}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{détection de la magie}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{foulée brumeuse}</td></tr></tbody></table><p><strong>Sens aiguisés. </strong>Vous bénéficiez de la maîrise de la compétence Intuition, Perception ou Survie au choix.</p><p><strong>Trance.</strong> Vous vous passez de sommeil et la magie ne peut pas vous endormir. Vous pouvez terminer un Repos long en 4 heures si vous les passez en transe méditative durant laquelle vous restez en éveil.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 18 m.</p>",
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "M (moyenne, entre 1,50 m et 1,85 m)"
+        },
+        "Elf Traits": {
+          "title": "Traits des elfes"
+        },
+        "Keen Senses": {
+          "title": "Sens aiguisés",
+          "hint": "Vous bénéficiez de la maîrise de la compétence Intuition, Perception ou Survie au choix."
+        },
+        "High Elf Traits": {
+          "title": "Traits des hauts-elfes",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait."
+        }
+      }
+    },
+    "phbspHuman000000": {
+      "name": "Humain",
+      "description": "<p>Présents dans l’ensemble du multivers et aussi divers que nombreux, les humains s’efforcent d’accomplir le maximum au cours du temps qui leur est imparti. Ils font preuve d’une ambition et d’une ingéniosité qui sont applaudies, respectées et craintes sur de nombreux mondes.</p><p>Les humains jouissent d’une apparence aussi variée que les terriens, et vénèrent de nombreux dieux. Si les érudits sont en désaccord à propos des origines de l’espèce humaine, l’un des premiers rassemblements humains aurait eu lieu à Sigil, métropole en forme de tore située au centre du multivers et berceau du commun. C’est depuis cette ville que les humains se seraient disséminés aux quatre coins du multivers, avec dans leurs bagages le cosmopolitisme propre à la Cité des portes.</p><h3 data-anchor=\"human-traits\">Traits des humains</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 1,20 m et 2,15 m) ou P (petite, de 60 cm à 1,20 m), à choisir lors de la sélection de l’espèce</p><p><strong>Vitesse. </strong>9 m</p><p>En tant qu’humain, vous disposez des traits spéciaux suivants.</p><p><strong>Compétent. </strong>Vous recevez la maîtrise d’une compétence de votre choix.</p><p><strong>Ingénieux. </strong>Vous recevez l’Inspiration héroïque chaque fois que vous terminez un Repos long.</p><p><strong>Polyvalent. </strong>Vous recevez le don d’origine de votre choix (cf. chapitre 5). Doué est recommandé.</p>",
+      "advancement": {
+        "dLxv96vt2B2KOEe2": {
+          "hint": "M (moyenne, entre 1,20 m et 2,15 m) ou P (petite, de 60 cm à 1,20 m), à choisir lors de la sélection de l’espèce"
+        },
+        "Human Traits": {
+          "title": "Traits des humains"
+        },
+        "Skillful": {
+          "title": "Compétent",
+          "hint": "Vous recevez la maîtrise d’une compétence de votre choix."
+        },
+        "Versatile": {
+          "title": "Polyvalent",
+          "hint": "Vous recevez le don d’origine de votre choix. Doué est recommandé."
+        }
+      }
+    },
+    "phbspInfernalTie": {
+      "name": "Tieffelin, Infernal",
+      "description": "<p>Les tieffelins sont natifs des Plans Inférieurs ou ont un ancêtre fiélon qui en est originaire. Un tieffelin (prononcé tiéf-LIN) est lié par le sang à un diable, un démon ou un autre fiélon. Héritage diélon du tieffelin, ce lien avec les Plans Inférieurs s'accompagne d'une promesse de pouvoir, mais n'a aucun éffet direct sur la boussole morale des individus.</p><p>Chaque tieffelin décide s'il vénère ou déplore cet héritage.</p><h3 data-anchor=\"infernal\">Infernal</h3><p>L'héritage infernal relie les tiefflins non seulement à la Géhenne, mais aussi aux Neuf Enfers et aux champs de bataille désolés de l'Archéron, Cornes, épines, queue fourchue, yeux mordorés et vague relent de soufre ou de fumée sont des traits physiques propres à ces tieffelins, dont beaucoup ont un démon pour ancêtre.</p><h3 data-anchor=\"tiefling-traits\">Traits des tieffelins</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 1,20 m et 2,15 m) ou P (petite, de 90 cm à 1,20 m), à choisir lors de la selection de l'espèce</p><p><strong>Vitesse. </strong>9 m</p><p>En tant que tieffelin, vous disposez des traits spéciaux suivants.</p><p><strong>Héritage fiélon. </strong>Votre héritage vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptidude en terminant un Rpose long. Vous pouvez égalemnt le lancer avec vos éventuels emplacemens de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (décidez de la caractéristique lors de la sélection de l'héritage).</p><p><strong>Présence d'outre-monde.</strong> Vous connaissez le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{thaumaturgie}. Lorsque vous le lancez avec ce trait, le sort utilise la même caractéristique d'incantation que celle du trait Héritage fiélon.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 18 m.</p><table><caption>Héritage Infernal</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Vous bénéficiez de la Résistance aux dégâts de feu. Vous connaissez en outre le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{trait de feu}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{représailles infernales}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{ténèbres}</td></tr></tbody></table>",
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "hint": "M (moyenne, entre 1,20 m et 2,15 m) ou P (petite, de 90 cm à 1,20 m)"
+        },
+        "Tiefling Traits": {
+          "title": "Traits des tieffelins"
+        },
+        "Otherworldly Presence": {
+          "title": "Présence d'outre-monde"
+        },
+        "Infernal Tiefling Traits": {
+          "title": "Traits des tieffelins infernaux",
+          "hint": "Vous avez une résistance aux dégâts de feu."
+        },
+        "gMovXMwHeD9cCL99": {
+          "title": "Traits des tieffelins infernaux",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que lancez avec ce trait."
+        },
+        "ol3SWLw2FTNEiXrb": {
+          "title": "Traits des tieffelins infernaux",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que lancez avec ce trait."
+        },
+        "cj8h25IH0Zvdy3Bm": {
+          "title": "Traits des tieffelins infernaux",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que lancez avec ce trait."
+        }
+      }
+    },
+    "phbspOrc00000000": {
+      "name": "Orc",
+      "description": "<p>Les orcs sont la création de Gruumsh, un dieu puissant qui sillonnait jadis les grands espaces du Plan Matériel. Gruumsh a doté ses enfants de présents pour les aider à parcourir les plaines infinies, les vastes cavernes et les mers agitées, ainsi qu'à affronter les monstres qui y rôdent. Même lorsqu'ils se tournent vers d'autres dieux, les orcs conservent les dons de Grummsh : endurance, détermination et capacité à voir dans les Ténèbres.</p><p>L'orc moyen est grans et puissament bâti. il a la peau grise, des oreilles très pointues et des canines inférieures proéminentes qui font songer à de petites défenses. Sur certains mondes, les jeunes orcs se voient narrer les grands voyages et exploits de leurs ancêtres. inspirés par ces récits, maints orcs s'interrogent : Gruumsh les sommera-t-il d'égaler les hauts faits d'autrefois... et seront-ils dignes de ses faveurs ? D'autres orcs, heureux de savoir que ces vieilles histoires appartiennent à un passé révolu, s'attachent à chercher leur voie propre</p><h3 data-anchor=\"orc-traits\">Traits des orcs</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 1,80 m et 2,15 m)</p><p><strong>Vitesse. </strong>9 m</p><p>En tant qu'orc, vous disposez des traits spéciaux suivants.</p><p><strong>Acharnement. </strong>Si vous tombez à 0 point de vie sans être tué sur le coup, vous pouvez en fait vous retrouver à 1 point de vie. une fois ce trait utilisé, vous devez terminer un Repos long pour pouvoir y recourir de nouveau.</p><p><strong>poussée d'adrénaline. </strong>Vous pouvez entreprendre l'action Pointe par une action Bonus. Quand vous faites ainsi, vous recevez un nomre de points de vie temporaires égal à votre bonus de maîtrise. Vous pouvez recourir à ce trait autant de fois que votre bonus de maîtrise, et récupérez ce quota en terminant un Repos court ou long.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 36 m.</p>",
+      "advancement": {
+        "B2sUOuY0KhoULqlX": {
+          "hint": "M (moyenne, entre 1,80 m et 2,15 m)"
+        },
+        "Orc Traits": {
+          "title": "Traits des orcs"
+        }
+      }
+    },
+    "phbspRockGnome00": {
+      "name": "Gnome des roches",
+      "description": "<p>Les gnomes sont des êtres magiques créés par les dieux de l’invention, des illusions et de la vie souterraine. Les premiers gnomes étaient rarement vus par les autres peuples en raison de leur nature discrète et de leur propension à résider dans des terriers en forêt. Leur déficit de taille, ils le compensaient par la ruse. Ils déjouaient les prédateurs au moyen de pièges et de tunnels labyrinthiques. Ils ont également appris la magie auprès de dieux comme Garl Brilledor, Baervan Ermiterrant et Baravar Sombretoge, qui leur rendaient visite sous un déguisement. Cette magie a fini par créer les lignages des gnomes des forêts et des gnomes des roches.</p><p>Les gnomes sont un peuple de petite taille aux grands yeux et aux oreilles pointues, qui vivent environ 425 ans. De nombreux gnomes aiment avoir un toit au-dessus de leur tête, quitte à ce que ce « toit » se résume à un chapeau.</p><h3 data-anchor=\"gnome-traits\">Traits des gnomes</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>P (petite, entre 90 cm et 1,20 m)</p><p><strong>Vitesse.</strong> 9 m</p><p>En tant que gnome, vous disposez des traits spéciaux suivants.</p><p><strong>Lignage gnome. </strong>Vous appartenez à un lignage qui vous octroie des aptitudes surnaturelles. Choisissez l’une des options ci-après ; quelle que soit celle que vous choisissez, l’Intelligence, la Sagesse ou le Charisme est votre caractéristique d’incantation pour les sorts que vous lancez avec ce trait (décidez de la caractéristique lors de la sélection du lignage) :</p><p><strong>Gnome des roches.</strong> Vous connaissez les sorts mineurs @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{prestidigitation} et @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMending000]{réparation}. Vous pouvez en outre consacrer 10 minutes à lancer <em>prestidigitation</em> pour créer un appareil mécanique de taille TP (CA 5, 1 pv) tel qu’un jouet, un allume-feu ou une boîte à musique. Lorsque vous créez l’appareil, vous déterminez sa fonction en choisissant un effet parmi ceux de <em>prestidigitation</em>;  l’appareil produit cet effet chaque fois que vous-même ou une autre créature entreprenez une action Bonus pour l’activer par simple contact. Lorsque l’effet choisi comporte des options, vous devez en choisir une pour l’appareil à sa création. Si vous choisissez l’effet « allumage-extinction » du sort, par exemple, vous devez déterminer si l’appareil allume ou éteint le feu ; il ne peut pas faire les deux. Vous pouvez avoir trois appareils actifs de ce type à la fois, et chacun tombe en morceaux 8 heures après sa création ou lorsque vous le démantelez par simple contact en entreprenant l’action Utilisation.</p><p><strong>Ruse gnome. </strong>Vous avez l’Avantage aux jets de sauvegarde d’Intelligence, de Sagesse et de Charisme.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 18 m</p>",
+      "advancement": {
+        "O7gYRGMSW3atQ2Yc": {
+          "hint": "P (petite, entre 90 cm et 1,20 m)"
+        },
+        "Gnome Traits": {
+          "title": "Traits des gnomes"
+        },
+        "Gnome des roches Traits": {
+          "title": "Traits des gnomes des roches",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait."
+        }
+      }
+    },
+    "phbspWoodElf0000": {
+      "name": "Elfes sylvestres",
+      "description": "<p>Créés par le dieu Corellon, les premiers elfes pouvaient changer de forme à volonté. Ils ont perdu ce pouvoir lorsque Corellon les a maudits pour avoir comploté avec la déesse Loth, qui tentait vainement de détrôner Corellon. Quand Loth fut précipitée dans les Abysses, beaucoup d'elfes renoncèrent à elle et gagnèrent le pardon de Corellon, mais ce que leur dieu tutélaire leur avait repris fut perdu à jamais.</p><p>Désormais incapables de se métarmorphoser à volonté, les elfes se sont retirés en Féerie, où leur chagrin fut accentué par l'influence de ce plan d'existence. Au fil du temps, la curiosité en poussa beaucoup à partir explorer d'autres plan d'existance, y compris les mondes du Plan Matériel.</p><p>Les elfes ont les oreilles pointues et n'ont pas de pilosité faciale ni corporelle. Ils vivent environ 750 ans et ne dorment jamais, entrant en transe lorsqu'ils ont besoin de prendre du repos. Dans cette état, ils demeurent conscients de ce qui les environne tout en s'immergeant dans leurs souvenirs et la méditation.</p><p>L'environement transforme subtilement les elfes après q'uils l'ont habité pendant un millénaire ou davantage, et leur octroie certains type de magie. Drow, haut-elfes et elfes sylvestres sont des exemples d'elfes ayant subi ce type d'imprégnation.</p><h3 data-anchor=\"wood-elves\">Elfes sylvestres</h3><p>Les elfes syslvestres portent en eux la magie des forêts vierges. ils sont connus sous denombreux autres noms, notamment elfes sauvages, elfes verts et elfes forestiers. Les grugash sont des elfes sylvestres reclus du monde de Greyhawk, tandis que les kagonesti et les tairnadal sont leur équivalent respectif de Dragonlance et d'Éberron.</p><h3 data-anchor=\"elf-traits\">Traits des elfes</h3><p><strong>Type de créature. </strong>Humanoïde</p><p><strong>Catégorie de taille. </strong>M (moyenne, entre 1,50 m et 1,85 m)</p><p><strong>Vitesse. </strong>9 m</p><p>En tant qu'elfe, vous disposez des traits spéciaux suivants.</p><p><strong>Ascendance féerique. </strong>Vous avez l'Avantage aux jets de sauvegarde visant à éviter l'état &amp;Reference[Charmed] ou à y mettre un terme.</p><p><strong>Lignage elfique. </strong>Vous appartenez à un lignage qui vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptitude en terminant un Repos long. Vous pouvez également le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (Décidez de la caractéristique lors de la sélection du lignage)</p><table><caption>Lignage elfes sylvestre</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Votre vitesse passe à 10,50 m. Vous connaissez également le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{druidisme}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{grande foulée}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{passage sans trace}</td></tr></tbody></table><p><strong>Sens aiguisés. </strong>Vous bénéficiez de la maîrise de la compétence Intuition, Perception ou Survie au choix.</p><p><strong>Trance.</strong> Vous vous passez de sommeil et la magie ne peut pas vous endormir. Vous pouvez terminer un Repos long en 4 heures si vous les passez en transe méditative durant laquelle vous restez en éveil.</p><p><strong>Vision dans le noir. </strong>Vous disposez de la Vision dans le noir sur 18 m.</p>",
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "M (moyenne, entre 1,50 m et 1,85 m)"
+        },
+        "Elf Traits": {
+          "title": "Traits des elfes"
+        },
+        "Traits des elfes sylvestres": {
+          "title": "Traits des elfes sylvestres"
+        },
+        "FRJszO7cYchbaGzt": {
+          "title": "Traits des elfes sylvestres",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait."
+        },
+        "zFsEPXauTgmYxqiJ": {
+          "title": "Traits des elfes sylvestres",
+          "hint": "L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait."
+        },
+        "Keen Senses": {
+          "title": "Sens aiguisés",
+          "hint": "Vous bénéficiez de la maîrise de la compétence Intuition, Perception ou Survie au choix."
+        }
+      }
+    },
+    "phbsptAbyssalLeg": {
+      "name": "Héritage fiélon, Abyssal",
+      "description": "<p>Votre héritage vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptidude en terminant un Repos long. Vous pouvez égalemnt le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (décidez de la caractéristique lors de la sélection de l'héritage)..</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>L'entropie des Abysses, le chaos du Pandémonium et le désespoir des Cartères « parlent » aux tieffelins qui ont reçu l'héritage abyssal. Cornes, fourrure, défenseset odeur corporelle distinctive sont les traits physiques communs à ces tieffelins, dont la plupart ont du sang de démon qui coule dans leurs veines.</p><table><caption>Héritage Abyssal</caption><thead><tr><td>Niveau 1</td><td>Niveau 3</td><td>Niveau 5</td></tr></thead><tbody><tr><td>Vous bénéficiez de la Résistance aux dégâts de poison. Vous connaissez en outre le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{bouffée de poison}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{rayon empoisonné}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{immobilisation de personne}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Note Foundry</strong></p><p>La résistance et les sorts vous sont accordés automatiquement, et vous serez invité à choisir la caractéristique de lancement de sorts pendant la progression.</p></section>"
+    },
+    "phbsptAdrenaline": {
+      "name": "Poussée d'adrénaline",
+      "description": "<p>Vous pouvez entreprendre l'action Pointe par une action Bonus. Quand vous faites ainsi, vous recevez un nomre de points de vie temporaires égal à votre bonus de maîtrise. Vous pouvez recourir à ce trait autant de fois que votre bonus de maîtrise, et récupérez ce quota en terminant un Repos court ou long.</p>",
+      "activities": {
+        "Adrenaline Rush: Dash": {
+          "name": "Poussée d'adrénaline: Pointe"
+        }
+      }
+    },
+    "phbsptBrave00000": {
+      "name": "Brave",
+      "description": "<p>Vous avez l'Avantage aux jets de sauvegarde visant à éviter l'état &amp;Reference[Frightened] ou y a mettre un terme.</p>"
+    },
+    "phbsptBreathWeap": {
+      "name": "Souffle",
+      "description": "<p>Lorsque vous entreprenez l'action Attaque à votre tour, vous pouvez remplacer l'une de vos attaques par une expiration d'énergioe magique sous la forme d'un Cône de 4,50 m ou d'une Ligne de 9 m de long et 1,50 m de large (choisissez la forme à chaque fois). Chaque créature prise dans la zone effectue un jet de sauvegarde de Dextérité (DD 8 + votre modificateur de Constitution + votre bonus de maîtrise). En cas d'échec, la créature subit 1d10 dégâts du type déterminé par votre trait Ascendance draconique. En cas de réussite, elle ne subit que la moitié de ces dégâts. Les dégâts augmentent de 1d10 lorsque vous atteignez les niveaux de personnage 5 (2d10), 11 (3d10) et 17 (4d10). Vous pouvez recourir à ce souffle auttant de fois que votre bonus de maîtrise, et récupérez ce quota en terminant un Repos long</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Note Foundry</strong></p><p>Les activités <strong>Souffle (Cône)</strong> et <strong>Souffle (Ligne)</strong> sont toutes deux configurées selon leur type de gabarit et incluent chaque type de dégâts. Les dégâts augmentent également avec votre niveau.</p><p>Vous pouvez sélectionner le type de dégâts dans la boîte de dialogue du jet de dégâts. Il se souviendra de votre choix de dégâts par la suite. Vous pouvez modifier les activités pour supprimer les autres types de dégâts afin d’éviter cette étape.</p></section>",
+      "activities": {
+        "Breath Weapon (Cone)": {
+          "name": "Souffle (Cône)"
+        },
+        "Breath Weapon (Line)": {
+          "name": "Souffle (Ligne)"
+        }
+      }
+    },
+    "phbsptCelestialR": {
+      "name": "Révélation céleste",
+      "description": "<p>Lorsque vous atteignez le niveau de personnage 3, vous pouvez vous transformer par une action Bonus en utilisant l'une des options ci-dessous (choisissez l'option à chaque transformation). La transformation dure 1 minute ou jusu'a ce que vous y mettiez un terme (pas d'action requise). Vous devez terminer un Repos long avant de pouvoir vous retransformer ainsi.</p><p>Une fois à chacun de vos tours tant que persiste cette transformation, vous pouvez infliger des dégâts supplémentaires à une cible lorsque vous lui infligez des dégâts par une attaque ou un sort. Le montant de ces dégâts supplémentaires est égal à votre bonus de maîtrise, et ils sont de type nécrotiques pour le Linceul nécrotique, ou radiants pour Ailes célestes et Radiance intérieure.</p><p>Voici vos options de transformation :</p><p><strong>Ailes célestes.</strong> Deux ailes intangibles se déploient dans votre dos. Juqu'à la fin de la transformation, vous disposez d'une Vitesse de vol égale à votre Vitesse.</p><p><strong>Linceul nécrotique.</strong> Vos yeux se mient en puits de ténèbres et deux ailes spectrales se déploient dans votre dos. Les créatures autres que vos alliés dans un rayon de 3 m doivent réussir un jet de sauvegarde de Charisme (DD égal à 8 + votre modificateur de Charisme et votre bonus de maîtrise) sous peine de subir l'état &amp;Reference[Frightened] jusqu'à la fin de votre tour suivant.</p><p><strong>Radiance intérieure.</strong> Une lumière intense émane de vos yeux et de votre bouche. Pour toute la durée, vous produisez une Lumière vive sur un rayon de 3 m et une Lumière faible sur 3 m de plus; à la fin de chacun de vos tours, toute créature dans un rayon de 3 m subit autant de dégâts radiants que votre bonus de maîtrise.</p><section class=\"secret\" id=\"secret-xYg9zvtrUSXdd7vM\">    <p><strong>Note Foundry</strong></p>    <p>Chaque activité utilise votre usage de cette capacité.</p>    <p>L’activité <strong>Ailes Célestes</strong> inclut un Effet Actif qui augmente votre Vitesse de Vol à « 1 » pour indiquer une équivalence à votre Vitesse de marche.</p>    <p>L’activité <strong>Linceul nécrotique/strong> inclut le jet de sauvegarde et un Effet Actif permettant de suivre les créatures affectées et applique l’état Effrayé.</p>    <p>L’activité <strong>Radiance Intérieure</strong> inclut un Effet Actif pour le suivi ainsi qu’un jet de dégâts qui progresse avec votre niveau.</p></section>",
+      "activities": {
+        "Heavenly Wings": {
+          "name": "Ailes célestes"
+        },
+        "Inner Radiance": {
+          "name": "Radiance intérieure"
+        },
+        "Necrotic Shroud": {
+          "name": "Linceul nécrotique"
+        }
+      },
+      "effects": {
+        "Heavenly Wings": {
+          "name": "Ailes célestes"
+        },
+        "Searing Radiance": {
+          "name": "Radiance intérieure"
+        },
+        "Necrotic Shroud": {
+          "name": "Linceul nécrotique"
+        }
+      }
+    },
+    "phbsptChthonicLe": {
+      "name": "Héritage fiélon, Chtonien",
+      "description": "<p>Votre héritage vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptidude en terminant un Repos long. Vous pouvez égalemnt le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (décidez de la caractéristique lors de la sélection de l'héritage).</p><h3 data-anchor=\"chthonic\">Chthonien</h3><p>Les tieffelins qui ont reçu l'héritage chtonien ressentent non seulement l'attraction des Cartères, mais aussi l'avidité de la Géhenne et la noirceur de l'Hadès. Certians ont un aspect cadavérique. D'autres possèdent la beauté surnaturelle d'une succube, ou entretiennent un air de famille avec la guenaude nocturne, le Yugoloth ou quelque autre ancêtre fiélon Neutre Mauvais.</p><table><caption>Héritage Chtonien</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Vous bénéficiez de la Résistance aux dégâts nécrotiques. Vous connaissez en outre le sort mineur@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{contact glacial}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{simulacre de vie}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{rayon affaiblissement}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Note Foundry</strong></p><p>La résistance et les sorts vous sont accordés automatiquement, et vous serez invité à choisir la caractéristique de lancement de sorts pendant la progression.</p></section>"
+    },
+    "phbsptCloudsJaun": {
+      "name": "Saut des nuées",
+      "description": "<p>Par une action Bonus, vous pouvez vous téléporter magiquement d’un maximum de 9 m dans un espace inoccupé que vous voyez.</p>",
+      "activities": {
+        "Cloud's Jaunt": {
+          "name": "Saut des nuées"
+        }
+      }
+    },
+    "phbsptDraconicFl": {
+      "name": "Vol draconique",
+      "description": "<p>Lorsque vous atteignez le niveau de personnage 5, vous pouvez canaliser la magie draconique pour vous octroyer le vol de façoon temporaire. Par une action bonus, il vous pousse des ailes spectrales dans le dos qui persistent 10 minutes ou jusqu'à ce que vous rétractiez ces ailes (pas d'action requise) ou subissiez l'état Neutralisé. Pour toute la durée, vous disposez d'une Vitesse de vol égale à votre Vitesse. Vos ailes semblent être faites de la même energie que votre souffle. Une fois ce trait utilisé, vous devez terminer un Repos long pour pouvoir y recourir de nouveau.</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un Effet Actif pour le suivi, mais elle n’accorde pas automatiquement la Vitesse de Vol.</p></section>",
+      "activities": {
+        "Draconic Flight": {
+          "name": "Vol draconique"
+        }
+      },
+      "effects": {
+        "Draconic Flight": {
+          "name": "Vol draconique"
+        }
+      }
+    },
+    "phbsptDrowElfLin": {
+      "name": "Lignage elfique, Drow",
+      "description": "<p>Vous appartenez à un lignage qui vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptitude en terminant un Repos long. Vous pouvez également le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (Décidez de la caractéristique lors de la sélection du lignage)</p><h3>Lignage drow</h3><table><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>La portée de votre Vision dans le noir passe à 36 m. Vous connaissez également le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{lumières dansantes}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{lueurs féériques}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{ténèbres}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Note Foundry</strong></p><p>Les capacités et sorts correspondants vous seront automatiquement accordés lorsque vous sélectionnerez l’espèce et au fur et à mesure de votre progression en niveau.</p></section>"
+    },
+    "phbsptDwarvenRes": {
+      "name": "Résistance naine",
+      "description": "<p>Vous bénéficiez de la Réistance aux dégâts de poison. Vous avez en outre l'Avantage aux jets de sauvegarde visant à éviter l'état &amp;Reference[Poisoned].</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Vous recevrez automatiquement la Résistance aux dégâts de Poison, mais pas l’Avantage aux jets de sauvegarde pour éviter ou mettre fin à l’état Empoisonné.</p></section>"
+    },
+    "phbsptDwarvenTou": {
+      "name": "Ténacité naine",
+      "description": "<p>Votre maximum de point de vie augmente de 1, et augmente encore de 1 chaque fois que vous gagnez un niveau.</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Note Foundry</strong></p><p>L’augmentation du maximum de points de vie est gérée automatiquement à chaque niveau.</p></section>",
+      "effects": {
+        "Dwarven Toughness": {
+          "name": "Ténacité naine"
+        }
+      }
+    },
+    "phbsptElvenLinea": {
+      "name": "Lignage elfique",
+      "description": "<p>Vous appartenez à un lignage qui vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptitude en terminant un Repos long. Vous pouvez également le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (Décidez de la caractéristique lors de la sélection du lignage)</p><table><caption>Lignage elfiques</caption><thead><tr><td><p>Lineage</p></td><td><p>Level 1</p></td><td><p>Level 3</p></td><td><p>Level 5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrowElfLin]{Drow}</p></td><td><p>La portée de votre Vision dans le noir passe à 36 m. Vous connaissez également le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{lumières dansantes}.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{lueurs féériques}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{ténèbres}</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptHighElfLin]{Hauts-elfes}</p></td><td><p>Vous connaissez le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{prestidigitation}.Chaque fois que vous terminez un Repos long, vous pouvez remplacer ce sort mineur par un autre sort mineur de la liste de sort du @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{magicien}.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{détection de la magie}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{foulée brumeuse}</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptWoodElfLin]{Elfes sylvestres}</p></td><td><p>Votre vitesse passe à 10,50 m. Vous connaissez également le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{druidisme}.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{grande foulée}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{passage sans trace}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Note Foundry</strong></p><p>Les capacités et sorts correspondants vous seront automatiquement accordés lorsque vous sélectionnerez l’espèce et au fur et à mesure de votre progression en niveau.</p></section>"
+    },
+    "phbsptFeyAncestr": {
+      "name": "Ascendance féerique",
+      "description": "<p>Vous avez l'Avantage aux jets de sauvegarde visant à éviter l'état &amp;Reference[Charmed] ou ç y mettre un terme.</p>"
+    },
+    "phbsptFiendishLe": {
+      "name": "Héritage fiélon"
+    },
+    "phbsptFiresBurn0": {
+      "name": "Brûlure ignée",
+      "description": "<p>Lorsque vous touchez un cible avec un jet d'attaque et lui infigez des dégâts, vous pouvez infliger 1d10 dégâts de feu supplémentaires à cette cible.</p>",
+      "activities": {
+        "Burn": {
+          "name": "Brûlure",
+          "condition": "Lorsque vous touchez une cible avec un jet d'attaque et lui infligez des dégâts"
+        }
+      }
+    },
+    "phbsptForestGnom": {
+      "name": "Gnome des forêts",
+      "description": "<p>Vous connaissez le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{illusion mineure}. le sort @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{communication avec les animaux} est en outre considéré pour vous comme toujours préparé. Vous pouvez le lancer sans emplacement de sort autant de fois que votre bonus de maîtrise, et récupérez ce quota en terminant un Repos long. Vous pouvez en outre dépensez les emplacements de sort adaptés dont vous disposez pour lancer ce sort.</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Les lancers gratuits sont inclus dans le sort.</p></section>"
+    },
+    "phbsptFrostsChil": {
+      "name": "Froid mordant",
+      "description": "<p>Lorsque vous touchez une cible avec un jet d'attaque et lui infligez des dégâts, vous pouvez infliger 1d6 dégâts de froid supplémentaires à cette cible et réduire sa Vitesse de 3 m jusqu'au début de votre prochain tour.</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut un Effet Actif pouvant être utilisé pour le suivi et réduit leur Vitesse de 10.</p></section>",
+      "activities": {
+        "Chill": {
+          "name": "Ralenti",
+          "condition": "Lorsque vous touchez une cible avec un jet d'attaque et lui infligez des dégâts"
+        }
+      },
+      "effects": {
+        "Chilled": {
+          "name": "Ralentissement"
+        }
+      }
+    },
+    "phbsptGiantAnces": {
+      "name": "Ascendance gigante",
+      "description": "<p>Vous êtes un lointain descendant des géants. Choisissez l’un des bénéfices ci-après, une faveur surnaturelle liée à vos ancêtres ; vous pouvez recourir à ce bénéfice autant de fois que votre bonus de maîtrise et récupérez ce quota en terminant un Repos long :</p><p><strong>Brûlure ignée (géants du feu). </strong>Lorsque vous touchez une cible avec un jet d’attaque et lui infligez des dégâts, vous pouvez infliger 1d10 dégâts de feu supplémentaires à cette cible.</p><p><strong>Endurance de la pierre (géants des pierres). </strong>Lorsque vous subissez des dégâts, vous pouvez jouer votre Réaction pour lancer 1d12. Ajoutez votre modificateur de Constitution au résultat du dé et réduisez les dégâts de la somme obtenue.</p><p><strong>Froid mordant (géants du givre). </strong>Lorsque vous touchez une cible avec un jet d’attaque et lui infligez des dégâts, vous pouvez infliger 1d6 dégâts de froid supplémentaires à cette cible et réduire sa Vitesse de 3 m jusqu’au début de votre tour suivant.</p><p><strong>Renversement des coteaux (géants des collines). </strong>Lorsque vous touchez une créature de taille G ou inférieure avec un jet d’attaque et lui infligez des dégâts, vous pouvez faire subir à cette cible l’état &amp;Reference[Prone].</p><p><strong>Saut des nuées (géants des nuages). </strong>Par une action Bonus, vous pouvez vous téléporter magiquement d’un maximum de 9 m dans un espace inoccupé que vous voyez.</p><p><strong>Tonnerre des cieux (géants des tempêtes). </strong>Lorsque vous subissez des dégâts de la part d’une créature dans un rayon de 18 m, vous pouvez jouer votre Réaction pour lui infliger 1d8 dégâts de tonnerre.</p>"
+    },
+    "phbsptGnomishCun": {
+      "name": "Ruse gnome",
+      "description": "<p>Vous avez l’Avantage aux jets de sauvegarde d’Intelligence, de Sagesse et de Charisme.</p>"
+    },
+    "phbsptGnomishLin": {
+      "name": "Lignage gnome",
+      "description": "<p>Vous appartenez à un lignage qui vous octroie des aptitudes surnaturelles. Choisissez l’une des options ci-après ; quelle que soit celle que vous choisissez, l’Intelligence, la Sagesse ou le Charisme est votre caractéristique d’incantation pour les sorts que vous lancez avec ce trait (décidez de la caractéristique lors de la sélection du lignage).</p><p><strong>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspForestGnome]{Gnome des forêts}</strong></p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptForestGnom secrets=false inline]{lignage Gnome des forêts}</p><p><strong>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspRockGnome00]{Gnome des roches}</strong>    @Embed[Compendium.dnd-players-handbook.origins.Item.phbsptRockGnomeL inline]{lignage Gnome des roches}</p>"
+    },
+    "phbsptHalflingNi": {
+      "name": "Agilité halfeline",
+      "description": "<p>Vous pouvez vous déplacer dans l’espace de toute créature d’une catégorie de taille supérieure à la vôtre, mais ne pouvez pas vous arrêter dans le même espace que celle-ci.</p>"
+    },
+    "phbsptHealingHan": {
+      "name": "Mains guérisseuses",
+      "description": "<p>Au prix de l'action Magie, vous touchez physiquement une créature et jetez autant de d4 que votre bonus de maîtrise. La créature récupère autant de points de vie que le total obtenu. Une fois que vous avez utilisé ce trait, vous devez terminer un Repos long pour pouvoir y recourir de nouveau.</p>"
+    },
+    "phbsptHighElfLin": {
+      "name": "Lignage hauts-elfes",
+      "description": "<p>Vous appartenez à un lignage qui vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptitude en terminant un Repos long. Vous pouvez également le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (Décidez de la caractéristique lors de la sélection du lignage).</p><table><caption>Lignage hauts-elfes</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Vous connaissez le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{prestidigitation}.Chaque fois que vous terminez un Repos long, vous pouvez remplacer ce sort mineur par un autre sort mineur de la liste de sort du @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{magicien}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{détection de la magie}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{foulée brumeuse}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Note Foundry</strong></p><p>Les capacités et sorts correspondants vous seront automatiquement accordés lorsque vous sélectionnerez l’espèce et au fur et à mesure de votre progression en niveau.</p></section>"
+    },
+    "phbsptHillsTumbl": {
+      "name": "Renversement des coteaux",
+      "description": "<p>Lorsque vous touchez une créature de taille G ou inférieure avec un jet d’attaque et lui infligez des dégâts, vous pouvez faire subir à cette cible l’état &amp;Reference[Prone].</p>",
+      "activities": {
+        "Hill's Tumble": {
+          "name": "Renversement des coteaux",
+          "condition": "Lorsque vous touchez une créature de taille G ou inférieure avec un jet d’attaque et lui infligez des dégâts"
+        }
+      }
+    },
+    "phbsptInfernalLe": {
+      "name": "Héritage fiélon, Infernal",
+      "description": "<p>Votre héritage vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptidude en terminant un Repos long. Vous pouvez égalemnt le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (décidez de la caractéristique lors de la sélection de l'héritage).</p><h3 data-anchor=\"infernal\">Infernal</h3><p>L'héritage infernal relie les tiefflins non seulement à la Géhenne, mais aussi aux Neuf Enfers et aux champs de bataille désolés de l'Archéron, Cornes, épines, queue fourchue, yeux mordorés et vague relent de soufre ou de fumée sont des traits physiques propres à ces tieffelins, dont beaucoup ont un démon pour ancêtre.</p><table><caption>Héritage Infernal</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Vous bénéficiez de la Résistance aux dégâts de feu. Vous connaissez en outre le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{trait de feu}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{représailles infernales}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{ténèbres}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Note Foundry</strong></p><p>La résistance et les sorts vous sont accordés automatiquement, et vous serez invité à choisir la caractéristique de lancement de sorts pendant la progression.</p></section>"
+    },
+    "phbsptKeenSenses": {
+      "name": "Sens Aiguisés",
+      "description": "<p>Vous bénéficiez de la maîrise de la compétence Intuition, Perception ou Survie au choix.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Vous serez invité à faire votre choix après avoir sélectionné cette espèce.</p></section>"
+    },
+    "phbsptLargeForm0": {
+      "name": "Forme de géant",
+      "description": "<p>À partir du niveau de personnage 5, vous pouvez changer de catégorie de taille et devenir de taille G par une action Bonus, à condition que l’espace que vous occupez soit suffisamment vaste. Cette transformation dure 10 minutes ou jusqu’à ce que vous y mettiez un terme (pas d’action requise). Pour toute la durée, vous avez l’Avantage aux jets de Force et votre Vitesse augmente de 3 m. Une fois ce trait utilisé, vous devez terminer un Repos long pour y recourir de nouveau.</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Note Foundry</strong></p><p>TCette capacité inclut un Effet Actif qui augmente automatiquement votre Vitesse de marche, mais ne gère pas automatiquement l’Avantage.</p></section>",
+      "activities": {
+        "Enlarge": {
+          "name": "Agrandissement"
+        }
+      },
+      "effects": {
+        "Large Form": {
+          "name": "Forme de géant"
+        }
+      }
+    },
+    "phbsptLightBeare": {
+      "name": "Porte-lumière",
+      "description": "<p>Vous connaissez le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Lumière}. Le Charisme est la caractéristique d'incantation associée.</p>"
+    },
+    "phbsptLuck000000": {
+      "name": "Chance",
+      "description": "<p>Lorsque vous obtenez un 1 au d20 d’un Test d20, vous pouvez relancer le dé, mais devez utiliser le nouveau résultat.</p>",
+      "effects": {
+        "Luck": {
+          "name": "Chance"
+        }
+      }
+    },
+    "phbsptNaturallyS": {
+      "name": "Discrétion naturelle",
+      "description": "<p>Il vous suffit d’être dans l’ombre d’une créature dont la catégorie de taille est d’au moins un cran supérieur à la vôtre pour pouvoir entreprendre l’action &amp;Reference[Hide]{Furtivité}.</p>"
+    },
+    "phbsptOtherworld": {
+      "name": "Présence d'outre-monde",
+      "description": "<p>Vous connaissez le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{thaumaturgie}. Lorsque vous le lancez avec ce trait, le sort utilise la même caractéristique d'incantation que celle du trait Héritage fiélon.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Lorsque vous apprendrez le sort, vous pourrez choisir votre caractéristique d'incantation</p></section>"
+    },
+    "phbsptPowerfulBu": {
+      "name": "Forte carrure",
+      "description": "<p>Vous avez l’Avantage à tous les tests de caractéristique que vous effectuez pour mettre un terme à l’état &amp;Reference[Grappled] condition. Votre catégorie de taille est en outre considérée comme du cran immédiatement supérieur pour ce qui est de définir votre capacité de charge.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Note Foundry</strong></p><p>This feature includes an Active Effect which automatically upgrades your size when determining carrying capacity.</p></section>",
+      "effects": {
+        "Powerful Build": {
+          "name": "Forte carrure"
+        }
+      }
+    },
+    "phbsptRelentless": {
+      "name": "Acharnement",
+      "description": "<p>Si vous tombez à 0 point de vie sans être tué sur le coup, yous pouvez en fait vous retrouver à 1 point de vie. une fois ce trait utilisé, vous devez terminer un Repos long pour pouvoir y recourir de nouveau.</p>",
+      "activities": {
+        "Relentlessly Endure": {
+          "name": "Acharnement",
+          "condition": "Si vous tombez à 0 point de vie sans être tué sur le coup"
+        }
+      }
+    },
+    "phbsptResistance": {
+      "name": "Résistance céleste",
+      "description": "<p>Vous bénéficiez de la &amp;Reference[Resistance] aux dégâts nécrotiques et radiants.</p>"
+    },
+    "phbsptResourcefu": {
+      "name": "Ingénieux",
+      "description": "<p>Vous recevez l’Inspiration héroïque chaque fois que vous terminez un Repos long.</p>"
+    },
+    "phbsptRockGnomeL": {
+      "name": "Lignage gnome des roches",
+      "description": "Vous connaissez les sorts mineurs @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{prestidigitation} et @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMending000]{réparation}. Vous pouvez en outre consacrer 10 minutes à lancer <em>prestidigitation</em> pour créer un appareil mécanique de taille TP (CA 5, 1 pv) tel qu’un jouet, un allume-feu ou une boîte à musique. Lorsque vous créez l’appareil, vous déterminez sa fonction en choisissant un effet parmi ceux de <em>prestidigitation</em>; l’appareil produit cet effet chaque fois que vous-même ou une autre créature entreprenez une action Bonus pour l’activer par simple contact. Lorsque l’effet choisi comporte des options, vous devez en choisir une pour l’appareil à sa création. Si vous choisissez l’effet « allumage-extinction » du sort, par exemple, vous devez déterminer si l’appareil allume ou éteint le feu ; il ne peut pas faire les deux. Vous pouvez avoir trois appareils actifs de ce type à la fois, et chacun tombe en morceaux 8 heures après sa création ou lorsque vous le démantelez par simple contact en entreprenant l’action Utilisation.</p>"
+    },
+    "phbsptSkillful00": {
+      "name": "Compétent",
+      "description": "<p>Vous recevez la maîtrise d’une compétence de votre choix.</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Vous serez invité à faire ce choix lorsque vous sélectionnerez cette espèce.</p></section>"
+    },
+    "phbsptStonecunni": {
+      "name": "Connaissance de la pierre",
+      "description": "<p>Par une action Bonus, vous recevez la Perception des vibrations à 18 m pendant 10 minutes. Cette Perception des vibrations nécessite que vous soyez sur une surface en pierre ou en contact physique avec une telle surface. Cette pierre peut être naturelle ou façonnée. Vous pouvez recourir à cette action Bonus autant de fois que votre bonus de maîtrise, et récupérez ce quota en terminant un Repos long.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Note Foundry</strong></p><p>Cette capacité inclut les utilisations limitées ainsi qu’un Effet Actif qui vous confère une perception des vibrations de 18 m. Elle ne met pas automatiquement à jour les paramètres de vision de votre jeton.</p></section>",
+      "activities": {
+        "Stonecunning": {
+          "name": "Connaissance de la pierre"
+        }
+      },
+      "effects": {
+        "Stonecunning": {
+          "name": "Connaissance de la pierre"
+        }
+      }
+    },
+    "phbsptStonesEndu": {
+      "name": "Endurance de la pierre",
+      "description": "<p>Lorsque vous subissez des dégâts, ous pouvez jouer votre Réaction pour lancer 1d12. Ajoutez votre modificateur de Constitution au résultat du dé et réduisez les dégâts de la somme obtenue.</p>",
+      "activities": {
+        "heal": {
+          "condition": "Lorsque vous subissez des dégâts"
+        }
+      }
+    },
+    "phbsptStormsThun": {
+      "name": "Storm's Thunder",
+      "description": "<p>Lorsque vous subissez des dégâts de la part d’une créature dans un rayon de 18 m, ous pouvez jouer votre Réaction pour lui infliger 1d8 dégâts de tonnerre.</p>",
+      "activities": {
+        "Storm's Thunder": {
+          "name": "Storm's Thunder",
+          "condition": "Lorsque vous subissez des dégâts de la part d’une créature dans un rayon de 18 m"
+        }
+      }
+    },
+    "phbsptTrance0000": {
+      "name": "Trance",
+      "description": "<p>Vous vous passez de sommeil et la magie ne peut pas vous endormir. Vous pouvez terminer un Repos long en 4 heures si vous les passez en transe méditative durant laquelle vous restez en éveil.</p>"
+    },
+    "phbsptVersatile0": {
+      "name": "Polyvalent",
+      "description": "<p>Vous recevez le @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{don d’origine} de votre choix. @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Doué} est recommandé.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Note Foundry</strong></p><p>Vous serez invité à faire ce choix lorsque vous sélectionnerez cette espèce..</p></section>"
+    },
+    "phbsptWoodElfLin": {
+      "name": "Lignage elfes sylvestres",
+      "description": "<p>Vous appartenez à un lignage qui vous octroie des aptitudes surnaturelles.</p><p>Lorsque vous atteignez les niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur, comme indiqué sur la table. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptitude en terminant un Repos long. Cous pouvez égalemetn le lancer avec vos éventuels emplacements de sort de niveau adéquat. L'intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts que vous lancez avec ce trait (Décidez de la caractéristique lors de la sélection du lignage).</p><table><caption>Lignage elfes sylvestres</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Votre vitesse passe à 10,50 m. Vous connaissez également le sort mineur @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{druidisme}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{grande foulée}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{passage sans trace}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Note Foundry</strong></p><p>Les capacités et sorts correspondants vous seront automatiquement accordés lorsque vous sélectionnerez l’espèce et au fur et à mesure de votre progression en niveau.</p></section>"
+    }
+  }
+}

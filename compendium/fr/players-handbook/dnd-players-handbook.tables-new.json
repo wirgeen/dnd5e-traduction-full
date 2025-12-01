@@ -1,0 +1,389 @@
+{
+  "label": "Roll Tables",
+  "folders": {
+    "Chapter 2": "Chapter 2",
+    "Chapter 3": "Chapter 3",
+    "Chapter 7": "Chapter 7",
+    "Descriptions by Ability Score": "Descriptions by Ability Score",
+    "Personality Traits by Alignment": "Personality Traits by Alignment",
+    "Reincarnated Lineages": "Reincarnated Lineages"
+  },
+  "entries": {
+    "phbChaoticTraits": {
+      "name": "Chaotic Traits",
+      "results": {
+        "1-1": "Boastful",
+        "2-2": "Impulsive",
+        "3-3": "Rebellious",
+        "4-4": "Self-absorbed"
+      }
+    },
+    "phbCharismaDescr": {
+      "name": "Charisma",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "1-1": "<strong>High:</strong> Charming. <strong>Low:</strong> Pedantic.",
+        "2-2": "<strong>High:</strong> Commanding. <strong>Low:</strong> Humorless.",
+        "3-3": "<strong>High:</strong> Hilarious. <strong>Low:</strong> Reserved.",
+        "4-4": "<strong>High:</strong> Inspiring. <strong>Low:</strong> Tactless."
+      }
+    },
+    "phbConstitutionD": {
+      "name": "Constitution",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "1-1": "<strong>High:</strong> Energetic. <strong>Low:</strong> Frail.",
+        "2-2": "<strong>High:</strong> Hale. <strong>Low:</strong> Squeamish.",
+        "3-3": "<strong>High:</strong> Hearty. <strong>Low:</strong> Lethargic.",
+        "4-4": "<strong>High:</strong> Stable. <strong>Low:</strong> Fragile."
+      }
+    },
+    "phbDexterityDesc": {
+      "name": "Dexterity",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "1-1": "<strong>High:</strong> Lithe. <strong>Low:</strong> Jittery.",
+        "2-2": "<strong>High:</strong> Dynamic. <strong>Low:</strong> Clumsy.",
+        "3-3": "<strong>High:</strong> Fidgety. <strong>Low:</strong> Hesitant.",
+        "4-4": "<strong>High:</strong> Poised. <strong>Low:</strong> Unsteady."
+      }
+    },
+    "phbElvenLineage0": {
+      "name": "Elven Lineage",
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>"
+    },
+    "phbEvilTraits000": {
+      "name": "Evil Traits",
+      "results": {
+        "1-1": "Dishonest",
+        "2-2": "Vengeful",
+        "3-3": "Cruel",
+        "4-4": "Greedy"
+      }
+    },
+    "Feywild Gifts": {
+      "name": "Présents de féerie",
+      "results": {
+        "1-1": "Des papillons illusoires volètent autour de vous lorsque vous prenez un Repos court ou long. ",
+        "2-2": "Des fleurs s'épanouissent dans vos cheveux à chaque lever du jour",
+        "3-3": "Il émane de vous une légère odeur de cannelle, de lavande, de muscade ou autre herbe ou épice douce.",
+        "4-4": "Votre ombre danse quand personne ne la regarde directement.",
+        "5-5": "Des cornes ou une ramure saillent de votre crâne. ",
+        "6-6": "Votre couleur de peau et de cheveux changent chaque matin à l'aube."
+      }
+    },
+    "phbFiendishLegac": {
+      "name": "Fiendish Legacy",
+      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>"
+    },
+    "phbGnomishLineag": {
+      "name": "Gnomish Lineage",
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>"
+    },
+    "phbGoodTraits000": {
+      "name": "Good Traits",
+      "results": {
+        "1-1": "Compassionate",
+        "2-2": "Helpful",
+        "3-3": "Honest",
+        "4-4": "Kind"
+      }
+    },
+    "phbIntelligenceD": {
+      "name": "Intelligence",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "1-1": "<strong>High:</strong> Decisive. <strong>Low:</strong> Artless.",
+        "2-2": "<strong>High:</strong> Logical. <strong>Low:</strong> Illogical.",
+        "3-3": "<strong>High:</strong> Informative. <strong>Low:</strong> Uninformed.",
+        "4-4": "<strong>High:</strong> Curious. <strong>Low:</strong> Frivolous."
+      }
+    },
+    "phbLawfulTraits0": {
+      "name": "Lawful Traits",
+      "results": {
+        "1-1": "Cooperative",
+        "2-2": "Loyal",
+        "3-3": "Judgmental",
+        "4-4": "Methodical"
+      }
+    },
+    "phbManifestation": {
+      "name": "Manifestations de l’Ordre",
+      "results": {
+        "1-1": "Des rouages spectraux flottent dans votre dos.",
+        "2-2": "Les aiguilles d'une horloge tournent à la place de vos yeux.",
+        "3-3": "Votre peau émet un éclat cuivré.",
+        "4-4": "Des équations et des formes géométriques parcourent votre corps.",
+        "5-5": "Votre focaliseur d'incantation prend brièvement la forme d'un mécanisme complexe de taille TP.",
+        "6-6": "Le claquement de rouages ou le tintement d'une horloge vous est audible, ainsi qu'aux créatures affectées par votre magie."
+      },
+      "description": ""
+    },
+    "phbNeutralTraits": {
+      "name": "Neutral Traits",
+      "results": {
+        "1-1": "Selfish",
+        "2-2": "Disinterested",
+        "3-3": "Laconic",
+        "4-4": "Pragmatic"
+      }
+    },
+    "phbPrismaticLaye": {
+      "name": "Prismatic Layers",
+      "results": {
+        "1-1": "<p><strong>Red.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> fire</span> damage. <em>Successful Save:</em> Half as much damage. <em>Additional Effects</em>: Nonmagical ranged attacks can’t pass through this layer, which is destroyed if it takes at least 25 Cold damage.</p>",
+        "2-2": "<p><strong>Orange.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> acid</span> damage. <em>Successful Save:</em> Half as much damage. <em>Additional Effects:</em> Magical ranged attacks can’t pass through this layer, which is destroyed by a strong wind (such as the one created by <em>Gust of Wind</em>).</p>",
+        "3-3": "<p><strong>Yellow.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> lightning</span> damage. <em>Successful Save:</em> Half as much damage. <em>Additional Effects:</em> The layer is destroyed if it takes at least 60 force damage.</p>",
+        "4-4": "<p><strong>Green.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> poison</span> damage. <em>Successful Save:</em> Half as much damage. <em>Additional Effects:</em> A <em>Passwall</em> spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.</p>",
+        "5-5": "<p><strong>Blue.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> cold</span> damage. <em>Successful Save:</em> Half as much damage. <em>Additional Effects:</em> The layer is destroyed if it takes at least 25 Fire damage.</p>",
+        "6-6": "<p><strong>Indigo.</strong><em> Failed Save:</em> The target has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition and makes a <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind. <em>Additional Effects:</em> Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the <em>Daylight</em> spell.</p>",
+        "7-7": "<p><strong>Violet.</strong><em> Failed Save:</em> The target has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition and makes a <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice). <em>Additional Effects:</em> This layer is destroyed by <em>Dispel Magic</em>.</p>"
+      }
+    },
+    "phbPrismaticRays": {
+      "name": "Prismatic Rays",
+      "results": {
+        "1-1": "<p><strong>Red.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> fire</span> damage. <em>Successful Save:</em> Half as much damage.</p>",
+        "2-2": "<p><strong>Orange.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> acid</span> damage. <em>Successful Save:</em> Half as much damage.</p>",
+        "3-3": "<p><strong>Yellow.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> lightning</span> damage. <em>Successful Save:</em> Half as much damage.</p>",
+        "4-4": "<p><strong>Green.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> poison</span> damage. <em>Successful Save:</em> Half as much damage.</p>",
+        "5-5": "<p><strong>Blue.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> cold</span> damage. <em>Successful Save:</em> Half as much damage.</p>",
+        "6-6": "<p><strong>Indigo.</strong><em> Failed Save:</em> The target has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition and makes a <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>",
+        "7-7": "<p><strong>Violet.</strong><em> Failed Save:</em> The target has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition and makes a <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>",
+        "8-8": "<p><strong>Special.</strong> The target is struck by two rays. Roll twice, rerolling any 8.</p>"
+      }
+    },
+    "phbStandardLangu": {
+      "name": "Standard Languages",
+      "results": {
+        "rViHFEn5WjhRbElK": "<strong>Language:</strong> Common. <strong>Origin:</strong> Sigil."
+      }
+    },
+    "phbStarMapForms0": {
+      "name": " Forme de la carte stellaire",
+      "results": {
+        "1-1": "A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapScroll]{Parchemin} de représentations de constellations",
+        "2-2": "A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapStoneT]{Tablette en pierre}, percée de trous minuscules",
+        "3-3": "An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapOwlbea]{Peau de hibours}, ornée de symboles stellaires",
+        "4-4": "A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapBoundI]{Liasse de petites cartes} reliées d’ébène",
+        "5-5": "A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapCrysta]{Cristal} ciselé de motifs astrauxs",
+        "6-6": "A@UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapGlassD]{Disques en verre} gravé de constellations"
+      }
+    },
+    "phbStartingTrink": {
+      "name": "Trinkets",
+      "results": {
+        "1-1": "A mummified goblin hand",
+        "2-2": "A crystal that faintly glows in moonlight",
+        "3-3": "A gold coin minted in an unknown land",
+        "4-4": "A diary written in a language you don’t know",
+        "5-5": "A brass ring that never tarnishes",
+        "6-6": "An old chess piece made from glass",
+        "7-7": "A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips",
+        "8-8": "A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it",
+        "9-9": "A lock of someone’s hair",
+        "10-10": "The deed for a parcel of land in a realm unknown to you",
+        "11-11": "A 1-ounce block made from an unknown material",
+        "12-12": "A small cloth doll skewered with needles",
+        "13-13": "A tooth from an unknown beast",
+        "14-14": "An enormous scale, perhaps from a dragon",
+        "15-15": "A bright-green feather",
+        "16-16": "An old divination card bearing your likeness",
+        "17-17": "A glass orb filled with moving smoke",
+        "18-18": "A 1-pound egg with a bright-red shell",
+        "19-19": "A pipe that blows bubbles",
+        "20-20": "A glass jar containing a bit of flesh floating in pickling fluid",
+        "21-21": "A gnome-crafted music box that plays a song you dimly remember from your childhood",
+        "22-22": "A wooden statuette of a smug halfling",
+        "23-23": "A brass orb etched with strange runes",
+        "24-24": "A multicolored stone disk",
+        "25-25": "A silver icon of a raven",
+        "26-26": "A bag containing forty-seven teeth, one of which is rotten",
+        "27-27": "A shard of obsidian that always feels warm to the touch",
+        "28-28": "A dragon’s talon strung on a leather necklace",
+        "29-29": "A pair of old socks",
+        "30-30": "A blank book whose pages refuse to hold ink, chalk, graphite, or any other marking",
+        "31-31": "A silver badge that is a five-pointed star",
+        "32-32": "A knife that belonged to a relative",
+        "33-33": "A glass vial filled with nail clippings",
+        "34-34": "A rectangular metal device with two tiny metal cups on one end that throws sparks when wet",
+        "35-35": "A white, sequined glove sized for a human",
+        "36-36": "A vest with one hundred tiny pockets",
+        "37-37": "A weightless stone",
+        "38-38": "A sketch of a goblin",
+        "39-39": "An empty glass vial that smells of perfume",
+        "40-40": "A gemstone that looks like a lump of coal when examined by anyone but you",
+        "41-41": "A scrap of cloth from an old banner",
+        "42-42": "A rank insignia from a lost legionnaire",
+        "43-43": "A silver bell without a clapper",
+        "44-44": "A mechanical canary inside a lamp",
+        "45-45": "A miniature chest carved to look like it has numerous feet on the bottom",
+        "46-46": "A dead sprite inside a clear glass bottle",
+        "47-47": "A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)",
+        "48-48": "A glass orb filled with water, in which swims a clockwork goldfish",
+        "49-49": "A silver spoon with an M engraved on the handle",
+        "50-50": "A whistle made from gold-colored wood",
+        "51-51": "A dead scarab beetle the size of your hand",
+        "52-52": "Two toy soldiers, one missing a head",
+        "53-53": "A small box filled with different-sized buttons",
+        "54-54": "A candle that can’t be lit",
+        "55-55": "A miniature cage with no door",
+        "56-56": "An old key",
+        "57-57": "An indecipherable treasure map",
+        "58-58": "A hilt from a broken sword",
+        "59-59": "A rabbit’s foot",
+        "60-60": "A glass eye",
+        "61-61": "A cameo of a hideous person",
+        "62-62": "A silver skull the size of a coin",
+        "63-63": "An alabaster mask",
+        "64-64": "A cone of sticky black incense that stinks",
+        "65-65": "A nightcap that gives you pleasant dreams when you wear it",
+        "66-66": "A single caltrop made from bone",
+        "67-67": "A gold monocle frame without the lens",
+        "68-68": "A 1-inch cube, each side a different color",
+        "69-69": "A crystal doorknob",
+        "70-70": "A packet filled with pink dust",
+        "71-71": "A fragment of a beautiful song, written as musical notes on two pieces of parchment",
+        "72-72": "A silver teardrop earring containing a real teardrop",
+        "73-73": "An eggshell painted with scenes of misery in disturbing detail",
+        "74-74": "A fan that, when unfolded, shows a sleepy cat",
+        "75-75": "A set of bone pipes",
+        "76-76": "A four-leaf clover pressed inside a book discussing manners and etiquette",
+        "77-77": "A sheet of parchment upon which is drawn a mechanical contraption",
+        "78-78": "An ornate scabbard that fits no blade you have found",
+        "79-79": "An invitation to a party where a murder happened",
+        "80-80": "A bronze pentacle with an etching of a rat’s head in its center",
+        "81-81": "A purple handkerchief embroidered with the name of an archmage",
+        "82-82": "Half a floor plan for a temple, a castle, or another structure",
+        "83-83": "A bit of folded cloth that, when unfolded, turns into a stylish cap",
+        "84-84": "A receipt of deposit at a bank in a far-off city",
+        "85-85": "A diary with seven missing pages",
+        "86-86": "An empty silver snuffbox bearing the inscription “dreams” on its lid",
+        "87-87": "An iron holy symbol devoted to an unknown god",
+        "88-88": "A book about a legendary hero’s rise and fall, with the last chapter missing",
+        "89-89": "A vial of dragon blood",
+        "90-90": "An ancient arrow of elven design",
+        "91-91": "A needle that never bends",
+        "92-92": "An ornate brooch of dwarven design",
+        "93-93": "An empty wine bottle bearing a pretty label that says, “The Wizard of Wines Winery, Red Dragon Crush, 331422-W”",
+        "94-94": "A mosaic tile with a multicolored, glazed surface",
+        "95-95": "A petrified mouse",
+        "96-96": "A black pirate flag adorned with a dragon’s skull and crossbones",
+        "97-97": "A tiny mechanical crab or spider that moves about when it’s not being observed",
+        "98-98": "A glass jar containing lard with a label that reads, “Griffon Grease”",
+        "99-99": "A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body",
+        "100-100": "A metal urn containing the ashes of a hero"
+      }
+    },
+    "phbStrengthDescr": {
+      "name": "Strength",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "1-1": "<strong>High:</strong> Muscular. <strong>Low:</strong> Weak.",
+        "2-2": "<strong>High:</strong> Sinewy. <strong>Low:</strong> Slight.",
+        "3-3": "<strong>High:</strong> Protective. <strong>Low:</strong> Self-conscious.",
+        "4-4": "<strong>High:</strong> Direct. <strong>Low:</strong> Indirect."
+      }
+    },
+    "phbSublanguageTa": {
+      "name": "Sub-Languages Table",
+      "results": {
+        "1-1": "<strong>Language:</strong> Common Sign Language. <strong>Origin:</strong> Sigil.",
+        "2-2": "<strong>Language:</strong> Draconic. <strong>Origin:</strong> Dragons.",
+        "3-4": "<strong>Language:</strong> Dwarvish. <strong>Origin:</strong> Dwarves.",
+        "5-6": "<strong>Language:</strong> Elvish. <strong>Origin:</strong> Elves.",
+        "7-7": "<strong>Language:</strong> Giant. <strong>Origin:</strong> Giants.",
+        "8-8": "<strong>Language:</strong> Gnomish. <strong>Origin:</strong> Gnomes.",
+        "9-9": "<strong>Language:</strong> Goblin. <strong>Origin:</strong> Goblinoids.",
+        "10-11": "<strong>Language:</strong> Halfling. <strong>Origin:</strong> Halflings.",
+        "12-12": "<strong>Language:</strong> Orc. <strong>Origin:</strong> Orcs."
+      }
+    },
+    "phbWildMagicSurg": {
+      "name": "Bouffée de Sorcellerie Sauvage",
+      "results": {
+        "1-4": "Effectuez un jet sur cette table au début de chacun de vos tours pendant la minute suivante, en ignorant le présent résultat lors des tests consécutifs.",
+        "5-8": "Une créature Amicale envers vous apparaît en un espace inoccupé aléatoire dans un rayon de 1,8 m. Cette créature est sous le contrôle du MJ et disparaît au bout de 1 minute. Lancez [[/r 1d4]] pour déterminer la créature : sur un résultat de 1, un modron duodrone apparaît ; sur un 2, un flumph apparaît ; sur un 3, un modron monodrone apparaît ; sur un 4, une licorne apparaît. Reportez-vous au Manuel des monstres pour le profil de jeu de la créature.",
+        "9-12": "Pendant la minute suivante, vous regagnez [[/healing 5 type=healing]]{5 Points de Vie} au début de chacun de vos tours.",
+        "13-16": "Les créatures subissent le Désavantage aux jets de sauvegarde contre le prochain sort que vous lancez lors de la minute suivante et nécessitant un JS.",
+        "17-20": "Vous êtes soumis à un effet qui persiste 1 minute sauf si sa description indique autre chose. Lancez [[/r 1d8]] pour déterminer l’effet : sur un résultat de 1, vous êtes entouré d'une musique douce et éthérée que seuls vous-même et les créatures situées dans un rayon de 1,50 m entendez ; sur un résultat de 2, votre artère de taille augmente d'un cran ; sur un résultat de 3, il vous pousse une longue barbe faite de plumes qui persiste jusqu'à ce que vous éternuiez. Les plumes explosent alors et disparaissent ; sur un résultat de 4, vous criez lorsque vous parlez ; sur un résultat de 5, des papillons illusoires voltigent dans un rayon de 3 m autour de vous ; sur un résultat de 6, un œil apparaît au beau milieu de votre front, vous octroyant l’Avantage aux tests de Sagesse (Perception) ; sur un résultat de 7, des bulles roses sortent de votre bouche lorsque vous parlez ; sur un résultat de 8, votre peau devient bleu vif pendant 24 heures ou jusqu'à ce que l'effet soit réprimé par le sort délivrance des malédictions.",
+        "21-24": "Pendant la prochaine minute, tous vos sorts ayant un temps d’incantation d’une action ont un temps d'incantation d’une action Bonus.",
+        "25-28": "Vous êtes transporté sur le Plan Astral jusqu’à la fin de votre tour suivant. Vous réapparaissez dans l'espace que vous occupiez précédemment, ou dans l'espace inoccupé le plus proche si celui-ci est occupé.",
+        "29-32": "La prochaine fois que vous lancez un sort qui inflige des dégâts dans la minute suivante, ne lancez pas les dés de dégâts de ce sort. Utilisez à la place le résultat maximal pour chaque dé de dégâts.",
+        "33-36": "Vous recevez la Résistance à tous les dégâts pendant la minute suivante.",
+        "37-40": "Vous êtes transformé en plante en pot jusqu’au début de votre tour suivant. Tant que vous êtes une plante, vous subissez l’état &amp;Reference[Incapacitated] et la Vulnérabilité à tous les dégâts. Si vous tombez à 0 point de vie, le pot se brise et vous retrouvez votre forme d’origine.",
+        "41-44": "Pendant la minute suivante, vous pouvez vous téléporter d’un maximum de 6 m par une action Bonus à chacun de vos tours.",
+        "45-48": "Vous-même et jusqu’à trois créatures de votre choix dans un rayon de 9 m avez l’état Invisible pendant 1 minute. Cette invisibilité prend fin sur une créature aussitôt après qu’elle effectue un jet d’attaque, inflige des dégâts ou lance un sort.",
+        "49-52": "Un bouclier spectral flotte près de vous pendant la minute suivante, vous octroyant un bonus de +2 à la CA et l’Immunité contre le sort projectile magique.",
+        "53-56": "Vous pouvez effectuer une action supplémentaire lors de ce tour.",
+        "57-60": "Vous lancez un sort déterminé aléatoirement. Si le sort nécessite normalement la Concentration, il ne la nécessite pas dans ce cas ; le sort persiste pendant toute sa durée. Lancez [[/r 1d10]] pour déterminer le sort : sur un résultat de 1, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{confusion} ; sur un résultat de 2, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{boule de feu} ; sur un résultat de 3, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]{nappe de brouillard}; sur un résultat de 4, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{vol} (lancé sur une créature aléatoire dans un rayon de 18 m) ; sur un résultat de 5, @UUIID[Compendium.dnd-players-handbook.spells.Item.phbsplGrease0000]{graisse} ; sur un résultat de 6, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00]{lévitation} (lancée sur vous-même) ; sur un résultat de 7, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{projectiles magiques} (lancé comme un sort de 5ᵉ niveau) ; sur un résultat de 8, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag]{image miroir} ; sur un résultat de 9, @IIUD[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{métamorphose} (lancé sur vous-même). Si vous ratez le jet de sauvegarde, vous êtes transformé en @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobGoat000000]{chèvre} ; sur un résultat de 10, détection de l’invisibilité.",
+        "61-64": "FPendant la minute suivante, tout objet inflammable et non magique que vous touchez et qui n’est porté par personne prend feu, subit 1d4 dégâts de feu, et se consume.",
+        "65-68": "Si vous mourez au cours de l’heure suivante, vous revenez aussitôt à la vie comme sous l’effet du sort @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplReincarnat]{réincarnation}.",
+        "69-72": "Vous subissez l’état &amp;Reference[Frightened] jusqu’à la fin de votre tour suivant. Le MD détermine la source de cette terreur.",
+        "73-76": "Vous vous téléportez d’un maximum de 18 m dans un espace inoccupé que vous voyez.",
+        "77-80": "Une créature déterminée aléatoirement dans un rayon de 18 m subit l'état &amp;Reference[Empoisonné] pendant [[/r 1d4]] heures.",
+        "81-84": "Il émane de vous une Lumière vive dans un rayon de 9 m pendant la minute suivante. Toute créature qui termine son tour dans un rayon de 1,50 m de vous subit l'état &amp;Reference[Blinded] jusqu'à la fin de son tour suivant.",
+        "85-88": "Jusqu’à trois créatures de votre choix parmi celles que vous voyez dans un rayon de 9 m subissent [[/damage 1d10 type=necrotic]].Vous regagnez un nombre de points de vie égal à la somme des dégâts nécrotiques infligés.",
+        "89-92": "Jusqu’à trois créatures de votre choix parmi celles que vous voyez dans un rayon de 9 m subissent [[/damage 4d10 type=lightning]].",
+        "93-96": "Vous-même et toutes les créatures dans un rayon de 9 m avez la Vulnérabilité aux dégâts perforants pendant la minute suivante.",
+        "97-100": "Lancez Roll [[/r 1d6]]: sur un résultat de 1, vous regagnez [[/healing 2d10]]{2d10} points de vie ; sur un résultat de 2, un allié de votre choix dans un rayon de 90 m regagne [[/healing 2d10]]{2d10} points de vie ; sur un résultat de 3, vous regagnez votre emplacement de sort dépensé du plus bas niveau ; sur un résultat de 4, un allié de votre choix dans un rayon de 90 m regagne son emplacement de sort dépensé du plus bas niveau ; sur un résultat de 5, vous regagnez tous vos points de Sorcellerie dépensés ; sur un résultat de 6, tous les effets du résultat 17-20 vous affectent simultanément."
+      }
+    },
+    "phbWisdomDescrip": {
+      "name": "Wisdom",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "1-1": "<strong>High:</strong> Serene. <strong>Low:</strong> Rash.",
+        "2-2": "<strong>High:</strong> Considerate. <strong>Low:</strong> Distracted.",
+        "3-3": "<strong>High:</strong> Attentive. <strong>Low:</strong> Oblivious.",
+        "4-4": "<strong>High:</strong> Wary. <strong>Low:</strong> Naive."
+      }
+    },
+    "phbgenCardinalDi": {
+      "name": "Cardinal Directions",
+      "results": {
+        "1-1": "North",
+        "2-2": "East",
+        "3-3": "South",
+        "4-4": "West"
+      }
+    },
+    "phbsplConfusionB": {
+      "name": "Confusion Behavior",
+      "description": "<p>Behavior for the Turn</p>",
+      "results": {
+        "wOokSBLpTsUWBccD": "The target doesn’t take an action, and it uses all its movement to move. Roll [[/r 1d4]] for the direction: 1, north; 2, east; 3, south; or 4, west.",
+        "2-6": "The target doesn’t move or take actions.",
+        "7-8": "The target doesn’t move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action.",
+        "9-10": "The target chooses its behavior."
+      }
+    },
+    "phbsplReincarnat": {
+      "name": "Reincarnated Species",
+      "description": "<p>Roll [[/r 1d10]] and consult the table below to determine the body’s species, or the DM chooses another playable species.</p>"
+    },
+    "phbsplTeleportMi": {
+      "name": "Teleport Mishap",
+      "description": "<p><strong>Mishap damage:</strong> [[/damage 3d10 type=force]]</p><p><strong>Off target distance:</strong> [[/r 2d12#Miles]]{2d12 miles} [[/r 1d8#Direction]]{Direction}</p>",
+      "results": {
+        "RaCnOnLRcJPv11Vf": "<strong>Permanent circle:</strong> On target",
+        "4W9YPHqIIDyt3WbV": "<strong>Linked object:</strong> On target",
+        "1-5": "<strong>Very familiar:</strong> Mishap",
+        "6-13": "<strong>Very familiar:</strong> Similar area",
+        "14-24": "<strong>Very familiar:</strong> Off target",
+        "25-100": "<strong>Very familiar:</strong> On target",
+        "1-33": "<strong>Seen casually:</strong> Mishap",
+        "34-43": "<strong>Seen casually:</strong> Similar area",
+        "5hV5vL7SYu53EPvb": "<strong>Seen casually:</strong> Off target",
+        "KShVQqILsbEKwNQ1": "<strong>Seen casually:</strong> Off target",
+        "1-43": "<strong>Viewed or described:</strong> Mishap",
+        "S3FXuqVgRazP23RK": "<strong>Viewed or described:</strong> Similar area",
+        "LWWefv3FEwkukueE": "<strong>Viewed or described:</strong> Off target",
+        "74-100": "<strong>Viewed or described:</strong> On target",
+        "1-50": "<strong>False destination:</strong> Mishap",
+        "51-100": "<strong>False destination:</strong> Similar area"
+      }
+    }
+  }
+}

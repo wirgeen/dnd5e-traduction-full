@@ -6,7 +6,7 @@
   "version": "1.1.0",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13"
   },
   "relationships": {
     "systems": [
@@ -30,15 +30,14 @@
       "flags": {}
     }
   ],
-  "esmodules" : [
-    "dnd5e-traduction-full.js",
-    "babele-register.js"
-  ],
   "languages": [
     {
-        "lang": "fr",
-        "name": "Français",
-        "path": "fr.json"
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json" 
     }
+  ],
+  "esmodules" : [
+    "dnd5e-traduction-full.js"
   ]
 }

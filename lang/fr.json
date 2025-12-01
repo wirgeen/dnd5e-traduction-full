@@ -1,0 +1,33 @@
+{
+   "COMPENDIUM": {
+    "dnd5e.srd.content24": "compendium/fr/d&d-modern-content/dnd5e.content24.json",
+    "dnd5e24.dmg.actors": "compendium/fr/dungeon-masters-guide/dnd-dungeon-masters-guide.actors.json",
+    "dnd5e24.dmg.bastions": "compendium/fr/dungeon-masters-guide/dnd-dungeon-masters-guide.bastions.json",
+    "dnd5e24.dmg.content": "compendium/fr/dungeon-masters-guide/dnd-dungeon-masters-guide.content.json",
+    "dnd5e24.dmg.equipment": "compendium/fr/dungeon-masters-guide/dnd-dungeon-masters-guide.equipment.json",
+    "dnd5e24.dmg.features": "compendium/fr/dungeon-masters-guide/dnd-dungeon-masters-guide.features.json",
+    "dnd5e24.dmg.scenes": "compendium/fr/dungeon-masters-guide/dnd-dungeon-masters-guide.scenes.json",
+    "dnd5e24.dmg.tables": "compendium/fr/dungeon-masters-guide/dnd-dungeon-masters-guide.tables.json",
+    "dnd5e24.mm.actors": "compendium/fr/monster-manual/dnd-monster-manual.actors.json",
+    "dnd5e24.mm.content": "compendium/fr/monster-manual/dnd-monster-manual.content.json",
+    "dnd5e24.mm.features": "compendium/fr/monster-manual/dnd-monster-manual.features.json",
+    "dnd5e24.mm.tables": "compendium/fr/monster-manual/dnd-monster-manual.tables.json",
+    "dnd5e24.phb.actors": "compendium/fr/players-handbook/dnd-players-handbook.actors.json",
+    "dnd5e24.phb.classes": "compendium/fr/players-handbook/dnd-players-handbook.classes.json",
+    "dnd5e24.phb.content": "compendium/fr/players-handbook/dnd-players-handbook.content.json",
+    "dnd5e24.phb.equipment": "compendium/fr/players-handbook/dnd-players-handbook.equipment.json",
+    "dnd5e24.phb.feats": "compendium/fr/players-handbook/dnd-players-handbook.feats.json",
+    "dnd5e24.phb.origins": "compendium/fr/players-handbook/dnd-players-handbook.origins.json",
+    "dnd5e24.phb.spells": "compendium/fr/players-handbook/dnd-players-handbook.spells.json",
+    "dnd5e24.phb.tables": "compendium/fr/players-handbook/dnd-players-handbook.tables.json"
+  },
+  "DND5E": {
+    "AbilityStr": "Force",
+    "SkillAth": "Athlétisme",
+    "ItemQuantity": "Quantité",
+    "SpellLevel": "Niveau du Sort"
+  },
+  "MON_MODULE": {
+    "INIT_MESSAGE": "Module de Traduction FR chargé avec succès !"
+  }
+}

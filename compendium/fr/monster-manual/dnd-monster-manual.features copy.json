@@ -1,0 +1,993 @@
+{
+  "label": "Caractéristiques",
+  "mapping": {
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "rangeActivities"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "range": {
+      "path": "system.range",
+      "converter": "range"
+    },
+    "sources": {
+      "path": "system.source",
+      "converter": "source"
+    }
+  },
+  "folders": {
+    "Actions": "Actions",
+    "Attacks": "Attaques",
+    "Legendary Actions": "Actions Légendaires",
+    "Traits": "Traits"
+  },
+  "entries": {
+    "Abduct": {
+      "name": "Enlèvement",
+      "description": "<p>Le [[lookup @name lowercase]] n'a pas besoin de dépenser de mouvement supplémentaire pour déplacer une créature qu'il agrippe.</p>"
+    },
+    "Aberrant Ground": {
+      "name": "Sol Aberrant",
+      "description": "<p>Le sol dans une Émanation de [[lookup @target.template.size activity=zVznqPXgYjETqpQz]] pieds partant du [[lookup @name]] est un &amp;Reference[Difficult Terrain].</p>",
+      "activities": {
+        "Place Emanation": {
+          "name": "Placer l'Émanation"
+        }
+      }
+    },
+    "Absorb Body": {
+      "name": "Absorber Corps",
+      "description": "<p><em>Jet de Sauvegarde de Force :</em> DD [[lookup @save.dc.value activity=YqWqaRXxaKFCH6P8]], une [[lookup @target.affects.special activity=YqWqaRXxaKFCH6P8]] [[lookup @target.affects.type activity=YqWqaRXxaKFCH6P8]] que le [[lookup @name lowercase]] peut voir dans un rayon de 5 pieds.</p><p><em>Échec :</em> La cible est tirée dans l'espace du [[lookup @name lowercase]] et devient greffée à son corps. Le [[lookup @name lowercase]] ne peut avoir qu'une seule cible greffée à la fois.</p><p>Tant que la cible est greffée, elle subit la condition &amp;Reference[Restrained apply=false] et a un Désavantage aux jets de sauvegarde de Constitution. Lorsque le [[lookup @name lowercase]] se déplace, la cible greffée se déplace avec lui. Si [[lookup @activation.condition activity=KXQbdk3TH6uZex2L]], son corps est détruit, et le [[lookup @name lowercase]] récupère [[lookup @healing.formula activity=KXQbdk3TH6uZex2L]] Points de Vie.</p><p>La cible greffée ou une créature à moins de 5 pieds du [[lookup @name lowercase]] peut utiliser une action pour effectuer un [[/check ability=str skill=ath dc=@abilities.str.dc format=long]]. Sur un succès, la cible n'est plus greffée et se déplace vers un espace inoccupé à moins de 5 pieds du [[lookup @name lowercase]].</p>",
+      "activities": {
+        "heal": {
+          "condition": "la cible meurt pendant qu'elle est greffée"
+        }
+      },
+      "effects": {
+        "Grafted: Con Saves and Restrained": {
+          "name": "Greffé : JdS Con et Entravé",
+          "description": "<p>Tant que la cible est greffée, elle subit la condition &amp;Reference[Restrained apply=false] et a un Désavantage aux jets de sauvegarde de Constitution.</p><p>La cible greffée ou une créature à moins de 5 pieds de l'aggrippeur peut utiliser une action pour effectuer un [[/check ability=str skill=ath format=long]] (voir l'élément source pour le DD). Sur un succès, la cible n'est plus greffée et se déplace vers un espace inoccupé à moins de 5 pieds de l'aggrippeur.</p>"
+        }
+      }
+    },
+    "Abyssal Glaive": {
+      "name": "Glaive Abyssal",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Abyssal Strike": {
+      "name": "Frappe Abyssale",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Acid Absorption": {
+      "name": "Absorption d'Acide",
+      "description": "<p>Chaque fois que le [[lookup @name lowercase]] est soumis à des dégâts d'&amp;Reference[Acid], il ne subit aucun dégât et récupère à la place un nombre de Points de Vie égal aux dégâts d'Acide infligés.</p>",
+      "effects": {
+        "Acid Absorption": {
+          "name": "Absorption d'Acide",
+          "description": "<p>La créature est immunisée aux dégâts d'Acide et récupère à la place un nombre de Points de Vie égal aux dégâts d'Acide infligés.</p>"
+        }
+      }
+    },
+    "Acid Breath": {
+      "name": "Souffle Acide",
+      "description": "<p><em>Jet de Sauvegarde de Dextérité : </em>DD [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], chaque [[lookup @target.affects.type activity=qNI6W02jCUQbPpYE]] dans une Ligne de [[lookup @target.template.size activity=qNI6W02jCUQbPpYE]] pieds de long et [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]] pieds de large.</p><p><em>Échec : </em>[[/damage average]] dégâts.</p><p><em>Succès :</em> Moitié des dégâts.</p>"
+    },
+    "Acid Spray": {
+      "name": "Jet d'Acide",
+      "description": "<p><em>Jet de Sauvegarde de Dextérité : </em>DD [[lookup @save.dc.value activity=20GU2JBM5zJfNPD1]], chaque [[lookup @target.affects.type activity=20GU2JBM5zJfNPD1]] dans un [[lookup @target.template.type capitalize activity=20GU2JBM5zJfNPD1]] de [[lookup @target.template.size activity=20GU2JBM5zJfNPD1]]-[[lookup @target.template.units activity=20GU2JBM5zJfNPD1]] de long et [[lookup @target.template.width activity=20GU2JBM5zJfNPD1]]-[[lookup @target.template.units activity=20GU2JBM5zJfNPD1]] de large. <em>Échec : </em>[[/damage average]] dégâts. <em>Succès :</em> Moitié des dégâts.</p>"
+    },
+    "Adhesive (Object Form Only)": {
+      "name": "Adhésif (Forme d'Objet Uniquement)",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] adhère à tout ce qui le touche. Une créature de taille Très Grande ou inférieure adhérant au [[lookup @name lowercase]] subit la condition &amp;Reference[Grappled apply=false] (DD d'évasion [[lookup @skills.ath.passive]]). Les jets de caractéristique effectués pour échapper à cette prise ont un Désavantage.</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        },
+        "Escape Check": {
+          "name": "Jet d'Évasion"
+        }
+      },
+      "effects": {
+        "Grappled": {
+          "name": "Agrippé",
+          "description": "<p>La cible subit la condition &amp;Reference[Grappled apply=false] (DD d'évasion [[/check ability=str skill=ath format=long]], voir l'élément source pour le DD). Les jets de caractéristique effectués pour échapper à cette prise ont un Désavantage.</p>"
+        }
+      }
+    },
+    "Advanced Telepathy": {
+      "name": "Télépathie Avancée",
+      "description": "<p>Le [[lookup @name lowercase]] perçoit le contenu de toute communication télépathique dans un rayon de 60 pieds autour de lui.</p>"
+    },
+    "Agile": {
+      "name": "Agile",
+      "description": "<p>Le [[lookup @name lowercase]] ne provoque pas d'&amp;Reference[opportunityattacks]{Attaque d'Opportunité} lorsqu'il sort de la portée d'un ennemi.</p>"
+    },
+    "Aim": {
+      "name": "Viser",
+      "description": "<p>Le [[lookup @name lowercase]] a l'Avantage sur le prochain jet d'attaque qu'il effectue pendant le tour actuel.</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        }
+      },
+      "effects": {
+        "Aiming: Attack Advantage": {
+          "name": "Visée : Avantage à l'Attaque"
+        }
+      }
+    },
+    "Air Form": {
+      "name": "Forme Aérienne",
+      "description": "<p>Le [[lookup @name lowercase]] peut entrer dans l'espace d'un ennemi et s'y arrêter. Il peut se déplacer dans un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour ce faire.</p>"
+    },
+    "Amorphous": {
+      "name": "Amorphe",
+      "description": "<p>Le [[lookup @name lowercase]] peut se déplacer dans un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour ce faire.</p>"
+    },
+    "Amphibious": {
+      "name": "Amphibie",
+      "description": "<p>Le [[lookup @name lowercase]] peut respirer l'air et l'eau.</p>"
+    },
+    "Animal Lordship": {
+      "name": "Seigneurie Animale",
+      "description": "<p>Un [[lookup @name lowercase]] représente un Fourrageur, un Chasseur ou un Sage (au choix du MJ), ce qui détermine certains traits de ce bloc de statistiques.</p><details><summary>Tables d'Apparence</summary><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmForagerAnimalL rollable classes=\"caption-top\" cite=false]{Apparences du Seigneur Animal Fourrageur}</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmHunterAnimalLo rollable classes=\"caption-top\" cite=false]{Apparences du Seigneur Animal Chasseur}</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmSageAnimalLord rollable classes=\"caption-top\" cite=false]{Apparences du Seigneur Animal Sage}</p></details>",
+      "effects": {
+        "Forager Appearance": {
+          "name": "Apparence de Fourrageur",
+          "changes": {
+            "name": "{} (Fourrageur)"
+          }
+        },
+        "Hunter Appearance": {
+          "name": "Apparence de Chasseur",
+          "changes": {
+            "name": "{} (Chasseur)"
+          }
+        },
+        "Sage Appearance": {
+          "name": "Apparence de Sage",
+          "changes": {
+            "name": "{} (Sage)"
+          }
+        }
+      }
+    },
+    "Animal Spirit": {
+      "name": "Esprit Animal",
+      "description": "<p>Le [[lookup @name lowercase]] conjure un esprit animal qui frappe une créature puis disparaît. <em>Jet de Sauvegarde de Dextérité :</em> DD [[lookup @save.dc.value activity=cx21u9ZYjSdu2m3U]], une créature que le [[lookup @name lowercase]] peut voir dans un rayon de [[lookup @range.value activity=cx21u9ZYjSdu2m3U]] pieds. <em>Échec :</em> [[/damage average]] dégâts. <em>Succès :</em> Moitié des dégâts. <em>Échec ou Succès :</em> L'un des effets suivants se produit :</p><p class=\"feature-trait\"><strong>Fortifier (Fourrageur Uniquement).</strong> Le [[lookup @name lowercase]] gagne [[lookup @healing.formula activity=emHqEek8e9Mwyaj7]] Points de Vie Temporaires.</p><p class=\"feature-trait\"><strong>Marqué comme Proie (Chasseur Uniquement).</strong> Le [[lookup @name lowercase]] a l'Avantage sur les jets d'attaque contre la cible jusqu'au début du prochain tour du [[lookup @name lowercase]].</p><p class=\"feature-trait\"><strong>Essaim Ennuyeux (Sage Uniquement).</strong> La cible a un Désavantage sur les jets d'attaque et les jets de caractéristique jusqu'à la fin de son prochain tour.</p>",
+      "activities": {
+        "Forager: Fortify": {
+          "name": "Fourrageur : Fortifier"
+        }
+      },
+      "effects": {
+        "Hunter: Marked as Prey": {
+          "name": "Chasseur : Marqué comme Proie",
+          "description": "<p>L'utilisateur a l'Avantage sur les jets d'attaque contre la cible jusqu'au début de son prochain tour.</p>"
+        },
+        "Sage: Pesky Swarm": {
+          "name": "Sage : Essaim Ennuyeux",
+          "description": "<p>La cible a un Désavantage sur les jets d'attaque et les jets de caractéristique jusqu'à la fin de son prochain tour.</p>"
+        }
+      }
+    },
+    "Animate Boulders": {
+      "name": "Animer des Rochers",
+      "description": "<p>Le [[lookup @name lowercase]] anime [[lookup @target.affects.special activity=lydBv987ChZ7itoS]] qu'il peut voir dans un rayon de [[lookup @range.value activity=lydBv987ChZ7itoS]] pieds de lui-même. Chaque rocher utilise le bloc de statistiques @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGalebDuhr00000], sauf qu'il a des scores d'Intelligence et de Charisme de 1 et qu'il lui manque cette action. Le rocher joue immédiatement après le [[lookup @name lowercase]] sur le même compte d'Initiative, et il obéit au [[lookup @name lowercase]]. Un rocher reste animé pendant [[lookup @duration.value activity=lydBv987ChZ7itoS]] minute ou jusqu'à ce que lui ou le [[lookup @name lowercase]] meure.</p>"
+    },
+    "Antennae": {
+      "name": "Antennes",
+      "description": "<p>Le [[lookup @name lowercase]] cible un objet [[lookup @target.affects.special activity=dcSC7EuknnM0uoqY]]—une armure ou une arme—porté ou tenu par une créature dans un rayon de [[lookup @range.value activity=dcSC7EuknnM0uoqY]] pieds de lui-même. <em>Jet de Sauvegarde de Dextérité :</em> DD [[lookup @save.dc.value activity=dcSC7EuknnM0uoqY]], la créature avec l'objet. <em>Échec :</em> L'objet subit une pénalité de -1 à la CA qu'il offre (armure) ou à ses jets d'attaque (arme). L'armure est détruite si la pénalité réduit sa CA à 10, et une arme est détruite si sa pénalité atteint -5. La pénalité peut être supprimée en lançant le sort <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMending000]{Réparation}</em> sur l'armure ou l'arme.</p><section class=\"secret\" id=\"secret-4QbvfWBnYI6ImcGC\"><p><strong>Note Foundry</strong></p><p>Cette caractéristique fournit également un effet d'Enchantement <strong>Endommagé</strong> qui modifiera l'objet ciblé. En raison du fait que la pénalité d'équipement peut être appliquée plusieurs fois, l'enchantement doit être glissé de l'onglet Effets de cet élément vers la feuille de l'élément cible.</p></section>",
+      "effects": {
+        "Damaged: -1 AC/Attack": {
+          "name": "Endommagé : -1 CA/Attaque",
+          "description": "<p>L'objet subit une pénalité de -1 à la CA qu'il offre (armure) ou à ses jets d'attaque (arme). L'armure est détruite si la pénalité réduit sa CA à 10, et une arme est détruite si sa pénalité atteint -5. La pénalité peut être supprimée en lançant le sort <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMending000]{Réparation}</em> sur l'armure ou l'arme.</p>"
+        }
+      }
+    },
+    "Antimagic Cone": {
+      "name": "Cône Antimagie",
+      "description": "<p>L'œil central du [[lookup @name lowercase]] émet une vague antimagie dans un [[lookup @target.template.type capitalize activity=7vRTku30dhIyBf68]] de [[lookup @target.template.size activity=7vRTku30dhIyBf68]]-[[lookup @target.template.units activity=7vRTku30dhIyBf68]]. Jusqu'au début du prochain tour du tyrannoeil, cette zone agit comme un sort <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAntimagicF]{Champ Antimagie}</em>, et cette zone fonctionne contre les Rayons Oculaires du [[lookup @name lowercase]] lui-même.</p>"
+    },
+    "Aquatic Burst": {
+      "name": "Explosion Aquatique",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si la cible est une créature de taille Grande ou inférieure, elle subit la condition &amp;Reference[Prone].</p>"
+    },
+    "Aquatic Charge": {
+      "name": "Charge Aquatique",
+      "description": "<p>Le [[lookup @name lowercase]] nage jusqu'à sa Vitesse de Nage en ligne droite vers un ennemi qu'il peut voir.</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        }
+      }
+    },
+    "Aquatic Lash": {
+      "name": "Fouet Aquatique",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Arcane Burst": {
+      "name": "Explosion Arcanique",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Arcane Prowl": {
+      "name": "Rôde Arcanique",
+      "description": "<p>Le [[lookup @name lowercase]] peut se téléporter jusqu'à [[lookup @range.value activity=a3RqyzU0UqzLJif0]] pieds vers un espace inoccupé qu'il peut voir, et il effectue une attaque [[/item Claw]].</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        }
+      }
+    },
+    "Arcane Sword": {
+      "name": "Épée Arcanique",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Arcane Tentacles": {
+      "name": "Tentacules Arcaniques",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]], et le [[lookup @name lowercase]] peut téléporter la cible jusqu'à 30 pieds vers un espace inoccupé que le [[lookup @name lowercase]] peut voir sur une surface ou un liquide assez grand pour supporter la cible. Si ces dégâts réduisent la cible à 0 Point de Vie, le [[lookup @name lowercase]] la tue et dévore magiquement son cerveau.</p>"
+    },
+    "Astral Implosion": {
+      "name": "Implosion Astrale",
+      "description": "<p>Si le [[lookup @name lowercase]] est réduit à 0 Point de Vie, il implode et éjecte toute créature et objet qu'il a englouti dans la Mer Astrale. Le [[lookup @name lowercase]] lui-même disparaît, laissant derrière lui une couche de vase sur tout ce qui se trouvait dans un rayon de 600 pieds autour de lui. Dans [[/r 1d20#Years]] années, le [[lookup @name lowercase]] se reconstitue sur un monde aléatoire du Plan Matériel.</p>"
+    },
+    "Attach": {
+      "name": "Attacher",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si la cible est une créature de taille Grande ou inférieure, le [[lookup @name lowercase]] s'y attache. Tant que le [[lookup @name lowercase]] est attaché, la cible subit la condition &amp;Reference[Blinded apply=false], et le [[lookup @name lowercase]] ne peut pas effectuer d'attaques de Morsure contre d'autres cibles. De plus, le [[lookup @name lowercase]] divise par deux les dégâts qu'il subit (arrondi à l'inférieur), et la cible subit le même montant de dégâts.</p><p>Le [[lookup @name lowercase]] peut se détacher en dépensant 5 pieds de mouvement. La cible ou une créature dans un rayon de [[lookup @range.value activity=6iLqAufAeEqDOlGs]] pieds d'elle peut prendre une action pour essayer de détacher le [[lookup @name lowercase]], en réussissant un jet de Force (Athlétisme) DD [[lookup @check.dc.value activity=6iLqAufAeEqDOlGs]].</p>",
+      "activities": {
+        "Detach Attempt": {
+          "name": "Tentative de Détachement",
+          "condition": "Action entreprise par la cible ou une créature dans sa portée"
+        }
+      },
+      "effects": {
+        "Attached: Blinded": {
+          "name": "Attaché : Aveuglé",
+          "description": "<p>Tant qu'il est attaché, la cible subit la condition &amp;Reference[Blinded apply=false].</p>"
+        }
+      }
+    },
+    "Aura of Authority": {
+      "name": "Aura d'Autorité",
+      "description": "<p>Tant qu'ils se trouvent dans une Émanation de [[lookup @target.template.size activity=dE4lg9tZyXtoCb5x]] pieds partant du [[lookup @name lowercase]], le [[lookup @name lowercase]] et ses alliés ont l'Avantage sur les jets d'attaque et les jets de sauvegarde, à condition que le [[lookup @name lowercase]] ne subisse pas la condition &amp;Reference[Incapacitated apply=false].</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser",
+          "condition": "ne subit pas la condition Incapacité"
+        }
+      }
+    },
+    "Aura of Bravery": {
+      "name": "Aura de Bravoure",
+      "description": "<p>Les créatures au choix du [[lookup @name lowercase]] dans une Émanation de [[lookup @target.template.size activity=N8uK4xdPCXdknRTb]] pieds partant de lui sont Immunisées aux conditions &amp;Reference[Charmed apply=false] et &amp;Reference[Frightened apply=false] tant qu'elles s'y trouvent.</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        }
+      },
+      "effects": {
+        "Charmed & Frightened": {
+          "name": "Charmé et Effrayé",
+          "description": "<p>Les cibles sont immunisées aux conditions &amp;Reference[Charmed apply=false] et &amp;Reference[Frightened apply=false] tant qu'elles s'y trouvent.</p>"
+        }
+      }
+    },
+    "Avalanche Slam": {
+      "name": "Écrasement d'Avalanche",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si la cible est une créature [[lookup @target.affects.special activity=M8ntOH8iSnEUaYhj]] et que le [[lookup @name lowercase]] [[lookup @activation.condition activity=M8ntOH8iSnEUaYhj]] droit vers elle immédiatement avant le coup, la cible subit [[/damage average]] dégâts supplémentaires et subit la condition &amp;Reference[Prone].</p>",
+      "activities": {
+        "Attack": {
+          "name": "Attaque"
+        },
+        "Moving Attack": {
+          "name": "Attaque en Mouvement",
+          "condition": "s'est déplacé de 20+ pieds"
+        }
+      }
+    },
+    "Aversion to Fire": {
+      "name": "Aversion au Feu",
+      "description": "<p>Si le [[lookup @name lowercase]] subit des dégâts de Feu, il a un Désavantage sur les jets d'attaque et les jets de caractéristique jusqu'à la fin de son prochain tour.</p>",
+      "effects": {
+        "Averse": {
+          "name": "Réticent",
+          "description": "<p>Il a un Désavantage sur les jets d'attaque et les jets de caractéristique jusqu'à la fin de son prochain tour.</p>"
+        }
+      }
+    },
+    "Avoidance": {
+      "name": "Évitement",
+      "description": "<p>Si le [[lookup @name lowercase]] est soumis à un effet qui lui permet d'effectuer un jet de sauvegarde pour ne subir que la moitié des dégâts, il ne subit aucun dégât s'il réussit le jet et la moitié des dégâts s'il échoue. Il ne peut pas utiliser ce trait s'il subit la condition Incapacité.</p>"
+    },
+    "Awestruck": {
+      "name": "Saisi d'Admiration",
+      "description": "<p>La cible subit la condition &amp;Reference[Charmed apply=false] jusqu'au début du prochain tour du [[lookup @name lowercase]].</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        }
+      },
+      "effects": {
+        "Charmed": {
+          "name": "Charmé"
+        }
+      }
+    },
+    "Baleful Command": {
+      "name": "Commandement Funeste",
+      "description": "<p><em>Jet de Sauvegarde de Sagesse :</em> DD [[lookup @save.dc.value activity=SzU2lwdbqgoFMuBM]], chaque [[lookup @target.affects.type activity=SzU2lwdbqgoFMuBM]] dans une Émanation de [[lookup @target.template.size activity=SzU2lwdbqgoFMuBM]] pieds partant du [[lookup @name lowercase]].</p><p><em>Échec :</em> [[/damage average]] dégâts, et la cible subit les conditions &amp;Reference[Frightened apply=false] et &amp;Reference[Incapacitated apply=false] jusqu'au début du prochain tour du [[lookup @name lowercase]].</p>",
+      "effects": {
+        "Frightened & Incapacitated": {
+          "name": "Effrayé et Incapacité",
+          "description": "<p>La cible subit les conditions &amp;Reference[Frightened apply=false] et &amp;Reference[Incapacitated apply=false] jusqu'au début du prochain tour de l'utilisateur.</p>"
+        }
+      }
+    },
+    "Banish": {
+      "name": "Bannissement",
+      "description": "<p><em>Jet de Sauvegarde de Charisme :</em> DD [[lookup @save.dc.value activity=kWKwiAYgyeKBLMNJ]], une créature que le [[lookup @name lowercase]] peut voir dans un rayon de [[lookup @range.value activity=kWKwiAYgyeKBLMNJ]] pieds.</p><p><em>Échec :</em> [[/damage average]] dégâts, et la cible subit la condition &amp;Reference[Incapacitated apply=false] et est transportée dans un demi-plan inoffensif jusqu'au début du prochain tour du [[lookup @name lowercase]], moment auquel elle réapparaît dans un espace inoccupé au choix du [[lookup @name lowercase]] dans un rayon de [[lookup @range.value activity=kWKwiAYgyeKBLMNJ]] pieds du [[lookup @name lowercase]].</p><p><em>Échec ou Succès :</em> Le [[lookup @name lowercase]] ne peut pas reprendre cette action avant [[lookup @duration.special activity=kWKwiAYgyeKBLMNJ]].</p>",
+      "effects": {
+        "Banished: Incapacitated": {
+          "name": "Banni : Incapacité",
+          "description": "<p>La cible subit la condition &amp;Reference[Incapacitated apply=false] et est transportée dans un demi-plan inoffensif jusqu'au début du prochain tour de l'utilisateur, moment auquel elle réapparaît dans un espace inoccupé au choix de l'utilisateur dans la portée de l'utilisateur.</p>"
+        }
+      }
+    },
+    "Banishing Claw": {
+      "name": "Griffe de Bannissement",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si la cible est une créature, elle est soumise à l'effet suivant.</p><p><em>Jet de Sauvegarde de Charisme :</em> DD [[lookup @save.dc.value activity=zTrsaQFwVagWU19h]].</p><p><em>Échec :</em> La cible est piégée dans un demi-plan à l'intérieur du Grimoire d'Âmes. Tant qu'elle y est piégée, la cible subit la condition &amp;Reference[Incapacitated apply=false]. À la fin de chacun de ses tours, la cible répète le jet de sauvegarde [[/save ability=cha]], s'échappant du grimoire en cas de succès. Lorsque la cible s'échappe, elle apparaît dans l'espace qu'elle a quitté ou, si cet espace est occupé, dans l'espace inoccupé le plus proche.</p><p>Si la cible échoue à trois de ces jets de sauvegarde pendant qu'elle est dans le demi-plan, elle devient liée au grimoire et ne peut s'échapper que si le grimoire est réduit à 0 Point de Vie.</p>",
+      "activities": {
+        "Hit: Creature": {
+          "name": "Touché : Créature",
+          "condition": "touche une créature avec l'attaque"
+        }
+      },
+      "effects": {
+        "Trapped: Incapacitated": {
+          "name": "Piégé : Incapacité",
+          "description": "<p>La cible est piégée dans un demi-plan à l'intérieur du Grimoire d'Âmes. Tant qu'elle y est piégée, la cible subit la condition &amp;Reference[Incapacitated apply=false]. À la fin de chacun de ses tours, la cible répète le jet de sauvegarde [[/save ability=cha]], s'échappant du grimoire en cas de succès. Lorsque la cible s'échappe, elle apparaît dans l'espace qu'elle a quitté ou, si cet espace est occupé, dans l'espace inoccupé le plus proche.</p>"
+        }
+      }
+    },
+    "Barbed Hide": {
+      "name": "Peau Barbelée",
+      "description": "<p>Au début de chacun de ses tours, le [[lookup @name lowercase]] inflige [[/damage average]] dégâts à toute créature [[lookup @target.affects.special activity=1O5eyc72vPW0UxYZ]].</p>",
+      "activities": {
+        "damage": {
+          "condition": "début de chacun de ses tours"
+        }
+      }
+    },
+    "Beak": {
+      "name": "Bec",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Beaks": {
+      "name": "Becs",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]], ou [[/damage average activity=3m1SLqBeMGQF3UaQ]] si [[lookup @activation.condition activity=3m1SLqBeMGQF3UaQ]]</p>",
+      "activities": {
+        "attack": {
+          "condition": "l'essaim n'est pas Sanglant"
+        },
+        "Bloodied Attack": {
+          "name": "Attaque Sanglante",
+          "condition": "l'essaim est &Reference[Bloodied apply=false]"
+        }
+      }
+    },
+    "Beard": {
+      "name": "Barbe",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]], et la cible subit la condition &amp;Reference[Poisoned apply=false] jusqu'au début du prochain tour du [[lookup @name lowercase]]. Jusqu'à ce que ce poison prenne fin, la cible ne peut pas récupérer de Points de Vie.</p>",
+      "effects": {
+        "Poisoned": {
+          "name": "Empoisonné",
+          "description": "<p>La cible subit la condition &amp;Reference[Poisoned apply=false] jusqu'au début du prochain tour de l'utilisateur. Jusqu'à ce que ce poison prenne fin, la cible ne peut pas récupérer de Points de Vie.</p>"
+        }
+      }
+    },
+    "Beast of Burden": {
+      "name": "Bête de Somme",
+      "description": "<p>Le [[lookup @name lowercase]] compte comme une taille de plus aux fins de la détermination de sa capacité de portage.</p>",
+      "effects": {
+        "Beast of Burden": {
+          "name": "Bête de Somme"
+        }
+      }
+    },
+    "Beguile": {
+      "name": "Séduire",
+      "description": "<p>Le [[lookup @name lowercase]] lance <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Ordre}</em>, ne nécessitant aucun composant de sort et utilisant le Charisme comme capacité d'incantation (DD du jet de sauvegarde des sorts [[lookup @abilities.cha.dc]]). Le [[lookup @name lowercase]] ne peut pas reprendre cette action avant le début de son prochain tour.</p>"
+    },
+    "Beguiling Song": {
+      "name": "Chant Séduisant",
+      "description": "<p><em>Jet de Sauvegarde de Sagesse :</em> DD [[lookup @save.dc.value activity=rbe2FvPTepUsO4GL]], chaque créature dans une Sphère de [[lookup @target.template.size activity=rbe2FvPTepUsO4GL]] pieds de rayon centrée sur un point dans un rayon de [[lookup @range.value activity=rbe2FvPTepUsO4GL]] pieds.</p><p><em>Échec :</em> [[/damage average]] dégâts, et la cible subit la condition &amp;Reference[Charmed apply=false] jusqu'à la fin du prochain tour du [[lookup @name lowercase]].</p><p><em>Succès :</em> Moitié des dégâts seulement.</p>",
+      "effects": {
+        "Charmed": {
+          "name": "Charmé",
+          "description": "<p>La cible subit la condition &amp;Reference[Charmed apply=false] jusqu'à la fin du prochain tour de la créature attaquante.</p>"
+        }
+      }
+    },
+    "Beguiling Strike": {
+      "name": "Frappe Séduisante",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]], et la cible subit la condition &amp;Reference[Charmed apply=false] jusqu'au début du prochain tour du [[lookup @name lowercase]].</p>",
+      "effects": {
+        "Charmed": {
+          "name": "Charmé",
+          "description": "<p>La cible subit la condition &amp;Reference[Charmed apply=false] jusqu'au début du prochain tour de l'utilisateur.</p>"
+        }
+      }
+    },
+    "Bejeweled Baton": {
+      "name": "Bâton Orné de Bijoux",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Berserk": {
+      "name": "Berserk",
+      "description": "<p>Chaque fois que le [[lookup @name lowercase]] commence son tour &amp;Reference[Bloodied], lancez [[/r 1d6]]. Sur un 6, le [[lookup @name lowercase]] devient berserk. À chacun de ses tours tant qu'il est berserk, le [[lookup @name lowercase]] attaque la créature la plus proche qu'il peut voir. Si aucune créature n'est assez proche pour qu'il puisse se déplacer et attaquer, le [[lookup @name lowercase]] attaque un objet. Une fois que le [[lookup @name lowercase]] est berserk, il le reste jusqu'à ce qu'il soit détruit ou qu'il ne soit plus Sanglant.</p><p>Le créateur du [[lookup @name lowercase]], s'il est dans un rayon de [[lookup @range.value activity=tnkOsrSwEElO2kZM]] pieds du [[lookup @name lowercase]] berserk, peut essayer de le calmer en utilisant une action pour effectuer un jet de Charisme (Persuasion) DD 15 [[/check ability=cha skill=per dc=@abilities.str.dc]]; le golem doit pouvoir entendre son créateur. Si ce jet réussit, le golem cesse d'être berserk jusqu'au début de son prochain tour, moment auquel il recommence à lancer pour le trait Berserk s'il est toujours Sanglant.</p>",
+      "activities": {
+        "Berserk Check": {
+          "name": "Jet Berserk",
+          "roll": "Berserk sur 6",
+          "condition": "commence son tour &Reference[Bloodied]"
+        },
+        "Calm Check": {
+          "name": "Jet de Calme",
+          "condition": "Action entreprise par le créateur de la créature"
+        }
+      },
+      "effects": {
+        "Berserk": {
+          "name": "Berserk",
+          "description": "<p>À chacun de ses tours tant qu'il est berserk, la créature attaque la créature la plus proche qu'elle peut voir. Si aucune créature n'est assez proche pour qu'elle puisse se déplacer et attaquer, la créature attaque un objet. Une fois que la créature est berserk, elle le reste jusqu'à ce qu'elle soit détruite ou qu'elle ne soit plus &amp;Reference[Bloodied apply=false].</p>"
+        }
+      }
+    },
+    "Bite": {
+      "name": "Morsure",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Bites": {
+      "name": "Morsures",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]], ou [[/damage average activity=3m1SLqBeMGQF3UaQ]] si [[lookup @activation.condition activity=3m1SLqBeMGQF3UaQ]]</p>",
+      "activities": {
+        "attack": {
+          "condition": "l'essaim n'est pas Sanglant"
+        },
+        "Bloodied Attack": {
+          "name": "Attaque Sanglante",
+          "condition": "l'essaim est &Reference[Bloodied apply=false]"
+        }
+      }
+    },
+    "Bladed Arm": {
+      "name": "Bras Lame",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Blazing Light": {
+      "name": "Lumière Éclatante",
+      "description": "<p>Le [[lookup @name lowercase]] utilise l'Incantation pour lancer <em>[[/item Scorching Ray]]</em></p>"
+    },
+    "Blazing Movement": {
+      "name": "Mouvement Éclatant",
+      "description": "<p>Le [[lookup @name lowercase]] se déplace jusqu'à sa Vitesse sans provoquer d'&amp;Reference[OpportunityAttacks]. Pendant ce mouvement, le feu remplit une Émanation de [[lookup @target.template.size activity=MUbX28KmoDF9sC5b]] pieds partant du [[lookup @name lowercase]]. Lorsque l'Émanation entre dans l'espace d'une créature, cette créature subit [[/damage average]] dégâts. Une créature [[lookup @target.affects.special activity=MUbX28KmoDF9sC5b]].</p>"
+    },
+    "Blight Seeds": {
+      "name": "Graines de Fléau",
+      "description": "<p>Lorsqu'il termine un Repos Long, le fléau expulse [[/r 1d6#Seeds expelled]] graines dans des espaces inoccupés sur le sol dans un rayon de 30 pieds autour de lui. Après 24 heures, les graines deviennent des créatures sous le contrôle du fléau. Lancez 1d8 pour chaque graine afin de déterminer la créature qu'elle devient :</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmBlightSeedCrea rollable classes=\"caption-top\"]</p>"
+    },
+    "Blinding Breath": {
+      "name": "Souffle Aveuglant",
+      "description": "<p><em>Jet de Sauvegarde de Dextérité :</em> DD [[lookup @save.dc.value activity=soAO2jRWos8FsxeU]], chaque créature dans un Cône de [[lookup @target.template.size activity=soAO2jRWos8FsxeU]] pieds. <em>Échec :</em> La cible subit la condition &amp;Reference[Blinded apply=false] jusqu'à la fin du prochain tour du [[lookup @name lowercase]].</p>",
+      "effects": {
+        "Blinded": {
+          "name": "Aveuglé",
+          "description": "<p>La cible subit la condition &amp;Reference[Blinded apply=false] jusqu'à la fin du prochain tour de l'utilisateur.</p>"
+        }
+      }
+    },
+    "Blinding Flash": {
+      "name": "Éclair Aveuglant",
+      "description": "<p><em>Jet de Sauvegarde de Constitution :</em> DD [[lookup @save.dc.value activity=Onad9uNiCzAMfuwf]], chaque créature dans une Sphère de [[lookup @target.template.size activity=Onad9uNiCzAMfuwf]] pieds de rayon centrée sur un point que le [[lookup @name lowercase]] peut voir dans un rayon de [[lookup @range.value activity=Onad9uNiCzAMfuwf]] pieds.</p><p><em>Échec :</em> [[/damage average]] dégâts, et la cible subit la condition &amp;Reference[Blinded apply=false] jusqu'au début du prochain tour du [[lookup @name lowercase]].</p><p><em>Succès :</em> Moitié des dégâts seulement.</p>",
+      "effects": {
+        "Blinded": {
+          "name": "Aveuglé",
+          "description": "<p>la cible subit la condition &amp;Reference[Blinded apply=false] jusqu'au début du prochain tour de l'utilisateur.</p>"
+        }
+      }
+    },
+    "Blinding Gaze": {
+      "name": "Regard Aveuglant",
+      "description": "<p><em>Jet de Sauvegarde de Constitution :</em> DD [[lookup @save.dc.value activity=B6xM8C2pABIb5o7y]], une créature que le [[lookup @name lowercase]] peut voir dans un rayon de [[lookup @range.value activity=B6xM8C2pABIb5o7y]] pieds. <em>Échec :</em> La cible subit la condition &amp;Reference[Blinded apply=false] pendant 1 minute. <em>Échec ou Succès :</em> Le [[lookup @name lowercase]] ne peut pas reprendre cette action avant le début de son prochain tour.</p>",
+      "effects": {
+        "Blinded": {
+          "name": "Aveuglé"
+        }
+      }
+    },
+    "Blinding Spittle": {
+      "name": "Crachat Aveuglant",
+      "description": "<p><em>Jet de Sauvegarde de Dextérité :</em> DD [[lookup @save.dc.value activity=JfU8KFZkAJxWtrhk]], chaque créature dans une Sphère de [[lookup @target.template.size activity=JfU8KFZkAJxWtrhk]] pieds de rayon centrée sur un point dans un rayon de [[lookup @range.value activity=JfU8KFZkAJxWtrhk]] pieds. <em>Échec :</em> [[/damage average]] dégâts, et la cible subit la condition &amp;Reference[Blinded apply=false] jusqu'à la fin du prochain tour du [[lookup @name lowercase]].</p>",
+      "effects": {
+        "Blinded": {
+          "name": "Aveuglé",
+          "description": "<p>la cible subit la condition &amp;Reference[Blinded apply=false] jusqu'à la fin du prochain tour de l'utilisateur.</p>"
+        }
+      }
+    },
+    "Blood Frenzy": {
+      "name": "Frénésie Sanguine",
+      "description": "<p>Le [[lookup @name lowercase]] a l'Avantage sur les jets d'attaque contre toute créature qui n'a pas tous ses Points de Vie.</p>"
+    },
+    "Bloodied Frenzy": {
+      "name": "Frénésie Sanglante",
+      "description": "<p>Tant qu'il est &amp;Reference[Bloodied], le [[lookup @name lowercase]] a l'Avantage sur les jets d'attaque et les jets de sauvegarde.</p>"
+    },
+    "Bloodied Fury": {
+      "name": "Fureur Sanglante",
+      "description": "<p>Tant qu'il est &amp;Reference[Bloodied], le [[lookup @name lowercase]] a l'Avantage sur les jets d'attaque.</p>"
+    },
+    "Blurred Form": {
+      "name": "Forme Floue",
+      "description": "<p>Les jets d'attaque contre le [[lookup @name lowercase]] sont effectués avec un Désavantage, sauf si le [[lookup @name lowercase]] subit la condition Incapacité.</p>"
+    },
+    "Bog Staff": {
+      "name": "Bâton de Tourbière",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Bolster": {
+      "name": "Soutenir",
+      "description": "<p>Le [[lookup @name lowercase]] gagne [[lookup @healing.formula activity=v5km8Vio4N6HgkF6]] Points de Vie Temporaires, et le [[lookup @name lowercase]] et chaque allié dans un rayon de [[lookup @range.value activity=v5km8Vio4N6HgkF6]] pieds de lui gagnent l'Avantage sur les Tests D20 jusqu'à la fin du prochain tour du [[lookup @name lowercase]]. Le [[lookup @name lowercase]] ne peut pas reprendre cette action avant le début de son prochain tour.</p>",
+      "effects": {
+        "Bolstered: Test Advantage": {
+          "name": "Soutenu : Avantage au Test",
+          "description": "<p>La cible gagne l'Avantage sur les Tests D20 jusqu'à la fin du prochain tour de l'utilisateur.</p>"
+        }
+      }
+    },
+    "Bone Bow": {
+      "name": "Arc d'Os",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Bone Cudgel": {
+      "name": "Gourdin d'Os",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Bone Flail": {
+      "name": "Fléau d'Os",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Bone Whip": {
+      "name": "Fouet d'Os",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]], et la cible subit la condition &amp;Reference[Restrained apply=false] (DD d'évasion [[lookup @save.dc.value activity=Y4J93tL8zG7N6gB1]]) jusqu'à ce que la prise se termine. Le [[lookup @name lowercase]] ne peut pas effectuer d'attaques de Fouet d'Os tant qu'il agrippe une créature de cette manière.</p>",
+      "activities": {
+        "Escape Check": {
+          "name": "Jet d'Évasion"
+        }
+      },
+      "effects": {
+        "Restrained": {
+          "name": "Entravé",
+          "description": "<p>La cible subit la condition &amp;Reference[Restrained apply=false] (DD d'évasion [[/check ability=str skill=ath format=long]], voir l'élément source pour le DD) jusqu'à ce que la prise se termine. L'utilisateur ne peut pas effectuer d'attaques de Fouet d'Os tant qu'il agrippe une créature de cette manière.</p>"
+        }
+      }
+    },
+    "Boulders": {
+      "name": "Rochers",
+      "description": "<p>Le [[lookup @name lowercase]] lance [[lookup @target.affects.special activity=718Y712nQd9sE7c5]] dans un rayon de [[lookup @range.value activity=718Y712nQd9sE7c5]] pieds de lui-même, chacune utilisant l'attaque [[/item Bone Bow]].</p>"
+    },
+    "Brutal Attack": {
+      "name": "Attaque Brutale",
+      "description": "<p>Le [[lookup @name lowercase]] inflige un dégât supplémentaire égal à son Modificateur de Force aux dégâts de toutes ses attaques. (Déjà inclus dans le jet)</p>",
+      "effects": {
+        "Brutal Attack": {
+          "name": "Attaque Brutale"
+        }
+      }
+    },
+    "Brutal Critical": {
+      "name": "Coup Critique Brutal",
+      "description": "<p>En cas de Coup Critique, le [[lookup @name lowercase]] ajoute [[lookup @damage.formula activity=H02E4k2L5z9jQp7I]] aux dégâts de l'attaque.</p>"
+    },
+    "Brute": {
+      "name": "Brute",
+      "description": "<p>Le [[lookup @name lowercase]] inflige un dégât supplémentaire égal à son Modificateur de Constitution aux dégâts de toutes ses attaques (Déjà inclus dans le jet).</p>",
+      "effects": {
+        "Brute": {
+          "name": "Brute"
+        }
+      }
+    },
+    "Burrowing Advance": {
+      "name": "Progression Souterraine",
+      "description": "<p>Le [[lookup @name lowercase]] se déplace jusqu'à sa Vitesse de Fouissement sous terre. Ce faisant, il n'a pas besoin de dépenser de mouvement supplémentaire pour se déplacer sous un terrain difficile, et il est &amp;Reference[Blinded apply=false] et &amp;Reference[Incapacitated apply=false].</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        }
+      }
+    },
+    "Burning Gaze": {
+      "name": "Regard Brûlant",
+      "description": "<p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=8I2eXkM5cO8dJt7Z]], one creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=8I2eXkM5cO8dJt7Z]] feet. <em>Failure:</em> [[/damage average]] damage, and the target is subjected to the following effect.</p><p><em>Failure:</em> The target has the &amp;Reference[Blinded apply=false] condition until the end of the [[lookup @name lowercase]]’s next turn, and the target takes an extra [[/damage average]] damage at the start of its next turn.</p>",
+      "effects": {
+        "Blinded and Damage": {
+          "name": "Aveuglé et Dégâts",
+          "description": "<p>La cible subit la condition &amp;Reference[Blinded apply=false] jusqu'à la fin du prochain tour de l'utilisateur, et la cible subit [[/damage average]] dégâts supplémentaires au début de son prochain tour.</p>"
+        }
+      }
+    },
+    "Burning Hands": {
+      "name": "Mains Brûlantes",
+      "description": "<p>Le [[lookup @name lowercase]] utilise l'Incantation pour lancer <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]</em></p>"
+    },
+    "Burrow": {
+      "name": "Fouir",
+      "description": "<p>Le [[lookup @name lowercase]] se déplace jusqu'à sa Vitesse de Fouissement, et il effectue une attaque [[/item Piercing Spine]] contre une créature adjacente avant ou après son mouvement.</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        }
+      }
+    },
+    "Burrowing Strike": {
+      "name": "Frappe de Fouissement",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]], et la cible subit la condition &amp;Reference[Blinded apply=false] jusqu'à la fin de son prochain tour si le [[lookup @name lowercase]] a effectué une attaque [[/item Piercing Spine]] immédiatement avant l'attaque.</p>",
+      "activities": {
+        "Attack with Blindness": {
+          "name": "Attaque avec Aveuglement",
+          "condition": "attaqué avec Piercing Spine juste avant"
+        }
+      },
+      "effects": {
+        "Blinded": {
+          "name": "Aveuglé",
+          "description": "<p>La cible subit la condition &amp;Reference[Blinded apply=false] jusqu'à la fin de son prochain tour.</p>"
+        }
+      }
+    },
+    "Cannibalize": {
+      "name": "Cannibalisme",
+      "description": "<p>Le [[lookup @name lowercase]] récupère [[lookup @healing.formula activity=D5oQx21w3oP4kI6G]] Points de Vie.</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        }
+      }
+    },
+    "Cauterizing Gaze": {
+      "name": "Regard Cautérisant",
+      "description": "<p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=O3gZf7xR9dK2yQ8T]], one creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=O3gZf7xR9dK2yQ8T]] feet. <em>Failure:</em> [[/damage average]] dégâts, et la cible ne peut pas récupérer de Points de Vie jusqu'à la fin du prochain tour du [[lookup @name lowercase]].</p>",
+      "effects": {
+        "No Healing": {
+          "name": "Pas de Soins",
+          "description": "<p>La cible ne peut pas récupérer de Points de Vie jusqu'à la fin du prochain tour de l'utilisateur.</p>"
+        }
+      }
+    },
+    "Celestial Restoration": {
+      "name": "Restauration Céleste",
+      "description": "<p>Si le [[lookup @name lowercase]] est détruit, il se reforme dans [[/r 1d6]] jours s'il a un cœur, revivant avec tous ses Points de Vie. Le nouveau corps apparaît dans un espace inoccupé dans un rayon de [[lookup @range.value activity=Y7jE9vP3iO5mK2rZ]] pieds de l'emplacement où le [[lookup @name lowercase]] a été détruit. Si le [[lookup @name lowercase]] n'a pas de cœur, il est détruit de façon permanente.</p>"
+    },
+    "Change Shape": {
+      "name": "Changement de Forme",
+      "description": "<p>Le [[lookup @name lowercase]] se transforme magiquement en un [[lookup @target.affects.special activity=F4iJ2kM7tN0gQp8Z]] humanoïde de taille Moyenne ou en revenant à sa forme véritable. Ses statistiques sont les mêmes sous chaque forme. L'équipement qu'il porte ou tient n'est pas transformé. Il revient à sa forme véritable s'il meurt.</p>"
+    },
+    "Chilling Gaze": {
+      "name": "Regard Glaçant",
+      "description": "<p><em>Jet de Sauvegarde de Constitution :</em> DC [[lookup @save.dc.value activity=EREXmcv7YU7T9pj6]], une créature que le [[lookup @name lowercase]] peut voir dans un rayon de [[lookup @range.value activity=EREXmcv7YU7T9pj6]] pieds. <em>Échec :</em> [[/damage average]] dégâts, et la cible subit la condition &amp;Reference[Paralyzed apply=false] jusqu'au début du prochain tour du [[lookup @name lowercase]] à moins que la cible ne soit Immunisée aux dégâts de Froid. <em>Succès :</em> La cible est immunisée au Regard Glaçant de tous les yétis (mais pas des yétis abominables) pendant 1 heure.</p>",
+      "effects": {
+        "Paralyzed": {
+          "name": "Paralysé",
+          "description": "<p>La cible subit la condition Paralysé jusqu'au début du prochain tour de l'utilisateur à moins que la cible ne soit Immunisée aux dégâts de Froid.</p>"
+        }
+      }
+    },
+    "Chomp": {
+      "name": "Mastication",
+      "description": "<p>Le [[lookup @name lowercase]] effectue deux attaques [[/item Bite]].</p>"
+    },
+    "Claw": {
+      "name": "Griffe",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Claws": {
+      "name": "Griffes",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si la cible est une créature de taille Grande ou inférieure, elle subit la condition &amp;Reference[Grappled apply=false] (DD d'évasion [[lookup @skills.ath.passive]]), et elle subit la condition &amp;Reference[Restrained apply=false] jusqu'à ce que la prise se termine.</p>",
+      "activities": {
+        "Escape Check": {
+          "name": "Jet d'Évasion"
+        }
+      },
+      "effects": {
+        "Grappled and Restrained": {
+          "name": "Agrippé et Entravé",
+          "description": "<p>Si la cible est une créature de taille Grande ou inférieure, elle subit la condition &amp;Reference[Grappled apply=false] (DD d'évasion [[/check ability=str skill=ath format=long]], voir l'élément source pour le DD), et elle subit la condition &amp;Reference[Restrained apply=false] jusqu'à ce que la prise se termine.</p><p><strong>Tests d'Évasion (voir l'élément source pour le DD)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
+        }
+      }
+    },
+    "Confer Fire Resistance": {
+      "name": "Conférer la Résistance au Feu",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] peut accorder la Résistance aux dégâts de Feu à un cavalier tant qu'il est sur le [[lookup @name lowercase]].</p>",
+      "effects": {
+        "Resistance: Fire": {
+          "name": "Résistance : Feu",
+          "description": "<p>La créature peut accorder la Résistance aux dégâts de Feu à un cavalier tant qu'il est sur la créature.</p>"
+        }
+      }
+    },
+    "Confusing Gaze": {
+      "name": "Regard Déroutant",
+      "description": "<p class=\"feature\"><em>Jet de Sauvegarde de Sagesse :</em> DC [[lookup @save.dc.value activity=tvHG0MEXOUVoCLuO]], chaque créature dans un Cône de [[lookup @target.template.size activity=tvHG0MEXOUVoCLuO]] pieds. <em>Échec :</em> La cible ne peut pas entreprendre de &amp;Reference[Reaction] jusqu'au début du prochain tour du [[lookup @name lowercase]], et la cible lance [[/r 1d8]] pour déterminer...</p>"
+    },
+    "Corrupting Touch": {
+      "name": "Toucher Corrupteur",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]], et la cible subit la condition &amp;Reference[Poisoned apply=false] jusqu'à la fin de son prochain tour.</p>",
+      "effects": {
+        "Poisoned": {
+          "name": "Empoisonné",
+          "description": "<p>La cible subit la condition &amp;Reference[Poisoned apply=false] jusqu'à la fin de son prochain tour.</p>"
+        }
+      }
+    },
+    "Darkness Aura": {
+      "name": "Aura de Ténèbres",
+      "description": "<p>Des Ténèbres magiques remplissent une Émanation de [[lookup @target.template.size activity=amat5Ii4NydseA0h]] pieds partant du [[lookup @name]]. Cet effet dure tant que le [[lookup @name]] maintient sa Concentration, jusqu'à [[lookup @duration.value activity=amat5Ii4NydseA0h]] minutes. La Vision dans le Noir ne peut pas pénétrer cette zone, et aucune lumière ne peut l'éclairer.</p>"
+    },
+    "Deadly Aim": {
+      "name": "Visée Mortelle",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] se donne l'Avantage sur le prochain jet d'attaque qu'il effectue pendant le tour actuel. Si cette attaque touche, la cible subit [[/damage average]] dégâts supplémentaires.</p>",
+      "activities": {
+        "Extra Damage": {
+          "name": "Dégâts Supplémentaires"
+        }
+      },
+      "effects": {
+        "Aiming: Attack Advantage": {
+          "name": "Visée : Avantage à l'Attaque"
+        }
+      }
+    },
+    "Deadly Leap": {
+      "name": "Saut Mortel",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] saute jusqu'à sa Vitesse. Si le [[lookup @name lowercase]] atterrit dans l'espace d'une créature de taille Moyenne ou inférieure, cette créature subit [[/damage average]] dégâts et doit réussir un jet de Sauvegarde de Force DD [[lookup @save.dc.value activity=2iYjM3k7hG0nQ8rZ]] ou subir la condition &amp;Reference[Prone apply=false]. Le [[lookup @name lowercase]] ne peut pas reprendre cette action avant le début de son prochain tour.</p>",
+      "activities": {
+        "Attack": {
+          "name": "Attaque"
+        }
+      },
+      "effects": {
+        "Prone": {
+          "name": "À Terre",
+          "description": "<p>La créature subit la condition &amp;Reference[Prone apply=false].</p>"
+        }
+      }
+    },
+    "Devour Intellect": {
+      "name": "Dévoreur d'Intellect",
+      "description": "<p class=\"feature\"><em>Jet de Sauvegarde d'Intelligence :</em> DD [[lookup @save.dc.value activity=7LNepwMsw4xbXyRk]], une [[lookup @target.affects.type activity=7LNepwMsw4xbXyRk]] que le [[lookup @name lowercase]] peut voir dans un rayon de [[lookup @range.value activity=7LNepwMsw4xbXyRk]] pieds. <em>Échec :</em> [[/damage average]] dégâts, et la cible subit la condition &amp;Reference[Stunned apply=false] jusqu'à la fin du prochain tour du [[lookup @name lowercase]].</p>",
+      "activities": {
+        "Save": {
+          "name": "Sauvegarde"
+        }
+      },
+      "effects": {
+        "Stunned": {
+          "name": "Étourdi",
+          "description": "<p>La cible subit la condition &amp;Reference[Stunned apply=false] jusqu'à la fin du prochain tour de la créature attaquante.</p>"
+        }
+      }
+    },
+    "Diabolical Restoration": {
+      "name": "Restauration Diabolique",
+      "description": "<p class=\"feature\">Si le [[lookup @name lowercase]] est détruit, il se reforme dans [[/r 1d6]] jours s'il a un cœur, revivant avec tous ses Points de Vie. Le nouveau corps apparaît dans un espace inoccupé dans un rayon de [[lookup @range.value activity=Y7jE9vP3iO5mK2rZ]] pieds de l'emplacement où le [[lookup @name lowercase]] a été détruit. Si le [[lookup @name lowercase]] n'a pas de cœur, il est détruit de façon permanente.</p>"
+    },
+    "Dread Authority": {
+      "name": "Autorité Redoutable",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] utilise l'Incantation pour lancer <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Ordre}</em></p>"
+    },
+    "Faerie Dust": {
+      "name": "Poussière Féerique",
+      "description": "<p class=\"feature\"><em>Attaque au Corps à Corps ou à Distance :</em> [[/attack]], portée [[lookup @item.range.reach]] [[lookup @item.range.units]]. ou portée [[lookup @item.range.value]] [[lookup @item.range.units]]. <em>Touché :</em> [[/damage average]] dégâts, et la cible subit la condition &amp;Reference[Charmed apply=false] ou &amp;Reference[Poisoned apply=false] (au choix du [[lookup @name lowercase]]) jusqu'au début du prochain tour du [[lookup @name lowercase]].</p>",
+      "effects": {
+        "Charmed": {
+          "name": "Charmé",
+          "description": "<p>La cible subit la condition &amp;Reference[Charmed apply=false] (au choix de la créature attaquante) jusqu'au début du prochain tour de l'utilisateur.</p>"
+        },
+        "Poisoned": {
+          "name": "Empoisonné",
+          "description": "<p>La cible subit la condition &amp;Reference[Poisoned apply=false] (au choix de la créature attaquante) jusqu'au début du prochain tour de l'utilisateur.</p>"
+        }
+      }
+    },
+    "Freezing Burst": {
+      "name": "Éclat de Givre",
+      "description": "<p class=\"feature\"><em>Jet de Sauvegarde de Constitution :</em> DD [[lookup @save.dc.value activity=U2i9u4ELjeLQfePP]], chaque [[lookup @target.affects.type activity=U2i9u4ELjeLQfePP]] dans une Sphère de [[lookup @target.template.size activity=U2i9u4ELjeLQfePP]] pieds de rayon centrée sur un point que le [[lookup @name lowercase]] peut voir dans un rayon de [[lookup @range.value activity=U2i9u4ELjeLQfePP]] pieds.</p><p class=\"feature\"><em>Échec :</em> [[/damage average]] dégâts, et la Vitesse de la cible est de 0 jusqu'à la fin de son prochain tour.</p><p class=\"feature\"><em>Échec ou Succès :</em> Le [[lookup @name lowercase]] ne peut pas reprendre cette action avant le début de son prochain tour.</p>",
+      "activities": {
+        "Save": {
+          "name": "Sauvegarde"
+        }
+      },
+      "effects": {
+        "0 Speed": {
+          "name": "Vitesse 0",
+          "description": "<p>La Vitesse de la cible est de 0 jusqu'à la fin de son prochain tour.</p>"
+        }
+      }
+    },
+    "Luring Song": {
+      "name": "Chant Séducteur",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] chante une mélodie magique, qui dure jusqu'à ce que la Concentration du [[lookup @name lowercase]] prenne fin.</p><p class=\"feature\"><em>Jet de Sauvegarde de Sagesse :</em> DD [[lookup @save.dc.value activity=dxxqZP7Vo01te3QB]], chaque [[lookup @target.affects.special activity=dxxqZP7Vo01te3QB]] dans une Émanation de [[lookup @target.template.size activity=dxxqZP7Vo01te3QB]] pieds partant du [[lookup @name lowercase]] au début du chant.</p><p class=\"feature\"><em>Échec :</em> La cible subit la condition &amp;Reference[Charmed apply=false] jusqu'à la fin du chant et répète le jet de sauvegarde à la fin de chacun de ses tours. Tant qu'elle est Charmée, la cible subit la condition &amp;Reference[Incapacitated apply=false] et ignore le Chant Séducteur des autres harpes.</p><p class=\"feature\">Si la cible est à plus de 5 pieds du [[lookup @name lowercase]], elle se déplace à son tour vers le [[lookup @name lowercase]] par le chemin le plus direct, essayant de se rapprocher à moins de 5 pieds du [[lookup @name lowercase]]. Elle n'évite pas les &amp;Reference[OpportunityAttacks] ; cependant, avant de se déplacer dans un terrain dangereux (comme la lave ou une fosse) et chaque fois qu'elle subit des dégâts d'une source autre que le [[lookup @name lowercase]], la cible répète le jet de sauvegarde.</p><p class=\"feature\"><em>Succès :</em> La cible est immunisée au Chant Séducteur de ce [[lookup @name lowercase]] pendant 24 heures.</p>",
+      "activities": {
+        "Save": {
+          "name": "Sauvegarde"
+        }
+      },
+      "effects": {
+        "Charmed & Incapacitated": {
+          "name": "Charmé et Incapacité",
+          "description": "<p>La cible subit la condition &amp;Reference[Charmed apply=false] jusqu'à la fin du chant et répète le jet de sauvegarde à la fin de chacun de ses tours.</p><p>Tant qu'elle est Charmée, la cible subit la condition &amp;Reference[Incapacitated apply=false].</p>"
+        }
+      }
+    },
+    "Mind-Rending Roar": {
+      "name": "Rugissement Lacérant d'Esprit",
+      "description": "<p class=\"feature\"><em>Jet de Sauvegarde de Sagesse :</em> DC [[lookup @save.dc.value activity=zPMfwwIoTFzIrN5H]], chaque [[lookup @target.affects.type activity=zPMfwwIoTFzIrN5H]] dans une Émanation de [[lookup @target.template.size activity=zPMfwwIoTFzIrN5H]]-[[lookup @target.template.units activity=zPMfwwIoTFzIrN5H]] partant du [[lookup @name lowercase]]. <em>Échec :</em> [[/damage average]] dégâts, et la cible subit la condition &amp;Reference[Incapacitated apply=false] jusqu'au début du prochain tour du [[lookup @name lowercase]].</p>",
+      "activities": {
+        "Save": {
+          "name": "Sauvegarde"
+        }
+      },
+      "effects": {
+        "Incapacitated": {
+          "name": "Incapacitée",
+          "description": "<p>La cible subit la condition &amp;Reference[Incapacitated apply=false] jusqu'au début du prochain tour de l'utilisateur.</p>"
+        }
+      }
+    },
+    "Necrosis": {
+      "name": "Nécrose",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] effectue une attaque d'Explosion Nécrotique.</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        }
+      }
+    },
+    "Necrotic Bow": {
+      "name": "Arc Nécrotique",
+      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Necrotic Breath": {
+      "name": "Souffle Nécrotique",
+      "description": "<p class=\"feature\"><em>Jet de Sauvegarde de Constitution :</em> DC [[lookup @save.dc.value activity=3LncbUYMp4rOrQ3U]], chaque [[lookup @target.affects.type activity=3LncbUYMp4rOrQ3U]] dans un Cône de [[lookup @target.template.size activity=3LncbUYMp4rOrQ3U]] pieds. <em>Échec :</em> [[/damage average]] dégâts. <em>Succès :</em> Moitié des dégâts.</p>"
+    },
+    "Protective Magic": {
+      "name": "Magie Protectrice",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] lance <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe]{Contresort}</em> ou <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Bouclier}</em> en réponse au déclencheur du sort, en utilisant la même capacité d'incantation que l'Incantation.</p>"
+    },
+    "Prowl (Tiger or Hybrid Form Only)": {
+      "name": "Rôder (Forme de Tigre ou Hybride Uniquement)",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] se déplace jusqu'à sa Vitesse sans provoquer d'&amp;Reference[OpportunityAttacks]. À la fin de ce mouvement, le [[lookup @name lowercase]] peut entreprendre l'action &amp;Reference[Hide apply=false].</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser"
+        }
+      }
+    },
+    "Pseudopod": {
+      "name": "Pseudopode",
+      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
+    },
+    "Soul Gem": {
+      "name": "Gemme d'Âme",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] a une gemme magique. Tant qu'il la porte ou la tient, le [[lookup @name lowercase]] peut utiliser ses actions de Contact Drainant et de Regard Drainant.</p><p class=\"feature\">La gemme a une CA 20, 50 PV, et l'Immunité aux dégâts Nécrotiques, de Poison et Psychiques. La gemme récupère tous ses Points de Vie à la fin de chaque tour, mais elle se transforme en poussière si elle est réduite à 0 Point de Vie. Si la gemme est détruite, le [[lookup @name lowercase]] peut en créer une nouvelle en complétant un rituel de 8 heures en utilisant une gemme d'une valeur de 1 000+ PO et en dépensant 5 000 PO, que le rituel consomme.</p>"
+    },
+    "Soul Tome": {
+      "name": "Grimoire d'Âmes",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] a un grimoire magique. Tant qu'il le tient ou le porte, le [[lookup @name lowercase]] peut utiliser son action de Griffe de Bannissement.</p><p class=\"feature\">Le grimoire a une CA 17, 35 PV, et l'Immunité aux dégâts Nécrotiques, de Poison et Psychiques. Le grimoire récupère tous ses Points de Vie à la fin de chaque tour, mais il se transforme en poussière s'il est réduit à 0 Point de Vie ou lorsque le [[lookup @name lowercase]] meurt. Si le grimoire est détruit, le [[lookup @name lowercase]] peut en créer un nouveau lorsqu'il termine un Repos Court ou Long.</p>"
+    },
+    "Speak with Beasts and Plants": {
+      "name": "Parler aux Bêtes et aux Plantes",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] peut communiquer avec les Bêtes et les Plantes comme s'ils partageaient une langue.</p>"
+    },
+    "Speak with Frogs and Toads": {
+      "name": "Parler aux Grenouilles et aux Crapauds",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] peut communiquer des concepts simples aux grenouilles et aux crapauds lorsqu'il parle en Boulicrot.</p>"
+    },
+    "Spectral Claw": {
+      "name": "Griffe Spectrale",
+      "description": "<p class=\"feature\"><em>Jet d'Attaque au Corps à Corps ou à Distance :</em> [[/attack]], portée [[lookup @item.range.reach]] pi. ou portée [[lookup @item.range.value]] pi. <em>Touché :</em> [[/damage average]] dégâts. Si la cible est une créature de taille Grande ou inférieure, elle subit la condition &amp;Reference[Prone apply=false].</p>",
+      "effects": {
+        "Prone": {
+          "name": "À Terre",
+          "description": "<p>La cible subit la condition &amp;Reference[Prone apply=false].</p>"
+        }
+      }
+    },
+    "Spectral Jaws": {
+      "name": "Mâchoires Spectrales",
+      "description": "<p class=\"feature\"><em>Jet d'Attaque au Corps à Corps ou à Distance :</em> [[/attack]], portée [[lookup @item.range.reach]] pi. ou portée [[lookup @item.range.value]] pi. <em>Touché :</em> [[/damage average]] dégâts.</p>"
+    },
+    "Spell Storing": {
+      "name": "Stockage de Sort",
+      "description": "<p class=\"feature\">Un lanceur de sorts qui porte l'amulette du [[lookup @name lowercase]] peut faire en sorte que le [[lookup @name lowercase]] stocke un sort de niveau 4 ou inférieur. Pour ce faire, le porteur doit lancer le sort sur le [[lookup @name lowercase]] à moins de 5 pieds de lui. Le sort n'a aucun effet mais est stocké à l'intérieur du [[lookup @name lowercase]]. Tout sort précédemment stocké est perdu lorsqu'un nouveau sort est stocké. Le [[lookup @name lowercase]] peut lancer le sort stocké avec tous les paramètres définis par le lanceur original, ne nécessitant aucun composant de sort et utilisant la capacité d'incantation du lanceur. Le sort stocké est alors perdu.</p>"
+    },
+    "Spellcasting": {
+      "name": "Incantation",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] lance l'un des sorts suivants, ne nécessitant aucun composant {type} et utilisant {ability} comme capacité d'incantation (DD du jet de sauvegarde des sorts [[lookup @attributes.spelldc]]):</p><p class=\"feature-trait\"><strong>À Volonté :</strong> <em>{spell}</em></p><p class=\"feature-trait\"><strong>{count}/Jour Chacun :</strong> <em>{spell}</em></p>"
+    },
+    "Spider Climb": {
+      "name": "Escalade d'Araignée",
+      "description": "<p>Le [[lookup @name lowercase]] peut escalader des surfaces difficiles, y compris le long des plafonds, sans avoir besoin de faire un jet de caractéristique.</p>"
+    },
+    "Spirit Jar": {
+      "name": "Jarre Spirituelle",
+      "description": "<p class=\"feature\">S'il est détruit, le [[lookup @name lowercase]] se reforme en [[/r 1d10]] jours s'il possède une jarre spirituelle, ravivé avec tous ses Points de Vie. Le nouveau corps apparaît dans un espace inoccupé à l'intérieur du repaire du [[lookup @name lowercase]].</p>",
+      "activities": {
+        "Days to Reform": {
+          "name": "Jours avant la Reforme",
+          "roll": "Jours avant la Reforme"
+        }
+      }
+    },
+    "Troll Spawn": {
+      "name": "Progéniture de Troll",
+      "description": "<p class=\"feature\">Le membre possède étrangement les mêmes sens qu'un [[lookup @name lowercase]] entier. Si le membre n'est pas détruit dans les 24 heures, lancez [[/r 1d12#On a 12, the limb turns into a troll]]{lancez 1d12}. Sur un 12, le membre se transforme en un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmTroll000000000]{Troll}</strong>. Sinon, le membre se flétrit.</p>",
+      "activities": {
+        "Troll": {
+          "name": "Troll"
+        }
+      }
+    },
+    "Tunneler": {
+      "name": "Foreur",
+      "description": "<p class=\"feature\">Le [[lookup @name lowercase]] peut creuser à travers la roche solide à la moitié de sa Vitesse de Fouissement et laisse un tunnel de 10 pieds de diamètre dans son sillage.</p>"
+    },
+    "Tusk": {
+      "name": "Défense",
+      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si la cible est une créature de taille Moyenne ou plus petite et que le [[lookup @name lowercase]] s'est déplacé de 20+ pieds droit vers elle immédiatement avant le coup, la cible subit des dégâts supplémentaires de [[/damage average activity=M8zolxGeUsp7MCgI]] et a la condition &amp;Reference[Prone].</p>",
+      "activities": {
+        "Attack": {
+          "name": "Attaque"
+        },
+        "Moving Attack": {
+          "name": "Attaque en Mouvement",
+          "condition": "s'est déplacé de 20+ pieds"
+        }
+      },
+      "effects": {
+        "Prone": {
+          "name": "À Terre",
+          "description": "<p>La cible subit la condition &amp;Reference[Prone].</p>"
+        }
+      }
+    },
+    "Uncanny Dodge": {
+      "name": "Esquive Extraordinaire",
+      "description": "<p class=\"feature\"><em>Déclencheur :</em> Le [[lookup @name lowercase]] est [[lookup @activation.condition activity=NzfYZzkrG4qJ13to]]. <em>Réponse :</em> Le [[lookup @name lowercase]] divise par deux les dégâts (arrondi à l'inférieur) qu'il subit de cette attaque.</p>",
+      "activities": {
+        "Expend Use": {
+          "name": "Utiliser",
+          "condition": "touché par un jet d'attaque"
+        }
+      }
+    },
+    "Undead Fortitude": {
+      "name": "Vigueur Mort-Vivante",
+      "description": "<p class=\"feature\">Si des dégâts réduisent le [[lookup @name lowercase]] à 0 Point de Vie, il effectue un jet de sauvegarde de Constitution (DD 5 plus les dégâts subis) à moins que les dégâts ne soient Radieux ou qu'il ne s'agisse d'un Coup Critique. En cas de succès, le [[lookup @name lowercase]] tombe à 1 Point de Vie à la place.</p>"
+    },
+    "Undead Restoration": {
+      "name": "Restauration Mort-Vivante",
+      "description": "<p class=\"feature\">Si le [[lookup @name lowercase]] est détruit, il se reforme dans [[/r 1d6]] jours s'il a un cœur, revivant avec tous ses Points de Vie. Le nouveau corps apparaît dans un espace inoccupé dans un rayon de [[lookup @range.value activity=Y7jE9vP3iO5mK2rZ]] pieds de l'emplacement où le [[lookup @name lowercase]] a été détruit. Si le [[lookup @name lowercase]] n'a pas de cœur, il est détruit de façon permanente.</p>"
+    }
+
+  }
+}

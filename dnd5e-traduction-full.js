@@ -26,10 +26,30 @@ Hooks.on('init', () => {
 
 function autoRegisterBabel() {
   if (typeof Babele !== 'undefined') {
-    Babele.get().register({
+    const babele = Babele.get();
+
+    babele.register({
       module: MODULE_ID,
       lang: 'fr',
-      dir: 'compendium/fr',
+      dir: 'compendium/fr/dungeon-master-guide'
+    });
+
+    babele.register({
+      module: MODULE_ID,
+      lang: 'fr',
+      dir: 'compendium/fr/monster-manual'
+    });
+
+    babele.register({
+      module: MODULE_ID,
+      lang: 'fr',
+      dir: 'compendium/fr/players-handbook'
+    });
+
+    babele.register({
+      module: MODULE_ID,
+      lang: 'fr',
+      dir: 'compendium/fr/d&d-modern-content'
     });
   }
 }
