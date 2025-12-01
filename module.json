@@ -3,7 +3,7 @@
   "title": "dnd5e - traduction full",
   "manifest": "https://github.com/wirgeen/dnd5e-traduction-full/releases/download/1.0.0/module.json",
   "download": "https://github.com/wirgeen/dnd5e-traduction-full/releases/download/1.0.0/dnd5e-traduction-full.zip",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
