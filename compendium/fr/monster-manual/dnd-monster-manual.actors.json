@@ -3785,20 +3785,20 @@
       }
     },
     "Animated Armor": {
-      "name": "Animated Armor",
-      "tokenName": "Animated Armor",
-      "description": "<h1>Animated Objects</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YKvIouWZhOP2prWL caption=false cite=false classes=\"no-embed mm\"]</p><h2>Animated Armor</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TJfHa9mcPEnVs0gn caption=false cite=false classes=\"no-embed mm\"]</p>",
+      "name": "Armure animée",
+      "tokenName": "Armure animée",
+      "description": "<h1>Objets animés</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YKvIouWZhOP2prWL caption=false cite=false classes=\"no-embed mm\"]</p><h2>Armure animée</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TJfHa9mcPEnVs0gn caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Slam": {
-          "name": "Slam",
+          "name": "Coup",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p>The [[lookup @name lowercase]] makes two [[/item Slam]] attacks.</p>",
+          "name": "Attaques multiples",
+          "description": "<p>L'[[lookup @name lowercase]] effectue deux attaques de [[/item Slam]].</p>",
           "activities": {
             "Use": {
-              "name": "Use"
+              "name": "Utiliser"
             }
           }
         }
@@ -5506,49 +5506,49 @@
       }
     },
     "Banshee": {
-      "name": "Banshee",
-      "tokenName": "Banshee",
-      "description": "<h1>Banshee</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Q4jPemJvvv6Gsp2k caption=false cite=false classes=\"no-embed mm\"]</p><p></p>",
+      "name": "Banshie",
+      "tokenName": "Banshie",
+      "description": "<h1>Banshie</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Q4jPemJvvv6Gsp2k caption=false cite=false classes=\"no-embed mm\"]</p><p></p>",
       "items": {
         "Detect Life": {
-          "name": "Detect Life",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] magically senses the direction of creatures up to 1 mile away that aren’t Constructs or Undead.</p>"
+          "name": "Détection de la vie",
+          "description": "<p class=\"feature\">La [[lookup @name lowercase]] détecte par magie la direction des créatures situées jusqu'à 1,5 kilomètre qui ne sont ni des Créatures artificielles ni des Morts-vivants.</p>"
         },
         "Incorporeal Movement": {
-          "name": "Incorporeal Movement",
-          "description": "<p>The [[lookup @name lowercase]] can move through other creatures and objects as if they were &amp;Reference[Difficult Terrain]. It takes [[/damage 1d10 average type=force]] damage if it ends its turn inside an object.</p>"
+          "name": "Déplacement incorporel",
+          "description": "<p>La [[lookup @name lowercase]] peut se déplacer à travers d'autres créatures et objets comme s'ils étaient un &amp;Reference[Terrain Difficile]. Elle subit [[/damage 1d10 average type=force]] dégâts de force si elle termine son tour à l'intérieur d'un objet.</p>"
         },
         "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p>The [[lookup @name lowercase]] makes two [[/item .EcKrguAvYxOpoFCS]] attacks and uses [[/item .BgXdOU6xf5CiGoyc]].</p>",
+          "name": "Multiattaque",
+          "description": "<p>La [[lookup @name lowercase]] effectue deux attaques de [[/item .EcKrguAvYxOpoFCS]] et utilise [[/item .BgXdOU6xf5CiGoyc]].</p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Consommer une utilisation"
             }
           }
         },
         "Corrupting Touch": {
-          "name": "Corrupting Touch",
+          "name": "Contact corrupteur",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Horrify": {
-          "name": "Horrify",
-          "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=HLddTFpf4viIdEOL]], [[lookup @target.affects.labels.statblock activity=HLddTFpf4viIdEOL]] the [[lookup @name lowercase]] can see within [[lookup @range.value activity=HLddTFpf4viIdEOL]] [[lookup @range.units activity=HLddTFpf4viIdEOL]] that can see the [[lookup @name lowercase]].</p><p><em>Failure:</em> The target has the &amp;Reference[Frightened apply=false] condition until the start of the [[lookup @name lowercase]]’s next turn.</p><p><em>Success:</em> The target is immune to this [[lookup @name lowercase]]’s Horrifying Visage for 24 hours.</p>",
+          "name": "Horrifier",
+          "description": "<p class=\"feature\"><em>Jet de sauvegarde de Sagesse :</em> DD [[lookup @save.dc.value activity=HLddTFpf4viIdEOL]], [[lookup @target.affects.labels.statblock activity=HLddTFpf4viIdEOL]] que la [[lookup @name lowercase]] peut voir à moins de [[lookup @range.value activity=HLddTFpf4viIdEOL]] [[lookup @range.units activity=HLddTFpf4viIdEOL]] et qui peut voir la [[lookup @name lowercase]].</p><p><em>Échec :</em> La cible subit l'état &amp;Reference[Effrayé apply=false] jusqu'au début du prochain tour de la [[lookup @name lowercase]].</p><p><em>Réussite :</em> La cible est immunisée contre le Visage horrifiant de cette [[lookup @name lowercase]] pendant 24 heures.</p>",
           "activities": {
             "Save": {
-              "name": "Save"
+              "name": "Sauvegarde"
             }
           },
           "effects": {
             "Frightened": {
-              "name": "Frightened",
-              "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the start of the attacking creature's next turn.</p>"
+              "name": "Effrayé",
+              "description": "<p>La cible subit l'état &amp;Reference[Effrayé apply=false] jusqu'au début du prochain tour de la créature attaquante.</p>"
             }
           }
         },
         "Deathly Wail": {
-          "name": "Deathly Wail",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] releases a mournful wail if it isn’t in sunlight.</p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=mnlRA4ivGOORPiBs]], each creature within [[lookup @target.template.size activity=mnlRA4ivGOORPiBs]] feet that can hear the wail and isn’t a Construct or an Undead.</p><p><em>Failure:</em> If the target has 25 Hit Points or fewer, it drops to 0 Hit Points. Otherwise, the target takes [[/damage average]] damage.</p>"
+          "name": "Gémissement mortel",
+          "description": "<p class=\"feature\">La [[lookup @name lowercase]] pousse un gémissement lugubre si elle ne se trouve pas à la lumière du soleil.</p><p><em>Jet de sauvegarde de Constitution :</em> DD [[lookup @save.dc.value activity=mnlRA4ivGOORPiBs]], chaque créature à moins de [[lookup @target.template.size activity=mnlRA4ivGOORPiBs]] pieds pouvant entendre le gémissement et n'étant ni une Créature artificielle ni un Mort-vivant.</p><p><em>Échec :</em> Si la cible possède 25 points de vie ou moins, elle tombe à 0 point de vie. Sinon, elle subit [[/damage average]] dégâts.</p>"
         }
       }
     },
@@ -7197,39 +7197,39 @@
       }
     },
     "Carrion Crawler": {
-      "name": "Carrion Crawler",
-      "tokenName": "Carrion Crawler",
-      "description": "<h1>Carrion Crawler</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NTrXiS2nr1jrYq0F caption=false cite=false classes=\"no-embed mm\"]</p>",
+      "name": "Charognard rampant",
+      "tokenName": "Charognard rampant",
+      "description": "<h1>Charognard rampant</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NTrXiS2nr1jrYq0F caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Spider Climb": {
-          "name": "Spider Climb",
-          "description": "<p>The [[lookup @name lowercase]] can climb difficult surfaces, including along ceilings, without needing to make an ability check.</p>"
+          "name": "Pattes d'araignée",
+          "description": "<p>Le [[lookup @name lowercase]] peut grimper sur des surfaces difficiles, y compris au plafond, sans avoir besoin de réussir un test de caractéristique.</p>"
         },
         "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">The </span>[[lookup @name lowercase]] <span style=\"font-family:'Roboto Condensed', sans-serif\">uses </span>[[/item .mmParalyzingTent]]<span style=\"font-family:'Roboto Condensed', sans-serif\"> and makes one </span>[[/item .mmBite0000000000]] <span style=\"font-family:'Roboto Condensed', sans-serif\">attack.</span></p>",
+          "name": "Multiattaque",
+          "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">Le </span>[[lookup @name lowercase]] <span style=\"font-family:'Roboto Condensed', sans-serif\">utilise </span>[[/item .mmParalyzingTent]]<span style=\"font-family:'Roboto Condensed', sans-serif\"> et effectue une </span>[[/item .mmBite0000000000]] <span style=\"font-family:'Roboto Condensed', sans-serif\">attaque de morsure.</span></p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Consommer une utilisation"
             }
           }
         },
         "Bite": {
-          "name": "Bite",
+          "name": "Morsure",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Paralyzing Tentacles": {
-          "name": "Paralyzing Tentacles",
-          "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=p157Iqz8s0M0VilW]], one [[lookup @target.affects.type activity=p157Iqz8s0M0VilW]] the [[lookup @name lowercase]] can see within [[lookup @target.template.size activity=p157Iqz8s0M0VilW]] feet.</p><p class=\"feature\"><em>Failure:</em> The target has the &amp;Reference[Poisoned apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After [[lookup @duration.value activity=p157Iqz8s0M0VilW]] [[lookup @duration.units activity=p157Iqz8s0M0VilW]], it succeeds automatically. While Poisoned, the target has the &amp;Reference[Paralyzed apply=false] condition.</p>",
+          "name": "Tentacules paralysants",
+          "description": "<p class=\"feature\"><em>Jet de sauvegarde de Constitution :</em> DD [[lookup @save.dc.value activity=p157Iqz8s0M0VilW]], une [[lookup @target.affects.type activity=p157Iqz8s0M0VilW]] que le [[lookup @name lowercase]] peut voir à moins de [[lookup @target.template.size activity=p157Iqz8s0M0VilW]] pieds.</p><p class=\"feature\"><em>Échec :</em> La cible subit l'état &amp;Reference[Empoisonné apply=false] et réitère le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet en cas de réussite. Après [[lookup @duration.value activity=p157Iqz8s0M0VilW]] [[lookup @duration.units activity=p157Iqz8s0M0VilW]], elle réussit automatiquement. Tant qu'elle est empoisonnée, la cible subit l'état &amp;Reference[Paralysé apply=false].</p>",
           "activities": {
             "Save": {
-              "name": "Save"
+              "name": "Sauvegarde"
             }
           },
           "effects": {
             "Poisoned & Paralyzed": {
-              "name": "Poisoned & Paralyzed",
-              "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p>While Poisoned, the target has the &amp;Reference[Paralyzed apply=false] condition.</p>"
+              "name": "Empoisonné & Paralysé",
+              "description": "<p>La cible subit l'état &amp;Reference[Empoisonné apply=false] et réitère le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet en cas de réussite.</p><p>Tant qu'elle est empoisonnée, la cible subit l'état &amp;Reference[Paralysé apply=false].</p>"
             }
           }
         }
@@ -14241,53 +14241,53 @@
       }
     },
     "Gladiator": {
-      "name": "Gladiator",
-      "tokenName": "Gladiator",
-      "description": "<div class=\"gear\"><p><strong>Gear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]{Shield}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Spears (3)}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Studded Leather Armor}</p></div><h1>Gladiator</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.2gFebLtp90s1VxzM caption=false cite=false classes=\"no-embed mm\"]</p>",
+      "name": "Gladiateur",
+      "tokenName": "Gladiateur",
+      "description": "<div class=\"gear\"><p><strong>Équipement :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]{Bouclier}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Lance (3)}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Armure de cuir clouté}</p></div><h1>Gladiateur</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.2gFebLtp90s1VxzM caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Spear": {
-          "name": "Spear",
+          "name": "Lance",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Shield": {
-          "name": "Shield",
-          "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>"
+          "name": "Bouclier",
+          "description": "<p>Vous ne bénéficiez du bonus de Classe d'Armure d'un bouclier que si vous maîtrisez son utilisation.</p>"
         },
         "Studded Leather Armor": {
-          "name": "Studded Leather Armor"
+          "name": "Armure de cuir clouté"
         },
         "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p>The [[lookup @name lowercase]] makes three [[/item .vTZW4dSRGXTDWvRd]] attacks. It can replace one attack with a use of [[/item .mmShieldBash0000]].</p>",
+          "name": "Attaques multiples",
+          "description": "<p>L'[[lookup @name lowercase]] effectue trois attaques de [[/item .vTZW4dSRGXTDWvRd]]. Il peut remplacer une attaque par une utilisation de [[/item .mmShieldBash0000]].</p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Dépenser une utilisation"
             }
           }
         },
         "Shield Bash": {
-          "name": "Shield Bash",
-          "description": "<p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=eIErvLccVVCXiCSl]], one [[lookup @target.affects.type activity=eIErvLccVVCXiCSl]] within [[lookup @range.value activity=eIErvLccVVCXiCSl]] [[lookup @range.units activity=eIErvLccVVCXiCSl]]. that the [[lookup @name lowercase]] can see.</p><p><em>Failure:</em> [[/damage average]] damage. If the target is a Medium or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>",
+          "name": "Coup de bouclier",
+          "description": "<p class=\"feature\"><em>Jet de sauvegarde de Force :</em> DD [[lookup @save.dc.value activity=eIErvLccVVCXiCSl]], une [[lookup @target.affects.type activity=eIErvLccVVCXiCSl]] à moins de [[lookup @range.value activity=eIErvLccVVCXiCSl]] [[lookup @range.units activity=eIErvLccVVCXiCSl]] que l'[[lookup @name lowercase]] peut voir.</p><p><em>Échec :</em> [[/damage average]] de dégâts. Si la cible est une créature de taille Moyenne ou plus petite, elle subit l'état &amp;Reference[Prone apply=false] (À terre).</p>",
           "activities": {
             "Save": {
-              "name": "Save"
+              "name": "Sauvegarde"
             }
           },
           "effects": {
             "Prone": {
-              "name": "Prone",
-              "description": "<p>If the target is a Medium or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>"
+              "name": "À terre",
+              "description": "<p>Si la cible est une créature de taille Moyenne ou plus petite, elle subit l'état &amp;Reference[Prone apply=false] (À terre).</p>"
             }
           }
         },
         "Parry": {
-          "name": "Parry",
-          "description": "<p><em>Trigger:</em> The [[lookup @name lowercase]] is [[lookup @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Response:</em> The [[lookup @name lowercase]] adds [[lookup @roll.formula activity=aLG3BRZL7P6OEjwd]] to its AC against that attack, possibly causing it to miss.</p>",
+          "name": "Parade",
+          "description": "<p><em>Déclencheur :</em> L'[[lookup @name lowercase]] est [[lookup @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Réaction :</em> L'[[lookup @name lowercase]] ajoute [[lookup @roll.formula activity=aLG3BRZL7P6OEjwd]] à sa CA contre cette attaque, ce qui peut la faire échouer.</p>",
           "activities": {
             "Use": {
-              "name": "Use",
-              "roll": "Bonus AC",
-              "condition": "hit by a melee attack roll while holding a weapon"
+              "name": "Utiliser",
+              "roll": "Bonus CA",
+              "condition": "touché par un jet d'attaque au corps à corps alors qu'il tient une arme"
             }
           }
         }
@@ -20702,224 +20702,200 @@
     "Noble": {
       "name": "Noble",
       "tokenName": "Noble",
-      "description": "<div class=\"gear\"><p><strong>Gear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmBreastplat]{Breastplate}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{Rapier}</p></div><h1>Nobles</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TVskfAu471arcBTq caption=false cite=false classes=\"no-embed mm\"]</p><h2>Noble</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mZUN05Y3B77gCkk6 caption=false cite=false classes=\"no-embed mm\"]</p>",
+      "description": "<div class=\"gear\"><p><strong>Équipement :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmBreastplat]{Cuirasse}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{Rapière}</p></div><h1>Nobles</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TVskfAu471arcBTq caption=false cite=false classes=\"no-embed mm\"]</p><h2>Noble</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mZUN05Y3B77gCkk6 caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Rapier": {
-          "name": "Rapier",
+          "name": "Rapière",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Breastplate": {
-          "name": "Breastplate"
+          "name": "Cuirasse"
         },
         "Parry": {
-          "name": "Parry",
-          "description": "<p><em>Trigger:</em> The [[lookup @name lowercase]] is [[lookup @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Response:</em> The [[lookup @name lowercase]] adds [[lookup @roll.formula activity=aLG3BRZL7P6OEjwd]] to its AC against that attack, possibly causing it to miss.</p>",
+          "name": "Parade",
+          "description": "<p><em>Déclencheur :</em> L'[[lookup @name lowercase]] est [[lookup @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Réponse :</em> L'[[lookup @name lowercase]] ajoute [[lookup @roll.formula activity=aLG3BRZL7P6OEjwd]] à sa CA contre cette attaque, ce qui peut la faire échouer.</p>",
           "activities": {
             "Use": {
-              "name": "Use",
-              "roll": "Bonus AC",
-              "condition": "hit by a melee attack roll while holding a weapon"
+              "name": "Utiliser",
+              "roll": "Bonus CA",
+              "condition": "touché par un jet d'attaque au corps à corps alors qu'il tient une arme"
             }
           }
         }
       }
     },
     "Noble Prodigy": {
-      "name": "Noble Prodigy",
-      "tokenName": "Noble Prodigy",
-      "description": "<h1>Nobles</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TVskfAu471arcBTq caption=false cite=false classes=\"no-embed mm\"]</p><h2>Noble Prodigy</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.OEkcXqCvmgQD2wlj caption=false cite=false classes=\"no-embed mm\"]</p>",
+      "name": "Noble prodige",
+      "tokenName": "Noble prodige",
+      "description": "<h1>Nobles</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TVskfAu471arcBTq caption=false cite=false classes=\"no-embed mm\"]</p><h2>Noble prodige</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.OEkcXqCvmgQD2wlj caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p>The [[lookup @name lowercase]] makes three [[/item .mmBeguilingStrik]] attacks.</p>",
+          "name": "Attaques multiples",
+          "description": "<p>L'[[lookup @name lowercase]] effectue trois attaques de [[/item .mmBeguilingStrik]].</p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Dépenser une utilisation"
             }
           }
         },
         "Beguiling Strike": {
-          "name": "Beguiling Strike",
-          "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Charmed apply=false] condition until the start of the [[lookup @name lowercase]]’s next turn.</p>",
+          "name": "Frappe séduisante",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], et la cible subit l'état &amp;Reference[Charmed apply=false] (Charmé) jusqu'au début du prochain tour de l'[[lookup @name lowercase]].</p>",
           "effects": {
             "Charmed": {
-              "name": "Charmed",
-              "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition until the start of the user's next turn.</p>"
+              "name": "Charmé",
+              "description": "<p>La cible subit l'état &amp;Reference[Charmed apply=false] (Charmé) jusqu'au début du prochain tour de l'utilisateur.</p>"
             }
           }
         },
         "Spellcasting": {
-          "name": "Spellcasting",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0]{Mage Armor}</em> (included in AC), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00]{Mage Hand}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Minor Illusion}</em></p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBefuddleme]{Befuddlement}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect Thoughts}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{Fly}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShatter000]{Shatter}</em> (level 7 version)</p>"
+          "name": "Incantation",
+          "description": "<p class=\"feature\">L'[[lookup @name lowercase]] lance l'un des sorts suivants, sans composantes matérielles et en utilisant le Charisme comme caractéristique d'incantation (DD de sauvegarde des sorts [[lookup @attributes.spell.dc]]) :</p><p class=\"feature-trait\"><strong>À volonté :</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0]{Armure de mage}</em> (incluse dans la CA), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00]{Main de mage}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Illusion mineure}</em></p><p class=\"feature-trait\"><strong>1/jour chacun :</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBefuddleme]{Abêtissement}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Détection des pensées}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{Vol}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Clairvoyance}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShatter000]{Fracas}</em> (version de niveau 7)</p>"
         },
         "Shield": {
-          "name": "Shield",
-          "description": "<p>The [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</em> in response to that spell’s trigger, using the same spellcasting ability as Spellcasting.</p>"
+          "name": "Bouclier",
+          "description": "<p>L'[[lookup @name lowercase]] lance <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Bouclier}</em> en réponse au déclencheur de ce sort, en utilisant la même caractéristique d'incantation que pour Incantation.</p>"
         },
         "Jnn25hKp9FEjaHsk": {
-          "name": "Shield",
-          "description": "<p>An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}</em>.</p>",
+          "name": "Bouclier",
+          "description": "<p>Une barrière invisible de force magique vous protège. Jusqu'au début de votre prochain tour, vous bénéficiez d'un bonus de +5 à la CA, y compris contre l'attaque déclencheuse, et vous ne subissez aucun dégât de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Projectile magique}</em>.</p>",
           "activities": {
             "Cast": {
-              "name": "Cast"
+              "name": "Lancer"
             }
           },
           "effects": {
             "Imperceptible Barrier": {
-              "name": "Imperceptible Barrier",
-              "description": "<p>Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>Magic Missile</em>.</p>"
+              "name": "Barrière imperceptible",
+              "description": "<p>Jusqu'au début de votre prochain tour, vous bénéficiez d'un bonus de +5 à la CA, y compris contre l'attaque déclencheuse, et vous ne subissez aucun dégât de <em>Projectile magique</em>.</p>"
             },
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Mage Armor": {
-          "name": "Mage Armor",
-          "description": "<p>You touch a willing creature who isn’t wearing armor. Until the spell ends, the target’s base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.</p>",
+          "name": "Armure de mage",
+          "description": "<p>Vous touchez une créature consentante qui ne porte pas d'armure. Jusqu'à la fin du sort, la CA de base de la cible devient 13 + son modificateur de Dextérité. Le sort prend fin prématurément si la cible revêt une armure.</p>",
           "activities": {
             "Cast": {
-              "name": "Cast"
+              "name": "Lancer"
             }
           },
           "effects": {
             "Mage Armor": {
-              "name": "Mage Armor",
-              "description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>"
+              "name": "Armure de mage",
+              "description": "<p>La CA de base de la cible devient 13 + son modificateur de Dextérité.</p>"
             },
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Mage Hand": {
-          "name": "Mage Hand",
-          "description": "<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>When you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial.</p><p>As a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet.</p><p>The hand can’t attack, activate magic items, or carry more than 10 pounds.</p>",
+          "name": "Main de mage",
+          "description": "<p>Une main spectrale flottante apparaît en un point que vous choisissez à portée. La main dure pour toute la durée du sort. Elle disparaît si elle se trouve à plus de 9 mètres de vous ou si vous lancez ce sort à nouveau.</p><p>Lorsque vous lancez le sort, vous pouvez utiliser la main pour manipuler un objet, ouvrir une porte ou un récipient non verrouillé, ranger ou récupérer un objet dans un récipient ouvert, ou verser le contenu d'une fiole.</p><p>Par une action Magie lors de vos tours suivants, vous pouvez contrôler la main à nouveau. Dans le cadre de cette action, vous pouvez déplacer la main jusqu'à 9 mètres.</p><p>La main ne peut pas attaquer, activer des objets magiques, ni porter plus de 5 kilogrammes.</p>",
           "effects": {
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Minor Illusion": {
-          "name": "Minor Illusion",
-          "description": "<p>You create a sound or an image of an object within range that lasts for the duration. See the descriptions below for the effects of each. The illusion ends if you cast this spell again.</p><p>If a creature takes a Study action to examine the sound or image, the creature can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p><p><strong>Sound.</strong> If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else’s voice, a lion’s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p><strong>Image.</strong> If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can’t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.</p>",
+          "name": "Illusion mineure",
+          "description": "<p>Vous créez un son ou l'image d'un objet à portée qui dure pour toute la durée du sort. L'illusion prend fin si vous lancez ce sort à nouveau.</p><p>Si une créature utilise une action Étude pour examiner le son ou l'image, elle peut déterminer qu'il s'agit d'une illusion en réussissant un test d'[[/check ability=int skill=inv dc=@attributes.spell.dc]] contre le DD de sauvegarde de vos sorts. Si une créature discerne l'illusion, celle-ci devient floue pour elle.</p><p><strong>Son.</strong> Le volume peut aller d'un murmure à un cri. Cela peut être votre voix, celle d'un autre, un rugissement de lion, un battement de tambours, etc.</p><p><strong>Image.</strong> Si vous créez l'image d'un objet (chaise, empreintes boueuses, petit coffre), elle ne doit pas dépasser un cube de 1,5 mètre. L'image ne peut pas créer de son, de lumière, d'odeur ou d'autre effet sensoriel. Une interaction physique révèle l'illusion car les objets passent à travers.</p>",
           "activities": {
             "Create Illusion": {
-              "name": "Create Illusion",
+              "name": "Créer une illusion",
               "profiles": {
                 "Image": {
                   "name": "Image"
                 },
                 "Sound": {
-                  "name": "Sound"
+                  "name": "Son"
                 }
               }
             }
           },
           "effects": {
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Befuddlement": {
-          "name": "Befuddlement",
-          "description": "<p>You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.</p><p>On a failed save, the target takes 10d12 Psychic damage and can’t cast spells or take the Magic action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeal000000]{Heal}</em>, or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell.</p><p>On a successful save, the target takes half as much damage only.</p>",
+          "name": "Abêtissement",
+          "description": "<p>Vous foudroyez l'esprit d'une créature que vous pouvez voir à portée. La cible effectue un jet de sauvegarde d'Intelligence.</p><p>En cas d'échec, elle subit 10d12 dégâts psychiques et ne peut plus lancer de sorts ni utiliser l'action Magie. Tous les 30 jours, elle répète le jet pour mettre fin à l'effet. L'effet peut aussi être dissipé par les sorts <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauration supérieure}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeal000000]{Guérison}</em> ou <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Souhait}</em>.</p><p>En cas de réussite, elle ne subit que la moitié des dégâts.</p>",
           "effects": {
             "Befuddled": {
-              "name": "Befuddled",
-              "description": "<p>On a failed save, the target takes 10d12 Psychic damage and can’t cast spells or take the Magic action. At the end of every 30 days, the target repeats the [[/save ability=wis]] save, ending the effect on a success. The effect can also be ended by the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeal000000]{Heal}</em>, or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell.</p>"
+              "name": "Abêti",
+              "description": "<p>En cas d'échec, la cible subit 10d12 dégâts psychiques et ne peut plus lancer de sorts ni utiliser l'action Magie. Tous les 30 jours, elle répète le jet de sauvegarde de [[/save ability=wis]], mettant fin à l'effet en cas de réussite.</p>"
             },
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Detect Thoughts": {
-          "name": "Detect Thoughts",
-          "description": "<p>You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence of thoughts within 30 feet of yourself that belong to creatures that know languages or are telepathic. You don’t read the thoughts, but you know that a thinking creature is present.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p><p><strong>Read Thoughts.</strong> Target one creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected with the Sense Thoughts option. You learn what is most on the target’s mind right now. If the target doesn’t know any languages and isn’t telepathic, you learn nothing.</p><p>As a Magic action on your next turn, you can try to probe deeper into the target’s mind. If you probe deeper, the target makes a Wisdom saving throw. On a failed save, you discern the target’s reasoning, emotions, and something that looms large in its mind (such as a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are probing into its mind, and until you shift your attention away from the target’s mind, the target can take an action on its turn to make an [[/check ability=int skill=arc dc=@attributes.spell.dc]] check against your spell save DC, ending the spell on a success.</p>",
+          "name": "Détection des pensées",
+          "description": "<p>Vous activez l'un des effets ci-dessous. Tant que le sort dure, vous pouvez activer l'un ou l'autre par une action Magie.</p><p><strong>Percevoir les pensées.</strong> Vous percevez la présence de pensées à 9 mètres ou moins de vous appartenant à des créatures parlant une langue ou télépathes. Vous ne lisez pas les pensées, mais savez qu'une créature pensante est présente.</p><p><strong>Lire les pensées.</strong> Ciblez une créature que vous voyez ou avez détectée. Vous apprenez ce qui préoccupe son esprit à cet instant précis.</p><p>Par une action Magie, vous pouvez sonder plus profondément. La cible effectue un jet de sauvegarde de Sagesse. En cas d'échec, vous discernez ses raisonnements, ses émotions et ses préoccupations majeures. En cas de réussite, le sort prend fin. Dans les deux cas, la cible sait que vous sondez son esprit.</p>",
           "activities": {
             "Probe Deeper": {
-              "name": "Probe Deeper"
+              "name": "Sonder plus profondément"
             },
             "Sense Thoughts": {
-              "name": "Sense Thoughts"
+              "name": "Percevoir les pensées"
             }
           },
           "effects": {
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Fly": {
-          "name": "Fly",
-          "description": "<p>You touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When the spell ends, the target falls if it is still aloft unless it can stop the fall.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 3.</p>",
+          "name": "Vol",
+          "description": "<p>Vous touchez une créature consentante. Pour la durée du sort, elle gagne une vitesse de vol de 18 mètres et peut rester en vol stationnaire. Quand le sort prend fin, elle tombe si elle est encore en l'air.</p>",
           "effects": {
             "Flight": {
-              "name": "Flight"
+              "name": "Vol"
             },
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Scrying": {
-          "name": "Scrying",
-          "description": "<p>You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn’t know what it is making the save against, only that it feels uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Secondhand (heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (met the target)</td><td>+0</td></tr><tr><td>Extensive (know the target well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You Have the Target’s …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Picture or other likeness</td><td>−2</td></tr><tr><td>Garment or other possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit of nail</td><td>−10</td></tr></tbody></table><p>On a successful save, the target isn’t affected, and you can’t use this spell on it again for 24 hours.</p><p>On a failed save, the spell creates an Invisible, intangible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it appears as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn’t move.</p>",
+          "name": "Clairvoyance",
+          "description": "<p>Vous pouvez voir et entendre une créature de votre choix située sur le même plan d'existence. La cible effectue un jet de sauvegarde de Sagesse modifié par votre connaissance du sujet.</p><table><thead><tr><td>Connaissance de la cible</td><td>Modificateur</td></tr></thead><tbody><tr><td>Indirecte (entendu parler)</td><td>+5</td></tr><tr><td>Directe (rencontrée)</td><td>+0</td></tr><tr><td>Approfondie (bien connue)</td><td>−5</td></tr></tbody></table><p>En cas d'échec, le sort crée un capteur invisible et intangible à 3 mètres de la cible, à travers lequel vous voyez et entendez comme si vous étiez sur place.</p>",
           "activities": {
-            "Secondhand and Picture": {
-              "name": "Secondhand and Picture"
-            },
-            "Secondhand and Garment": {
-              "name": "Secondhand and Garment"
-            },
-            "Secondhand and Body Part": {
-              "name": "Secondhand and Body Part"
-            },
-            "Firsthand and Picture": {
-              "name": "Firsthand and Picture"
-            },
-            "Firsthand and Garment": {
-              "name": "Firsthand and Garment"
-            },
-            "Firsthand and Body Part": {
-              "name": "Firsthand and Body Part"
-            },
-            "Extensive and Picture": {
-              "name": "Extensive and Picture"
-            },
-            "Extensive and Garment": {
-              "name": "Extensive and Garment"
-            },
-            "Extensive and Body Part": {
-              "name": "Extensive and Body Part"
-            },
-            "Create Sensor": {
-              "name": "Create Sensor"
-            }
+            "Secondhand and Picture": { "name": "Indirecte et portrait" },
+            "Secondhand and Garment": { "name": "Indirecte et vêtement" },
+            "Secondhand and Body Part": { "name": "Indirecte et partie du corps" },
+            "Firsthand and Picture": { "name": "Directe et portrait" },
+            "Firsthand and Garment": { "name": "Directe et vêtement" },
+            "Firsthand and Body Part": { "name": "Directe et partie du corps" },
+            "Extensive and Picture": { "name": "Approfondie et portrait" },
+            "Extensive and Garment": { "name": "Approfondie et vêtement" },
+            "Extensive and Body Part": { "name": "Approfondie et partie du corps" },
+            "Create Sensor": { "name": "Créer le capteur" }
           },
           "effects": {
-            "Spell Changes": {
-              "name": "Spell Changes"
-            }
+            "Spell Changes": { "name": "Modifications du sort" }
           }
         },
         "Shatter": {
-          "name": "Shatter",
-          "description": "<p>A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.</p><p>A nonmagical object that isn’t being worn or carried also takes the damage if it’s in the spell’s area.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 2.</p>",
+          "name": "Fracas",
+          "description": "<p>Un bruit strident éclate en un point de votre choix. Chaque créature dans une sphère de 3 mètres de rayon doit réussir un jet de sauvegarde de Constitution ou subir 3d8 dégâts de tonnerre. Un Créat a un désavantage à ce jet.</p>",
           "effects": {
-            "Spell Changes": {
-              "name": "Spell Changes"
-            }
+            "Spell Changes": { "name": "Modifications du sort" }
           }
         }
       },
       "effects": {
         "Mage Armor": {
-          "name": "Mage Armor",
-          "description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>"
+          "name": "Armure de mage",
+          "description": "<p>La CA de base de la cible devient 13 + son modificateur de Dextérité.</p>"
         }
       }
     },
@@ -21113,112 +21089,112 @@
       "description": "<h1>Oni</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Z00uEF13gQr3y7sl caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Regeneration": {
-          "name": "Regeneration",
-          "description": "<p>The [[lookup @name lowercase]] regains [[lookup @healing.formula activity=5cGvjZJIJVicjJ3d]] Hit Points at the start of each of its turns if it has at least 1 Hit Point.</p>",
+          "name": "Régénération",
+          "description": "<p>L'[[lookup @name lowercase]] récupère [[lookup @healing.formula activity=5cGvjZJIJVicjJ3d]] points de vie au début de chacun de ses tours s'il lui reste au moins 1 point de vie.</p>",
           "activities": {
             "heal": {
-              "condition": "starts its turn with at least 1 Hit Point"
+              "condition": "commence son tour avec au moins 1 point de vie"
             }
           }
         },
         "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p>The [[lookup @name lowercase]] makes two [[/item .mmClaw0000000000]] or [[/item .mmNightmareRay00]] attacks. It can replace one attack with a use of [[/item .mmSpellcasting00]].</p>",
+          "name": "Attaques multiples",
+          "description": "<p>L'[[lookup @name lowercase]] effectue deux attaques de [[/item .mmClaw0000000000]] ou de [[/item .mmNightmareRay00]]. Il peut remplacer une attaque par une utilisation de [[/item .mmSpellcasting00]].</p>",
           "activities": {
-            "Expand Use": {
-              "name": "Expand Use"
+            "Expend Use": {
+              "name": "Dépenser une utilisation"
             }
           }
         },
         "Claw": {
-          "name": "Claw",
+          "name": "Griffe",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Nightmare Ray": {
-          "name": "Nightmare Ray",
-          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Frightened apply=false] condition until the start of the [[lookup @name lowercase]]’s next turn.</p>",
+          "name": "Rayon cauchemardesque",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], et la cible subit l'état &amp;Reference[Frightened apply=false] (Effrayé) jusqu'au début du prochain tour de l'[[lookup @name lowercase]].</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
-              "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the start of the attacking creature’s next turn</p>"
+              "name": "Effrayé",
+              "description": "<p>La cible subit l'état &amp;Reference[Frightened apply=false] (Effrayé) jusqu'au début du prochain tour de la créature attaquante.</p>"
             }
           }
         },
         "Shape-Shift": {
-          "name": "Shape-Shift",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] shape-shifts into a Small or Medium Humanoid or a Large Giant, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed.</p>",
+          "name": "Métamorphose",
+          "description": "<p class=\"feature\">L'[[lookup @name lowercase]] se métamorphose en un humanoïde de taille Petite ou Moyenne, en un géant de taille Grande, ou reprend sa forme véritable. Hormis sa taille, ses statistiques de jeu sont les mêmes dans chaque forme. Tout équipement qu'il porte ou transporte n'est pas transformé.</p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Dépenser une utilisation"
             }
           }
         },
         "Spellcasting": {
-          "name": "Spellcasting",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}</em> (level 2 version), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGaseousFor]{Gaseous Form}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Sleep}</em></p>"
+          "name": "Incantation",
+          "description": "<p class=\"feature\">L'[[lookup @name lowercase]] lance l'un des sorts suivants, ne nécessitant aucune composante matérielle et utilisant le Charisme comme caractéristique d'incantation (DD de sauvegarde des sorts [[lookup @attributes.spell.dc]]) :</p><p class=\"feature-trait\"><strong>1/jour chacun :</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charme-personne}</em> (version de niveau 2), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Ténèbres}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGaseousFor]{Forme gazeuse}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Sommeil}</em></p>"
         },
         "Invisibility": {
-          "name": "Invisibility",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility}</em> on itself, requiring no spell components and using Charisma as the spellcasting ability.</p>"
+          "name": "Invisibilité",
+          "description": "<p class=\"feature\">L'[[lookup @name lowercase]] lance <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibilité}</em> sur lui-même, ne nécessitant aucune composante de sort et utilisant le Charisme comme caractéristique d'incantation.</p>"
         },
         "7zCgLqwWT0prZxhy": {
-          "name": "Invisibility",
-          "description": "<p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 2.</p>",
+          "name": "Invisibilité",
+          "description": "<p>Une créature que vous touchez bénéficie de l'état &amp;Reference[invisible apply=false] jusqu'à la fin du sort. Le sort prend fin prématurément immédiatement après que la cible a effectué un jet d'attaque, infligé des dégâts ou lancé un sort.</p><p><strong>Utiliser un emplacement de sort de niveau supérieur.</strong> Vous pouvez cibler une créature supplémentaire pour chaque niveau d'emplacement au-dessus du niveau 2.</p>",
           "effects": {
             "Invisible": {
               "name": "Invisible",
-              "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
+              "description": "<p>Le sort prend fin prématurément immédiatement après que la cible a effectué un jet d'attaque, infligé des dégâts ou lancé un sort.</p>"
             },
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Charm Person": {
-          "name": "Charm Person",
-          "description": "<p>One Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the &amp;Reference[charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>",
+          "name": "Charme-personne",
+          "description": "<p>Un humanoïde que vous pouvez voir à portée doit réussir un jet de sauvegarde de Sagesse. Il l'effectue avec un avantage si vous ou vos alliés le combattez. En cas d'échec, la cible subit l'état &amp;Reference[charmed apply=false] (Charmé) jusqu'à ce que le sort s'achève ou que vous ou vos alliés lui infligiez des dégâts. La créature charmée se comporte de façon amicale envers vous. Lorsque le sort prend fin, la cible sait qu'elle a été charmée par vous.</p><p><strong>Utiliser un emplacement de sort de niveau supérieur.</strong> Vous pouvez cibler une créature supplémentaire pour chaque niveau d'emplacement au-dessus du niveau 1.</p>",
           "effects": {
             "Charmed": {
-              "name": "Charmed",
-              "description": "<p>the target has the &amp;Reference[charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p>"
+              "name": "Charmé",
+              "description": "<p>la cible subit l'état &amp;Reference[charmed apply=false] (Charmé) jusqu'à ce que le sort s'achève ou que vous ou vos alliés lui infligiez des dégâts. La créature charmée se comporte de façon amicale envers vous. Lorsque le sort prend fin, la cible sait qu'elle a été charmée par vous.</p>"
             },
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Darkness": {
-          "name": "Darkness",
-          "description": "<p>For the duration, magical &amp;Reference[darkness] spreads from a point within range and fills a 15-foot-radius Sphere. Darkvision can’t see through it, and nonmagical light can’t illuminate it.</p><p>Alternatively, you cast the spell on an object that isn’t being worn or carried, causing the Darkness to fill a 15-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the Darkness.</p><p>If any of this spell’s area overlaps with an area of Bright Light or Dim Light created by a spell of level 2 or lower, that other spell is dispelled.</p>",
+          "name": "Ténèbres",
+          "description": "<p>Pendant toute la durée du sort, des &amp;Reference[darkness] (Ténèbres) magiques se répandent à partir d'un point à portée pour remplir une sphère de 4,5 mètres de rayon. La vision dans le noir ne permet pas de voir à travers, et une lumière non magique ne peut pas les éclairer.</p><p>Alternativement, vous lancez le sort sur un objet qui n'est ni porté ni transporté, ce qui fait que les ténèbres remplissent une émanation de 4,5 mètres provenant de cet objet. Couvrir l'objet avec quelque chose d'opaque, comme un bol ou un heaume, bloque les ténèbres.</p><p>Si une partie de la zone de ce sort chevauche une zone de lumière vive ou de lumière faible créée par un sort de niveau 2 ou inférieur, cet autre sort est dissipé.</p>",
           "effects": {
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Gaseous Form": {
-          "name": "Gaseous Form",
-          "description": "<p>A willing creature you touch shape-shifts, along with everything it’s wearing and carrying, into a misty cloud for the duration. The spell ends on the target if it drops to 0 Hit Points or if it takes a Magic action to end the spell on itself.</p><p>While in this form, the target’s only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the &amp;Reference[prone apply=false] condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids as though they were solid surfaces.</p><p>The target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. Finally, the target can’t attack or cast spells.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 3.</p>",
+          "name": "Forme gazeuse",
+          "description": "<p>Une créature consentante que vous touchez se métamorphose, ainsi que tout ce qu'elle porte et transporte, en un nuage brumeux pour la durée du sort. Le sort prend fin sur la cible si elle tombe à 0 point de vie ou si elle utilise une action Magie pour mettre fin au sort sur elle-même.</p><p>Sous cette forme, le seul mode de déplacement de la cible est une vitesse de vol de 3 mètres, et elle peut rester en vol stationnaire. La cible peut entrer dans l'espace d'une autre créature et l'occuper. La cible a la résistance aux dégâts contondants, perforants et tranchants ; elle est immunisée à l'état &amp;Reference[prone apply=false] (À terre) ; et elle a l'avantage aux jets de sauvegarde de Force, Dextérité et Constitution. La cible peut passer à travers de petites ouvertures, mais elle traite les liquides comme s'il s'agissait de surfaces solides.</p><p>La cible ne peut pas parler ni manipuler d'objets, et tout objet qu'elle transportait ou tenait ne peut pas être lâché, utilisé ou faire l'objet d'une interaction. Enfin, la cible ne peut pas attaquer ni lancer de sorts.</p><p><strong>Utiliser un emplacement de sort de niveau supérieur.</strong> Vous pouvez cibler une créature supplémentaire pour chaque niveau d'emplacement au-dessus du niveau 3.</p>",
           "effects": {
             "Gaseous Form": {
-              "name": "Gaseous Form",
-              "description": "<p>The target’s only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the &amp;Reference[prone apply=false] condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids as though they were solid surfaces.</p><p>The target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. Finally, the target can’t attack or cast spells.</p>"
+              "name": "Forme gazeuse",
+              "description": "<p>Le seul mode de déplacement de la cible est une vitesse de vol de 3 mètres, et elle peut rester en vol stationnaire. La cible a la résistance aux dégâts contondants, perforants et tranchants ; elle est immunisée à l'état &amp;Reference[prone apply=false] (À terre) ; et elle a l'avantage aux jets de sauvegarde de Force, Dextérité et Constitution. La cible peut passer à travers de petites ouvertures, mais elle traite les liquides comme s'il s'agissait de surfaces solides.</p>"
             },
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         },
         "Sleep": {
-          "name": "Sleep",
-          "description": "<p>Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the &amp;Reference[incapacitated apply=false] condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell’s effect.</p><p>Creatures that don’t sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against this spell.</p>",
+          "name": "Sommeil",
+          "description": "<p>Chaque créature de votre choix dans une sphère de 1,5 mètre de rayon centrée sur un point à portée doit réussir un jet de sauvegarde de Sagesse ou subir l'état &amp;Reference[incapacitated apply=false] (Incapacité) jusqu'à la fin de son prochain tour, moment auquel elle doit répéter le jet de sauvegarde. Si la cible échoue au second jet, elle subit l'état &amp;Reference[unconscious] (Inconscient) pour la durée du sort. Le sort prend fin sur une cible si elle subit des dégâts ou si quelqu'un à moins de 1,5 mètre d'elle utilise une action pour la secouer afin de la soustraire à l'effet du sort.</p><p>Les créatures qui ne dorment pas, comme les elfes, ou qui sont immunisées à l'état Épuisement réussissent automatiquement leurs jets de sauvegarde contre ce sort.</p>",
           "effects": {
             "Sleeping": {
-              "name": "Sleeping",
-              "description": "<p>The target has the &amp;Reference[incapacitated apply=false] condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell’s effect.</p>"
+              "name": "Sommeil",
+              "description": "<p>La cible subit l'état &amp;Reference[incapacitated apply=false] (Incapacité) jusqu'à la fin de son prochain tour, moment auquel elle doit répéter le jet de sauvegarde. Si la cible échoue au second jet, elle subit l'état &amp;Reference[unconscious] (Inconscient) pour la durée du sort.</p>"
             },
             "Spell Changes": {
-              "name": "Spell Changes"
+              "name": "Modifications du sort"
             }
           }
         }
@@ -26129,76 +26105,76 @@
       }
     },
     "Spy": {
-      "name": "Spy",
-      "tokenName": "Spy",
-      "description": "<div class=\"gear\"><p><strong>Gear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb]{Hand Crossbow}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{Shortsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Thieves' Tools}</p></div><h1>Spies</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VCqqHnYYkh2Hn5w6 caption=false cite=false classes=\"no-embed mm\"]</p><h2>Spy</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.O5k5Yo9UowcBfqiB caption=false cite=false classes=\"no-embed mm\"]</p>",
+      "name": "Espion",
+      "tokenName": "Espion",
+      "description": "<div class=\"gear\"><p><strong>Équipement :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb]{Arbalète de poing}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{Épée courte}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Outils de voleur}</p></div><h1>Espions</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VCqqHnYYkh2Hn5w6 caption=false cite=false classes=\"no-embed mm\"]</p><h2>Espion</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.O5k5Yo9UowcBfqiB caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Shortsword": {
-          "name": "Shortsword",
+          "name": "Épée courte",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Hand Crossbow": {
-          "name": "Hand Crossbow",
+          "name": "Arbalète de poing",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Cunning Action": {
-          "name": "Cunning Action",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] takes the &amp;Reference[Dash apply=false], the &amp;Reference[Disengage apply=false], or &amp;Reference[Hide apply=false] action.</p>",
+          "name": "Ruse",
+          "description": "<p class=\"feature\">L'[[lookup @name lowercase]] effectue l'action &amp;Reference[Dash apply=false] (Se précipiter), &amp;Reference[Disengage apply=false] (Se désengager) ou &amp;Reference[Hide apply=false] (Se cacher).</p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Dépenser une utilisation"
             }
           }
         }
       }
     },
     "Spy Master": {
-      "name": "Spy Master",
-      "tokenName": "Spy Master",
-      "description": "<div class=\"gear\"><p><strong>Gear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb]{Hand Crossbow}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Thieves' Tools}</p></div><h1>Spies</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VCqqHnYYkh2Hn5w6 caption=false cite=false classes=\"no-embed mm\"]</p><h2>Spy Master</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vbqXzTJoaTzXe1mz caption=false cite=false classes=\"no-embed mm\"]</p>",
+      "name": "Maître espion",
+      "tokenName": "Maître espion",
+      "description": "<div class=\"gear\"><p><strong>Équipement :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb]{Arbalète de poing}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{Rapière}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Outils de voleur}</p></div><h1>Espions</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VCqqHnYYkh2Hn5w6 caption=false cite=false classes=\"no-embed mm\"]</p><h2>Maître espion</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vbqXzTJoaTzXe1mz caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Rapier": {
-          "name": "Rapier",
+          "name": "Rapière",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Hand Crossbow": {
-          "name": "Hand Crossbow",
+          "name": "Arbalète de poing",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p>The [[lookup @name lowercase]] makes three attacks, using [[/item .fGAdNyRwPx2l059M]] or [[/item .BDLqabSxdqDm0MC2]] in any combination.</p>",
+          "name": "Attaques multiples",
+          "description": "<p>L'[[lookup @name lowercase]] effectue trois attaques, en utilisant [[/item .fGAdNyRwPx2l059M]] ou [[/item .BDLqabSxdqDm0MC2]] selon n'importe quelle combinaison.</p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Dépenser une utilisation"
             }
           }
         },
         "Cunning Action": {
-          "name": "Cunning Action",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] takes the &amp;Reference[Dash apply=false], the &amp;Reference[Disengage apply=false], or &amp;Reference[Hide apply=false] action.</p>",
+          "name": "Ruse",
+          "description": "<p class=\"feature\">L'[[lookup @name lowercase]] effectue l'action &amp;Reference[Dash apply=false] (Se précipiter), &amp;Reference[Disengage apply=false] (Se désengager) ou &amp;Reference[Hide apply=false] (Se cacher).</p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Dépenser une utilisation"
             }
           }
         },
         "Smoke Bomb": {
-          "name": "Smoke Bomb",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] throws a bomb to a point it can see within [[lookup @range.value activity=nk7wJnUtROO1cY4W]] feet of itself.</p><p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=nk7wJnUtROO1cY4W]], each creature in a [[lookup @target.template.size activity=nk7wJnUtROO1cY4W]]-foot-radius [[lookup @target.template.type capitalize activity=nk7wJnUtROO1cY4W]] centered on that point.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Blinded apply=false] condition until the end of the [[lookup @name lowercase]]’s next turn.</p><p class=\"feature\"><em>Success:</em> Half damage only.</p>",
+          "name": "Bombe fumigène",
+          "description": "<p class=\"feature\">L'[[lookup @name lowercase]] lance une bombe sur un point qu'il peut voir à moins de [[lookup @range.value activity=nk7wJnUtROO1cY4W]] pieds de lui.</p><p class=\"feature\"><em>Jet de sauvegarde de Constitution :</em> DD [[lookup @save.dc.value activity=nk7wJnUtROO1cY4W]], chaque créature dans une [[lookup @target.template.type capitalize activity=nk7wJnUtROO1cY4W]] de [[lookup @target.template.size activity=nk7wJnUtROO1cY4W]] pieds de rayon centrée sur ce point.</p><p class=\"feature\"><em>Échec :</em> [[/damage average]] dégâts, et la cible subit l'état &amp;Reference[Blinded apply=false] (Aveuglé) jusqu'à la fin du prochain tour de l'[[lookup @name lowercase]].</p><p class=\"feature\"><em>Réussite :</em> La moitié des dégâts seulement.</p>",
           "effects": {
             "Blinded": {
-              "name": "Blinded",
-              "description": "<p>The target has the &amp;Reference[Blinded apply=false] condition until the end of the attacking creatures’s next turn.</p>"
+              "name": "Aveuglé",
+              "description": "<p>La cible subit l'état &amp;Reference[Blinded apply=false] (Aveuglé) jusqu'à la fin du prochain tour de la créature attaquante.</p>"
             }
           }
         },
         "Thieves' Tools": {
-          "name": "Thieves' Tools",
-          "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Pick a lock (DC 15), or disarm a trap (DC 15)</p>",
+          "name": "Outils de voleur",
+          "description": "<p class=\"phb-meta\"><strong>Caractéristique :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utiliser :</strong> Crocheter une serrure (DD 15) ou désamorcer un piège (DD 15)</p>",
           "activities": {
             "Pick a Lock/Disarm a Trap": {
-              "name": "Pick a Lock/Disarm a Trap"
+              "name": "Crocheter une serrure / Désamorcer un piège"
             }
           }
         }
@@ -26717,20 +26693,20 @@
       }
     },
     "Swarm of Rats": {
-      "name": "Swarm of Rats",
-      "tokenName": "Swarm of Rats",
+      "name": "Nuée de rats",
+      "tokenName": "Nuée de rats",
       "items": {
         "Swarm": {
-          "name": "Swarm",
-          "description": "<p>The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can’t regain Hit Points or gain Temporary Hit Points.</p>"
+          "name": "Nuée",
+          "description": "<p>La nuée peut occuper l'espace d'une autre créature et vice versa, et elle peut se déplacer à travers n'importe quelle ouverture assez grande pour un rat de taille Très Petite. La nuée ne peut pas regagner de points de vie ni gagner de points de vie temporaires.</p>"
         },
         "Bites": {
-          "name": "Bites",
-          "description": "<p>[[/attack extended]]. [[/damage average extended]], or [[/damage average activity=3Yo83eZUNwX51AcE]] if [[lookup @activation.condition activity=3Yo83eZUNwX51AcE]]</p>",
+          "name": "Morsures",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], ou [[/damage average activity=3Yo83eZUNwX51AcE]] si [[lookup @activation.condition activity=3Yo83eZUNwX51AcE]]</p>",
           "activities": {
             "Bloodied Attack": {
-              "name": "Bloodied Attack",
-              "condition": "the swarm is &Reference[Bloodied]"
+              "name": "Attaque ensanglantée",
+              "condition": "la nuée est &Reference[Ensanglantée]"
             }
           }
         }
@@ -28656,43 +28632,43 @@
       }
     },
     "Warrior Veteran": {
-      "name": "Warrior Veteran",
-      "tokenName": "Warrior Veteran",
-      "description": "<div class=\"gear\"><p><strong>Gear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHeavyCross]{Heavy Crossbow}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmSplintArmo]{Splint Armor}</p></div><h1>Warriors</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.3Il3CvacAVpf6Rch caption=false cite=false classes=\"no-embed mm\"]</p><h2>Warrior Veteran</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Dqm3ro7bU8A7sM4B caption=false cite=false classes=\"no-embed mm\"]</p>",
-      "items": {
-        "Greatsword": {
-          "name": "Greatsword",
-          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
-        },
-        "Heavy Crossbow": {
-          "name": "Heavy Crossbow",
-          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
-        },
-        "Splint Armor": {
-          "name": "Splint Armor"
-        },
-        "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p>The [[lookup @name lowercase]] makes two [[/item .KkRkIIhD17sL5x30]] or [[/item .0nNkeR6HNC1e2uQ3]] attacks.</p>",
-          "activities": {
-            "Expend Use": {
-              "name": "Expend Use"
-            }
+    "name": "Combattant, Vétéran",
+    "tokenName": "Combattant, Vétéran",
+    "description": "<div class=\"gear\"><p><strong>Équipement :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{Épée à deux mains}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHeavyCross]{Arbalète lourde}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmSplintArmo]{Armure d'écailles}</p></div><h1>Guerriers</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.3Il3CvacAVpf6Rch caption=false cite=false classes=\"no-embed mm\"]</p><h2>Vétéran Guerrier</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Dqm3ro7bU8A7sM4B caption=false cite=false classes=\"no-embed mm\"]</p>",
+    "items": {
+      "Greatsword": {
+        "name": "Épée à deux mains",
+        "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+      },
+      "Heavy Crossbow": {
+        "name": "Arbalète lourde",
+        "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+      },
+      "Splint Armor": {
+        "name": "Armure d'écailles"
+      },
+      "Multiattack": {
+        "name": "Attaques Multiples",
+        "description": "<p>Le [[lookup @name lowercase]] effectue deux attaques avec son [[/item .KkRkIIhD17sL5x30]] ou son [[/item .0nNkeR6HNC1e2uQ3]].</p>",
+        "activities": {
+          "Expend Use": {
+            "name": "Dépenser une utilisation"
           }
-        },
-        "Parry": {
-          "name": "Parry",
-          "description": "<p><em>Trigger:</em> The [[lookup @name lowercase]] is [[lookup @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Response:</em> The [[lookup @name lowercase]] adds [[lookup @roll.formula activity=aLG3BRZL7P6OEjwd]] to its AC against that attack, possibly causing it to miss.</p>",
-          "activities": {
-            "Use": {
-              "name": "Use",
-              "roll": "Bonus AC",
-              "condition": "hit by a melee attack roll while holding a weapon"
-            }
+        }
+      },
+      "Parry": {
+        "name": "Parade",
+        "description": "<p><em>Déclencheur :</em> Le [[lookup @name lowercase]] est [[lookup @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Réponse :</em> Le [[lookup @name lowercase]] ajoute [[lookup @roll.formula activity=aLG3BRZL7P6OEjwd]] à sa CA contre cette attaque, ce qui peut la faire manquer.</p>",
+        "activities": {
+          "Use": {
+            "name": "Utiliser",
+            "roll": "Bonus CA",
+            "condition": "touché par un jet d'attaque au corps à corps tout en tenant une arme"
           }
         }
       }
-    },
+    }
+  },
     "Water Elemental": {
       "name": "Water Elemental",
       "tokenName": "Water Elemental",

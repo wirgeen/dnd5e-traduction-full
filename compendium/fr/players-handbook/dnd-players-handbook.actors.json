@@ -3262,57 +3262,57 @@
       "tokenName": "Illusory Phenomenon"
     },
     "Imp": {
-      "name": "Imp",
-      "tokenName": "Imp",
+      "name": "Diablotin",
+      "tokenName": "Diablotin",
       "items": {
         "Devil’s Sight": {
-          "name": "Devil’s Sight",
-          "description": "<p>Magical Darkness doesn’t impede the imp’s Darkvision.</p>"
+          "name": "Vue du diable",
+          "description": "<p>L'obscurité magique n'entrave pas la vision dans le noir du diablotin.</p>"
         },
         "Magic Resistance": {
-          "name": "Magic Resistance",
-          "description": "<p> The imp has Advantage on saving throws against spells and other magical effects.</p>"
+          "name": "Résistance à la magie",
+          "description": "<p>Le diablotin a l'Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.</p>"
         },
         "Sting": {
-          "name": "Sting",
-          "description": "<p> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 6 (1d6 + 3) Piercing damage plus 7 (2d6) Poison damage.</p>"
+         "name": "Dard",
+          "description": "<p> <em>Corps à corps :</em> +5, allonge 1,5m. <em>Touché :</em> 6 (1d6 + 3) dégâts de perforants plus 7 (2d6) dégâts de poison.</p>"
         },
         "Invisibility": {
-          "name": "Invisibility",
-          "description": "<p>The imp casts [[/item oHafKbzbqYGiL4i1]] on itself, requiring no spell components and using Charisma as the spellcasting ability.</p><hr /><p>@Embed[.oHafKbzbqYGiL4i1 caption=false]</p>"
+          "name": "Invisibilité",
+          "description": "<p>Le diablotin lance [[/item oHafKbzbqYGiL4i1]] sur lui-même, sans composantes matériel, le Charisme étant sa caractéristique d'incantation.</p><hr /><p>@Embed[.oHafKbzbqYGiL4i1 caption=false]</p>"
         },
         "Shape-Shift": {
-          "name": "Shape-Shift",
-          "description": "<p> The imp shape-shifts to resemble a rat (Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.</p>",
+          "name": "Changement d'aspect",
+          "description": "<p>Le diablotin se métamorphose en prenant l'aspect d'un rat (vitesse 6 m), d'un corbeau (6 m, vol 18 m), d'une araignée (6 m, escalade 6 m) ou reprend sa forme véritable. Son profil reste le même pour chaque forme, à l'exception de sa vitesse. Rien de ce qu'il porte n'est transformé.</p>",
           "activities": {
-            "Change Form": {
-              "name": "Change Form"
+            "Changer de forme": {
+              "name": "Changer de forme"
             }
           },
           "effects": {
             "Rat Form": {
-              "name": "Rat Form"
+              "name": "Forme de rat"
             },
             "Raven Form": {
-              "name": "Raven Form"
+              "name": "Forme de corbeau"
             },
             "Spider Form": {
-              "name": "Spider Form"
+              "name": "Forme d'araignée"
             }
           }
         },
         "oHafKbzbqYGiL4i1": {
-          "name": "Invisibility",
-          "description": "<p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>",
+          "name": "Invisibilité",
+          "description": "<p>La créature que vous touchez physiquement reçoit l'état &amp;Reference[invisible apply=false] jusqu'à la fin du le sort. Le sort prend fin prématurément si l cible effectue un jet d'attaque, inflige des dégâts ou lance un sort.</p>",
           "activities": {
             "Cast": {
-              "name": "Cast"
+              "name": "Incantation"
             }
           },
           "effects": {
             "Invisibility": {
-              "name": "Invisibility",
-              "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
+              "name": "Invisibilité",
+              "description": "<p>Le sort prend fin prématurément si l cible effectue un jet d'attaque, inflige des dégâts ou lance un sort.</p>"
             }
           }
         }
@@ -5045,17 +5045,17 @@
         }
       }
     },
-    "Slaad Tadpole": {
-      "name": "Slaad Tadpole",
-      "tokenName": "Slaad Tadpole",
+    "Têtard de slaad": {
+      "name": "Têtard slaad",
+      "tokenName": "Têtard slaad",
       "items": {
-        "Magic Resistance": {
-          "name": "Magic Resistance",
-          "description": "<p> The slaad has Advantage on saving throws against spells and other magical effects.</p>"
+        "Résistance à la magie": {
+          "name": "Résistance à la magie",
+          "description": "<p>Le slaad a l'Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.</p>"
         },
-        "Bite": {
-          "name": "Bite",
-          "description": "<p> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 5 (1d6 + 2) Piercing damage.</p>"
+        "Morsure": {
+          "name": "Morsure",
+          "description": "<p> <em>corps à corps :</em> +4, allonge 1,5m. <em>Touché :</em> 5 (1d6 + 2) dégâts perforants.</p>"
         }
       }
     },
@@ -5408,48 +5408,48 @@
       }
     },
     "Sprite": {
-      "name": "Sprite",
-      "tokenName": "Sprite",
+      "name": "Esprit follet",
+      "tokenName": "Esprit follet",
       "items": {
         "Needle Sword": {
-          "name": "Needle Sword",
-          "description": "<p><em>Melee Attack Roll: </em>+6, reach 5 ft. <em>Hit:</em> 6 (1d4 + 4) Piercing damage.</p>"
+          "name": "Épée-ingle",
+          "description": "<p><em>Corps à corps : </em>+6, allonge 1,5m. <em>Touché :</em> 6 (1d4 + 4) dégâts perforants.</p>"
         },
         "Enchanting Bow": {
-          "name": "Enchanting Bow",
-          "description": "<p><em>Ranged Attack Roll: </em>+6, range 40/160 ft. <em>Hit:</em> 1 Piercing damage, and the target has the &amp;Reference[charmed apply=false] condition until the start of the sprite’s next turn.</p>",
+          "name": "Arc enchanté",
+          "description": "<p><em>Jet d'attaque à distance : </em>+6, portée 12/48m. <em>Touché :</em> 1 dégât perforant, et la cible subit l'état &amp;Reference[charmed apply=false] jusqu'au début du tour suivant de l'esprit follet.</p>",
           "effects": {
             "Charmed": {
-              "name": "Charmed",
-              "description": "<p>The target has the &amp;Reference[charmed apply=false] condition until the start of the sprite’s next turn.</p>"
+              "name": "Charmé",
+              "description": "<p>La cible subit l'état &amp;Reference[charmed apply=false] jusqu'au début du tour suivant de l'esprit follet.</p>"
             }
           }
         },
         "Heart Sight": {
-          "name": "Heart Sight",
-          "description": "<p> <em>Charisma Saving Throw:</em> DC 10, one creature within 5 feet the sprite can see. Celestials, Fiends, and Undead automatically fail the save. <em>Failure:</em> The sprite knows the target’s emotions and alignment.</p>"
+          "name": "Perception du for intérieur",
+          "description": "<p> <em>JS Charisme :</em> DD 10, une créature que le l'esprit follet voit dans un rayon de 1,50m.(Célestes, Fiélons et Morts-vivants ratent automatiquement de JS.<em> Échec :</em> l'esprit follet l'alignement et l'affect actuel de la cible.</p>"
         },
         "Invisibility": {
-          "name": "Invisibility",
-          "description": "<p>The sprite casts [[/item lO6diOZO5FReftK6]] on itself, requiring no spell components and using Charisma as the spellcasting ability.</p><hr /><p>@Embed[.lO6diOZO5FReftK6 caption=false]</p>",
+          "name": "Invisibilité",
+          "description": "<p>L'esprit follet lance [[/item lO6diOZO5FReftK6]] sur lui-même, sans composantes matériel, le Charisme étant sa caractéristique d'incantation.</p><hr /><p>@Embed[.lO6diOZO5FReftK6 caption=false]</p>",
           "activities": {
             "Cast": {
-              "name": "Cast"
+              "name": "Incanter"
             }
           }
         },
         "lO6diOZO5FReftK6": {
-          "name": "Invisibility",
-          "description": "<p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>",
+          "name": "Invisibilité",
+          "description": "<p>La créature que vous touchez physiquement reçoit l'état &amp;Reference[invisible apply=false] jusqu'à la fin du le sort. Le sort prend fin prématurément si l cible effectue un jet d'attaque, inflige des dégâts ou lance un sort.</p>",
           "activities": {
             "Cast": {
-              "name": "Cast"
+              "name": "Incantation"
             }
           },
           "effects": {
             "Invisibility": {
-              "name": "Invisibility",
-              "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
+              "name": "Invisibilité",
+              "description": "<p>Le sort prend fin prématurément si l cible effectue un jet d'attaque, inflige des dégâts ou lance un sort.</p>"
             }
           }
         }

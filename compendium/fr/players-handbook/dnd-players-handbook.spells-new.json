@@ -658,8 +658,8 @@
       }
     },
     "phbsplBurningHan": {
-      "name": "Burning Hands",
-      "description": "<p>A thin sheet of flames shoots forth from you. Each creature in a 15-foot Cone makes a Dexterity saving throw, taking 3d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>Flammable objects in the Cone that aren’t being worn or carried start burning.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 1.</p>"
+      "name": "Mains Brûlantes",
+      "description": "<p>Une fine nappe de flammes jaillit de vous. Chaque créature prise dans un Cône de 4,50 m effectue un jet de sauvegarde de Dextérité et subit 3d6 dégâts de Feu en cas d’échec, la moitié en cas de réussite.</p><p>Les objets inflammables pris dans le Cône S'embrasent s'ils ne sont portés par personne.</p><p><strong>Emplacement de niveau supérieur.</strong> Les dégâts augmentent de 1d6 par niveau d'emplacement au-delà du 1er.</p>"
     },
     "phbsplCallLightn": {
       "name": "Call Lightning",
@@ -684,32 +684,32 @@
       "description": "<p>You launch a lightning bolt toward a target you can see within range. Three bolts then leap from that target to as many as three other targets of your choice, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.</p><p>Each target makes a Dexterity saving throw, taking 10d8 Lightning damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> One additional bolt leaps from the first target to another target for each spell slot level above 6.</p>"
     },
     "phbsplCharmMonst": {
-      "name": "Charm Monster",
-      "description": "<p>One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the &amp;Reference[Charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong>You can target one additional creature for each spell slot level above 4.</p>",
+      "name": "Charme-monstre",
+      "description": "<p>Une créature que vous voyez à portée effectue un jet de sauvegarde de Sagesse. Ce jet s'effectue avec l'Avantage si vous ou vos alliés êtes en train de l'affronter. En cas d’échec, la cible subit l'état &amp;Reference[Charmed apply=false] jusqu’à la fin du sort ou que vous ou vos alliés lui infligiez des dégâts. La créature ainsi Charmée vous est Amicale. Lorsque le sort prend fin, la cible sait que vous l'avez Charmée.</p><p><strong>Emplacement de niveau supérieur.</strong> Vous pouvez affecter une créature supplémentaire par niveau d'emplacement au-delà du 4e.</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed",
-          "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p>"
+          "name": "Charmée",
+          "description": "<p>La cible subit l'état &amp;Reference[Charmed apply=false] jusqu’à la fin du sort ou que  vous ou  vos alliés lui infligiez des dégâts. La créature ainsi Charmée vous est Amicale. Lorsque le sort prend fin, la cible sait que vous l'avez Charmée.</p>"
         }
       }
     },
     "phbsplCharmPerso": {
-      "name": "Charm Person",
-      "description": "<p>One Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the &amp;Reference[charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>",
+      "name": "Charme-Personne",
+      "description": "<p>Un humanoïde que vous voyez à portée effectue un jet de sauvegarde de Sagesse. Ce jet s'effectue avec l'Avantage si vous ou vos alliés êtes en train de l'affronter. En cas d’échec, la cible subit l'état &amp;Reference[Charmed apply=false] jusqu’à la fin du sort ou que vous ou vos alliés lui infligiez des dégâts. La créature ainsi Charmée vous est Amicale. Lorsque le sort prend fin, la cible sait que vous l'avez Charmée.</p><p><strong>Emplacement de niveau supérieur.</strong> Vous pouvez affecter une créature supplémentaire par niveau d'emplacement au-delà du 1er.</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed",
-          "description": "<p>the target has the &amp;Reference[charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p>"
+          "name": "Charmée",
+          "description": "<p>La cible subit l'état &amp;Reference[Charmed apply=false] jusqu’à la fin du sort ou que  vous ou  vos alliés lui infligiez des dégâts. La créature ainsi Charmée vous est Amicale. Lorsque le sort prend fin, la cible sait que vous l'avez Charmée.</p>"
         }
       }
     },
     "phbsplChillTouch": {
-      "name": "Chill Touch",
-      "description": "<p>Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes 1d10 Necrotic damage, and it can’t regain Hit Points until the end of your next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</p>",
+      "name": "Contact glacial",
+      "description": "<p>Vous canalisez l'étreinte d'outre-tombe eet effectuez une attaque de sort au corps à corps contre une cible à portée d'allonge. Si l'attaque touche, la cible subit 1d10 dégâts nécrotiques et ne peut pas récupérer de points d vie jusqu'à la fin de votre tour suivant.</p><p><strong>Amélioration de sort mineur.</strong> Les dégâts augmentent de 1d10 aux niveaux 5 (2d10), 11 (3d10), et 17 (4d10).</p>",
       "effects": {
         "Blocked Healing": {
-          "name": "Blocked Healing",
-          "description": "<p>The target can’t regain Hit Points until the end of your next turn.</p>"
+          "name": "Guérison bloquée",
+          "description": "<p>La cible ne peut pas regagner de points de vie jusqu'à la fin de votre tour suivant.</p>"
         }
       }
     },
@@ -756,8 +756,8 @@
       }
     },
     "phbsplCommand000": {
-      "name": "Command",
-      "description": "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options:</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you by the fastest available means.</p><p><strong>Grovel.</strong> The target has the Prone condition and then ends its turn.</p><p><strong>Halt.</strong> On its turn, the target doesn’t move and takes no action or Bonus Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can affect one additional creature for each spell slot level above 1.</p>"
+      "name": "Injonction",
+      "description": "<p>Vous adressez un simple mot de commande à une créature que vous voyez à portée. La cible doit réussir un jet de sauvegarde de Sagesse sous peine de devoir d'y soumettre à son tour suivant. Choisissez votre ordre parmi les options suivantes :</p><p><strong>Approche.</strong> La cible se dirige vers vous par la route la plus courte, s'arrêtant à 1,5 mètre de vous.</p><p><strong>Halte.</strong> À son tour, la cible ne se déplace pas, et n'entreprend ni action ni action Bonus.</p><p><strong>Lâche.</strong> La cible lâche ce qu'elle tient et termine son tour.</p><p><strong>Fuis.</strong> La cible consacre son tour à s'éloigner de vous par le moyen le plus rapide.</p><p><strong>Rampe.</strong> La cible subit l'état À terre et termine son tour.</p><p><strong>Emplacement de niveau supérieur.</strong> Vous pouvez affecter une créature supplémentaire par niveau d'emplacement au-delà du 1er.</p>"
     },
     "phbsplCommune000": {
       "name": "Commune",
@@ -1323,8 +1323,8 @@
       }
     },
     "phbsplEldritchBl": {
-      "name": "Eldritch Blast",
-      "description": "<p>You hurl a beam of crackling energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes 1d10 Force damage.</p><p><strong>Cantrip Upgrade.</strong> The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p><p>[[(floor((@details.level+1)/6)+1)]]{Total Beams}</p>"
+      "name": "Décharge occulte",
+      "description": "<p>Vous projetez un rayon d'énergie crépitante. Effectuez une attaque de sort à distance contre une créature ou un objet à portée. Si l'attaque touche, la cible subit 1d10 dégâts de force.</p><p><strong>Amélioration du tour de sort mineur.</strong> Le sort produit deux rayons au niveau 5, trois au niveau 11, et quatre au niveau 17. Vous pouvez visez la même ciible avec ces rayons ou les répartir entre plusiieur cibles. Effectuez un jet d’attaque séparé pour chaque rayon.</p><p>[[(floor((@details.level+1)/6)+1)]]{Nombre de rayons}</p>"
     },
     "phbsplElementalW": {
       "name": "Elemental Weapon",
@@ -1534,11 +1534,11 @@
       }
     },
     "phbsplFalseLife0": {
-      "name": "False Life",
-      "description": "<p>You gain 2d4 + 4 Temporary Hit Points.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You gain 5 additional Temporary Hit Points for each spell slot level above 1.</p>",
+      "name": "Simulacre de vie",
+      "description": "<p>Vous recevez 2d4 + 4 points de vie temporaires.</p><p><strong>Emplacement de niveau supérieur.</strong> Vous recevez 5 points de vie temporaires supplémentaires par niveau d'emplacement au-delà du 1er.</p>",
       "activities": {
         "Temporary Health": {
-          "name": "Temporary Health"
+          "name": "Vie temporaire"
         }
       }
     },
@@ -2023,8 +2023,8 @@
       }
     },
     "phbsplHellishReb": {
-      "name": "Hellish Rebuke",
-      "description": "<p>The creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 1.</p>"
+      "name": "Représailles infernales",
+      "description": "<p>La créature qui vous a infligé des dégâts se retrouve un court instant cernée de flammes vertes. Elle effectue un jet de sauvegarde de Dextérité, et subit 2d10 dégâts de feu en cas d'échec, la moitié en cas de réussite.</p><p><strong>Emplacement de niveau supérieur.</strong> Les dégâts augmentent de 1d10 pour chaque niveau d'emplacement au-delà du 1er.</p>"
     },
     "phbsplHeroesFeas": {
       "name": "Heroes' Feast",
@@ -2056,15 +2056,15 @@
       }
     },
     "phbsplHex0000000": {
-      "name": "Hex",
-      "description": "<p>You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 2 (up to 4 hours), 3–4 (up to 8 hours), or 5+ (24 hours).</p>",
+      "name": "Maléfice",
+      "description": "<p>Vous maudissez une créature que vous voyez à portée. Jusqu'a la fin du sort, vous infligez 1d6 dégâts nécrotiques à la cible chaque fois que vous la touchez avec un jet d'attaque. Vous choisissez également une caractéristique à l'incantation. La cible subit le Désavantage aux tests de caractéristique associés à la caractéristique en question.</p><p>Si la cible tombe à 0 points de vie avant la fin du sort, vous pouvez désigner une nouvelle cible à l'un de vos tours suivants, par une action Bonus.</p><p><strong>Emplacement de niveau supérieur.</strong> Votre Concentration peut persister plus longtemps avec un emplacement de sort du 2e niveau (jusqu'à 4 heures), du 3e ou 4e (jusqu'à 8 heures), ou du 5e et supérieur (24 heures).</p>",
       "activities": {
         "Bonus Hex Damage": {
-          "name": "Bonus Hex Damage",
-          "condition": "whenever you hit the target with an attack roll"
+          "name": "Dégâts de malédiction supplémentaires",
+          "condition": "chaque fois que vous la touchez avec un jet d'attaque"
         },
         "Place Curse": {
-          "name": "Place Curse"
+          "name": "Maudire"
         }
       },
       "effects": {
@@ -2742,8 +2742,8 @@
       }
     },
     "phbsplPoisonSpra": {
-      "name": "Poison Spray",
-      "description": "<p>You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).</p>"
+      "name": "Bouffée de poison",
+      "description": "<p>Vous projetez une brume toxique vers une créature à portée. Effectuez une attaque de sort à distance contre la cible. Si l'attaque touche, la cible subit 1d12 dégâts de poison.</p><p><strong>Amélioration dde sort mineur.</strong> Les dégâts augmentent de 1d12 lorsque vous atteignez les niveaux 5 (2d12), 11 (3d12) et 17 (4d12).</p>"
     },
     "phbsplPolymorph0": {
       "name": "Polymorph",
@@ -3093,8 +3093,8 @@
       "description": "<p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>"
     },
     "phbsplScorchingR": {
-      "name": "Scorching Ray",
-      "description": "<p>You hurl three fiery rays. You can hurl them at one target within range or at several. Make a ranged spell attack for each ray. On a hit, the target takes 2d6 Fire damage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You create one additional ray for each spell slot level above 2.</p><p>[[@item.level + 1]]{Total Rays}</p>"
+      "name": "Rayon ardent",
+      "description": "<p>Vous projetez troois rayons de flammes. Vous pouvez cibler une seule cible à portée ou bien plusieurs. Effectuez une attaque de sort à distance pour chaque rayon. Une attaque qui touche sa cible lui inflige 2d6 dégâts de Feu.</p><p><strong>Emplacement de niveau supérieur.</strong> Vous produisez un rayon supplémentaire par niveau d’emplacement au-delà du 2e.</p><p>[[@item.level + 1]]{Nombre total de rayons}</p>"
     },
     "phbsplScrying000": {
       "name": "Scrying",
@@ -3472,11 +3472,11 @@
     },
     "phbsplSuggestion": {
       "name": "Suggestion",
-      "description": "<p>You suggest a course of activity—described in no more than 25 words—to one creature you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to the target or its allies. For example, you could say, “Fetch the key to the cult’s treasure vault, and give the key to me.” Or you could say, “Stop fighting, leave this library peacefully, and don’t return.”</p><p>The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it.</p>",
+      "description": "<p>Vous suggérez une ligne de conduite par 25 mots ou moins afin d'influencer magiquement une créature que vous voyez à portée et qui vous entend et vous comprend. La suggestion doit paraître raisonnable et ne pas présenter de risque évident d'infliger des dégâts à la cible ni à ses alliés. Vous pourriez ainsi formuler : « Récupère la clef de la chambre forte de la secte et apporte-la-moi. » Ou bien : « Cesse de combattre, quitte la bibliothèque sans faire d'histoires et ne reviens pas. »</p><p>La cible doit réussir un jet de sauvegarde de Sagesse sous peine de subir l'état Charmé pour toute la durée ou jusqu'à ce que vous ou l'un de vos alliés lui infligiez des dégâts. La cible Charmée se soumet à la suggestion de son mieux. L'activité suggérée peut s'étendre sur toute la durée, mais s'il est possible de l'accomplir plus tôt, le sort prend fin sur la cible dès qu'elle en a terminé.</p>",
       "effects": {
         "Pursuing Suggestion": {
-          "name": "Pursuing Suggestion",
-          "description": "<p>The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it.</p>"
+          "name": "Suivre la suggestion",
+          "description": "<p>La cible Charmée se soumet à la suggestion de son mieux. L'activité suggérée peut s'étendre sur toute la durée, mais s'il est possible de l'accomplir plus tôt, le sort prend fin sur la cible dès qu'elle en a terminé.</p>"
         }
       }
     },
@@ -3735,15 +3735,15 @@
       "description": "<p>This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.</p><p>The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can’t cross an elevation change of 10 feet or more. For example, the disk can’t move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.</p><p>If you move more than 100 feet from the disk (typically because it can’t move around an obstacle to follow you), the spell ends.</p>"
     },
     "phbsplThaumaturg": {
-      "name": "Thaumaturgy",
-      "description": "<p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1 minute.</p><p><strong>Invisible Hand.</strong> You instantaneously cause an unlocked door or window to fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>"
+      "name": "Thaumaturgie",
+      "description": "<p>Vous engendrez une manifestation surnaturelle mineure. Vous créez l'un des effets magiques suivants à portée. Si vous lancez ce sort plusieurs fois, vous pouvez faire coexister jusqu'à trois de ses effets d'1 minute.</p><p><strong>Bruit fantôme.</strong> Vous faites émaner un son bref d'un point que vous choississez à portée, comme un grondement de tonerre, un croassement ou des murmures inquiétants.</p><p><strong>Jeu avec le feu.</strong> Vous manipulez des flammes pendant 1 minute : elles vacillent, s'intensifient, s'atténuent ou change de couleur.</p><p><strong>Main Invisible.</strong> Vous provoquez l'ouverture soudaine d'une porte ou fenêtre non vérouillée ou la faites claquer.</p><p><strong>Secousse.</strong> Vous provoquez un léger tremblement de terre inoffensif pendant 1 minute.</p><p><strong>Voix Retentissante.</strong> Votre voix retentit jusqu'à trois fois plus fort que la normal pendant 1 minute. Pour touote la durée, vous avez l'Avantage sur les tests de [[/check ability=cha skill=itm]].</p><p><strong>Yeux modifées.</strong> Vous aaltérez l'aspect de vos yeux pendant 1 minute.</p>"
     },
     "phbsplThornWhip0": {
-      "name": "Thorn Whip",
-      "description": "<p>You create a vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. On a hit, the target takes 1d6 Piercing damage, and if it is Large or smaller, you can pull it up to 10 feet closer to you.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>",
+      "name": "Fouet épineux",
+      "description": "<p>Vous créez un fouet à l'aspect de ronce qui s'ababt sur une créature que vous lui désignez à portée. Effectuez une attaque de sort au corps à corps contre la cible. Sii l'attaque touche, la cible subit 1d6 dégâts perforants et, si elle est de taille G ou infériieure, vous pouvez la rapprocher de vous d'un maximum de 3 m.</p><p><strong>Amélioration de sort mineur.</strong> Les dégâts augmentent de 1d6 lorsque vous atteignez les niveaux 5 (2d6), 11 (3d6) et 17 (4d6).</p>",
       "activities": {
         "Attack and Pull": {
-          "name": "Attack and Pull"
+          "name": "Attaquer et tirer"
         }
       }
     },
@@ -4054,17 +4054,17 @@
       }
     },
     "phbsplWitchBolt0": {
-      "name": "Witch Bolt",
-      "description": "<p>A beam of crackling energy lances toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against it. On a hit, the target takes 2d12 Lightning damage.</p><p>On each of your subsequent turns, you can take a Bonus Action to deal 1d12 Lightning damage to the target automatically, even if the first attack missed.</p><p>The spell ends if the target is ever outside the spell’s range or if it has &amp;Reference[totalcover] from you.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The initial damage increases by 1d12 for each spell slot level above 1.</p>",
+      "name": "Trait ensorcelé",
+      "description": "<p>Un rayon d'énergie crépitante file vers Une créature que vous voyez à portée, formant un arc de foudre entre elle est vous. Effectuez contre elle une attaque de sort distance. Si l'attaque touche, la cible subit 2d12 dégâts de foudre.</p><p>À chacun de vos tours suivants, vous pouvez par ne action bonus lui infliger automatiquement 1d12 dégâts de foudre à la cible, même si la première attaque est ratée.</p><p>Le sort se termine si la cible se retrouve hors de portée ou encore si elle bénéficie d'un &amp;Reference[totalcover]{Abri total} vis-à-vis de vous.</p><p><strong>Emplacement de niveau supérieur.</strong> Les dégâts initiaux augmentent de 1d12 par niveau d'emplacement au delà du 1er.</p>",
       "activities": {
         "Bonus Action Damage": {
-          "name": "Bonus Action Damage"
+          "name": "Dégâts par action bonus"
         }
       },
       "effects": {
         "Sustained Lightning": {
-          "name": "Sustained Lightning",
-          "description": "<p>On each of your subsequent turns, you can take a Bonus Action to deal [[/damage 1d12 type=lightning]] damage to the target automatically, even if the first attack missed.</p><p>The spell ends if the target is ever outside the spell’s range or if it has &amp;Reference[totalcover] from you.</p>"
+          "name": "Arc de foudre",
+          "description": "<p>À chacun de vos tours suivants, vous pouvez par ne action bonus lui infliger automatiquement 1d12 dégâts de foudre à la cible, même si la première attaque est ratée.</p><p>Le sort se termine si la cible se retrouve hors de portée ou encoore si elle bénéficie d'un &amp;Reference[totalcover]{Abri total} vis-à-vis de vous.</p>"
         }
       }
     },

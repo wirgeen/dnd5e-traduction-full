@@ -5867,14 +5867,14 @@
       }
     },
     "Forgery Kit": {
-      "name": "Forgery Kit",
-      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Mimic 10 or fewer words of someone else's handwriting (DC 15), or duplicate a wax seal (DC 20)</p>",
+      "name": "Matériel de contrefaçon ",
+      "description": "<p class=\"phb-meta\"><strong>Caractéristique :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Imiter 10 mots ou moins de l'écriture d'autrui (DD 15), reproduire un cachet de cire (DD20)</p>",
       "activities": {
         "Mimic Handwriting": {
-          "name": "Mimic Handwriting"
+          "name": "Imiter l'écriture d'autrui"
         },
         "Duplicate Wax Seal": {
-          "name": "Duplicate Wax Seal"
+          "name": "Reproduire un cachet de cire"
         }
       }
     },

@@ -694,7 +694,7 @@
     },
     "phbbrdBattleMagi": {
       "name": "Magie de guerre",
-      "description": "<p>Après avoir lancé un sort</p>"
+      "description": "<p>Après avoir lancé un sort dont le temps d'incantation est d'une action, vous pouvez effectuer une attaque avec un arme par une action Bonus.</p>"
     },
     "phbbrdBeguilingM": {
       "name": "Magie envoûtante",
@@ -2279,7 +2279,7 @@
     },
     "phbinvMasterofMy": {
       "name": "Maître des formes",
-      "description": "<blockquote><p>Prérequis : niveau d'Occultiste 5+</p></blockquote><p>Vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{modification d'apparence} sans dépenser d'emplacement de sort.</p><section class=\"secret\" id=\"secret-x7wmXuFqGaXQspxB\"><p><strong>Note Foundry</strong></p><p>This feature includes Alter Self's activities.</p><p>The <strong>Aquatic Adaptation</strong>, <strong>Change Appearance</strong>, and <strong>Natural Weapons</strong> activities include Active Effects for tracking your choice and require Concentration.</p><p>The <strong>Attack</strong> activities can be used for your attack/damage rolls when you choose the <strong>Natural Weapons</strong> option.</p></section>",
+      "description": "<blockquote><p>Prérequis : niveau d'Occultiste 5+</p></blockquote><p>Vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{modification d'apparence} sans dépenser d'emplacement de sort.</p><section class=\"secret\" id=\"secret-x7wmXuFqGaXQspxB\"><p><strong>Note Foundry</strong></p><p>Cette fonctionnalité inclut les activités du sort Modification d'apparence.</p><p>Les activités <strong>Adaptation aquatique</strong>, <strong>Changement d'apparence</strong> et <strong>Armes naturelles</strong> incluent des effets actifs pour suivre vos choix et nécessitent de la Concentration.</p><p>Les activités d'<strong>Attaque</strong> peuvent être utilisées pour vos jets d'attaque et de dégâts lorsque vous choisissez l'option <strong>Armes naturelles</strong>.</p></section>",
       "activities": {
         "Aquatic Adaptation": {
           "name": "Adaptation aquatique"
@@ -2316,7 +2316,7 @@
     },
     "phbinvMistyVisio": {
       "name": "Vision embrumées",
-      "description": "<blockquote><p>Prérequis : niveau d'Occultiste 2+</p></blockquote><p>Vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{imag silencieeuse} sans dépenser d'emplacement de sort.</p><section class=\"secret\" id=\"secret-zbni49FP84e1UILg\"><p><strong>Note Foundry</strong></p><p>Cette fonctionnalité inclut les activités de image silencieuse et peut être utilisée à sa place.</p></section>"
+      "description": "<blockquote><p>Prérequis : niveau d'Occultiste 2+</p></blockquote><p>Vous pouvez lancer @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{image silencieuse} sans dépenser d'emplacement de sort.</p><section class=\"secret\" id=\"secret-zbni49FP84e1UILg\"><p><strong>Note Foundry</strong></p><p>Cette fonctionnalité inclut les activités de image silencieuse et peut être utilisée à sa place.</p></section>"
     },
     "phbinvOnewithSha": {
       "name": "Maître des ombres",
@@ -2381,7 +2381,7 @@
     },
     "phbinvRepellingB": {
       "name": "Décharge répulsive",
-      "description": "<blockquote><p>Prérequis : niveau d'Occultiste 2+, un sort mineur d'Occultiste infligeant des dégâts via un jet d'attaque/p></blockquote><p>Choisissez l'un de vos sorts mineurs d'Occultiste connus qui nécessite un jet d'attaque. Lorsque vous touchez une créature de taille G ou inférieure avec ce sort mineur, vous pouvez repousser cette créature d'un maximum de 3 m, en ligne droite.</p><p><strong>Répétable.<strong> YVous pouvez recevoir cette manifestation plus d'une fois. Chaque fois, choisissez un sort mineur conforme différent.</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Créer une Répulsion</strong> peut être utilisée pour enchanter un tour de passe-passe qui ajoute \", Répulsion\" comme rappel.</p></section>",
+      "description": "<blockquote><p>Prérequis : niveau d'Occultiste 2+, un sort mineur d'Occultiste infligeant des dégâts via un jet d'attaque</p></blockquote><p>Choisissez l'un de vos sorts mineurs d'Occultiste connus qui nécessite un jet d'attaque. Lorsque vous touchez une créature de taille G ou inférieure avec ce sort mineur, vous pouvez repousser cette créature d'un maximum de 3 m, en ligne droite.</p><p><strong>Répétable.</strong> Vous pouvez recevoir cette manifestation plus d'une fois. Chaque fois, choisissez un sort mineur conforme différent.</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>Note Foundry</strong></p><p>L'activité <strong>Créer une Répulsion</strong> peut être utilisée pour enchanter un tour de passe-passe qui ajoute \", Répulsion\" comme rappel.</p></section>",
       "activities": {
         "Make Repelling": {
           "name": "Créer une Répulsion"

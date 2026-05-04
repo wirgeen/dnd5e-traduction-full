@@ -343,7 +343,7 @@
           "text": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSpider00000000 statblock caption=false cite=true]</p>"
         },
         "Swarm of Rats": {
-          "name": "Swarm of Rats",
+          "name": "Nuée de rats",
           "text": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfRats000 statblock caption=false cite=true]</p>"
         },
         "Tiger": {
@@ -1789,7 +1789,7 @@
         },
         "Oni": {
           "name": "Oni",
-          "text": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.FXpnC3DxL8Qri1PC caption=false classes=\"right two lift-50 top-frame\"]</p><p class=\"creature-flavor\"><em>Wickedness Drawn to the Wicked</em></p><p class=\"habitat-treasure\"><strong>Habitat:</strong> Forest, Urban; <strong>Treasure:</strong> Armaments</p><p>Oni are elusive entities that inhabit dark forests and other wildernesses. By shape-shifting into the form of an innocent or moving invisibly, oni encroach on communities and lonely roads. They frequently harass people of faith, testing the limits of their piousness, or torment selfish people, punishing them for their wickedness. Wise communities often have guardian statues, annual rituals, or local superstitions meant to keep oni at bay. In rare cases, an oni might gradually befriend such communities and protect them from other threats for generations.</p><p>Oni torment villages that don’t pay them or other supernatural forces respect. Roll on or choose a result from the Oni Troubles table to inspire how an oni menaces such communities.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmOniTroubles000 rollable classes=\"caption-top\"]</p>"
+          "text": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.FXpnC3DxL8Qri1PC caption=false classes=\"right two lift-50 top-frame\"]</p><p class=\"creature-flavor\"><em>La perversité attirée par les pervers</em></p><p class=\"habitat-treasure\"><strong>Habitat :</strong> Forêt, Urbain ; <strong>Trésor :</strong> Armements</p><p>Les onis sont des entités insaisissables qui habitent les forêts sombres et autres étendues sauvages. En se métamorphosant sous les traits d'un innocent ou en se déplaçant de manière invisible, les onis s'immiscent dans les communautés et sur les routes isolées. Ils harcèlent fréquemment les croyants, testant les limites de leur piété, ou tourmentent les égoïstes, les punissant pour leur méchanceté. Les communautés avisées possèdent souvent des statues protectrices, des rituels annuels ou des superstitions locales destinés à tenir les onis à distance. Dans de rares cas, un oni peut progressivement se lier d'amitié avec une telle communauté et la protéger d'autres menaces pendant des générations.</p><p>Les onis tourmentent les villages qui ne leur témoignent pas de respect, à eux ou aux autres forces surnaturelles. Lancez les dés ou choisissez un résultat dans la table Problèmes d'Oni pour définir comment un oni menace ces communautés.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmOniTroubles000 rollable classes=\"caption-top\"]</p>"
         },
         "Otyugh": {
           "name": "Otyugh",

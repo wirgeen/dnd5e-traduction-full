@@ -1256,7 +1256,7 @@
     },
     "phbtulForgeryKit": {
       "name": "Matériel de contrefaçon ",
-      "description": "<p class=\"phb-meta\"><strong>Caractéristique :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Mimic 10 or fewer words of someone else’s handwriting (DD 15), or duplicate a wax seal (DD 20)</p>",
+      "description": "<p class=\"phb-meta\"><strong>Caractéristique :</strong> Dextérité</p><p class=\"phb-meta\"><strong>Utilisation :</strong> Imiter 10 mots ou moins de l'écriture d'autrui (DD 15), reproduire un cachet de cire (DD20)</p>",
       "activities": {
         "Mimic Handwriting": {
           "name": "Imiter l'écriture d'autrui"

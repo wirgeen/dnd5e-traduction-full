@@ -116,71 +116,71 @@
       "name": "Appendix C: Rules Glossary",
       "pages": {
         "Lightly Obscured": {
-          "name": "Lightly Obscured",
+          "name": "Visibilité nulle",
           "text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.MAxtfJyvJV7EpzWN inline] <em>See also</em> &amp;Reference[Dim Light] and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExploration00]{Exploration}.</p>"
         },
         "Heavily Obscured": {
-          "name": "Heavily Obscured",
+          "name": "Visibilité réduite",
           "text": "<p>You have the &amp;Reference[Blinded] condition while trying to see something in a Heavily Obscured space. See also &amp;Reference[Blinded], &amp;Reference[Darkness], and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExploration00]{Exploration}.</p>"
         },
         "Bright Light": {
-          "name": "Bright Light",
+          "name": "Lumière vive",
           "text": "<p><strong>Bright Light</strong> lets most creatures see normally. Even gloomy days provide Bright Light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.</p>"
         },
         "Dim Light": {
-          "name": "Dim Light",
+          "name": "lumière faible",
           "text": "<p>An area with Dim Light is &amp;Reference[Lightly Obscured]. See also @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExploration00]{Exploration}.</p>"
         },
         "Darkness": {
-          "name": "Darkness",
+          "name": "Ténèbres",
           "text": "<p>An area of <strong>darkness</strong> is @UUID[.YkuKTIH2YaYW8lTS]{Heavily Obscured}. See also @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExploration00]{Exploration}.</p>"
         },
         "Blindsight": {
-          "name": "Blindsight",
+          "name": "Vision aveugle",
           "text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.sacjsfm9ZXnw4Tqc inline]</p>"
         },
         "Darkvision": {
-          "name": "Darkvision",
+          "name": "Vision dans le noir",
           "text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ldmA1PbnEGVkmE11 inline]</p>"
         },
         "Tremorsense": {
-          "name": "Tremorsense",
+          "name": "Perception des vibrations",
           "text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.r64UrNusMhwJVnxb inline]</p>"
         },
         "Truesight": {
-          "name": "Truesight",
+          "name": "Vision lucide",
           "text": "<p>If you have Truesight, your vision is enhanced within a specified range. Within that range, your vision pierces through the following:</p><p><strong>Darkness.</strong> You can see in normal and magical @UUID[.UY4RGoKw9rOeazur]{Darkness}.</p><p><strong>Invisibility.</strong> You see creatures and objects that have the @UUID[.MQIZ1zRLWRcNOtPN]{Invisible} condition.</p><p><strong>Visual Illusions.</strong> Visual illusions appear transparent to you, and you automatically succeed on saving throws against them.</p><p><strong>Transformations.</strong> You discern the true form of any creature or object you see that has been transformed by magic.</p><p><strong>Ethereal Plane.</strong> You see into the Ethereal Plane. <em>See also</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixATheM.JournalEntryPage.JUMfpR65UBZvvQut]{Transitive Planes}.</p>"
         },
         "Reaction": {
-          "name": "Reaction",
+          "name": "Réaction",
           "text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.2VqLyxMyMxgXe2wC inline]</p><p><em>See also</em> @UUID[.eNvzQabiTqTtfzis]{Opportunity Attacks} and chapter 1 @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbActions000000]{Actions}.</p>"
         },
         "Bonus Action": {
-          "name": "Bonus Action",
-          "text": "<p>Various class features, spells, and other abilities let you take an additional action on your turn called a Bonus Action. The @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeCunningAct]{Cunning Action} feature, for example, allows a Rogue to take a Bonus Action. You can take a Bonus Action only when a special ability, a spell, or another feature of the game states that you can do something as a Bonus Action. You otherwise don’t have a Bonus Action to take.</p><p>You can take only one Bonus Action on your turn, so you must choose which Bonus Action to use if you have more than one available.</p><p>You choose when to take a Bonus Action during your turn unless the Bonus Action’s timing is specified. Anything that deprives you of your ability to take actions also prevents you from taking a Bonus Action.</p>"
+          "name": "Action bonus",
+          "text": "<p>Divers sorts, aptitudes de classes et autres capacités vous permettent d'entreprendre une action supplémentaire à votre tour, ce qu'on appelle une action bonus. L'aptitude @UUID[Compendium.dnd5e.classes24.Item.phbrgeCunningAct]{Ruse} du Roublard, par exemple, lui permet d'entreprendre une action Bonus.</p> Vous ne pouvez entreprendre une action Bonus que si une aptitude spéciale, un sort ou autre élément du jeu spécifie que vous pouvez accomplir quelque chose par une actiion Bonus. Sans cela, vous n'avez tout bonnement pas d'action Bonus à entreprendre.<p>Vous ne pouvez entreprendre qu'une seule action Bonus, toujours à votre tour, si bien qu'il vous faut choisir laquelle dans le cas ou vous auriez accès à plusieurs action Bonus.</p><p>Vous choisissez à quel moment de votre tour entreprendre une action Bonus, sauf mention contraire dans la description de celle-ci. Tout ce qui voous prive de la capacité à entreprendre des actions vous empêche également d'entreprendre une action Bonus.</p>"
         },
         "Action": {
           "name": "Action",
-          "text": "<p>À votre tour, vous pouvez entreprendre une action. Choisissez l'action à entreprendre parmi celles ci-dessous ou parmi les actions spéciales fournies par vos aptitudes.</p><ul><li><p>@UUID[.f4fZHwBvpbpzRyn4]{Attaque}</p></li><li><p>@UUID[.6l6nBKip4LqB1sCU]{Pointe}</p></li><li><p>@UUID[.w1AGsemFERfjqWNx]{Désengagement}</p></li><li><p>@UUID[.3YJIuyCMmuUrfmuX]{Esquive}</p></li><li><p>@UUID[.5S8i59qskkd9GGcJ]{Soutien}</p></li><li><p>@UUID[.rqhOsUY4wWa1oHTy]{Furtivité}</p></li><li><p>@UUID[.4V59Q1dlWjNhpJGo]{Influence}</p></li><li><p>@UUID[.iIIDUsmSOkL0xNzF]{Magie}</p></li><li><p>@UUID[.nI9tN6Oq7fCV7hcA]{Intention}</p></li><li><p>@UUID[.ySj4gYZ4ADZoia7R]{Observation}</p></li><li><p>@UUID[.Nuz0Wx4a4aAPcC34]{Étude}</p></li><li><p>@UUID[.UDlogfdiT2uYEZz4]{Utilisation}</p></li></ul>"
+          "text": "<p>À votre tour, vous pouvez entreprendre une action. Choisissez l'action à entreprendre parmi celles ci-dessous ou parmi les actions spéciales fournies par vos aptitudes</p><ul><li><p>@UUID[.f4fZHwBvpbpzRyn4]{Attaque}</p></li><li><p>@UUID[.w1AGsemFERfjqWNx]{Désengagement}</p></li><li><p>@UUID[.3YJIuyCMmuUrfmuX]{Esquive}</p></li><li><p>@UUID[.Nuz0Wx4a4aAPcC34]{Étude}</p></li><li><p>@UUID[.rqhOsUY4wWa1oHTy]{Furtivité}</p></li><li><p>@UUID[.4V59Q1dlWjNhpJGo]{Influence}</p></li><li><p>@UUID[.nI9tN6Oq7fCV7hcA]{Intention}</p></li><li><p>@UUID[.iIIDUsmSOkL0xNzF]{Magie}</p></li><li><p>@UUID[.ySj4gYZ4ADZoia7R]{Observation}</p></li><li><p>@UUID[.6l6nBKip4LqB1sCU]{Pointe}</p></li><li><p>@UUID[.5S8i59qskkd9GGcJ]{Soutien}</p></li><li><p>@UUID[.UDlogfdiT2uYEZz4]{Utilisation}</p></li></ul>"
         },
         "Attack": {
           "name": "Attaque",
           "text": "<p>Lorsque vous entreprenez l'action Attaque, vous effectuez un jet d'attaque avec arme ou une attaque à mains nues.</p><p><em><strong>S'équiper et se déséquiper.</strong></em> Vous pouvez vous équiper ou vous déséquiper d'une arme lorsque vous effectuez une attaque dans le cadre de cette action. Vous pouvez le faire avant ou après l'attaque. Si vous vous équipez d'une arme avant une attaque, vous n'êtes pas tenu de l'utiliser lors de cette attaque. S'équiper d'une arme comprend le fait de la sortir du fourreau ou de la ramasser. Se déséquiper d'une arme consiste à la rengainer, la ranger ou la laisser choir.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.JxboWb0XHo2GwqD0 inline]</p>"
         },
         "Dash": {
-          "name": "Dash",
+          "name": "Pointe",
           "text": "<p>When you take the Dash action, you gain extra movement for the current turn. The increase equals your &amp;Reference[Speed] after applying any modifiers. With a Speed of 30 feet, for example, you can move up to 60 feet on your turn if you Dash. If your Speed of 30 feet is reduced to 15 feet, you can move up to 30 feet this turn if you Dash.</p><p>If you have a special speed, such as a Fly Speed or Swim Speed, you can use that speed instead of your Speed when you take this action. You choose which speed to use each time you take it.</p>"
         },
         "Disengage": {
-          "name": "Disengage",
+          "name": "Dégagement",
           "text": "<p>If you take the Disengage action, your movement doesn’t provoke &amp;Reference[Opportunity Attacks] for the rest of the current turn.</p>"
         },
         "Dodge": {
-          "name": "Dodge",
+          "name": "Esquive",
           "text": "<p>If you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has &amp;Reference[Disadvantage] if you can see the attacker, and you make Dexterity saving throws with &amp;Reference[Advantage].</p><p>You lose these benefits if you have the Incapacitated condition or if your Speed is 0.</p>"
         },
         "Help": {
-          "name": "Help",
+          "name": "Soutien",
           "text": "<p>When you take the Help action, you do one of the following.</p><p><em><strong>Assist an Ability Check.</strong></em> Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has &amp;Reference[Advantage] on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn’t use it before the start of your next turn. The DM has final say on whether your assistance is possible.</p><p><em><strong>Assist an Attack Roll.</strong></em> You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn.</p>"
         },
         "Influence": {
@@ -188,23 +188,23 @@
           "text": "<p>With the Influence action, you urge a monster to do something. Describe or roleplay how you’re communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The DM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below.</p><p><em><strong>Willing.</strong></em> If your urging aligns with the monster’s desires, no ability check is necessary; the monster fulfills your request in a way it prefers.</p><p><em><strong>Unwilling.</strong></em> If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn’t comply.</p><p><em><strong>Hesitant.</strong></em> If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster’s attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you’re interacting with the monster. The DM chooses the check, which has a default DC equal to 15 or the monster’s Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the DM) before urging it in the same way again.</p><table><caption>Influence Checks</caption><thead><tr><th><p>Ability Check</p></th><th><p>Interaction</p></th></tr></thead><tbody><tr><td><p>[[/check dec]]</p></td><td><p>Deceiving a monster that understands you</p></td></tr><tr><td><p>[[/check itm]]</p></td><td><p>Intimidating a monster</p></td></tr><tr><td><p>[[/check prf]]</p></td><td><p>Amusing a monster</p></td></tr><tr><td><p>[[/check per]]</p></td><td><p>Persuading a monster that understands you</p></td></tr><tr><td><p>[[/check ani]]</p></td><td><p>Gently coaxing a Beast or Monstrosity</p></td></tr></tbody></table>"
         },
         "Magic": {
-          "name": "Magic",
+          "name": "Magie",
           "text": "<p>When you take the Magic action, you cast a spell that has a casting time of an action or use a feature or magic item that requires a Magic action to be activated.</p><p>If you cast a spell that has a casting time of 1 minute or longer, you must take the Magic action on each turn of that casting, and you must maintain &amp;Reference[Concentration] while you do so. If your Concentration is broken, the spell fails, but you don’t expend a spell slot.</p>"
         },
         "Ready": {
-          "name": "Ready",
+          "name": "Intention",
           "text": "<p>You take the Ready action to wait for a particular circumstance before you act. To do so, you take this action on your turn, which lets you act by taking a @UUID[.OhSIWaQ61dOp7S8M]{Reaction} before the start of your next turn.</p><p>First, you decide what perceivable circumstance will trigger your Reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your Speed in response to it. Examples include “If the cultist steps on the trapdoor, I’ll pull the lever that opens it,” and “If the zombie steps next to me, I move away.”</p><p>When the trigger occurs, you can either take your Reaction right after the trigger finishes or ignore the trigger.</p><p>When you Ready a spell, you cast it as normal (expending any resources used to cast it) but hold its energy, which you release with your Reaction when the trigger occurs. To be readied, a spell must have a casting time of an action, and holding on to the spell’s magic requires @UUID[.0a2umg2mJMAzM9Q3]{Concentration}, which you can maintain up to the start of your next turn. If your Concentration is broken, the spell dissipates without taking effect.</p>"
         },
         "Search": {
-          "name": "Search",
+          "name": "Observation",
           "text": "<p>When you take the Search action, you make a Wisdom check to discern something that isn’t obvious. The Search table suggests which skills are applicable when you take this action, depending on what you’re trying to detect.</p><table><caption>Search</caption><thead><tr><th><p>Skill</p></th><th><p>Thing to Detect</p></th></tr></thead><tbody><tr><td><p>Insight</p></td><td><p>Creature’s state of mind</p></td></tr><tr><td><p>Medicine</p></td><td><p>Creature’s ailment or cause of death</p></td></tr><tr><td><p>Perception</p></td><td><p>Concealed creature or object</p></td></tr><tr><td><p>Survival</p></td><td><p>Tracks or food</p></td></tr></tbody></table>"
         },
         "Study": {
-          "name": "Study",
+          "name": "Étude",
           "text": "<p>When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it.</p><p>The Areas of Knowledge table suggests which skills are applicable to various areas of knowledge.</p><table><caption>Areas of Knowledge</caption><thead><tr><th><p>Skill</p></th><th><p>Areas</p></th></tr></thead><tbody><tr><td><p>Arcana</p></td><td><p>Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)</p></td></tr><tr><td><p>History</p></td><td><p>Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)</p></td></tr><tr><td><p>Investigation</p></td><td><p>Traps, ciphers, riddles, and gadgetry</p></td></tr><tr><td><p>Nature</p></td><td><p>Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)</p></td></tr><tr><td><p>Religion</p></td><td><p>Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)</p></td></tr></tbody></table>"
         },
         "Utilize": {
-          "name": "Utilize",
+          "name": "Utilisation",
           "text": "<p>You normally interact with an object while doing something else, such as when you draw a sword as part of the @UUID[.f4fZHwBvpbpzRyn4]{Attack} action. When an object requires an action for its use, you take the Utilize action.</p>"
         },
         "Concentration": {
@@ -212,39 +212,39 @@
           "text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ow58p27ctAnr4VPH inline]</p>"
         },
         "Hide": {
-          "name": "Hide",
+          "name": "Furtivité",
           "text": "<p>With the Hide action, you try to conceal yourself. To do so, you must succeed on a [[/check stealth dc=15]] check while you’re @UUID[.YkuKTIH2YaYW8lTS]{Heavily Obscured} or behind &amp;Reference[Three-Quarters Cover] or &amp;Reference[Total Cover], and you must be out of any enemy’s line of sight; if you can see a creature, you can discern whether it can see you.</p><p>On a successful check, you have the &amp;Reference[Invisible] condition while hidden. Make note of your check’s total, which is the DC for a creature to find you with a [[/check prc]] check.</p><p>You stop being hidden immediately after any of the following occurs: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a Verbal component.</p>"
         },
         "Condition": {
-          "name": "Condition",
-          "text": "<p>A condition is a temporary game state. The definition of a condition says how it affects its recipient, and various rules define how to end a condition. This glossary defines these conditions:</p><ul><li>@UUID[.uDogReMO6QtH6NDw]{Blinded}</li><li>@UUID[.vLAsIUa0FhZNsyLk]{Charmed}</li><li>@UUID[.qlRw66tJhk0zLnwq]{Deafened}</li><li>@UUID[.jSQtPgNm0i4f3Qi3]{Exhaustion}</li><li>@UUID[.93uaingTESo8N1qL]{Frightened}</li><li>@UUID[.KbQ1k0OIowtZeQgp]{Grappled}</li><li>@UUID[.4i3G895hy99piand]{Incapacitated}</li><li>@UUID[.MQIZ1zRLWRcNOtPN]{Invisible}</li><li>@UUID[.RnxZoTglPnLc6UPb]{Paralyzed}</li><li>@UUID[.6vtLuQT9lwZ9N299]{Petrified}</li><li>@UUID[.HWs8kEojffqwTSJz]{Poisoned}</li><li>@UUID[.QxCrRcgMdUd3gfzz]{Prone}</li><li>@UUID[.dqLeGdpHtb8FfcxX]{Restrained}</li><li>@UUID[.EjbXjvyQAMlDyANI]{Stunned}</li><li>@UUID[.fZCRaKEJd4KoQCqH]{Unconscious}</li></ul><p>A condition doesn’t stack with itself; a recipient either has a condition or doesn’t. The &amp;Reference[Exhaustion] condition is an exception to that rule. <em>See also</em> chapter 1 @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbConditions000.JournalEntryPage.BuIBCfux6QYAah3q]{Conditions}.</p>"
+          "name": "État",
+          "text": "<p>Un état est une situation de jeu temporaire qui vous affecte. La définition d'un état indique comment il affecte son destiinataire, et diverses règles définissent comment mettre fin à un état. Le présent glossaire définit les états suivants :</p><ul><li>@UUID[.QxCrRcgMdUd3gfzz]{À terre}</li><li>@UUID[.KbQ1k0OIowtZeQgp]{Agrippé}</li><li>@UUID[.qlRw66tJhk0zLnwq]{Assourdi}</li><li>@UUID[.uDogReMO6QtH6NDw]{Aveuglé}</li><li>@UUID[.vLAsIUa0FhZNsyLk]{Charmé}</li><li>@UUID[.93uaingTESo8N1qL]{Effrayé}</li><li>@UUID[.HWs8kEojffqwTSJz]{Empoisonné}</li><li>@UUID[.dqLeGdpHtb8FfcxX]{Entravé}</li><li>@UUID[.jSQtPgNm0i4f3Qi3]{Épuisement}</li><li>@UUID[.EjbXjvyQAMlDyANI]{Étourdi}</li><li>@UUID[.fZCRaKEJd4KoQCqH]{Inconscient}</li><li>@UUID[.MQIZ1zRLWRcNOtPN]{Invisible}</li><li>@UUID[.4i3G895hy99piand]{Neutralisé}</li><li>@UUID[.RnxZoTglPnLc6UPb]{Paralysé}</li><li>@UUID[.6vtLuQT9lwZ9N299]{Pétrifié}</li></ul><p>Un état n'est pas cumulable avec lui-même : le sujet subit un état ou non. Seul l'état &amp;Reference[Exhaustion]{Épuisement} constitue une exeption à cette règle. <em>Lire aussi</em> chapitre 1 @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbConditions000.JournalEntryPage.BuIBCfux6QYAah3q]{État}.</p>"
         },
         "Blinded": {
-          "name": "Blinded",
+          "name": "Aveuglé",
           "text": "<p><em><strong>Can’t See.</strong></em> You can’t see and automatically fail any ability check that requires sight.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have Advantage, and your attack rolls have &amp;Reference[Disadvantage].</p>"
         },
         "Charmed": {
-          "name": "Charmed",
+          "name": "Charmé",
           "text": "<p>While you have the Charmed condition, you experience the following effects.</p><p><em><strong>Can’t Harm the Charmer.</strong></em> You can’t attack the charmer or target the charmer with damaging abilities or magical effects.</p><p><em><strong>Social Advantage.</strong></em> The charmer has Advantage on any ability check to interact with you socially.</p>"
         },
         "Deafened": {
-          "name": "Deafened",
+          "name": "Assourdi",
           "text": "<p><strong>Can’t Hear.</strong> You can’t hear and automatically fail any ability check that requires hearing.</p>"
         },
         "Exhaustion": {
-          "name": "Exhaustion",
+          "name": "Épuisement",
           "text": "<p>While you have the Exhaustion condition, you experience the following effects.</p><p><em><strong>Exhaustion Levels.</strong></em> This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.</p><p><em><strong>D20 Tests Affected.</strong></em> When you make a &amp;Reference[D20 Test], the roll is reduced by 2 times your Exhaustion level.</p><p><em><strong>Speed Reduced.</strong></em> Your &amp;Reference[Speed] is reduced by a number of feet equal to 5 times your Exhaustion level.</p><p><em><strong>Removing Exhaustion Levels.</strong></em> Finishing a &amp;Reference[Long Rest] removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.</p>"
         },
         "Frightened": {
-          "name": "Frightened",
+          "name": "Effrayé",
           "text": "<p>While you have the Frightened condition, you experience the following effects.</p><p><em><strong>Ability Checks and Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on ability checks and attack rolls while the source of fear is within line of sight.</p><p><em><strong>Can’t Approach.</strong></em> You can’t willingly move closer to the source of fear.</p>"
         },
         "Grappled": {
-          "name": "Grappled",
-          "text": "<p>While you have the Grappled condition, you experience the following effects.</p><p><em><strong>Speed 0.</strong></em> Your Speed is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on attack rolls against any target other than the grappler.</p><p><em><strong>Movable.</strong></em> The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.</p>"
+          "name": "Agrippé",
+          "text": "<p>Tant que vous avez l'état Agrippé, vous subissez les effets suivant</p><p><em><strong>Vitesse 0.</strong></em> Votre Vitesse est de 0 et ne peut pas augmenter.</p><p><em><strong>Effet sur les attaques.</strong></em> Vous subissez le &amp;Reference[Disadvantage] aux jets d'attaque contre toute cible hormis l'Agrippeur.</p><p><em><strong>Déplaçable.</strong></em> L'agrippeur peut vous tirer ou vous porter lorsqu'il se déplace, mais ses coûts de déplacement sont doublés, sauf si vous êtes de taille TP ou que votre catégorie est inférieure d'au moins deux crans à la sienne.</p>"
         },
         "Incapacitated": {
-          "name": "Incapacitated",
+          "name": "Neutralisé",
           "text": "<p>While you have the &amp;Reference[incapacitated] condition, you experience the following effects.</p><p><em><strong>Inactive.</strong></em> You can’t take any @UUID[.SsIXfzS2ZttwAaKj]{action}, @UUID[.EjR3KL7KLTwjWBS0]{Bonus Action}, or @UUID[.OhSIWaQ61dOp7S8M]{Reaction}.</p><p><em><strong>No Concentration.</strong></em> Your @UUID[.0a2umg2mJMAzM9Q3]{Concentration} is broken.</p><p><em><strong>Speechless.</strong></em> You can’t speak.</p><p><em><strong>Surprised.</strong></em> If you’re Incapacitated when you roll Initiative, you have &amp;Reference[Disadvantage] on the roll.</p>"
         },
         "Invisible": {
@@ -252,47 +252,47 @@
           "text": "<p>While you have the Invisible condition, you experience the following effects.</p><p><em><strong>Surprise.</strong></em> If you’re Invisible when you roll Initiative, you have &amp;Reference[Advantage] on the roll.</p><p><em><strong>Concealed.</strong></em> You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Disadvantage], and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature.</p>"
         },
         "Paralyzed": {
-          "name": "Paralyzed",
+          "name": "Paralysé",
           "text": "<p>While you have the Paralyzed condition, you experience the following effects.</p><p><em><strong>Incapacitated.</strong></em> You have the &amp;Reference[Incapacitated] condition.</p><p><em><strong>Speed 0.</strong></em> Your Speed is 0 and can’t increase.</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p><p><em><strong>Automatic Critical Hits.</strong></em> Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.</p>"
         },
         "Petrified": {
-          "name": "Petrified",
+          "name": "Pétrifié",
           "text": "<p>While you have the Petrified condition, you experience the following effects.</p><p><em><strong>Turned to Inanimate Substance.</strong></em> You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging.</p><p><em><strong>Incapacitated.</strong></em> You have the &amp;Reference[Incapacitated] condition.</p><p><em><strong>Speed 0.</strong></em> Your Speed is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Resist Damage.</strong></em> You have &amp;Reference[Resistance] to all damage.</p><p><em><strong>Poison Immunity.</strong></em> You have Immunity to the &amp;Reference[Poisoned] condition.</p>"
         },
         "Poisoned": {
-          "name": "Poisoned",
+          "name": "Empoisonné",
           "text": "<p>While you have the Poisoned condition, you experience the following effect.</p><p><em><strong>Ability Checks and Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on attack rolls and ability checks.</p>"
         },
         "Prone": {
           "name": "À Terre",
-          "text": "<p>Tant que vous avez l'état À terre, vous subissez les effets suivants.</p><p><em><strong>Déplacement limité.</strong></em> Vos seules possibilités de déplacement sont ramper ou vous relever en dépensant la moitié de votre &amp;Reference[Speed] (arrondie à l'inférieur), ce qui met un terme à l'état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever</p><p><em><strong>Effet sur les attaques.</strong></em> Vous subissez le &amp;Reference[Disadvantage] aux jets d'attaque. Un jet d'attaque contre vous reçoit l' &amp;Reference[Advantage] si l'assaillant se trouve dans un rayon de $1,50 \text{ m}$ de vous. Sans cela, ce jet d'attaque subit le Désavantage.</p>"
+          "text": "<p>Tant que vous avez l'état À terre, vous subissez les effets suivants.</p><p><em><strong>Déplacement limité.</strong></em> Vos seules possibilités de déplacement sont ramper ou vous relever en dépensant la moitié de votre &amp;Reference[Speed] (arrondi à l'inférieur), ce qui met un terme à l'état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever.</p><p><em><strong>Effet sur les attaques.</strong></em> Vous subissez le &amp;Reference[Disadvantage] aux jets d'attaque. Un jet d'attaque contre vous reçoit &amp;Reference[Advantage]{l'Avantage} si l'assaillant se trouve dans un rayon de 1,50 m de vous. Sans cela, ce jet d'attaque subit le Désavantage.</p>"
         },
         "Restrained": {
-          "name": "Restrained",
+          "name": "Entravé",
           "text": "<p>While you have the Restrained condition, you experience the following effects.</p><p><em><strong>Speed 0.</strong></em> Your &amp;Reference[Speed] is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have Advantage, and your attack rolls have &amp;Reference[Disadvantage].</p><p><em><strong>Saving Throws Affected.</strong></em> You have Disadvantage on Dexterity saving throws.</p>"
         },
         "Stunned": {
-          "name": "Stunned",
+          "name": "Étourdi",
           "text": "<p>When you have the Stunned condition, you experience the following effects.</p><p><em><strong>Incapacitated.</strong></em> You have the @UUID[.4i3G895hy99piand]{Incapacitated} condition.</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p>"
         },
         "Unconscious": {
-          "name": "Unconscious",
+          "name": "Inconscient",
           "text": "<p>While you have the Unconscious condition, you experience the following effects.</p><p><em><strong>Inert.</strong></em> You have the &amp;Reference[Incapacitated] and &amp;Reference[Prone] conditions, and you drop whatever you’re holding. When this condition ends, you remain Prone.</p><p><em><strong>Speed 0.</strong></em> Your &amp;Reference[Speed] is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Automatic Critical Hits.</strong></em> Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.</p>"
         },
         "Hazard": {
-          "name": "Hazard",
-          "text": "<p>A hazard is an environmental danger. See also @UUID[.mPBGM1vguT5IPzxT]{Burning}, @UUID[.FZFvLNOX0lHaHZ1k]{Dehydration}, @UUID[.lCwPWK4ODxw2IV1x]{Falling}, @UUID[.earBo4vQPC1ti4g7]{Malnutrition}, and @UUID[.gAvV8TLyS8UGq00x]{Suffocation}.</p>"
+          "name": "Dangers",
+          "text": "<p>A hazard is an environmental danger. See also @UUID[.mPBGM1vguT5IPzxT]{Burning}, @UUID[.FZFvLNOX0lHaHZ1k]{Dehydration}, @UUID[.lCwPWK4ODxw2IV1x]{Falling}, @UUID[.earBo4vQPC1ti4g7]{Malnutrition}, and @UUID[.gAvV8TLyS8UGq00x]{Asphyxie}.</p>"
         },
         "Burning": {
-          "name": "Burning",
+          "name": "Brûlures",
           "text": "<p>A burning creature or object takes [[/damage 1d4 type=fire]] damage at the start of each of its turns. As an action, you can extinguish fire on yourself by giving yourself the @UUID[.QxCrRcgMdUd3gfzz]{Prone} condition and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated.</p>"
         },
         "Dehydration": {
-          "name": "Dehydration",
+          "name": "Désydratation",
           "text": "<p>A creature requires an amount of water per day based on its size, as shown in the Water Needs per Day table. A creature that drinks less than half the required water for a day gains 1 Exhaustion level at the day’s end. @UUID[.jSQtPgNm0i4f3Qi3]{Exhaustion} caused by dehydration can’t be removed until the creature drinks the full amount of water required for a day.</p><table><caption>Water Needs per Day</caption><thead><tr><th><p>Size</p></th><th><p>Water</p></th></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>1/4 gallon</p></td></tr><tr><td><p>Small</p></td><td><p>1 gallon</p></td></tr><tr><td><p>Medium</p></td><td><p>1 gallon</p></td></tr><tr><td><p>Large</p></td><td><p>4 gallons</p></td></tr><tr><td><p>Huge</p></td><td><p>16 gallons</p></td></tr><tr><td><p>Gargantuan</p></td><td><p>64 gallons</p></td></tr></tbody></table>"
         },
         "Falling": {
-          "name": "Falling",
+          "name": "Chutes",
           "text": "<p>A creature that falls takes [[/damage 1d6 type=bludgeoning]] damage at the end of the fall for every 10 feet it fell, to a maximum of [[/damage 20d6 type=bludgeoning]] damage. When the creature lands, it has the @UUID[.QxCrRcgMdUd3gfzz]{Prone} condition unless it avoids taking any damage from the fall.</p><p>A creature that falls into water or another liquid can use its @UUID[.OhSIWaQ61dOp7S8M]{Reaction} to make a [[/check dc=15 ath]] or [[/check dc=15 acr]] check to hit the surface head or feet first. On a successful check, any damage resulting from the fall is halved.</p>"
         },
         "Malnutrition": {
@@ -300,8 +300,8 @@
           "text": "<p>A creature needs an amount of food per day based on its size, as shown in the Food Needs per Day table. A creature that eats but consumes less than half the required food for a day must succeed on a [[/save dc=10 con]] saving throw or gain 1 &amp;Reference[exhaustion] level at the day’s end. A creature that eats nothing for 5 days automatically gains 1 Exhaustion level at the end of the fifth day as well as an additional level at the end of each subsequent day without food.</p><p>Exhaustion caused by malnutrition can’t be removed until the creature eats the full amount of food required for a day.</p><table><caption>Food Needs per Day</caption><thead><tr><th><p>Size</p></th><th><p>Food</p></th><th></th><th><p>Size</p></th><th><p>Food</p></th></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>1/4 pound</p></td><td></td><td><p>Large</p></td><td><p>4 pounds</p></td></tr><tr><td><p>Small</p></td><td><p>1 pound</p></td><td></td><td><p>Huge</p></td><td><p>16 pounds</p></td></tr><tr><td><p>Medium</p></td><td><p>1 pound</p></td><td></td><td><p>Gargantuan</p></td><td><p>64 pounds</p></td></tr></tbody></table>"
         },
         "Suffocation": {
-          "name": "Suffocation",
-          "text": "<p>A creature can hold its breath for a number of minutes equal to 1 plus its Constitution modifier (minimum of 30 seconds) before suffocation begins. When a creature runs out of breath or is choking, it gains 1 &amp;Reference[Exhaustion] level at the end of each of its turns. When a creature can breathe again, it removes all levels of Exhaustion it gained from suffocating.</p>"
+          "name": "Asphyxie",
+          "text": "<p>Une créature peut retenir son souffle pendant un nombre de minutes égal à 1, son modificateur de Constitution (minimum 30 secondes) avant que ne débute l'asphyxie. Lorsqu'une créature à bout de souffle commence à s'asphyxier, elle reçoit 1 niveau d'&amp;Reference[Exhaustion]{d'Épuisement} à la fin de chacun de ses tours. Lorsque la créature peut à nouveau respirer, elle supprime tous les niveaux &amp;Reference[Exhaustion]{d'Épuisement} entraînés par l'asphyxie.</p>"
         },
         "Area of Effect": {
           "name": "Area of Effect",
@@ -336,8 +336,8 @@
           "text": "<p>A monster has a starting attitude toward a player character: &amp;Reference[Friendly], &amp;Reference[Hostile], or &amp;Reference[Indifferent]. See also &amp;Reference[Influence].</p>"
         },
         "Friendly": {
-          "name": "Friendly",
-          "text": "<p>A Friendly creature views you favorably. You have Advantage on an ability check to influence a Friendly creature. <em>See also</em> &amp;Reference[Influence].</p>"
+          "name": "Amical",
+          "text": "<p>Une créature Amicale vous considère sous un jour favorable. Vous avez l'Avantage aux tests de caractéristique visant à influencer une créature Amicale. <em>Lire aussi</em> &amp;Reference[Influence].</p>"
         },
         "Hostile": {
           "name": "Hostile",
@@ -408,12 +408,12 @@
           "text": "<p>An encounter is a scene in an adventure that is part of at least one of the game’s three pillars: social interaction, exploration, or combat. <em>See also</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSocialInterac]{Social Interaction}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExploration00]{Exploration}, and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCombat0000000]{Combat}).</p>"
         },
         "Alignment": {
-          "name": "Alignment",
-          "text": "<p>A creature’s alignment broadly describes its ethical attitudes and ideals. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward order (lawful, chaotic, or neutral). These factors allow for nine possible combinations, such as Lawful Good and Neutral Evil.</p>"
+          "name": "Alignement",
+          "text": "<p>L'alignement d'une créature illustre globalement ses valeurs éthiques et ses idéaux. L'alignement combine deux aspects : la moralité (bon, mauvais ou neutre) et le point de vue vis-à-vis de l'ordre (loyal, chaotique ou neutre). Ces deux facteurs autorisent neuf combinaisons, par exemple Loyal Bon et Neutre Mauvais.</p>"
         },
         "Ally": {
-          "name": "Ally",
-          "text": "<p>A creature is your ally if it is a member of your adventuring party, your friend, on your side in combat, or a creature that the rules or the DM designates as your ally.</p>"
+          "name": "Allié",
+          "text": "<p>Une créature est votre alliée si elle appartient à votre groupe d'aventuriers, si elle est votre amie ou figure dans votre camp lors d'un combat, ou encore s'il s'agit d'une créature que les règles ou le MD désignent comme votre alliée.</p>"
         },
         "Cover": {
           "name": "Abri",
@@ -496,8 +496,8 @@
           "text": "<p>A creature can grapple another creature. Characters typically grapple by using an Unarmed Strike. Many monsters have special attacks that allow them to quickly grapple prey. However a grapple is initiated, it follows these rules. <em>See also</em> @UUID[.2Uvc5myrDs18Cf19]{Unarmed Strike} and &amp;Reference[Grappled].</p><p><em><strong>Grappled Condition. </strong></em>Successfully grappling a creature gives it the Grappled condition.</p><p><em><strong>One Grapple per Hand.</strong></em> A creature must have a hand free to grapple another creature. Some stat blocks and game effects allow a creature to grapple using a tentacle, a maw, or another body part. Whatever part a grappler uses, it can grapple only one creature at a time with that part, and the grappler can’t use that part to target another creature unless it ends the grapple.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.2TZKy9YbMN3ZY3h8 inline]</p>"
         },
         "Unarmed Strike": {
-          "name": "Unarmed Strike",
-          "text": "<p>Instead of using a weapon to make a melee attack, you can use a punch, kick, head-butt, or similar forceful blow. In game terms, this is an Unarmed Strike—a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.</p><p>Whenever you use your Unarmed Strike, choose one of the following options for its effect.</p><p><em><strong>Damage.</strong></em> You make an attack roll against the target. Your bonus to the roll equals your Strength modifier plus your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 plus your Strength modifier.</p><p><em><strong>Grapple.</strong></em> The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the @UUID[.KbQ1k0OIowtZeQgp]{Grappled} condition. The DC for the saving throw and any escape attempts equals 8 plus your Strength modifier and Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it. <em>See also</em> @UUID[.YSLWJcQCP6kzsPql]{Grappling}.</p><p><em><strong>Shove.</strong></em> The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push it 5 feet away or cause it to have the @UUID[.QxCrRcgMdUd3gfzz]{Prone} condition. The DC for the saving throw equals 8 plus your Strength modifier and Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you.</p>"
+          "name": "Attaque à mains nues",
+          "text": "<p>Au lieu d'utiliser une arme pour effectuer une attaque de corps à corps, vous pouvez recourir à un coup de poing, de pied ou de tête, ou autre frappe violente. En termes de jeu, on parle alors d'attaque à mains nues : une attaque de corps à corps qui vous demande d'utiliser votre corps pour infliger des dégâts, agripper ou bousculer une cible située dans un rayon de 1,50 m.</p><p>Chaque fois que vous recourez à votre attaque à mains nues, choisissez l'une des options suivantes pour son effet.</p><p><em><strong>Bousculade.</strong></em> La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (c'est elle qui choisit), faute de quoi vous la poussez sur 1,50 m ou lui infligez l'état &amp;reference[Prone]. Le DD du jet de sauvegarde est égal à 8 + votre modificateur de Force + votre bonus de maîtrise. Cette bousculade n'est possible que si la catégorie de taille de la cible n'est pas supérieure à la vôtre de plus d'un cran.</p><p><em><strong>Dégâts.</strong></em> Vous effectuez un jet d'attaque contre la cible. Le bonus au jet est égal à votre modificateur de Force + votre bonus de maîtrise. Si l'attaque touche, la cible subit un montant de dégâts contondants égal à 1 + votre modificateur de Force.</p><p><em><strong>Lutte.</strong></em> La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (c'est elle qui choisit) sous peine de subir l'état &amp;reference[Grappled] Le DD du jet de sauvegarde et des tentatives d'évasion est égal à 8 + votre modificateur de Force + votre bonus de maîtrise. Cette lutte n'est possible que si la catégorie de taille de la cible n'est pas supérieure à la vôtre de plus d'un cran et si vous disposez d'une main libre pour vous saisir d'elle. Lire aussi « Lutte ». <em>See also</em> &amp;reference[Grappling].</p>"
         },
         "Healing": {
           "name": "Healing",
@@ -532,8 +532,8 @@
           "text": "<p>If you have Immunity to a damage type or a condition, it doesn’t affect you in any way.</p>"
         },
         "Improvised Weapons": {
-          "name": "Improvised Weapons",
-          "text": "<p>An improvised weapon is an object wielded as a makeshift weapon, such as broken glass, a table leg, or a frying pan. A Simple or Martial weapon also counts as an improvised weapon if it’s wielded in a way contrary to its design; if you use a Ranged weapon to make a melee attack or throw a Melee weapon that lacks the Thrown property, the weapon counts as an improvised weapon. An improvised weapon follows the rules below.</p><p><em><strong>Proficiency.</strong></em> Don’t add your Proficiency Bonus to attack rolls with an improvised weapon.</p><p><em><strong>Damage.</strong></em> On a hit, the weapon deals [[/damage 1d4]] damage of a type the DM thinks is appropriate for the object.</p><p><em><strong>Range.</strong></em> If you throw the weapon, it has a normal range of 20 feet and a long range of 60 feet.</p><p><em><strong>Weapon Equivalents.</strong></em> If an improvised weapon resembles a Simple or Martial weapon, the DM may say it functions as that weapon and uses that weapon’s rules. For example, the DM could treat a table leg as a Club.</p>"
+          "name": "Armes Improvisées",
+          "text": "<p>Une arme improvisée est un objet utilisé pour dépanner comme arme, bouteille cassée, pied de table, poêle à frire, etc. Une arme courante ou de guerre est elle aussi considérée comme une arme improvisée si l'on s'en sert sans tenir compte de sa conception initiale : si vous utilisez une arme à distance pour effectuer une attaque de corps à corps ou jetez une arme de corps à corps dépourvue de la propriété Lancée, l'arme est alors considérée comme une arme improvisée. Une arme improvisée obéit aux règles ci-dessous.</p><p><em><strong>Maîtrise.</strong></em> N'ajoutez pas votre Bonus de Maîtrise aux jets d'attaque avec une arme improvisée.</p><p><em><strong>Dégâts.</strong></em> Si l'attaque touche, l'arme inflige [[/damage 1d4]] dégâts d'un type que le MD juge adapté à l'objet.</p><p><em><strong>Portée.</strong></em> Si vous lancez l'arme, sa portée normale est de 6 m et sa portée longue de 18 m.</p><p><em><strong>Arme équivalente.</strong></em> Quand une arme improvisée est comparable à une arme courante ou de guerre, le MD peut statuer qu'elle s'utilise de la même manière et obéit aux mêmes règles. Il peut ainsi considérer qu'un pied de table équivaut à un gourdin.</p>"
         },
         "Initiative": {
           "name": "Initiative",
@@ -596,8 +596,8 @@
           "text": "<p>If you have a spell prepared that has the Ritual tag, you can cast that spell as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal. It also doesn’t expend a spell slot, which means the ritual version of a spell can’t be cast at a higher level. <em>See also</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000]{chapter 7}.</p>"
         },
         "Round Down": {
-          "name": "Round Down",
-          "text": "<p>Whenever you divide or multiply a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater. Some rules make an exception and tell you to round up.</p>"
+          "name": "Arrondis à l'inférieur",
+          "text": "<p>Chaque fois que vous divisez ou multipliez un nombre dans le jeu et que vous obtenez une fraction, arrondissez à l'entier inférieur, même si cette fraction est d'un demi ou plus. Certaines règles constituent une exception en vous indiquant d'arrondir à l'entier supérieur.</p>"
         },
         "Save": {
           "name": "Save",
@@ -672,8 +672,8 @@
           "text": "<p>If you have Vulnerability to a damage type, damage of that type is doubled against you. Vulnerability is applied only once to an instance of damage. <em>See also</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbDamageAndHeal]{Damage and Healing}.</p>"
         },
         "Weapon": {
-          "name": "Weapon",
-          "text": "<p>A weapon is an object that is in the Simple or Martial weapon category. <em>See also</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.dWQ2ZTLOuKr3PMAx]{Weapons}.</p>"
+          "name": "Arme",
+          "text": "<p>Une arme est un objet appartenant à la catégorie des armes courantes ou de guerre. <em>Lire aussi</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.dWQ2ZTLOuKr3PMAx]{Armes}.</p>"
         },
         "Weapon Attack": {
           "name": "Weapon Attack",
@@ -2257,7 +2257,7 @@
         },
         "Hazards": {
           "name": "Hazards",
-          "text": "<p>Monsters are the main perils characters face, but other dangers await. The rules glossary defines the following &amp;Reference[hazards]:</p><ul><li><p>&amp;Reference[Burning]</p></li><li><p>&amp;Reference[Dehydration]</p></li><li><p>&amp;Reference[Falling]</p></li><li><p>&amp;Reference[Malnutrition]</p></li><li><p>&amp;Reference[Suffocation]</p></li></ul><h2>Burning</h2><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.mPBGM1vguT5IPzxT inline]</p><h2>Dehydration</h2><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.FZFvLNOX0lHaHZ1k inline]</p><h2>Falling</h2><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.lCwPWK4ODxw2IV1x inline]</p><h2>Malnutrition</h2><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.earBo4vQPC1ti4g7 inline]</p><h2>Suffocation</h2><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.gAvV8TLyS8UGq00x inline]</p>"
+          "text": "<p>Monsters are the main perils characters face, but other dangers await. The rules glossary defines the following &amp;Reference[hazards]:</p><ul><li><p>&amp;Reference[Burning]</p></li><li><p>&amp;Reference[Dehydration]</p></li><li><p>&amp;Reference[Falling]</p></li><li><p>&amp;Reference[Malnutrition]</p></li><li><p>&amp;Reference[Suffocation]</p></li></ul><h2>Burning</h2><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.mPBGM1vguT5IPzxT inline]</p><h2>Dehydration</h2><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.FZFvLNOX0lHaHZ1k inline]</p><h2>Falling</h2><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.lCwPWK4ODxw2IV1x inline]</p><h2>Malnutrition</h2><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.earBo4vQPC1ti4g7 inline]</p><h2>Asphyxie</h2><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.gAvV8TLyS8UGq00x inline]</p>"
         },
         "Travel": {
           "name": "Travel",
