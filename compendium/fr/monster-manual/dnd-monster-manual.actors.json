@@ -16312,25 +16312,25 @@
           }
         },
         "Searing Fork": {
-          "name": "Searing Fork",
+          "name": "Fourche",
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Hurl Flame": {
-          "name": "Hurl Flame",
+          "name": "Jet de flammes",
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a flammable object that isn’t being worn or carried, it starts burning.</p>"
         },
         "Infernal Tail": {
-          "name": "Infernal Tail",
-          "description": "<p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=tJYeyUk3iPYJq9xM]], one [[lookup @target.affects.type activity=tJYeyUk3iPYJq9xM]] the [[lookup @name lowercase]] can see within [[lookup @range.value activity=tJYeyUk3iPYJq9xM]] [[lookup @range.units activity=tJYeyUk3iPYJq9xM]].</p><p class=\"feature\"><em>Failure:</em> [[/damage average activity=tJYeyUk3iPYJq9xM]] damage, and the target receives an infernal wound if it doesn’t have one. While wounded, the target loses [[/damage average activity=zZfCQ0IeJZCjPLzE]] Hit Points at the start of each of its turns. The wound closes after [[lookup @duration.value activity=tJYeyUk3iPYJq9xM]] [[lookup @duration.units activity=tJYeyUk3iPYJq9xM]], after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a [[/check dc=17 ability=wis skill=med format=long]].</p>",
+          "name": "Queue infernale",
+          "description": "<p class=\"feature\"><em>Jet de sauvegarde de Dextérité:</em> DD [[lookup @save.dc.value activity=tJYeyUk3iPYJq9xM]], une [[lookup @target.affects.type activity=tJYeyUk3iPYJq9xM]] que le [[lookup @name lowercase]] peux voir à [[lookup @range.value activity=tJYeyUk3iPYJq9xM]] [[lookup @range.units activity=tJYeyUk3iPYJq9xM]].</p><p class=\"feature\"><em>Échec :</em> [[/damage average activity=tJYeyUk3iPYJq9xM]] dpoints de dégâts, et la cible subit une blessure infernale si elle n'en a pas déjà une. Tant qu’elle est blessée, la cible perd [[/damage average activity=zZfCQ0IeJZCjPLzE]] points de vie au début de chacun de ses tours. La blessure se referme après [[lookup @duration.value activity=tJYeyUk3iPYJq9xM]] [[lookup @duration.units activity=tJYeyUk3iPYJq9xM]], après qu'un sort a restauré les points de vie de la cible, ou après que la cible ou une créature située à moins de 1,5 mètre d'elle a effectué une action pour panser la blessure, en réussissant un [[/check dc=17 ability=wis skill=med format=long]].</p>",
           "activities": {
             "Save": {
-              "name": "Save"
+              "name": "sauvegarde"
             },
             "Target: HP Loss": {
-              "name": "Target: HP Loss"
+              "name": "Cible : perte de PV"
             },
             "Stanch Wound Check": {
-              "name": "Stanch Wound Check"
+              "name": "Contrôle des blessures"
             }
           }
         }
@@ -17273,7 +17273,7 @@
         },
         "Sticky Net": {
           "name": "Sticky Net",
-          "description": "<p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.formula activity=MxEs7KnCVGemObHx]], one [[lookup @target.affects.special activity=MxEs7KnCVGemObHx]] [[lookup @target.affects.type activity=MxEs7KnCVGemObHx]] the kuo-toa can see within [[lookup @range.value activity=MxEs7KnCVGemObHx]] feet.</p><p><em>Failure:</em> The target has the &amp;Reference[Restrained apply=false] condition until the net is destroyed (AC 10; HP 5; Immunity to Bludgeoning, Poison, and Psychic damage). A creature can take an action to make a [[/skill ath 10]] check to free itself or another creature in a net within 5 feet, destroying the net on a success.</p>",
+          "description": "<p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.formula activity=MxEs7KnCVGemObHx]], one [[lookup @target.affects.special activity=MxEs7KnCVGemObHx]] [[lookup @target.affects.type activity=MxEs7KnCVGemObHx]] the kuo-toa can see within [[lookup @range.value activity=MxEs7KnCVGemObHx]] feet.</p><p><em>Failure:</em> The target has the &amp;Reference[Restrained apply=false] condition until the net is destroyed (AC 10; PV5; Immunity to Bludgeoning, Poison, and Psychic damage). A creature can take an action to make a [[/skill ath 10]] check to free itself or another creature in a net within 5 feet, destroying the net on a success.</p>",
           "activities": {
             "Escape Check": {
               "name": "Escape Check"
@@ -17282,7 +17282,7 @@
           "effects": {
             "Restrained": {
               "name": "Restrained",
-              "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition until the net is destroyed (AC 10; HP 5; Immunity to Bludgeoning, Poison, and Psychic damage). A creature can make a DC 10 Strength (Athletics) check to free itself or another creature in a net within 5 feet, destroying the net on a success.</p>"
+              "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition until the net is destroyed (AC 10; PV5; Immunity to Bludgeoning, Poison, and Psychic damage). A creature can make a DC 10 Strength (Athletics) check to free itself or another creature in a net within 5 feet, destroying the net on a success.</p>"
             }
           }
         }
@@ -20033,7 +20033,7 @@
         },
         "Undead Restoration": {
           "name": "Undead Restoration",
-          "description": "<p>If destroyed, the  [[lookup @name lowercase]] gains a new body in 24 hours if its heart is intact, reviving with all its Hit Points. The new body appears in an unoccupied space within the  [[lookup @name lowercase]]'s lair. The heart is a Tiny object that has AC 17, HP 10, and Immunity to all damage except Fire.</p>"
+          "description": "<p>If destroyed, the  [[lookup @name lowercase]] gains a new body in 24 hours if its heart is intact, reviving with all its Hit Points. The new body appears in an unoccupied space within the  [[lookup @name lowercase]]'s lair. The heart is a Tiny object that has AC 17, PV10, and Immunity to all damage except Fire.</p>"
         },
         "Magic Resistance": {
           "name": "Magic Resistance",
@@ -20044,8 +20044,8 @@
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, it is cursed. While cursed, the target can’t regain Hit Points, its Hit Point maximum doesn’t return to normal when finishing a Long Rest, and its Hit Point maximum decreases by [[/r 3d6#HP Max Decrease]]{10 (3d6)} every 24 hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack.</p>",
           "activities": {
             "HP Max Decrease": {
-              "name": "HP Max Decrease",
-              "roll": "HP Max Decr."
+              "name": "Diminuition des PV Max.",
+              "roll": "Dim. PV Max."
             }
           },
           "effects": {
@@ -20543,7 +20543,7 @@
         },
         "Soul Bag": {
           "name": "Soul Bag",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] has a soul bag. While holding or carrying the bag, the [[lookup @name lowercase]] can use its Nightmare Haunting action.</p><p class=\"feature\">The bag has AC 15, HP 20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The [[lookup @name lowercase]] can create a new bag after 7 days.</p>"
+          "description": "<p class=\"feature\">The [[lookup @name lowercase]] has a soul bag. While holding or carrying the bag, the [[lookup @name lowercase]] can use its Nightmare Haunting action.</p><p class=\"feature\">The bag has AC 15, PV20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The [[lookup @name lowercase]] can create a new bag after 7 days.</p>"
         },
         "Multiattack": {
           "name": "Multiattack",
@@ -23754,7 +23754,7 @@
         },
         "Tentacle": {
           "name": "Tentacle",
-          "description": "<p>[[/attack extended]]. <em>Hit:</em> The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from one of six tentacles, and the target has the &amp;Reference[Poisoned apply=false] condition until the grapple ends.</p><p>The tentacle can be damaged, freeing a creature it has Grappled when destroyed (AC 20, HP 10, Immunity to Poison and Psychic damage). Damaging the tentacle deals no damage to the [[lookup @name lowercase]], and a destroyed tentacle regrows at the start of the [[lookup @name lowercase]]’s next turn.</p>",
+          "description": "<p>[[/attack extended]]. <em>Hit:</em> The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from one of six tentacles, and the target has the &amp;Reference[Poisoned apply=false] condition until the grapple ends.</p><p>The tentacle can be damaged, freeing a creature it has Grappled when destroyed (AC 20, PV10, Immunity to Poison and Psychic damage). Damaging the tentacle deals no damage to the [[lookup @name lowercase]], and a destroyed tentacle regrows at the start of the [[lookup @name lowercase]]’s next turn.</p>",
           "activities": {
             "Escape Check": {
               "name": "Escape Check"
@@ -26464,17 +26464,17 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=kFyuof0SS3nohP0f]], one [[lookup @target.affects.type activity=kFyuof0SS3nohP0f]] Charmed by the [[lookup @name lowercase]] within [[lookup @range.value activity=kFyuof0SS3nohP0f]] feet.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage.</p><p class=\"feature\"><em>Success:</em> Half damage.</p><p class=\"feature\"><em>Failure or Success:</em> The target’s Hit Point maximum decreases by an amount equal to the damage taken.</p>",
           "activities": {
             "Save": {
-              "name": "Save",
-              "chatFlavor": "Failure or Success: The target’s HP max. decreases by an amount equal to the damage taken."
+              "name": "Sauvegarde",
+              "chatFlavor": "Échec ou réussite : les PV max. de la cible diminuent d'un montant égal aux dégâts subis."
             }
           }
         },
         "Shape-Shift": {
-          "name": "Shape-Shift",
+          "name": "Métamorphose",
           "description": "<p class=\"feature\">The [[lookup @name lowercase]] shape-shifts into a Medium or Small Humanoid, or it returns to its true form. Its game statistics are the same in each form, except its Fly Speed is available only in its true form. Any equipment it is wearing or carrying isn’t transformed.</p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Utilisation"
             }
           }
         },
@@ -29291,14 +29291,14 @@
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.</p>"
         },
         "Create Specter": {
-          "name": "Create Specter",
+          "name": "Création de spectre",
           "description": "<p class=\"feature\">The [[lookup @name lowercase]] targets a Humanoid corpse within [[lookup @range.value activity=ypIQdXr13u7LATUP]] feet of itself that has been dead for no longer than 1 minute. The target’s spirit rises as a <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSpecter0000000]{Specter}</strong> in the space of its corpse or in the nearest unoccupied space. The specter is under the [[lookup @name lowercase]]’s control. The [[lookup @name lowercase]] can have no more than seven specters under its control at a time.</p>",
           "activities": {
             "Spirit Rises": {
-              "name": "Spirit Rises",
+              "name": "Emergeance de l'esprit",
               "profiles": {
                 "Specter": {
-                  "name": "Specter"
+                  "name": "Spectre"
                 }
               }
             }
