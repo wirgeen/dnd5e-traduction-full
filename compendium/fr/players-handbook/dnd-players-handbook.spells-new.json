@@ -37,22 +37,33 @@
   },
   "entries": {
     "phbArcaneGate000": {
-      "name": "Arcane Gate",
-      "description": "<div><p>You create linked teleportation portals. Choose two Large, unoccupied spaces on the ground that you can see, one space within range and the other one within 10 feet of you. A circular portal opens in each of those spaces and remains for the duration.</p><p>The portals are two-dimensional glowing rings filled with mist that blocks sight. They hover inches from the ground and are perpendicular to it.</p><p>A portal is open on only one side (you choose which). Anything entering the open side of a portal exits from the open side of the other portal as if the two were adjacent to each other. As a Bonus Action, you can change the facing of the open sides.</p></div>"
-    },
-    "phbEvilAndGoodPr": {
-      "name": "Protection from Evil and Good",
-      "description": "<div><p>Until the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead. The protection grants several benefits. Creatures of those types have Disadvantage on attack rolls against the target. The target also can’t be possessed by or gain the &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened apply=false] conditions from them. If the target is already possessed, Charmed, or Frightened by such a creature, the target has Advantage on any new saving throw against the relevant effect.</p></div>",
-      "effects": {
-        "Protected": {
-          "name": "Protected",
-          "description": "<p>Creatures of those types have Disadvantage on attack rolls against the target. The target also can’t be possessed by or gain the &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened apply=false] conditions from them. </p>"
+      "name": "Portail arcanique",
+      "description": "<p>Vous créez des portails de téléportation liés. Choisissez deux espaces inoccupés et de taille Large au sol, l'un dans la portée du sort et l'autre à moins de 3 m de vous. Un portail circulaire s'ouvre dans chacun de ces espaces et demeure pour toute la durée.</p><p>Les portails sont des anneaux lumineux en deux dimensions remplis de brume qui bloque la vue. Ils flottent juste au-dessus du sol et sont perpendiculaires à celui-ci.</p><p>Un portail n'est ouvert que d'un seul côté (vous choisissez lequel). Toute chose entrant dans le côté ouvert d'un portail ressort du côté ouvert de l'autre portail comme si les deux étaient adjacents. En tant qu'Action Bonus, vous pouvez changer l'orientation des côtés ouverts.</p>",
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
         }
       }
     },
+    "phbEvilAndGoodPr": {
+      "name": "Protection contre le Bien et le Mal",
+      "description": "<div><p>Jusqu'à la fin du sort, une créature consentante que vous touchez est protégée contre les créatures suivantes : Aberrations, Célestes, Élémentaires, Fées, Fiélons, ou Morts-vivants. La protection confère plusieurs avantages. Les créatures de ces types ont un Désavantage sur les jets d’attaque contre la cible. De plus, la cible ne peut pas être possédée ni recevoir les conditions &amp;Reference[Charmed apply=false] ou &amp;Reference[Frightened apply=false] de ces créatures. Si la cible est déjà possédée, Charmée, ou Effrayée par une telle créature, elle a l'Avantage sur tout nouveau jet de sauvegarde contre cet effet.</p></div>",
+      "effects": {
+        "Protected": {
+          "name": "Protégée",
+          "description": "<p>Les créatures de ces types ont un Désavantage sur les jets d'attaque contre la cible. La cible ne peut pas non plus être possédée ou recevoir les conditions &amp;Reference[Charmed apply=false] ou &amp;Reference[Frightened apply=false] de leur part.</p>"
+        }
+      },
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
+        }
+      },
+      "materials": "une flasque d'eau bénite d'une valeur minimale de 25 po, que le sort détruit"
+    },
     "phbFaithfulHound": {
-      "name": "Mordenkainen's Faithful Hound",
-      "description": "<p>You conjure a phantom watchdog in an unoccupied space that you can see within range. The hound remains for the duration or until the two of you are more than 300 feet apart from each other.</p><p>No one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound has Truesight with a range of 30 feet.</p><p>At the start of each of your turns, the hound attempts to bite one enemy within 5 feet of it. That enemy must succeed on a Dexterity saving throw or take 4d8 Force damage.</p><p>On your later turns, you can take a Magic action to move the hound up to 30 feet.</p>",
+      "name": "Chien de garde de Mordenkainen",
+      "description": "<p>Vous invoquez un chien de garde fantomatique dans un espace inoccupé à portée que vous pouvez voir. Le chien reste jusqu’à la fin de la durée ou tant que vous ne vous éloignez pas de lui de plus de 90 m.</p><p>Personne d’autre que vous ne peut voir le chien, et il est intangible et invulnérable. Lorsqu'une créature de taille Petite ou supérieure s'approche à moins de 9 m sans prononcer le mot de passe que vous avez spécifié lors du lancement du sort, le chien commence à aboyer bruyamment. Le chien possède une vision véritable dans un rayon de 9 m.</p><p>Au début de chacun de vos tours, le chien tente de mordre un ennemi situé à 1,5 mètre de lui. Cet ennemi doit réussir un jet de sauvegarde de Dextérité ou subir 4d8 dégâts de Force.</p><p>Lors de vos tours ultérieurs, vous pouvez prendre une action magique pour déplacer le chien jusqu'à 9 m.</p>",
       "activities": {
         "Move Hound": {
           "name": "Move Hound"
@@ -69,14 +80,14 @@
       }
     },
     "phbPhantasmalFor": {
-      "name": "Phantasmal Force",
-      "description": "<div><p>You attempt to craft an illusion in the mind of a creature you can see within range. The target makes an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other phenomenon that is no larger than a 10-foot Cube and that is perceivable only to the target for the duration. The phantasm includes sound, temperature, and other stimuli.</p><p>The target can take a &amp;Reference[Study]{Study} action to examine the phantasm with an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.</p><p>While affected by the spell, the target treats the phantasm as if it were real and rationalizes any illogical outcomes from interacting with it. For example, if the target steps through a phantasmal bridge and survives the fall, it believes the bridge exists and something else caused it to fall.</p><p>An affected target can even take damage from the illusion if the phantasm represents a dangerous creature or hazard. On each of your turns, such a phantasm can deal 2d8 Psychic damage to the target if it is in the phantasm’s area or within 5 feet of the phantasm. The target perceives the damage as a type appropriate to the illusion.</p></div>",
+      "name": "Force fantasmagorique",
+      "description": "<div><p>Vous tentez de créer une illusion dans l'esprit d'une créature que vous pouvez voir à portée. La cible effectue un jet de sauvegarde d'Intelligence. En cas d'échec, vous créez un objet, une créature ou un autre phénomène fantasmagorique qui ne dépasse pas la taille d'un cube de 3 m et qui est perceptible uniquement par la cible pendant toute la durée. Le fantasme inclut des sons, des températures et d'autres stimuli.</p><p>La cible peut effectuer une action &amp;Reference[Study]{Étudier} pour examiner le fantasme avec un [[/check ability=int skill=inv dc=@attributes.spelldc]] test contre le DD de sauvegarde de vos sorts. Si le test réussit, la cible réalise que le fantasme est une illusion et le sort prend fin.</p><p>Tant qu'elle est affectée par le sort, la cible traite le fantasme comme s'il était réel et rationalise tout résultat illogique découlant de son interaction avec lui. Par exemple, si la cible traverse un pont fantasmagorique et survit à la chute, elle croit que le pont existe et qu'une autre cause a entraîné sa chute.</p><p>Une cible affectée peut même subir des dégâts dus à l'illusion si le fantasme représente une créature dangereuse ou un danger. À chacun de vos tours, un tel fantasme peut infliger 2d8 dégâts Psychiques à la cible si elle se trouve dans la zone du fantasme ou à 1,5 m de celui-ci. La cible perçoit les dégâts comme un type approprié à l'illusion.</p></div>",
       "activities": {
         "Cast": {
-          "name": "Cast"
+          "name": "Lancer"
         },
         "Phantasm Damage": {
-          "name": "Phantasm Damage"
+          "name": "Dégâts fantasmagoriques"
         }
       },
       "effects": {
@@ -84,11 +95,17 @@
           "name": "Seeing Illusions",
           "description": "<p>The target can take a &amp;Reference[Study]{Study} action to examine the phantasm with an [[/check ability=int skill=inv]] check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.</p>"
         }
-      }
+      },
+      "materials": "un peu de laine brute"
     },
     "phbPrivateSanctu": {
-      "name": "Mordenkainen's Private Sanctum",
-      "description": "<div><p>You make an area within range magically secure. The area is a Cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration.</p><p>When you cast the spell, you decide what sort of security the spell provides, choosing any of the following properties:</p><ul><li>Sound can’t pass through the barrier at the edge of the warded area.</li><li>The barrier of the warded area appears dark and foggy, preventing vision (including &amp;Reference[Darkvision]) through it.</li><li>Sensors created by Divination spells can’t appear inside the protected area or pass through the barrier at its perimeter.</li><li>Creatures in the area can’t be targeted by Divination spells.</li><li>Nothing can teleport into or out of the warded area.</li><li>Planar travel is blocked within the warded area.</li></ul><p>Casting this spell on the same spot every day for 365 days makes the spell last until dispelled.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can increase the size of the Cube by 100 feet for each spell slot level above 4.</p></div>"
+      "name": "Sanctuaire Privé de Mordenkainen",
+      "description": "<p>Vous rendez une zone sécurisée magiquement dans la portée du sort. La zone est un cube de 1,5 à 30 m de côté. Le sort dure pour toute la durée.</p><p>Lorsque vous lancez le sort, vous choisissez les protections qu’il procure, en sélectionnant parmi les propriétés suivantes :</p><ul><li>Le son ne peut pas traverser la barrière entourant la zone protégée.</li><li>La barrière autour de la zone protégée semble sombre et brumeuse, empêchant la vision (y compris la &amp;Reference[Darkvision]) de passer à travers.</li><li>Les capteurs des sorts de Divination ne peuvent pas apparaître à l’intérieur de la zone protégée ni traverser la barrière à sa périphérie.</li><li>Les créatures dans la zone ne peuvent pas être ciblées par des sorts de Divination.</li><li>Aucune créature ne peut se téléporter dans ou hors de la zone protégée.</li><li>Le voyage planaire est bloqué dans la zone protégée.</li></ul><p>Lancer ce sort au même endroit chaque jour pendant 365 jours rend le sort permanent jusqu’à ce qu’il soit dissipé.</p><p><strong>Avec un emplacement de sort supérieur.</strong> Vous pouvez augmenter la taille du cube de 30 m pour chaque niveau d’emplacement supérieur au 4e.</p>",
+      "activities": {
+        "Cast": {
+          "name": "Lancer"
+        }
+      }
     },
     "phbProtectionFro": {
       "name": "Protection from Energy",
@@ -112,22 +129,23 @@
       }
     },
     "phbSanctuary0000": {
-      "name": "Sanctuary",
-      "description": "<div><p>You ward a creature within range. Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a [[/save ability=wis dc=@attributes.spell.dc format=long]] or either choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from areas of effect. The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage.</p></div>",
+      "name": "Sanctuaire",
+      "description": "<div><p>Vous protégez Une créature que vous voyez à portée. Jusqu'à la fin du sort, toute créature qui cible la créature protégée avec une attaque ou un sort offensif doit réussir un [[/save ability=wis dc=@attributes.spelldc format=long]] ou choisir une nouvelle cible, ou encore perdre l'attaque ou le sort. Ce sort ne protège pas la créature contre les effets de zone. Le sort se termine si la créature protégée effectue une attaque, lance un sort, ou inflige des dégâts.</p></div>",
       "activities": {
         "Cast": {
-          "name": "Cast"
+          "name": "Lancer"
         },
         "Save on Target": {
-          "name": "Save on Target"
+          "name": "Sauvegarde sur la cible"
         }
       },
       "effects": {
         "Warded": {
-          "name": "Warded",
-          "description": "<p>Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a [[/save ability=wis format=long]] or either choose a new target or lose the attack or spell.</p><p> The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage.</p>"
+          "name": "Protégée",
+          "description": "<p>Jusqu'à ce que le sort se termine, toute créature qui cible la créature protégée avec un jet d'attaque ou un sort offensif doit réussir un [[/save ability=wis format=long]] ou choisir une nouvelle cible, ou perdre son attaque ou son sort.</p><p>Le sort prend fin si la créature protégée effectue un jet d'attaque, lance un sort ou inflige des dégâts.</p>"
         }
-      }
+      },
+      "materials": "un éclat de verre issu d'un miroir"
     },
     "phbsplAcidSplash": {
       "name": "Acid Splash",

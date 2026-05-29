@@ -28381,8 +28381,8 @@
       }
     },
     "Violet Fungus Necrohulk": {
-      "name": "Violet Fungus Necrohulk",
-      "tokenName": "Violet Fungus Necrohulk",
+      "name": "Thallophyte, mastonécrofonge",
+      "tokenName": "Thallophyte, mastonécrofonge",
       "description": "<h1>Fungi</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.pHlrbJcqGZYeFMhG caption=false cite=false classes=\"no-embed mm\"]</p><h2>Violet Fungus Necrohulk</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.QvL76BJNuAfB8EM1 caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Multiattack": {
@@ -29014,57 +29014,57 @@
       }
     },
     "Werewolf": {
-      "name": "Werewolf",
-      "tokenName": "Werewolf",
-      "description": "<div class=\"gear\"><p><strong>Gear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000]{Longbow}</p></div><h1>Werewolf</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NPEN2rieeOcDlnvo caption=false cite=false classes=\"no-embed mm\"]</p>",
+      "name": "Loup-garou",
+      "tokenName": "Loup-garou",
+      "description": "<div class=\"gear\"><p><strong>Équipement :</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000]{Arc long}</p></div><h1>Loup-garou</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NPEN2rieeOcDlnvo caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Longbow": {
-          "name": "Longbow",
+          "name": "Arc long",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Pack Tactics": {
-          "name": "Pack Tactics",
-          "description": "<p>The [[lookup @name lowercase]] has Advantage on an attack roll against a creature if at least one of the [[lookup @name lowercase]]'s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.</p>"
+          "name": "Tactique de meute",
+          "description": "<p>Le [[lookup @name lowercase]] a l'Avantage sur ses jets d'attaque contre une créature si au moins un des alliés du [[lookup @name lowercase]] se trouve à 1,5 mètre ou moins de la créature et que cet allié n'a pas la condition Neutralisé.</p>"
         },
         "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p>The [[lookup @name lowercase]] makes two attacks, using  [[/item .mmScratch0000000]]{Scratch} or [[/item .mYM6o8kM9SDVm45w]]{Longbow} in any combination. It can replace one attack with a  [[/item .mmBite0000000000]]{Bite} attack.</p>",
+          "name": "Attaques multiples",
+          "description": "<p>Le [[lookup @name lowercase]] effectue deux attaques, en utilisant  [[/item .mmScratch0000000]]{Griffure} ou [[/item .mYM6o8kM9SDVm45w]]{Arc long} selon n'importe quelle combinaison. Il peut remplacer une attaque par une attaque de [[/item .mmBite0000000000]]{Morsure}.</p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Utiliser"
             }
           }
         },
         "Bite (Wolf or Hybrid Form Only)": {
-          "name": "Bite (Wolf or Hybrid Form Only)",
-          "description": "<p>[[/attack extended]]. [[/damage average extended]]. If the target is a Humanoid, it is subjected to the following effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=GBKhdBPogHNssDIa]].</p><p><em>Failure:</em> The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWerewolf000000]{Werewolf}</strong> under the DM’s control and has 10 Hit Points.</p><p><em>Success:</em> The target is immune to this [[lookup @name lowercase]]'s curse for 24 hours.</p>",
+          "name": "Morsure (forme de loup ou hybride uniquement)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si la cible est un Humanoïde, elle subit l'effet suivant.</p><p><em>Jet de sauvegarde de Constitution :</em> DD [[lookup @save.dc.value activity=GBKhdBPogHNssDIa]].</p><p><em>Échec :</em> La cible est maudite. Si la cible maudite tombe à 0 point de vie, elle devient à la place un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWerewolf000000]{Loup-garou}</strong> sous le contrôle du MJ et possède 10 points de vie.</p><p><em>Réussite :</em> La cible est immunisée contre la malédiction de ce [[lookup @name lowercase]] pendant 24 heures.</p>",
           "activities": {
             "Become Werewolf": {
-              "name": "Become Werewolf"
+              "name": "Devenir un loup-garou"
             }
           },
           "effects": {
             "Cursed": {
-              "name": "Cursed",
-              "description": "<p>The target is cursed if they fail their save.</p>"
+              "name": "Maudit",
+              "description": "<p>La cible est maudite si elle échoue à son jet de sauvegarde.</p>"
             }
           }
         },
         "Scratch": {
-          "name": "Scratch",
+          "name": "Griffure",
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Shape-Shift": {
-          "name": "Shape-Shift",
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] shape-shifts into a Large wolf-humanoid hybrid form or a Medium wolf, or it returns to its true humanoid form, or it returns to its true form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn’t transformed.</p>",
+          "name": "Métamorphose",
+          "description": "<p class=\"feature\">Le [[lookup @name lowercase]] se métamorphose pour prendre la forme hybride d'un humanoïde-loup de taille Grande ou d'un loup de taille Moyenne, ou il reprend sa véritable forme humanoïde, ou il reprend sa véritable forme. Ses statistiques de jeu, autres que sa taille, sont les mêmes sous chaque forme. L'équipement qu'il porte ou transporte n'est pas transformé.</p>",
           "activities": {
             "Expend Use": {
-              "name": "Expend Use"
+              "name": "Utiliser"
             }
           },
           "effects": {
             "Speed: Wolf Form": {
-              "name": "Speed: Wolf Form"
+              "name": "Vitesse : Forme de loup"
             }
           }
         }
@@ -29307,30 +29307,30 @@
       }
     },
     "Wyvern": {
-      "name": "Wyvern",
-      "tokenName": "Wyvern",
-      "description": "<h1>Wyvern</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YVet3pmxbtmVY8H9 caption=false cite=false classes=\"no-embed mm\"]</p>",
+      "name": "Vouivre",
+      "tokenName": "Vouivre",
+      "description": "<h1>Vouivre</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YVet3pmxbtmVY8H9 caption=false cite=false classes=\"no-embed mm\"]</p>",
       "items": {
         "Multiattack": {
-          "name": "Multiattack",
-          "description": "<p>The [[lookup @name lowercase]] makes one [[/item .mmBite0000000000]] attack and one [[/item .mmSting000000000]] attack.</p>",
+          "name": "Attaques multiples",
+          "description": "<p>Le [[lookup @name lowercase]] effectue une attaque de [[/item .mmBite0000000000]] et une attaque de [[/item .mmSting000000000]].</p>",
           "activities": {
             "Use": {
-              "name": "Use"
+              "name": "Utiliser"
             }
           }
         },
         "Bite": {
-          "name": "Bite",
+          "name": "Morsure",
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Sting": {
-          "name": "Sting",
-          "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned apply=false] condition until the start of the wyvern’s next turn.</p>",
+          "name": "Aiguillon",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], et la cible a la condition &amp;Reference[Poisoned apply=false] jusqu'au début du prochain tour de la vouivre.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
-              "description": "<p>The &amp;Reference[Poisoned apply=false] condition until the start of the attacking creature’s next turn.</p>"
+              "name": "Empoisonné",
+              "description": "<p>La condition &amp;Reference[Poisoned apply=false] jusqu'au début du prochain tour de la créature attaquante.</p>"
             }
           }
         }

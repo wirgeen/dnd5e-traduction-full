@@ -14,7 +14,6 @@ Hooks.on('init', () => {
       if (value) {
         autoRegisterBabel();
       }
-
       window.location.reload();
     },
   });
