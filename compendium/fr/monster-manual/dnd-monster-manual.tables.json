@@ -2,1473 +2,1473 @@
   "label": "Tables Aléatoires",
   "mapping": {},
   "folders": {
-    "Monster Traits": "Monster Traits"
+    "Monster Traits": "Traits des Monstres"
   },
   "entries": {
     "Aboleth Schemes": {
-      "name": "Aboleth Schemes",
-      "description": "<p>The Aboleth Seeks To …</p>",
+      "name": "Schémas de l'Aboleth",
+      "description": "<p>L'Aboleth cherche à …</p>",
       "results": {
-        "1-1": "Accomplish incomprehensible plans that lead it to act in seemingly random ways.",
-        "2-2": "Learn more of the world by kidnapping people and consuming their minds.",
-        "3-3": "Manipulate innocents into worshiping it as a god by using its telepathy from hiding.",
-        "4-4": "Open a gate to the distant past or future, releasing an invasion from another time.",
-        "5-5": "Rouse a dragon turtle, a kraken, or another sea monster to flood a coastal city.",
-        "6-6": "Trick treasure hunters into recovering relics from its long-fallen empire."
+        "1-1": "Accomplir des plans incompréhensibles qui le poussent à agir de manière apparemment aléatoire.",
+        "2-2": "En apprendre davantage sur le monde en kidnappant des gens et en dévorant leurs esprits.",
+        "3-3": "Manipuler des innocents pour qu'ils l'adorent comme un dieu en utilisant sa télépathie depuis sa cachette.",
+        "4-4": "Ouvrir une porte vers le passé ou le futur lointain, libérant une invasion d'une autre époque.",
+        "5-5": "Éveiller une tortue-dragon, un kraken ou un autre monstre marin pour inonder une ville côtière.",
+        "6-6": "Piéger des chasseurs de trésors pour qu'ils récupèrent des reliques de son empire depuis longtemps effondré."
       }
     },
     "Air Elemental Compositions": {
-      "name": "Air Elemental Compositions",
-      "description": "<p>The Air Elemental’s Body Features …</p>",
+      "name": "Compositions de l'Élémentaire d'Air",
+      "description": "<p>Le corps de l'Élémentaire d'Air présente …</p>",
       "results": {
-        "1-1": "Cumulus or cirrus clouds.",
-        "2-2": "A mixture of vibrantly colored gases.",
-        "3-3": "A pungent, sour-looking miasma",
-        "4-4": "Shifting cloud clusters that resemble animals and simple shapes.",
-        "5-5": "Sinister features obscured in a misty mass.",
-        "6-6": "Swirling storm clouds."
+        "1-1": "Des nuages cumulus ou cirrus.",
+        "2-2": "Un mélange de gaz aux couleurs vives.",
+        "3-3": "Un miasme nauséabond à l'apparence aigre.",
+        "4-4": "Des amas nuageux mouvants ressemblant à des animaux et des formes simples.",
+        "5-5": "Des traits sinistres dissimulés dans une masse brumeuse.",
+        "6-6": "Des nuages d'orage tourbillonnants."
       }
     },
     "Animated Object Catalysts": {
-      "name": "Animated Object Catalysts",
-      "description": "<p>The Object Was Animated By …</p>",
+      "name": "Catalyseurs d'Objet Animé",
+      "description": "<p>L'Objet a été animé par …</p>",
       "results": {
-        "1-1": "A Celestial or Fiend using the object to protect or torment a mortal.",
-        "2-2": "A combination of magic and technology, such as alchemy or alien science.",
-        "3-3": "The essence of someone transformed by a supernatural trickster.",
-        "4-4": "Fey as part of their games or wiles.",
-        "5-5": "A magic-user in need of a guardian or servant.",
-        "6-6": "Happenstance, with the item gaining a semblance of life after a hundred years of use.",
-        "7-7": "The song of a magical instrument.",
-        "8-8": "A spirit possessing the object.",
-        "9-9": "Wild magic, a spell that went awry, or a chaotic Artifact.",
-        "10-10": "The will of a powerful psychic being."
+        "1-1": "Un Céleste ou un Fiélon utilisant l'objet pour protéger ou tourmenter un mortel.",
+        "2-2": "Une combinaison de magie et de technologie, comme l'alchimie ou une science extraterrestre.",
+        "3-3": "L'essence d'un individu transformé par un facétieux surnaturel.",
+        "4-4": "Des Fées dans le cadre de leurs jeux ou ruses.",
+        "5-5": "Un utilisateur de magie ayant besoin d'un gardien ou d'un serviteur.",
+        "6-6": "Le hasard, l'objet ayant acquis un semblant de vie après cent ans d'utilisation.",
+        "7-7": "Le chant d'un instrument magique.",
+        "8-8": "Un esprit possédant l'objet.",
+        "9-9": "La magie sauvage, un sort mal lancé, ou un Artefact chaotique.",
+        "10-10": "La volonté d'un puissant être psychique."
       }
     },
     "Ankheg Tunnel Discoveries": {
-      "name": "Découvertes dans un Tunnel d’Ankheg",
-      "description": "<p>À l’intérieur du tunnel de l’Ankheg se trouve …</p>",
+      "name": "Découvertes dans un Tunnel d'Ankheg",
+      "description": "<p>À l'intérieur du tunnel de l'Ankheg se trouve …</p>",
       "results": {
-        "1-1": "Un autre tunnel (naturel ou taillé dans la pierre) qui s’étend jusqu’au Outreterre.",
+        "1-1": "Un autre tunnel (naturel ou taillé dans la pierre) qui s'étend jusqu'au Outreterre.",
         "2-2": "Une ruine enfouie ou une tombe exposée par le tunnel.",
-        "3-3": "Un amas de 1d4 œufs frais d’ankheg, pouvant être brisés et utilisés comme fioles d’Acide.",
+        "3-3": "Un amas de 1d4 œufs frais d'ankheg, pouvant être brisés et utilisés comme fioles d'Acide.",
         "4-4": "Un ankheg mort et des indices révélant un prédateur souterrain encore plus dangereux.",
-        "5-5": "Un morceau de carapace d’ankheg utilisable comme Bouclier.",
-        "6-6": "Une bourse contenant 2d6 PO près d’une flaque d’acide.",
+        "5-5": "Un morceau de carapace d'ankheg utilisable comme Bouclier.",
+        "6-6": "Une bourse contenant 2d6 PO près d'une flaque d'acide.",
         "7-7": "Un animal de ferme ou de forêt égaré.",
         "8-8": "Un épouvantail sauvagement mutilé."
       }
     },
     "Arch-hag Anathemas": {
-      "name": "Arch-hag Anathemas",
-      "description": "<p>The Arch-hag’s Weakness Is …</p>",
+      "name": "Anathèmes de l'Archi-sorcière",
+      "description": "<p>La faiblesse de l'Archi-sorcière est …</p>",
       "results": {
-        "1-1": "The bones of the arch-hag’s first love.",
-        "2-2": "A devil’s tear.",
-        "3-3": "An egg with a miniature castle inside.",
-        "4-4": "A flower that blooms only when time stops.",
-        "5-5": "A gift from the hag’s twin.",
-        "6-6": "The multiverse’s worst pun.",
-        "7-7": "One of the hag’s missing teeth.",
-        "8-8": "Snow from the top of Mount Celestia.",
-        "9-9": "A star pulled from the sky.",
-        "10-10": "A thread from the Lady of Pain’s robes."
+        "1-1": "Les os du premier amour de l'archi-sorcière.",
+        "2-2": "La larme d'un diable.",
+        "3-3": "Un œuf avec un château miniature à l'intérieur.",
+        "4-4": "Une fleur qui éclot uniquement lorsque le temps s'arrête.",
+        "5-5": "Un cadeau de la jumelle de la sorcière.",
+        "6-6": "Le pire jeu de mots du multivers.",
+        "7-7": "Une des dents manquantes de la sorcière.",
+        "8-8": "De la neige du sommet du Mont Célestia.",
+        "9-9": "Une étoile arrachée du ciel.",
+        "10-10": "Un fil des robes de la Dame de la Douleur."
       }
     },
     "Assassin Modus Operandi": {
-      "name": "Assassin Modus Operandi",
-      "description": "<p>The Assassin Is Infamous For …</p>",
+      "name": "Modus Operandi de l'Assassin",
+      "description": "<p>L'Assassin est tristement célèbre pour …</p>",
       "results": {
-        "1-1": "Arranging their victims in artful tableaux.",
-        "2-2": "Hiding within large objects, such as suits of armor or hollow furnishings.",
-        "3-3": "Leaving behind a signature item, such as a calling card, flower, seashell, or tooth.",
-        "4-4": "Posing as celebrities, holy people, or servants.",
-        "5-5": "Taking trophies from their victims.",
-        "6-6": "Using poison with a distinctive color or smell."
+        "1-1": "Disposer ses victimes en tableaux artistiques.",
+        "2-2": "Se dissimuler dans de grands objets, comme des armures ou des meubles creux.",
+        "3-3": "Laisser un objet caractéristique, comme une carte de visite, une fleur, un coquillage ou une dent.",
+        "4-4": "Se faire passer pour des célébrités, des hommes saints ou des serviteurs.",
+        "5-5": "Prendre des trophées sur ses victimes.",
+        "6-6": "Utiliser du poison d'une couleur ou d'une odeur distinctive."
       }
     },
     "Bandit Motivations": {
-      "name": "Bandit Motivations",
-      "description": "<p>The Bandit …</p>",
+      "name": "Motivations du Bandit",
+      "description": "<p>Le Bandit …</p>",
       "results": {
-        "1-1": "Fights only oppressors.",
-        "2-2": "Is an ex-soldier who was discarded by their nation and now takes what they were promised.",
-        "3-3": "Is in a gang that views nonmembers as foes.",
-        "4-4": "Hesitantly serves a villainous leader.",
-        "5-5": "Secretly works for a government or a regional ruler to sow chaos.",
-        "6-6": "Takes what they need to survive."
+        "1-1": "Ne combat que les oppresseurs.",
+        "2-2": "Est un ex-soldat abandonné par sa nation et qui prend maintenant ce qu'on lui avait promis.",
+        "3-3": "Fait partie d'un gang qui considère les non-membres comme des ennemis.",
+        "4-4": "Sert à contrecœur un chef malfaisant.",
+        "5-5": "Travaille secrètement pour un gouvernement ou un dirigeant régional afin de semer le chaos.",
+        "6-6": "Prend ce dont il a besoin pour survivre."
       }
     },
     "Banshee Sorrows": {
       "name": "Chagrins de la Banshee",
       "description": "<p>Le tourment pousse la banshee à …</p>",
       "results": {
-        "1-1": "Apparaître avant la mort d’un membre de sa famille.",
+        "1-1": "Apparaître avant la mort d'un membre de sa famille.",
         "2-2": "Hanter le lieu où elle a été exécutée.",
         "3-3": "Pleurer un amour perdu et hanter sa tombe.",
         "4-4": "Présager un désastre ou une tragédie.",
         "5-5": "Chercher à récupérer un trésor volé.",
-        "6-6": "Tuer ceux qui sont plus beaux qu’elle ne l’était de son vivant."
+        "6-6": "Tuer ceux qui sont plus beaux qu'elle ne l'était de son vivant."
       }
     },
     "Black Pudding Sources": {
-      "name": "Black Pudding Sources",
-      "description": "<p>The Black Pudding Formed From …</p>",
+      "name": "Origines du Pudding Noir",
+      "description": "<p>Le Pudding Noir s'est formé à partir de …</p>",
       "results": {
-        "1-1": "An ancient black dragon’s acidic saliva.",
-        "2-2": "The blood or extreme emotions of a foul deity.",
-        "3-3": "Cosmic entropy or ruinous planar forces.",
-        "4-4": "A curse that transformed a forgotten tyrant.",
-        "5-5": "Forbidden or industrialized magic.",
-        "6-6": "Necrotic material animated by aimless spirits."
+        "1-1": "La salive acide d'un ancien dragon noir.",
+        "2-2": "Le sang ou les émotions extrêmes d'une divinité immonde.",
+        "3-3": "L'entropie cosmique ou des forces planaires dévastatrices.",
+        "4-4": "Une malédiction ayant transformé un tyran oublié.",
+        "5-5": "Une magie interdite ou industrialisée.",
+        "6-6": "Une matière nécrotique animée par des esprits errants."
       }
     },
     "Blight Seed Creature": {
-      "name": "Blight Seed Creature",
+      "name": "Créature Issue d'une Graine de Fléau",
       "results": {
-        "1-4": "Twig Blight",
-        "5-6": "Needle Blight",
-        "7-8": "Vine Blight"
+        "1-4": "Fléau des brindilles",
+        "5-6": "Fléau des aiguilles",
+        "7-8": "Fléau des lianes"
       }
     },
     "Blob of Annihilation Contents": {
-      "name": "Blob of Annihilation Contents",
-      "description": "<p>The Blob Contains …</p>",
+      "name": "Contenu de la Masse d'Annihilation",
+      "description": "<p>La Masse contient …</p>",
       "results": {
-        "1-1": "An Amulet of the Planes.",
-        "2-2": "An Artifact of the DM’s choice.",
-        "3-3": "The corpses of two gods who were entangled in battle when the blob consumed them.",
-        "4-4": "A Cubic Gate.",
-        "5-5": "A Deck of Many Things.",
-        "6-6": "A magic key that opens a door in Sigil that no other key and no spell can open.",
-        "7-7": "The preserved corpse of an empyrean.",
-        "8-8": "The remains of half a kraken.",
-        "9-9": "The skull of a death god.",
-        "10-10": "A tarrasque that just died."
+        "1-1": "Une Amulette des Plans.",
+        "2-2": "Un Artefact au choix du MD.",
+        "3-3": "Les cadavres de deux dieux enchevêtrés dans un combat lorsque la masse les a consumés.",
+        "4-4": "Une Porte Cubique.",
+        "5-5": "Un Jeu de Nombreuses Choses.",
+        "6-6": "Une clé magique ouvrant une porte à Sigil qu'aucune autre clé ni sort ne peut ouvrir.",
+        "7-7": "Le cadavre préservé d'un empyréen.",
+        "8-8": "Les restes de la moitié d'un kraken.",
+        "9-9": "Le crâne d'un dieu de la mort.",
+        "10-10": "Un tarrasque qui vient de mourir."
       }
     },
     "Bone Devil Objectives": {
-      "name": "Bone Devil Objectives",
-      "description": "<p>The Bone Devil Seeks To …</p>",
+      "name": "Objectifs du Diable des Os",
+      "description": "<p>Le Diable des Os cherche à …</p>",
       "results": {
-        "1-1": "Capture a soul that escaped the Nine Hells.",
-        "2-2": "Convey a message or make an example of someone in the name of an archdevil.",
-        "3-3": "Find someone who broke a deal with a devil.",
-        "4-4": "Slay someone or steal something as part of its pact with a wicked magic-user."
+        "1-1": "Capturer une âme qui s'est échappée des Neuf Enfers.",
+        "2-2": "Transmettre un message ou donner l'exemple au nom d'un archidiable.",
+        "3-3": "Trouver quelqu'un qui a rompu un pacte avec un diable.",
+        "4-4": "Tuer quelqu'un ou voler quelque chose dans le cadre de son pacte avec un maléfique utilisateur de magie."
       }
     },
     "Cambion Origins": {
-      "name": "Cambion Origins",
-      "description": "<p>The Cambion Gained Its Power After …</p>",
+      "name": "Origines du Cambion",
+      "description": "<p>Le Cambion a acquis son pouvoir après …</p>",
       "results": {
-        "1-1": "Being possessed by a fiendish being.",
-        "2-2": "Being resurrected by an evil magic-user.",
-        "3-3": "Lengthy exposure to a Lower Plane.",
-        "4-4": "Making a bargain with a Fiend.",
-        "5-5": "Suffering a god’s curse.",
-        "6-6": "Taking part in fiendish rituals."
+        "1-1": "Avoir été possédé par un être fiélon.",
+        "2-2": "Avoir été ressuscité par un maléfique utilisateur de magie.",
+        "3-3": "Une longue exposition à un Plan Inférieur.",
+        "4-4": "Avoir conclu un marché avec un Fiélon.",
+        "5-5": "Avoir subi la malédiction d'un dieu.",
+        "6-6": "Avoir participé à des rituels fiélons."
       }
     },
     "Chain Devil Masks": {
-      "name": "Chain Devil Masks",
-      "description": "<p>To a Viewer, the Chain Devil Looks Like …</p>",
+      "name": "Masques du Diable des Chaînes",
+      "description": "<p>Aux yeux du spectateur, le Diable des Chaînes ressemble à …</p>",
       "results": {
-        "1-1": "The corpse of a loved one.",
-        "2-2": "A disapproving deity.",
-        "3-3": "A harsh instructor or superior.",
-        "4-4": "The viewer at their lowest point in life."
+        "1-1": "Le cadavre d'un être cher.",
+        "2-2": "Une divinité désapprobatrice.",
+        "3-3": "Un instructeur ou supérieur sévère.",
+        "4-4": "Le spectateur au point le plus bas de sa vie."
       }
     },
     "Clay Golem Orders": {
-      "name": "Clay Golem Orders",
-      "description": "<p>The Clay Golem Follows Orders To …</p>",
+      "name": "Ordres du Golem d'Argile",
+      "description": "<p>Le Golem d'Argile suit les ordres de …</p>",
       "results": {
-        "1-1": "Block the path of anyone who enters a site with a weapon drawn.",
-        "2-2": "Defend any member of their creator’s family or community who is threatened in its sight.",
-        "3-3": "Prevent any Fiend from crossing a bridge.",
-        "4-4": "Remove any who enter its creator’s workshop."
+        "1-1": "Bloquer le chemin de quiconque entre dans un lieu avec une arme dégainée.",
+        "2-2": "Défendre tout membre de la famille ou de la communauté de son créateur qui est menacé en sa présence.",
+        "3-3": "Empêcher tout Fiélon de traverser un pont.",
+        "4-4": "Écarter quiconque pénètre dans l'atelier de son créateur."
       }
     },
     "Cult Symbols": {
-      "name": "Cult Symbols",
+      "name": "Symboles de Culte",
       "results": {
-        "1-1": "<strong>The symbol is</strong> an alchemical sign",
-        "2-2": "<strong>The symbol is</strong> an animal",
-        "3-3": "<strong>The symbol is</strong> a celestial body",
-        "4-4": "<strong>The symbol is</strong> a deity’s icon",
-        "5-5": "<strong>The symbol is</strong> an element",
-        "6-6": "<strong>The symbol is</strong> an eye",
-        "7-7": "<strong>The symbol is</strong> a geometric shape",
-        "8-8": "<strong>The symbol is</strong> a letter or number",
-        "9-9": "<strong>The symbol is</strong> part of a monster",
-        "10-10": "<strong>The symbol is</strong> a skull"
+        "1-1": "<strong>Le symbole est</strong> un signe alchimique",
+        "2-2": "<strong>Le symbole est</strong> un animal",
+        "3-3": "<strong>Le symbole est</strong> un corps céleste",
+        "4-4": "<strong>Le symbole est</strong> l'icône d'une divinité",
+        "5-5": "<strong>Le symbole est</strong> un élément",
+        "6-6": "<strong>Le symbole est</strong> un œil",
+        "7-7": "<strong>Le symbole est</strong> une forme géométrique",
+        "8-8": "<strong>Le symbole est</strong> une lettre ou un chiffre",
+        "9-9": "<strong>Le symbole est</strong> une partie d'un monstre",
+        "10-10": "<strong>Le symbole est</strong> un crâne"
       }
     },
     "Cult Symbols - Depictions": {
-      "name": "Cult Symbols - Depictions",
+      "name": "Symboles de Culte - Représentations",
       "results": {
-        "1-1": "<strong>Depicted as</strong> A calendar or map",
-        "2-2": "<strong>Depicted as</strong> A crest or as heraldry",
-        "3-3": "<strong>Depicted as</strong> An elaborate diagram",
-        "4-4": "<strong>Depicted as</strong> A metaphorical image",
-        "5-5": "<strong>Depicted as</strong> A mystical being",
-        "6-6": "<strong>Depicted as</strong> Part of an equation",
-        "7-7": "<strong>Depicted as</strong> A repeating pattern",
-        "8-8": "<strong>Depicted as</strong> A series of scratches",
-        "9-9": "<strong>Depicted as</strong> A simple pictogram",
-        "10-10": "<strong>Depicted as</strong> A weapon or tool"
+        "1-1": "<strong>Représenté comme</strong> un calendrier ou une carte",
+        "2-2": "<strong>Représenté comme</strong> une crête ou de l'héraldique",
+        "3-3": "<strong>Représenté comme</strong> un diagramme élaboré",
+        "4-4": "<strong>Représenté comme</strong> une image métaphorique",
+        "5-5": "<strong>Représenté comme</strong> un être mystique",
+        "6-6": "<strong>Représenté comme</strong> une partie d'une équation",
+        "7-7": "<strong>Représenté comme</strong> un motif répété",
+        "8-8": "<strong>Représenté comme</strong> une série d'égratignures",
+        "9-9": "<strong>Représenté comme</strong> un simple pictogramme",
+        "10-10": "<strong>Représenté comme</strong> une arme ou un outil"
       }
     },
     "Cultist Agendas": {
-      "name": "Cultist Agendas",
-      "description": "<p>The Cultist Strives To …</p>",
+      "name": "Agendas des Cultistes",
+      "description": "<p>Le Cultiste s'efforce de …</p>",
       "results": {
-        "1-1": "Bring about the end of a dominant order, an age, or the world.",
-        "2-2": "Expand their faith though mind control or supernatural coercion.",
-        "3-3": "Burn away the comfortable lies of reality, revealing forgotten or terrible truths.",
-        "4-4": "Make global changes, like sinking the land or awakening volcanoes.",
-        "5-5": "Remake life on a mass scale, altering other creatures’ bodies or spiritual beings.",
-        "6-6": "Summon their deity or its herald, weapon, or realm into their world."
+        "1-1": "Provoquer la fin d'un ordre dominant, d'une ère, ou du monde.",
+        "2-2": "Étendre sa foi par le contrôle mental ou la coercition surnaturelle.",
+        "3-3": "Brûler les mensonges confortables de la réalité, révélant des vérités oubliées ou terribles.",
+        "4-4": "Effectuer des changements mondiaux, comme engloutir les terres ou éveiller des volcans.",
+        "5-5": "Remodeler la vie à grande échelle, altérant les corps d'autres créatures ou des êtres spirituels.",
+        "6-6": "Invoquer leur divinité ou son héraut, son arme, ou son royaume dans leur monde."
       }
     },
     "Death Dog Malady Symptoms": {
-      "name": "Death Dog Malady Symptoms",
-      "description": "<p>The Death Dog’s Malady Causes …</p>",
+      "name": "Symptômes du Mal du Chien de la Mort",
+      "description": "<p>Le mal du Chien de la Mort provoque …</p>",
       "results": {
-        "1-1": "Marks from canine jaws to appear on the victim’s body, as if they were still being mauled.",
-        "2-2": "The victim’s body to wither, as if constantly exposed to desert heat.",
-        "3-3": "The victim to be distracted by distant howling or vague whispers only they can hear.",
-        "4-4": "The victim’s flesh to rot like a corpse.",
-        "5-5": "The victim to itch, as if they had fleas or sand beneath their skin.",
-        "6-6": "Wicked symbols to gradually appear on and spread across the victim’s body."
+        "1-1": "L'apparition de marques de mâchoires canines sur le corps de la victime, comme si elle était encore en train d'être lacérée.",
+        "2-2": "Le dépérissement du corps de la victime, comme si elle était constamment exposée à la chaleur du désert.",
+        "3-3": "La distraction de la victime par des hurlements lointains ou de vagues chuchotements que seule elle peut entendre.",
+        "4-4": "La putréfaction de la chair de la victime comme un cadavre.",
+        "5-5": "Des démangeaisons chez la victime, comme si elle avait des puces ou du sable sous la peau.",
+        "6-6": "L'apparition progressive de symboles maléfiques sur le corps de la victime qui se répandent à mesure qu'ils grandissent."
       }
     },
     "Demonic Undertakings": {
-      "name": "Demonic Undertakings",
-      "description": "<p>The Demon Is Compelled To …</p>",
+      "name": "Entreprises Démoniaques",
+      "description": "<p>Le Démon est contraint de …</p>",
       "results": {
-        "1-1": "Break open a vault and steal what’s within.",
-        "2-2": "Defile a place using blasphemous symbols and demonic gore.",
-        "3-3": "Fetch or otherwise provide materials for a profane ritual.",
-        "4-4": "Guard a site and slay anyone who comes near.",
-        "5-5": "Hunt down a foe, destroying everything barring the demon’s path.",
-        "6-6": "Intimidate someone into following orders."
+        "1-1": "Forcer un coffre-fort et voler son contenu.",
+        "2-2": "Profaner un lieu à l'aide de symboles blasphématoires et de sang démoniaque.",
+        "3-3": "Rassembler ou fournir des matériaux pour un rituel profane.",
+        "4-4": "Garder un site et tuer quiconque s'en approche.",
+        "5-5": "Traquer un ennemi, détruisant tout ce qui barre le chemin du démon.",
+        "6-6": "Intimider quelqu'un pour lui faire suivre des ordres."
       }
     },
     "Deva Messages": {
-      "name": "Deva Messages",
-      "description": "<p>The Deva Tasks a Mortal with Delivering …</p>",
+      "name": "Messages du Déva",
+      "description": "<p>Le Déva charge un mortel de livrer …</p>",
       "results": {
-        "1-1": "The corpse of a hero in need of redemption.",
-        "2-2": "The cure for a plague in a distant land.",
-        "3-3": "A holy coffer that must not be opened.",
-        "4-4": "A magic weapon usable only by a true hero.",
-        "5-5": "A seedling that wilts if exposed to anger.",
-        "6-6": "Someone from another world with a prophesied purpose but no memory."
+        "1-1": "Le cadavre d'un héros ayant besoin de rédemption.",
+        "2-2": "Le remède à une peste dans un pays lointain.",
+        "3-3": "Un coffret sacré qui ne doit pas être ouvert.",
+        "4-4": "Une arme magique utilisable uniquement par un vrai héros.",
+        "5-5": "Un jeune plant qui se fane s'il est exposé à la colère.",
+        "6-6": "Quelqu'un venant d'un autre monde avec un but prédit mais sans aucun souvenir."
       }
     },
     "Doppelganger Deceptions": {
-      "name": "Doppelganger Deceptions",
-      "description": "<p>The Doppelganger Schemes To …</p>",
+      "name": "Tromperies du Doppelganger",
+      "description": "<p>Le Doppelganger complote pour …</p>",
       "results": {
-        "1-1": "Cause chaos within the temple of a deity that cursed it to live without a true form.",
-        "2-2": "Conceal evidence of a vast conspiracy.",
-        "3-3": "Control a community through fear by posing as a legendary bogeyman.",
-        "4-4": "Replace a noble to enjoy a decadent lifestyle.",
-        "5-5": "Spy on wizards to learn how to complete its own botched magical creation.",
-        "6-6": "Take an influential position, acting as a sleeper agent for a doppelganger invasion."
+        "1-1": "Semer le chaos dans le temple d'une divinité qui l'a maudit de vivre sans forme véritable.",
+        "2-2": "Dissimuler les preuves d'une vaste conspiration.",
+        "3-3": "Contrôler une communauté par la peur en se faisant passer pour un légendaire croque-mitaine.",
+        "4-4": "Remplacer un noble pour profiter d'un mode de vie décadent.",
+        "5-5": "Espionner des magiciens pour apprendre comment compléter sa propre création magique ratée.",
+        "6-6": "Prendre un poste influent en tant qu'agent dormant pour une invasion de doppelgangers."
       }
     },
     "Dracolich Soul Gem Vessels": {
-      "name": "Dracolich Soul Gem Vessels",
-      "description": "<p>A Dracolich’s Soul Gem Is Hidden In …</p>",
+      "name": "Réceptacles du Joyau d'Âme du Dracoliche",
+      "description": "<p>Le Joyau d'Âme du Dracoliche est caché dans …</p>",
       "results": {
-        "1-1": "Another dragon’s treasure hoard.",
-        "2-2": "The body of a servant or an ancestor.",
-        "3-3": "The core of a dracolich’s melted hoard.",
-        "4-4": "A corrupted dragon egg.",
-        "5-5": "A dragon horn a hero took as a trophy.",
-        "6-6": "A nation’s royal or religious treasure.",
-        "7-7": "A powerful magic item.",
-        "8-8": "A source of magical wonders, such as a giant tree or mystical pool.",
-        "9-9": "The vault of an archdevil, a wicked god, or another extraplanar villain.",
-        "10-10": "The weapon that slew the dracolich."
+        "1-1": "Le trésor d'un autre dragon.",
+        "2-2": "Le corps d'un serviteur ou d'un ancêtre.",
+        "3-3": "Le cœur du trésor fondu d'un dracoliche.",
+        "4-4": "Un œuf de dragon corrompu.",
+        "5-5": "Une corne de dragon prise en trophée par un héros.",
+        "6-6": "Le trésor royal ou religieux d'une nation.",
+        "7-7": "Un puissant objet magique.",
+        "8-8": "Une source de merveilles magiques, comme un arbre géant ou un bassin mystique.",
+        "9-9": "Le coffre-fort d'un archidiable, d'un dieu maléfique, ou d'un autre vilain extraplanaire.",
+        "10-10": "L'arme qui tua le dracoliche."
       }
     },
     "Drider Metamorphoses": {
-      "name": "Drider Metamorphoses",
-      "description": "<p>The Drider Gained Its Form As …</p>",
+      "name": "Métamorphoses du Drider",
+      "description": "<p>Le Drider a acquis sa forme en tant que …</p>",
       "results": {
-        "1-1": "A blessing from a deity of assassins, dangerous wildernesses, or the Underdark.",
-        "2-2": "A curse from a powerful hag, vengeful witch, or strange Artifact.",
-        "3-3": "An experiment by an aboleth, a mind flayer, or another life-shaping magic-user.",
-        "4-4": "A magical means of escaping disaster or some worse fate.",
-        "5-5": "A mutation after exposure to chaotic planar energies or strange Underdark radiations.",
-        "6-6": "A punishment from a spiteful god, like Lolth or the Queen of Air and Darkness."
+        "1-1": "Bénédiction d'une divinité des assassins, des déserts dangereux ou de l'Outreterre.",
+        "2-2": "Malédiction d'une puissante sorcière, d'une sorcière vengeresse ou d'un étrange Artefact.",
+        "3-3": "Expérience menée par un aboleth, un flagelleur mental, ou un autre utilisateur de magie façonnant la vie.",
+        "4-4": "Moyen magique d'échapper à un désastre ou à un sort pire.",
+        "5-5": "Mutation après exposition à des énergies planaires chaotiques ou à d'étranges radiations de l'Outreterre.",
+        "6-6": "Punition d'un dieu rancunier, comme Lolth ou la Reine de l'Air et des Ténèbres."
       }
     },
     "Druid Traditions": {
-      "name": "Druid Traditions",
-      "description": "<p>The Druid Is …</p>",
+      "name": "Traditions des Druides",
+      "description": "<p>Le Druide est …</p>",
       "results": {
-        "1-1": "An avenger who strikes against destructive civilizations and those who abuse nature.",
-        "2-2": "A guide who aids travelers in navigating the realms of Beasts, Fey, or Plants.",
-        "3-3": "A hermit who works alone to protect the lands, seas, or skies they call home.",
-        "4-4": "A mender who travels the world healing natural, magical, or manufactured disasters.",
-        "5-5": "Part of a loose organization that adheres to timeless rituals and guards natural secrets.",
-        "6-6": "A warden who minds the underpinnings of reality and protects against extraplanar threats."
+        "1-1": "Un vengeur qui frappe contre les civilisations destructrices et ceux qui abusent de la nature.",
+        "2-2": "Un guide qui aide les voyageurs à naviguer dans les royaumes des Bêtes, des Fées ou des Plantes.",
+        "3-3": "Un ermite qui travaille seul pour protéger les terres, les mers ou les cieux qu'il appelle chez lui.",
+        "4-4": "Un guérisseur qui parcourt le monde pour soigner les désastres naturels, magiques ou causés par l'homme.",
+        "5-5": "Membre d'une organisation lâche qui adhère à des rituels intemporels et garde des secrets naturels.",
+        "6-6": "Un gardien qui surveille les fondements de la réalité et protège contre les menaces extraplanaires."
       }
     },
     "Dryad Sanctuaries": {
-      "name": "Dryad Sanctuaries",
-      "description": "<p>The Dryad Dwells in and Protects …</p>",
+      "name": "Sanctuaires des Dryades",
+      "description": "<p>La Dryade habite et protège …</p>",
       "results": {
-        "1-1": "An acres-large clonal colony—a stand of identical, interconnected trees.",
-        "2-2": "A fortresslike tree, like a baobab or sequoia.",
-        "3-3": "A living lock—a plant that seals evil below or blocks the path to a dungeon.",
-        "4-4": "A lonely tree that stands atop a windswept mountain or amid a petrified forest.",
-        "5-5": "A plant with magic fruit or remarkable seeds.",
-        "6-6": "A shambling mound or treant that the dryad lives in or around as a Fey symbiote."
+        "1-1": "Une colonie clonale de plusieurs hectares — un bosquet d'arbres identiques et interconnectés.",
+        "2-2": "Un arbre semblable à une forteresse, comme un baobab ou un séquoia.",
+        "3-3": "Un verrou vivant — une plante qui scelle le mal en dessous ou bloque le chemin vers un donjon.",
+        "4-4": "Un arbre solitaire qui se dresse au sommet d'une montagne balayée par les vents ou au milieu d'une forêt pétrifiée.",
+        "5-5": "Une plante aux fruits magiques ou aux graines remarquables.",
+        "6-6": "Un shambling mound ou un treant dans lequel ou autour duquel la dryade vit en tant que symbiote fée."
       }
     },
     "Earth Elemental Compositions": {
-      "name": "Earth Elemental Compositions",
-      "description": "<p>The Earth Elemental’s Body Features …</p>",
+      "name": "Compositions de l'Élémentaire de Terre",
+      "description": "<p>Le corps de l'Élémentaire de Terre présente …</p>",
       "results": {
-        "1-1": "Colorful mineral formations.",
-        "2-2": "Cooled magma in melted heaps.",
-        "3-3": "Grass, moss, or plant roots.",
-        "4-4": "Heaps of peat or decaying matter.",
-        "5-5": "Mounds of sand studded with shells.",
-        "6-6": "Rubble or pieces of a ruined structure.",
-        "7-7": "Striking striations or bands of color.",
-        "8-8": "Veins of iron or other ore."
+        "1-1": "Des formations minérales colorées.",
+        "2-2": "De la lave refroidie en amas fondus.",
+        "3-3": "De l'herbe, de la mousse ou des racines de plantes.",
+        "4-4": "Des amas de tourbe ou de matière en décomposition.",
+        "5-5": "Des monticules de sable parsemés de coquillages.",
+        "6-6": "Des décombres ou morceaux d'une structure en ruine.",
+        "7-7": "Des stries ou bandes de couleur saisissantes.",
+        "8-8": "Des veines de fer ou d'autre minerai."
       }
     },
     "Elemental Alterations": {
-      "name": "Elemental Alterations",
-      "description": "<p>The Elemental Cataclysm Leaves Behind A …</p>",
+      "name": "Altérations Élémentaires",
+      "description": "<p>La Catastrophe Élémentaire laisse derrière elle …</p>",
       "results": {
-        "1-1": "Dramatic increase or decrease in temperature.",
-        "2-2": "Gigantic coral reef or fungal forest.",
-        "3-3": "Never-ending storm or whirlpool.",
-        "4-4": "Passage to the Underdark or portal to an Elemental Plane.",
-        "5-5": "Primeval or previously extinct animal population.",
-        "6-6": "Rapidly growing rainforest.",
-        "7-7": "River where previously there was none.",
-        "8-8": "Series of dramatic rock formations."
+        "1-1": "Une augmentation ou diminution spectaculaire de la température.",
+        "2-2": "Un récif corallien géant ou une forêt de champignons.",
+        "3-3": "Une tempête perpétuelle ou un tourbillon sans fin.",
+        "4-4": "Un passage vers l'Outreterre ou un portail vers un Plan Élémentaire.",
+        "5-5": "Une population animale primordiale ou auparavant éteinte.",
+        "6-6": "Une forêt tropicale en croissance rapide.",
+        "7-7": "Une rivière là où il n'y en avait pas auparavant.",
+        "8-8": "Une série de formations rocheuses spectaculaires."
       }
     },
     "Empyrean Influences": {
-      "name": "Empyrean Influences",
-      "description": "<p>The Empyrean Has Features That Are …</p>",
+      "name": "Influences de l'Empyréen",
+      "description": "<p>L'Empyréen a des traits qui sont …</p>",
       "results": {
-        "1-1": "Balanced, naturalistic, or suggestive of watching eyes.",
-        "2-2": "Colorful, shadowy, or fluid or that vary depending on the viewer.",
-        "3-3": "Comforting and gentle or that remind viewers of pleasant memories.",
-        "4-4": "Disconnected parts, visible thoughts, or errant shapes.",
-        "5-5": "Machinelike, stoic, symmetrical, or suggestive of judgment.",
-        "6-6": "Morbid, menacing, or monstrous or that embody the viewer’s fears."
+        "1-1": "Équilibrés, naturalistes ou évocateurs d'yeux qui regardent.",
+        "2-2": "Colorés, ombrageux ou fluides, ou qui varient selon le spectateur.",
+        "3-3": "Réconfortants et doux, ou qui rappellent aux spectateurs des souvenirs agréables.",
+        "4-4": "Des parties déconnectées, des pensées visibles ou des formes errantes.",
+        "5-5": "Mécaniques, stoïques, symétriques ou évocateurs du jugement.",
+        "6-6": "Morbides, menaçants ou monstrueux, ou qui incarnent les peurs du spectateur."
       }
     },
     "Ettin Interactions": {
-      "name": "Ettin Interactions",
-      "description": "<p>The Ettin’s Heads Are …</p>",
+      "name": "Interactions des Ettins",
+      "description": "<p>Les têtes de l'Ettin …</p>",
       "results": {
-        "1-1": "Amping up one another in preparation for a conflict or challenge.",
-        "2-2": "Arguing over plans for battle, dinner, or how to spend the day.",
-        "3-3": "Criticizing one another as they perform separate tasks.",
-        "4-4": "Engaged in a staring contest.",
-        "5-5": "Making polite small talk as if they were meeting for the first time.",
-        "6-6": "Performatively ignoring one another.",
-        "7-7": "Talking over an increasingly convoluted plot.",
-        "8-8": "Trying to keep one another awake."
+        "1-1": "S'encouragent mutuellement en préparation d'un conflit ou d'un défi.",
+        "2-2": "Se disputent des plans pour la bataille, le dîner ou comment passer la journée.",
+        "3-3": "Se critiquent mutuellement pendant qu'elles effectuent des tâches séparées.",
+        "4-4": "Participent à un concours de regards.",
+        "5-5": "Échangent des politesses comme si elles se rencontraient pour la première fois.",
+        "6-6": "S'ignorent ostensiblement l'une l'autre.",
+        "7-7": "Discutent d'un complot de plus en plus alambiqué.",
+        "8-8": "Essaient de se maintenir éveillées mutuellement."
       }
     },
     "Fire Elemental Compositions": {
-      "name": "Fire Elemental Compositions",
-      "description": "<p>The Fire Elemental’s Body Features …</p>",
+      "name": "Compositions de l'Élémentaire de Feu",
+      "description": "<p>Le corps de l'Élémentaire de Feu présente …</p>",
       "results": {
-        "1-1": "Colorful, superheated gases.",
-        "2-2": "A column of diabolical or divine flame.",
-        "3-3": "Crackling shapes that look like animals, fiends, skeletons, sprites, or other beings.",
-        "4-4": "Flames that are predominantly white, blue, or a more unusual color.",
-        "5-5": "The form of a calm or tormented humanoid.",
-        "6-6": "Smoke that forms eerie shapes or symbols.",
-        "7-7": "Soot that smells like cedar, cloves, incense, or burning meat.",
-        "8-8": "Swirls of cinders and burning debris."
+        "1-1": "Des gaz colorés et surchauffés.",
+        "2-2": "Une colonne de flammes diaboliques ou divines.",
+        "3-3": "Des formes crépitantes ressemblant à des animaux, des fiélons, des squelettes, des sprites ou d'autres êtres.",
+        "4-4": "Des flammes principalement blanches, bleues ou d'une couleur plus inhabituelle.",
+        "5-5": "La forme d'un humanoïde calme ou tourmenté.",
+        "6-6": "De la fumée qui forme des formes ou des symboles inquiétants.",
+        "7-7": "De la suie qui sent le cèdre, les clous de girofle, l'encens ou la chair brûlée.",
+        "8-8": "Des tourbillons de braises et de débris en flammes."
       }
     },
     "Flameskull Details": {
-      "name": "Flameskull Details",
-      "description": "<p>The Flameskull Features …</p>",
+      "name": "Détails du Crâne Enflammé",
+      "description": "<p>Le Crâne Enflammé présente …</p>",
       "results": {
-        "1-1": "Arcane diagrams etched into it.",
-        "2-2": "Flames like dramatic features, horns, or hair.",
-        "3-3": "Fractured pieces that fly in unison.",
-        "4-4": "An iron plate bolted over its mouth.",
-        "5-5": "Lethal head trauma.",
-        "6-6": "Mismatched animal teeth."
+        "1-1": "Des diagrammes arcanes gravés dessus.",
+        "2-2": "Des flammes ressemblant à des traits dramatiques, des cornes ou des cheveux.",
+        "3-3": "Des pièces fracturées qui volent à l'unisson.",
+        "4-4": "Une plaque de fer boulonnée sur sa bouche.",
+        "5-5": "Un traumatisme crânien mortel.",
+        "6-6": "Des dents d'animaux dépareillées."
       }
     },
     "Flesh Golem Characteristics": {
-      "name": "Flesh Golem Characteristics",
-      "description": "<p>The Flesh Golem Has …</p>",
+      "name": "Caractéristiques du Golem de Chair",
+      "description": "<p>Le Golem de Chair possède …</p>",
       "results": {
-        "1-1": "Animal parts among its humanlike pieces.",
-        "2-2": "A disguise of makeup and heavy clothing.",
-        "3-3": "Missing parts and exposed insides.",
-        "4-4": "Parts serving unintended roles, like a body composed of dozens of hands.",
-        "5-5": "Perfect features accented by beautiful stitching.",
-        "6-6": "Visible mechanisms, bellows, and engines."
+        "1-1": "Des parties animales parmi ses pièces humanoïdes.",
+        "2-2": "Un déguisement de maquillage et de vêtements épais.",
+        "3-3": "Des parties manquantes et des entrailles exposées.",
+        "4-4": "Des parties servant des rôles non prévus, comme un corps composé de dizaines de mains.",
+        "5-5": "Des traits parfaits accentués par une belle couture.",
+        "6-6": "Des mécanismes visibles, des soufflets et des moteurs."
       }
     },
     "Flumph Assistance": {
-      "name": "Flumph Assistance",
-      "description": "<p>The Flumph Helps By …</p>",
+      "name": "Assistance du Flumph",
+      "description": "<p>Le Flumph aide en …</p>",
       "results": {
-        "1-1": "Cooking a meal of Underdark delicacies.",
-        "2-2": "Performing a psychic song or “smell poem.”",
-        "3-3": "Recovering and nursing fallen adventurers.",
-        "4-4": "Revealing the location of helpful magic items.",
-        "5-5": "Serving as a guide to a foe’s hidden lair.",
-        "6-6": "Sharing excessive encouragement and praise."
+        "1-1": "Préparant un repas de délices de l'Outreterre.",
+        "2-2": "Interprétant une chanson psychique ou un « poème olfactif ».",
+        "3-3": "Récupérant et soignant des aventuriers tombés.",
+        "4-4": "Révélant l'emplacement d'objets magiques utiles.",
+        "5-5": "Servant de guide vers la tanière secrète d'un ennemi.",
+        "6-6": "Prodiguant des encouragements et des éloges excessifs."
       }
     },
     "Flumph Colors and Emotions": {
-      "name": "Flumph Colors and Emotions",
-      "description": "<pre><code>* Rarely seen; potentially no human equivalent</code></pre>",
+      "name": "Couleurs et Émotions du Flumph",
+      "description": "<pre><code>* Rarement observé ; potentiellement sans équivalent humain</code></pre>",
       "results": {
-        "1-1": "<strong>Color:</strong> Blue, Dark <strong>Emotion:</strong> Sadness",
-        "2-2": "<strong>Color:</strong> Blue, Light <strong>Emotion:</strong> Happiness",
-        "3-3": "<strong>Color:</strong> Green <strong>Emotion:</strong> Curiositiy",
-        "4-4": "<strong>Color:</strong> Magenta <strong>Emotion:</strong> Unknown*",
-        "5-5": "<strong>Color:</strong> Orange <strong>Emotion:</strong> Confusion",
-        "6-6": "<strong>Color:</strong> Pink <strong>Emotion:</strong> Amusement",
-        "7-7": "<strong>Color:</strong> Purple <strong>Emotion:</strong> Fear",
-        "8-8": "<strong>Color:</strong> Red <strong>Emotion:</strong> Anger",
-        "9-9": "<strong>Color:</strong> Teal <strong>Emotion:</strong> Serenity",
-        "10-10": "<strong>Color:</strong> Yellow <strong>Emotion:</strong> Excitement"
+        "1-1": "<strong>Couleur :</strong> Bleu, foncé <strong>Émotion :</strong> Tristesse",
+        "2-2": "<strong>Couleur :</strong> Bleu, clair <strong>Émotion :</strong> Joie",
+        "3-3": "<strong>Couleur :</strong> Vert <strong>Émotion :</strong> Curiosité",
+        "4-4": "<strong>Couleur :</strong> Magenta <strong>Émotion :</strong> Inconnue*",
+        "5-5": "<strong>Couleur :</strong> Orange <strong>Émotion :</strong> Confusion",
+        "6-6": "<strong>Couleur :</strong> Rose <strong>Émotion :</strong> Amusement",
+        "7-7": "<strong>Couleur :</strong> Violet <strong>Émotion :</strong> Peur",
+        "8-8": "<strong>Couleur :</strong> Rouge <strong>Émotion :</strong> Colère",
+        "9-9": "<strong>Couleur :</strong> Sarcelle <strong>Émotion :</strong> Sérénité",
+        "10-10": "<strong>Couleur :</strong> Jaune <strong>Émotion :</strong> Excitation"
       }
     },
     "Fomorian Warping": {
-      "name": "Fomorian Warping",
-      "description": "<p>The Fomorian’s Hex Causes …</p>",
+      "name": "Déformation du Fomorien",
+      "description": "<p>La malédiction du Fomorien provoque …</p>",
       "results": {
-        "1-1": "Colorful, wandering pustules.",
-        "2-2": "Excessive sweating of rainbow-hued fluids.",
-        "3-3": "Patches of wriggling hair.",
-        "4-4": "Veins that bulge and lurch under the skin."
+        "1-1": "Des pustules colorées et errantes.",
+        "2-2": "Une transpiration excessive de fluides aux couleurs de l'arc-en-ciel.",
+        "3-3": "Des plaques de poils frétillants.",
+        "4-4": "Des veines qui gonflent et se débattent sous la peau."
       }
     },
     "Forager Animal Lord Appearances": {
-      "name": "Forager Animal Lord Appearances",
-      "description": "<p>Forager Bestial Shape</p>",
+      "name": "Apparences du Seigneur Animal Fourrageur",
+      "description": "<p>Forme Bestiale du Fourrageur</p>",
       "results": {
-        "1-1": "Bear",
-        "2-2": "Bee",
+        "1-1": "Ours",
+        "2-2": "Abeille",
         "3-3": "Bison",
         "4-4": "Capybara",
-        "5-5": "Carp",
-        "6-6": "Rabbit",
-        "7-7": "Rooster",
-        "8-8": "Sloth",
-        "9-9": "Stag",
-        "10-10": "Vulture"
+        "5-5": "Carpe",
+        "6-6": "Lapin",
+        "7-7": "Coq",
+        "8-8": "Paresseux",
+        "9-9": "Cerf",
+        "10-10": "Vautour"
       }
     },
     "Gargoyle Camouflage": {
-      "name": "Gargoyle Camouflage",
-      "description": "<p>The Gargoyle Conceals Itself Amid …</p>",
+      "name": "Camouflage de la Gargouille",
+      "description": "<p>La Gargouille se dissimule parmi …</p>",
       "results": {
-        "1-1": "Burls and bark on a giant tree.",
-        "2-2": "Monuments in a graveyard or memorial.",
-        "3-3": "Outcroppings on a cliff or rock formation",
-        "4-4": "Reliefs on a sculpted gate or wall.",
-        "5-5": "The petrified victims of a basilisk or medusa.",
-        "6-6": "Rubble in a ruin or junkyard.",
-        "7-7": "Statuary on a castle, mansion, or temple.",
-        "8-8": "Stalactites or icicles on a cavern ceiling."
+        "1-1": "Des loupes et de l'écorce sur un arbre géant.",
+        "2-2": "Des monuments dans un cimetière ou un mémorial.",
+        "3-3": "Des affleurements sur une falaise ou une formation rocheuse.",
+        "4-4": "Des reliefs sur une porte ou un mur sculpté.",
+        "5-5": "Les victimes pétrifiées d'un basilic ou d'une méduse.",
+        "6-6": "Des décombres dans une ruine ou une casse.",
+        "7-7": "Des statues sur un château, un manoir ou un temple.",
+        "8-8": "Des stalactites ou des glaçons au plafond d'une caverne."
       }
     },
     "Gargoyle Sculptures": {
-      "name": "Gargoyle Sculptures",
-      "description": "<p>The Gargoyle Is Sculpted to Appear …</p>",
+      "name": "Sculptures de la Gargouille",
+      "description": "<p>La Gargouille est sculptée pour paraître …</p>",
       "results": {
-        "1-1": "Cherubic with perpetually smiling features.",
-        "2-2": "Crudely hewed or naturally formed.",
-        "3-3": "Damaged or marred by mismatched pieces.",
-        "4-4": "Dragon-like with polished stone scales.",
-        "5-5": "Gothically fiendish with horns and a tail.",
-        "6-6": "Useful, like an ornate podium or a pillar."
+        "1-1": "Chérubin avec des traits perpétuellement souriants.",
+        "2-2": "Grossièrement taillée ou formée naturellement.",
+        "3-3": "Endommagée ou défigurée par des pièces disparates.",
+        "4-4": "Semblable à un dragon avec des écailles de pierre polie.",
+        "5-5": "Gothiquement diabolique avec des cornes et une queue.",
+        "6-6": "Utile, comme un podium orné ou un pilier."
       }
     },
     "Gelatinous Cube Debris": {
-      "name": "Gelatinous Cube Debris",
-      "description": "<p>Floating in the Gelatinous Cube Is A …</p>",
+      "name": "Débris du Cube Gélatineux",
+      "description": "<p>Flottant dans le Cube Gélatineux se trouve …</p>",
       "results": {
-        "1-1": "Chest or recently trapped mimic.",
-        "2-2": "Collection of bubbles or rocks resembling eyes.",
-        "3-3": "Key to a nearby door or coffer.",
-        "4-4": "Remarkable weapon in need of repair.",
-        "5-5": "Skeleton belonging to a famous adventurer.",
-        "6-6": "Tablet bearing a mysterious message."
+        "1-1": "Un coffre ou un mimic récemment piégé.",
+        "2-2": "Une collection de bulles ou de rochers ressemblant à des yeux.",
+        "3-3": "Une clé pour une porte ou un coffret à proximité.",
+        "4-4": "Une arme remarquable nécessitant des réparations.",
+        "5-5": "Un squelette appartenant à un aventurier célèbre.",
+        "6-6": "Une tablette portant un message mystérieux."
       }
     },
     "Gibbering Mouther Nascencies": {
-      "name": "Gibbering Mouther Nascencies",
-      "description": "<p>The Gibbering Mouther Is …</p>",
+      "name": "Naissances de la Gueule Babillarde",
+      "description": "<p>La Gueule Babillarde est …</p>",
       "results": {
-        "1-1": "Another creature warped by dangerous magic.",
-        "2-2": "The autonomous appendage of a chaotic deity, Far Realm entity, or star-spawn horror.",
-        "3-3": "The experiment of an aberrant manipulator.",
-        "4-4": "Part of the life cycle of some other Aberration.",
-        "5-5": "A shape-shifter that lost control of its powers.",
-        "6-6": "Someone cursed by a cult or vengeful deity."
+        "1-1": "Une autre créature déformée par une magie dangereuse.",
+        "2-2": "L'appendice autonome d'une divinité chaotique, d'une entité du Lointain Royaume, ou d'une horreur née des étoiles.",
+        "3-3": "L'expérience d'un manipulateur aberrant.",
+        "4-4": "Partie du cycle de vie d'une autre Aberration.",
+        "5-5": "Un métamorphe ayant perdu le contrôle de ses pouvoirs.",
+        "6-6": "Quelqu'un maudit par un culte ou une divinité vengeresse."
       }
     },
     "Gith Conflicts": {
-      "name": "Gith Conflicts",
-      "description": "<p>The Characters Are …</p>",
+      "name": "Conflits des Giths",
+      "description": "<p>Les personnages sont …</p>",
       "results": {
-        "1-1": "Called on to deliver a message or mysterious parcel to or from Vlaakith the Lich Queen.",
-        "2-2": "Encouraged by a disguised intellect devourer to seek out an elusive gith leader.",
-        "3-3": "Entreated to aid githzerai fleeing the githyanki who destroyed their sanctuary.",
-        "4-4": "Entrusted with renewing or disrupting the githyanki’s alliance with red dragons.",
-        "5-5": "Invited to hunt illithids with githyanki.",
-        "6-6": "Pressed to uncover a gith spy in a planar community or on a spelljamming ship.",
-        "7-7": "Sent on a quest to discover the last known location of the hero Gith or Zerthimon.",
-        "8-8": "Tasked with returning the blade of a fallen githyanki knight to the knight’s people."
+        "1-1": "Appelés à livrer un message ou un colis mystérieux à ou de la part de Vlaakith la Liche-Reine.",
+        "2-2": "Encouragés par un dévoreur d'intellect déguisé à rechercher un chef gith insaisissable.",
+        "3-3": "Sollicités pour aider des githzeraïs fuyant les githyankis qui ont détruit leur sanctuaire.",
+        "4-4": "Chargés de renouveler ou de perturber l'alliance des githyankis avec les dragons rouges.",
+        "5-5": "Invités à chasser des flagelleurs mentaux avec des githyankis.",
+        "6-6": "Contraints de découvrir un espion gith dans une communauté planaire ou sur un vaisseau navigant l'espace magique.",
+        "7-7": "Envoyés en quête pour découvrir le dernier emplacement connu du héros Gith ou Zerthimon.",
+        "8-8": "Chargés de rendre la lame d'un chevalier githyanki tombé au combat à son peuple."
       }
     },
     "Gladiator Theatrics": {
-      "name": "Gladiator Theatrics",
-      "description": "<p>During a Competition, the Gladiator …</p>",
+      "name": "Mise en Scène du Gladiateur",
+      "description": "<p>Pendant une compétition, le Gladiateur …</p>",
       "results": {
-        "1-1": "Dedicates their impending victory to a deity, ruler, beloved noble, or member of the crowd.",
-        "2-2": "Dresses in a monster-themed mask and cape.",
-        "3-3": "Judges whether their foe fights honorably.",
-        "4-4": "Leads the crowd in a rousing theme song.",
-        "5-5": "Seeks to claim a trophy from a foe.",
-        "6-6": "Takes advice from the crowd, omens, or a pet."
+        "1-1": "Dédie sa victoire imminente à une divinité, un dirigeant, un noble bien-aimé ou un membre du public.",
+        "2-2": "S'habille d'un masque et d'une cape sur le thème d'un monstre.",
+        "3-3": "Juge si son adversaire se bat honorablement.",
+        "4-4": "Entonne avec le public une chanson thème entraînante.",
+        "5-5": "Cherche à prendre un trophée sur un adversaire.",
+        "6-6": "Prend conseil auprès du public, des présages ou d'un animal de compagnie."
       }
     },
     "Gorgon Command Keys": {
-      "name": "Gorgon Command Keys",
-      "description": "<p>Gorgon Won’t Attack Those That …</p>",
+      "name": "Codes de Commandement de la Gorgone",
+      "description": "<p>La Gorgone n'attaquera pas ceux qui …</p>",
       "results": {
-        "1-1": "Cast a particular spell in the gorgon’s presence.",
-        "2-2": "Keep their back to the gorgon or otherwise act like they don’t see the monster.",
-        "3-3": "Offer it a drink of blood, water, or wine.",
-        "4-4": "Recite a specific rhyme or sing a certain song.",
-        "5-5": "Say its creator’s name backward.",
-        "6-6": "Wear a mask, perhaps in the shape of a bull or an animal meaningful to the gorgon’s creator."
+        "1-1": "Lancent un sort particulier en présence de la gorgone.",
+        "2-2": "Lui tournent le dos ou agissent comme s'ils ne voient pas le monstre.",
+        "3-3": "Lui offrent une gorgée de sang, d'eau ou de vin.",
+        "4-4": "Récitent une comptine spécifique ou chantent une certaine chanson.",
+        "5-5": "Disent le nom de son créateur à l'envers.",
+        "6-6": "Portent un masque, peut-être en forme de taureau ou d'un animal significatif pour le créateur de la gorgone."
       }
     },
     "Green Hag Bargains": {
-      "name": "Green Hag Bargains",
-      "description": "<p>A Green Hag Trades Its Knowledge For …</p>",
+      "name": "Marchés de la Sorcière Verte",
+      "description": "<p>Une Sorcière Verte échange ses connaissances contre …</p>",
       "results": {
-        "1-1": "A bargainer’s memories of a loved one.",
-        "2-2": "The cauldron of a rival hag.",
-        "3-3": "A favor to be redeemed when the hag wishes.",
-        "4-4": "A flower from a hidden Feywild garden.",
-        "5-5": "A gift given freely by a yugoloth.",
-        "6-6": "A vial filled with a ruler’s tears."
+        "1-1": "Les souvenirs d'un être cher appartenant à celui qui négocie.",
+        "2-2": "Le chaudron d'une sorcière rivale.",
+        "3-3": "Une faveur à encaisser quand la sorcière le souhaite.",
+        "4-4": "Une fleur d'un jardin caché du Royaumefé.",
+        "5-5": "Un cadeau offert librement par un yugoloth.",
+        "6-6": "Un flacon rempli des larmes d'un dirigeant."
       }
     },
     "Grell Explorations": {
-      "name": "Grell Explorations",
-      "description": "<p>Grells Travel Because They Are …</p>",
+      "name": "Explorations des Grells",
+      "description": "<p>Les Grells voyagent parce qu'ils sont …</p>",
       "results": {
-        "1-1": "Advanced viruses, each the clone of all other grell. They exist only to feed and spread.",
-        "2-2": "The larvae of another creature and require electrically charged environs to reproduce.",
-        "3-3": "Seeking to escape some catastrophe or terror lurking in the depths.",
-        "4-4": "Supernaturally connected to ravenous alien beings and serve as their feeding appendages.",
-        "5-5": "Vestiges of an ancient evil that will return if grells collectively consume enough creatures.",
-        "6-6": "Without souls, but convinced they can attain souls by eating certain beings."
+        "1-1": "Des virus avancés, chacun étant le clone de tous les autres grells. Ils n'existent que pour se nourrir et se propager.",
+        "2-2": "Les larves d'une autre créature et ont besoin d'environnements chargés électriquement pour se reproduire.",
+        "3-3": "En train de fuir une catastrophe ou une terreur qui se cache dans les profondeurs.",
+        "4-4": "Surnaturellement connectés à des êtres aliens voraces et servent d'appendices alimentaires.",
+        "5-5": "Des vestiges d'un ancien mal qui reviendra si les grells consomment collectivement suffisamment de créatures.",
+        "6-6": "Sans âme, mais convaincus de pouvoir acquérir une âme en dévorant certains êtres."
       }
     },
     "Griffon Tales": {
-      "name": "Griffon Tales",
-      "description": "<p>Legends Claim That Griffons …</p>",
+      "name": "Légendes sur les Griffons",
+      "description": "<p>Les légendes prétendent que les Griffons …</p>",
       "results": {
-        "1-1": "Attack anything in the skies near their lairs.",
-        "2-2": "Curse their killers. Those who slay a griffon face the enmity of all animals.",
-        "3-3": "Lay eggs with remarkable healing properties.",
-        "4-4": "Prefer the taste of horses over all other prey.",
-        "5-5": "Serve the first creature they see after hatching.",
-        "6-6": "Won’t attack those with royal blood."
+        "1-1": "Attaquent tout ce qui se trouve dans les airs à proximité de leurs tanières.",
+        "2-2": "Maudissent leurs tueurs. Ceux qui tuent un griffon font face à l'inimitié de tous les animaux.",
+        "3-3": "Pondent des œufs aux remarquables propriétés curatives.",
+        "4-4": "Préfèrent le goût des chevaux par rapport à toute autre proie.",
+        "5-5": "Servent la première créature qu'ils voient après leur éclosion.",
+        "6-6": "N'attaquent pas ceux qui ont du sang royal."
       }
     },
     "Grimlock Tasks": {
-      "name": "Grimlock Tasks",
-      "description": "<p>The Grimlock Serves Mind Flayers By …</p>",
+      "name": "Tâches des Grimlocks",
+      "description": "<p>Le Grimlock sert les Flagelleurs Mentaux en …</p>",
       "results": {
-        "1-1": "Carving caves to serve as illithid outposts.",
-        "2-2": "Hiding the threat of mind flayers beneath fake, purposefully crude dwellings.",
-        "3-3": "Pretending to be helpful and luring travelers into false senses of security.",
-        "4-4": "Raiding surface communities and tempting other creatures to pursue it into illithid traps."
+        "1-1": "Creusant des cavernes servant d'avant-postes aux illithids.",
+        "2-2": "Cachant la menace des flagelleurs mentaux derrière de faux logements grossiers et délibérément primitifs.",
+        "3-3": "Prétendant être serviable et berçant les voyageurs dans une fausse sécurité.",
+        "4-4": "Pillant des communautés de surface et attirant d'autres créatures à le poursuivre dans des pièges à illithids."
       }
     },
     "Guardian Naga Lore": {
-      "name": "Guardian Naga Lore",
-      "description": "<p>The Guardian Naga Recalls …</p>",
+      "name": "Savoir du Naga Gardien",
+      "description": "<p>Le Naga Gardien se souvient …</p>",
       "results": {
-        "1-1": "The last words of an ancient sage or leader.",
-        "2-2": "The location of a hidden city or continent.",
-        "3-3": "A magic word, password, or riddle’s answer.",
-        "4-4": "The names of all who have told it stories.",
-        "5-5": "An otherwise forgotten ritual or spell.",
-        "6-6": "Recipes using regional ingredients.",
-        "7-7": "Stories of forgotten gods and local spirits.",
-        "8-8": "The vulnerabilities of a legendary monster."
+        "1-1": "Des dernières paroles d'un ancien sage ou chef.",
+        "2-2": "De l'emplacement d'une cité ou d'un continent caché.",
+        "3-3": "D'un mot magique, d'un mot de passe ou de la réponse à une énigme.",
+        "4-4": "Des noms de tous ceux qui lui ont raconté des histoires.",
+        "5-5": "D'un rituel ou d'un sort autrement oublié.",
+        "6-6": "De recettes utilisant des ingrédients régionaux.",
+        "7-7": "D'histoires de dieux oubliés et d'esprits locaux.",
+        "8-8": "Des vulnérabilités d'un monstre légendaire."
       }
     },
     "Helmed Horror Directives": {
-      "name": "Helmed Horror Directives",
-      "description": "<p>The Helmed Horror Follows Commands To …</p>",
+      "name": "Directives de l'Horreur Casquée",
+      "description": "<p>L'Horreur Casquée suit les ordres de …</p>",
       "results": {
-        "1-1": "Carry its master’s palanquin through the air.",
-        "2-2": "Defend a remarkable treasure or piece of armor by incorporating the item into its being.",
-        "3-3": "Imitate a dead or imprisoned hero by using their armor and weapons.",
-        "4-4": "Perform as a laborer or servant.",
-        "5-5": "Serve in a legion formed from the armors of a land’s ancient defenders.",
-        "6-6": "Stand sentry in a gallery of mundane armors."
+        "1-1": "Porter la litière de son maître dans les airs.",
+        "2-2": "Défendre un trésor remarquable ou une armure en incorporant l'objet dans son être.",
+        "3-3": "Imiter un héros mort ou emprisonné en utilisant son armure et ses armes.",
+        "4-4": "Faire office de manœuvre ou de serviteur.",
+        "5-5": "Servir dans une légion formée des armures des anciens défenseurs d'un pays.",
+        "6-6": "Monter la garde dans une galerie d'armures ordinaires."
       }
     },
     "Hippogriff Destination": {
-      "name": "Hippogriff Destination",
-      "description": "<p>The Hippogriff Is Traveling to A …</p>",
+      "name": "Destination de l'Hippogriffe",
+      "description": "<p>L'Hippogriffe se dirige vers …</p>",
       "results": {
-        "1-1": "Low-hanging moon, star, or other solar body.",
-        "2-2": "Magical garden on a floating island.",
-        "3-3": "Mountaintop with a view of a giant geoglyph.",
-        "4-4": "Nest full of hippogriff eggs atop a spire.",
-        "5-5": "Portal to the Feywild or an Upper Plane.",
-        "6-6": "Lost ruin hidden by clouds or fog."
+        "1-1": "Une lune, une étoile ou un autre corps céleste à basse altitude.",
+        "2-2": "Un jardin magique sur une île flottante.",
+        "3-3": "Un sommet de montagne avec une vue sur un géoglyphe géant.",
+        "4-4": "Un nid plein d'œufs d'hippogriffe au sommet d'une aiguille.",
+        "5-5": "Un portail vers le Royaumefé ou un Plan Supérieur.",
+        "6-6": "Une ruine perdue dissimulée par des nuages ou du brouillard."
       }
     },
     "Hobgoblin Strategies": {
-      "name": "Hobgoblin Strategies",
-      "description": "<p>The Hobgoblin Works To …</p>",
+      "name": "Stratégies des Hobgobelins",
+      "description": "<p>Le Hobgobelin s'efforce de …</p>",
       "results": {
-        "1-1": "Build a vessel to carry hobgoblin armies to new conquests.",
-        "2-2": "Capture monsters and train them to fight.",
-        "3-3": "Collapse a region into the Underdark so riches can be sifted from the ruins.",
-        "4-4": "Construct a giant machine to strip resources.",
-        "5-5": "Convince devils, dragons, or hobgoblins from Acheron to invade an enemy land.",
-        "6-6": "Help shortsighted merchants undermine a government or despoil the environment."
+        "1-1": "Construire un vaisseau pour transporter les armées hobgobelins vers de nouvelles conquêtes.",
+        "2-2": "Capturer des monstres et les entraîner au combat.",
+        "3-3": "Faire s'effondrer une région dans l'Outreterre pour tamiser les richesses des ruines.",
+        "4-4": "Construire une machine gigantesque pour extraire des ressources.",
+        "5-5": "Convaincre des diables, des dragons ou des hobgobelins d'Achéron d'envahir un pays ennemi.",
+        "6-6": "Aider des marchands myopes à saper un gouvernement ou à détruire l'environnement."
       }
     },
     "Homunculus Features": {
-      "name": "Homunculus Features",
-      "description": "<p>The Homunculus Has Features That Are …</p>",
+      "name": "Traits de l'Homuncule",
+      "description": "<p>L'Homuncule a des traits qui sont …</p>",
       "results": {
-        "1-1": "Bat-like with tattered wings.",
-        "2-2": "Made of soft metal and delicate gears.",
-        "3-3": "Marked with its creator’s symbol.",
-        "4-4": "Similar to those of a winged humanoid.",
-        "5-5": "Sprouting flowers and leaves.",
-        "6-6": "Suggestive of its creator’s appearance.",
-        "7-7": "Underdeveloped and fleshy with beady eyes.",
-        "8-8": "Woven and patchwork, like a well-loved toy."
+        "1-1": "Semblables à une chauve-souris avec des ailes déchirées.",
+        "2-2": "Faits de métal mou et d'engrenages délicats.",
+        "3-3": "Marqués du symbole de son créateur.",
+        "4-4": "Similaires à ceux d'un humanoïde ailé.",
+        "5-5": "Couverts de fleurs et de feuilles.",
+        "6-6": "Évocateurs de l'apparence de son créateur.",
+        "7-7": "Sous-développés et charnus avec de petits yeux.",
+        "8-8": "Tissés et patchwork, comme un jouet bien aimé."
       }
     },
     "Hunter Animal Lord Appearances": {
-      "name": "Hunter Animal Lord Appearances",
-      "description": "<p>Hunter Bestial Shape</p>",
+      "name": "Apparences du Seigneur Animal Chasseur",
+      "description": "<p>Forme Bestiale du Chasseur</p>",
       "results": {
         "1-1": "Alligator",
-        "2-2": "Badger",
-        "3-3": "Bat",
-        "4-4": "Cat",
-        "5-5": "Hawk",
-        "6-6": "Mongoose",
-        "7-7": "Praying mantis",
-        "8-8": "Shark",
-        "9-9": "Snake",
-        "10-10": "Wolf"
+        "2-2": "Blaireau",
+        "3-3": "Chauve-souris",
+        "4-4": "Chat",
+        "5-5": "Faucon",
+        "6-6": "Mangouste",
+        "7-7": "Mante religieuse",
+        "8-8": "Requin",
+        "9-9": "Serpent",
+        "10-10": "Loup"
       }
     },
     "Hydra Lairs": {
-      "name": "Hydra Lairs",
-      "description": "<p>The Hydra Lurks Where It Does To …</p>",
+      "name": "Tanières de l'Hydre",
+      "description": "<p>L'Hydre se tapie là où elle le fait pour …</p>",
       "results": {
-        "1-1": "Ensure none claim the weapon of a fallen hero.",
-        "2-2": "Defend the home of a wise but sinister oracle.",
-        "3-3": "Guard a magical herb that blooms once a year.",
-        "4-4": "Protect a font of poison that pollutes a river."
+        "1-1": "S'assurer que personne ne réclame l'arme d'un héros tombé au combat.",
+        "2-2": "Défendre la demeure d'un oracle sage mais sinistre.",
+        "3-3": "Garder une herbe magique qui fleurit une fois par an.",
+        "4-4": "Protéger une source de poison qui pollue une rivière."
       }
     },
     "Incubus Nightmares": {
-      "name": "Incubus Nightmares",
-      "description": "<p>The Incubus’s Victim Has Dreams Of …</p>",
+      "name": "Cauchemars de l'Incube",
+      "description": "<p>La victime de l'Incube fait des rêves de …</p>",
       "results": {
-        "1-1": "An angry family member or authority figure.",
-        "2-2": "Being chased through the wilderness.",
-        "3-3": "Being devoured by animals or monsters.",
-        "4-4": "Falling, drowning, or suffocating.",
-        "5-5": "A ruinous public embarrassment.",
-        "6-6": "A shadowy intruder or monstrous silhouette.",
-        "7-7": "A traumatic past event.",
-        "8-8": "A visitor with an eerie or enigmatic message."
+        "1-1": "Un membre de la famille ou une figure d'autorité en colère.",
+        "2-2": "Être chassé à travers la nature sauvage.",
+        "3-3": "Être dévoré par des animaux ou des monstres.",
+        "4-4": "Tomber, se noyer ou s'étouffer.",
+        "5-5": "Une embarrassante humiliation publique.",
+        "6-6": "Un intrus ombrageux ou une silhouette monstrueuse.",
+        "7-7": "Un événement traumatique du passé.",
+        "8-8": "Un visiteur portant un message étrange ou énigmatique."
       }
     },
     "Iron Golem Orders": {
-      "name": "Iron Golem Orders",
-      "description": "<p>The Iron Golem Follows Orders To …</p>",
+      "name": "Ordres du Golem de Fer",
+      "description": "<p>Le Golem de Fer suit les ordres de …</p>",
       "results": {
-        "1-1": "Block a door that has never been opened, moving only when a prophecy is fulfilled.",
-        "2-2": "Exhale poison gas whenever it can, pausing only when someone speaks a passphrase.",
-        "3-3": "Pose as a statue until a community’s hour of greatest need.",
-        "4-4": "Stand atop the resting place of a powerful magic item."
+        "1-1": "Bloquer une porte qui n'a jamais été ouverte, ne bougeant que lorsqu'une prophétie est accomplie.",
+        "2-2": "Exhaler un gaz toxique chaque fois qu'il le peut, ne s'arrêtant que lorsque quelqu'un prononce un mot de passe.",
+        "3-3": "Se faire passer pour une statue jusqu'à l'heure du plus grand besoin d'une communauté.",
+        "4-4": "Monter la garde au-dessus du lieu de repos d'un puissant objet magique."
       }
     },
     "Jackalwere Tricks": {
-      "name": "Jackalwere Tricks",
-      "description": "<p>The Jackalwere Tricks Travelers By …</p>",
+      "name": "Tours du Chacal-garou",
+      "description": "<p>Le Chacal-garou piège les voyageurs en …</p>",
       "results": {
-        "1-1": "Guiding them into wildernesses, then abandoning them.",
-        "2-2": "Mapping a shortcut through a monster’s lair.",
-        "3-3": "Putting them to sleep, then stealing mounts or supplies.",
-        "4-4": "Sharing the location of hidden treasure, which turns out to be sunlight on sand or water."
+        "1-1": "Les guidant dans des zones sauvages, puis en les abandonnant.",
+        "2-2": "Cartographiant un raccourci à travers la tanière d'un monstre.",
+        "3-3": "Les endormant, puis en volant leurs montures ou provisions.",
+        "4-4": "Partageant l'emplacement d'un trésor caché, qui s'avère être le reflet du soleil sur du sable ou de l'eau."
       }
     },
     "Kraken Attacks": {
-      "name": "Kraken Attacks",
-      "description": "<p>The Enraged Kraken …</p>",
+      "name": "Attaques du Kraken",
+      "description": "<p>Le Kraken enragé …</p>",
       "results": {
-        "1-1": "Abducts the vessel of a leader or another important community member.",
-        "2-2": "Attacks a community from below using flooded ruins, hidden aquifers, or sewers.",
-        "3-3": "Breaks a lighthouse or seaside tower, carrying it and the occupants to a secret island.",
-        "4-4": "Calls down lightning on any ship that enters its aquatic territory.",
-        "5-5": "Carries ships to an inescapable sargassum.",
-        "6-6": "Dams a river or cuts off a city’s sea access.",
-        "7-7": "Devours all sea life near a fishing community, threatening it with ruin.",
-        "8-8": "Masterminds an invasion from the sea by merfolk, sahuagin, or storm giants."
+        "1-1": "Enlève le vaisseau d'un chef ou d'un autre membre important de la communauté.",
+        "2-2": "Attaque une communauté par en dessous en utilisant des ruines inondées, des aquifères cachés ou des égouts.",
+        "3-3": "Brise un phare ou une tour en bord de mer, emportant celui-ci et ses occupants vers une île secrète.",
+        "4-4": "Fait tomber la foudre sur tout navire qui entre dans son territoire aquatique.",
+        "5-5": "Transporte des navires vers une sargasse infranchissable.",
+        "6-6": "Bloque une rivière ou coupe l'accès maritime d'une ville.",
+        "7-7": "Dévore toute vie marine près d'une communauté de pêcheurs, la menaçant de ruine.",
+        "8-8": "Orchestre une invasion depuis la mer par des tritons, des sahuagins ou des géants des tempêtes."
       }
     },
     "Kuo-toa Deity Features: Body": {
-      "name": "Kuo-toa Deity Features: Body",
-      "description": "<p>The deity's body is like a…</p>",
+      "name": "Caractéristiques de la Divinité Kuo-toa : Corps",
+      "description": "<p>Le corps de la divinité ressemble à …</p>",
       "results": {
-        "1-1": "Hermit crab",
-        "2-2": "Jellyfish",
+        "1-1": "Crabe ermite",
+        "2-2": "Méduse",
         "3-3": "Kuo-toa",
-        "4-4": "Mantis shrimp",
-        "5-5": "Merfolk",
-        "6-6": "Plesiosaurus",
-        "7-7": "Sea cucumber",
-        "8-8": "Ship’s figurehead",
-        "9-9": "Squid",
-        "10-10": "Whale"
+        "4-4": "Crevette-mante",
+        "5-5": "Triton",
+        "6-6": "Plésiosaure",
+        "7-7": "Holothurie",
+        "8-8": "Figure de proue de navire",
+        "9-9": "Calmar",
+        "10-10": "Baleine"
       }
     },
     "Kuo-toa Deity Features: Head": {
-      "name": "Kuo-toa Deity Features: Head",
-      "description": "<p>The deity's head is like a…</p>",
+      "name": "Caractéristiques de la Divinité Kuo-toa : Tête",
+      "description": "<p>La tête de la divinité ressemble à …</p>",
       "results": {
-        "1-1": "Barnacle",
-        "2-2": "Crab claw",
-        "3-3": "Hagfish",
-        "4-4": "Moray eel",
-        "5-5": "Sea anemone",
-        "6-6": "Shark",
-        "7-7": "Sunfish",
-        "8-8": "Tentacle",
-        "9-9": "Treasure chest",
-        "10-10": "Viperfish"
+        "1-1": "Balane",
+        "2-2": "Pince de crabe",
+        "3-3": "Myxine",
+        "4-4": "Murène",
+        "5-5": "Anémone de mer",
+        "6-6": "Requin",
+        "7-7": "Poisson-lune",
+        "8-8": "Tentacule",
+        "9-9": "Coffre au trésor",
+        "10-10": "Poisson-vipère"
       }
     },
     "Kuo-toa Ritual Sites": {
-      "name": "Kuo-toa Ritual Sites",
-      "description": "<p>The Kuo-toa Community Features …</p>",
+      "name": "Sites Rituels des Kuo-toas",
+      "description": "<p>La Communauté Kuo-toa présente …</p>",
       "results": {
-        "1-1": "An arena scattered with weapons made from crustacean shells.",
-        "2-2": "A gallery of hibernating chuuls.",
-        "3-3": "A garden of mussels and tide pool creatures that whisper secrets.",
-        "4-4": "A hidden shrine with a patchwork depiction of a new kuo-toa deity.",
-        "5-5": "The lavish chamber of an animal or monster said to be prophetic, lucky, or literate.",
-        "6-6": "A pool filled with jellyfish, eels, or fish roe that glow in organized patterns.",
-        "7-7": "A punishment chamber exposed to the light of the surface.",
-        "8-8": "A towering statue of a kuo-toa deity."
+        "1-1": "Une arène parsemée d'armes fabriquées à partir de coquilles de crustacés.",
+        "2-2": "Une galerie de chuuls en hibernation.",
+        "3-3": "Un jardin de moules et de créatures de bassin de marée qui chuchotent des secrets.",
+        "4-4": "Un sanctuaire caché avec une représentation patchwork d'une nouvelle divinité kuo-toa.",
+        "5-5": "La chambre luxueuse d'un animal ou d'un monstre réputé prophétique, chanceux ou lettré.",
+        "6-6": "Un bassin rempli de méduses, d'anguilles ou d'œufs de poisson qui brillent en motifs organisés.",
+        "7-7": "Une chambre de punition exposée à la lumière de la surface.",
+        "8-8": "Une statue imposante d'une divinité kuo-toa."
       }
     },
     "Lamia Pacts": {
-      "name": "Lamia Pacts",
-      "description": "<p>The Lamia Compels the Bargainer To …</p>",
+      "name": "Pactes de la Lamie",
+      "description": "<p>La Lamie contraint celui qui négocie à …</p>",
       "results": {
-        "1-1": "Bring it a possession from a ruler or noble.",
-        "2-2": "Create a map of a dungeon or ruin.",
-        "3-3": "Escort it through a nearby community’s gate.",
-        "4-4": "Place a strange idol in a specific site or home.",
-        "5-5": "Remove a magic item’s curse, then return it.",
-        "6-6": "Slay a monster and retrieve a specific organ."
+        "1-1": "Lui apporter une possession d'un dirigeant ou d'un noble.",
+        "2-2": "Créer une carte d'un donjon ou d'une ruine.",
+        "3-3": "L'escorter à travers la porte d'une communauté voisine.",
+        "4-4": "Placer une étrange idole dans un site ou une maison spécifique.",
+        "5-5": "Retirer la malédiction d'un objet magique, puis le rendre.",
+        "6-6": "Tuer un monstre et récupérer un organe spécifique."
       }
     },
     "Lich Spirit Jars": {
-      "name": "Lich Spirit Jars",
-      "description": "<p>The Lich’s Spirit Jar Is …</p>",
+      "name": "Réceptacles d'Esprit de la Liche",
+      "description": "<p>Le Réceptacle d'Esprit de la Liche est …</p>",
       "results": {
-        "1-1": "A bottle or puzzle box inscribed with sigils.",
-        "2-2": "A contract folded into a paper figure.",
-        "3-3": "The first magic item the lich created.",
-        "4-4": "A hollow figurine of a deity or monster.",
-        "5-5": "An hourglass with its sands floating in stasis.",
-        "6-6": "A locket or signet ring with a noble crest.",
-        "7-7": "A rune-etched egg.",
-        "8-8": "The skull of the lich’s mentor."
+        "1-1": "Une bouteille ou une boîte-puzzle inscrite de sigils.",
+        "2-2": "Un contrat plié en forme de figure en papier.",
+        "3-3": "Le premier objet magique que la liche a créé.",
+        "4-4": "Une figurine creuse d'une divinité ou d'un monstre.",
+        "5-5": "Un sablier dont le sable flotte en suspension.",
+        "6-6": "Un médaillon ou une chevalière avec un cimier noble.",
+        "7-7": "Un œuf gravé de runes.",
+        "8-8": "Le crâne du mentor de la liche."
       }
     },
     "Mage Roles": {
-      "name": "Mage Roles",
-      "description": "<p>The Mage Is …</p>",
+      "name": "Rôles du Mage",
+      "description": "<p>Le Mage est …</p>",
       "results": {
-        "1-1": "An astronomer who draws magic from stars.",
-        "2-2": "An author who writes about the occult.",
-        "3-3": "A magical engineer who creates wonders.",
-        "4-4": "An oracle who interprets omens.",
-        "5-5": "A prodigy with a remarkable magical heritage.",
-        "6-6": "A psion whose powers manifest as spells.",
-        "7-7": "A scholar investigating ancient lore.",
-        "8-8": "A soothsayer who advises rulers.",
-        "9-9": "A war mage who aids soldiers in battle.",
-        "10-10": "A witch who shares secret wisdom."
+        "1-1": "Un astronome qui puise sa magie des étoiles.",
+        "2-2": "Un auteur qui écrit sur l'occulte.",
+        "3-3": "Un ingénieur magique qui crée des merveilles.",
+        "4-4": "Un oracle qui interprète les présages.",
+        "5-5": "Un prodige avec un remarquable héritage magique.",
+        "6-6": "Un psion dont les pouvoirs se manifestent sous forme de sorts.",
+        "7-7": "Un érudit qui étudie des savoirs anciens.",
+        "8-8": "Un devin qui conseille les dirigeants.",
+        "9-9": "Un mage de guerre qui aide les soldats au combat.",
+        "10-10": "Une sorcière qui partage une sagesse secrète."
       }
     },
     "Manticore Negotiations": {
-      "name": "Manticore Negotiations",
-      "description": "<p>The Manticore Agrees To …</p>",
+      "name": "Négociations avec la Manticore",
+      "description": "<p>La Manticore accepte de …</p>",
       "results": {
-        "1-1": "Attack a particular foe.",
-        "2-2": "Create a distraction.",
-        "3-3": "Give up a captive or corpse.",
-        "4-4": "Let a group navigate its territory unharmed.",
-        "5-5": "Let someone pretend to slay it in battle.",
-        "6-6": "Scare or threaten someone.",
-        "7-7": "Serve a creature as a steed until the sun sets.",
-        "8-8": "Try to locate something from its vantage point in the sky."
+        "1-1": "Attaquer un ennemi particulier.",
+        "2-2": "Créer une distraction.",
+        "3-3": "Remettre un captif ou un cadavre.",
+        "4-4": "Laisser un groupe traverser son territoire sans être blessé.",
+        "5-5": "Laisser quelqu'un prétendre la terrasser au combat.",
+        "6-6": "Effrayer ou menacer quelqu'un.",
+        "7-7": "Servir une créature comme monture jusqu'au coucher du soleil.",
+        "8-8": "Tenter de localiser quelque chose depuis son point de vue dans les airs."
       }
     },
     "Medusa Fates": {
-      "name": "Medusa Fates",
-      "description": "<p>The Medusa Was …</p>",
+      "name": "Destins de la Méduse",
+      "description": "<p>La Méduse était …</p>",
       "results": {
-        "1-1": "Born a medusa and lives unaware of whatever curse or circumstances afflicted its ancestor.",
-        "2-2": "Created by a god and tasked with guarding a treasure or secret.",
-        "3-3": "A cultist who made a fiendish bargain and enjoyed rewards that have since faded.",
-        "4-4": "An explorer transformed and compelled to defend a cursed ruin.",
-        "5-5": "A vain noble whose magical attempt to gain eternal beauty backfired.",
-        "6-6": "The victim of a bite from a magical serpent or reptilian god in disguise."
+        "1-1": "Née méduse et vit ignorant la malédiction ou les circonstances qui ont affligé son ancêtre.",
+        "2-2": "Créée par un dieu et chargée de garder un trésor ou un secret.",
+        "3-3": "Un cultiste qui a conclu un marché fiélon et a joui de récompenses qui se sont depuis fanées.",
+        "4-4": "Un explorateur transformé et contraint de défendre une ruine maudite.",
+        "5-5": "Un noble vaniteux dont la tentative magique d'obtenir une beauté éternelle a mal tourné.",
+        "6-6": "La victime d'une morsure d'un serpent magique ou d'un dieu reptilien déguisé."
       }
     },
     "Mezzoloth Payments": {
-      "name": "Mezzoloth Payments",
-      "description": "<p>The Mezzoloth Agrees to Serve For …</p>",
+      "name": "Paiements du Mezzoloth",
+      "description": "<p>Le Mezzoloth accepte de servir pour …</p>",
       "results": {
-        "1-1": "Access to a planar portal.",
-        "2-2": "Information valued by its true master.",
-        "3-3": "A lair where it can bring others of its kind.",
-        "4-4": "Magic weapons or armor.",
-        "5-5": "The right to loot holy sites in places it conquers.",
-        "6-6": "Souls, whether as larvae or captured spirits."
+        "1-1": "L'accès à un portail planaire.",
+        "2-2": "Des informations valorisées par son vrai maître.",
+        "3-3": "Une tanière où il peut amener d'autres de son espèce.",
+        "4-4": "Des armes ou armures magiques.",
+        "5-5": "Le droit de piller des sites saints dans les lieux qu'il conquiert.",
+        "6-6": "Des âmes, que ce soient des larves ou des esprits capturés."
       }
     },
     "Mind Flayer Machinations": {
-      "name": "Mind Flayer Machinations",
-      "description": "<p>The Mind Flayer Colony Seeks To …</p>",
+      "name": "Machinations des Flagelleurs Mentaux",
+      "description": "<p>La Colonie de Flagelleurs Mentaux cherche à …</p>",
       "results": {
-        "1-1": "Blot out the sun so their Underdark-dwelling servants can invade the surface.",
-        "2-2": "Create a new monstrous fusion between mind flayers and a legendary monster.",
-        "3-3": "Forge a psionic network uniting illithid colonies.",
-        "4-4": "Replace world leaders with intellect devourers.",
-        "5-5": "Restore a vessel to travel through Wildspace.",
-        "6-6": "Sacrifice the mental energy of a planet’s populace to take control of a githyanki bastion."
+        "1-1": "Éteindre le soleil pour que leurs serviteurs habitant l'Outreterre puissent envahir la surface.",
+        "2-2": "Créer une nouvelle fusion monstrueuse entre des flagelleurs mentaux et un monstre légendaire.",
+        "3-3": "Forger un réseau psionique unissant les colonies illithides.",
+        "4-4": "Remplacer les dirigeants du monde par des dévoreurs d'intellect.",
+        "5-5": "Restaurer un vaisseau pour voyager dans l'Espace Sauvage.",
+        "6-6": "Sacrifier l'énergie mentale de la population d'une planète pour prendre le contrôle d'un bastion githyanki."
       }
     },
     "Minotaur Mazes": {
-      "name": "Minotaur Mazes",
-      "description": "<p>The Minotaur of Baphomet Lurks In …</p>",
+      "name": "Labyrinthes du Minotaure",
+      "description": "<p>Le Minotaure de Baphomet se tapie dans …</p>",
       "results": {
-        "1-1": "A multilevel mine or sewer.",
-        "2-2": "Multiple mazes connected by magic portals.",
-        "3-3": "A poisonous swamp with labyrinthine paths.",
-        "4-4": "The ruins of a buried palace or temple."
+        "1-1": "Une mine ou des égouts à plusieurs niveaux.",
+        "2-2": "Plusieurs labyrinthes reliés par des portails magiques.",
+        "3-3": "Un marais vénéneux avec des chemins labyrinthiques.",
+        "4-4": "Les ruines d'un palais ou d'un temple enfoui."
       }
     },
     "Modron Operations": {
-      "name": "Modron Operations",
-      "description": "<p>The Modrons Work To …</p>",
+      "name": "Opérations des Modrons",
+      "description": "<p>Les Modrons s'efforcent de …</p>",
       "results": {
-        "1-1": "Create a clockwork outpost to monitor the balance of obscure planar forces.",
-        "2-2": "Ensure neither side gains the upper hand in a conflict between good and evil.",
-        "3-3": "Excavate a portal to another plane.",
-        "4-4": "Find a lost contingent of modrons.",
-        "5-5": "Reactivate a titanic but lost modron device.",
-        "6-6": "Remove a forest, mountain, or city before the arrival of a modron procession.",
-        "7-7": "Seal off a planar rift or wild magic zone.",
-        "8-8": "Wage war with demons, slaadi, or chaotic Fey."
+        "1-1": "Créer un avant-poste d'horlogerie pour surveiller l'équilibre des forces planaires obscures.",
+        "2-2": "S'assurer qu'aucun camp ne prend le dessus dans un conflit entre le bien et le mal.",
+        "3-3": "Creuser un portail vers un autre plan.",
+        "4-4": "Trouver un contingent de modrons perdu.",
+        "5-5": "Réactiver un appareil modron titanesque mais perdu.",
+        "6-6": "Retirer une forêt, une montagne ou une ville avant l'arrivée d'une procession de modrons.",
+        "7-7": "Sceller une faille planaire ou une zone de magie sauvage.",
+        "8-8": "Mener la guerre contre des démons, des slaadis ou des Fées chaotiques."
       }
     },
     "Mummy Lord Plots": {
-      "name": "Mummy Lord Plots",
-      "description": "<p>The Mummy Lord Seeks To …</p>",
+      "name": "Complots du Seigneur des Momies",
+      "description": "<p>Le Seigneur des Momies cherche à …</p>",
       "results": {
-        "1-1": "Open a portal to the past, when its power was at its height.",
-        "2-2": "Perform a ritual that can be attempted only once every eight hundred years.",
-        "3-3": "Reclaim and resurrect a loved one’s corpse.",
-        "4-4": "Reconquer the lands that once composed its empire.",
-        "5-5": "Recover the pieces of its lost heart.",
-        "6-6": "Replace its descendant as the ruler of a realm.",
-        "7-7": "Sacrifice a thousand souls to its god in return for true life.",
-        "8-8": "Transform the people of an entire nation into Undead servants."
+        "1-1": "Ouvrir un portail vers le passé, lorsque son pouvoir était à son apogée.",
+        "2-2": "Effectuer un rituel qui ne peut être tenté qu'une fois tous les huit cents ans.",
+        "3-3": "Récupérer et ressusciter le cadavre d'un être cher.",
+        "4-4": "Reconquérir les terres qui composaient autrefois son empire.",
+        "5-5": "Récupérer les morceaux de son cœur perdu.",
+        "6-6": "Remplacer son descendant en tant que dirigeant d'un royaume.",
+        "7-7": "Sacrifier mille âmes à son dieu en échange d'une véritable vie.",
+        "8-8": "Transformer le peuple d'une nation entière en serviteurs Morts-vivants."
       }
     },
     "Mummy Resurrections": {
-      "name": "Mummy Resurrections",
-      "description": "<p>The Mummy Reanimates To …</p>",
+      "name": "Résurrections de la Momie",
+      "description": "<p>La Momie se réanime pour …</p>",
       "results": {
-        "1-1": "Defend a holy site it was created to protect.",
-        "2-2": "Obey the summons of a mummy lord.",
-        "3-3": "Oppose an enemy who has returned to life.",
-        "4-4": "Protect its descendants from an ancient threat.",
-        "5-5": "Punish the progeny of those who cursed it.",
-        "6-6": "Reclaim treasures robbed from its crypt.",
-        "7-7": "Serve whoever speaks the prayer on its tomb.",
-        "8-8": "Slay anyone who sets eyes on it."
+        "1-1": "Défendre un site sacré qu'elle a été créée pour protéger.",
+        "2-2": "Obéir à la convocation d'un seigneur des momies.",
+        "3-3": "S'opposer à un ennemi qui est revenu à la vie.",
+        "4-4": "Protéger ses descendants d'une ancienne menace.",
+        "5-5": "Punir la progéniture de ceux qui l'ont maudite.",
+        "6-6": "Récupérer des trésors volés dans sa crypte.",
+        "7-7": "Servir quiconque prononce la prière sur sa tombe.",
+        "8-8": "Tuer quiconque pose les yeux sur elle."
       }
     },
     "Nightmare Riders": {
-      "name": "Nightmare Riders",
-      "description": "<p>The Nightmare Carries …</p>",
+      "name": "Cavaliers du Cauchemar",
+      "description": "<p>Le Cauchemar transporte …</p>",
       "results": {
-        "1-1": "The champion or messenger of an evil deity.",
-        "2-2": "A group of joyriding imps or quasits.",
-        "3-3": "An innocent soul trapped on the wild Fiend.",
-        "4-4": "A lore-hunting mage, cultist, or lich.",
-        "5-5": "A night hag herding larvae between planes.",
-        "6-6": "A wicked cavalier, such as a death knight, an erinyes, an incubus, or a vampire."
+        "1-1": "Le champion ou le messager d'une divinité maléfique.",
+        "2-2": "Un groupe d'imps ou de quasits en promenade nocturne.",
+        "3-3": "Une âme innocente piégée sur le Fiélon sauvage.",
+        "4-4": "Un mage, cultiste ou liche en quête de savoir.",
+        "5-5": "Une nuit-guenon rassemblant des larves entre les plans.",
+        "6-6": "Un cavalier maléfique, comme un chevalier de la mort, une érinye, un incube ou un vampire."
       }
     },
     "Ochre Jelly Leftovers": {
-      "name": "Ochre Jelly Leftovers",
-      "description": "<p>After a Meal, the Ochre Jelly Leaves Behind …</p>",
+      "name": "Restes de la Gelée Ocre",
+      "description": "<p>Après un repas, la Gelée Ocre laisse derrière elle …</p>",
       "results": {
-        "1-1": "A bone etched with a word or an eerie symbol.",
-        "2-2": "Broken dragonborn or tiefling horns.",
-        "3-3": "An ornate prosthetic limb.",
-        "4-4": "The skeleton of an explorer’s pet (perhaps a small dog, monkey, or parrot).",
-        "5-5": "A skull with gold teeth worth 1d4 GP.",
-        "6-6": "A spotless suit of metal armor."
+        "1-1": "Un os gravé d'un mot ou d'un étrange symbole.",
+        "2-2": "Des cornes brisées de drakéides ou de tieffelins.",
+        "3-3": "Un membre artificiel orné.",
+        "4-4": "Le squelette de l'animal de compagnie d'un explorateur (peut-être un petit chien, un singe ou un perroquet).",
+        "5-5": "Un crâne avec des dents en or valant 1d4 PO.",
+        "6-6": "Une armure métallique immaculée."
       }
     },
     "Oni Troubles": {
-      "name": "Oni Troubles",
-      "description": "<p>The Oni Torments People By …</p>",
+      "name": "Tracas causés par l'Oni",
+      "description": "<p>L'Oni tourmente les gens en …</p>",
       "results": {
-        "1-1": "Charming people to perform nasty tricks.",
-        "2-2": "Claiming a bridge, gate, shrine, or trail and trying to eat anyone who comes near.",
-        "3-3": "Luring other monsters to the settlement.",
-        "4-4": "Playing drums that keep everyone awake."
+        "1-1": "Charmant des gens pour qu'ils réalisent de mauvaises farces.",
+        "2-2": "Revendiquant un pont, une porte, un sanctuaire ou un sentier et en essayant de manger quiconque s'approche.",
+        "3-3": "Attirant d'autres monstres vers la colonie.",
+        "4-4": "Jouant des tambours qui empêchent tout le monde de dormir."
       }
     },
     "Otyugh Lures": {
-      "name": "Otyugh Lures",
-      "description": "<p>To Attract Potential Meals, the Otyugh …</p>",
+      "name": "Appâts de l'Otyugh",
+      "description": "<p>Pour attirer des proies potentielles, l'Otyugh …</p>",
       "results": {
-        "1-1": "Disguises its tentacles with garbage puppets.",
-        "2-2": "Sings an enticing song in Otyugh.",
-        "3-3": "Telepathically transmits a message like “Happy good stuff here!” or “Help now! I’m too delicious?”",
-        "4-4": "Telepathically transmits an image of a large gemstone, crooked weapon, or soggy pastry."
+        "1-1": "Déguise ses tentacules avec des marionnettes de déchets.",
+        "2-2": "Chante une chanson envoûtante en langue Otyugh.",
+        "3-3": "Transmet télépathiquement un message du genre « Bonnes choses heureuses ici ! » ou « Aide maintenant ! Je suis trop délicieux ? »",
+        "4-4": "Transmet télépathiquement l'image d'une grande gemme, d'une arme tordue ou d'une pâtisserie détrempée."
       }
     },
     "Owlbear Den Features": {
-      "name": "Owlbear Den Features",
-      "description": "<p>An Owlbear Den Contains …</p>",
+      "name": "Caractéristiques de la Tanière d'Ours-hibou",
+      "description": "<p>Une Tanière d'Ours-hibou contient …</p>",
       "results": {
-        "1-1": "Evidence of previous occupants, like bandits, wolves, or dragons.",
-        "2-2": "Heaps of regurgitated pellets studded with coins or other treasure.",
-        "3-3": "A nest with 1d6 owlbear eggs.",
-        "4-4": "Passages through the earth or hollow trees."
+        "1-1": "Des preuves d'anciens occupants, comme des bandits, des loups ou des dragons.",
+        "2-2": "Des tas de pelotes régurgitées parsemées de pièces ou d'autres trésors.",
+        "3-3": "Un nid avec 1d6 œufs d'ours-hibou.",
+        "4-4": "Des passages à travers la terre ou des arbres creux."
       }
     },
     "Pegasus Offerings": {
-      "name": "Pegasus Offerings",
-      "description": "<p>A Pegasus Won’t Flee Someone …</p>",
+      "name": "Offrandes pour le Pégase",
+      "description": "<p>Un Pégase ne fuira pas quelqu'un …</p>",
       "results": {
-        "1-1": "Bearing the gear of a hero the pegasus aided.",
-        "2-2": "Offering magical fruit or holy spring water.",
-        "3-3": "Singing a song in Celestial, Druidic, or Sylvan.",
-        "4-4": "Wearing the garb of an ancient heroic order."
+        "1-1": "Portant l'équipement d'un héros que le pégase a aidé.",
+        "2-2": "Offrant des fruits magiques ou de l'eau d'une source sacrée.",
+        "3-3": "Chantant une chanson en Céleste, en Druidique ou en Sylvain.",
+        "4-4": "Portant la tenue d'un ancien ordre héroïque."
       }
     },
     "Peryton Superstitions": {
-      "name": "Peryton Superstitions",
-      "description": "<p>If a Peryton Collects Enough Hearts …</p>",
+      "name": "Superstitions du Péryton",
+      "description": "<p>Si un Péryton recueille suffisamment de cœurs …</p>",
       "results": {
-        "1-1": "The hearts grant an evil wish.",
-        "2-2": "It reverts to its original form.",
-        "3-3": "A new peryton hatches from each heart.",
-        "4-4": "A portal opens to the Lower Planes."
+        "1-1": "Les cœurs accordent un souhait maléfique.",
+        "2-2": "Il retrouve sa forme originale.",
+        "3-3": "Un nouveau péryton éclot de chaque cœur.",
+        "4-4": "Un portail s'ouvre vers les Plans Inférieurs."
       }
     },
     "Petrified Basilisk Victims": {
-      "name": "Petrified Basilisk Victims",
-      "description": "<p>A Basilisk Used Its Gaze to Petrify …</p>",
+      "name": "Victimes Pétrifiées du Basilic",
+      "description": "<p>Un Basilic a utilisé son regard pour pétrifier …</p>",
       "results": {
-        "1-1": "An adventurer with an ornate key hanging around their neck.",
-        "2-2": "Animals like bats, bears, deer, or goats.",
-        "3-3": "A climber clinging to a stalactite.",
-        "4-4": "Itself using a large mirror or shiny surface.",
-        "5-5": "A mimic disguised as a chest full of treasure.",
-        "6-6": "A monster such as an umber hulk or a troglodyte.",
-        "7-7": "Someone caught in a comic pose or making a regrettable face.",
-        "8-8": "A victim now being used as a nest for insects or other vermin."
+        "1-1": "Un aventurier avec une clé ornée accrochée autour de son cou.",
+        "2-2": "Des animaux comme des chauves-souris, des ours, des cerfs ou des chèvres.",
+        "3-3": "Un grimpeur accroché à une stalactite.",
+        "4-4": "Lui-même en utilisant un grand miroir ou une surface brillante.",
+        "5-5": "Un mimic déguisé en coffre plein de trésor.",
+        "6-6": "Un monstre comme un ombrehulk ou un troglodyte.",
+        "7-7": "Quelqu'un surpris dans une pose comique ou faisant une grimace regrettable.",
+        "8-8": "Une victime désormais utilisée comme nid pour des insectes ou d'autres vermines."
       }
     },
     "Pirate Flags - Accesosry": {
-      "name": "Pirate Flags - Accesosry",
-      "description": "<p>With…</p>",
+      "name": "Drapeaux Pirates - Accessoire",
+      "description": "<p>Avec …</p>",
       "results": {
-        "1-1": "A captain’s hat",
-        "2-2": "Crossbones",
-        "3-3": "Crossed blades",
-        "4-4": "An eye patch",
-        "5-5": "Lightning bolts",
-        "6-6": "A mug of ale",
-        "7-7": "A tattoo",
-        "8-8": "A treasure chest"
+        "1-1": "Un chapeau de capitaine",
+        "2-2": "Des tibias croisés",
+        "3-3": "Des lames croisées",
+        "4-4": "Un cache-œil",
+        "5-5": "Des éclairs",
+        "6-6": "Un pot de bière",
+        "7-7": "Un tatouage",
+        "8-8": "Un coffre au trésor"
       }
     },
     "Pirate Flags - Main": {
-      "name": "Pirate Flags - Main",
-      "description": "<p>The flag shows a…</p>",
+      "name": "Drapeaux Pirates - Principal",
+      "description": "<p>Le drapeau montre …</p>",
       "results": {
-        "1-1": "Buccaneer",
-        "2-2": "Dragon",
-        "3-3": "Fiend",
-        "4-4": "Goat",
-        "5-5": "Kraken",
-        "6-6": "Merfolk",
-        "7-7": "Skull",
-        "8-8": "Whale"
+        "1-1": "Un flibustier",
+        "2-2": "Un dragon",
+        "3-3": "Un fiélon",
+        "4-4": "Un bouc",
+        "5-5": "Un kraken",
+        "6-6": "Un triton",
+        "7-7": "Un crâne",
+        "8-8": "Une baleine"
       }
     },
     "Planetar Quests": {
-      "name": "Planetar Quests",
-      "description": "<p>The Planetar Entreats a Mortal Hero To …</p>",
+      "name": "Quêtes du Planétar",
+      "description": "<p>Le Planétar demande à un Héros Mortel de …</p>",
       "results": {
-        "1-1": "Convince a villain to meet with the angel.",
-        "2-2": "Find a loved one a villain believes is dead.",
-        "3-3": "Heal the loved one of an evil ruler.",
-        "4-4": "Inspire the defenders of a besieged holy site.",
-        "5-5": "Recover and destroy an evil Artifact.",
-        "6-6": "Reveal the true name of a devil to banish it."
+        "1-1": "Convaincre un vilain de rencontrer l'ange.",
+        "2-2": "Trouver un être cher qu'un vilain croit mort.",
+        "3-3": "Guérir l'être cher d'un dirigeant maléfique.",
+        "4-4": "Inspirer les défenseurs d'un site sacré assiégé.",
+        "5-5": "Récupérer et détruire un Artefact maléfique.",
+        "6-6": "Révéler le vrai nom d'un diable pour le bannir."
       }
     },
     "Poltergeist Activities": {
-      "name": "Poltergeist Activities",
-      "description": "<p>To Torment the Living, the Poltergeist …</p>",
+      "name": "Activités du Poltergeist",
+      "description": "<p>Pour tourmenter les vivants, le Poltergeist …</p>",
       "results": {
-        "1-1": "Keeps returning a discarded item.",
-        "2-2": "Leaves footprints on vertical surfaces.",
-        "3-3": "Makes noises like someone trapped in a wall.",
-        "4-4": "Organizes a pack’s contents across the floor.",
-        "5-5": "Playfully puppets a corpse or doll.",
-        "6-6": "Removes bedding while someone sleeps.",
-        "7-7": "Sticks knives or weapons in the ceiling.",
-        "8-8": "Uncannily stacks books, furniture, or utensils."
+        "1-1": "Continue de ramener un objet jeté.",
+        "2-2": "Laisse des empreintes de pas sur des surfaces verticales.",
+        "3-3": "Fait des bruits comme si quelqu'un était piégé dans un mur.",
+        "4-4": "Organise le contenu d'un sac à travers le sol.",
+        "5-5": "Fait marionner un cadavre ou une poupée de façon ludique.",
+        "6-6": "Enlève les draps de lit pendant que quelqu'un dort.",
+        "7-7": "Plante des couteaux ou des armes dans le plafond.",
+        "8-8": "Empile des livres, des meubles ou des ustensiles de manière inquiétante."
       }
     },
     "Priest Roles": {
-      "name": "Priest Roles",
-      "description": "<p>The Priest Is …</p>",
+      "name": "Rôles du Prêtre",
+      "description": "<p>Le Prêtre est …</p>",
       "results": {
-        "1-1": "An ascetic who keeps wicked spirits at bay.",
-        "2-2": "An elder who speaks for the dead.",
-        "3-3": "An exorcist who hunts wicked spirits.",
-        "4-4": "A follower of a god no one has heard of.",
-        "5-5": "A mediator and teacher of traditional ways.",
-        "6-6": "A philosopher devoted to a concept, multiversal view, or plane of existence.",
-        "7-7": "The reincarnation of an ancient faith leader.",
-        "8-8": "A ritualist who uses tinctures and performances to access the divine.",
-        "9-9": "A shaman whose medicines ease many ills.",
-        "10-10": "A zealot who wages war for a divine cause."
+        "1-1": "Un ascète qui maintient à distance les esprits maléfiques.",
+        "2-2": "Un ancien qui parle pour les morts.",
+        "3-3": "Un exorciste qui traque les esprits maléfiques.",
+        "4-4": "Un adepte d'un dieu dont personne n'a entendu parler.",
+        "5-5": "Un médiateur et enseignant des voies traditionnelles.",
+        "6-6": "Un philosophe voué à un concept, une vision multiverselle ou un plan d'existence.",
+        "7-7": "La réincarnation d'un ancien chef de foi.",
+        "8-8": "Un ritualiste qui utilise des teintures et des performances pour accéder au divin.",
+        "9-9": "Un chaman dont les médecines soulagent de nombreux maux.",
+        "10-10": "Un zélote qui mène une guerre pour une cause divine."
       }
     },
     "Pseudodragon Treats": {
-      "name": "Pseudodragon Treats",
-      "description": "<p>The Pseudodragon Wants …</p>",
+      "name": "Récompenses du Pseudodragon",
+      "description": "<p>Le Pseudodragon veut …</p>",
       "results": {
-        "1-1": "Flamboyant accessories it can wear.",
-        "2-2": "Mementos from a lost friend or master.",
-        "3-3": "Outlandish delicacies—like axe beak-egg omelets or mammoth-milk cheese.",
-        "4-4": "The possessions of a sibling, rival, or master.",
-        "5-5": "Shiny gifts, from gems to abalone shells.",
-        "6-6": "Soft bedding and stuffed toys.",
-        "7-7": "A specific cook’s signature dessert.",
-        "8-8": "Time-consuming beauty treatments.",
-        "9-9": "To hear a bedtime story or favorite song.",
-        "10-10": "Trophies and important-sounding titles."
+        "1-1": "Des accessoires extravagants qu'il peut porter.",
+        "2-2": "Des souvenirs d'un ami ou maître perdu.",
+        "3-3": "Des délices extraordinaires — comme des omelettes aux œufs de bec-à-hache ou du fromage au lait de mammouth.",
+        "4-4": "Les possessions d'un frère, d'un rival ou d'un maître.",
+        "5-5": "Des cadeaux brillants, des gemmes aux coquilles d'ormeau.",
+        "6-6": "Une literie douce et des peluches.",
+        "7-7": "Le dessert signature d'un cuisinier spécifique.",
+        "8-8": "Des traitements de beauté chronophages.",
+        "9-9": "Entendre une histoire du soir ou une chanson favorite.",
+        "10-10": "Des trophées et des titres à consonance importante."
       }
     },
     "Roc Nest Remnants": {
-      "name": "Roc Nest Remnants",
-      "description": "<p>The Roc’s Nest Holds …</p>",
+      "name": "Restes dans le Nid du Roc",
+      "description": "<p>Le nid du Roc contient …</p>",
       "results": {
-        "1-1": "The burial litter of a lost hero.",
-        "2-2": "A caravan wagon full of trade goods.",
-        "3-3": "A live elephant.",
-        "4-4": "[[/r 1d4#Eggs]]{1d4 eggs} larger than adult humans",
-        "5-5": "Someone marooned in the nest.",
-        "6-6": "A statue of a knight riding a rearing steed."
+        "1-1": "La civière funèbre d'un héros perdu.",
+        "2-2": "Un chariot de caravane plein de marchandises.",
+        "3-3": "Un éléphant vivant.",
+        "4-4": "[[/r 1d4#Eggs]]{1d4 œufs} plus grands que des humains adultes",
+        "5-5": "Quelqu'un naufragé dans le nid.",
+        "6-6": "Une statue d'un chevalier montant un destrier cabré."
       }
     },
     "Roper Hazards": {
-      "name": "Roper Hazards",
-      "description": "<p>The Roper Drags Prey Through …</p>",
+      "name": "Dangers du Roper",
+      "description": "<p>Le Roper entraîne ses proies à travers …</p>",
       "results": {
-        "1-1": "Areas that trigger traps.",
-        "2-2": "Caverns filled with smoke or gas.",
-        "3-3": "@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#dead-magic-zone]{Dead magic}* or @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#wild-magic-zone]{wild magic}* zones.",
-        "4-4": "The lair of a creature it is trying to bait out.",
-        "5-5": "A nest of rats, insects, or other vermin.",
-        "6-6": "Patches of @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#brown-mold]{brown mold}* or @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#green-slime]{green slime}*.",
-        "7-7": "Pools of magma or boiling water.",
-        "8-8": "@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#razorvine]{Razorvine}* or similar dangerous plants."
+        "1-1": "Des zones qui déclenchent des pièges.",
+        "2-2": "Des cavernes remplies de fumée ou de gaz.",
+        "3-3": "Des zones de @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#dead-magic-zone]{magie morte}* ou de @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#wild-magic-zone]{magie sauvage}*.",
+        "4-4": "La tanière d'une créature qu'il essaie d'attirer.",
+        "5-5": "Un nid de rats, d'insectes ou d'autres vermines.",
+        "6-6": "Des zones de @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#brown-mold]{moisissure brune}* ou de @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#green-slime]{vase verte}*.",
+        "7-7": "Des bassins de magma ou d'eau bouillante.",
+        "8-8": "De la @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#razorvine]{Lame-vigne}* ou d'autres plantes dangereuses."
       }
     },
     "Sage Animal Lord Appearances": {
-      "name": "Sage Animal Lord Appearances",
-      "description": "<p>Sage Bestial Shape</p>",
+      "name": "Apparences du Seigneur Animal Sage",
+      "description": "<p>Forme Bestiale du Sage</p>",
       "results": {
         "1-1": "Coyote",
-        "2-2": "Crow",
-        "3-3": "Elephant",
-        "4-4": "Lizard",
-        "5-5": "Mouse",
-        "6-6": "Owl",
-        "7-7": "Salmon",
-        "8-8": "Spider",
-        "9-9": "Turtle",
-        "10-10": "Whale"
+        "2-2": "Corbeau",
+        "3-3": "Éléphant",
+        "4-4": "Lézard",
+        "5-5": "Souris",
+        "6-6": "Hibou",
+        "7-7": "Saumon",
+        "8-8": "Araignée",
+        "9-9": "Tortue",
+        "10-10": "Baleine"
       }
     },
     "Scarecrow Frames": {
-      "name": "Scarecrow Frames",
-      "description": "<p>The Scarecrow Is Made From …</p>",
+      "name": "Structures de l'Épouvantail",
+      "description": "<p>L'Épouvantail est fait de …</p>",
       "results": {
-        "1-1": "Animal furs, bones, horns, and claws.",
-        "2-2": "Beehives or wasp nests over a wicker frame.",
-        "3-3": "A carved pumpkin atop a body of thick vines.",
-        "4-4": "Nets, flotsam, grapnels, and fishing tackle.",
-        "5-5": "Oversize stuffed animal or mannequin parts.",
-        "6-6": "Rusty armor and torture devices.",
-        "7-7": "A sackcloth head atop straw-stuffed clothes.",
-        "8-8": "Wedding clothes that were never worn."
+        "1-1": "Fourrures, os, cornes et griffes d'animaux.",
+        "2-2": "Des ruches ou nids de guêpes sur un cadre en osier.",
+        "3-3": "Une citrouille sculptée au sommet d'un corps de vignes épaisses.",
+        "4-4": "Des filets, des épaves, des grappins et des engins de pêche.",
+        "5-5": "Des pièces de peluches géantes ou de mannequins.",
+        "6-6": "Une armure rouillée et des instruments de torture.",
+        "7-7": "Une tête en sac de jute sur des vêtements bourrés de paille.",
+        "8-8": "Des vêtements de mariage qui n'ont jamais été portés."
       }
     },
     "Sea Hag Disguises": {
-      "name": "Sea Hag Disguises",
-      "description": "<p>The Sea Hag Takes the Form of A …</p>",
+      "name": "Déguisements de la Sorcière des Mers",
+      "description": "<p>La Sorcière des Mers prend l'apparence d'un …</p>",
       "results": {
-        "1-1": "Captive and claims nearby villagers bound them and left them to drown.",
-        "2-2": "Castaway and shares a cursed item’s location with would-be rescuers.",
-        "3-3": "Healer and passes off poisons as medicine.",
-        "4-4": "Panic-spreading prophesier of doom.",
-        "5-5": "Ship captain and delivers passengers to the hag’s pet sea monster.",
-        "6-6": "Wounded sailor and claims their ship was destroyed by merfolk or other peaceful people."
+        "1-1": "Captif et prétend que des villageois voisins l'ont liée et laissée se noyer.",
+        "2-2": "Naufragé et partage l'emplacement d'un objet maudit avec des sauveteurs potentiels.",
+        "3-3": "Guérisseur et fait passer des poisons pour des médicaments.",
+        "4-4": "Prophète semant la panique et annonçant le malheur.",
+        "5-5": "Capitaine de navire et livre les passagers au monstre marin apprivoisé de la sorcière.",
+        "6-6": "Marin blessé et prétend que leur navire a été détruit par des tritons ou d'autres personnes pacifiques."
       }
     },
     "Shadow Shapes": {
-      "name": "Shadow Shapes",
-      "description": "<p>The Shadow Appears As …</p>",
+      "name": "Formes de l'Ombre",
+      "description": "<p>L'Ombre apparaît comme …</p>",
       "results": {
-        "1-1": "A distorted stalker that lurks in the woods.",
-        "2-2": "A fiend that dwells near a wicked ritual site.",
-        "3-3": "Grasping hands that haunt a miser’s home.",
-        "4-4": "A grim storybook character that follows those who speak its name.",
-        "5-5": "Its target, acting in eerie pantomime.",
-        "6-6": "An ominous priest that haunts a defiled site."
+        "1-1": "Un traqueur distordu qui rôde dans les bois.",
+        "2-2": "Un fiélon qui demeure près d'un site de rituel maléfique.",
+        "3-3": "Des mains saisissantes qui hantent la demeure d'un avare.",
+        "4-4": "Un sinistre personnage de conte qui suit ceux qui prononcent son nom.",
+        "5-5": "Sa cible, agissant dans une pantomime inquiétante.",
+        "6-6": "Un prêtre menaçant qui hante un site profané."
       }
     },
     "Shambling Mound Cultivation": {
-      "name": "Shambling Mound Cultivation",
-      "description": "<p>The Shambling Mound Is …</p>",
+      "name": "Cultivation du Shambling Mound",
+      "description": "<p>Le Shambling Mound est …</p>",
       "results": {
-        "1-1": "Covered in vibrant alien or Feywild blooms.",
-        "2-2": "Hauling a rune-etched menhir in its torso.",
-        "3-3": "Infested with vermin or fungi.",
-        "4-4": "Made up of knotty vines entangling skeletons.",
-        "5-5": "Mutated and leaking glowing pollution.",
-        "6-6": "The remains of an ancient tree or a treant."
+        "1-1": "Couvert de fleurs vives aliennes ou du Royaumefé.",
+        "2-2": "En train de transporter un menhir gravé de runes dans son torse.",
+        "3-3": "Infesté de vermines ou de champignons.",
+        "4-4": "Composé de lianes noueuses enchevêtrant des squelettes.",
+        "5-5": "Muté et laissant couler une pollution lumineuse.",
+        "6-6": "Les restes d'un arbre ancestral ou d'un treant."
       }
     },
     "Skeleton Pantomimes": {
-      "name": "Skeleton Pantomimes",
-      "description": "<p>Left to Its Own Devices, the Skeleton …</p>",
+      "name": "Pantomimes du Squelette",
+      "description": "<p>Livré à lui-même, le Squelette …</p>",
       "results": {
-        "1-1": "Delivers meal salvers or ages-old correspondence to the crypt of its dead master.",
-        "2-2": "Endlessly trains in battle with other skeletons, despite being hacked to animate splinters.",
-        "3-3": "Mimics ways it entertained itself in life, such as acting, dancing, or reading.",
-        "4-4": "Performs a familiar task, such as cleaning, cooking, mining, or praying.",
-        "5-5": "Repeats its final moments of life.",
-        "6-6": "Stands guard at the post it protected in life."
+        "1-1": "Livre des plateaux de repas ou une correspondance vieille de plusieurs siècles à la crypte de son maître mort.",
+        "2-2": "S'entraîne sans fin au combat avec d'autres squelettes, malgré avoir été réduit en éclats animés.",
+        "3-3": "Imite les façons dont il se divertissait de son vivant, comme jouer, danser ou lire.",
+        "4-4": "Accomplit une tâche familière, comme nettoyer, cuisiner, miner ou prier.",
+        "5-5": "Répète ses derniers instants de vie.",
+        "6-6": "Monte la garde au poste qu'il protégeait de son vivant."
       }
     },
     "Specter Haunts": {
-      "name": "Specter Haunts",
-      "description": "<p>The Specter Lurks Near …</p>",
+      "name": "Hantises du Spectre",
+      "description": "<p>Le Spectre rôde près de …</p>",
       "results": {
-        "1-1": "A community afflicted by curses, grudges, plagues, or tragedies.",
-        "2-2": "An evil Artifact or a deadly magical device.",
-        "3-3": "The place where a villain died or is buried.",
-        "4-4": "The lair of a Fiend or an Undead.",
-        "5-5": "A portal to the Lower Planes, Negative Plane, or Shadowfell.",
-        "6-6": "The sanctuary of a necromancer or death cult.",
-        "7-7": "A secluded monument binding wicked souls.",
-        "8-8": "The site of a disaster or mass death."
+        "1-1": "Une communauté frappée par des malédictions, des rancœurs, des épidémies ou des tragédies.",
+        "2-2": "Un Artefact maléfique ou un dispositif magique mortel.",
+        "3-3": "L'endroit où un vilain est mort ou est enterré.",
+        "4-4": "La tanière d'un Fiélon ou d'un Mort-vivant.",
+        "5-5": "Un portail vers les Plans Inférieurs, le Plan Négatif ou le Shadowfell.",
+        "6-6": "Le sanctuaire d'un nécromancien ou d'un culte de la mort.",
+        "7-7": "Un monument isolé liant des âmes maléfiques.",
+        "8-8": "Le site d'un désastre ou d'une mort de masse."
       }
     },
     "Spined Devil Intelligence": {
-      "name": "Spined Devil Intelligence",
-      "description": "<p>The Spined Devil Covets Information About …</p>",
+      "name": "Renseignements du Diable Épineux",
+      "description": "<p>Le Diable Épineux convoite des informations sur …</p>",
       "results": {
-        "1-1": "Artifacts, their locations, and their owners.",
-        "2-2": "Betrayals by infernal allies or other devils.",
-        "3-3": "Crimes or deceptions by influential leaders.",
-        "4-4": "Prophecies or secrets hidden by gods.",
-        "5-5": "The identities of incognito individuals.",
-        "6-6": "The movements of extraplanar armies."
+        "1-1": "Les Artefacts, leurs emplacements et leurs propriétaires.",
+        "2-2": "Les trahisons par des alliés infernaux ou d'autres diables.",
+        "3-3": "Les crimes ou tromperies par des dirigeants influents.",
+        "4-4": "Les prophéties ou secrets cachés par les dieux.",
+        "5-5": "Les identités d'individus incognito.",
+        "6-6": "Les mouvements d'armées extraplanaires."
       }
     },
     "Spirit Naga Grievances": {
-      "name": "Spirit Naga Grievances",
-      "description": "<p>The Spirit Naga Believes …</p>",
+      "name": "Griefs du Naga des Esprits",
+      "description": "<p>Le Naga des Esprits croit …</p>",
       "results": {
-        "1-1": "A character is to blame for its recent failures.",
-        "2-2": "It has been evicted from its rightful home.",
-        "3-3": "Locals have reneged on an age-old bargain.",
-        "4-4": "Other creatures are mocking it.",
-        "5-5": "A rival is spying on it.",
-        "6-6": "Someone’s treasure rightfully belongs to it."
+        "1-1": "Qu'un personnage est responsable de ses récents échecs.",
+        "2-2": "Qu'il a été expulsé de son foyer légitime.",
+        "3-3": "Que les locaux ont renié un marché ancestral.",
+        "4-4": "Que d'autres créatures se moquent de lui.",
+        "5-5": "Qu'un rival l'espionne.",
+        "6-6": "Que le trésor de quelqu'un lui appartient de droit."
       }
     },
     "Spy Personas": {
-      "name": "Spy Personas",
-      "description": "<p>The Spy Disguises Themself As …</p>",
+      "name": "Personnages de l'Espion",
+      "description": "<p>L'Espion se déguise en …</p>",
       "results": {
-        "1-1": "A bard or traveling performer.",
-        "2-2": "A captive or servant of a monster or villain.",
-        "3-3": "A dignitary or traveler from a distant land.",
-        "4-4": "A visitor from a different time or world."
+        "1-1": "Un barde ou un artiste itinérant.",
+        "2-2": "Un captif ou serviteur d'un monstre ou d'un vilain.",
+        "3-3": "Un dignitaire ou voyageur d'une terre lointaine.",
+        "4-4": "Un visiteur venant d'un autre temps ou monde."
       }
     },
     "Stirge Roosts": {
-      "name": "Stirge Roosts",
-      "description": "<p>Between Hunts, the Stirge Lurks In …</p>",
+      "name": "Perchoirs des Stirges",
+      "description": "<p>Entre les chasses, la Stirge se tapie dans …</p>",
       "results": {
-        "1-1": "The attic or furniture of a ruined building.",
-        "2-2": "A cave or narrow crevice.",
-        "3-3": "A hollow tree or thicket.",
-        "4-4": "The remains of a gigantic, dead creature."
+        "1-1": "Le grenier ou le mobilier d'un bâtiment en ruine.",
+        "2-2": "Une caverne ou une crevasse étroite.",
+        "3-3": "Un arbre creux ou un fourré.",
+        "4-4": "Les restes d'une créature géante et morte."
       }
     },
     "Stone Golem Orders": {
-      "name": "Stone Golem Orders",
-      "description": "<p>The Stone Golem Follows Orders To …</p>",
+      "name": "Ordres du Golem de Pierre",
+      "description": "<p>Le Golem de Pierre suit les ordres de …</p>",
       "results": {
-        "1-1": "Allow only those wearing ritual garb to pass.",
-        "2-2": "Cast Slow on and aid in apprehending anyone who touches a city’s prized relic.",
-        "3-3": "Destroy a dam or bridge at the command of one bearing a ruler’s medallion of office.",
-        "4-4": "Obey whoever places a missing crest in its chest, then deactivate for a year.",
-        "5-5": "Reveal a hidden passage to those who recite a leader’s final words.",
-        "6-6": "Watch for and do battle with the type of monster that slew the hero it resembles."
+        "1-1": "Ne laisser passer que ceux portant une tenue rituelle.",
+        "2-2": "Lancer Lenteur et aider à appréhender quiconque touche une relique précieuse d'une cité.",
+        "3-3": "Détruire un barrage ou un pont sur ordre de celui portant le médaillon de charge d'un dirigeant.",
+        "4-4": "Obéir à quiconque place une crête manquante dans sa poitrine, puis se désactiver pendant un an.",
+        "5-5": "Révéler un passage caché à ceux qui récitent les dernières paroles d'un chef.",
+        "6-6": "Surveiller et combattre le type de monstre qui a tué le héros qu'il ressemble."
       }
     },
     "Succubus Temptations": {
-      "name": "Succubus Temptations",
-      "description": "<p>The Succubus Manipulates Its Target By …</p>",
+      "name": "Tentations de la Succube",
+      "description": "<p>La Succube manipule sa cible en …</p>",
       "results": {
-        "1-1": "Adopting the form of a lost loved one.",
-        "2-2": "Charming someone close to its target.",
-        "3-3": "Isolating them from their loved ones.",
-        "4-4": "Manipulating events to bring surprise fortune.",
-        "5-5": "Posing as a flattering underling.",
-        "6-6": "Taking the form of one in need of protection."
+        "1-1": "Adoptant la forme d'un être cher perdu.",
+        "2-2": "Charmant quelqu'un de proche de sa cible.",
+        "3-3": "L'isolant de ses proches.",
+        "4-4": "Manipulant les événements pour apporter une fortune surprenante.",
+        "5-5": "Se faisant passer pour un serviteur flatteur.",
+        "6-6": "Prenant la forme d'une personne ayant besoin de protection."
       }
     },
     "Tarrasque Evidence": {
-      "name": "Tarrasque Evidence",
-      "description": "<p>Amid Destruction, the Tarrasque Leaves …</p>",
+      "name": "Preuves du Tarrasque",
+      "description": "<p>Au milieu de la destruction, le Tarrasque laisse …</p>",
       "results": {
-        "1-1": "Evidence of a magic spell reflected back on its caster, like Ice Knife or Melf’s Acid Arrow .",
-        "2-2": "Massive footprints or claw marks.",
-        "3-3": "A shattered mountain or diverted river.",
-        "4-4": "A russet scale the size of a knight’s shield."
+        "1-1": "Des preuves d'un sort magique renvoyé sur son lanceur, comme Lame de glace ou Flèche acide de Melf.",
+        "2-2": "D'énormes empreintes ou des marques de griffes.",
+        "3-3": "Une montagne brisée ou une rivière détournée.",
+        "4-4": "Une écaille rougeâtre de la taille du bouclier d'un chevalier."
       }
     },
     "Treant Secrets": {
-      "name": "Treant Secrets",
-      "description": "<p>The Treant Is …</p>",
+      "name": "Secrets du Treant",
+      "description": "<p>Le Treant est …</p>",
       "results": {
-        "1-1": "Blessed by a god and grows magic fruit.",
-        "2-2": "Growing atop the entrance to a dungeon or portal to the Feywild.",
-        "3-3": "Home to a community of pixies or sprites.",
-        "4-4": "The last lore keeper of lost druidic knowledge.",
-        "5-5": "Rooted on a hero’s burial mound and animates trees that look like questing knights.",
-        "6-6": "Scarred by a fire and holds the bones of the arsonist who started it in a hollow."
+        "1-1": "Béni par un dieu et produit des fruits magiques.",
+        "2-2": "En train de pousser au-dessus de l'entrée d'un donjon ou d'un portail vers le Royaumefé.",
+        "3-3": "Le foyer d'une communauté de pixies ou de sprites.",
+        "4-4": "Le dernier gardien du savoir druidique perdu.",
+        "5-5": "Enraciné sur le monticule funéraire d'un héros et anime des arbres qui ressemblent à des chevaliers en quête.",
+        "6-6": "Cicatrisé par un incendie et garde dans un creux les os de l'incendiaire qui l'a allumé."
       }
     },
     "Ultroloth Conspiracies": {
-      "name": "Ultroloth Conspiracies",
-      "description": "<p>The Ultroloth Schemes To …</p>",
+      "name": "Conspirations de l'Ultroloth",
+      "description": "<p>L'Ultroloth complote pour …</p>",
       "results": {
-        "1-1": "Convince cultists their god has forsaken them.",
-        "2-2": "Destabilize a nation and rule the chaos.",
-        "3-3": "Incite a calamity and hold a world hostage.",
-        "4-4": "Provoke hostilities between immortal armies and sell magic weapons to both sides.",
-        "5-5": "Steal an invention and slay all who know of it.",
-        "6-6": "Unleash fiendish hordes on a foe’s homeland."
+        "1-1": "Convaincre les cultistes que leur dieu les a abandonnés.",
+        "2-2": "Déstabiliser une nation et régner sur le chaos.",
+        "3-3": "Provoquer une calamité et tenir un monde en otage.",
+        "4-4": "Provoquer des hostilités entre des armées immortelles et vendre des armes magiques aux deux camps.",
+        "5-5": "Voler une invention et tuer tous ceux qui en ont connaissance.",
+        "6-6": "Déchaîner des hordes fiélonnes sur la patrie d'un ennemi."
       }
     },
     "Uncontrolled Invisible Stalkers": {
-      "name": "Uncontrolled Invisible Stalkers",
-      "description": "<p>The Invisible Stalker Is …</p>",
+      "name": "Traqueurs Invisibles Non Contrôlés",
+      "description": "<p>Le Traqueur Invisible est …</p>",
       "results": {
-        "1-1": "The breath of an infamous god or monster.",
-        "2-2": "A guardian of a hidden portal or magical site.",
-        "3-3": "The lingering violent thoughts of someone killed in a great battle.",
-        "4-4": "A manifestation of uncontrolled magic.",
-        "5-5": "A servant of an evil elemental ruler such as Yan-C-Bin (the Elemental Prince of Evil Air).",
-        "6-6": "Unable to complete its duty and tries to create circumstances allowing it to fulfill its task."
+        "1-1": "Le souffle d'un dieu ou d'un monstre infâme.",
+        "2-2": "Un gardien d'un portail caché ou d'un site magique.",
+        "3-3": "Les pensées violentes persistantes de quelqu'un tué dans une grande bataille.",
+        "4-4": "Une manifestation de magie incontrôlée.",
+        "5-5": "Un serviteur d'un maître élémentaire maléfique comme Yan-C-Bin (le Prince Élémentaire du Mal de l'Air).",
+        "6-6": "Incapable de remplir sa mission et essaie de créer des circonstances lui permettant d'accomplir sa tâche."
       }
     },
     "Vampire Resting Places": {
-      "name": "Vampire Resting Places",
-      "description": "<p>The Vampire’s Resting Place Is …</p>",
+      "name": "Lieux de Repos du Vampire",
+      "description": "<p>Le Lieu de Repos du Vampire est …</p>",
       "results": {
-        "1-1": "Among the roots of a dead tree.",
-        "2-2": "At the bottom of a stagnant pool.",
-        "3-3": "A coffin filled with grave dirt.",
-        "4-4": "A large pot full of blood or vinegar.",
-        "5-5": "A space accessible only by shape-shifting.",
-        "6-6": "Within a statue or suit of armor."
+        "1-1": "Parmi les racines d'un arbre mort.",
+        "2-2": "Au fond d'un bassin stagnant.",
+        "3-3": "Un cercueil rempli de terre de tombe.",
+        "4-4": "Un grand pot plein de sang ou de vinaigre.",
+        "5-5": "Un espace accessible uniquement en se métamorphosant.",
+        "6-6": "À l'intérieur d'une statue ou d'une armure."
       }
     },
     "Warrior Roles": {
-      "name": "Warrior Roles",
-      "description": "<p>The Warrior Is …</p>",
+      "name": "Rôles du Guerrier",
+      "description": "<p>Le Guerrier est …</p>",
       "results": {
-        "1-1": "A bodyguard who protects a noble.",
-        "2-2": "A cavalry officer with an unusual steed.",
-        "3-3": "A crusader who fights for a divine cause.",
-        "4-4": "A duelist who claims to be unbeatable.",
-        "5-5": "A gate guard who asks nonsensical questions.",
-        "6-6": "A grizzled veteran who trains new recruits.",
-        "7-7": "A hunter skilled at slaying specific monsters.",
-        "8-8": "A retired general who is weary of battle.",
-        "9-9": "A volunteer with a homemade weapon.",
-        "10-10": "A young mercenary trying to prove their skill."
+        "1-1": "Un garde du corps qui protège un noble.",
+        "2-2": "Un officier de cavalerie avec une monture inhabituelle.",
+        "3-3": "Un croisé qui combat pour une cause divine.",
+        "4-4": "Un duelliste qui prétend être imbattable.",
+        "5-5": "Un garde de porte qui pose des questions absurdes.",
+        "6-6": "Un vétéran endurci qui entraîne de nouvelles recrues.",
+        "7-7": "Un chasseur habile à tuer des monstres spécifiques.",
+        "8-8": "Un général à la retraite qui est las de la guerre.",
+        "9-9": "Un volontaire avec une arme faite maison.",
+        "10-10": "Un jeune mercenaire essayant de prouver son aptitude."
       }
     },
     "Water Elemental Compositions": {
-      "name": "Water Elemental Compositions",
-      "description": "<p>The Water Elemental’s Body Features …</p>",
+      "name": "Compositions de l'Élémentaire d'Eau",
+      "description": "<p>Le corps de l'Élémentaire d'Eau présente …</p>",
       "results": {
-        "1-1": "Chilling or near-boiling temperatures.",
-        "2-2": "Energetic effervescence.",
-        "3-3": "Muddy, polluted, or crystal-clear water.",
-        "4-4": "Seaweed, tiny fish, or other sea life."
+        "1-1": "Des températures glaciales ou quasi-bouillantes.",
+        "2-2": "Une effervescence énergique.",
+        "3-3": "De l'eau boueuse, polluée ou cristalline.",
+        "4-4": "Des algues, de petits poissons ou d'autres créatures marines."
       }
     },
     "Weretiger Wards": {
-      "name": "Weretiger Wards",
-      "description": "<p>The Weretiger Protects A …</p>",
+      "name": "Protections du Tigre-garou",
+      "description": "<p>Le Tigre-garou protège …</p>",
       "results": {
-        "1-1": "Legendary weapon or symbol of rulership.",
-        "2-2": "Proving ground for prophesied heroes.",
-        "3-3": "Rare species of magical plant or animal.",
-        "4-4": "Sacred fountain with magical waters."
+        "1-1": "Une arme légendaire ou un symbole de suzeraineté.",
+        "2-2": "Un terrain d'épreuve pour les héros prophétisés.",
+        "3-3": "Une espèce rare de plante ou d'animal magique.",
+        "4-4": "Une fontaine sacrée aux eaux magiques."
       }
     },
     "Wight Motives": {
-      "name": "Wight Motives",
-      "description": "<p>The Wight Returned from the Dead To …</p>",
+      "name": "Motivations du Wight",
+      "description": "<p>Le Wight est revenu des morts pour …</p>",
       "results": {
-        "1-1": "Challenge anyone who passes near its grave on a certain cursed night.",
-        "2-2": "Conquer the land it believes it should rule.",
-        "3-3": "Continue the crimes it was executed for.",
-        "4-4": "Follow the foul master it served in life.",
-        "5-5": "Honor an oath it left unfulfilled in life.",
-        "6-6": "Obey the cult or deity that gave it unlife.",
-        "7-7": "Prove it was the greatest warrior to ever live.",
-        "8-8": "Seek its stolen heart or other treasure."
+        "1-1": "Défier quiconque passe près de sa tombe lors d'une certaine nuit maudite.",
+        "2-2": "Conquérir les terres qu'il croit devoir gouverner.",
+        "3-3": "Continuer les crimes pour lesquels il a été exécuté.",
+        "4-4": "Suivre le maître immonde qu'il servait de son vivant.",
+        "5-5": "Honorer un serment qu'il n'a pas respecté de son vivant.",
+        "6-6": "Obéir au culte ou à la divinité qui lui a donné sa non-mort.",
+        "7-7": "Prouver qu'il était le plus grand guerrier à avoir jamais vécu.",
+        "8-8": "Rechercher son cœur volé ou un autre trésor."
       }
     },
-    "Will-o’-Wisp Ambushes": {
-      "name": "Will-o’-Wisp Ambushes",
-      "description": "<p>The Will-o’-Wisp Tempts Victims Into …</p>",
+    "Will-o'-Wisp Ambushes": {
+      "name": "Embuscades du Feu Follet",
+      "description": "<p>Le Feu Follet attire ses victimes dans …</p>",
       "results": {
-        "1-1": "An abandoned structure ready to collapse.",
-        "2-2": "An ambush by hungry ghouls or vampires.",
-        "3-3": "A dreaded ruin that curses those who enter.",
-        "4-4": "The lair of a predator, like a bear or wyvern.",
-        "5-5": "Patches of @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#brown-mold]{brown mold}* or @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#green-slime]{green slime.}*",
-        "6-6": "@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#quicksand-pit]{Quicksand}* or pools covered in @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#thin-ice]{thin ice.}*"
+        "1-1": "Une structure abandonnée prête à s'effondrer.",
+        "2-2": "Une embuscade de goules ou de vampires affamés.",
+        "3-3": "Une ruine redoutée qui maudit ceux qui y entrent.",
+        "4-4": "La tanière d'un prédateur, comme un ours ou un wyvern.",
+        "5-5": "Des zones de @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#brown-mold]{moisissure brune}* ou de @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#green-slime]{vase verte.}*",
+        "6-6": "@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#quicksand-pit]{Sables mouvants}* ou des bassins couverts de @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#thin-ice]{glace fine.}*"
       }
     },
     "Wraith Manifestations": {
-      "name": "Wraith Manifestations",
-      "description": "<p>The Wraith Embodies …</p>",
+      "name": "Manifestations du Wraith",
+      "description": "<p>Le Wraith incarne …</p>",
       "results": {
-        "1-1": "The blasphemous magic of a cursed location.",
-        "2-2": "The exorcised evil of a redeemed villain.",
-        "3-3": "A legendary villain who returns once a century.",
-        "4-4": "Locals’ fear of a superstition or legend.",
-        "5-5": "The memory of a tragedy.",
-        "6-6": "A profane idea or foul piece of lore.",
-        "7-7": "The torment of one or more suffering souls.",
-        "8-8": "The viciousness of a profane Artifact.",
-        "9-9": "The vile dreams of a slumbering god.",
-        "10-10": "The voracity of a life-hungry realm, such as the Shadowfell or Negative Plane."
+        "1-1": "La magie blasphématoire d'un lieu maudit.",
+        "2-2": "Le mal exorcisé d'un vilain racheté.",
+        "3-3": "Un vilain légendaire qui revient une fois par siècle.",
+        "4-4": "La peur des locaux face à une superstition ou une légende.",
+        "5-5": "Le souvenir d'une tragédie.",
+        "6-6": "Une idée profane ou un savoir impie.",
+        "7-7": "Le tourment d'une ou plusieurs âmes souffrantes.",
+        "8-8": "La méchanceté d'un Artefact profane.",
+        "9-9": "Les rêves vils d'un dieu en sommeil.",
+        "10-10": "La voracité d'un royaume avide de vie, comme le Shadowfell ou le Plan Négatif."
       }
     },
     "Xorn Delicacies": {
-      "name": "Xorn Delicacies",
-      "description": "<p>The Xorn Craves …</p>",
+      "name": "Délices du Xorn",
+      "description": "<p>Le Xorn convoite …</p>",
       "results": {
-        "1-1": "Adamantine or mithral.",
-        "2-2": "Coins minted by a long-dead empire.",
-        "3-3": "Fossils or petrified wood.",
-        "4-4": "A gem that’s part of a magic item.",
-        "5-5": "The keystone of a great arch or bridge.",
-        "6-6": "Parts of a galeb duhr or stone golem.",
-        "7-7": "A piece of a meteor or moon.",
-        "8-8": "The stone crowning a mountain peak."
+        "1-1": "De l'adamantium ou du mithral.",
+        "2-2": "Des pièces frappées par un empire depuis longtemps défunt.",
+        "3-3": "Des fossiles ou du bois pétrifié.",
+        "4-4": "Une gemme faisant partie d'un objet magique.",
+        "5-5": "La clé de voûte d'une grande arche ou d'un pont.",
+        "6-6": "Des parties d'un galeb duhr ou d'un golem de pierre.",
+        "7-7": "Un morceau d'un météore ou d'une lune.",
+        "8-8": "La pierre couronnant un sommet de montagne."
       }
     },
     "Yuan-ti Transformations": {
-      "name": "Yuan-ti Transformations",
-      "description": "<p>A Yuan-ti Gained Its Snake Features From …</p>",
+      "name": "Transformations des Yuan-tis",
+      "description": "<p>Un Yuan-ti a acquis ses traits de serpent à partir de …</p>",
       "results": {
-        "1-1": "Bargaining parts of its soul to a pantheon of serpentine demigods.",
-        "2-2": "A curse laid on its people in the distant past.",
-        "3-3": "The dream-venom of Merrshaulk, a slumbering snake god.",
-        "4-4": "Experiments by spirit nagas or other yuan-ti.",
-        "5-5": "A ritual involving the skin of a fiendish snake.",
-        "6-6": "Trials to excise its “weak” human parts."
+        "1-1": "Avoir négocié des parties de son âme auprès d'un panthéon de demi-dieux serpentins.",
+        "2-2": "Une malédiction imposée à son peuple dans un passé lointain.",
+        "3-3": "Le venin onirique de Merrshaulk, un dieu serpent en sommeil.",
+        "4-4": "Expériences menées par des nagas d'esprit ou d'autres yuan-tis.",
+        "5-5": "Un rituel impliquant la peau d'un serpent fiélon.",
+        "6-6": "Des épreuves pour exciser ses parties humaines « faibles »."
       }
     },
     "Yugoloth Incursions": {
-      "name": "Yugoloth Incursions",
-      "description": "<p>Yugoloth Mercenaries Seek To …</p>",
+      "name": "Incursions des Yugoloths",
+      "description": "<p>Les Mercenaires Yugoloths cherchent à …</p>",
       "results": {
-        "1-1": "Claim a portal with strategic importance.",
-        "2-2": "Enlist monsters as allies or beasts of war.",
-        "3-3": "Destroy a city harboring enemy cultists.",
-        "4-4": "Liberate an imprisoned fiendish ally."
+        "1-1": "Revendiquer un portail d'importance stratégique.",
+        "2-2": "Enrôler des monstres comme alliés ou bêtes de guerre.",
+        "3-3": "Détruire une ville abritant des cultistes ennemis.",
+        "4-4": "Libérer un allié fiélon emprisonné."
       }
     }
   }
