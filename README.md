@@ -1,1 +1,1 @@
-https://github.com/wirgeen/dnd5e-traduction-full/releases/download/1.1.2/module.json
+https://github.com/wirgeen/dnd5e-traduction-full/releases/download/1.1.4/module.json
